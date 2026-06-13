@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RailWatch Canada — Corridor Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+/* ── TOKENS ── */
+:root {
+  --bg:          #0d0f0e;
+  --surface:     #141716;
+  --surface2:    #1b1e1c;
+  --border:      #2a2e2b;
+  --border2:     #3a3e3b;
+  --text:        #e8ede9;
+  --muted:       #8a9189;
+  --accent:      #c8f04a;   /* rail-green — signal lamp colour */
+  --accent2:     #4ac8a0;   /* teal for secondary corridor */
+  --danger:      #f04a4a;
+  --warn:        #f0b84a;
+  --ok:          #4af09a;
+  --rail:        #c8f04a;
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-body:    'DM Sans', sans-serif;
+  --font-mono:    'DM Mono', monospace;
+  --r:           6px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ── LAYOUT ── */
+header {
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+}
+.logo {
+  font-family: var(--font-display);
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+.logo span { color: var(--muted); font-size: 14px; font-family: var(--font-body); letter-spacing: 0; margin-left: 10px; }
+.header-meta { font-size: 11px; color: var(--muted); font-family: var(--font-mono); text-align: right; line-height: 1.4; }
+
+.nav-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--border);
+  padding: 0 24px;
+  background: var(--surface);
+}
+.nav-tab {
+  padding: 10px 18px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: color .15s, border-color .15s;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: var(--font-body);
+}
+.nav-tab:hover { color: var(--text); }
+.nav-tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+main { padding: 24px; max-width: 1400px; margin: 0 auto; }
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ── GRID COMPONENTS ── */
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+.grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+@media (max-width: 900px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 16px 18px;
+}
+.card-title {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.card-value {
+  font-family: var(--font-display);
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  color: var(--text);
+  line-height: 1;
+}
+.card-sub {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 6px;
+  font-family: var(--font-mono);
+}
+
+.section-label {
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 28px 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* ── CORRIDOR BAR ── */
+.corridor-bar {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: border-color .15s;
+}
+.corridor-bar:hover { border-color: var(--border2); }
+.corridor-bar.active-corridor { border-color: var(--accent); }
+.corridor-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+.corridor-dot.secondary { background: var(--accent2); }
+.corridor-dot.tertiary  { background: var(--warn); }
+.corridor-name { font-weight: 500; font-size: 13px; flex: 1; }
+.corridor-route { font-size: 11px; color: var(--muted); font-family: var(--font-mono); }
+.corridor-badge {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-family: var(--font-mono);
+  background: rgba(200,240,74,0.12);
+  color: var(--accent);
+  border: 1px solid rgba(200,240,74,0.3);
+}
+
+/* ── MAP ── */
+#corridor-map {
+  height: 420px;
+  border-radius: var(--r);
+  border: 1px solid var(--border);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* ── TDG LOOKUP ── */
+.tdg-search-wrap {
+  position: relative;
+  margin-bottom: 16px;
+}
+.tdg-search {
+  width: 100%;
+  padding: 10px 14px 10px 38px;
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 14px;
+  outline: none;
+  transition: border-color .15s;
+}
+.tdg-search:focus { border-color: var(--accent); }
+.tdg-search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  font-size: 16px;
+  pointer-events: none;
+}
+.tdg-results { display: flex; flex-direction: column; gap: 8px; }
+.tdg-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 14px 16px;
+  display: grid;
+  grid-template-columns: 80px 1fr auto;
+  gap: 12px;
+  align-items: start;
+  cursor: pointer;
+  transition: border-color .15s;
+}
+.tdg-card:hover { border-color: var(--border2); }
+.tdg-un {
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--accent);
+  line-height: 1;
+}
+.tdg-name { font-size: 13px; font-weight: 500; margin-bottom: 3px; }
+.tdg-class-label { font-size: 11px; color: var(--muted); }
+.tdg-badges { display: flex; flex-direction: column; gap: 4px; align-items: flex-end; }
+.badge {
+  font-size: 10px;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-family: var(--font-mono);
+  white-space: nowrap;
+}
+.badge-class { background: rgba(74,200,160,0.12); color: var(--accent2); border: 1px solid rgba(74,200,160,0.25); }
+.badge-erap  { background: rgba(240,74,74,0.12);  color: var(--danger);  border: 1px solid rgba(240,74,74,0.25); }
+.badge-pg    { background: rgba(240,184,74,0.12); color: var(--warn);    border: 1px solid rgba(240,184,74,0.25); }
+.badge-ok    { background: rgba(74,240,154,0.1);  color: var(--ok);      border: 1px solid rgba(74,240,154,0.2); }
+.tdg-notes { font-size: 11px; color: var(--muted); margin-top: 4px; grid-column: 2 / 3; }
+
+/* ── INCIDENT TABLE ── */
+.incident-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.incident-table th {
+  text-align: left;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  font-family: var(--font-mono);
+}
+.incident-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.incident-table tr:last-child td { border-bottom: none; }
+.incident-table tr:hover td { background: var(--surface2); }
+.dg-yes { color: var(--danger); font-weight: 500; }
+.dg-no  { color: var(--muted); }
+
+/* ── OBS FEED ── */
+.obs-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  border-left: 3px solid var(--accent);
+}
+.obs-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px; }
+.obs-location { font-weight: 500; font-size: 13px; }
+.obs-date { font-size: 11px; color: var(--muted); font-family: var(--font-mono); }
+.obs-detail { font-size: 12px; color: var(--muted); margin-top: 4px; }
+.obs-un { font-family: var(--font-display); font-size: 20px; color: var(--accent); }
+
+/* ── OBS SUBMIT FORM ── */
+.obs-form {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.form-row  { display: flex; flex-direction: column; gap: 4px; }
+.form-row label { font-size: 11px; color: var(--muted); letter-spacing: 0.06em; font-weight: 500; }
+.form-row input, .form-row select, .form-row textarea {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 13px;
+  padding: 8px 10px;
+  outline: none;
+  transition: border-color .15s;
+}
+.form-row input:focus, .form-row select:focus, .form-row textarea:focus {
+  border-color: var(--accent);
+}
+.form-row textarea { resize: vertical; min-height: 70px; }
+.form-row select option { background: var(--surface2); }
+.form-span-2 { grid-column: 1 / 3; }
+.btn-submit {
+  background: var(--accent);
+  color: #0d0f0e;
+  border: none;
+  border-radius: var(--r);
+  padding: 10px 22px;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  transition: opacity .15s;
+  margin-top: 4px;
+}
+.btn-submit:hover { opacity: 0.88; }
+
+/* ── STATUS DOT ── */
+.status-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 5px; }
+.dot-ok      { background: var(--ok); }
+.dot-error   { background: var(--danger); }
+.dot-manual  { background: var(--warn); }
+
+/* ── EMPTY STATE ── */
+.empty { color: var(--muted); font-size: 13px; padding: 24px; text-align: center; }
+
+/* ── FOOTER ── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 16px 24px;
+  font-size: 11px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <span class="logo">RAILWATCH<span>CANADA</span></span>
+  </div>
+  <div class="header-meta">
+    <div id="last-updated">Loading…</div>
+    <div>Pilot: CN Dundas Subdivision</div>
+  </div>
+</header>
+
+<div class="nav-tabs">
+  <button class="nav-tab active" onclick="switchTab('overview')">Overview</button>
+  <button class="nav-tab" onclick="switchTab('tdg')">TDG Lookup</button>
+  <button class="nav-tab" onclick="switchTab('incidents')">Incidents</button>
+  <button class="nav-tab" onclick="switchTab('observations')">Community Feed</button>
+  <button class="nav-tab" onclick="switchTab('about')">About</button>
+</div>
+
+<main>
+
+<!-- ══ OVERVIEW ══════════════════════════════════════════════════════ -->
+<div id="tab-overview" class="tab-panel active">
+
+  <div class="section-label">Pilot corridors</div>
+
+  <div id="corridor-map"></div>
+
+  <div id="corridor-list"></div>
+
+  <div class="section-label">Key indicators</div>
+  <div class="grid-4" id="kpi-grid">
+    <div class="card"><div class="card-title">Dundas Sub incidents (all time)</div><div class="card-value" id="kpi-tsb-total">—</div><div class="card-sub">TSB 1983–present</div></div>
+    <div class="card"><div class="card-title">with dangerous goods</div><div class="card-value" id="kpi-tsb-dg" style="color:var(--danger)">—</div><div class="card-sub">Dundas Sub</div></div>
+    <div class="card"><div class="card-title">Community observations</div><div class="card-value" id="kpi-obs" style="color:var(--accent)">—</div><div class="card-sub">Submitted to RailWatch</div></div>
+    <div class="card"><div class="card-title">TDG substances tracked</div><div class="card-value" id="kpi-tdg">—</div><div class="card-sub">Schedule 1 lookup</div></div>
+  </div>
+
+  <div class="section-label">Recent community observations</div>
+  <div id="obs-preview"></div>
+
+</div>
+
+<!-- ══ TDG LOOKUP ═════════════════════════════════════════════════════ -->
+<div id="tab-tdg" class="tab-panel">
+
+  <div class="section-label">Dangerous goods lookup — Transport Canada Schedule 1</div>
+  <p style="font-size:13px; color:var(--muted); margin-bottom:16px;">
+    Search by UN number, substance name, or class. Placard class numbers correspond to
+    the TDG Regulations (SOR/2001-286). ERAP = Emergency Response Assistance Plan required.
+  </p>
+
+  <div class="tdg-search-wrap">
+    <span class="tdg-search-icon">⌕</span>
+    <input class="tdg-search" id="tdg-search" type="text"
+           placeholder="Search: UN 1791 · sodium hypochlorite · Class 8 · ammonia…"
+           oninput="renderTDG()">
+  </div>
+
+  <div id="tdg-results" class="tdg-results"></div>
+
+</div>
+
+<!-- ══ INCIDENTS ══════════════════════════════════════════════════════ -->
+<div id="tab-incidents" class="tab-panel">
+  <div class="section-label">TSB rail occurrences — CN Dundas Subdivision</div>
+  <p style="font-size:13px; color:var(--muted); margin-bottom:16px;">
+    Transportation Safety Board occurrence records 1983–present filtered to the Dundas Subdivision.
+    Dangerous goods indicator reflects whether placarded DG cars were involved.
+  </p>
+  <div style="overflow-x:auto;">
+    <table class="incident-table" id="incident-table">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Type</th>
+          <th>DG?</th>
+          <th>Fatalities</th>
+          <th>Injuries</th>
+          <th>Cars derailed</th>
+          <th>Note</th>
+        </tr>
+      </thead>
+      <tbody id="incident-tbody"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ══ COMMUNITY FEED ════════════════════════════════════════════════ -->
+<div id="tab-observations" class="tab-panel">
+  <div class="section-label">Submit an observation</div>
+
+  <div class="obs-form">
+    <p style="font-size:13px;color:var(--muted);margin-bottom:14px;">
+      Saw a placard you didn't recognize? Noticed unusual rail traffic? Submit here.
+      Observations are reviewed and added to the public feed. UN numbers are on the
+      orange placard panel below the hazard class diamond.
+    </p>
+    <div class="form-grid">
+      <div class="form-row">
+        <label>Date observed</label>
+        <input type="date" id="obs-date">
+      </div>
+      <div class="form-row">
+        <label>Time (approx)</label>
+        <input type="time" id="obs-time">
+      </div>
+      <div class="form-row">
+        <label>Location / crossing</label>
+        <input type="text" id="obs-location" placeholder="Eagle Ave, Brantford ON">
+      </div>
+      <div class="form-row">
+        <label>Corridor</label>
+        <select id="obs-corridor">
+          <option value="">Select…</option>
+          <option value="CN Dundas Sub">CN Dundas Sub</option>
+          <option value="CN Chatham Sub">CN Chatham Sub</option>
+          <option value="CPKC Windsor Sub">CPKC Windsor Sub</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label>Direction of travel</label>
+        <select id="obs-direction">
+          <option value="">Select…</option>
+          <option>East</option>
+          <option>West</option>
+          <option>North</option>
+          <option>South</option>
+          <option>Unknown</option>
+        </select>
+      </div>
+      <div class="form-row">
+        <label>Placard class (number on diamond)</label>
+        <input type="text" id="obs-class" placeholder="8">
+      </div>
+      <div class="form-row">
+        <label>UN number (if visible)</label>
+        <input type="text" id="obs-un" placeholder="1791">
+      </div>
+      <div class="form-row">
+        <label>Cars observed (approx)</label>
+        <input type="text" id="obs-cars" placeholder="4">
+      </div>
+      <div class="form-row form-span-2">
+        <label>Notes</label>
+        <textarea id="obs-notes" placeholder="Approximate time, train length, anything unusual…"></textarea>
+      </div>
+    </div>
+    <button class="btn-submit" onclick="submitObservation()">Submit observation →</button>
+    <div id="obs-submit-msg" style="font-size:12px;color:var(--muted);margin-top:8px;"></div>
+  </div>
+
+  <div class="section-label">Community observation feed</div>
+  <div id="obs-feed"></div>
+</div>
+
+<!-- ══ ABOUT ══════════════════════════════════════════════════════════ -->
+<div id="tab-about" class="tab-panel">
+  <div class="section-label">About RailWatch Canada</div>
+  <div class="card" style="max-width:700px; line-height:1.8;">
+    <p style="margin-bottom:14px;">
+      RailWatch Canada is a public infrastructure intelligence platform tracking dangerous goods
+      movement on Canada's freight rail network. It is a property of
+      <strong><a href="https://criticalto.ca" target="_blank" style="color:var(--accent);text-decoration:none;">Critical TO</a></strong>,
+      the Toronto infrastructure intelligence publication.
+    </p>
+    <p style="margin-bottom:14px;">
+      The platform exists because of a transparency gap: under Canada's Transportation of Dangerous
+      Goods Act, freight railroads are only required to notify provincial fusion centres of
+      dangerous goods routing — not the communities through which those trains pass. A resident
+      watching sodium hypochlorite cars roll through Brantford station at midnight has no
+      legitimate path to know where those cars are going, who shipped them, or why.
+    </p>
+    <p style="margin-bottom:14px;">
+      RailWatch does not claim to solve that gap. It documents it, contextualizes it, and
+      builds the community observation infrastructure that will become meaningful as
+      transparency improves.
+    </p>
+    <div class="section-label" style="margin-top:20px;">Data sources</div>
+    <ul style="font-size:13px;color:var(--muted);padding-left:18px;line-height:2;">
+      <li>Transportation Safety Board of Canada — Rail Occurrence Database (1983–present)</li>
+      <li>Transport Canada — TDG Schedule 1 Regulations (SOR/2001-286)</li>
+      <li>Transport Canada — Weekly Freight Rail Service &amp; Performance Data</li>
+      <li>OpenStreetMap — Corridor geometry (ODbL)</li>
+      <li>Statistics Canada — Annual Rail Transportation Data</li>
+      <li>Community observations (submitted via this platform)</li>
+    </ul>
+    <div class="section-label" style="margin-top:20px;">What we cannot show (yet)</div>
+    <p style="font-size:13px;color:var(--muted);">
+      Real-time car positions, cargo manifests, specific shipper/consignee information, and
+      bill of lading data are held by CN and CPKC under commercial confidentiality. Access
+      requires carrier partnership agreements. RailWatch is pursuing these through formal
+      channels and Access to Information requests to Transport Canada.
+    </p>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div>RailWatch Canada — a <a href="https://criticalto.ca">Critical TO</a> platform</div>
+  <div id="footer-status">Data: loading…</div>
+</footer>
+
+<script>
+// ── STATE ──────────────────────────────────────────────────────────────
+const DATA_URL = 'https://raw.githubusercontent.com/Sargjones/railwatch-data/gh-pages/railwatch_data_latest.json';
+const TDG_URL  = 'https://raw.githubusercontent.com/Sargjones/railwatch-data/gh-pages/railwatch_tdg.json';
+
+let state = { data: null, tdg: null, map: null, activeTab: 'overview' };
+
+const TDG_CLASS_COLORS = {
+  '1':  '#f04a4a', '1.1':'#f04a4a', '1.2':'#f04a4a', '1.3':'#f04a4a', '1.4':'#f04a4a',
+  '2.1':'#f0b84a', '2.2':'#8a9189', '2.3':'#f04a4a',
+  '3':  '#f0b84a',
+  '4.1':'#f0b84a', '4.2':'#f0b84a', '4.3':'#4af09a',
+  '5.1':'#f0b84a', '5.2':'#f04a4a',
+  '6.1':'#8a4af0', '6.2':'#8a4af0',
+  '7':  '#f0b84a',
+  '8':  '#4ac8a0',
+  '9':  '#8a9189',
+};
+
+// ── TAB SWITCHING ───────────────────────────────────────────────────────
+function switchTab(name) {
+  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  document.querySelectorAll('.nav-tab').forEach(t => {
+    if (t.textContent.toLowerCase().includes(name.replace('observations','community'))) {
+      t.classList.add('active');
+    }
+  });
+  state.activeTab = name;
+  if (name === 'overview' && state.map) {
+    setTimeout(() => state.map.invalidateSize(), 50);
+  }
+}
+
+// ── DATA LOAD ───────────────────────────────────────────────────────────
+async function loadAll() {
+  try {
+    const [dataRes, tdgRes] = await Promise.all([
+      fetch(DATA_URL).catch(() => null),
+      fetch(TDG_URL).catch(() => null),
+    ]);
+    if (dataRes && dataRes.ok) state.data = await dataRes.json();
+    if (tdgRes  && tdgRes.ok)  state.tdg  = await tdgRes.json();
+  } catch (e) {
+    console.warn('Remote data unavailable, using seed data');
+  }
+
+  // If no remote data, seed with static defaults for demo
+  if (!state.data) state.data = buildSeedData();
+  if (!state.tdg)  state.tdg  = buildSeedTDG();
+
+  render();
+}
+
+// ── RENDER ALL ──────────────────────────────────────────────────────────
+function render() {
+  renderHeader();
+  renderMap();
+  renderCorridors();
+  renderKPIs();
+  renderObsPreview();
+  renderTDG();
+  renderIncidents();
+  renderObsFeed();
+}
+
+function renderHeader() {
+  const meta = state.data?.meta;
+  if (!meta) return;
+  document.getElementById('last-updated').textContent =
+    'Updated: ' + (meta.generated_at || '').slice(0,16).replace('T',' ') + ' UTC';
+}
+
+// ── MAP ─────────────────────────────────────────────────────────────────
+function renderMap() {
+  if (state.map) { state.map.remove(); state.map = null; }
+  const map = L.map('corridor-map', {
+    center: [43.25, -80.4],
+    zoom: 8,
+    zoomControl: true,
+  });
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© OpenStreetMap · © CARTO',
+    maxZoom: 19,
+    subdomains: 'abcd',
+  }).addTo(map);
+
+  // Dundas Sub rough centerline (Brantford → Hamilton → Toronto)
+  const dundasPts = [
+    [43.1394,-80.2644], // Brantford
+    [43.1510,-80.1200],
+    [43.2200,-79.9500],
+    [43.2600,-79.8600], // Dundas
+    [43.2750,-79.8300], // Hamilton east
+    [43.3150,-79.7900],
+    [43.3200,-79.7100],
+    [43.3600,-79.6000],
+    [43.4700,-79.5200],
+    [43.6200,-79.4500], // Toronto area
+  ];
+
+  L.polyline(dundasPts, {
+    color: '#c8f04a',
+    weight: 3,
+    opacity: 0.85,
+  }).addTo(map).bindPopup('<b>CN Dundas Subdivision</b><br>Toronto–Windsor corridor');
+
+  // Brantford marker (origin of platform)
+  L.circleMarker([43.1394,-80.2644], {
+    radius: 8,
+    color: '#c8f04a',
+    fillColor: '#c8f04a',
+    fillOpacity: 0.9,
+    weight: 2,
+  }).addTo(map).bindPopup(
+    '<b>Brantford Station</b><br>CN Dundas Sub, Mile ~30<br>' +
+    '<span style="color:#f04a4a">⚠ Sodium hypochlorite (UN 1791) observed 2026-06-12</span>'
+  );
+
+  // Known TSB incident marker (1995 derailment)
+  L.circleMarker([43.1394,-80.2644], {
+    radius: 5,
+    color: '#f04a4a',
+    fillColor: '#f04a4a',
+    fillOpacity: 0.7,
+    weight: 1,
+  }).addTo(map).bindPopup(
+    '<b>TSB R95T0262</b><br>Derailment — 3 butane tank cars<br>' +
+    '9 homes evacuated · Brantford Yard · 1995'
+  );
+
+  state.map = map;
+}
+
+// ── CORRIDORS ────────────────────────────────────────────────────────────
+function renderCorridors() {
+  const corridors = [
+    { id:'dundas_sub', name:'CN Dundas Subdivision', route:'Toronto · Hamilton · Brantford · London · Windsor', badge:'PILOT', cls:'', active:true },
+    { id:'chatham_sub', name:'CN Chatham Subdivision', route:'Windsor · Chatham · Sarnia', badge:'PLANNED', cls:'secondary', active:false },
+    { id:'cpkc_windsor', name:'CPKC Windsor Subdivision', route:'Toronto · Kitchener · London · Windsor', badge:'PLANNED', cls:'tertiary', active:false },
+  ];
+  document.getElementById('corridor-list').innerHTML = corridors.map(c => `
+    <div class="corridor-bar ${c.active ? 'active-corridor' : ''}">
+      <div class="corridor-dot ${c.cls}"></div>
+      <div>
+        <div class="corridor-name">${c.name}</div>
+        <div class="corridor-route">${c.route}</div>
+      </div>
+      <div class="corridor-badge">${c.badge}</div>
+    </div>
+  `).join('');
+}
+
+// ── KPIs ─────────────────────────────────────────────────────────────────
+function renderKPIs() {
+  const indicators = state.data?.indicators || [];
+  const tsb = indicators.find(i => i.key === 'tsb_occurrences');
+  const obs = indicators.find(i => i.key === 'community_observations');
+
+  const tsbVal = tsb?.value;
+  setText('kpi-tsb-total', tsbVal?.dundas_sub_total ?? '—');
+  setText('kpi-tsb-dg',    tsbVal?.dundas_sub_with_dg ?? '—');
+  setText('kpi-obs',       obs?.value?.count ?? '—');
+  setText('kpi-tdg',       state.tdg?.record_count ?? '—');
+  setText('footer-status', `TSB: ${tsb?.status||'?'} · Obs: ${obs?.status||'?'} · TDG: ${state.tdg ? 'ok' : '—'}`);
+}
+
+// ── OBS PREVIEW ──────────────────────────────────────────────────────────
+function renderObsPreview() {
+  const obs = state.data?.indicators?.find(i => i.key === 'community_observations');
+  const list = obs?.value?.observations || [];
+  const el = document.getElementById('obs-preview');
+  if (!list.length) { el.innerHTML = '<div class="empty">No observations yet.</div>'; return; }
+  el.innerHTML = list.slice(0,3).map(o => obsCardHTML(o)).join('');
+}
+
+function obsCardHTML(o) {
+  const tdgRec = lookupTDG(o.un_number);
+  return `
+    <div class="obs-card">
+      <div class="obs-header">
+        <div class="obs-location">${o.location || '—'} · ${o.direction || ''}</div>
+        <div class="obs-date">${o.date || ''}</div>
+      </div>
+      <div style="display:flex;align-items:baseline;gap:10px;margin:4px 0;">
+        ${o.un_number ? `<div class="obs-un">UN ${o.un_number}</div>` : ''}
+        ${tdgRec ? `<div style="font-size:12px;font-weight:500;">${tdgRec.name}</div>` : ''}
+      </div>
+      <div class="obs-detail">
+        Class ${o.placard_class || '?'} · ${o.cars_observed || '?'} cars
+        ${o.subdivision ? ' · ' + o.subdivision : ''}
+      </div>
+      ${o.notes ? `<div class="obs-detail" style="margin-top:4px;font-style:italic;">${o.notes}</div>` : ''}
+    </div>`;
+}
+
+// ── TDG LOOKUP ────────────────────────────────────────────────────────────
+function lookupTDG(un) {
+  if (!un || !state.tdg) return null;
+  const clean = String(un).replace(/\D/g,'');
+  return state.tdg.records?.find(r => r.un === clean) || null;
+}
+
+function renderTDG() {
+  const records = state.tdg?.records || [];
+  const q = (document.getElementById('tdg-search')?.value || '').toLowerCase().trim();
+  const filtered = q
+    ? records.filter(r =>
+        r.un.includes(q) ||
+        r.name.toLowerCase().includes(q) ||
+        (r.class||'').toLowerCase().includes(q) ||
+        (r.class_label||'').toLowerCase().includes(q) ||
+        (r.notes||'').toLowerCase().includes(q)
+      ).slice(0, 30)
+    : records.slice(0, 20);
+
+  const el = document.getElementById('tdg-results');
+  if (!filtered.length) {
+    el.innerHTML = '<div class="empty">No matches found.</div>';
+    return;
+  }
+  el.innerHTML = filtered.map(r => {
+    const clr = TDG_CLASS_COLORS[r.class] || '#8a9189';
+    return `
+      <div class="tdg-card" onclick="openTDGDetail('${r.un}')">
+        <div>
+          <div class="tdg-un" style="color:${clr}">UN ${r.un}</div>
+        </div>
+        <div>
+          <div class="tdg-name">${r.name}</div>
+          <div class="tdg-class-label">${r.class_label || r.class}</div>
+          ${r.notes ? `<div class="tdg-notes">${r.notes}</div>` : ''}
+        </div>
+        <div class="tdg-badges">
+          <span class="badge badge-class">Class ${r.class}</span>
+          ${r.packing_group ? `<span class="badge badge-pg">PG ${r.packing_group}</span>` : ''}
+          ${r.erap_required ? `<span class="badge badge-erap">ERAP ⚠</span>` : `<span class="badge badge-ok">No ERAP</span>`}
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function openTDGDetail(un) {
+  const r = lookupTDG(un);
+  if (!r) return;
+  alert(`UN ${r.un} — ${r.name}\n\nClass: ${r.class} (${r.class_label})\nPacking group: ${r.packing_group || 'N/A'}\nERAP required: ${r.erap_required ? 'YES' : 'No'}\n\n${r.notes || ''}\n\nSource: ${r.source}`);
+}
+
+// ── INCIDENTS ─────────────────────────────────────────────────────────────
+function renderIncidents() {
+  const tsb = state.data?.indicators?.find(i => i.key === 'tsb_occurrences');
+  const records = tsb?.value?.dundas_sub_records || [];
+  const tbody = document.getElementById('incident-tbody');
+  if (!records.length) {
+    tbody.innerHTML = `<tr><td colspan="7" class="empty">No records loaded.</td></tr>`;
+    return;
+  }
+  tbody.innerHTML = records.map(r => `
+    <tr>
+      <td style="font-family:var(--font-mono)">${r.year}</td>
+      <td>${r.occurrence_type || '—'}</td>
+      <td class="${r.dangerous_goods ? 'dg-yes' : 'dg-no'}">${r.dangerous_goods ? 'YES' : 'No'}</td>
+      <td style="text-align:center">${r.fatalities ?? '—'}</td>
+      <td style="text-align:center">${r.injuries ?? '—'}</td>
+      <td style="text-align:center">${r.cars_derailed ?? '—'}</td>
+      <td style="font-size:11px;color:var(--muted)">${r.note || ''}</td>
+    </tr>`).join('');
+}
+
+// ── OBS FEED ──────────────────────────────────────────────────────────────
+function renderObsFeed() {
+  const obs = state.data?.indicators?.find(i => i.key === 'community_observations');
+  const list = obs?.value?.observations || [];
+  const el = document.getElementById('obs-feed');
+  if (!list.length) { el.innerHTML = '<div class="empty">No observations yet — be the first to submit one.</div>'; return; }
+  el.innerHTML = list.map(o => obsCardHTML(o)).join('');
+}
+
+// ── SUBMIT OBS ────────────────────────────────────────────────────────────
+function submitObservation() {
+  const fields = {
+    date:      document.getElementById('obs-date').value,
+    location:  document.getElementById('obs-location').value,
+    corridor:  document.getElementById('obs-corridor').value,
+    direction: document.getElementById('obs-direction').value,
+    cls:       document.getElementById('obs-class').value,
+    un:        document.getElementById('obs-un').value,
+    cars:      document.getElementById('obs-cars').value,
+    notes:     document.getElementById('obs-notes').value,
+  };
+  const body = [
+    `**Date:** ${fields.date}`,
+    `**Location:** ${fields.location}`,
+    `**Corridor:** ${fields.corridor}`,
+    `**Direction:** ${fields.direction}`,
+    `**Placard class:** ${fields.cls}`,
+    `**UN number:** ${fields.un}`,
+    `**Cars observed:** ${fields.cars}`,
+    `**Notes:** ${fields.notes}`,
+  ].join('\n');
+  const issueURL = `https://github.com/Sargjones/railwatch-observations/issues/new?title=Observation+${fields.date}+${encodeURIComponent(fields.location)}&body=${encodeURIComponent(body)}&labels=observation`;
+  window.open(issueURL, '_blank');
+  document.getElementById('obs-submit-msg').textContent =
+    'Opening GitHub — sign in to submit. Your observation will appear in the feed after review.';
+}
+
+// ── UTILS ─────────────────────────────────────────────────────────────────
+function setText(id, val) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = val;
+}
+
+// ── SEED DATA (used when GitHub data not yet available) ────────────────────
+function buildSeedData() {
+  return {
+    meta: {
+      platform: 'RailWatch Canada',
+      generated_at: new Date().toISOString(),
+      pilot_corridor: { name: 'CN Dundas Subdivision' },
+    },
+    indicators: [
+      {
+        key: 'tsb_occurrences',
+        status: 'ok',
+        value: {
+          total_records: 1,
+          dundas_sub_total: 1,
+          dundas_sub_with_dg: 1,
+          dundas_sub_records: [
+            { year:'1995', occurrence_type:'Derailment', dangerous_goods:true,
+              fatalities:0, injuries:0, cars_derailed:3,
+              note:'Brantford Yard — 3 butane tank cars; 9 homes evacuated (TSB R95T0262)' },
+          ],
+          fallback: true,
+        },
+        source: 'TSB (seed)',
+      },
+      {
+        key: 'community_observations',
+        status: 'ok',
+        value: {
+          count: 1,
+          observations: [
+            {
+              date: '2026-06-12',
+              location: 'Brantford, ON',
+              subdivision: 'CN Dundas Sub',
+              direction: 'East',
+              placard_class: '8',
+              un_number: '1791',
+              name: 'HYPOCHLORITE SOLUTION',
+              cars_observed: 'multiple',
+              notes: 'Observed eastbound through Brantford station approx 23:00. This observation is what started RailWatch.',
+              submitted_at: '2026-06-13T00:00:00Z',
+            }
+          ],
+        },
+        source: 'Seed',
+      },
+    ],
+  };
+}
+
+function buildSeedTDG() {
+  const records = [
+    {un:'1791',name:'HYPOCHLORITE SOLUTION',class:'8',class_label:'Corrosive',packing_group:'III',erap_required:false,notes:'Water treatment chemical (sodium hypochlorite); reacts with acids to release chlorine gas',source:'RailWatch seed'},
+    {un:'1075',name:'PETROLEUM GASES, LIQUEFIED',class:'2.1',class_label:'Flammable gas',packing_group:null,erap_required:false,notes:'Propane, butane — very common rail cargo; involved in 1995 Brantford derailment',source:'RailWatch seed'},
+    {un:'1267',name:'PETROLEUM CRUDE OIL',class:'3',class_label:'Flammable liquid',packing_group:'I',erap_required:true,notes:'High-volume rail cargo; Lac-Mégantic (2013) led to major regulatory reform',source:'RailWatch seed'},
+    {un:'1830',name:'SULPHURIC ACID',class:'8',class_label:'Corrosive',packing_group:'II',erap_required:true,notes:'Largest volume chemical shipped by rail in Canada; fertilizer and chemical manufacturing',source:'RailWatch seed'},
+    {un:'1005',name:'AMMONIA, ANHYDROUS',class:'2.3',class_label:'Toxic gas',packing_group:null,erap_required:true,notes:'Agricultural fertilizer; highly toxic — ERAP required',source:'RailWatch seed'},
+    {un:'1942',name:'AMMONIUM NITRATE',class:'5.1',class_label:'Oxidizer',packing_group:'III',erap_required:true,notes:'Fertilizer; detonation risk in fire — ERAP required',source:'RailWatch seed'},
+    {un:'1824',name:'SODIUM HYDROXIDE SOLUTION',class:'8',class_label:'Corrosive',packing_group:'II',erap_required:false,notes:'Caustic soda; paper, aluminium, and textile processing — very common',source:'RailWatch seed'},
+    {un:'1017',name:'CHLORINE',class:'2.3',class_label:'Toxic gas',packing_group:null,erap_required:true,notes:'Water treatment; extremely toxic — ERAP required',source:'RailWatch seed'},
+    {un:'1203',name:'GASOLINE',class:'3',class_label:'Flammable liquid',packing_group:'II',erap_required:false,notes:'Major rail commodity; petroleum distribution',source:'RailWatch seed'},
+    {un:'3082',name:'ENVIRONMENTALLY HAZARDOUS SUBSTANCE, LIQUID',class:'9',class_label:'Miscellaneous dangerous goods',packing_group:'III',erap_required:false,notes:'Catch-all for ecotoxic liquids',source:'RailWatch seed'},
+  ];
+  return { generated_at: new Date().toISOString(), record_count: records.length, class_labels:{}, records };
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────────
+window.addEventListener('load', loadAll);
+</script>
+</body>
+</html>

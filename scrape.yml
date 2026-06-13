@@ -1,0 +1,43 @@
+name: RailWatch — daily data scrape
+
+on:
+  schedule:
+    # Run at 06:00 UTC daily (02:00 EDT / 01:00 EST)
+    - cron: "0 6 * * *"
+  workflow_dispatch:  # allow manual trigger
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # needed to push JSON to gh-pages
+
+    steps:
+      - name: Checkout data branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Checkout scraper (main branch)
+        uses: actions/checkout@v4
+        with:
+          path: scraper-src
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run scraper
+        run: python scraper-src/railwatch_scraper.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name  "RailWatch Bot"
+          git config user.email "bot@criticalto.ca"
+          git add railwatch_data_latest.json railwatch_data_*.json railwatch_tdg.json
+          git diff --cached --quiet || git commit -m "data: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
