@@ -40,7 +40,7 @@ ENABLE_VISION     = os.environ.get("ENABLE_VISION", "false").lower() == "true"
 
 CHANNELS = [
     {
-        "id":          "",                          # ← PASTE channel ID here
+        "id":          "UCLZtQIlW2g6tOFh5EBkypdw",  # Trackside Ontario (confirmed)
         "name":        "Trackside Ontario",
         "handle":      "@TracksideOntario",         # for reference
         "focus":       ["Bayview Junction", "CN Dundas Sub", "CN Oakville Sub"],
@@ -64,12 +64,20 @@ CHANNELS = [
         "active":      True,
     },
     {
-        "id":          "",                          # ← Trackside Toronto (add ID)
+        "id":          "UCNWjMV2BGBJ468H6QW9Gnlw",                          # ← Trackside Toronto (add ID)
         "name":        "Trackside Toronto",
         "handle":      "@tracksidetoronto",
         "focus":       ["VIA Rail", "GO Transit", "CN", "Toronto"],
         "primary_location": "Toronto / Kingston Sub",
         "active":      False,  # enable once ID confirmed
+    },
+    {
+        "id":          "UCTqv9O8m0vdSlGIXSHUKQbQ",  # TracksideTO (confirmed)
+        "name":        "Trackside TO",
+        "handle":      "@TracksideTO",
+        "focus":        ["VIA Rail", "GO Transit", "CN", "Toronto"],
+        "primary_location": "Toronto / Kingston Sub",
+        "active":      False,
     },
 ]
 
