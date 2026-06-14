@@ -32,7 +32,7 @@ jobs:
         run: pip install requests
 
       - name: Run scraper
-        run: python scraper-src/railwatch_scraper.py
+        run: python scraper-src/scraper/railwatch_scraper.py
 
       - name: Commit and push data
         run: |
