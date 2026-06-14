@@ -753,16 +753,18 @@ function renderMap() {
     zoomControl: true,
   });
 
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter_lite_nolabels/{z}/{x}/{y}{r}.png', {
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
     attribution: '© OpenStreetMap · © CARTO',
     maxZoom: 19,
     subdomains: 'abcd',
   }).addTo(map);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', {
-    attribution: '',
-    maxZoom: 19,
-    subdomains: 'abcd',
-  }).addTo(map);
+
+  if (!document.getElementById('map-water-filter')) {
+    const s = document.createElement('style');
+    s.id = 'map-water-filter';
+    s.textContent = '#corridor-map .leaflet-tile-pane { filter: brightness(1.18) saturate(1.5); }';
+    document.head.appendChild(s);
+  }
 
   // ── CN DUNDAS SUB: Windsor → Toronto (full alignment)
   const dundasPts = [
@@ -791,13 +793,14 @@ function renderMap() {
   L.polyline(dundasPts, { color:'#c8f04a', weight:3, opacity:0.85 })
    .addTo(map).bindPopup('<b>CN Dundas Subdivision</b><br>Windsor · London · Hamilton · Toronto');
 
-  // ── CN CHATHAM SUB spur: Windsor → Sarnia
+  // ── CN CHATHAM SUB spur: Windsor → Sarnia (correct NE alignment, stays in Ontario)
   const sarniaPts = [
-    [42.3149,-83.0364], // Windsor (shared origin)
-    [42.4200,-82.7000],
-    [42.5500,-82.4000],
-    [42.7000,-82.1500],
-    [42.8800,-82.0500],
+    [42.3149,-83.0364], // Windsor
+    [42.4000,-82.7500], // Tilbury area
+    [42.4900,-82.5500], // Chatham
+    [42.6200,-82.4500],
+    [42.7500,-82.4000],
+    [42.8600,-82.4100],
     [42.9744,-82.4058], // Sarnia
   ];
   L.polyline(sarniaPts, { color:'#4ac8a0', weight:2.5, opacity:0.75, dashArray:'6 4' })
