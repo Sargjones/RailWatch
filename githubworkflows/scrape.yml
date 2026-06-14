@@ -2,18 +2,18 @@ name: RailWatch — daily data scrape
 
 on:
   schedule:
-    # Run at 06:00 UTC daily (02:00 EDT / 01:00 EST)
+    # 06:00 UTC daily (02:00 EDT) — after Monday morning Trackside Ontario uploads
     - cron: "0 6 * * *"
-  workflow_dispatch:  # allow manual trigger
+  workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # needed to push JSON to gh-pages
+      contents: write
 
     steps:
-      - name: Checkout data branch
+      - name: Checkout data branch (gh-pages)
         uses: actions/checkout@v4
         with:
           ref: gh-pages
@@ -31,13 +31,23 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Run scraper
+      - name: Run core scraper
         run: python scraper-src/scraper/railwatch_scraper.py
+
+      - name: Run YouTube scraper
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ENABLE_VISION: "false"   # set to "true" once channel IDs confirmed
+        run: python scraper-src/scraper/railwatch_youtube.py 7
 
       - name: Commit and push data
         run: |
           git config user.name  "RailWatch Bot"
           git config user.email "bot@criticalto.ca"
-          git add railwatch_data_latest.json railwatch_data_*.json railwatch_tdg.json
+          git add railwatch_data_latest.json \
+                  railwatch_data_*.json \
+                  railwatch_tdg.json \
+                  railwatch_youtube_latest.json
           git diff --cached --quiet || git commit -m "data: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
