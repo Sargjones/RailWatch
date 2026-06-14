@@ -748,8 +748,8 @@ function renderHeader() {
 function renderMap() {
   if (state.map) { state.map.remove(); state.map = null; }
   const map = L.map('corridor-map', {
-    center: [43.15, -80.5],
-    zoom: 7,
+    center: [44.5, -79.0],
+    zoom: 6,
     zoomControl: true,
   });
 
@@ -766,130 +766,283 @@ function renderMap() {
     document.head.appendChild(s);
   }
 
-  // ── CN DUNDAS SUB: Windsor → Toronto (full alignment)
+  // ── CORRIDOR DEFINITIONS ─────────────────────────────────────────────
+  // Each line hugs the actual rail alignment, not road network or straight lines
+
+  // CN DUNDAS SUB: Windsor → London → Hamilton → Toronto (PILOT)
+  // Follows north shore of Lake Erie then cuts NE to Hamilton
   const dundasPts = [
     [42.3149,-83.0364], // Windsor
-    [42.3500,-82.9200],
-    [42.5800,-82.1800],
-    [42.7500,-81.7200],
-    [42.9800,-81.2300], // St. Thomas
+    [42.3700,-82.9100],
+    [42.4700,-82.6200], // Tilbury
+    [42.5800,-82.3500], // Chatham (junction point)
+    [42.6500,-82.0800],
+    [42.7500,-81.8500],
+    [42.8500,-81.5800],
+    [42.9000,-81.4200],
+    [43.0000,-81.2700], // St. Thomas
     [43.0080,-80.9960], // London
-    [43.0600,-80.7800], // Ingersoll
+    [43.0400,-80.9000],
+    [43.0700,-80.8000],
     [43.0900,-80.6500], // Woodstock
-    [43.1200,-80.4500],
-    [43.1600,-80.2000],
-    [43.2000,-79.9800],
-    [43.2550,-79.8700], // Dundas
-    [43.2700,-79.8100], // Hamilton CN yard
+    [43.1100,-80.5500],
+    [43.1400,-80.4000],
+    [43.1700,-80.2500],
+    [43.2000,-80.0800],
+    [43.2200,-79.9800],
+    [43.2500,-79.9000],
+    [43.2600,-79.8700], // Dundas
+    [43.2700,-79.8300], // Hamilton West
+    [43.2750,-79.8000], // Hamilton CN Yard
     [43.2870,-79.7760], // Bayview Junction ★
-    [43.3100,-79.7500], // Stoney Creek
-    [43.3500,-79.6500], // Grimsby
-    [43.4200,-79.4200], // Oakville
-    [43.4500,-79.3900], // Clarkson
-    [43.5050,-79.3500], // Port Credit
-    [43.5800,-79.3000], // Mimico
-    [43.6400,-79.3800], // Toronto Union
   ];
-  L.polyline(dundasPts, { color:'#c8f04a', weight:3, opacity:0.85 })
-   .addTo(map).bindPopup('<b>CN Dundas Subdivision</b><br>Windsor · London · Hamilton · Toronto');
+  L.polyline(dundasPts, { color:'#c8f04a', weight:3, opacity:0.9 })
+   .addTo(map).bindPopup('<b>CN Dundas Subdivision</b><br>Windsor · London · Hamilton<br><span style="color:#c8f04a">PILOT corridor</span>');
 
-  // ── CN CHATHAM SUB spur: Windsor → Sarnia (correct NE alignment, stays in Ontario)
-  const sarniaPts = [
+  // CN OAKVILLE SUB: Bayview Junction → Toronto Union (along lakeshore)
+  // Follows the actual lakeshore alignment through Burlington, Oakville, Mississauga
+  const oakvillePts = [
+    [43.2870,-79.7760], // Bayview Junction
+    [43.3050,-79.7500], // Aldershot
+    [43.3200,-79.7200],
+    [43.3500,-79.6700], // Grimsby area
+    [43.3700,-79.6100],
+    [43.3900,-79.5600],
+    [43.4050,-79.5200], // Bronte
+    [43.4100,-79.4800],
+    [43.4200,-79.4300], // Oakville
+    [43.4500,-79.3900], // Clarkson
+    [43.4900,-79.3600],
+    [43.5200,-79.3500], // Port Credit
+    [43.5500,-79.3300],
+    [43.5900,-79.3100], // Mimico
+    [43.6300,-79.3600],
+    [43.6450,-79.3800], // Toronto Union
+  ];
+  L.polyline(oakvillePts, { color:'#c8f04a', weight:3, opacity:0.9 })
+   .addTo(map).bindPopup('<b>CN Oakville Subdivision</b><br>Bayview Junction · Burlington · Oakville · Toronto<br><span style="color:#c8f04a">PILOT corridor (Dundas Sub extension)</span>');
+
+  // CN CHATHAM SUB: Windsor → Sarnia (northeast along St. Clair River)
+  const chathamPts = [
     [42.3149,-83.0364], // Windsor
-    [42.4000,-82.7500], // Tilbury area
+    [42.3900,-82.8000],
     [42.4900,-82.5500], // Chatham
-    [42.6200,-82.4500],
-    [42.7500,-82.4000],
-    [42.8600,-82.4100],
+    [42.6000,-82.4500],
+    [42.7200,-82.4200],
+    [42.8500,-82.4100],
     [42.9744,-82.4058], // Sarnia
   ];
-  L.polyline(sarniaPts, { color:'#4ac8a0', weight:2.5, opacity:0.75, dashArray:'6 4' })
-   .addTo(map).bindPopup('<b>CN Chatham Subdivision</b><br>Windsor · Chatham · Sarnia<br><span style="color:#f0b84a">Planned corridor</span>');
+  L.polyline(chathamPts, { color:'#4ac8a0', weight:2.5, opacity:0.8, dashArray:'7 4' })
+   .addTo(map).bindPopup('<b>CN Chatham Subdivision</b><br>Windsor · Chatham · Sarnia<br>Chemical Valley gateway');
 
-  // ── KEY LOCATION MARKERS ──────────────────────────────────────────────
+  // CN HALTON SUB: Toronto (MacMillan Yard) → Burlington West
+  // GO Kitchener line corridor; connects to Dundas Sub at Burlington
+  const haltonPts = [
+    [43.6450,-79.3800], // Toronto Union / MacMillan Yard area
+    [43.6600,-79.4700],
+    [43.6800,-79.5600],
+    [43.6700,-79.6300], // Brampton
+    [43.6900,-79.7500],
+    [43.6500,-79.8500], // Georgetown
+    [43.5500,-79.9000],
+    [43.4200,-79.8700], // Burlington West
+    [43.3100,-79.8000], // Burlington / meets Bayview
+  ];
+  L.polyline(haltonPts, { color:'#f0b84a', weight:2, opacity:0.75, dashArray:'5 5' })
+   .addTo(map).bindPopup('<b>CN Halton Subdivision</b><br>Toronto · Brampton · Georgetown · Burlington<br>GO Kitchener / Via Sarnia corridor');
 
-  // Bayview Junction — TSB incident R08T0029 (2008 derailment, Dundas/Oakville Sub junction)
+  // CN KINGSTON SUB: Toronto → Kingston → Brockville → Montreal
+  // Hugs north shore of Lake Ontario then St. Lawrence
+  const kingstonPts = [
+    [43.6450,-79.3800], // Toronto Union
+    [43.6600,-79.3200],
+    [43.6800,-79.2600], // Scarborough
+    [43.8100,-79.0800], // Pickering
+    [43.8700,-78.8500], // Ajax
+    [43.9000,-78.7200], // Whitby
+    [43.9000,-78.6000], // Oshawa
+    [43.9300,-78.3500], // Bowmanville area
+    [43.9500,-78.1500],
+    [44.0500,-77.8700], // Port Hope
+    [44.0600,-77.6800], // Cobourg
+    [44.1200,-77.4000], // Trenton
+    [44.1600,-77.1200],
+    [44.2300,-76.8200], // Kingston
+    [44.3500,-76.5500], // Gananoque
+    [44.5800,-75.7000], // Brockville
+    [44.9000,-75.0700], // Prescott
+    [45.0000,-74.7500], // Cardinal
+    [45.3200,-74.1200], // Cornwall
+  ];
+  L.polyline(kingstonPts, { color:'#f0b84a', weight:2.5, opacity:0.8, dashArray:'5 5' })
+   .addTo(map).bindPopup('<b>CN Kingston Subdivision</b><br>Toronto · Oshawa · Kingston · Brockville · Montreal<br>Major freight + Via Rail corridor');
+
+  // CN SMITH FALLS SUB: Brockville → Ottawa (Via Rail Ottawa corridor splits here)
+  const ottawaPts = [
+    [44.5800,-75.7000], // Brockville (splits from Kingston Sub)
+    [44.7000,-75.5500],
+    [44.8500,-75.3500],
+    [44.9500,-75.1500],
+    [45.0800,-75.0000],
+    [45.2300,-75.0500],
+    [45.3500,-75.1500],
+    [45.4230,-75.6950], // Ottawa Union
+  ];
+  L.polyline(ottawaPts, { color:'#f0b84a', weight:2.5, opacity:0.8, dashArray:'5 5' })
+   .addTo(map).bindPopup('<b>CN Smiths Falls Subdivision</b><br>Brockville · Smiths Falls · Ottawa<br>Via Rail Toronto–Ottawa corridor');
+
+  // CN BALA SUB: Toronto → Barrie → Parry Sound → Sudbury
+  const balaPts = [
+    [43.6450,-79.3800], // Toronto Union
+    [43.7200,-79.4200],
+    [43.7800,-79.4500], // York area
+    [43.8500,-79.4800],
+    [43.9500,-79.4500], // Richmond Hill
+    [44.0800,-79.4400],
+    [44.3900,-79.6800], // Barrie
+    [44.7500,-79.8000],
+    [45.0500,-79.9000], // Parry Sound
+    [45.3500,-80.0400],
+    [45.8000,-80.4000],
+    [46.3500,-80.9500],
+    [46.4900,-80.9900], // Sudbury
+  ];
+  L.polyline(balaPts, { color:'#8a7af0', weight:2, opacity:0.7, dashArray:'5 5' })
+   .addTo(map).bindPopup('<b>CN Bala Subdivision</b><br>Toronto · Barrie · Parry Sound · Sudbury<br>Northern Ontario freight gateway');
+
+  // CPKC GALT SUB: Toronto → Guelph → Kitchener → London → Windsor
+  const galtPts = [
+    [43.6450,-79.3800], // Toronto Union
+    [43.6800,-79.5200],
+    [43.7300,-79.6700],
+    [43.5500,-80.1500], // Guelph
+    [43.4500,-80.4800], // Kitchener
+    [43.3600,-80.7000],
+    [43.2000,-81.0000],
+    [43.0080,-80.9960], // London (meets CN)
+    [42.8000,-81.5000],
+    [42.3149,-83.0364], // Windsor
+  ];
+  L.polyline(galtPts, { color:'#f04a9a', weight:2, opacity:0.7, dashArray:'4 6' })
+   .addTo(map).bindPopup('<b>CPKC Galt Subdivision</b><br>Toronto · Guelph · Kitchener · London · Windsor<br>Via Rail Kitchener/Sarnia corridor');
+
+  // ── KEY MARKERS ─────────────────────────────────────────────────────
+
+  // Toronto Union — hub of all corridors
+  L.circleMarker([43.6450,-79.3800], {
+    radius: 9, color:'#c8f04a', fillColor:'#c8f04a', fillOpacity:0.95, weight:2
+  }).addTo(map).bindPopup(
+    '<b>Toronto Union Station</b><br>Hub of CN Kingston, Oakville, Halton, Bala Subs<br>' +
+    'CPKC Galt Sub · GO Transit · Via Rail · RailWatch hub'
+  );
+
+  // Bayview Junction — most-watched rail junction in Canada
   L.circleMarker([43.2870,-79.7760], {
-    radius: 7, color:'#f04a4a', fillColor:'#f04a4a', fillOpacity:0.85, weight:2
+    radius: 7, color:'#f04a4a', fillColor:'#f04a4a', fillOpacity:0.9, weight:2
   }).addTo(map).bindPopup(
-    '<b>Bayview Junction</b><br>CN Dundas Sub Mile 0.6 / Oakville Sub junction<br>' +
-    '<span style="color:#f04a4a">⚠ TSB R08T0029 — 2008 derailment</span><br>' +
-    'Wheel failure at curve; cars came to rest near Mile 33 Oakville Sub.<br>' +
-    '<small>One of Canada\'s most-watched rail junctions</small>'
+    '<b>Bayview Junction, Hamilton</b><br>CN Dundas Sub Mile 0.6 meets CN Oakville Sub<br>' +
+    '<span style="color:#f04a4a">⚠ TSB R08T0029 — 2008 wheel failure derailment</span><br>' +
+    'One of the most-watched rail junctions in Canada'
   );
 
-  // Hamilton CN Yard — general activity marker
-  L.circleMarker([43.2700,-79.8100], {
-    radius: 5, color:'#c8f04a', fillColor:'#c8f04a', fillOpacity:0.5, weight:1.5
-  }).addTo(map).bindPopup(
-    '<b>Hamilton CN Yard</b><br>CN Dundas Sub<br>' +
-    'Major classification yard; tank car staging common'
-  );
-
-  // Aldershot / Burlington — community observation point (non-identifying)
-  L.circleMarker([43.3200,-79.8000], {
+  // Aldershot area — observation point (non-identifying)
+  L.circleMarker([43.3050,-79.7500], {
     radius: 8, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.9, weight:2
   }).addTo(map).bindPopup(
-    '<b>Aldershot area — CN Dundas Sub</b><br>' +
+    '<b>Aldershot area — CN Dundas/Oakville Sub</b><br>' +
     '<span style="color:#f04a4a">⚠ UN 1791 hypochlorite observed 2026-06-12 eastbound</span><br>' +
     '<span style="color:#f0b84a">● Mixed manifest consist observed 2026-06-14 eastbound</span><br>' +
-    '<small>PROX · AITX · TLPX · GTW heritage mark (cross-border indicator)</small>'
+    '<small>PROX · AITX · TLPX · GTW (cross-border indicator)</small>'
   );
 
   // Windsor — cross-border gateway
   L.circleMarker([42.3149,-83.0364], {
-    radius: 6, color:'#4ac8a0', fillColor:'#4ac8a0', fillOpacity:0.7, weight:1.5
+    radius: 6, color:'#4ac8a0', fillColor:'#4ac8a0', fillOpacity:0.8, weight:1.5
   }).addTo(map).bindPopup(
     '<b>Windsor — CN Gateway</b><br>' +
     'Cross-border interchange with CSX/NS via Detroit tunnel<br>' +
     'GTW heritage cars often originate here'
   );
 
-  // Sarnia — CN/CPKC Chemical Valley gateway
+  // Sarnia — Chemical Valley
   L.circleMarker([42.9744,-82.4058], {
-    radius: 6, color:'#4ac8a0', fillColor:'#4ac8a0', fillOpacity:0.7, weight:1.5
+    radius: 6, color:'#4ac8a0', fillColor:'#4ac8a0', fillOpacity:0.8, weight:1.5
   }).addTo(map).bindPopup(
     '<b>Sarnia — Chemical Valley Gateway</b><br>' +
     'Major source of industrial chemical tank car traffic<br>' +
-    'Connects to CN Chatham Sub and CPKC Sarnia Sub<br>' +
+    'CN Chatham Sub + CPKC Sarnia Sub<br>' +
     'Cross-border interchange with CSX via St. Clair Tunnel'
   );
 
-  // ── MAJOR CANADIAN INCIDENTS (reference markers, off-corridor) ─────────
+  // Kingston — major mid-corridor hub
+  L.circleMarker([44.2300,-76.4800], {
+    radius: 6, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.8, weight:1.5
+  }).addTo(map).bindPopup(
+    '<b>Kingston</b><br>' +
+    'CN Kingston Sub — largest station between Toronto and Ottawa<br>' +
+    'Major freight interchange point · Via Rail hub'
+  );
 
-  // Lac-Mégantic — deadliest freight rail disaster in Canadian history
+  // Ottawa
+  L.circleMarker([45.4230,-75.6950], {
+    radius: 6, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.8, weight:1.5
+  }).addTo(map).bindPopup(
+    '<b>Ottawa — Via Rail / CN terminus</b><br>' +
+    'CN Smiths Falls Sub · Ottawa-Brockville corridor<br>' +
+    'Federal capital: ATI requests on TDG routing filed here'
+  );
+
+  // Sudbury — Northern Ontario gateway
+  L.circleMarker([46.4900,-80.9900], {
+    radius: 6, color:'#8a7af0', fillColor:'#8a7af0', fillOpacity:0.8, weight:1.5
+  }).addTo(map).bindPopup(
+    '<b>Sudbury Junction</b><br>' +
+    'CN Bala Sub terminus · Northern Ontario gateway<br>' +
+    'Major nickel and mining commodity origin point'
+  );
+
+  // ── MAJOR INCIDENT MARKERS ───────────────────────────────────────────
+
+  // Lac-Mégantic
   L.circleMarker([45.5760,-70.8840], {
-    radius: 9, color:'#f04a4a', fillColor:'#f04a4a', fillOpacity:1.0, weight:2
+    radius: 10, color:'#f04a4a', fillColor:'#f04a4a', fillOpacity:1.0, weight:2
   }).addTo(map).bindPopup(
     '<b>Lac-Mégantic, QC</b><br>' +
     '<span style="color:#f04a4a">⚠ TSB R13D0054 — Deadliest freight rail disaster in Canadian history</span><br>' +
-    'July 6, 2013 · MMA Railway<br>' +
-    '72 tank cars (UN 1267 crude oil) · 6 million litres spilled<br>' +
-    '47 fatalities · 40 buildings destroyed · runaway train reached 104 km/h<br>' +
-    'Led to elimination of DOT-111 tank cars and mandatory 2-person crews'
+    'July 6, 2013 · MMA Railway · 47 fatalities<br>' +
+    '72 tank cars UN 1267 crude oil · 6 million litres spilled<br>' +
+    'Eliminated DOT-111 tank cars · mandatory 2-person crews'
   );
 
-  // St-Lazare, MB — largest crude oil release by volume (2019)
-  L.circleMarker([49.9800,-101.2700], {
-    radius: 7, color:'#f04a4a', fillColor:'#f04a4a', fillOpacity:0.85, weight:2
-  }).addTo(map).bindPopup(
-    '<b>St-Lazare, Manitoba</b><br>' +
-    '<span style="color:#f04a4a">⚠ TSB R19W0050 — Largest crude oil release by volume</span><br>' +
-    'February 16, 2019 · CN Rivers Subdivision<br>' +
-    '37 TC/DOT-117R tank cars derailed · 815,000 litres crude oil (UN 1267)<br>' +
-    '17 cars breached · failed rail joint · no fire, no injuries'
-  );
-
-  // Longueuil, QC — 2024 dangerous goods derailment
+  // Longueuil 2024
   L.circleMarker([45.5310,-73.5180], {
-    radius: 6, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.85, weight:2
+    radius: 6, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.9, weight:2
   }).addTo(map).bindPopup(
-    '<b>Longueuil, Quebec</b><br>' +
-    '<span style="color:#f0b84a">⚠ TSB R24D0080 — Dangerous goods derailment</span><br>' +
-    'November 14, 2024 · CN St-Hyacinthe Subdivision<br>' +
-    '8 cars derailed at Southwark Yard · DG release · safety perimeter established<br>' +
-    'TC remedial measures specialists deployed on-site'
+    '<b>Longueuil, QC — TSB R24D0080</b><br>' +
+    'November 2024 · CN St-Hyacinthe Sub<br>' +
+    '8 cars derailed · DG release · safety perimeter established'
   );
+
+  // ── MAP LEGEND ──────────────────────────────────────────────────────
+  const legend = L.control({ position: 'bottomleft' });
+  legend.onAdd = function() {
+    const d = L.DomUtil.create('div');
+    d.style.cssText = 'background:rgba(13,15,14,0.88);border:1px solid #2a2e2b;border-radius:6px;padding:10px 14px;font-family:DM Sans,sans-serif;font-size:11px;color:#8a9189;line-height:2;min-width:180px;';
+    d.innerHTML = `
+      <div style="color:#e8ede9;font-weight:600;margin-bottom:4px;letter-spacing:.08em;font-size:10px;text-transform:uppercase;">Corridors</div>
+      <div><span style="color:#c8f04a">━━</span> CN Dundas / Oakville Sub <span style="color:#c8f04a;font-size:9px">PILOT</span></div>
+      <div><span style="color:#4ac8a0">╌╌</span> CN Chatham Sub</div>
+      <div><span style="color:#f0b84a">╌╌</span> CN Kingston / Ottawa Sub</div>
+      <div><span style="color:#f0b84a">╌╌</span> CN Halton Sub</div>
+      <div><span style="color:#8a7af0">╌╌</span> CN Bala Sub (Northern ON)</div>
+      <div><span style="color:#f04a9a">╌╌</span> CPKC Galt Sub</div>
+      <div style="margin-top:6px;border-top:1px solid #2a2e2b;padding-top:6px;">
+        <span style="color:#f04a4a">●</span> TSB incident &nbsp;
+        <span style="color:#f0b84a">●</span> Observation
+      </div>`;
+    return d;
+  };
+  legend.addTo(map);
 
   state.map = map;
 }
@@ -897,9 +1050,13 @@ function renderMap() {
 // ── CORRIDORS ────────────────────────────────────────────────────────────
 function renderCorridors() {
   const corridors = [
-    { id:'dundas_sub', name:'CN Dundas Subdivision', route:'Windsor · London · Hamilton · Toronto', badge:'PILOT', cls:'', active:true },
-    { id:'chatham_sub', name:'CN Chatham Subdivision', route:'Windsor · Chatham · Sarnia', badge:'PLANNED', cls:'secondary', active:false },
-    { id:'cpkc_windsor', name:'CPKC Windsor Subdivision', route:'Toronto · Kitchener · London · Windsor', badge:'PLANNED', cls:'tertiary', active:false },
+    { id:'dundas_sub',   name:'CN Dundas / Oakville Sub',   route:'Windsor · London · Hamilton · Toronto (lakeshore)', badge:'PILOT',   cls:'',          active:true  },
+    { id:'chatham_sub',  name:'CN Chatham Subdivision',      route:'Windsor · Chatham · Sarnia — Chemical Valley',      badge:'PLANNED', cls:'secondary', active:false },
+    { id:'kingston_sub', name:'CN Kingston Subdivision',     route:'Toronto · Oshawa · Kingston · Brockville · Montreal',badge:'PLANNED', cls:'tertiary',  active:false },
+    { id:'ottawa_sub',   name:'CN Smiths Falls Subdivision', route:'Brockville · Smiths Falls · Ottawa',                badge:'PLANNED', cls:'tertiary',  active:false },
+    { id:'halton_sub',   name:'CN Halton Subdivision',       route:'Toronto · Brampton · Georgetown · Burlington',      badge:'PLANNED', cls:'tertiary',  active:false },
+    { id:'bala_sub',     name:'CN Bala Subdivision',         route:'Toronto · Barrie · Parry Sound · Sudbury',          badge:'PLANNED', cls:'secondary', active:false },
+    { id:'galt_sub',     name:'CPKC Galt Subdivision',       route:'Toronto · Guelph · Kitchener · London · Windsor',   badge:'PLANNED', cls:'tertiary',  active:false },
   ];
   document.getElementById('corridor-list').innerHTML = corridors.map(c => `
     <div class="corridor-bar ${c.active ? 'active-corridor' : ''}">
