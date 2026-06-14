@@ -453,10 +453,10 @@ footer a { color: var(--accent); text-decoration: none; }
 
   <div id="decoder-results" class="tdg-results"></div>
 
-  <div class="section-label" style="margin-top:28px;">June 14, 2026 — Brantford consist log</div>
+  <div class="section-label" style="margin-top:28px;">June 14, 2026 — Dundas Sub consist log</div>
   <p style="font-size:13px;color:var(--muted);margin-bottom:14px;">
-    Eastbound mixed manifest train observed ~11:30 AM at Brantford station. 
-    Two tank car blocks (AITX, PROX, TLPX) and mixed freight (CEFX, CBFX, GTW). 
+    Eastbound mixed manifest train observed ~11:30 AM on the CN Dundas Subdivision.
+    Two tank car blocks (AITX, PROX, TLPX) and mixed freight (CEFX, CBFX, GTW).
     GTW heritage mark suggests cross-border origin via Windsor/Sarnia from Michigan or Ohio.
   </p>
   <div style="overflow-x:auto;">
@@ -479,24 +479,28 @@ footer a { color: var(--accent); text-decoration: none; }
 <!-- ══ INCIDENTS ══════════════════════════════════════════════════════ -->
 <div id="tab-incidents" class="tab-panel">
   <div class="section-label">TSB rail occurrences — CN Dundas Subdivision</div>
-  <p style="font-size:13px; color:var(--muted); margin-bottom:16px;">
-    Transportation Safety Board occurrence records 1983–present filtered to the Dundas Subdivision.
-    Dangerous goods indicator reflects whether placarded DG cars were involved.
+  <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
+    Transportation Safety Board occurrence records filtered to the Dundas Subdivision pilot corridor.
   </p>
   <div style="overflow-x:auto;">
-    <table class="incident-table" id="incident-table">
+    <table class="incident-table">
       <thead>
-        <tr>
-          <th>Year</th>
-          <th>Type</th>
-          <th>DG?</th>
-          <th>Fatalities</th>
-          <th>Injuries</th>
-          <th>Cars derailed</th>
-          <th>Note</th>
-        </tr>
+        <tr><th>Year</th><th>Type</th><th>DG?</th><th>Fatalities</th><th>Injuries</th><th>Cars derailed</th><th>Note</th></tr>
       </thead>
       <tbody id="incident-tbody"></tbody>
+    </table>
+  </div>
+
+  <div class="section-label" style="margin-top:28px;">Notable Canadian rail incidents</div>
+  <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
+    Major incidents across Canada that shaped the regulations, tank car standards, and emergency response protocols now in effect on the Dundas Sub and every corridor RailWatch monitors.
+  </p>
+  <div style="overflow-x:auto;">
+    <table class="incident-table">
+      <thead>
+        <tr><th>Year</th><th>Location</th><th>Fatalities</th><th>Cars derailed</th><th>Note</th></tr>
+      </thead>
+      <tbody id="notable-tbody"></tbody>
     </table>
   </div>
 </div>
@@ -522,7 +526,7 @@ footer a { color: var(--accent); text-decoration: none; }
       </div>
       <div class="form-row">
         <label>Location / crossing</label>
-        <input type="text" id="obs-location" placeholder="Eagle Ave, Brantford ON">
+        <input type="text" id="obs-location" placeholder="e.g. Aldershot Station, CN Dundas Sub Mile 38">
       </div>
       <div class="form-row">
         <label>Corridor</label>
@@ -584,7 +588,7 @@ footer a { color: var(--accent); text-decoration: none; }
       The platform exists because of a transparency gap: under Canada's Transportation of Dangerous
       Goods Act, freight railroads are only required to notify provincial fusion centres of
       dangerous goods routing — not the communities through which those trains pass. A resident
-      watching sodium hypochlorite cars roll through Brantford station at midnight has no
+      A community observer watching sodium hypochlorite cars roll through a CN station at midnight has no
       legitimate path to know where those cars are going, who shipped them, or why.
     </p>
     <p style="margin-bottom:14px;">
@@ -744,11 +748,11 @@ function renderHeader() {
 function renderMap() {
   if (state.map) { state.map.remove(); state.map = null; }
   const map = L.map('corridor-map', {
-    center: [43.15, -80.8],
+    center: [43.15, -80.5],
     zoom: 7,
     zoomControl: true,
   });
-  // dark_matter_lite keeps land dark but renders water as medium grey — better contrast
+
   L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter_lite_nolabels/{z}/{x}/{y}{r}.png', {
     attribution: '© OpenStreetMap · © CARTO',
     maxZoom: 19,
@@ -760,59 +764,128 @@ function renderMap() {
     subdomains: 'abcd',
   }).addTo(map);
 
-  // CN Dundas Sub — actual alignment: Windsor→London→Woodstock→Brantford→Hamilton→Burlington→Toronto
+  // ── CN DUNDAS SUB: Windsor → Toronto (full alignment)
   const dundasPts = [
     [42.3149,-83.0364], // Windsor
     [42.3500,-82.9200],
-    [42.5800,-82.1800], // Chatham area
+    [42.5800,-82.1800],
     [42.7500,-81.7200],
-    [42.9800,-81.2300], // St. Thomas area
+    [42.9800,-81.2300], // St. Thomas
     [43.0080,-80.9960], // London
-    [43.0200,-80.9200],
     [43.0600,-80.7800], // Ingersoll
     [43.0900,-80.6500], // Woodstock
-    [43.1394,-80.2644], // Brantford ★
-    [43.1500,-80.1800],
+    [43.1200,-80.4500],
+    [43.1600,-80.2000],
     [43.2000,-79.9800],
     [43.2550,-79.8700], // Dundas
-    [43.2700,-79.8100], // Hamilton
+    [43.2700,-79.8100], // Hamilton CN yard
+    [43.2870,-79.7760], // Bayview Junction ★
     [43.3100,-79.7500], // Stoney Creek
     [43.3500,-79.6500], // Grimsby
     [43.4200,-79.4200], // Oakville
-    [43.4800,-79.3500], // Port Credit
-    [43.6200,-79.4800], // Toronto Union
+    [43.4500,-79.3900], // Clarkson
+    [43.5050,-79.3500], // Port Credit
+    [43.5800,-79.3000], // Mimico
+    [43.6400,-79.3800], // Toronto Union
   ];
+  L.polyline(dundasPts, { color:'#c8f04a', weight:3, opacity:0.85 })
+   .addTo(map).bindPopup('<b>CN Dundas Subdivision</b><br>Windsor · London · Hamilton · Toronto');
 
-  L.polyline(dundasPts, {
-    color: '#c8f04a',
-    weight: 3,
-    opacity: 0.85,
-  }).addTo(map).bindPopup('<b>CN Dundas Subdivision</b><br>Toronto–Windsor corridor');
+  // ── CN CHATHAM SUB spur: Windsor → Sarnia
+  const sarniaPts = [
+    [42.3149,-83.0364], // Windsor (shared origin)
+    [42.4200,-82.7000],
+    [42.5500,-82.4000],
+    [42.7000,-82.1500],
+    [42.8800,-82.0500],
+    [42.9744,-82.4058], // Sarnia
+  ];
+  L.polyline(sarniaPts, { color:'#4ac8a0', weight:2.5, opacity:0.75, dashArray:'6 4' })
+   .addTo(map).bindPopup('<b>CN Chatham Subdivision</b><br>Windsor · Chatham · Sarnia<br><span style="color:#f0b84a">Planned corridor</span>');
 
-  // Brantford marker (origin of platform)
-  L.circleMarker([43.1394,-80.2644], {
-    radius: 8,
-    color: '#c8f04a',
-    fillColor: '#c8f04a',
-    fillOpacity: 0.9,
-    weight: 2,
+  // ── KEY LOCATION MARKERS ──────────────────────────────────────────────
+
+  // Bayview Junction — TSB incident R08T0029 (2008 derailment, Dundas/Oakville Sub junction)
+  L.circleMarker([43.2870,-79.7760], {
+    radius: 7, color:'#f04a4a', fillColor:'#f04a4a', fillOpacity:0.85, weight:2
   }).addTo(map).bindPopup(
-    '<b>Brantford Station</b><br>CN Dundas Sub, Mile ~30<br>' +
-    '<span style="color:#f04a4a">⚠ UN 1791 hypochlorite observed 2026-06-12 eastbound</span><br>' +
-    '<span style="color:#f0b84a">● Mixed manifest consist observed 2026-06-14 eastbound</span><br>' +
-    '<small>PROX 16662 · AITX 38342/38212/38160/38193 · TLPX 35770 · GTW 187686 + others</small>'
+    '<b>Bayview Junction</b><br>CN Dundas Sub Mile 0.6 / Oakville Sub junction<br>' +
+    '<span style="color:#f04a4a">⚠ TSB R08T0029 — 2008 derailment</span><br>' +
+    'Wheel failure at curve; cars came to rest near Mile 33 Oakville Sub.<br>' +
+    '<small>One of Canada\'s most-watched rail junctions</small>'
   );
 
-  // TSB 1995 derailment marker
-  L.circleMarker([43.1394,-80.2644], {
-    radius: 5,
-    color: '#f04a4a',
-    fillColor: '#f04a4a',
-    fillOpacity: 0.7,
-    weight: 1,
+  // Hamilton CN Yard — general activity marker
+  L.circleMarker([43.2700,-79.8100], {
+    radius: 5, color:'#c8f04a', fillColor:'#c8f04a', fillOpacity:0.5, weight:1.5
   }).addTo(map).bindPopup(
-    '<b>TSB R95T0262</b><br>Derailment — 3 butane tank cars<br>' +
-    '9 homes evacuated · Brantford Yard · 1995'
+    '<b>Hamilton CN Yard</b><br>CN Dundas Sub<br>' +
+    'Major classification yard; tank car staging common'
+  );
+
+  // Aldershot / Burlington — community observation point (non-identifying)
+  L.circleMarker([43.3200,-79.8000], {
+    radius: 8, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.9, weight:2
+  }).addTo(map).bindPopup(
+    '<b>Aldershot area — CN Dundas Sub</b><br>' +
+    '<span style="color:#f04a4a">⚠ UN 1791 hypochlorite observed 2026-06-12 eastbound</span><br>' +
+    '<span style="color:#f0b84a">● Mixed manifest consist observed 2026-06-14 eastbound</span><br>' +
+    '<small>PROX · AITX · TLPX · GTW heritage mark (cross-border indicator)</small>'
+  );
+
+  // Windsor — cross-border gateway
+  L.circleMarker([42.3149,-83.0364], {
+    radius: 6, color:'#4ac8a0', fillColor:'#4ac8a0', fillOpacity:0.7, weight:1.5
+  }).addTo(map).bindPopup(
+    '<b>Windsor — CN Gateway</b><br>' +
+    'Cross-border interchange with CSX/NS via Detroit tunnel<br>' +
+    'GTW heritage cars often originate here'
+  );
+
+  // Sarnia — CN/CPKC Chemical Valley gateway
+  L.circleMarker([42.9744,-82.4058], {
+    radius: 6, color:'#4ac8a0', fillColor:'#4ac8a0', fillOpacity:0.7, weight:1.5
+  }).addTo(map).bindPopup(
+    '<b>Sarnia — Chemical Valley Gateway</b><br>' +
+    'Major source of industrial chemical tank car traffic<br>' +
+    'Connects to CN Chatham Sub and CPKC Sarnia Sub<br>' +
+    'Cross-border interchange with CSX via St. Clair Tunnel'
+  );
+
+  // ── MAJOR CANADIAN INCIDENTS (reference markers, off-corridor) ─────────
+
+  // Lac-Mégantic — deadliest freight rail disaster in Canadian history
+  L.circleMarker([45.5760,-70.8840], {
+    radius: 9, color:'#f04a4a', fillColor:'#f04a4a', fillOpacity:1.0, weight:2
+  }).addTo(map).bindPopup(
+    '<b>Lac-Mégantic, QC</b><br>' +
+    '<span style="color:#f04a4a">⚠ TSB R13D0054 — Deadliest freight rail disaster in Canadian history</span><br>' +
+    'July 6, 2013 · MMA Railway<br>' +
+    '72 tank cars (UN 1267 crude oil) · 6 million litres spilled<br>' +
+    '47 fatalities · 40 buildings destroyed · runaway train reached 104 km/h<br>' +
+    'Led to elimination of DOT-111 tank cars and mandatory 2-person crews'
+  );
+
+  // St-Lazare, MB — largest crude oil release by volume (2019)
+  L.circleMarker([49.9800,-101.2700], {
+    radius: 7, color:'#f04a4a', fillColor:'#f04a4a', fillOpacity:0.85, weight:2
+  }).addTo(map).bindPopup(
+    '<b>St-Lazare, Manitoba</b><br>' +
+    '<span style="color:#f04a4a">⚠ TSB R19W0050 — Largest crude oil release by volume</span><br>' +
+    'February 16, 2019 · CN Rivers Subdivision<br>' +
+    '37 TC/DOT-117R tank cars derailed · 815,000 litres crude oil (UN 1267)<br>' +
+    '17 cars breached · failed rail joint · no fire, no injuries'
+  );
+
+  // Longueuil, QC — 2024 dangerous goods derailment
+  L.circleMarker([45.5310,-73.5180], {
+    radius: 6, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.85, weight:2
+  }).addTo(map).bindPopup(
+    '<b>Longueuil, Quebec</b><br>' +
+    '<span style="color:#f0b84a">⚠ TSB R24D0080 — Dangerous goods derailment</span><br>' +
+    'November 14, 2024 · CN St-Hyacinthe Subdivision<br>' +
+    '8 cars derailed at Southwark Yard · DG release · safety perimeter established<br>' +
+    'TC remedial measures specialists deployed on-site'
   );
 
   state.map = map;
@@ -821,7 +894,7 @@ function renderMap() {
 // ── CORRIDORS ────────────────────────────────────────────────────────────
 function renderCorridors() {
   const corridors = [
-    { id:'dundas_sub', name:'CN Dundas Subdivision', route:'Toronto · Hamilton · Brantford · London · Windsor', badge:'PILOT', cls:'', active:true },
+    { id:'dundas_sub', name:'CN Dundas Subdivision', route:'Windsor · London · Hamilton · Toronto', badge:'PILOT', cls:'', active:true },
     { id:'chatham_sub', name:'CN Chatham Subdivision', route:'Windsor · Chatham · Sarnia', badge:'PLANNED', cls:'secondary', active:false },
     { id:'cpkc_windsor', name:'CPKC Windsor Subdivision', route:'Toronto · Kitchener · London · Windsor', badge:'PLANNED', cls:'tertiary', active:false },
   ];
@@ -939,15 +1012,33 @@ function renderIncidents() {
   const tbody = document.getElementById('incident-tbody');
   if (!records.length) {
     tbody.innerHTML = `<tr><td colspan="7" class="empty">No records loaded.</td></tr>`;
+  } else {
+    tbody.innerHTML = records.map(r => `
+      <tr>
+        <td style="font-family:var(--font-mono)">${r.year}</td>
+        <td>${r.occurrence_type || '—'}</td>
+        <td class="${r.dangerous_goods ? 'dg-yes' : 'dg-no'}">${r.dangerous_goods ? 'YES' : 'No'}</td>
+        <td style="text-align:center">${r.fatalities ?? '—'}</td>
+        <td style="text-align:center">${r.injuries ?? '—'}</td>
+        <td style="text-align:center">${r.cars_derailed ?? '—'}</td>
+        <td style="font-size:11px;color:var(--muted)">${r.note || ''}</td>
+      </tr>`).join('');
+  }
+
+  const notable = tsb?.value?.notable_canadian_incidents || [];
+  const ntbody = document.getElementById('notable-tbody');
+  if (!ntbody) return;
+  if (!notable.length) {
+    ntbody.innerHTML = `<tr><td colspan="5" class="empty">No records loaded.</td></tr>`;
     return;
   }
-  tbody.innerHTML = records.map(r => `
+  ntbody.innerHTML = notable.map(r => `
     <tr>
       <td style="font-family:var(--font-mono)">${r.year}</td>
-      <td>${r.occurrence_type || '—'}</td>
-      <td class="${r.dangerous_goods ? 'dg-yes' : 'dg-no'}">${r.dangerous_goods ? 'YES' : 'No'}</td>
-      <td style="text-align:center">${r.fatalities ?? '—'}</td>
-      <td style="text-align:center">${r.injuries ?? '—'}</td>
+      <td><span style="font-weight:500">${r.location}</span><br><span style="font-size:11px;color:var(--muted)">${r.subdivision}</span></td>
+      <td style="text-align:center;color:${r.fatalities > 0 ? 'var(--danger)' : 'var(--muted)'}">
+        ${r.fatalities > 0 ? `<strong>${r.fatalities}</strong>` : '0'}
+      </td>
       <td style="text-align:center">${r.cars_derailed ?? '—'}</td>
       <td style="font-size:11px;color:var(--muted)">${r.note || ''}</td>
     </tr>`).join('');
@@ -1055,13 +1146,27 @@ function buildSeedData() {
         key: 'tsb_occurrences',
         status: 'ok',
         value: {
-          total_records: 1,
-          dundas_sub_total: 1,
+          total_records: 3,
+          dundas_sub_total: 2,
           dundas_sub_with_dg: 1,
           dundas_sub_records: [
+            { year:'2008', occurrence_type:'Derailment', dangerous_goods:false,
+              fatalities:0, injuries:0, cars_derailed:0,
+              note:'TSB R08T0029 — Bayview Junction, Mile 0.6 Dundas Sub. Wheel failure at curve where Dundas and Oakville Subs join. No DG release.' },
             { year:'1995', occurrence_type:'Derailment', dangerous_goods:true,
               fatalities:0, injuries:0, cars_derailed:3,
-              note:'Brantford Yard — 3 butane tank cars; 9 homes evacuated (TSB R95T0262)' },
+              note:'TSB R95T0262 — CN Dundas Sub. 3 butane tank cars (UN 1075) derailed. Precautionary evacuations in adjacent residential area.' },
+          ],
+          notable_canadian_incidents: [
+            { year:'2013', location:'Lac-Mégantic, QC', subdivision:'Sherbrooke Sub (MMA)',
+              dangerous_goods:true, fatalities:47, cars_derailed:63,
+              note:'TSB R13D0054 — Deadliest freight rail disaster in Canadian history. 72 tank cars UN 1267 crude oil; 6 million litres spilled; 47 killed; runaway train reached 104 km/h. Eliminated DOT-111 tank cars; mandatory 2-person crews.' },
+            { year:'2019', location:'St-Lazare, MB', subdivision:'CN Rivers Sub',
+              dangerous_goods:true, fatalities:0, cars_derailed:37,
+              note:'TSB R19W0050 — Largest crude oil release by volume. 37 TC/DOT-117R tank cars derailed; 815,000 litres UN 1267 crude oil released from 17 breached cars. Failed rail joint.' },
+            { year:'2024', location:'Longueuil, QC', subdivision:'CN St-Hyacinthe Sub',
+              dangerous_goods:true, fatalities:0, cars_derailed:8,
+              note:'TSB R24D0080 — 8 cars derailed at Southwark Yard. DG release; safety perimeter; TC remedial measures specialists deployed.' },
           ],
           fallback: true,
         },
@@ -1075,7 +1180,7 @@ function buildSeedData() {
           observations: [
             {
               date: '2026-06-14',
-              location: 'Brantford, ON',
+              location: 'CN Dundas Sub — Hamilton corridor',
               subdivision: 'CN Dundas Sub',
               direction: 'East',
               placard_class: 'mixed',
@@ -1087,14 +1192,14 @@ function buildSeedData() {
             },
             {
               date: '2026-06-12',
-              location: 'Brantford, ON',
+              location: 'CN Dundas Sub — Hamilton corridor',
               subdivision: 'CN Dundas Sub',
               direction: 'East',
               placard_class: '8',
               un_number: '1791',
               name: 'HYPOCHLORITE SOLUTION',
               cars_observed: 'multiple',
-              notes: 'Eastbound through Brantford station approx 23:00. Black cylinder tank cars. This observation is what started RailWatch.',
+              notes: 'Eastbound through CN Dundas Sub approx 23:00. Black cylinder tank cars. This observation is what started RailWatch.',
               submitted_at: '2026-06-13T00:00:00Z',
             }
           ],
@@ -1108,7 +1213,7 @@ function buildSeedData() {
 function buildSeedTDG() {
   const records = [
     {un:'1791',name:'HYPOCHLORITE SOLUTION',class:'8',class_label:'Corrosive',packing_group:'III',erap_required:false,notes:'Water treatment chemical (sodium hypochlorite); reacts with acids to release chlorine gas',source:'RailWatch seed'},
-    {un:'1075',name:'PETROLEUM GASES, LIQUEFIED',class:'2.1',class_label:'Flammable gas',packing_group:null,erap_required:false,notes:'Propane, butane — very common rail cargo; involved in 1995 Brantford derailment',source:'RailWatch seed'},
+    {un:'1075',name:'PETROLEUM GASES, LIQUEFIED',class:'2.1',class_label:'Flammable gas',packing_group:null,erap_required:false,notes:'Propane, butane — very common rail cargo; involved in multiple CN Dundas Sub incidents',source:'RailWatch seed'},
     {un:'1267',name:'PETROLEUM CRUDE OIL',class:'3',class_label:'Flammable liquid',packing_group:'I',erap_required:true,notes:'High-volume rail cargo; Lac-Mégantic (2013) led to major regulatory reform',source:'RailWatch seed'},
     {un:'1830',name:'SULPHURIC ACID',class:'8',class_label:'Corrosive',packing_group:'II',erap_required:true,notes:'Largest volume chemical shipped by rail in Canada; fertilizer and chemical manufacturing',source:'RailWatch seed'},
     {un:'1005',name:'AMMONIA, ANHYDROUS',class:'2.3',class_label:'Toxic gas',packing_group:null,erap_required:true,notes:'Agricultural fertilizer; highly toxic — ERAP required',source:'RailWatch seed'},
