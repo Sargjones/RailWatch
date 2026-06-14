@@ -40,7 +40,7 @@ ENABLE_VISION     = os.environ.get("ENABLE_VISION", "false").lower() == "true"
 
 CHANNELS = [
     {
-        "id":          "UCLZtQIlW2g6tOFh5EBkypdw",  # Trackside Ontario (confirmed)
+        "id":          "UCLZtQIlW2g6tOFh5EBkypdw",  # Trackside Ontario (verified 2026-06-14)
         "name":        "Trackside Ontario",
         "handle":      "@TracksideOntario",         # for reference
         "focus":       ["Bayview Junction", "CN Dundas Sub", "CN Oakville Sub"],
@@ -48,7 +48,7 @@ CHANNELS = [
         "active":      True,
     },
     {
-        "id":          "UCyLxbrzjqNTMNL68la32UzQ",  # Trackside Tyson (confirmed)
+        "id":          "UC_uOfTPvNmHJdUNKeaoZ-aA",  # Trackside Tyson (verified 2026-06-14)
         "name":        "Trackside Tyson",
         "handle":      "@tracksidetyson",
         "focus":       ["CN", "CPKC", "Ontario", "cross-Canada"],
@@ -64,20 +64,28 @@ CHANNELS = [
         "active":      True,
     },
     {
-        "id":          "UCNWjMV2BGBJ468H6QW9Gnlw",                          # ← Trackside Toronto (add ID)
+        "id":          "UCTqv9O8m0vdSlGIXSHUKQbQ",  # Trackside Toronto (verified 2026-06-14)
         "name":        "Trackside Toronto",
         "handle":      "@tracksidetoronto",
         "focus":       ["VIA Rail", "GO Transit", "CN", "Toronto"],
         "primary_location": "Toronto / Kingston Sub",
-        "active":      False,  # enable once ID confirmed
+        "active":      False,  # keeping inactive per original intent
     },
     {
-        "id":          "UCTqv9O8m0vdSlGIXSHUKQbQ",  # TracksideTO (confirmed)
-        "name":        "Trackside TO",
-        "handle":      "@TracksideTO",
-        "focus":        ["VIA Rail", "GO Transit", "CN", "Toronto"],
-        "primary_location": "Toronto / Kingston Sub",
-        "active":      False,
+        "id":          "UCJzmiVZMfXiOm8dKP_Ntj7w",  # Trackside Tristan (verified 2026-06-14)
+        "name":        "Trackside Tristan",
+        "handle":      "@TracksideTristan",
+        "focus":       ["CN", "CPKC", "Ontario freight"],
+        "primary_location": "Ontario, Canada",
+        "active":      True,
+    },
+    {
+        "id":          "UCWK8y_tzwbtVknVsPSKremw",  # Track Side Mike (verified 2026-06-14)
+        "name":        "Track Side Mike",
+        "handle":      "@TrackSideMike",
+        "focus":       ["CN", "CPKC", "Ontario freight"],
+        "primary_location": "Ontario, Canada",
+        "active":      True,
     },
 ]
 
