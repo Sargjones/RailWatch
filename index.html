@@ -747,10 +747,11 @@ function switchTab(name) {
 
 // ── DATA LOAD ───────────────────────────────────────────────────────────
 async function loadAll() {
+  const bust = '?v=' + Date.now();
   try {
     const [dataRes, tdgRes] = await Promise.all([
-      fetch(DATA_URL).catch(() => null),
-      fetch(TDG_URL).catch(() => null),
+      fetch(DATA_URL + bust).catch(() => null),
+      fetch(TDG_URL + bust).catch(() => null),
     ]);
     if (dataRes && dataRes.ok) state.data = await dataRes.json();
     if (tdgRes  && tdgRes.ok)  state.tdg  = await tdgRes.json();
@@ -1448,7 +1449,7 @@ const CHANNELS_CONFIG = [
 
 async function loadYoutube() {
   try {
-    const r = await fetch(YT_DATA_URL);
+    const r = await fetch(YT_DATA_URL + '?v=' + Date.now());
     if (r.ok) {
       state.youtube = await r.json();
       renderYoutube();
