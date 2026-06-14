@@ -1,11 +1,11 @@
-[README.md](https://github.com/user-attachments/files/28919674/README.md)
-# RailWatch# RailWatch Canada
+[README.md](https://github.com/user-attachments/files/28936572/README.md)
+# RailWatch Canada
 
 **Corridor intelligence for Canada's freight rail network.**
 A public infrastructure intelligence platform — part of the [Critical TO](https://criticalto.ca) family.
 
 🚂 **Live dashboard:** [rail.criticalto.ca](https://rail.criticalto.ca)  
-📡 **Data repo:** [railwatch-data](https://github.com/Sargjones/railwatch-data) (auto-updated daily)  
+📡 **Data repo:** [RailWatch](https://github.com/Sargjones/RailWatch) (auto-updated daily via GitHub Actions)  
 📋 **Submit an observation:** [Open an issue](https://github.com/Sargjones/railwatch-observations/issues/new?template=observation.md)
 
 ---
@@ -14,13 +14,13 @@ A public infrastructure intelligence platform — part of the [Critical TO](http
 
 RailWatch documents dangerous goods movement on Canada's freight rail network using public data and community observations. It exists because of a transparency gap: under Canada's Transportation of Dangerous Goods Act, freight railroads are only required to notify provincial fusion centres — not the communities the trains pass through.
 
-A resident watching sodium hypochlorite cars roll through Brantford station at midnight has no legitimate path to know where they're going, who shipped them, or why. RailWatch doesn't claim to solve that gap — it documents it and builds the infrastructure for when transparency improves.
+A community observer watching sodium hypochlorite cars roll through a CN station has no legitimate path to know where they're going, who shipped them, or why. RailWatch doesn't claim to solve that gap — it documents it and builds the infrastructure for when transparency improves.
 
 ---
 
 ## Pilot corridor
 
-**CN Dundas Subdivision** — the Toronto–Windsor corridor, originally built by the Great Western Railway in 1853. Passes through Toronto, Hamilton, Brantford, Woodstock, London, and Windsor, carrying a significant volume of industrial chemicals, agricultural products, and petroleum products daily.
+**CN Dundas Subdivision** — the Toronto–Windsor corridor, originally built by the Great Western Railway in 1853. Passes through Toronto, Hamilton, Woodstock, London, and Windsor, carrying a significant volume of industrial chemicals, agricultural products, and petroleum products daily.
 
 ---
 
