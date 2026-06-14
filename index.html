@@ -385,6 +385,7 @@ footer a { color: var(--accent); text-decoration: none; }
 <div class="nav-tabs">
   <button class="nav-tab active" onclick="switchTab('overview')">Overview</button>
   <button class="nav-tab" onclick="switchTab('tdg')">TDG Lookup</button>
+  <button class="nav-tab" onclick="switchTab('decoder')">Car Decoder</button>
   <button class="nav-tab" onclick="switchTab('incidents')">Incidents</button>
   <button class="nav-tab" onclick="switchTab('observations')">Community Feed</button>
   <button class="nav-tab" onclick="switchTab('about')">About</button>
@@ -432,6 +433,47 @@ footer a { color: var(--accent); text-decoration: none; }
 
   <div id="tdg-results" class="tdg-results"></div>
 
+</div>
+
+<!-- ══ CAR DECODER ════════════════════════════════════════════════════ -->
+<div id="tab-decoder" class="tab-panel">
+  <div class="section-label">Reporting mark decoder</div>
+  <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
+    Every freight car in North America carries a reporting mark (1–4 letters) and car number stencilled on the side.
+    Enter a reporting mark to identify the owner or lessor, fleet type, and what commodities are commonly carried.
+    Car numbers are logged for the community observation record.
+  </p>
+
+  <div class="tdg-search-wrap">
+    <span class="tdg-search-icon">⌕</span>
+    <input class="tdg-search" id="mark-search" type="text"
+           placeholder="Search: PROX · AITX · GTW · CBTX · tank · hopper…"
+           oninput="renderDecoder()">
+  </div>
+
+  <div id="decoder-results" class="tdg-results"></div>
+
+  <div class="section-label" style="margin-top:28px;">June 14, 2026 — Brantford consist log</div>
+  <p style="font-size:13px;color:var(--muted);margin-bottom:14px;">
+    Eastbound mixed manifest train observed ~11:30 AM at Brantford station. 
+    Two tank car blocks (AITX, PROX, TLPX) and mixed freight (CEFX, CBFX, GTW). 
+    GTW heritage mark suggests cross-border origin via Windsor/Sarnia from Michigan or Ohio.
+  </p>
+  <div style="overflow-x:auto;">
+    <table class="incident-table">
+      <thead>
+        <tr>
+          <th>Reporting mark</th>
+          <th>Car number</th>
+          <th>Owner / lessor</th>
+          <th>Car type</th>
+          <th>Likely commodity</th>
+          <th>Note</th>
+        </tr>
+      </thead>
+      <tbody id="consist-tbody"></tbody>
+    </table>
+  </div>
 </div>
 
 <!-- ══ INCIDENTS ══════════════════════════════════════════════════════ -->
@@ -595,20 +637,68 @@ const TDG_CLASS_COLORS = {
   '9':  '#8a9189',
 };
 
+// ── REPORTING MARKS DATABASE ──────────────────────────────────────────────
+const REPORTING_MARKS = [
+  // Mark, Owner/Lessor, Fleet type, Typical commodities, Notes
+  {mark:'AITX', owner:'American Industries Transport', type:'Tank car', commodity:'Petroleum products, chemicals, ethanol', notes:'General liquid bulk lessor; very common in CN manifest trains'},
+  {mark:'CBTX', owner:'SMBC Rail / CIT Group', type:'Tank car', commodity:'Chemicals, petroleum, industrial liquids', notes:'Large North American tank car lessor fleet'},
+  {mark:'CBFX', owner:'CIT Group / SMBC Rail', type:'Covered hopper / freight car', commodity:'Grain, potash, plastic pellets, dry bulk', notes:'F suffix indicates freight (non-tank) cars in the CIT fleet'},
+  {mark:'CBFZ', owner:'CIT Group / SMBC Rail', type:'Covered hopper variant', commodity:'Dry bulk commodities', notes:'Z suffix = alternate car subtype in lessor fleet'},
+  {mark:'CEFX', owner:'CIT Group / SMBC Rail', type:'Covered hopper', commodity:'Grain, potash, urea, plastic resin', notes:'Greyish, non-round — classic covered hopper profile'},
+  {mark:'CN',   owner:'Canadian National Railway', type:'Various', commodity:'All commodity classes', notes:'CN-owned equipment; mainline freight across Canada and US Midwest'},
+  {mark:'CPKC', owner:'Canadian Pacific Kansas City', type:'Various', commodity:'All commodity classes', notes:'CPKC-owned equipment post-CP/KCS merger 2023'},
+  {mark:'GBRX', owner:'GB Railcar (Mitsui Rail Capital)', type:'General freight', commodity:'Mixed — boxcar, gondola, or hopper', notes:'Japanese-owned North American lessor; diverse car types'},
+  {mark:'GPLX', owner:'GP Liquid Transport (Gavrel)', type:'Tank car', commodity:'Petroleum products, chemical solutions', notes:'Smaller Canadian petroleum tank car lessor'},
+  {mark:'GTW',  owner:'Grand Trunk Western (CN subsidiary)', type:'Various', commodity:'Cross-border manifest freight', notes:'CN Michigan/Ohio subsidiary mark; GTW cars often indicate Windsor–Detroit corridor origin'},
+  {mark:'GC',   owner:'Grand Trunk / CN heritage', type:'Various', commodity:'General freight', notes:'Older CN heritage reporting mark; still active in manifest service'},
+  {mark:'PROX', owner:'Procor Limited (Union Tank Car)', type:'Tank car', commodity:'Petroleum products, chemical solutions, LPG', notes:'Major Canadian tank car lessor; Oakville-based; heavily used in CN petroleum and chemical service'},
+  {mark:'TLPX', owner:'TLP / Trinity Leasing Partners', type:'Tank car', commodity:'Chemicals, petroleum, ethanol', notes:'Trinity Industries lessor subsidiary; large North American fleet'},
+  {mark:'TBOX', owner:'TTX Company', type:'Boxcar', commodity:'Automotive parts, packaged goods, forest products', notes:'TTX is a pooled car company owned by major North American railroads'},
+  {mark:'TTGX', owner:'TTX Company', type:'Flatcar / intermodal', commodity:'Intermodal containers, auto racks', notes:'TTX flatcar pool; common in CN intermodal service'},
+  {mark:'BNSF', owner:'BNSF Railway', type:'Various', commodity:'Coal, grain, intermodal — US origin', notes:'BNSF equipment on CN indicates interchange from US Midwest'},
+  {mark:'CSX',  owner:'CSX Transportation', type:'Various', commodity:'Coal, chemicals, auto parts — US origin', notes:'CSX interchange cars; eastern US origin'},
+  {mark:'NS',   owner:'Norfolk Southern', type:'Various', commodity:'Coal, steel, automotive — US origin', notes:'NS interchange; often cross-border via Detroit/Sarnia'},
+  {mark:'UP',   owner:'Union Pacific', type:'Various', commodity:'Grain, chemicals, intermodal — US west origin', notes:'UP interchange; US western origin via Chicago gateway'},
+  {mark:'VIA',  owner:'VIA Rail Canada', type:'Passenger', commodity:'Passengers', notes:'Passenger equipment — not freight'},
+  {mark:'ACFX', owner:'ACF Industries / First Union Rail', type:'Tank car', commodity:'Chemicals, petroleum', notes:'ACF-designed tank cars; common in chemical service'},
+  {mark:'UTLX', owner:'Union Tank Car Company (Marmon/Berkshire)', type:'Tank car', commodity:'Chemicals, petroleum, food-grade', notes:'One of the largest tank car lessors in North America'},
+  {mark:'NATX', owner:'North American Tank Car / GATX', type:'Tank car', commodity:'Chemicals, petroleum, LPG', notes:'GATX subsidiary; very large North American fleet'},
+  {mark:'GATX', owner:'GATX Rail', type:'Tank car / hopper', commodity:'Chemicals, petroleum, grain', notes:'Major international rail lessor; common on CN and CPKC'},
+  {mark:'SHPX', owner:'Shippers Car Line / First Union Rail', type:'Tank car', commodity:'Chemicals, petroleum', notes:'Lessor fleet; common in manifest chemical service'},
+];
+
+// June 14 consist
+const JUNE14_CONSIST = [
+  {mark:'GPLX', num:'76727',  owner:'GP Liquid Transport',     type:'Tank car',    commodity:'Petroleum / chemical liquid',    note:'Black cylinder'},
+  {mark:'GBRX', num:'716629', owner:'GB Railcar (Mitsui)',     type:'Freight car', commodity:'Mixed dry bulk or general freight',note:'Black cylinder'},
+  {mark:'CBTX', num:'788243', owner:'SMBC Rail / CIT',         type:'Tank car',    commodity:'Chemical / petroleum liquid',    note:'Black cylinder'},
+  {mark:'PROX', num:'16662',  owner:'Procor Limited',          type:'Tank car',    commodity:'Petroleum / chemical (Canadian)',note:'Black cylinder; Canadian lessor'},
+  {mark:'CEFX', num:'303174', owner:'CIT Group / SMBC',        type:'Covered hopper',commodity:'Dry bulk — grain, potash, resin',note:'Greyish, not round — hopper profile'},
+  {mark:'AITX', num:'38342',  owner:'American Industries',     type:'Tank car',    commodity:'Petroleum / ethanol / chemical', note:''},
+  {mark:'AITX', num:'38212',  owner:'American Industries',     type:'Tank car',    commodity:'Petroleum / ethanol / chemical', note:''},
+  {mark:'CBFX', num:'303790', owner:'CIT Group / SMBC',        type:'Freight car', commodity:'Dry bulk',                      note:''},
+  {mark:'AITX', num:'38160',  owner:'American Industries',     type:'Tank car',    commodity:'Petroleum / ethanol / chemical', note:''},
+  {mark:'CBFZ', num:'305563', owner:'CIT Group / SMBC',        type:'Hopper variant',commodity:'Dry bulk',                   note:'Z suffix variant'},
+  {mark:'AITX', num:'38193',  owner:'American Industries',     type:'Tank car',    commodity:'Petroleum / ethanol / chemical', note:''},
+  {mark:'CBFX', num:'305822', owner:'CIT Group / SMBC',        type:'Freight car', commodity:'Dry bulk',                      note:''},
+  {mark:'TLPX', num:'35770',  owner:'Trinity Leasing Partners',type:'Tank car',    commodity:'Chemical / petroleum',           note:''},
+  {mark:'GC',   num:'246583', owner:'Grand Trunk / CN heritage',type:'Freight car',commodity:'General manifest freight',      note:'CN heritage mark'},
+  {mark:'GTW',  num:'187686', owner:'Grand Trunk Western (CN)',type:'Freight car', commodity:'Cross-border manifest freight',  note:'⚑ Suggests Windsor–Detroit corridor origin'},
+  {mark:'Engine',num:'2838',  owner:'CN',                      type:'Locomotive',  commodity:'N/A',                           note:'CN road locomotive'},
+];
+
 // ── TAB SWITCHING ───────────────────────────────────────────────────────
 function switchTab(name) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
   document.getElementById('tab-' + name).classList.add('active');
+  const labels = {overview:'overview',tdg:'tdg',decoder:'car',incidents:'incidents',observations:'community',about:'about'};
   document.querySelectorAll('.nav-tab').forEach(t => {
-    if (t.textContent.toLowerCase().includes(name.replace('observations','community'))) {
-      t.classList.add('active');
-    }
+    if (t.textContent.toLowerCase().includes(labels[name] || name)) t.classList.add('active');
   });
   state.activeTab = name;
-  if (name === 'overview' && state.map) {
-    setTimeout(() => state.map.invalidateSize(), 50);
-  }
+  if (name === 'overview' && state.map) setTimeout(() => state.map.invalidateSize(), 50);
+  if (name === 'decoder') renderConsist();
 }
 
 // ── DATA LOAD ───────────────────────────────────────────────────────────
@@ -654,28 +744,43 @@ function renderHeader() {
 function renderMap() {
   if (state.map) { state.map.remove(); state.map = null; }
   const map = L.map('corridor-map', {
-    center: [43.25, -80.4],
-    zoom: 8,
+    center: [43.15, -80.8],
+    zoom: 7,
     zoomControl: true,
   });
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  // dark_matter_lite keeps land dark but renders water as medium grey — better contrast
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_matter_lite_nolabels/{z}/{x}/{y}{r}.png', {
     attribution: '© OpenStreetMap · © CARTO',
     maxZoom: 19,
     subdomains: 'abcd',
   }).addTo(map);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', {
+    attribution: '',
+    maxZoom: 19,
+    subdomains: 'abcd',
+  }).addTo(map);
 
-  // Dundas Sub rough centerline (Brantford → Hamilton → Toronto)
+  // CN Dundas Sub — actual alignment: Windsor→London→Woodstock→Brantford→Hamilton→Burlington→Toronto
   const dundasPts = [
-    [43.1394,-80.2644], // Brantford
-    [43.1510,-80.1200],
-    [43.2200,-79.9500],
-    [43.2600,-79.8600], // Dundas
-    [43.2750,-79.8300], // Hamilton east
-    [43.3150,-79.7900],
-    [43.3200,-79.7100],
-    [43.3600,-79.6000],
-    [43.4700,-79.5200],
-    [43.6200,-79.4500], // Toronto area
+    [42.3149,-83.0364], // Windsor
+    [42.3500,-82.9200],
+    [42.5800,-82.1800], // Chatham area
+    [42.7500,-81.7200],
+    [42.9800,-81.2300], // St. Thomas area
+    [43.0080,-80.9960], // London
+    [43.0200,-80.9200],
+    [43.0600,-80.7800], // Ingersoll
+    [43.0900,-80.6500], // Woodstock
+    [43.1394,-80.2644], // Brantford ★
+    [43.1500,-80.1800],
+    [43.2000,-79.9800],
+    [43.2550,-79.8700], // Dundas
+    [43.2700,-79.8100], // Hamilton
+    [43.3100,-79.7500], // Stoney Creek
+    [43.3500,-79.6500], // Grimsby
+    [43.4200,-79.4200], // Oakville
+    [43.4800,-79.3500], // Port Credit
+    [43.6200,-79.4800], // Toronto Union
   ];
 
   L.polyline(dundasPts, {
@@ -693,10 +798,12 @@ function renderMap() {
     weight: 2,
   }).addTo(map).bindPopup(
     '<b>Brantford Station</b><br>CN Dundas Sub, Mile ~30<br>' +
-    '<span style="color:#f04a4a">⚠ Sodium hypochlorite (UN 1791) observed 2026-06-12</span>'
+    '<span style="color:#f04a4a">⚠ UN 1791 hypochlorite observed 2026-06-12 eastbound</span><br>' +
+    '<span style="color:#f0b84a">● Mixed manifest consist observed 2026-06-14 eastbound</span><br>' +
+    '<small>PROX 16662 · AITX 38342/38212/38160/38193 · TLPX 35770 · GTW 187686 + others</small>'
   );
 
-  // Known TSB incident marker (1995 derailment)
+  // TSB 1995 derailment marker
   L.circleMarker([43.1394,-80.2644], {
     radius: 5,
     color: '#f04a4a',
@@ -855,7 +962,53 @@ function renderObsFeed() {
   el.innerHTML = list.map(o => obsCardHTML(o)).join('');
 }
 
-// ── SUBMIT OBS ────────────────────────────────────────────────────────────
+// ── CAR DECODER ───────────────────────────────────────────────────────────
+function renderDecoder() {
+  const q = (document.getElementById('mark-search')?.value || '').toLowerCase().trim();
+  const filtered = q
+    ? REPORTING_MARKS.filter(r =>
+        r.mark.toLowerCase().includes(q) ||
+        r.owner.toLowerCase().includes(q) ||
+        r.type.toLowerCase().includes(q) ||
+        r.commodity.toLowerCase().includes(q) ||
+        r.notes.toLowerCase().includes(q)
+      )
+    : REPORTING_MARKS;
+
+  const el = document.getElementById('decoder-results');
+  if (!filtered.length) { el.innerHTML = '<div class="empty">No matches found.</div>'; return; }
+
+  el.innerHTML = filtered.map(r => `
+    <div class="tdg-card">
+      <div>
+        <div class="obs-un" style="font-size:26px;letter-spacing:0.04em">${r.mark}</div>
+      </div>
+      <div>
+        <div class="tdg-name">${r.owner}</div>
+        <div class="tdg-class-label">${r.type} · ${r.commodity}</div>
+        ${r.notes ? `<div class="tdg-notes">${r.notes}</div>` : ''}
+      </div>
+      <div class="tdg-badges">
+        <span class="badge badge-class">${r.type.includes('Tank') ? '🛢 Tank' : r.type.includes('hopper')||r.type.includes('Hopper') ? '📦 Hopper' : r.type.includes('Loco') ? '🚂 Loco' : '🚃 Freight'}</span>
+      </div>
+    </div>`).join('');
+}
+
+function renderConsist() {
+  const tbody = document.getElementById('consist-tbody');
+  if (!tbody) return;
+  tbody.innerHTML = JUNE14_CONSIST.map(c => `
+    <tr>
+      <td style="font-family:var(--font-mono);color:var(--accent);font-weight:500">${c.mark}</td>
+      <td style="font-family:var(--font-mono)">${c.num}</td>
+      <td>${c.owner}</td>
+      <td style="color:var(--muted);font-size:12px">${c.type}</td>
+      <td style="font-size:12px">${c.commodity}</td>
+      <td style="font-size:11px;color:var(--muted);font-style:italic">${c.note}</td>
+    </tr>`).join('');
+}
+
+
 function submitObservation() {
   const fields = {
     date:      document.getElementById('obs-date').value,
@@ -918,8 +1071,20 @@ function buildSeedData() {
         key: 'community_observations',
         status: 'ok',
         value: {
-          count: 1,
+          count: 2,
           observations: [
+            {
+              date: '2026-06-14',
+              location: 'Brantford, ON',
+              subdivision: 'CN Dundas Sub',
+              direction: 'East',
+              placard_class: 'mixed',
+              un_number: '',
+              cars_observed: '15+',
+              notes: 'Mixed manifest consist ~11:30 AM. Tank cars: GPLX 76727, CBTX 788243, PROX 16662, AITX 38342/38212/38160/38193, TLPX 35770. Freight: GBRX 716629, CEFX 303174, CBFX 303790/305822, CBFZ 305563, GC 246583, GTW 187686. Engine 2838. GTW mark suggests cross-border origin via Windsor–Detroit corridor.',
+              submitted_at: '2026-06-14T16:00:00Z',
+              consist: true,
+            },
             {
               date: '2026-06-12',
               location: 'Brantford, ON',
@@ -929,7 +1094,7 @@ function buildSeedData() {
               un_number: '1791',
               name: 'HYPOCHLORITE SOLUTION',
               cars_observed: 'multiple',
-              notes: 'Observed eastbound through Brantford station approx 23:00. This observation is what started RailWatch.',
+              notes: 'Eastbound through Brantford station approx 23:00. Black cylinder tank cars. This observation is what started RailWatch.',
               submitted_at: '2026-06-13T00:00:00Z',
             }
           ],
