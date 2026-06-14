@@ -13,10 +13,10 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout data branch (gh-pages)
+      - name: Checkout data branch (main)
         uses: actions/checkout@v4
         with:
-          ref: gh-pages
+          ref: main
 
       - name: Checkout scraper (main branch)
         uses: actions/checkout@v4
