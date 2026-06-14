@@ -104,6 +104,24 @@ LOCATION_KEYWORDS = {
     "Kingston":            {"subdivision": "CN Kingston Sub",          "lat": 44.2300, "lon": -76.4800},
     "Brockville":          {"subdivision": "CN Kingston Sub",          "lat": 44.5800, "lon": -75.7000},
     "Ottawa":              {"subdivision": "CN Smiths Falls Sub",      "lat": 45.4230, "lon": -75.6950},
+    "Smiths Falls":        {"subdivision": "CN Smiths Falls Sub",      "lat": 44.8990, "lon": -76.0220},
+    "Silver Creek":        {"subdivision": "CN Smiths Falls Sub",      "lat": 44.7500, "lon": -76.2500},
+    "Sharbot Lake":        {"subdivision": "CN Smiths Falls Sub",      "lat": 44.7700, "lon": -76.6900},
+    "Brockville":          {"subdivision": "CN Kingston Sub",           "lat": 44.5800, "lon": -75.7000},
+    "Napanee":             {"subdivision": "CN Kingston Sub",           "lat": 44.2500, "lon": -76.9500},
+    "Belleville":          {"subdivision": "CN Kingston Sub",           "lat": 44.1600, "lon": -77.3800},
+    "Cobourg":             {"subdivision": "CN Kingston Sub",           "lat": 43.9600, "lon": -78.1700},
+    "Oshawa":              {"subdivision": "CN Kingston Sub",           "lat": 43.8971, "lon": -78.8658},
+    "Pickering":           {"subdivision": "CN Kingston Sub",           "lat": 43.8354, "lon": -79.0893},
+    "Ajax":                {"subdivision": "CN Kingston Sub",           "lat": 43.8509, "lon": -79.0205},
+    "Georgetown":          {"subdivision": "CN Halton Sub",             "lat": 43.6529, "lon": -79.9170},
+    "Brampton":            {"subdivision": "CN Halton Sub",             "lat": 43.6833, "lon": -79.7667},
+    "Guelph":              {"subdivision": "CPKC Galt Sub",             "lat": 43.5448, "lon": -80.2482},
+    "Kitchener":           {"subdivision": "CPKC Galt Sub",             "lat": 43.4516, "lon": -80.4925},
+    "Stratford":           {"subdivision": "CN Goderich Sub",           "lat": 43.3700, "lon": -80.9820},
+    "St. Thomas":          {"subdivision": "CN Dundas Sub",             "lat": 42.7751, "lon": -81.1990},
+    "Ingersoll":           {"subdivision": "CN Dundas Sub",             "lat": 43.0376, "lon": -80.8837},
+    "Bayview":             {"subdivision": "CN Oakville/Dundas Sub",    "lat": 43.2870, "lon": -79.7760},
     "London":              {"subdivision": "CN Dundas Sub",            "lat": 43.0080, "lon": -80.9960},
     "Windsor":             {"subdivision": "CN Dundas Sub",            "lat": 42.3149, "lon": -83.0364},
     "Sarnia":              {"subdivision": "CN Chatham Sub",           "lat": 42.9744, "lon": -82.4058},
@@ -133,6 +151,14 @@ COMMODITY_KEYWORDS = {
     "auto rack":       {"type": "auto_rack", "dg_likely": False},
     "lumber":          {"type": "flatcar", "dg_likely": False},
 }
+
+# Videos from outside Ontario reduce signal quality — flag but don't suppress
+# (Tyson ranges cross-Canada; useful for national expansion but noisy for ON pilot)
+OUT_OF_SCOPE_KEYWORDS = [
+    "british columbia", "bc", "thompson canyon", "alberta", "saskatchewan",
+    "manitoba", "quebec", "nova scotia", "new brunswick", "montreal",
+    "fraser", "rockies", "tunnel mountain", "rogers pass",
+]
 
 DIRECTION_PATTERNS = [
     (r'\b(eastbound|east bound|EB|heading east|moving east)\b', 'East'),
@@ -291,8 +317,15 @@ def parse_video(item, detail, channel_meta):
     score = sum([bool(obs_date), bool(location), bool(commodity)])
     confidence = "high" if score == 3 else "medium" if score == 2 else "low" if score == 1 else "meta"
 
+    # Flag out-of-scope geography
+    text_lower_full = full_text.lower()
+    out_of_scope = any(kw in text_lower_full for kw in OUT_OF_SCOPE_KEYWORDS)
+    # Only flag if no Ontario location was found
+    geographic_scope = "out-of-province" if (out_of_scope and not location) else "ontario"
+
     return {
         "source":        "youtube",
+        "geographic_scope": geographic_scope,
         "channel":       channel_meta["name"],
         "channel_id":    channel_meta["id"],
         "video_id":      vid_id,
