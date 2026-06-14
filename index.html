@@ -1433,7 +1433,9 @@ const CHANNELS_CONFIG = [
   { name:'Trackside Ontario',       handle:'@TracksideOntario',         focus:'Bayview Junction / CN Hamilton area', id_set: false },
   { name:'Trackside Tyson',         handle:'@tracksidetyson',           focus:'CN/CPKC cross-Canada',               id_set: true  },
   { name:'Southern Ontario Railfan',handle:'@SouthernOntarioRailfan2026',focus:'CN Dundas/Chatham/CPKC Windsor Sub', id_set: true  },
-  { name:'Trackside Toronto',       handle:'@tracksidetoronto',          focus:'VIA Rail / GO Transit / CN Toronto',  id_set: false },
+  { name:'Trackside Toronto',       handle:'@tracksidetoronto',          focus:'VIA Rail / GO Transit / CN Toronto',  id_set: true,  active: false },
+  { name:'Trackside Tristan',       handle:'@TracksideTristan',          focus:'CN / CPKC Ontario freight',          id_set: true,  active: true  },
+  { name:'Track Side Mike',         handle:'@TrackSideMike',             focus:'CN / CPKC Ontario freight',          id_set: true,  active: true  },
 ];
 
 async function loadYoutube() {
@@ -1492,8 +1494,11 @@ function renderYoutube() {
         <div class="corridor-name">${c.name} <span style="font-size:11px;color:var(--muted)">${c.handle}</span></div>
         <div class="corridor-route">${c.focus}</div>
       </div>
-      <div class="corridor-badge" style="${c.id_set ? '' : 'color:var(--warn);border-color:var(--warn);background:rgba(240,184,74,0.1)'}">
-        ${c.id_set ? 'ACTIVE' : 'ID NEEDED'}
+      <div class="corridor-badge" style="${
+        !c.id_set ? 'color:var(--warn);border-color:var(--warn);background:rgba(240,184,74,0.1)' :
+        c.active === false ? 'color:var(--muted);border-color:var(--border2);background:transparent' : ''
+      }">
+        ${!c.id_set ? 'ID NEEDED' : c.active === false ? 'INACTIVE' : 'ACTIVE'}
       </div>
     </div>`).join('');
 }
