@@ -759,11 +759,12 @@ async function loadAll() {
     console.warn('Remote data unavailable, using seed data');
   }
 
-  // If no remote data, seed with static defaults for demo
+  // Fall back to seed data if remote fetch failed
   if (!state.data) state.data = buildSeedData();
   if (!state.tdg)  state.tdg  = buildSeedTDG();
 
   render();
+  loadYoutube(); // non-blocking — loads YouTube data after main render
 }
 
 // ── RENDER ALL ──────────────────────────────────────────────────────────
@@ -1519,26 +1520,6 @@ function renderYoutube() {
         ${!c.id_set ? 'ID NEEDED' : c.active === false ? 'INACTIVE' : 'ACTIVE'}
       </div>
     </div>`).join('');
-}
-
-// Extend loadAll to also load YouTube data
-const _origLoadAll = typeof loadAll === 'function' ? loadAll : null;
-
-async function loadAll() {
-  try {
-    const [dataRes, tdgRes] = await Promise.all([
-      fetch(DATA_URL).catch(() => null),
-      fetch(TDG_URL).catch(() => null),
-    ]);
-    if (dataRes && dataRes.ok) state.data = await dataRes.json();
-    if (tdgRes  && tdgRes.ok)  state.tdg  = await tdgRes.json();
-  } catch (e) {
-    console.warn('Remote data unavailable, using seed data');
-  }
-  if (!state.data) state.data = buildSeedData();
-  if (!state.tdg)  state.tdg  = buildSeedTDG();
-  render();
-  loadYoutube(); // non-blocking — loads after main render
 }
 
 window.addEventListener('load', loadAll);
