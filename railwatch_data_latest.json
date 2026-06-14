@@ -3,7 +3,7 @@
     "platform": "RailWatch Canada",
     "parent": "Critical TO (criticalto.ca)",
     "version": "1.0.0",
-    "generated_at": "2026-06-14T22:39:47.774995Z",
+    "generated_at": "2026-06-14T22:59:11.608593Z",
     "run_date": "2026-06-14",
     "pilot_corridor": {
       "name": "CN Dundas Subdivision",
@@ -51,17 +51,17 @@
       },
       "source": "TSB (seed \u2014 live CSV unavailable)",
       "unit": null,
-      "note": "GET https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv failed: 404 Client Error: Not Found for url: https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv",
+      "note": "GET https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv failed: 403 Client Error: Forbidden for url: https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv",
       "status": "ok",
-      "fetched_at": "2026-06-14T22:39:16.314513Z"
+      "fetched_at": "2026-06-14T22:58:40.025075Z"
     },
     {
       "key": "tc_weekly_freight",
       "value": null,
       "source": "Transport Canada",
       "status": "error",
-      "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: HTTPSConnectionPool(host='tc.canada.ca', port=443): Max retries exceeded with url: /sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='tc.canada.ca', port=443) at 0x7f8744842810>, 'Connection to tc.canada.ca timed out. (connect timeout=30)'))",
-      "fetched_at": "2026-06-14T22:39:46.503378Z"
+      "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: HTTPSConnectionPool(host='tc.canada.ca', port=443): Max retries exceeded with url: /sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='tc.canada.ca', port=443) at 0x7f725a4d4610>, 'Connection to tc.canada.ca timed out. (connect timeout=30)'))",
+      "fetched_at": "2026-06-14T22:59:10.303781Z"
     },
     {
       "key": "community_observations",
@@ -88,7 +88,7 @@
       "unit": null,
       "note": "GET https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50 failed: 404 Client Error: Not Found for url: https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50",
       "status": "ok",
-      "fetched_at": "2026-06-14T22:39:46.744292Z"
+      "fetched_at": "2026-06-14T22:59:10.537914Z"
     }
   ],
   "corridor_geometry": {
@@ -903,7 +903,7 @@
     "unit": null,
     "note": null,
     "status": "ok",
-    "fetched_at": "2026-06-14T22:39:47.773909Z"
+    "fetched_at": "2026-06-14T22:59:11.607657Z"
   },
   "corridors": {
     "dundas_sub": {
