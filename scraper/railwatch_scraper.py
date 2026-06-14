@@ -35,10 +35,10 @@ OUTPUT_TDG      = "railwatch_tdg.json"
 CORRIDORS = {
     "dundas_sub": {
         "name": "CN Dundas Subdivision",
-        "description": "Toronto–Hamilton–Brantford–London–Windsor corridor",
+        "description": "Toronto–Hamilton–London–Windsor corridor",
         "operator": "CN",
         "communities": ["Toronto", "Mississauga", "Oakville", "Burlington", "Hamilton",
-                        "Dundas", "Brantford", "Woodstock", "Ingersoll", "London",
+                        "Dundas", "Woodstock", "Ingersoll", "London",
                         "Tillsonburg", "St. Thomas", "Windsor"],
         "osm_relation": 7410819,
         "tsb_subdivision": "Dundas",
@@ -61,7 +61,7 @@ CORRIDORS = {
     },
 }
 
-# Brantford station coordinates (CN Dundas Sub, Mile ~30)
+# Aldershot area coordinates (CN Dundas/Oakville Sub junction area)
 BRANTFORD_LAT = 43.1394
 BRANTFORD_LON = -80.2644
 
@@ -354,12 +354,12 @@ def fetch_community_observations():
 
     Issue format (markdown body):
       **Date:** 2026-06-12
-      **Location:** Brantford, ON (CN Dundas Sub, eastbound)
+      **Location:** CN Dundas Sub — Hamilton corridor (eastbound)
       **Placard class:** 8
       **UN number:** 1791
       **Cars observed:** 4
       **Direction:** East
-      **Notes:** Observed approx 22:30 from Eagle Ave crossing
+      **Notes:** Observed approx 19:00 eastbound
 
     Falls back to example seed if repo is private or unavailable.
     """
@@ -385,14 +385,14 @@ def fetch_community_observations():
         seed_obs = [
             {
                 "date": "2026-06-12",
-                "location": "Brantford, ON",
+                "location": "CN Dundas Sub — Hamilton corridor",
                 "subdivision": "CN Dundas Sub",
                 "direction": "East",
                 "placard_class": "8",
                 "un_number": "1791",
                 "name": "HYPOCHLORITE SOLUTION (sodium hypochlorite)",
                 "cars_observed": "multiple",
-                "notes": "Observed eastbound through Brantford station approx 23:00",
+                "notes": "Observed eastbound through CN Dundas Sub approx 19:00",
                 "submitted_at": "2026-06-13T00:00:00Z",
                 "seed": True,
             }
