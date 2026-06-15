@@ -287,17 +287,32 @@ def fetch_tsb_occurrences():
     except Exception as e:
         # Graceful fallback — seed with known incidents from public TSB reports
         known = [
+            {"year":"2008","subdivision":"Dundas","occurrence_type":"Derailment",
+             "dangerous_goods":False,"fatalities":0,"injuries":0,"cars_derailed":0,
+             "note":"TSB R08T0029 — Bayview Junction Mile 0.6; wheel failure at curve where Dundas and Oakville Subs join. No DG release."},
             {"year":"1995","subdivision":"Dundas","occurrence_type":"Derailment",
              "dangerous_goods":True,"fatalities":0,"injuries":0,"cars_derailed":3,
-             "note":"Brantford Yard — 3 butane tank cars; 9 homes evacuated (R95T0262)"},
+             "note":"TSB R95T0262 — Brantford Yard; 3 butane tank cars (UN 1075) derailed; precautionary evacuations in adjacent residential area."},
+        ]
+        notable = [
+            {"year":"2013","location":"Lac-Mégantic, QC","subdivision":"Sherbrooke Sub (MMA)",
+             "dangerous_goods":True,"fatalities":47,"cars_derailed":63,
+             "note":"TSB R13D0054 — Deadliest freight rail disaster in Canadian history. 72 tank cars UN 1267 crude oil; 6 million litres spilled; 47 killed; runaway train reached 104 km/h. Eliminated DOT-111 tank cars; mandatory 2-person crews."},
+            {"year":"2019","location":"St-Lazare, MB","subdivision":"CN Rivers Sub",
+             "dangerous_goods":True,"fatalities":0,"cars_derailed":37,
+             "note":"TSB R19W0050 — Largest crude oil release by volume. 37 TC/DOT-117R tank cars derailed; 815,000 litres UN 1267 crude oil released from 17 breached cars. Failed rail joint."},
+            {"year":"2024","location":"Longueuil, QC","subdivision":"CN St-Hyacinthe Sub",
+             "dangerous_goods":True,"fatalities":0,"cars_derailed":8,
+             "note":"TSB R24D0080 — 8 cars derailed at Southwark Yard. DG release; safety perimeter; TC remedial measures specialists deployed."},
         ]
         return _ok(
             "tsb_occurrences",
             {
                 "total_records": len(known),
                 "dundas_sub_total": len(known),
-                "dundas_sub_with_dg": 1,
+                "dundas_sub_with_dg": sum(1 for r in known if r["dangerous_goods"]),
                 "dundas_sub_records": known,
+                "notable_canadian_incidents": notable,
                 "fallback": True,
             },
             source="TSB (seed — live CSV unavailable)",
