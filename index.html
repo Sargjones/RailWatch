@@ -603,6 +603,7 @@ footer a { color: var(--accent); text-decoration: none; }
           <th>Date</th>
           <th>Channel</th>
           <th>Location</th>
+          <th>Train</th>
           <th>Direction</th>
           <th>Commodity</th>
           <th>DG?</th>
@@ -1541,6 +1542,9 @@ function renderYoutube() {
         <td style="font-family:var(--font-mono);white-space:nowrap">${o.date || '—'}</td>
         <td style="font-size:11px;color:var(--muted)">${o.channel}</td>
         <td>${o.location || '—'}</td>
+        <td style="font-family:var(--font-mono);font-size:11px;color:var(--accent2)">${
+          o.train_symbols ? o.train_symbols.map(s => s.symbol).join(', ') : '—'
+        }</td>
         <td style="color:var(--muted);font-size:12px">${o.direction || '—'}</td>
         <td style="font-size:12px">${o.commodity_type || '—'}</td>
         <td class="${o.dg_likely ? 'dg-yes' : 'dg-no'}">${o.dg_likely ? 'LIKELY' : 'No'}</td>
