@@ -3,7 +3,7 @@
     "platform": "RailWatch Canada",
     "parent": "Critical TO (criticalto.ca)",
     "version": "1.0.0",
-    "generated_at": "2026-06-15T18:20:32.406295Z",
+    "generated_at": "2026-06-15T18:48:38.914080Z",
     "run_date": "2026-06-15",
     "pilot_corridor": {
       "name": "CN Dundas Subdivision",
@@ -91,7 +91,7 @@
       "unit": null,
       "note": "GET https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv failed: 404 Client Error: Not Found for url: https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv",
       "status": "ok",
-      "fetched_at": "2026-06-15T18:20:24.734087Z"
+      "fetched_at": "2026-06-15T18:48:22.743886Z"
     },
     {
       "key": "tc_weekly_freight",
@@ -99,7 +99,7 @@
       "source": "Transport Canada",
       "status": "error",
       "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: 404 Client Error: Not Found for url: https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv",
-      "fetched_at": "2026-06-15T18:20:25.303249Z"
+      "fetched_at": "2026-06-15T18:48:22.932896Z"
     },
     {
       "key": "community_observations",
@@ -126,7 +126,7 @@
       "unit": null,
       "note": "GET https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50 failed: 404 Client Error: Not Found for url: https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50",
       "status": "ok",
-      "fetched_at": "2026-06-15T18:20:25.413298Z"
+      "fetched_at": "2026-06-15T18:48:23.018242Z"
     }
   ],
   "corridor_geometry": {
@@ -941,7 +941,7 @@
     "unit": null,
     "note": null,
     "status": "ok",
-    "fetched_at": "2026-06-15T18:20:32.405333Z"
+    "fetched_at": "2026-06-15T18:48:38.913011Z"
   },
   "corridors": {
     "dundas_sub": {
