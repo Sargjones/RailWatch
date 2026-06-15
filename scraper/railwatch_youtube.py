@@ -80,10 +80,12 @@ CHANNELS = [
         "id":               "UCJzmiVZMfXiOm8dKP_Ntj7w",
         "name":             "Trackside Tristan",
         "handle":           "@TracksideTristan",
-        "focus":            ["CN", "CPKC", "Ontario freight"],
-        "default_location": None,
-        "default_subdivision": None,
-        "province_filter":  False,
+        "focus":            ["CPKC MacTier Sub", "CN Ontario", "intermodal"],
+        "default_location": "MacTier",
+        "default_subdivision": "CPKC MacTier Sub",
+        "default_lat":      44.9500,
+        "default_lon":      -79.7300,
+        "province_filter":  True,
         "active":           True,
     },
     {
@@ -146,6 +148,14 @@ LOCATION_KEYWORDS = {
     "Barrie":              {"subdivision": "CN Bala Sub",            "lat": 44.3900, "lon": -79.6800},
     "Sudbury":             {"subdivision": "CN Bala Sub",            "lat": 46.4900, "lon": -80.9900},
     "Parry Sound":         {"subdivision": "CN Bala Sub",            "lat": 45.3500, "lon": -80.0400},
+    "MacTier":             {"subdivision": "CPKC MacTier Sub",        "lat": 44.9500, "lon": -79.7300},
+    "Washago":             {"subdivision": "CN Bala Sub",             "lat": 44.7500, "lon": -79.3300},
+    "Gravenhurst":         {"subdivision": "CN Bala Sub",             "lat": 44.9200, "lon": -79.3700},
+    "Huntsville":          {"subdivision": "CN Bala Sub",             "lat": 45.3300, "lon": -79.2200},
+    "Capreol":             {"subdivision": "CN Bala Sub",             "lat": 46.7100, "lon": -80.9300},
+    "Schreiber":           {"subdivision": "CN Ruel Sub",             "lat": 48.8100, "lon": -87.2700},
+    "White River":         {"subdivision": "CN Ruel Sub",             "lat": 48.5900, "lon": -85.2800},
+    "Cartier":             {"subdivision": "CN Ruel Sub",             "lat": 46.6900, "lon": -81.5600},
 }
 
 # ── SUBDIVISION NAME PATTERNS (Priority 2) ────────────────────────────────────
@@ -165,6 +175,10 @@ SUBDIVISION_PATTERNS = [
     (r'\b(strathroy\s+sub(?:division)?)\b',      {"subdivision": "CN Strathroy Sub",       "name": "CN Strathroy Sub",       "lat": 42.9600, "lon": -81.6200}),
     (r'\b(goderich\s+sub(?:division)?)\b',       {"subdivision": "CN Goderich Sub",        "name": "CN Goderich Sub",        "lat": 43.5000, "lon": -81.0000}),
     (r'\b(newmarket\s+sub(?:division)?)\b',      {"subdivision": "CN Newmarket Sub",       "name": "CN Newmarket Sub",       "lat": 44.0500, "lon": -79.4600}),
+    (r'\b(mactier\s+sub(?:division)?)\b',         {"subdivision": "CPKC MacTier Sub",       "name": "CPKC MacTier Sub",       "lat": 44.9500, "lon": -79.7300}),
+    (r'\b(parry\s+sound\s+sub(?:division)?)\b',  {"subdivision": "CN Bala Sub",            "name": "CN Bala Sub (Parry Sound)","lat": 45.3500, "lon": -80.0400}),
+    (r'\b(ruel\s+sub(?:division)?)\b',            {"subdivision": "CN Ruel Sub",            "name": "CN Ruel Sub",            "lat": 48.0000, "lon": -85.0000}),
+    (r'\b(superior\s+sub(?:division)?)\b',        {"subdivision": "CN Superior Sub",        "name": "CN Superior Sub",        "lat": 48.5000, "lon": -87.0000}),
 ]
 
 # ── COMMODITY KEYWORDS ────────────────────────────────────────────────────────
