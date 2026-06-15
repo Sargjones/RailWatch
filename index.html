@@ -546,10 +546,29 @@ footer a { color: var(--accent); text-decoration: none; }
         <label>Corridor</label>
         <select id="obs-corridor">
           <option value="">Select…</option>
-          <option value="CN Dundas Sub">CN Dundas Sub</option>
-          <option value="CN Chatham Sub">CN Chatham Sub</option>
-          <option value="CPKC Windsor Sub">CPKC Windsor Sub</option>
-          <option value="Other">Other</option>
+          <optgroup label="CN — Southern Ontario">
+            <option value="CN Dundas Sub">CN Dundas / Oakville Sub (Windsor–Hamilton–Toronto)</option>
+            <option value="CN Chatham Sub">CN Chatham Sub (Windsor–Sarnia)</option>
+            <option value="CN Kingston Sub">CN Kingston Sub (Toronto–Kingston–Brockville)</option>
+            <option value="CN Halton Sub">CN Halton Sub (Toronto–Georgetown–Burlington)</option>
+          </optgroup>
+          <optgroup label="CN — Eastern Ontario">
+            <option value="CN Smiths Falls Sub">CN Smiths Falls Sub (Ottawa–Smiths Falls–Napanee)</option>
+            <option value="VIA Brockville Sub">VIA Brockville Sub (Smiths Falls–Brockville)</option>
+          </optgroup>
+          <optgroup label="CN — Northern Ontario">
+            <option value="CN Bala Sub">CN Bala Sub (Toronto–Barrie–Sudbury)</option>
+            <option value="CN Ruel Sub">CN Ruel Sub (Sudbury–White River)</option>
+          </optgroup>
+          <optgroup label="CPKC">
+            <option value="CPKC Galt Sub">CPKC Galt Sub (Toronto–Kitchener–London–Windsor)</option>
+            <option value="CPKC MacTier Sub">CPKC MacTier Sub (Toronto–Barrie–MacTier)</option>
+            <option value="CPKC Windsor Sub">CPKC Windsor Sub</option>
+          </optgroup>
+          <optgroup label="Other">
+            <option value="Ontario Northland Railway">Ontario Northland Railway</option>
+            <option value="Other">Other / Unknown</option>
+          </optgroup>
         </select>
       </div>
       <div class="form-row">
