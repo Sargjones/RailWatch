@@ -45,9 +45,11 @@ jobs:
         run: |
           git config user.name  "RailWatch Bot"
           git config user.email "bot@criticalto.ca"
+          echo "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > last_run.txt
           git add railwatch_data_latest.json \
                   railwatch_data_*.json \
                   railwatch_tdg.json \
-                  railwatch_youtube_latest.json
+                  railwatch_youtube_latest.json \
+                  last_run.txt
           git diff --cached --quiet || git commit -m "data: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
