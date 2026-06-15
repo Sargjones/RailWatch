@@ -775,17 +775,35 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
     dedup_summary = dedup_stats(seen)
     print(f"  Dedup registry saved: {dedup_summary['total']} total videos across all runs")
 
+    # Merge new observations with existing accumulated dataset
+    # This ensures correlation engine always has full history, not just this run's new videos
+    existing_obs = []
+    if os.path.exists(output_file):
+        try:
+            with open(output_file) as f:
+                existing_data = json.load(f)
+                existing_obs = existing_data.get("observations", [])
+        except Exception:
+            pass
+
+    # Add new observations, avoid duplicates by video_id
+    existing_ids = {o.get("video_id") for o in existing_obs}
+    merged = existing_obs + [o for o in all_observations if o.get("video_id") not in existing_ids]
+    merged_sorted = sorted(merged, key=lambda x: x.get("published_at",""), reverse=True)
+
     payload = {
         "generated_at":    datetime.datetime.utcnow().isoformat() + "Z",
         "dedup_registry":  dedup_summary,
         "days_back":       days_back,
         "since":           since,
         "channels":        channel_summaries,
-        "total":           len(all_observations),
-        "high_confidence": sum(1 for o in all_observations if o["confidence"] == "high"),
-        "dg_likely":       sum(1 for o in all_observations if o["dg_likely"]),
-        "observations":    sorted(all_observations, key=lambda x: x.get("published_at",""), reverse=True),
+        "total":           len(merged_sorted),
+        "new_this_run":    len(all_observations),
+        "high_confidence": sum(1 for o in merged_sorted if o["confidence"] == "high"),
+        "dg_likely":       sum(1 for o in merged_sorted if o["dg_likely"]),
+        "observations":    merged_sorted,
     }
+    print(f"  Accumulated dataset: {len(merged_sorted)} total observations ({len(all_observations)} new this run)")
 
     with open(output_file, "w") as f:
         json.dump(payload, f, indent=2)
