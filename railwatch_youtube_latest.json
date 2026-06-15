@@ -1,11 +1,31 @@
 {
-  "generated_at": "2026-06-15T15:54:21.848599Z",
+  "generated_at": "2026-06-15T18:20:36.403706Z",
+  "dedup_registry": {
+    "total": 63,
+    "by_channel": {
+      "Trackside Ontario": 2,
+      "Trackside Tyson": 7,
+      "Trackside Tristan": 1,
+      "Track Side Mike": 6,
+      "Scott Rails (Chasing The Money Shot)": 7,
+      "Rail Fans Canada": 2,
+      "Brockville RailFan": 21,
+      "MJM Productions": 17
+    },
+    "by_confidence": {
+      "high": 6,
+      "medium": 53,
+      "low": 4,
+      "meta": 0
+    }
+  },
   "days_back": 7,
   "since": "2026-06-08T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 2,
+      "skipped": 0,
       "high": 0,
       "medium": 2,
       "low_meta": 0,
@@ -15,6 +35,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 7,
+      "skipped": 0,
       "high": 0,
       "medium": 3,
       "low_meta": 4,
@@ -23,11 +44,13 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0
+      "videos": 0,
+      "skipped": 0
     },
     {
       "channel": "Trackside Tristan",
       "videos": 1,
+      "skipped": 0,
       "high": 1,
       "medium": 0,
       "low_meta": 0,
@@ -37,6 +60,7 @@
     {
       "channel": "Track Side Mike",
       "videos": 6,
+      "skipped": 0,
       "high": 0,
       "medium": 6,
       "low_meta": 0,
@@ -46,6 +70,7 @@
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
       "videos": 7,
+      "skipped": 0,
       "high": 0,
       "medium": 7,
       "low_meta": 0,
@@ -55,6 +80,7 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 2,
+      "skipped": 0,
       "high": 0,
       "medium": 2,
       "low_meta": 0,
@@ -64,6 +90,7 @@
     {
       "channel": "Brockville RailFan",
       "videos": 21,
+      "skipped": 0,
       "high": 4,
       "medium": 17,
       "low_meta": 0,
@@ -72,11 +99,13 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 0
+      "videos": 0,
+      "skipped": 0
     },
     {
       "channel": "MJM Productions",
       "videos": 17,
+      "skipped": 0,
       "high": 1,
       "medium": 16,
       "low_meta": 0,
@@ -107,9 +136,17 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "VIA Train 61 Westbound June 15, 2026",
       "description_chars": 202,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -135,9 +172,32 @@
         "CN 4905",
         "CN 3811"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3392",
+          "raw": "CN 3392"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4905",
+          "raw": "CN 4905"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3811",
+          "raw": "CN 3811"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 368 Eastbound June 15, 2026",
       "description_chars": 261,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -163,9 +223,32 @@
         "CN 4905",
         "CN 3811"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3392",
+          "raw": "CN 3392"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4905",
+          "raw": "CN 4905"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3811",
+          "raw": "CN 3811"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 368 Lifting June 15, 2026",
       "description_chars": 288,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -190,9 +273,27 @@
         "CN 3287",
         "CN 3143"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3287",
+          "raw": "CN 3287"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3143",
+          "raw": "CN 3143"
+        }
+      ],
       "confidence": "high",
       "raw_title": "CN Train 149 Westbound June 15, 2026",
       "description_chars": 187,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -214,6 +315,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Huge Update On My New N Scale Layout - Track Plan By Kevin's Tiny Trains",
       "description_chars": 177,
@@ -238,6 +340,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Lets run some trains Live at the club @SilverCreekSub #modeltrains ",
       "description_chars": 44,
@@ -278,9 +381,87 @@
         "CP 7530",
         "CP 6232"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7010",
+          "raw": "CP 7010"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7603",
+          "raw": "CP 7603"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 328",
+          "raw": "CPKC 328"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8120",
+          "raw": "CP 8120"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7481",
+          "raw": "CP 7481"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7576",
+          "raw": "CP 7576"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7489",
+          "raw": "CP 7489"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7479",
+          "raw": "CP 7479"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7543",
+          "raw": "CP 7543"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7525",
+          "raw": "CP 7525"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7530",
+          "raw": "CP 7530"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 6232",
+          "raw": "CP 6232"
+        }
+      ],
       "confidence": "high",
       "raw_title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
       "description_chars": 1314,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -302,6 +483,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "OFF THE TRACK'S MONDAY",
       "description_chars": 333,
@@ -329,6 +511,18 @@
         "CP 7603",
         "CPKC 421"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7603",
+          "raw": "CP 7603"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CP 7603 new ET44AC leads CPKC 421",
       "description_chars": 0,
@@ -353,6 +547,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "high",
       "raw_title": "MASSIVE CPKC Intermodal Train Plows Through Poring Rain #train #railroad #shorts #subscribe #fun",
       "description_chars": 720,
@@ -379,6 +574,13 @@
       "locomotives": [
         "CP 7479"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7479",
+          "raw": "CP 7479"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CP 7479 north rips around the long bend",
       "description_chars": 33,
@@ -403,6 +605,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "CKC 112 flying south past Craighurst",
       "description_chars": 0,
@@ -430,6 +633,18 @@
         "CP 8120",
         "CPKC 328"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8120",
+          "raw": "CP 8120"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 328",
+          "raw": "CPKC 328"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CP 8120 & KCS 4687 lead CPKC 328 south",
       "description_chars": 0,
@@ -454,6 +669,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Scott Rails Live - Late Night Locos - Sound And Vision Test NO ADS!",
       "description_chars": 111,
@@ -484,9 +700,37 @@
         "CPKC 421",
         "CP 9783"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7019",
+          "raw": "CP 7019"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7516",
+          "raw": "CP 7516"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9783",
+          "raw": "CP 9783"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
       "description_chars": 749,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -510,6 +754,18 @@
       "locomotives": [
         "CP 9783",
         "CPKC 421"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9783",
+          "raw": "CP 9783"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
       ],
       "confidence": "medium",
       "raw_title": "CP 9783 AC4400CW leads CPKC 421 north",
@@ -535,6 +791,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Friday Evening at Bayview \u2022 June 12, 2026",
       "description_chars": 122,
@@ -559,6 +816,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "low",
       "raw_title": "HUGE TRAINS OVER BRIDGE CURVING THRU THE THOMPSON CANYON!",
       "description_chars": 427,
@@ -583,6 +841,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "low",
       "raw_title": "HUGE CPKC TRAIN CURVING THRU THE CANYON #youtubeshorts",
       "description_chars": 0,
@@ -610,6 +869,18 @@
         "CP 7019",
         "CPKC 118"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7019",
+          "raw": "CP 7019"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CP 7019 HERITAGE SD70ACU leads CPKC 118",
       "description_chars": 0,
@@ -634,6 +905,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Scott Rails Live - Friday Night 8pm - Running Trains - Chat n Chill - NO ADS!",
       "description_chars": 149,
@@ -658,6 +930,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "COAL TRAIN THRU BEAUTIFUL BRITISH COLUMBIA #youtubeshorts",
       "description_chars": 0,
@@ -685,9 +958,27 @@
         "CN 3355",
         "CN 2807"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3355",
+          "raw": "CN 3355"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2807",
+          "raw": "CN 2807"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 368 Eastbound June 12, 2026",
       "description_chars": 200,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -712,9 +1003,27 @@
         "CN 3355",
         "CN 2807"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3355",
+          "raw": "CN 3355"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2807",
+          "raw": "CN 2807"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 368 Lifting June 12, 2026",
       "description_chars": 202,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -740,9 +1049,27 @@
         "CPKC 421",
         "CP 3099"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7052",
+          "raw": "CP 7052"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3099",
+          "raw": "CP 3099"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "MIXED LASHUP! CP 7052 at Baxter, ON (JUN 11, 2026)",
       "description_chars": 408,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -764,6 +1091,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "\ud83d\ude86 LIVE O-Train Ottawa | Cyrville Station (Line 1 Trains 24/7)",
       "description_chars": 1554,
@@ -788,6 +1116,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Atlas CN Blue Devil GVO #modeltrains #train #bluedevil #shorts",
       "description_chars": 0,
@@ -815,6 +1144,18 @@
         "CP 7052",
         "CPKC 421"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7052",
+          "raw": "CP 7052"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CP 7052 SD70ACU leads CPKC 421 north",
       "description_chars": 0,
@@ -839,9 +1180,22 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        },
+        {
+          "road": "CN",
+          "symbol": "P300",
+          "raw": "P300"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "GO 560 F59PH First Test Run on the Bala Sub (JUN 11, 2026)",
       "description_chars": 405,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -863,6 +1217,13 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Z126",
+          "raw": "Z126"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Z126 ABSOLUTELY FLYING PAST MILE 61.7!!",
       "description_chars": 0,
@@ -890,6 +1251,23 @@
         "CN 2751",
         "CN 2894"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2751",
+          "raw": "CN 2751"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2894",
+          "raw": "CN 2894"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z126",
+          "raw": "Z126"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN 2751 + CN 2894 lead CN Z126 south",
       "description_chars": 0,
@@ -914,6 +1292,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "low",
       "raw_title": "KCS DPU PUSHING TAIL END THRU THE CANYON #youtubeshorts",
       "description_chars": 0,
@@ -941,9 +1320,27 @@
         "CN 3942",
         "CN 2249"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3942",
+          "raw": "CN 3942"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2249",
+          "raw": "CN 2249"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 368 Eastbound June 11, 2026",
       "description_chars": 244,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -965,6 +1362,13 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "P300",
+          "raw": "P300"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "GO 560 F59PH leads ONR P300 south",
       "description_chars": 0,
@@ -989,6 +1393,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "3D Printed Train Boat Contraption HO Scale",
       "description_chars": 0,
@@ -1016,9 +1421,27 @@
         "CN 2998",
         "CN 3108"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 126",
+          "raw": "CN Train 126"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2998",
+          "raw": "CN 2998"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3108",
+          "raw": "CN 3108"
+        }
+      ],
       "confidence": "high",
       "raw_title": "CN Train 126 Eastbound June 11, 2026",
       "description_chars": 233,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1043,9 +1466,27 @@
         "CN 3942",
         "CN 2249"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3942",
+          "raw": "CN 3942"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2249",
+          "raw": "CN 2249"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 368 Lifting June 11, 2026",
       "description_chars": 223,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1067,6 +1508,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Shiver Me Timbers! - Is It A Boat? Is It A Train?",
       "description_chars": 111,
@@ -1094,9 +1536,27 @@
         "CN 3027",
         "CN 2980"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "X309",
+          "raw": "X309"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3027",
+          "raw": "CN 3027"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2980",
+          "raw": "CN 2980"
+        }
+      ],
       "confidence": "high",
       "raw_title": "CN Train X309 Westbound June 11, 2026",
       "description_chars": 307,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1123,9 +1583,42 @@
         "CN 2807",
         "CN 3279"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 106",
+          "raw": "CN Train 106"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 109",
+          "raw": "CN Train 109"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3870",
+          "raw": "CN 3870"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8327",
+          "raw": "CN 8327"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2807",
+          "raw": "CN 2807"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3279",
+          "raw": "CN 3279"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 106 Eastbound Meets CN Train 109 Westbound June 11, 2026",
       "description_chars": 393,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1147,6 +1640,7 @@
       "dg_likely": true,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "COAL TRAIN IN CANADA'S DESERT! #shorts",
       "description_chars": 0,
@@ -1171,9 +1665,17 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "VIA Train 61 Westbound June 10, 2026",
       "description_chars": 179,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1198,9 +1700,27 @@
         "CN 2249",
         "CN 2617"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 377",
+          "raw": "CN Train 377"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2249",
+          "raw": "CN 2249"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2617",
+          "raw": "CN 2617"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 377 Westbound June 10, 2026",
       "description_chars": 263,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1226,9 +1746,32 @@
         "CN 3204",
         "CN 2903"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 105",
+          "raw": "CN Train 105"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3950",
+          "raw": "CN 3950"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3204",
+          "raw": "CN 3204"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2903",
+          "raw": "CN 2903"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 105 Westbound June 10, 2026",
       "description_chars": 230,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1253,9 +1796,27 @@
         "CN 3025",
         "CN 3208"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 276",
+          "raw": "CN Train 276"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3025",
+          "raw": "CN 3025"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3208",
+          "raw": "CN 3208"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 276 Eastbound June 10, 2026",
       "description_chars": 206,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1277,6 +1838,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Down at the tracks watching the Blue Devil going by on the Southend Sub #shorts #train#short",
       "description_chars": 0,
@@ -1301,6 +1863,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Scott Rails Live - Kit Builds & Electrickery - NO ADS!",
       "description_chars": 149,
@@ -1334,9 +1897,52 @@
         "CP 8891",
         "CPKC 421"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CPKC 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9753",
+          "raw": "CP 9753"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7055",
+          "raw": "CP 7055"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8893",
+          "raw": "CP 8893"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8116",
+          "raw": "CP 8116"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8815",
+          "raw": "CP 8815"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8891",
+          "raw": "CP 8891"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
       "description_chars": 734,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1362,6 +1968,23 @@
         "CP 7055",
         "CPKC 421"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9753",
+          "raw": "CP 9753"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7055",
+          "raw": "CP 7055"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CP 9753 + CP 7055 lead CPKC 421 north",
       "description_chars": 0,
@@ -1386,6 +2009,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Monday Morning at Bayview \u2022 June 8, 2026",
       "description_chars": 120,
@@ -1410,9 +2034,17 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "VIA Train 61 Westbound June 9, 2026",
       "description_chars": 173,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1438,9 +2070,32 @@
         "CN 3031",
         "CN 3861"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3063",
+          "raw": "CN 3063"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3031",
+          "raw": "CN 3031"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3861",
+          "raw": "CN 3861"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 368 Eastbound June 9, 2026",
       "description_chars": 209,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1462,6 +2117,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "MASSIVE TRAIN SNAKING THRU SHARP CURVES #shorts",
       "description_chars": 0,
@@ -1490,9 +2146,37 @@
         "CN 3031",
         "CN 3861"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3063",
+          "raw": "CN 3063"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3031",
+          "raw": "CN 3031"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3861",
+          "raw": "CN 3861"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2700",
+          "raw": "CN 2700"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 368 Lifting June 9, 2026",
       "description_chars": 212,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1519,6 +2203,28 @@
         "CP 8815",
         "CP 322"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8893",
+          "raw": "CP 8893"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8116",
+          "raw": "CP 8116"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8815",
+          "raw": "CP 8815"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CP 322"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CP 8893 + CP 8116 + CP 8815 lead CP 322",
       "description_chars": 0,
@@ -1543,6 +2249,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Subscriber Gifts - My Second GG1 And It's NOT Pennsylvania",
       "description_chars": 153,
@@ -1567,6 +2274,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "\ud83d\ude86 LIVE O-Train Ottawa | Bayview Station (Line 1 & 2 Trains 24/7)",
       "description_chars": 1504,
@@ -1591,6 +2299,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "low",
       "raw_title": "TRAIN TUNNELS #shorts",
       "description_chars": 0,
@@ -1615,9 +2324,17 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "VIA Train 61 Westbound June 8, 2026",
       "description_chars": 179,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1643,9 +2360,32 @@
         "CN 2903",
         "CN 3113"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3950",
+          "raw": "CN 3950"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2903",
+          "raw": "CN 2903"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3113",
+          "raw": "CN 3113"
+        }
+      ],
       "confidence": "medium",
       "raw_title": "CN Train 368 Eastbound June 8, 2026",
       "description_chars": 205,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1670,9 +2410,27 @@
         "CN 3031",
         "CN 3861"
       ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3031",
+          "raw": "CN 3031"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3861",
+          "raw": "CN 3861"
+        }
+      ],
       "confidence": "high",
       "raw_title": "CN Train 149 Westbound June 8, 2026",
       "description_chars": 217,
+      "dg_candidate": true,
       "location_source": "extracted"
     },
     {
@@ -1694,6 +2452,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Scenery coming to life  \ufffc#modeltrains #train #shorts#short",
       "description_chars": 0,
@@ -1718,6 +2477,7 @@
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
+      "train_symbols": null,
       "confidence": "medium",
       "raw_title": "Happy place down at the tracks #friendship #train #shorts",
       "description_chars": 0,
