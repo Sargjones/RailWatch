@@ -26,13 +26,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scraper/railwatch_cameras.py
 
-      - name: Run YouTube scraper (RECOVERY — 30 days)
+      - name: Run YouTube scraper (RECOVERY — 90 days, clears dedup and rebuilds)
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FACILITIES_PAT: ${{ secrets.FACILITIES_PAT }}
-        run: python scraper/railwatch_youtube.py 30
+        run: python scraper/railwatch_youtube.py 90
 
       - name: Run correlation engine
         run: python scraper/railwatch_correlate.py
@@ -41,6 +41,6 @@ jobs:
         run: |
           git config user.name "RailWatch Bot"
           git config user.email "railwatch@criticalto.ca"
-          git add data/
-          git diff --cached --quiet || git commit -m "RailWatch data update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git add -A
+          git diff --cached --quiet || git commit -m "RailWatch RECOVERY run $(date -u +%Y-%m-%dT%H:%M:%SZ) — full 90-day re-scrape"
           git push
