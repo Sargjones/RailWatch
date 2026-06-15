@@ -919,19 +919,32 @@ function renderMap() {
   L.polyline(kingstonPts, { color:'#f0b84a', weight:2.5, opacity:0.8, dashArray:'5 5' })
    .addTo(map).bindPopup('<b>CN Kingston Subdivision</b><br>Toronto · Oshawa · Kingston · Brockville · Montreal<br>Major freight + Via Rail corridor');
 
-  // CN SMITH FALLS SUB: Brockville → Ottawa (Via Rail Ottawa corridor splits here)
-  const ottawaPts = [
-    [44.5800,-75.7000], // Brockville (splits from Kingston Sub)
-    [44.7000,-75.5500],
-    [44.8500,-75.3500],
-    [44.9500,-75.1500],
-    [45.0800,-75.0000],
-    [45.2300,-75.0500],
-    [45.3500,-75.1500],
-    [45.4230,-75.6950], // Ottawa Union
+  // CN SMITHS FALLS SUB: Ottawa → Smiths Falls → Napanee (joins Kingston Sub)
+  // This is the actual CN alignment — runs SW from Ottawa through Smiths Falls to Napanee
+  const cnSmithsFallsPts = [
+    [45.4230,-75.6950], // Ottawa
+    [45.3500,-75.7500],
+    [45.2000,-75.9000],
+    [45.1000,-76.0000],
+    [44.9000,-76.0200], // Smiths Falls ★
+    [44.7500,-76.5000], // Perth area
+    [44.5500,-76.7500],
+    [44.2500,-76.9500], // Napanee (joins Kingston Sub)
   ];
-  L.polyline(ottawaPts, { color:'#f0b84a', weight:2.5, opacity:0.8, dashArray:'5 5' })
-   .addTo(map).bindPopup('<b>CN Smiths Falls Subdivision</b><br>Brockville · Smiths Falls · Ottawa<br>Via Rail Toronto–Ottawa corridor');
+  L.polyline(cnSmithsFallsPts, { color:'#f0b84a', weight:2.5, opacity:0.8, dashArray:'5 5' })
+   .addTo(map).bindPopup('<b>CN Smiths Falls Subdivision</b><br>Ottawa · Smiths Falls · Napanee<br>Joins Kingston Sub at Napanee · Track Side Mike territory');
+
+  // VIA BROCKVILLE SUB: Smiths Falls → Brockville (joins Kingston Sub)
+  // Formerly CP Brockville Sub — acquired by VIA Rail 2015
+  // This completes the Toronto–Ottawa passenger route via Brockville
+  const viaSmithsFallsBrockvillePts = [
+    [44.9000,-76.0200], // Smiths Falls
+    [44.8000,-75.8000],
+    [44.7000,-75.6500],
+    [44.5800,-75.7000], // Brockville (joins CN Kingston Sub)
+  ];
+  L.polyline(viaSmithsFallsBrockvillePts, { color:'#f0b84a', weight:2, opacity:0.7, dashArray:'3 6' })
+   .addTo(map).bindPopup('<b>VIA Brockville Subdivision</b><br>Smiths Falls · Brockville<br>Formerly CP · VIA-owned since 2015<br>Toronto–Ottawa passenger route connection');
 
   // CN BALA SUB: Toronto → Barrie → Parry Sound → Sudbury
   const balaPts = [
@@ -1025,6 +1038,25 @@ function renderMap() {
     'Major freight interchange point · Via Rail hub'
   );
 
+  // Smiths Falls — major Eastern Ontario rail junction
+  L.circleMarker([44.9000,-76.0200], {
+    radius: 7, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.85, weight:1.5
+  }).addTo(map).bindPopup(
+    '<b>Smiths Falls</b><br>' +
+    'Junction: CN Smiths Falls Sub · VIA Brockville Sub · CP Winchester/Belleville Subs<br>' +
+    'Track Side Mike primary filming location<br>' +
+    '<small>Railway Museum of Eastern Ontario located here</small>'
+  );
+
+  // Napanee — CN Smiths Falls Sub meets Kingston Sub
+  L.circleMarker([44.2500,-76.9500], {
+    radius: 5, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.7, weight:1.5
+  }).addTo(map).bindPopup(
+    '<b>Napanee</b><br>' +
+    'CN Smiths Falls Sub joins CN Kingston Sub here<br>' +
+    'Key interchange point on Toronto–Ottawa freight routing'
+  );
+
   // Ottawa
   L.circleMarker([45.4230,-75.6950], {
     radius: 6, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.8, weight:1.5
@@ -1074,7 +1106,9 @@ function renderMap() {
       <div style="color:#e8ede9;font-weight:600;margin-bottom:4px;letter-spacing:.08em;font-size:10px;text-transform:uppercase;">Corridors</div>
       <div><span style="color:#c8f04a">━━</span> CN Dundas / Oakville Sub <span style="color:#c8f04a;font-size:9px">PILOT</span></div>
       <div><span style="color:#4ac8a0">╌╌</span> CN Chatham Sub</div>
-      <div><span style="color:#f0b84a">╌╌</span> CN Kingston / Ottawa Sub</div>
+      <div><span style="color:#f0b84a">╌╌</span> CN Kingston Sub (Toronto–Montreal)</div>
+      <div><span style="color:#f0b84a">╌╌</span> CN Smiths Falls Sub (Ottawa–Napanee)</div>
+      <div><span style="color:#f0b84a">╌╌╌</span> VIA Brockville Sub (Smiths Falls–Brockville)</div>
       <div><span style="color:#f0b84a">╌╌</span> CN Halton Sub</div>
       <div><span style="color:#8a7af0">╌╌</span> CN Bala Sub (Northern ON)</div>
       <div><span style="color:#f04a9a">╌╌</span> CPKC Galt Sub</div>
@@ -1095,7 +1129,7 @@ function renderCorridors() {
     { id:'dundas_sub',   name:'CN Dundas / Oakville Sub',   route:'Windsor · London · Hamilton · Toronto (lakeshore)', badge:'PILOT',   cls:'',          active:true  },
     { id:'chatham_sub',  name:'CN Chatham Subdivision',      route:'Windsor · Chatham · Sarnia — Chemical Valley',      badge:'PLANNED', cls:'secondary', active:false },
     { id:'kingston_sub', name:'CN Kingston Subdivision',     route:'Toronto · Oshawa · Kingston · Brockville · Montreal',badge:'PLANNED', cls:'tertiary',  active:false },
-    { id:'ottawa_sub',   name:'CN Smiths Falls Subdivision', route:'Brockville · Smiths Falls · Ottawa',                badge:'PLANNED', cls:'tertiary',  active:false },
+    { id:'ottawa_sub',   name:'CN Smiths Falls / VIA Brockville Sub', route:'Ottawa · Smiths Falls · Napanee / Smiths Falls · Brockville', badge:'PLANNED', cls:'tertiary', active:false },
     { id:'halton_sub',   name:'CN Halton Subdivision',       route:'Toronto · Brampton · Georgetown · Burlington',      badge:'PLANNED', cls:'tertiary',  active:false },
     { id:'bala_sub',     name:'CN Bala Subdivision',         route:'Toronto · Barrie · Parry Sound · Sudbury',          badge:'PLANNED', cls:'secondary', active:false },
     { id:'galt_sub',     name:'CPKC Galt Subdivision',       route:'Toronto · Guelph · Kitchener · London · Windsor',   badge:'PLANNED', cls:'tertiary',  active:false },
