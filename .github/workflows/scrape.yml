@@ -1,59 +1,46 @@
-name: RailWatch — daily data scrape
+name: RailWatch Daily Scrape
 
 on:
   schedule:
-    # 06:00 UTC daily (02:00 EDT) — after Monday morning Trackside Ontario uploads
-    - cron: "0 6 * * *"
+    - cron: '0 6 * * *'
   workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
-      - name: Checkout main branch
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install -r scraper/requirements.txt
 
-      - name: Run core scraper
-        run: python scraper/railwatch_scraper.py
+      - name: Run camera scraper
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scraper/railwatch_cameras.py
 
-      - name: Run camera scraper (511on)
-        run: |
-          python scraper/railwatch_cameras.py || echo "Camera scraper: 511on unavailable"
-
-      - name: Run YouTube scraper
+      - name: Run YouTube scraper (RECOVERY — 30 days)
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ENABLE_VISION: "true"
-        run: python scraper/railwatch_youtube.py 7
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FACILITIES_PAT: ${{ secrets.FACILITIES_PAT }}
+        run: python scraper/railwatch_youtube.py 30
 
       - name: Run correlation engine
-        run: |
-          python scraper/railwatch_correlate.py || echo "Correlation engine: no matches yet"
+        run: python scraper/railwatch_correlate.py
 
-      - name: Commit and push data
+      - name: Commit updated data
         run: |
-          git config user.name  "RailWatch Bot"
-          git config user.email "bot@criticalto.ca"
-          echo "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > last_run.txt
-          git add railwatch_data_latest.json \
-                  railwatch_data_*.json \
-                  railwatch_tdg.json \
-                  railwatch_youtube_latest.json \
-                  seen_videos.json \
-                  railwatch_correlations.json \
-                  railwatch_cameras.json \
-                  last_run.txt
-          git diff --cached --quiet || git commit -m "data: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git config user.name "RailWatch Bot"
+          git config user.email "railwatch@criticalto.ca"
+          git add data/
+          git diff --cached --quiet || git commit -m "RailWatch data update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
