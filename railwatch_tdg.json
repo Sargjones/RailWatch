@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-06-15T00:33:23.716466Z",
+  "record_count": 0,
+  "class_labels": {
+    "1": "Explosive",
+    "1.1": "Explosive \u2014 mass explosion hazard",
+    "1.2": "Explosive \u2014 projection hazard",
+    "1.3": "Explosive \u2014 fire hazard",
+    "1.4": "Explosive \u2014 minor hazard",
+    "2.1": "Flammable gas",
+    "2.2": "Non-flammable, non-toxic gas",
+    "2.3": "Toxic gas",
+    "3": "Flammable liquid",
+    "4.1": "Flammable solid",
+    "4.2": "Spontaneously combustible",
+    "4.3": "Dangerous when wet",
+    "5.1": "Oxidizer",
+    "5.2": "Organic peroxide",
+    "6.1": "Toxic",
+    "6.2": "Infectious substance",
+    "7": "Radioactive",
+    "8": "Corrosive",
+    "9": "Miscellaneous dangerous goods"
+  },
+  "records": []
+}
