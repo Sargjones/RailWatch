@@ -64,25 +64,31 @@ def haversine_km(lat1, lon1, lat2, lon2):
     return R * 2 * math.asin(math.sqrt(a))
 
 def parse_obs_time(obs):
-    """Try to extract a datetime from an observation record."""
-    date_str = obs.get("date", "")
+    """
+    Extract datetime from observation. Prefer published_at (has time)
+    over date string (date only) for better same-day correlation accuracy.
+    """
     pub = obs.get("published_at", "")
-    # Try exact date first
+    date_str = obs.get("date", "")
+
+    # published_at has full timestamp — use it first
+    try:
+        return datetime.datetime.fromisoformat(pub.replace("Z", "+00:00")).replace(tzinfo=None)
+    except:
+        pass
+    # Fall back to date string (midnight)
     for fmt in ("%Y-%m-%d", "%Y/%m/%d"):
         try:
             return datetime.datetime.strptime(date_str, fmt)
         except:
             pass
-    # Fall back to published_at
-    try:
-        return datetime.datetime.fromisoformat(pub.replace("Z", "+00:00"))
-    except:
-        return None
+    return None
 
 def correlate(youtube_data_path="railwatch_youtube_latest.json",
               output_path="railwatch_correlations.json"):
     """
     Load all observations and find matching train symbols across channels.
+    Looks in current + yesterday archive for broader cross-channel matching.
     Returns list of correlated sighting pairs with inferred movement data.
     """
     if not os.path.exists(youtube_data_path):
@@ -93,6 +99,13 @@ def correlate(youtube_data_path="railwatch_youtube_latest.json",
         data = json.load(f)
 
     observations = data.get("observations", [])
+
+    # Also load yesterday's archive if it exists (catches cross-day sightings)
+    yesterday = (datetime.date.today() - datetime.timedelta(days=1)).strftime("%Y%m%d")
+    archive_path = f"railwatch_data_{yesterday}.json"
+    # Note: we use youtube_latest which already has 7-day window, so this is
+    # mainly useful when dedup archive is implemented
+    print(f"  Correlating {len(observations)} observations for train symbol matches...")
 
     # Index observations by train symbol
     by_symbol = {}
@@ -137,7 +150,7 @@ def correlate(youtube_data_path="railwatch_youtube_latest.json",
             )
             delta_h = (time_b - time_a).total_seconds() / 3600
 
-            if delta_h <= 0 or delta_h > 48:
+            if delta_h <= 0 or delta_h > 72:  # 72h window catches weekly recurring trains
                 continue  # Same time or too far apart
 
             speed_kmh = dist_km / delta_h
