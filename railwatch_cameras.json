@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-06-15T18:48:39.199053Z",
+  "generated_at": "2026-06-15T19:15:28.942096Z",
   "source": "Ontario 511 Developer API (511on.ca)",
   "total_cameras": 181,
-  "enabled_cameras": 0,
+  "enabled_cameras": 181,
   "radius_km": 2.5,
   "by_corridor": {
     "CN Bala Sub": {
       "total": 14,
-      "enabled": 0
+      "enabled": 14
     },
     "CN Chatham Sub": {
       "total": 11,
-      "enabled": 0
+      "enabled": 11
     },
     "CN Dundas / Oakville Sub": {
       "total": 23,
-      "enabled": 0
+      "enabled": 23
     },
     "CN Halton Sub": {
       "total": 65,
-      "enabled": 0
+      "enabled": 65
     },
     "CN Kingston Sub": {
       "total": 56,
-      "enabled": 0
+      "enabled": 56
     },
     "CN Smiths Falls Sub": {
       "total": 12,
-      "enabled": 0
+      "enabled": 12
     }
   },
   "cameras": [
@@ -37,11 +37,12 @@
       "roadway": "Highway 69",
       "lat": 45.54801,
       "lon": -80.2805,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2121",
+      "view_desc": "Looking South",
+      "view_count": 2,
       "corridor": "CN Bala Sub",
       "dist_km": 0.26,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 340,
@@ -49,11 +50,12 @@
       "roadway": "Highway 401",
       "lat": 43.752745,
       "lon": -79.408364,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/700",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Bala Sub",
       "dist_km": 0.29,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1368,
@@ -61,11 +63,12 @@
       "roadway": "Highway 9",
       "lat": 44.049166,
       "lon": -79.506098,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2769",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Bala Sub",
       "dist_km": 0.33,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 341,
@@ -73,11 +76,12 @@
       "roadway": "Highway 401",
       "lat": 43.758139,
       "lon": -79.399695,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/701",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Bala Sub",
       "dist_km": 0.5,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1367,
@@ -85,11 +89,12 @@
       "roadway": "Highway 9",
       "lat": 44.052623,
       "lon": -79.49084,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2768",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Bala Sub",
       "dist_km": 0.99,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 339,
@@ -97,11 +102,12 @@
       "roadway": "Highway 401",
       "lat": 43.746483,
       "lon": -79.416261,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/699",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Bala Sub",
       "dist_km": 1.04,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 696,
@@ -109,11 +115,12 @@
       "roadway": "Highway 69",
       "lat": 46.22526,
       "lon": -80.77061,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1293",
+      "view_desc": "Looking South",
+      "view_count": 3,
       "corridor": "CN Bala Sub",
       "dist_km": 1.38,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 83,
@@ -121,11 +128,12 @@
       "roadway": "Highway 17",
       "lat": 46.43512,
       "lon": -80.96954,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/243",
+      "view_desc": "Looking East",
+      "view_count": 3,
       "corridor": "CN Bala Sub",
       "dist_km": 1.53,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 342,
@@ -133,11 +141,12 @@
       "roadway": "Highway 401",
       "lat": 43.762571,
       "lon": -79.387207,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/702",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Bala Sub",
       "dist_km": 1.58,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 338,
@@ -145,11 +154,12 @@
       "roadway": "Highway 401",
       "lat": 43.741895,
       "lon": -79.422741,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/698",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Bala Sub",
       "dist_km": 1.64,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1366,
@@ -157,11 +167,12 @@
       "roadway": "Highway 9",
       "lat": 44.054858,
       "lon": -79.48044,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2767",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Bala Sub",
       "dist_km": 1.89,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 842,
@@ -169,11 +180,12 @@
       "roadway": "Don Valley Parkway",
       "lat": 43.681483,
       "lon": -79.362998,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1493",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Bala Sub",
       "dist_km": 2.03,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 695,
@@ -181,11 +193,12 @@
       "roadway": "Highway 69",
       "lat": 46.10071,
       "lon": -80.6647,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1290",
+      "view_desc": "Looking South",
+      "view_count": 3,
       "corridor": "CN Bala Sub",
       "dist_km": 2.22,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1369,
@@ -193,11 +206,12 @@
       "roadway": "Highway 9",
       "lat": 44.043355,
       "lon": -79.530259,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2770",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Bala Sub",
       "dist_km": 2.44,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 865,
@@ -205,11 +219,12 @@
       "roadway": "City of Windsor",
       "lat": 42.320357,
       "lon": -83.019037,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1516",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Chatham Sub",
       "dist_km": 0.08,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 866,
@@ -217,11 +232,12 @@
       "roadway": "City of Windsor",
       "lat": 42.316942,
       "lon": -83.028548,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1517",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Chatham Sub",
       "dist_km": 0.08,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 871,
@@ -229,11 +245,12 @@
       "roadway": "City of Windsor",
       "lat": 42.315525,
       "lon": -83.032557,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1522",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Chatham Sub",
       "dist_km": 0.08,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 873,
@@ -241,11 +258,12 @@
       "roadway": "City of Windsor",
       "lat": 42.323762,
       "lon": -83.008392,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1524",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Chatham Sub",
       "dist_km": 0.12,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 864,
@@ -253,11 +271,12 @@
       "roadway": "City of Windsor",
       "lat": 42.312456,
       "lon": -83.033547,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1515",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Chatham Sub",
       "dist_km": 0.35,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 872,
@@ -265,11 +284,12 @@
       "roadway": "City of Windsor",
       "lat": 42.305264,
       "lon": -83.03093,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1523",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Chatham Sub",
       "dist_km": 1.18,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 645,
@@ -277,11 +297,12 @@
       "roadway": "Highway 40",
       "lat": 42.888202,
       "lon": -82.414254,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1158",
+      "view_desc": "Looking North",
+      "view_count": 4,
       "corridor": "CN Chatham Sub",
       "dist_km": 1.39,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1223,
@@ -289,11 +310,12 @@
       "roadway": "Highway 402",
       "lat": 42.988074,
       "lon": -82.404456,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2414",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Chatham Sub",
       "dist_km": 1.52,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1224,
@@ -301,11 +323,12 @@
       "roadway": "Highway 402",
       "lat": 42.98769,
       "lon": -82.398469,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2415",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Chatham Sub",
       "dist_km": 1.59,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 875,
@@ -313,11 +336,12 @@
       "roadway": "City of Windsor",
       "lat": 42.296601,
       "lon": -83.025399,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1526",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Chatham Sub",
       "dist_km": 2.27,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 876,
@@ -325,11 +349,12 @@
       "roadway": "City of Windsor",
       "lat": 42.298083,
       "lon": -83.017286,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1527",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Chatham Sub",
       "dist_km": 2.41,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1402,
@@ -337,11 +362,12 @@
       "roadway": "Highway 401",
       "lat": 43.048595,
       "lon": -80.824218,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2822",
+      "view_desc": "Looking West",
+      "view_count": 4,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 0.01,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 784,
@@ -349,11 +375,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.642397,
       "lon": -79.379105,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1435",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 0.02,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 807,
@@ -361,11 +388,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.643278,
       "lon": -79.378028,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1458",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 0.12,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 808,
@@ -373,11 +401,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.64098,
       "lon": -79.38106,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1459",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 0.16,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 860,
@@ -385,11 +414,12 @@
       "roadway": "City of Windsor",
       "lat": 42.316857,
       "lon": -83.036187,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1511",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 0.19,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 217,
@@ -397,11 +427,12 @@
       "roadway": "QEW",
       "lat": 43.284453,
       "lon": -79.787521,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/577",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 0.3,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 832,
@@ -409,11 +440,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.640341,
       "lon": -79.383321,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1483",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 0.36,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 785,
@@ -421,11 +453,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.639379,
       "lon": -79.387173,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1436",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 0.68,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1358,
@@ -433,11 +466,12 @@
       "roadway": "Highway 403",
       "lat": 43.164398,
       "lon": -80.246743,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2749",
+      "view_desc": "Looking East",
+      "view_count": 4,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 0.68,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 809,
@@ -445,11 +479,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.639447,
       "lon": -79.387213,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1460",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 0.69,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 669,
@@ -457,11 +492,12 @@
       "roadway": "Highway 403",
       "lat": 43.17001,
       "lon": -80.29603,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1222",
+      "view_desc": "Looking East",
+      "view_count": 3,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 1.0,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 640,
@@ -469,11 +505,12 @@
       "roadway": "Highway 24",
       "lat": 43.135,
       "lon": -80.36613,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1144",
+      "view_desc": "Looking South",
+      "view_count": 2,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 1.27,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 542,
@@ -481,11 +518,12 @@
       "roadway": "Highway 401",
       "lat": 42.936192,
       "lon": -81.177893,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/902",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 1.49,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 218,
@@ -493,11 +531,12 @@
       "roadway": "QEW",
       "lat": 43.294075,
       "lon": -79.793444,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/578",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 1.5,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 668,
@@ -505,11 +544,12 @@
       "roadway": "Highway 403",
       "lat": 43.167034,
       "lon": -80.342285,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1219",
+      "view_desc": "Looking West",
+      "view_count": 3,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 1.67,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 658,
@@ -517,11 +557,12 @@
       "roadway": "Highway 401",
       "lat": 43.02511,
       "lon": -80.85676,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1194",
+      "view_desc": "Looking West",
+      "view_count": 2,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 1.7,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1326,
@@ -529,11 +570,12 @@
       "roadway": "Highway 403",
       "lat": 43.171507,
       "lon": -80.170211,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2668",
+      "view_desc": "Looking East",
+      "view_count": 3,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 1.78,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 541,
@@ -541,11 +583,12 @@
       "roadway": "Highway 401",
       "lat": 42.922115,
       "lon": -81.211796,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/901",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 1.83,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 543,
@@ -553,11 +596,12 @@
       "roadway": "Highway 401",
       "lat": 42.941093,
       "lon": -81.139526,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/903",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 2.23,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 216,
@@ -565,11 +609,12 @@
       "roadway": "QEW",
       "lat": 43.264956,
       "lon": -79.772243,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/576",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 2.26,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 666,
@@ -577,11 +622,12 @@
       "roadway": "Highway 402",
       "lat": 42.890863,
       "lon": -81.296972,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1214",
+      "view_desc": "Looking East",
+      "view_count": 2,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 2.28,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1357,
@@ -589,11 +635,12 @@
       "roadway": "Highway 402",
       "lat": 42.899436,
       "lon": -81.269167,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2746",
+      "view_desc": "Looking South",
+      "view_count": 3,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 2.31,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1198,
@@ -601,11 +648,12 @@
       "roadway": "Highway 403",
       "lat": 43.21133,
       "lon": -79.96817,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2366",
+      "view_desc": "Looking South",
+      "view_count": 3,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 2.44,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 490,
@@ -613,11 +661,12 @@
       "roadway": "Highway 427",
       "lat": 43.6631687,
       "lon": -79.5709286,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/850",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.1,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 228,
@@ -625,11 +674,12 @@
       "roadway": "QEW",
       "lat": 43.350991,
       "lon": -79.804387,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/588",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.13,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 321,
@@ -637,11 +687,12 @@
       "roadway": "Highway 401",
       "lat": 43.667682,
       "lon": -79.590981,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/681",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.17,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 4,
@@ -649,11 +700,12 @@
       "roadway": "QEW",
       "lat": 43.309158,
       "lon": -79.803097,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/10",
+      "view_desc": "Fort Erie Bound",
+      "view_count": 3,
       "corridor": "CN Halton Sub",
       "dist_km": 0.27,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1390,
@@ -661,11 +713,12 @@
       "roadway": "Highway 410",
       "lat": 43.661974,
       "lon": -79.6902,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2803",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.28,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 299,
@@ -673,11 +726,12 @@
       "roadway": "Highway 401",
       "lat": 43.560619,
       "lon": -79.840502,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/659",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.29,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 320,
@@ -685,11 +739,12 @@
       "roadway": "Highway 401",
       "lat": 43.664022,
       "lon": -79.601526,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/680",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.35,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1403,
@@ -697,11 +752,12 @@
       "roadway": "QEW",
       "lat": 43.314687,
       "lon": -79.805717,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2826",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.41,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 300,
@@ -709,11 +765,12 @@
       "roadway": "Highway 401",
       "lat": 43.569023,
       "lon": -79.831159,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/660",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.56,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1391,
@@ -721,11 +778,12 @@
       "roadway": "Highway 410",
       "lat": 43.668736,
       "lon": -79.6993,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2804",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.56,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1404,
@@ -733,11 +791,12 @@
       "roadway": "QEW",
       "lat": 43.316623,
       "lon": -79.808464,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2827",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.61,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 492,
@@ -745,11 +804,12 @@
       "roadway": "Highway 427",
       "lat": 43.672593,
       "lon": -79.589511,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/852",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.73,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 491,
@@ -757,11 +817,12 @@
       "roadway": "Highway 427",
       "lat": 43.671378,
       "lon": -79.575228,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/851",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.76,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 833,
@@ -769,11 +830,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.638861,
       "lon": -79.392309,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1484",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.81,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 322,
@@ -781,11 +843,12 @@
       "roadway": "Highway 401",
       "lat": 43.672565,
       "lon": -79.58044,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/682",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.83,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 786,
@@ -793,11 +856,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.63809,
       "lon": -79.394457,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1437",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.92,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 810,
@@ -805,11 +869,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.63809,
       "lon": -79.39457,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1461",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.92,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 229,
@@ -817,11 +882,12 @@
       "roadway": "QEW",
       "lat": 43.358979,
       "lon": -79.795504,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/589",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.94,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 219,
@@ -829,11 +895,12 @@
       "roadway": "QEW",
       "lat": 43.301446,
       "lon": -79.797735,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/579",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.97,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1389,
@@ -841,11 +908,12 @@
       "roadway": "Highway 410",
       "lat": 43.656223,
       "lon": -79.682601,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2802",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 0.99,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 319,
@@ -853,11 +921,12 @@
       "roadway": "Highway 401",
       "lat": 43.65921,
       "lon": -79.612899,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/679",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.0,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 787,
@@ -865,11 +934,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.63777,
       "lon": -79.400679,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1438",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.03,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 489,
@@ -877,11 +947,12 @@
       "roadway": "Highway 427",
       "lat": 43.654211,
       "lon": -79.56861,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/849",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.07,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 834,
@@ -889,11 +960,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.636708,
       "lon": -79.399813,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1485",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.13,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 220,
@@ -901,11 +973,12 @@
       "roadway": "QEW",
       "lat": 43.299637,
       "lon": -79.797852,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/580",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.17,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 227,
@@ -913,11 +986,12 @@
       "roadway": "QEW",
       "lat": 43.342596,
       "lon": -79.819322,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/587",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.17,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 788,
@@ -925,11 +999,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.637305,
       "lon": -79.410868,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1439",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.19,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 298,
@@ -937,11 +1012,12 @@
       "roadway": "Highway 401",
       "lat": 43.551081,
       "lon": -79.851088,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/658",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.26,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 811,
@@ -949,11 +1025,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.635542,
       "lon": -79.403776,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1462",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.31,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 835,
@@ -961,11 +1038,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.63552,
       "lon": -79.407257,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1486",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.35,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 323,
@@ -973,11 +1051,12 @@
       "roadway": "Highway 401",
       "lat": 43.677525,
       "lon": -79.576936,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/683",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.42,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 837,
@@ -985,11 +1064,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.634295,
       "lon": -79.40881,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1488",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.5,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1387,
@@ -997,11 +1077,12 @@
       "roadway": "Highway 410",
       "lat": 43.652162,
       "lon": -79.677014,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2800",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.5,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 791,
@@ -1009,11 +1090,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.63825,
       "lon": -79.450143,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1442",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.52,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 301,
@@ -1021,11 +1103,12 @@
       "roadway": "Highway 401",
       "lat": 43.578749,
       "lon": -79.820293,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/661",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.55,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 151,
@@ -1033,11 +1116,12 @@
       "roadway": "Highway 401",
       "lat": 43.679,
       "lon": -79.57753,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/436",
+      "view_desc": "Looking North",
+      "view_count": 3,
       "corridor": "CN Halton Sub",
       "dist_km": 1.57,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 836,
@@ -1045,11 +1129,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.638205,
       "lon": -79.45386,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1487",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.57,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 819,
@@ -1057,11 +1142,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.638202,
       "lon": -79.455976,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1470",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.59,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1392,
@@ -1069,11 +1155,12 @@
       "roadway": "Highway 410",
       "lat": 43.677579,
       "lon": -79.705085,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2805",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.59,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1388,
@@ -1081,11 +1168,12 @@
       "roadway": "Highway 410",
       "lat": 43.651287,
       "lon": -79.675971,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2801",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.61,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 818,
@@ -1093,11 +1181,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.637321,
       "lon": -79.450137,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1469",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.62,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 789,
@@ -1105,11 +1194,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.634448,
       "lon": -79.422443,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1440",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.63,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 226,
@@ -1117,11 +1207,12 @@
       "roadway": "QEW",
       "lat": 43.339974,
       "lon": -79.824729,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/586",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.64,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 230,
@@ -1129,11 +1220,12 @@
       "roadway": "QEW",
       "lat": 43.365999,
       "lon": -79.787822,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/590",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.65,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 820,
@@ -1141,11 +1233,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.637632,
       "lon": -79.458943,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1471",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.68,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 792,
@@ -1153,11 +1246,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.637887,
       "lon": -79.462405,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1443",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.69,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 812,
@@ -1165,11 +1259,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.632711,
       "lon": -79.409948,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1463",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.69,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 224,
@@ -1177,11 +1272,12 @@
       "roadway": "QEW",
       "lat": 43.327831,
       "lon": -79.824901,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/584",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.8,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 790,
@@ -1189,11 +1285,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.634072,
       "lon": -79.43808,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1441",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.85,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 838,
@@ -1201,11 +1298,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.633242,
       "lon": -79.434875,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1489",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.9,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 821,
@@ -1213,11 +1311,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.636244,
       "lon": -79.465303,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1472",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.91,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 493,
@@ -1225,11 +1324,12 @@
       "roadway": "Highway 427",
       "lat": 43.684544,
       "lon": -79.597828,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/853",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.96,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 225,
@@ -1237,11 +1337,12 @@
       "roadway": "QEW",
       "lat": 43.336509,
       "lon": -79.828291,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/585",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.97,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 488,
@@ -1249,11 +1350,12 @@
       "roadway": "Highway 427",
       "lat": 43.645548,
       "lon": -79.56449,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/848",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.98,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 816,
@@ -1261,11 +1363,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.632021,
       "lon": -79.430317,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1467",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.99,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 817,
@@ -1273,11 +1376,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.63258,
       "lon": -79.436398,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1468",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 1.99,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 318,
@@ -1285,11 +1389,12 @@
       "roadway": "Highway 401",
       "lat": 43.651386,
       "lon": -79.628091,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/678",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 2.03,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 813,
@@ -1297,11 +1402,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.630462,
       "lon": -79.418721,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1464",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 2.03,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 815,
@@ -1309,11 +1415,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.63169,
       "lon": -79.431187,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1466",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 2.03,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 793,
@@ -1321,11 +1428,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.634918,
       "lon": -79.469738,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1444",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 2.1,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 814,
@@ -1333,11 +1441,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.630441,
       "lon": -79.427546,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1465",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 2.13,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 297,
@@ -1345,11 +1454,12 @@
       "roadway": "Highway 401",
       "lat": 43.541525,
       "lon": -79.862437,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/657",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 2.29,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 494,
@@ -1357,11 +1467,12 @@
       "roadway": "Highway 427",
       "lat": 43.688205,
       "lon": -79.601895,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/854",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 2.32,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1093,
@@ -1369,11 +1480,12 @@
       "roadway": "Highway 401",
       "lat": 43.647908,
       "lon": -79.637232,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2127",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 2.37,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 302,
@@ -1381,11 +1493,12 @@
       "roadway": "Highway 401",
       "lat": 43.587075,
       "lon": -79.811214,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/662",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Halton Sub",
       "dist_km": 2.38,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 373,
@@ -1393,11 +1506,12 @@
       "roadway": "Highway 401",
       "lat": 43.845794,
       "lon": -79.052296,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/733",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.02,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 840,
@@ -1405,11 +1519,12 @@
       "roadway": "Don Valley Parkway",
       "lat": 43.661843,
       "lon": -79.354947,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1491",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.04,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 471,
@@ -1417,11 +1532,12 @@
       "roadway": "Highway 412",
       "lat": 43.868048,
       "lon": -78.97296,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/831",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.06,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 363,
@@ -1429,11 +1545,12 @@
       "roadway": "Highway 401",
       "lat": 43.794858,
       "lon": -79.152589,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/723",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.08,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 374,
@@ -1441,11 +1558,12 @@
       "roadway": "Highway 401",
       "lat": 43.848084,
       "lon": -79.040623,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/734",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.08,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 372,
@@ -1453,11 +1571,12 @@
       "roadway": "Highway 401",
       "lat": 43.841832,
       "lon": -79.061995,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/732",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.12,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 376,
@@ -1465,11 +1584,12 @@
       "roadway": "Highway 401",
       "lat": 43.854373,
       "lon": -79.015844,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/736",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.14,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1217,
@@ -1477,11 +1597,12 @@
       "roadway": "Wolfe Island Ferry",
       "lat": 44.23251622,
       "lon": -76.478539,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2404",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.18,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 375,
@@ -1489,11 +1610,12 @@
       "roadway": "Highway 401",
       "lat": 43.852169,
       "lon": -79.022083,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/735",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.19,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 364,
@@ -1501,11 +1623,12 @@
       "roadway": "Highway 401",
       "lat": 43.796995,
       "lon": -79.144135,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/724",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.21,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 377,
@@ -1513,11 +1636,12 @@
       "roadway": "Highway 401",
       "lat": 43.856968,
       "lon": -79.003502,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/737",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.22,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 365,
@@ -1525,11 +1649,12 @@
       "roadway": "Highway 401",
       "lat": 43.79969,
       "lon": -79.139714,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/725",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.23,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 366,
@@ -1537,11 +1662,12 @@
       "roadway": "Highway 401",
       "lat": 43.807031,
       "lon": -79.128385,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/726",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.24,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 368,
@@ -1549,11 +1675,12 @@
       "roadway": "Highway 401",
       "lat": 43.820347,
       "lon": -79.107313,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/728",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.28,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 371,
@@ -1561,11 +1688,12 @@
       "roadway": "Highway 401",
       "lat": 43.837932,
       "lon": -79.070406,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/731",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.28,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 806,
@@ -1573,11 +1701,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.644334,
       "lon": -79.375966,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1457",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.28,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 378,
@@ -1585,11 +1714,12 @@
       "roadway": "Highway 401",
       "lat": 43.859279,
       "lon": -78.992945,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/738",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.29,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 367,
@@ -1597,11 +1727,12 @@
       "roadway": "Highway 401",
       "lat": 43.814897,
       "lon": -79.115124,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/727",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.31,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 154,
@@ -1609,11 +1740,12 @@
       "roadway": "Highway 401",
       "lat": 43.93584,
       "lon": -78.46915,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/445",
+      "view_desc": "Looking East",
+      "view_count": 3,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.32,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 379,
@@ -1621,11 +1753,12 @@
       "roadway": "Highway 401",
       "lat": 43.861607,
       "lon": -78.9829,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/739",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.33,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 380,
@@ -1633,11 +1766,12 @@
       "roadway": "Highway 401",
       "lat": 43.864264,
       "lon": -78.970876,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/740",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.4,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1117,
@@ -1645,11 +1779,12 @@
       "roadway": "Highway 401",
       "lat": 44.02345,
       "lon": -77.90448,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2162",
+      "view_desc": "Looking West",
+      "view_count": 3,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.4,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 381,
@@ -1657,11 +1792,12 @@
       "roadway": "Highway 401",
       "lat": 43.866627,
       "lon": -78.959933,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/741",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.47,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 370,
@@ -1669,11 +1805,12 @@
       "roadway": "Highway 401",
       "lat": 43.83366,
       "lon": -79.079075,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/730",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.48,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 783,
@@ -1681,11 +1818,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.645572,
       "lon": -79.370223,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1434",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.5,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 805,
@@ -1693,11 +1831,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.64563,
       "lon": -79.369974,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1456",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.51,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 839,
@@ -1705,11 +1844,12 @@
       "roadway": "Don Valley Parkway",
       "lat": 43.656791,
       "lon": -79.352612,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1490",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.53,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 369,
@@ -1717,11 +1857,12 @@
       "roadway": "Highway 401",
       "lat": 43.829635,
       "lon": -79.088345,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/729",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.55,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 831,
@@ -1729,11 +1870,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.646365,
       "lon": -79.366433,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1482",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.65,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 830,
@@ -1741,11 +1883,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.646165,
       "lon": -79.366392,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1481",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.67,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 481,
@@ -1753,11 +1896,12 @@
       "roadway": "Highway 418",
       "lat": 43.913,
       "lon": -78.7629,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/841",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.73,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 472,
@@ -1765,11 +1909,12 @@
       "roadway": "Highway 412",
       "lat": 43.873833,
       "lon": -78.976152,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/832",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.76,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 804,
@@ -1777,11 +1922,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.647531,
       "lon": -79.361602,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1455",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.82,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 382,
@@ -1789,11 +1935,12 @@
       "roadway": "Highway 401",
       "lat": 43.866652,
       "lon": -78.947651,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/742",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.83,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 155,
@@ -1801,11 +1948,12 @@
       "roadway": "Highway 401",
       "lat": 44.00451,
       "lon": -78.02619166,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/448",
+      "view_desc": "Looking East",
+      "view_count": 3,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.86,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 782,
@@ -1813,11 +1961,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.648162,
       "lon": -79.359706,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1433",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.87,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 482,
@@ -1825,11 +1974,12 @@
       "roadway": "Highway 418",
       "lat": 43.899,
       "lon": -78.7548,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/842",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.9,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 829,
@@ -1837,11 +1987,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.649304,
       "lon": -79.35679,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1480",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 0.94,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 841,
@@ -1849,11 +2000,12 @@
       "roadway": "Don Valley Parkway",
       "lat": 43.671883,
       "lon": -79.359187,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1492",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.14,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 828,
@@ -1861,11 +2013,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.648046,
       "lon": -79.354786,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1479",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.16,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 362,
@@ -1873,11 +2026,12 @@
       "roadway": "Highway 401",
       "lat": 43.798699,
       "lon": -79.166021,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/722",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.17,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1380,
@@ -1885,11 +2039,12 @@
       "roadway": "Highway 401",
       "lat": 43.8665,
       "lon": -78.936293,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2782",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.17,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 802,
@@ -1897,11 +2052,12 @@
       "roadway": "Gardiner Expressway",
       "lat": 43.650044,
       "lon": -79.349617,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1453",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.28,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 855,
@@ -1909,11 +2065,12 @@
       "roadway": "Don Valley Parkway",
       "lat": 43.649912,
       "lon": -79.349481,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1506",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.3,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 803,
@@ -1921,11 +2078,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.651064,
       "lon": -79.347199,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1454",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.33,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 156,
@@ -1933,11 +2091,12 @@
       "roadway": "Highway 401",
       "lat": 44.07472,
       "lon": -77.7686359,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/451",
+      "view_desc": "Looking East",
+      "view_count": 3,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.39,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1204,
@@ -1945,11 +2104,12 @@
       "roadway": "Highway 401",
       "lat": 44.502015,
       "lon": -75.84073,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2377",
+      "view_desc": "Looking West",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.44,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 826,
@@ -1957,11 +2117,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.659251,
       "lon": -79.32895,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1477",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.65,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 361,
@@ -1969,11 +2130,12 @@
       "roadway": "Highway 401",
       "lat": 43.798668,
       "lon": -79.177094,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/721",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.79,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 153,
@@ -1981,11 +2143,12 @@
       "roadway": "Highway 401",
       "lat": 43.86936,
       "lon": -78.9015,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/442",
+      "view_desc": "Looking West",
+      "view_count": 3,
       "corridor": "CN Kingston Sub",
       "dist_km": 1.88,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 827,
@@ -1993,11 +2156,12 @@
       "roadway": "Lake Shore Boulevard",
       "lat": 43.662173,
       "lon": -79.314756,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1478",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 2.2,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 360,
@@ -2005,11 +2169,12 @@
       "roadway": "Highway 401",
       "lat": 43.797212,
       "lon": -79.187179,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/720",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 2.23,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 595,
@@ -2017,11 +2182,12 @@
       "roadway": "Highway 401",
       "lat": 43.965503,
       "lon": -78.333829,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1015",
+      "view_desc": "Looking West",
+      "view_count": 2,
       "corridor": "CN Kingston Sub",
       "dist_km": 2.25,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 597,
@@ -2029,11 +2195,12 @@
       "roadway": "Highway 401",
       "lat": 44.11791,
       "lon": -77.631305,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1020",
+      "view_desc": "Looking West",
+      "view_count": 3,
       "corridor": "CN Kingston Sub",
       "dist_km": 2.29,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 157,
@@ -2041,11 +2208,12 @@
       "roadway": "Highway 401",
       "lat": 44.12777,
       "lon": -77.594311,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/454",
+      "view_desc": "Looking East",
+      "view_count": 3,
       "corridor": "CN Kingston Sub",
       "dist_km": 2.34,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 845,
@@ -2053,11 +2221,12 @@
       "roadway": "Don Valley Parkway",
       "lat": 43.700544,
       "lon": -79.337805,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1496",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Kingston Sub",
       "dist_km": 2.4,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 159,
@@ -2065,11 +2234,12 @@
       "roadway": "Highway 401",
       "lat": 44.27127,
       "lon": -76.921411,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/460",
+      "view_desc": "Looking East",
+      "view_count": 3,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 0.11,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 763,
@@ -2077,11 +2247,12 @@
       "roadway": "Highway 417",
       "lat": 45.404645,
       "lon": -75.702141,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1408",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 0.32,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 762,
@@ -2089,11 +2260,12 @@
       "roadway": "Highway 417",
       "lat": 45.401146,
       "lon": -75.717132,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1407",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 0.64,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1115,
@@ -2101,11 +2273,12 @@
       "roadway": "Highway 416",
       "lat": 45.25537,
       "lon": -75.78517,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2160",
+      "view_desc": "Looking South",
+      "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 1.05,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 764,
@@ -2113,11 +2286,12 @@
       "roadway": "Highway 417",
       "lat": 45.410155,
       "lon": -75.688648,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1409",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 1.08,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 761,
@@ -2125,11 +2299,12 @@
       "roadway": "Highway 417",
       "lat": 45.3966268,
       "lon": -75.7295591,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1406",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 1.37,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 760,
@@ -2137,11 +2312,12 @@
       "roadway": "Highway 417",
       "lat": 45.386079,
       "lon": -75.737087,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1405",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 1.44,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 759,
@@ -2149,11 +2325,12 @@
       "roadway": "Highway 417",
       "lat": 45.3779,
       "lon": -75.745942,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1404",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 1.72,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 765,
@@ -2161,11 +2338,12 @@
       "roadway": "Highway 417",
       "lat": 45.41684,
       "lon": -75.67392,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1410",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 1.78,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1359,
@@ -2173,11 +2351,12 @@
       "roadway": "Highway 417",
       "lat": 45.41683,
       "lon": -75.67393,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2753",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 1.78,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 1363,
@@ -2185,11 +2364,12 @@
       "roadway": "Highway 417",
       "lat": 45.370179,
       "lon": -75.754297,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/2762",
+      "view_desc": "",
+      "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 1.99,
-      "enabled": false
+      "enabled": true
     },
     {
       "id": 604,
@@ -2197,11 +2377,12 @@
       "roadway": "Highway 401",
       "lat": 44.264669,
       "lon": -76.965783,
-      "status": "Unknown",
       "view_url": "https://511on.ca/map/Cctv/1041",
+      "view_desc": "Looking East",
+      "view_count": 4,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 2.06,
-      "enabled": false
+      "enabled": true
     }
   ]
 }
