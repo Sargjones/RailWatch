@@ -171,7 +171,7 @@ def process_cameras(raw_cameras):
             "view_url":    view_url,
             "corridor":    corridor,
             "dist_km":     round(dist_km, 2),
-            "enabled":     status.lower() == "enabled",
+            "enabled":     status.lower() in ("enabled", "active", "online", "1", "true", "on"),
         })
 
     # Sort by corridor then distance
