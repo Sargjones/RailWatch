@@ -8,7 +8,7 @@ Improvements v2:
   3. Full description fetching — details API returns complete description text
   4. Vision analysis — Claude reads thumbnails for reporting marks, placards, location
 
-Author: Sarah Jones / Critical TO
+Author: SJonesG / Critical TO
 """
 
 import os
