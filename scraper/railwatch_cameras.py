@@ -151,27 +151,33 @@ def process_cameras(raw_cameras):
         cam_id    = cam.get("Id") or cam.get("id", "")
         name      = cam.get("Name") or cam.get("Location") or cam.get("name", "")
         roadway   = cam.get("Roadway") or cam.get("RoadwayName") or cam.get("roadway", "")
-        status    = cam.get("Status") or cam.get("status", "Unknown")
-
-        # Build view URL
+        # Status is inside Views array, not on camera object
         views = cam.get("Views") or cam.get("views") or []
-        if isinstance(views, list) and views:
-            view_url = (views[0].get("Url") or views[0].get("url") or
-                       f"https://511on.ca/map/Cctv/{cam_id}")
-        else:
-            view_url = f"https://511on.ca/map/Cctv/{cam_id}"
+        enabled_views = []
+        if isinstance(views, list):
+            for v in views:
+                v_status = v.get("Status") or v.get("status", "")
+                if v_status.lower() == "enabled":
+                    enabled_views.append({
+                        "url":         v.get("Url") or v.get("url", ""),
+                        "description": v.get("Description") or v.get("description", ""),
+                    })
+
+        view_url = enabled_views[0]["url"] if enabled_views else f"https://511on.ca/map/Cctv/{cam_id}"
+        view_desc = enabled_views[0]["description"] if enabled_views else ""
 
         results.append({
-            "id":          cam_id,
-            "name":        name,
-            "roadway":     roadway,
-            "lat":         lat,
-            "lon":         lon,
-            "status":      status,
-            "view_url":    view_url,
-            "corridor":    corridor,
-            "dist_km":     round(dist_km, 2),
-            "enabled":     status.lower() in ("enabled", "active", "online", "1", "true", "on"),
+            "id":           cam_id,
+            "name":         name,
+            "roadway":      roadway,
+            "lat":          lat,
+            "lon":          lon,
+            "view_url":     view_url,
+            "view_desc":    view_desc,
+            "view_count":   len(enabled_views),
+            "corridor":     corridor,
+            "dist_km":      round(dist_km, 2),
+            "enabled":      len(enabled_views) > 0,
         })
 
     # Sort by corridor then distance
