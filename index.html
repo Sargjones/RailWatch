@@ -686,7 +686,7 @@ footer a { color: var(--accent); text-decoration: none; }
     <p>A consist averaging 65 km/h eastbound from Hamilton to Brockville (207km) would arrive in approximately
     3 hours and 10 minutes. If that consist carried tank cars at Bayview, the destination is east of Brockville —
     Montreal, or interchange to a US carrier at the border.</p>
-    <p style="margin-top:10px;color:var(--accent)">This is how we answer where the sodium hypochlorite is going.</p>
+    <p style="margin-top:10px;color:var(--accent)">This is how we answer where products of interest are going.</p>
   </div>
 </div>
 
@@ -704,8 +704,8 @@ footer a { color: var(--accent); text-decoration: none; }
       The platform exists because of a transparency gap: under Canada's Transportation of Dangerous
       Goods Act, freight railroads are only required to notify provincial fusion centres of
       dangerous goods routing — not the communities through which those trains pass. A resident
-      A community observer watching sodium hypochlorite cars roll through a CN station at midnight has no
-      legitimate path to know where those cars are going, who shipped them, or why.
+      A community observer watching tank cars roll through a CN station has no
+      legitimate path to know what products are being transported, where they are going, or who is receiving them.
     </p>
     <p style="margin-bottom:14px;">
       RailWatch does not claim to solve that gap. It documents it, contextualizes it, and
@@ -1084,7 +1084,7 @@ function renderMap() {
     radius: 8, color:'#f0b84a', fillColor:'#f0b84a', fillOpacity:0.9, weight:2
   }).addTo(map).bindPopup(
     '<b>Aldershot area — CN Dundas/Oakville Sub</b><br>' +
-    '<span style="color:#f04a4a">⚠ UN 1791 hypochlorite observed 2026-06-12 eastbound</span><br>' +
+    '<span style="color:#f04a4a">⚠ UN 1791 (Class 8 corrosive) observed 2026-06-12 eastbound</span><br>' +
     '<span style="color:#f0b84a">● Mixed manifest consist observed 2026-06-14 eastbound</span><br>' +
     '<small>PROX · AITX · TLPX · GTW (cross-border indicator)</small>'
   );
@@ -1639,7 +1639,7 @@ function renderYoutube() {
     <div class="corridor-bar">
       <div class="corridor-dot ${c.id_set ? '' : 'tertiary'}"></div>
       <div>
-        <div class="corridor-name">${c.name} <span style="font-size:11px;color:var(--muted)">${c.handle}</span></div>
+        <div class="corridor-name">${c.name}</div>
         <div class="corridor-route">${c.focus}</div>
       </div>
       <div class="corridor-badge" style="${
@@ -1691,10 +1691,12 @@ function renderCameraLayer(map) {
       weight:      1,
     }).addTo(map).bindPopup(
       `<b>${cam.name || cam.roadway}</b><br>` +
-      `${cam.roadway} · ${cam.corridor}<br>` +
-      `${cam.dist_km}km from rail corridor<br>` +
+      `${cam.roadway}<br>` +
+      `${cam.dist_km}km from ${cam.corridor}<br>` +
+      `${cam.view_desc ? cam.view_desc + '<br>' : ''}` +
+      `${cam.view_count > 1 ? cam.view_count + ' camera views available<br>' : ''}` +
       `<a href="${cam.view_url}" target="_blank" ` +
-      `style="color:#4ac8a0">▶ View live feed</a>`
+      `style="color:#4ac8a0">▶ View live feed →</a>`
     );
     cameraMarkers.push(marker);
   });
