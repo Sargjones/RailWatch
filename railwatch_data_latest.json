@@ -3,7 +3,7 @@
     "platform": "RailWatch Canada",
     "parent": "Critical TO (criticalto.ca)",
     "version": "1.0.0",
-    "generated_at": "2026-06-15T11:53:31.708655Z",
+    "generated_at": "2026-06-15T13:58:36.607632Z",
     "run_date": "2026-06-15",
     "pilot_corridor": {
       "name": "CN Dundas Subdivision",
@@ -31,10 +31,20 @@
     {
       "key": "tsb_occurrences",
       "value": {
-        "total_records": 1,
-        "dundas_sub_total": 1,
+        "total_records": 2,
+        "dundas_sub_total": 2,
         "dundas_sub_with_dg": 1,
         "dundas_sub_records": [
+          {
+            "year": "2008",
+            "subdivision": "Dundas",
+            "occurrence_type": "Derailment",
+            "dangerous_goods": false,
+            "fatalities": 0,
+            "injuries": 0,
+            "cars_derailed": 0,
+            "note": "TSB R08T0029 \u2014 Bayview Junction Mile 0.6; wheel failure at curve where Dundas and Oakville Subs join. No DG release."
+          },
           {
             "year": "1995",
             "subdivision": "Dundas",
@@ -43,7 +53,36 @@
             "fatalities": 0,
             "injuries": 0,
             "cars_derailed": 3,
-            "note": "Brantford Yard \u2014 3 butane tank cars; 9 homes evacuated (R95T0262)"
+            "note": "TSB R95T0262 \u2014 Brantford Yard; 3 butane tank cars (UN 1075) derailed; precautionary evacuations in adjacent residential area."
+          }
+        ],
+        "notable_canadian_incidents": [
+          {
+            "year": "2013",
+            "location": "Lac-M\u00e9gantic, QC",
+            "subdivision": "Sherbrooke Sub (MMA)",
+            "dangerous_goods": true,
+            "fatalities": 47,
+            "cars_derailed": 63,
+            "note": "TSB R13D0054 \u2014 Deadliest freight rail disaster in Canadian history. 72 tank cars UN 1267 crude oil; 6 million litres spilled; 47 killed; runaway train reached 104 km/h. Eliminated DOT-111 tank cars; mandatory 2-person crews."
+          },
+          {
+            "year": "2019",
+            "location": "St-Lazare, MB",
+            "subdivision": "CN Rivers Sub",
+            "dangerous_goods": true,
+            "fatalities": 0,
+            "cars_derailed": 37,
+            "note": "TSB R19W0050 \u2014 Largest crude oil release by volume. 37 TC/DOT-117R tank cars derailed; 815,000 litres UN 1267 crude oil released from 17 breached cars. Failed rail joint."
+          },
+          {
+            "year": "2024",
+            "location": "Longueuil, QC",
+            "subdivision": "CN St-Hyacinthe Sub",
+            "dangerous_goods": true,
+            "fatalities": 0,
+            "cars_derailed": 8,
+            "note": "TSB R24D0080 \u2014 8 cars derailed at Southwark Yard. DG release; safety perimeter; TC remedial measures specialists deployed."
           }
         ],
         "fallback": true
@@ -52,15 +91,15 @@
       "unit": null,
       "note": "GET https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv failed: 404 Client Error: Not Found for url: https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv",
       "status": "ok",
-      "fetched_at": "2026-06-15T11:53:29.779276Z"
+      "fetched_at": "2026-06-15T13:57:51.477596Z"
     },
     {
       "key": "tc_weekly_freight",
       "value": null,
       "source": "Transport Canada",
       "status": "error",
-      "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: 404 Client Error: Not Found for url: https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv",
-      "fetched_at": "2026-06-15T11:53:30.463141Z"
+      "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: HTTPSConnectionPool(host='tc.canada.ca', port=443): Max retries exceeded with url: /sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='tc.canada.ca', port=443) at 0x7f6590dbf190>, 'Connection to tc.canada.ca timed out. (connect timeout=30)'))",
+      "fetched_at": "2026-06-15T13:58:21.546528Z"
     },
     {
       "key": "community_observations",
@@ -87,7 +126,7 @@
       "unit": null,
       "note": "GET https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50 failed: 404 Client Error: Not Found for url: https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50",
       "status": "ok",
-      "fetched_at": "2026-06-15T11:53:30.666769Z"
+      "fetched_at": "2026-06-15T13:58:32.341002Z"
     }
   ],
   "corridor_geometry": {
@@ -902,7 +941,7 @@
     "unit": null,
     "note": null,
     "status": "ok",
-    "fetched_at": "2026-06-15T11:53:31.707729Z"
+    "fetched_at": "2026-06-15T13:58:36.606693Z"
   },
   "corridors": {
     "dundas_sub": {
