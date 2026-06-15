@@ -404,7 +404,15 @@ footer a { color: var(--accent); text-decoration: none; }
 
   <div class="section-label">Pilot corridors</div>
 
-  <div id="corridor-map"></div>
+  <div style="display:flex;align-items:center;gap:16px;margin-bottom:8px;">
+  <label style="font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;cursor:pointer;">
+    <input type="checkbox" id="cam-toggle" checked onchange="toggleCameras()"
+           style="accent-color:var(--accent2)">
+    Show MTO traffic cameras near corridors
+  </label>
+  <span id="cam-count" style="font-size:11px;color:var(--muted);font-family:var(--font-mono)"></span>
+</div>
+<div id="corridor-map"></div>
 
   <div id="corridor-list"></div>
 
@@ -1172,6 +1180,9 @@ function renderMap() {
   };
   legend.addTo(map);
 
+  // Load camera layer after map initialises
+  loadCameraLayer(map);
+
   state.map = map;
 }
 
@@ -1517,7 +1528,8 @@ function buildSeedTDG() {
 // ── INIT ──────────────────────────────────────────────────────────────────
 
 const YT_DATA_URL   = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_youtube_latest.json';
-const CORR_DATA_URL = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_correlations.json';
+const CORR_DATA_URL   = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_correlations.json';
+const CAM_DATA_URL    = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_cameras.json';
 
 const CONFIDENCE_BADGE = {
   high:   { cls:'badge-high',  label:'HIGH ★' },
@@ -1618,6 +1630,62 @@ function renderYoutube() {
         ${!c.id_set ? 'ID NEEDED' : c.active === false ? 'INACTIVE' : 'ACTIVE'}
       </div>
     </div>`).join('');
+}
+
+// ── CAMERA LAYER ─────────────────────────────────────────────────────────────
+let cameraMarkers = [];
+let cameraData    = null;
+
+async function loadCameraLayer(map) {
+  try {
+    const r = await fetch(CAM_DATA_URL + '?v=' + Date.now());
+    if (!r.ok) return;
+    cameraData = await r.json();
+    renderCameraLayer(map);
+  } catch(e) {
+    console.warn('Camera data unavailable:', e);
+  }
+}
+
+function renderCameraLayer(map) {
+  if (!cameraData || !map) return;
+  const cameras = cameraData.cameras || [];
+  const enabled = cameras.filter(c => c.enabled);
+
+  // Clear existing markers
+  cameraMarkers.forEach(m => map.removeLayer(m));
+  cameraMarkers = [];
+
+  const show = document.getElementById('cam-toggle')?.checked !== false;
+  if (!show) {
+    const el = document.getElementById('cam-count');
+    if (el) el.textContent = `${enabled.length} cameras loaded (hidden)`;
+    return;
+  }
+
+  enabled.forEach(cam => {
+    const marker = L.circleMarker([cam.lat, cam.lon], {
+      radius:      5,
+      color:       '#4ac8a0',
+      fillColor:   '#4ac8a0',
+      fillOpacity: 0.7,
+      weight:      1,
+    }).addTo(map).bindPopup(
+      `<b>${cam.name || cam.roadway}</b><br>` +
+      `${cam.roadway} · ${cam.corridor}<br>` +
+      `${cam.dist_km}km from rail corridor<br>` +
+      `<a href="${cam.view_url}" target="_blank" ` +
+      `style="color:#4ac8a0">▶ View live feed</a>`
+    );
+    cameraMarkers.push(marker);
+  });
+
+  const el = document.getElementById('cam-count');
+  if (el) el.textContent = `${enabled.length} enabled cameras near corridors`;
+}
+
+function toggleCameras() {
+  if (state.map) renderCameraLayer(state.map);
 }
 
 async function loadCorrelations() {
