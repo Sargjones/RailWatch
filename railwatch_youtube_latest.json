@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T23:58:57.256159Z",
+  "generated_at": "2026-06-15T00:17:03.744162Z",
   "days_back": 7,
-  "since": "2026-06-07T00:00:00Z",
+  "since": "2026-06-08T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -9,20 +9,21 @@
       "high": 0,
       "medium": 2,
       "low_meta": 0,
-      "dg_likely": 0
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 8,
+      "videos": 7,
       "high": 0,
       "medium": 3,
-      "low_meta": 5,
-      "dg_likely": 1
+      "low_meta": 4,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "observations": 0
+      "videos": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -30,18 +31,20 @@
       "high": 0,
       "medium": 1,
       "low_meta": 0,
-      "dg_likely": 0
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Track Side Mike",
       "videos": 5,
       "high": 0,
-      "medium": 0,
-      "low_meta": 5,
-      "dg_likely": 0
+      "medium": 5,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 4
     }
   ],
-  "total": 16,
+  "total": 15,
   "high_confidence": 0,
   "dg_likely": 1,
   "observations": [
@@ -65,7 +68,9 @@
       "un_number": null,
       "locomotives": null,
       "confidence": "medium",
-      "raw_title": "MASSIVE CPKC Intermodal Train Plows Through Poring Rain #train #railroad #shorts #subscribe #fun"
+      "raw_title": "MASSIVE CPKC Intermodal Train Plows Through Poring Rain #train #railroad #shorts #subscribe #fun",
+      "description_chars": 720,
+      "location_source": "none"
     },
     {
       "source": "youtube",
@@ -77,17 +82,19 @@
       "title": "Lets run some trains Live at the club",
       "published_at": "2026-06-14T20:04:48Z",
       "date": "2026-06-14",
-      "location": null,
-      "subdivision": null,
-      "lat": null,
-      "lon": null,
+      "location": "Smiths Falls",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 44.899,
+      "lon": -76.022,
       "direction": null,
       "commodity_type": null,
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
-      "confidence": "low",
-      "raw_title": "Lets run some trains Live at the club"
+      "confidence": "medium",
+      "raw_title": "Lets run some trains Live at the club",
+      "description_chars": 44,
+      "location_source": "channel_default"
     },
     {
       "source": "youtube",
@@ -109,7 +116,9 @@
       "un_number": null,
       "locomotives": null,
       "confidence": "medium",
-      "raw_title": "Friday Evening at Bayview \u2022 June 12, 2026"
+      "raw_title": "Friday Evening at Bayview \u2022 June 12, 2026",
+      "description_chars": 122,
+      "location_source": "extracted"
     },
     {
       "source": "youtube",
@@ -131,7 +140,9 @@
       "un_number": null,
       "locomotives": null,
       "confidence": "low",
-      "raw_title": "HUGE TRAINS OVER BRIDGE CURVING THRU THE THOMPSON CANYON!"
+      "raw_title": "HUGE TRAINS OVER BRIDGE CURVING THRU THE THOMPSON CANYON!",
+      "description_chars": 427,
+      "location_source": "none"
     },
     {
       "source": "youtube",
@@ -153,7 +164,9 @@
       "un_number": null,
       "locomotives": null,
       "confidence": "low",
-      "raw_title": "HUGE CPKC TRAIN CURVING THRU THE CANYON #youtubeshorts"
+      "raw_title": "HUGE CPKC TRAIN CURVING THRU THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "location_source": "none"
     },
     {
       "source": "youtube",
@@ -175,7 +188,9 @@
       "un_number": null,
       "locomotives": null,
       "confidence": "medium",
-      "raw_title": "COAL TRAIN THRU BEAUTIFUL BRITISH COLUMBIA #youtubeshorts"
+      "raw_title": "COAL TRAIN THRU BEAUTIFUL BRITISH COLUMBIA #youtubeshorts",
+      "description_chars": 0,
+      "location_source": "none"
     },
     {
       "source": "youtube",
@@ -187,17 +202,19 @@
       "title": "Atlas CN Blue Devil GVO #modeltrains #train #bluedevil #shorts",
       "published_at": "2026-06-12T08:00:00Z",
       "date": "2026-06-12",
-      "location": null,
-      "subdivision": null,
-      "lat": null,
-      "lon": null,
+      "location": "Smiths Falls",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 44.899,
+      "lon": -76.022,
       "direction": null,
       "commodity_type": null,
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
-      "confidence": "low",
-      "raw_title": "Atlas CN Blue Devil GVO #modeltrains #train #bluedevil #shorts"
+      "confidence": "medium",
+      "raw_title": "Atlas CN Blue Devil GVO #modeltrains #train #bluedevil #shorts",
+      "description_chars": 0,
+      "location_source": "channel_default"
     },
     {
       "source": "youtube",
@@ -219,7 +236,9 @@
       "un_number": null,
       "locomotives": null,
       "confidence": "low",
-      "raw_title": "KCS DPU PUSHING TAIL END THRU THE CANYON #youtubeshorts"
+      "raw_title": "KCS DPU PUSHING TAIL END THRU THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "location_source": "none"
     },
     {
       "source": "youtube",
@@ -241,7 +260,9 @@
       "un_number": null,
       "locomotives": null,
       "confidence": "medium",
-      "raw_title": "COAL TRAIN IN CANADA'S DESERT! #shorts"
+      "raw_title": "COAL TRAIN IN CANADA'S DESERT! #shorts",
+      "description_chars": 0,
+      "location_source": "none"
     },
     {
       "source": "youtube",
@@ -253,17 +274,19 @@
       "title": "Down at the tracks watching the Blue Devil going by on the Southend Sub #shorts #train#short",
       "published_at": "2026-06-10T08:30:15Z",
       "date": "2026-06-10",
-      "location": null,
-      "subdivision": null,
-      "lat": null,
-      "lon": null,
+      "location": "Southend Sub",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 44.8,
+      "lon": -76.1,
       "direction": null,
       "commodity_type": null,
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
-      "confidence": "low",
-      "raw_title": "Down at the tracks watching the Blue Devil going by on the Southend Sub #shorts #train#short"
+      "confidence": "medium",
+      "raw_title": "Down at the tracks watching the Blue Devil going by on the Southend Sub #shorts #train#short",
+      "description_chars": 0,
+      "location_source": "extracted"
     },
     {
       "source": "youtube",
@@ -285,7 +308,9 @@
       "un_number": null,
       "locomotives": null,
       "confidence": "medium",
-      "raw_title": "Monday Morning at Bayview \u2022 June 8, 2026"
+      "raw_title": "Monday Morning at Bayview \u2022 June 8, 2026",
+      "description_chars": 120,
+      "location_source": "extracted"
     },
     {
       "source": "youtube",
@@ -307,7 +332,9 @@
       "un_number": null,
       "locomotives": null,
       "confidence": "medium",
-      "raw_title": "MASSIVE TRAIN SNAKING THRU SHARP CURVES #shorts"
+      "raw_title": "MASSIVE TRAIN SNAKING THRU SHARP CURVES #shorts",
+      "description_chars": 0,
+      "location_source": "none"
     },
     {
       "source": "youtube",
@@ -329,7 +356,9 @@
       "un_number": null,
       "locomotives": null,
       "confidence": "low",
-      "raw_title": "TRAIN TUNNELS #shorts"
+      "raw_title": "TRAIN TUNNELS #shorts",
+      "description_chars": 0,
+      "location_source": "none"
     },
     {
       "source": "youtube",
@@ -341,17 +370,19 @@
       "title": "Scenery coming to life  \ufffc#modeltrains #train #shorts#short",
       "published_at": "2026-06-08T09:00:22Z",
       "date": "2026-06-08",
-      "location": null,
-      "subdivision": null,
-      "lat": null,
-      "lon": null,
+      "location": "Smiths Falls",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 44.899,
+      "lon": -76.022,
       "direction": null,
       "commodity_type": null,
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
-      "confidence": "low",
-      "raw_title": "Scenery coming to life  \ufffc#modeltrains #train #shorts#short"
+      "confidence": "medium",
+      "raw_title": "Scenery coming to life  \ufffc#modeltrains #train #shorts#short",
+      "description_chars": 0,
+      "location_source": "channel_default"
     },
     {
       "source": "youtube",
@@ -363,39 +394,19 @@
       "title": "Happy place down at the tracks #friendship #train #shorts",
       "published_at": "2026-06-08T01:30:25Z",
       "date": "2026-06-08",
-      "location": null,
-      "subdivision": null,
-      "lat": null,
-      "lon": null,
+      "location": "Smiths Falls",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 44.899,
+      "lon": -76.022,
       "direction": null,
       "commodity_type": null,
       "dg_likely": false,
       "un_number": null,
       "locomotives": null,
-      "confidence": "low",
-      "raw_title": "Happy place down at the tracks #friendship #train #shorts"
-    },
-    {
-      "source": "youtube",
-      "geographic_scope": "ontario",
-      "channel": "Trackside Tyson",
-      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
-      "video_id": "FJ8Z6s7-Cto",
-      "video_url": "https://www.youtube.com/watch?v=FJ8Z6s7-Cto",
-      "title": "MIXED FREIGHT OVER BRIDGE IN THE CANYON #shorts",
-      "published_at": "2026-06-07T20:30:25Z",
-      "date": "2026-06-07",
-      "location": null,
-      "subdivision": null,
-      "lat": null,
-      "lon": null,
-      "direction": null,
-      "commodity_type": null,
-      "dg_likely": false,
-      "un_number": null,
-      "locomotives": null,
-      "confidence": "low",
-      "raw_title": "MIXED FREIGHT OVER BRIDGE IN THE CANYON #shorts"
+      "confidence": "medium",
+      "raw_title": "Happy place down at the tracks #friendship #train #shorts",
+      "description_chars": 0,
+      "location_source": "channel_default"
     }
   ]
 }
