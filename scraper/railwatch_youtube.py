@@ -100,6 +100,101 @@ CHANNELS = [
         "province_filter":  True,
         "active":           True,
     },
+    # ── PENDING CHANNEL IDs — verify and set active: True ──────────────────
+    {
+        "id":               "UCQUUHzkvfoCqcTKIn6cI9yw",  # Scott's Rails / Chasing The Money Shot (verified 2026-06-15)
+        "name":             "Scott Rails (Chasing The Money Shot)",
+        "handle":           "@ScottRails",
+        "focus":            ["Bayview Junction", "CN Oakville Sub", "CN Dundas Sub"],
+        "default_location": "Bayview Junction",
+        "default_subdivision": "CN Oakville/Dundas Sub",
+        "default_lat":      43.2870,
+        "default_lon":      -79.7760,
+        "province_filter":  True,
+        "active":           True,
+    },
+    {
+        "id":               "UCJzzfzG95FxDCgeUO26FvCw",  # Rail Fans Canada (verified 2026-06-15)
+        "name":             "Rail Fans Canada",
+        "handle":           "@RailFansCanada",
+        "focus":            ["Ottawa O-Train", "GO Transit", "Ontario transit"],
+        "default_location": "Ottawa",
+        "default_subdivision": "CN Smiths Falls Sub",
+        "default_lat":      45.4230,
+        "default_lon":      -75.6950,
+        "province_filter":  True,
+        "active":           True,
+    },
+    {
+        "id":               "UCdBR6gWk5pSjXxoG7EoNMEA",  # Brockville RailFan (verified 2026-06-15)
+        "name":             "Brockville RailFan",
+        "handle":           "@BrockvilleRailFan",
+        "focus":            ["CN Kingston Sub", "VIA Rail", "Brockville"],
+        "default_location": "Brockville",
+        "default_subdivision": "CN Kingston Sub",
+        "default_lat":      44.5800,
+        "default_lon":      -75.7000,
+        "province_filter":  True,
+        "active":           True,
+    },
+    {
+        "id":               "",   # ← Ontario Northland Railfan — find ID
+        "name":             "Ontario.Northland.Railfan",
+        "handle":           "@OntarioNorthlandRailfan",
+        "focus":            ["Ontario Northland Railway", "Kirkland Lake", "Northern ON"],
+        "default_location": "Kirkland Lake",
+        "default_subdivision": "Ontario Northland Railway",
+        "default_lat":      48.1500,
+        "default_lon":      -80.0400,
+        "province_filter":  True,
+        "active":           False,
+    },
+    {
+        "id":               "UC-mYzr9LGSK7paIDZ2yWcUQ",  # Planes Trains Boats Online (verified 2026-06-15)
+        "name":             "PTBO Railfanning",
+        "handle":           "@PlanesTrainsBoatsOnline",
+        "focus":            ["CN Chatham Sub", "Sarnia", "CPKC Windsor Sub", "Great Lakes shipping"],
+        "default_location": "Sarnia",
+        "default_subdivision": "CN Chatham Sub",
+        "default_lat":      42.9744,
+        "default_lon":      -82.4058,
+        "province_filter":  True,
+        "active":           True,
+    },
+    {
+        "id":               "UCO2SFDeaIvjPycVTLQNvinw",  # MJM Productions (verified 2026-06-15)
+        "name":             "MJM Productions",
+        "handle":           "@MJMProductions",
+        "focus":            ["CN Kingston Sub", "Toronto east end", "Cedarbrae"],
+        "default_location": "Toronto",
+        "default_subdivision": "CN Kingston Sub",
+        "default_lat":      43.7500,
+        "default_lon":      -79.2500,
+        "province_filter":  True,
+        "active":           True,
+    },
+    {
+        "id":               "",   # ← Ontario Railfan (Oliver) — find ID
+        "name":             "Ontario Railfan",
+        "handle":           "@OntarioRailfan",
+        "focus":            ["Southern Ontario", "CN", "CPKC"],
+        "default_location": None,
+        "default_subdivision": None,
+        "province_filter":  True,
+        "active":           False,
+    },
+    {
+        "id":               "",   # ← Chris Wilson Sudbury — find ID
+        "name":             "Chris Wilson Sudbury Trains",
+        "handle":           "@ChrisWilsonSudbury",
+        "focus":            ["CN Bala Sub", "Sudbury", "Northern Ontario"],
+        "default_location": "Sudbury",
+        "default_subdivision": "CN Bala Sub",
+        "default_lat":      46.4900,
+        "default_lon":      -80.9900,
+        "province_filter":  True,
+        "active":           False,
+    },
 ]
 
 # ── LOCATION KEYWORDS ─────────────────────────────────────────────────────────
@@ -175,6 +270,8 @@ SUBDIVISION_PATTERNS = [
     (r'\b(strathroy\s+sub(?:division)?)\b',      {"subdivision": "CN Strathroy Sub",       "name": "CN Strathroy Sub",       "lat": 42.9600, "lon": -81.6200}),
     (r'\b(goderich\s+sub(?:division)?)\b',       {"subdivision": "CN Goderich Sub",        "name": "CN Goderich Sub",        "lat": 43.5000, "lon": -81.0000}),
     (r'\b(newmarket\s+sub(?:division)?)\b',      {"subdivision": "CN Newmarket Sub",       "name": "CN Newmarket Sub",       "lat": 44.0500, "lon": -79.4600}),
+    (r'@?silvercreeksub\b',               {"subdivision": "CN Smiths Falls Sub",    "name": "Silver Creek Sub",       "lat": 44.7500, "lon": -76.2500}),
+    (r'\b(silver\s+creek\s+sub(?:division)?)\b', {"subdivision": "CN Smiths Falls Sub", "name": "Silver Creek Sub",       "lat": 44.7500, "lon": -76.2500}),
     (r'\b(mactier\s+sub(?:division)?)\b',         {"subdivision": "CPKC MacTier Sub",       "name": "CPKC MacTier Sub",       "lat": 44.9500, "lon": -79.7300}),
     (r'\b(parry\s+sound\s+sub(?:division)?)\b',  {"subdivision": "CN Bala Sub",            "name": "CN Bala Sub (Parry Sound)","lat": 45.3500, "lon": -80.0400}),
     (r'\b(ruel\s+sub(?:division)?)\b',            {"subdivision": "CN Ruel Sub",            "name": "CN Ruel Sub",            "lat": 48.0000, "lon": -85.0000}),
