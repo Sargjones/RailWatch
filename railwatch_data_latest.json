@@ -3,7 +3,7 @@
     "platform": "RailWatch Canada",
     "parent": "Critical TO (criticalto.ca)",
     "version": "1.0.0",
-    "generated_at": "2026-06-15T00:33:29.991443Z",
+    "generated_at": "2026-06-15T00:53:34.835079Z",
     "run_date": "2026-06-15",
     "pilot_corridor": {
       "name": "CN Dundas Subdivision",
@@ -52,15 +52,15 @@
       "unit": null,
       "note": "GET https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv failed: 404 Client Error: Not Found for url: https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv",
       "status": "ok",
-      "fetched_at": "2026-06-15T00:33:27.949837Z"
+      "fetched_at": "2026-06-15T00:53:03.400423Z"
     },
     {
       "key": "tc_weekly_freight",
       "value": null,
       "source": "Transport Canada",
       "status": "error",
-      "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: 404 Client Error: Not Found for url: https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv",
-      "fetched_at": "2026-06-15T00:33:28.321711Z"
+      "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: HTTPSConnectionPool(host='tc.canada.ca', port=443): Max retries exceeded with url: /sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='tc.canada.ca', port=443) at 0x7f8a3d94ee10>, 'Connection to tc.canada.ca timed out. (connect timeout=30)'))",
+      "fetched_at": "2026-06-15T00:53:33.573772Z"
     },
     {
       "key": "community_observations",
@@ -87,7 +87,7 @@
       "unit": null,
       "note": "GET https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50 failed: 404 Client Error: Not Found for url: https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50",
       "status": "ok",
-      "fetched_at": "2026-06-15T00:33:28.517506Z"
+      "fetched_at": "2026-06-15T00:53:33.785272Z"
     }
   ],
   "corridor_geometry": {
@@ -902,7 +902,7 @@
     "unit": null,
     "note": null,
     "status": "ok",
-    "fetched_at": "2026-06-15T00:33:29.990454Z"
+    "fetched_at": "2026-06-15T00:53:34.834243Z"
   },
   "corridors": {
     "dundas_sub": {
