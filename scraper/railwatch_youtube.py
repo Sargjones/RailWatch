@@ -139,8 +139,8 @@ CHANNELS = [
         "active":           True,
     },
     {
-        "id":               "",   # ← Ontario Northland Railfan — find ID
-        "name":             "Ontario.Northland.Railfan",
+        "id":               "UC6X-uZ6i0sXin0PRKUCYkpw",  # Ontario Northland Railfan (verified 2026-06-15)
+        "name":             "Ontario Northland Railfan",
         "handle":           "@OntarioNorthlandRailfan",
         "focus":            ["Ontario Northland Railway", "Kirkland Lake", "Northern ON"],
         "default_location": "Kirkland Lake",
@@ -148,7 +148,7 @@ CHANNELS = [
         "default_lat":      48.1500,
         "default_lon":      -80.0400,
         "province_filter":  True,
-        "active":           False,
+        "active":           True,
     },
     {
         "id":               "UC-mYzr9LGSK7paIDZ2yWcUQ",  # Planes Trains Boats Online (verified 2026-06-15)
@@ -175,17 +175,17 @@ CHANNELS = [
         "active":           True,
     },
     {
-        "id":               "",   # ← Ontario Railfan (Oliver) — find ID
-        "name":             "Ontario Railfan",
+        "id":               "UCFuVf51HoTGIGdecd_JfRcw",  # Ontario Railman (verified 2026-06-15)
+        "name":             "Ontario Railman",
         "handle":           "@OntarioRailfan",
         "focus":            ["Southern Ontario", "CN", "CPKC"],
         "default_location": None,
         "default_subdivision": None,
         "province_filter":  True,
-        "active":           False,
+        "active":           True,
     },
     {
-        "id":               "",   # ← Chris Wilson Sudbury — find ID
+        "id":               "",   # ← Chris Wilson Sudbury — ID not yet found
         "name":             "Chris Wilson Sudbury Trains",
         "handle":           "@ChrisWilsonSudbury",
         "focus":            ["CN Bala Sub", "Sudbury", "Northern Ontario"],
@@ -397,6 +397,11 @@ def fetch_video_details(video_ids):
 # ─── EXTRACTION ───────────────────────────────────────────────────────────────
 
 def extract_date(text):
+    """
+    Extract a date string from text. Only returns a value if the match
+    successfully parses as a real date — never returns raw regex matches
+    that might be loco numbers or other numeric strings.
+    """
     for pattern in DATE_PATTERNS:
         m = re.search(pattern, text, re.IGNORECASE)
         if m:
@@ -407,7 +412,7 @@ def extract_date(text):
                     return datetime.datetime.strptime(raw, fmt).date().isoformat()
                 except:
                     continue
-            return raw
+            # Raw match did not parse as a date — skip it, don't return garbage
     return None
 
 def extract_location(text):
