@@ -27,6 +27,10 @@ jobs:
       - name: Run core scraper
         run: python scraper/railwatch_scraper.py
 
+      - name: Run correlation engine
+        run: |
+          python scraper/railwatch_correlate.py || echo "Correlation engine: no matches yet"
+
       - name: Run YouTube scraper
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -43,6 +47,8 @@ jobs:
                   railwatch_data_*.json \
                   railwatch_tdg.json \
                   railwatch_youtube_latest.json \
+                  seen_videos.json \
+                  railwatch_correlations.json \
                   last_run.txt
           git diff --cached --quiet || git commit -m "data: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
