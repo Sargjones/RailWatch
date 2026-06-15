@@ -3,7 +3,7 @@
     "platform": "RailWatch Canada",
     "parent": "Critical TO (criticalto.ca)",
     "version": "1.0.0",
-    "generated_at": "2026-06-15T00:17:02.043636Z",
+    "generated_at": "2026-06-15T14:27:57.938629Z",
     "run_date": "2026-06-15",
     "pilot_corridor": {
       "name": "CN Dundas Subdivision",
@@ -31,10 +31,20 @@
     {
       "key": "tsb_occurrences",
       "value": {
-        "total_records": 1,
-        "dundas_sub_total": 1,
+        "total_records": 2,
+        "dundas_sub_total": 2,
         "dundas_sub_with_dg": 1,
         "dundas_sub_records": [
+          {
+            "year": "2008",
+            "subdivision": "Dundas",
+            "occurrence_type": "Derailment",
+            "dangerous_goods": false,
+            "fatalities": 0,
+            "injuries": 0,
+            "cars_derailed": 0,
+            "note": "TSB R08T0029 \u2014 Bayview Junction Mile 0.6; wheel failure at curve where Dundas and Oakville Subs join. No DG release."
+          },
           {
             "year": "1995",
             "subdivision": "Dundas",
@@ -43,24 +53,53 @@
             "fatalities": 0,
             "injuries": 0,
             "cars_derailed": 3,
-            "note": "Brantford Yard \u2014 3 butane tank cars; 9 homes evacuated (R95T0262)"
+            "note": "TSB R95T0262 \u2014 Brantford Yard; 3 butane tank cars (UN 1075) derailed; precautionary evacuations in adjacent residential area."
+          }
+        ],
+        "notable_canadian_incidents": [
+          {
+            "year": "2013",
+            "location": "Lac-M\u00e9gantic, QC",
+            "subdivision": "Sherbrooke Sub (MMA)",
+            "dangerous_goods": true,
+            "fatalities": 47,
+            "cars_derailed": 63,
+            "note": "TSB R13D0054 \u2014 Deadliest freight rail disaster in Canadian history. 72 tank cars UN 1267 crude oil; 6 million litres spilled; 47 killed; runaway train reached 104 km/h. Eliminated DOT-111 tank cars; mandatory 2-person crews."
+          },
+          {
+            "year": "2019",
+            "location": "St-Lazare, MB",
+            "subdivision": "CN Rivers Sub",
+            "dangerous_goods": true,
+            "fatalities": 0,
+            "cars_derailed": 37,
+            "note": "TSB R19W0050 \u2014 Largest crude oil release by volume. 37 TC/DOT-117R tank cars derailed; 815,000 litres UN 1267 crude oil released from 17 breached cars. Failed rail joint."
+          },
+          {
+            "year": "2024",
+            "location": "Longueuil, QC",
+            "subdivision": "CN St-Hyacinthe Sub",
+            "dangerous_goods": true,
+            "fatalities": 0,
+            "cars_derailed": 8,
+            "note": "TSB R24D0080 \u2014 8 cars derailed at Southwark Yard. DG release; safety perimeter; TC remedial measures specialists deployed."
           }
         ],
         "fallback": true
       },
       "source": "TSB (seed \u2014 live CSV unavailable)",
       "unit": null,
-      "note": "GET https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv failed: 404 Client Error: Not Found for url: https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv",
+      "note": "GET https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv failed: HTTPSConnectionPool(host='www.bst-tsb.gc.ca', port=443): Read timed out. (read timeout=45)",
       "status": "ok",
-      "fetched_at": "2026-06-15T00:16:30.423813Z"
+      "fetched_at": "2026-06-15T14:27:56.211862Z"
     },
     {
       "key": "tc_weekly_freight",
       "value": null,
       "source": "Transport Canada",
       "status": "error",
-      "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: HTTPSConnectionPool(host='tc.canada.ca', port=443): Max retries exceeded with url: /sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='tc.canada.ca', port=443) at 0x7f269ee16210>, 'Connection to tc.canada.ca timed out. (connect timeout=30)'))",
-      "fetched_at": "2026-06-15T00:17:00.639125Z"
+      "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: 404 Client Error: Not Found for url: https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv",
+      "fetched_at": "2026-06-15T14:27:56.927459Z"
     },
     {
       "key": "community_observations",
@@ -87,7 +126,7 @@
       "unit": null,
       "note": "GET https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50 failed: 404 Client Error: Not Found for url: https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50",
       "status": "ok",
-      "fetched_at": "2026-06-15T00:17:00.914185Z"
+      "fetched_at": "2026-06-15T14:27:57.023317Z"
     }
   ],
   "corridor_geometry": {
@@ -224,80 +263,44 @@
           -80.8831155
         ],
         [
-          43.0734336,
-          -80.8531848
+          43.0877319,
+          -80.840936
         ],
         [
-          43.0877298,
-          -80.8409266
+          43.0892511,
+          -80.8392002
         ],
         [
-          43.0893111,
-          -80.8390702
+          43.1000963,
+          -80.8238625
         ],
         [
-          43.0925738,
-          -80.8344801
-        ],
-        [
-          43.1001041,
-          -80.8238669
-        ],
-        [
-          43.1063155,
-          -80.8150548
-        ],
-        [
-          43.1150354,
-          -80.7969511
-        ],
-        [
-          43.1181303,
-          -80.7893863
+          43.1062472,
+          -80.8151387
         ],
         [
           43.122296,
           -80.7793062
         ],
         [
-          43.1237534,
-          -80.7756983
+          43.1237925,
+          -80.7755858
         ],
         [
-          43.1249353,
+          43.1249344,
           -80.7710244
         ],
         [
-          43.1252844,
-          -80.7677125
+          43.1252602,
+          -80.7680844
         ],
         [
-          43.1259221,
-          -80.7578266
-        ],
-        [
-          43.1262824,
-          -80.7539493
-        ],
-        [
-          43.1267837,
-          -80.7506067
-        ],
-        [
-          43.1273793,
-          -80.7466383
-        ],
-        [
-          43.1279653,
+          43.1279555,
           -80.7428204
         ],
         [
-          43.1362495,
-          -80.6877763
-        ],
-        [
-          43.1383562,
-          -80.6737016
+          43.1362507,
+          -80.6877769
         ],
         [
           43.1407414,
@@ -789,11 +792,11 @@
         ],
         [
           43.1254983,
-          -80.7643075
+          -80.7643054
         ],
         [
-          43.1246221,
-          -80.7727213
+          43.1246235,
+          -80.7727182
         ],
         [
           43.1239256,
@@ -804,8 +807,8 @@
           -80.8863378
         ],
         [
-          43.0555681,
-          -80.8697368
+          43.0555684,
+          -80.869738
         ],
         [
           43.1400687,
@@ -856,8 +859,8 @@
           -80.8966563
         ],
         [
-          43.0479833,
-          -80.8780261
+          43.0479574,
+          -80.8780105
         ],
         [
           42.9815582,
@@ -894,6 +897,42 @@
         [
           43.1677274,
           -80.2986578
+        ],
+        [
+          43.1659393,
+          -80.2960781
+        ],
+        [
+          43.1648384,
+          -80.2948481
+        ],
+        [
+          43.1698718,
+          -80.3039634
+        ],
+        [
+          43.1693802,
+          -80.3023252
+        ],
+        [
+          43.1655286,
+          -80.2956046
+        ],
+        [
+          43.1475619,
+          -80.2575325
+        ],
+        [
+          43.1523757,
+          -80.253898
+        ],
+        [
+          43.1524811,
+          -80.2538114
+        ],
+        [
+          43.124412,
+          -80.7736453
         ]
       ],
       "point_count": 200
@@ -902,7 +941,7 @@
     "unit": null,
     "note": null,
     "status": "ok",
-    "fetched_at": "2026-06-15T00:17:02.042694Z"
+    "fetched_at": "2026-06-15T14:27:57.937628Z"
   },
   "corridors": {
     "dundas_sub": {
