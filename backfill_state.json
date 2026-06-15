@@ -1,0 +1,22 @@
+{
+  "_meta": {
+    "description": "RailWatch backfill cursor state — tracks progress per channel",
+    "maintained_by": "railwatch_backfill.py",
+    "do_not_edit_manually": true,
+    "schedule": {
+      "Jun 16": "Track Side Mike",
+      "Jun 17": "PTBO Railfanning",
+      "Jun 18": "Ontario Northland Railfan",
+      "Jun 19": "Ontario Railman",
+      "Jun 20": "Rail Fans Canada",
+      "Jun 21": "Trackside Tristan",
+      "Jun 22-23": "Scott Rails (Chasing The Money Shot)",
+      "Jun 24-25": "Trackside Tyson",
+      "Jun 26-27": "Trackside Ontario",
+      "Jun 28-29": "Southern Ontario Railfan",
+      "Jun 30-Jul 3": "MJM Productions",
+      "Jul 4-10": "Brockville RailFan",
+      "Jul 11": "PROMOTE — merge backfill into live data"
+    }
+  }
+}
