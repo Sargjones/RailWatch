@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T20:46:15.421316Z",
+  "generated_at": "2026-06-15T21:51:57.240213Z",
   "dedup_registry": {
     "total": 213,
     "by_channel": {
@@ -25,83 +25,43 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 14,
-      "skipped": 0,
-      "high": 2,
-      "medium": 12,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 32,
-      "skipped": 0,
-      "high": 0,
-      "medium": 16,
-      "low_meta": 16,
-      "dg_likely": 7,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 32
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 16,
-      "skipped": 0,
-      "high": 0,
-      "medium": 16,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 10
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Trackside Tristan",
-      "videos": 4,
-      "skipped": 0,
-      "high": 3,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 3
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Track Side Mike",
-      "videos": 16,
-      "skipped": 0,
-      "high": 0,
-      "medium": 16,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 14
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 23,
-      "skipped": 0,
-      "high": 0,
-      "medium": 23,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 23
+      "videos": 0,
+      "skipped": 23
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 8,
-      "skipped": 0,
-      "high": 0,
-      "medium": 8,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 50,
-      "skipped": 0,
-      "high": 10,
-      "medium": 40,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 50
     },
     {
       "channel": "PTBO Railfanning",
@@ -110,17 +70,12 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 50,
-      "skipped": 0,
-      "high": 2,
-      "medium": 48,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 38
+      "videos": 0,
+      "skipped": 50
     }
   ],
   "total": 213,
-  "new_this_run": 213,
+  "new_this_run": 0,
   "high_confidence": 17,
   "dg_likely": 9,
   "observations": [
