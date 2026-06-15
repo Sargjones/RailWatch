@@ -3,7 +3,7 @@
     "platform": "RailWatch Canada",
     "parent": "Critical TO (criticalto.ca)",
     "version": "1.0.0",
-    "generated_at": "2026-06-15T00:53:34.835079Z",
+    "generated_at": "2026-06-15T11:53:31.708655Z",
     "run_date": "2026-06-15",
     "pilot_corridor": {
       "name": "CN Dundas Subdivision",
@@ -52,15 +52,15 @@
       "unit": null,
       "note": "GET https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv failed: 404 Client Error: Not Found for url: https://www.bst-tsb.gc.ca/eng/stats/rail/datasets/rail_occurrence_data.csv",
       "status": "ok",
-      "fetched_at": "2026-06-15T00:53:03.400423Z"
+      "fetched_at": "2026-06-15T11:53:29.779276Z"
     },
     {
       "key": "tc_weekly_freight",
       "value": null,
       "source": "Transport Canada",
       "status": "error",
-      "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: HTTPSConnectionPool(host='tc.canada.ca', port=443): Max retries exceeded with url: /sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv (Caused by ConnectTimeoutError(<HTTPSConnection(host='tc.canada.ca', port=443) at 0x7f8a3d94ee10>, 'Connection to tc.canada.ca timed out. (connect timeout=30)'))",
-      "fetched_at": "2026-06-15T00:53:33.573772Z"
+      "error": "GET https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv failed: 404 Client Error: Not Found for url: https://tc.canada.ca/sites/default/files/2024-01/weekly-freight-rail-service-performance-data.csv",
+      "fetched_at": "2026-06-15T11:53:30.463141Z"
     },
     {
       "key": "community_observations",
@@ -87,7 +87,7 @@
       "unit": null,
       "note": "GET https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50 failed: 404 Client Error: Not Found for url: https://api.github.com/repos/Sargjones/railwatch-observations/issues?labels=observation&state=open&per_page=50",
       "status": "ok",
-      "fetched_at": "2026-06-15T00:53:33.785272Z"
+      "fetched_at": "2026-06-15T11:53:30.666769Z"
     }
   ],
   "corridor_geometry": {
@@ -224,80 +224,44 @@
           -80.8831155
         ],
         [
-          43.0734336,
-          -80.8531848
+          43.0877319,
+          -80.840936
         ],
         [
-          43.0877298,
-          -80.8409266
+          43.0892511,
+          -80.8392002
         ],
         [
-          43.0893111,
-          -80.8390702
+          43.1000963,
+          -80.8238625
         ],
         [
-          43.0925738,
-          -80.8344801
-        ],
-        [
-          43.1001041,
-          -80.8238669
-        ],
-        [
-          43.1063155,
-          -80.8150548
-        ],
-        [
-          43.1150354,
-          -80.7969511
-        ],
-        [
-          43.1181303,
-          -80.7893863
+          43.1062472,
+          -80.8151387
         ],
         [
           43.122296,
           -80.7793062
         ],
         [
-          43.1237534,
-          -80.7756983
+          43.1237925,
+          -80.7755858
         ],
         [
-          43.1249353,
+          43.1249344,
           -80.7710244
         ],
         [
-          43.1252844,
-          -80.7677125
+          43.1252602,
+          -80.7680844
         ],
         [
-          43.1259221,
-          -80.7578266
-        ],
-        [
-          43.1262824,
-          -80.7539493
-        ],
-        [
-          43.1267837,
-          -80.7506067
-        ],
-        [
-          43.1273793,
-          -80.7466383
-        ],
-        [
-          43.1279653,
+          43.1279555,
           -80.7428204
         ],
         [
-          43.1362495,
-          -80.6877763
-        ],
-        [
-          43.1383562,
-          -80.6737016
+          43.1362507,
+          -80.6877769
         ],
         [
           43.1407414,
@@ -789,11 +753,11 @@
         ],
         [
           43.1254983,
-          -80.7643075
+          -80.7643054
         ],
         [
-          43.1246221,
-          -80.7727213
+          43.1246235,
+          -80.7727182
         ],
         [
           43.1239256,
@@ -804,8 +768,8 @@
           -80.8863378
         ],
         [
-          43.0555681,
-          -80.8697368
+          43.0555684,
+          -80.869738
         ],
         [
           43.1400687,
@@ -856,8 +820,8 @@
           -80.8966563
         ],
         [
-          43.0479833,
-          -80.8780261
+          43.0479574,
+          -80.8780105
         ],
         [
           42.9815582,
@@ -894,6 +858,42 @@
         [
           43.1677274,
           -80.2986578
+        ],
+        [
+          43.1659393,
+          -80.2960781
+        ],
+        [
+          43.1648384,
+          -80.2948481
+        ],
+        [
+          43.1698718,
+          -80.3039634
+        ],
+        [
+          43.1693802,
+          -80.3023252
+        ],
+        [
+          43.1655286,
+          -80.2956046
+        ],
+        [
+          43.1475619,
+          -80.2575325
+        ],
+        [
+          43.1523757,
+          -80.253898
+        ],
+        [
+          43.1524811,
+          -80.2538114
+        ],
+        [
+          43.124412,
+          -80.7736453
         ]
       ],
       "point_count": 200
@@ -902,7 +902,7 @@
     "unit": null,
     "note": null,
     "status": "ok",
-    "fetched_at": "2026-06-15T00:53:34.834243Z"
+    "fetched_at": "2026-06-15T11:53:31.707729Z"
   },
   "corridors": {
     "dundas_sub": {
