@@ -8,7 +8,7 @@ Improvements v2:
   3. Full description fetching — details API returns complete description text
   4. Vision analysis — Claude reads thumbnails for reporting marks, placards, location
 
-Author: SJonesG / Critical TO
+Author: Sarah Jones / Critical TO
 """
 
 import os
@@ -17,6 +17,7 @@ import json
 import base64
 import datetime
 import requests
+from railwatch_dedup import load_seen, save_seen, filter_new, mark_seen, stats as dedup_stats
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 
@@ -700,20 +701,35 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
         print("  YouTube: no active channels with confirmed IDs")
         return {"status": "no_channels", "observations": []}
 
+    # Load dedup registry — skip already-processed videos
+    seen = load_seen()
+    print(f"  Dedup registry: {len(seen)} videos already processed")
+
     for channel in active_channels:
         print(f"  Fetching {channel['name']} ({channel['id']})...")
+        # Look back further to catch any missed videos — dedup prevents reprocessing
         items = fetch_channel_videos(channel["id"], max_results=50, published_after=since)
         if not items:
             print(f"    No videos in last {days_back} days")
-            channel_summaries.append({"channel": channel["name"], "videos": 0})
+            channel_summaries.append({"channel": channel["name"], "videos": 0, "skipped": 0})
             continue
 
-        # Fetch FULL details (complete descriptions) in one API call
-        video_ids = [i.get("id", {}).get("videoId") for i in items if i.get("id", {}).get("videoId")]
+        # Filter out already-seen videos — only process new ones
+        new_items, skipped = filter_new(items, seen)
+        print(f"    {len(new_items)} new, {skipped} already processed")
+
+        if not new_items:
+            channel_summaries.append({
+                "channel": channel["name"], "videos": 0, "skipped": skipped
+            })
+            continue
+
+        # Fetch FULL details for new videos only
+        video_ids = [i.get("id", {}).get("videoId") for i in new_items if i.get("id", {}).get("videoId")]
         details   = fetch_video_details(video_ids)
 
         channel_obs = []
-        for item in items:
+        for item in new_items:
             vid_id = item.get("id", {}).get("videoId")
             if not vid_id:
                 continue
@@ -721,25 +737,32 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
             detail = details.get(vid_id, item)
             obs    = parse_video(item, detail, channel)
 
-            # Vision enhancement (Priority 4)
+            # Vision enhancement — only on new videos (dedup ensures this runs once per video)
             if ENABLE_VISION:
                 desc_preview = detail.get("snippet", {}).get("description", "")[:300]
                 vision = analyse_thumbnail(vid_id, obs["raw_title"], desc_preview)
                 obs = merge_vision(obs, vision)
 
+            # Mark as processed in dedup registry
+            seen = mark_seen(vid_id, channel["name"], obs["raw_title"],
+                           obs["confidence"], seen)
+
             channel_obs.append(obs)
 
-            loc_src = obs.get("location_source", "")
-            loc_tag = f" [{loc_src}]" if loc_src != "extracted" else ""
+            loc_src  = obs.get("location_source", "")
+            loc_tag  = f" [{loc_src}]" if loc_src != "extracted" else ""
             desc_len = obs.get("description_chars", 0)
+            syms     = obs.get("train_symbols")
+            sym_tag  = f" · {syms[0]['symbol']}" if syms else ""
             print(f"    [{obs['confidence']:6}] {obs['date']} · "
-                  f"{(obs['location'] or '?') + loc_tag:<35} · "
-                  f"desc={desc_len}c · {obs['raw_title'][:40]}")
+                  f"{(obs['location'] or '?') + loc_tag:<30}"
+                  f"{sym_tag:<12} · desc={desc_len}c · {obs['raw_title'][:35]}")
 
         all_observations.extend(channel_obs)
         channel_summaries.append({
             "channel":   channel["name"],
             "videos":    len(channel_obs),
+            "skipped":   skipped,
             "high":      sum(1 for o in channel_obs if o["confidence"] == "high"),
             "medium":    sum(1 for o in channel_obs if o["confidence"] == "medium"),
             "low_meta":  sum(1 for o in channel_obs if o["confidence"] in ("low","meta")),
@@ -747,8 +770,14 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
             "defaulted": sum(1 for o in channel_obs if o.get("location_source") == "channel_default"),
         })
 
+    # Save updated dedup registry
+    save_seen(seen)
+    dedup_summary = dedup_stats(seen)
+    print(f"  Dedup registry saved: {dedup_summary['total']} total videos across all runs")
+
     payload = {
         "generated_at":    datetime.datetime.utcnow().isoformat() + "Z",
+        "dedup_registry":  dedup_summary,
         "days_back":       days_back,
         "since":           since,
         "channels":        channel_summaries,
