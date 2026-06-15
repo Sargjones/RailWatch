@@ -334,6 +334,16 @@ DATE_PATTERNS = [
 LOCO_PATTERN = re.compile(r'\b(CN|CP|CPKC|VIA)\s*(\d{3,5})\b', re.IGNORECASE)
 UN_PATTERN   = re.compile(r'\bUN\s*[#-]?(\d{4})\b', re.IGNORECASE)
 
+# Train symbol patterns — e.g. "CN Train 368", "VIA 61", "Q10831", "A41451 18"
+# CN symbols: letter(s) + digits, e.g. Q108, A414, M394, L522, X500
+# VIA symbols: train number only, e.g. VIA 61, VIA 1
+TRAIN_SYMBOL_PATTERN = re.compile(
+    r'\b(?:'
+    r'(?:CN|CP|CPKC|VIA)\s+(?:Train\s+)?(\d{2,4})'   # CN/VIA + number: "CN Train 368", "VIA 61"
+    r'|\b([A-Z]{1,2}\d{3,5}(?:\s+\d{2})?)\b'         # Symbol format: Q108, A41451, M39431 18
+    r')', re.IGNORECASE
+)
+
 # ─── YOUTUBE API ──────────────────────────────────────────────────────────────
 
 YT_BASE = "https://www.googleapis.com/youtube/v3"
@@ -445,6 +455,35 @@ def extract_un(text):
     m = UN_PATTERN.search(text)
     return m.group(1) if m else None
 
+def extract_train_symbols(text):
+    """
+    Extract train symbols and numbers from title/description.
+    Returns list of dicts: {road, number, symbol, raw}
+    e.g. "CN Train 368 Eastbound" → [{road:'CN', number:'368', symbol:'CN 368'}]
+    """
+    results = []
+    seen = set()
+    for m in TRAIN_SYMBOL_PATTERN.finditer(text):
+        raw = m.group(0).strip()
+        # Determine road from context
+        ctx = text[max(0,m.start()-10):m.start()].upper()
+        if m.group(1):  # CN/VIA + number format
+            number = m.group(1)
+            if 'VIA' in ctx:
+                road, symbol = 'VIA', f'VIA {number}'
+            elif 'CPKC' in ctx or 'CP' in ctx:
+                road, symbol = 'CPKC', f'CP {number}'
+            else:
+                road, symbol = 'CN', f'CN {number}'
+        else:           # Symbol format (Q108, A414 etc)
+            raw_sym = m.group(2).strip()
+            road, symbol = 'CN', raw_sym.upper()  # CN uses letter-based symbols
+        key = symbol.upper().replace(' ','')
+        if key not in seen and len(key) >= 4:
+            seen.add(key)
+            results.append({'road': road, 'symbol': symbol, 'raw': raw})
+    return results or None
+
 def apply_channel_defaults(obs, channel_meta):
     """
     Priority 1 improvement: if extraction found nothing, apply channel-level defaults.
@@ -484,8 +523,9 @@ def parse_video(item, detail, channel_meta):
     location  = extract_location(full_text)
     direction = extract_direction(full_text)
     commodity = extract_commodity(full_text)
-    locos     = extract_locos(full_text)
-    un_number = extract_un(full_text)
+    locos        = extract_locos(full_text)
+    un_number    = extract_un(full_text)
+    train_syms   = extract_train_symbols(full_text)
 
     # Geographic scope
     text_lower = full_text.lower()
@@ -515,10 +555,15 @@ def parse_video(item, detail, channel_meta):
         "dg_likely":        commodity["dg_likely"] if commodity else False,
         "un_number":        un_number,
         "locomotives":      locos,
+        "train_symbols":    train_syms,
         "confidence":       confidence,
         "raw_title":        title,
         "description_chars": len(description),  # diagnostic: confirms full desc received
     }
+
+    # If train symbol found with location, upgrade confidence
+    if train_syms and obs.get('location'):
+        obs['dg_candidate'] = True  # flag for future consist correlation
 
     # Apply channel defaults if extraction found no location
     obs = apply_channel_defaults(obs, channel_meta)
