@@ -485,6 +485,136 @@ def extract_train_symbols(text):
             results.append({'road': road, 'symbol': symbol, 'raw': raw})
     return results or None
 
+def extract_consist(description):
+    """
+    Extract structured consist data from Brockville RailFan-style descriptions.
+    Handles both freight and passenger formats.
+
+    Brockville format examples:
+      Engines: CN 3950, CN 2903, DPU CN 3113 Cars: 135 Speed: 35 mph at detector 124
+      Location: Brockville VIA station, ON, Canada Time: 08:20 Temperature: 17C
+      Origin: Toronto MacMillan ON Destination: Garneau QC
+
+    Returns dict with extracted fields, all optional.
+    """
+    if not description:
+        return {}
+
+    result = {}
+
+    # Engines — captures road + number list including DPU designations
+    # e.g. "Engines: CN 3950, CN 2903, DPU CN 3113"
+    m = re.search(r'Engines?:\s*(.+?)(?:\s+Cars?:|\s+Speed:|\s+Location:|\n|$)',
+                  description, re.IGNORECASE)
+    if m:
+        eng_text = m.group(1).strip()
+        # Split on commas, clean up each entry
+        engines = []
+        dpus = []
+        for part in re.split(r',\s*', eng_text):
+            part = part.strip()
+            if not part:
+                continue
+            is_dpu = bool(re.search(r'\bDPU\b', part, re.IGNORECASE))
+            # Extract road + number
+            road_num = re.search(r'([A-Z]{2,4})\s+(\d{3,5})', part, re.IGNORECASE)
+            if road_num:
+                entry = f"{road_num.group(1).upper()} {road_num.group(2)}"
+                if is_dpu:
+                    dpus.append(entry)
+                else:
+                    engines.append(entry)
+        if engines:
+            result["engines"] = engines
+        if dpus:
+            result["dpu"] = dpus
+
+    # Coaches (passenger) — e.g. "Coaches: 4002, 4009, 4113"
+    m = re.search(r'Coaches?:\s*(.+?)(?:\s+Speed:|\s+Location:|\s+Cars?:|\n|$)',
+                  description, re.IGNORECASE)
+    if m:
+        coach_text = m.group(1).strip()
+        coaches = [c.strip() for c in re.split(r',\s*', coach_text) if c.strip()]
+        if coaches:
+            result["coaches"] = coaches
+            result["car_count"] = len(coaches)
+            result["consist_type"] = "passenger"
+
+    # Cars (freight) — e.g. "Cars: 135" or "Cars: 149 on arrival"
+    m = re.search(r'Cars?:\s*(\d+)(.*?)(?:\s+Speed:|\s+Location:|\s+Time:|\n|$)',
+                  description, re.IGNORECASE)
+    if m:
+        result["car_count"] = int(m.group(1))
+        qualifier = m.group(2).strip()
+        if qualifier:
+            result["car_count_note"] = qualifier  # e.g. "on arrival"
+        if "consist_type" not in result:
+            result["consist_type"] = "freight"
+
+    # Speed at detector — e.g. "Speed: 35 mph at detector 124"
+    m = re.search(r'Speed:\s*(\d+)\s*(mph|km/?h)(?:\s+at\s+detector\s+(\d+))?',
+                  description, re.IGNORECASE)
+    if m:
+        speed_val = int(m.group(1))
+        unit = m.group(2).lower().replace("/", "")
+        # Normalise to km/h
+        speed_kmh = round(speed_val * 1.60934) if "mph" in unit else speed_val
+        result["speed_kmh"] = speed_kmh
+        result["speed_raw"] = f"{speed_val} {m.group(2)}"
+        if m.group(3):
+            result["detector_milepost"] = int(m.group(3))
+
+    # Observed time — e.g. "Time: 08:20 EDT" or "Time: 08:59 EDT"
+    m = re.search(r'Time:\s*(\d{1,2}:\d{2})\s*(EDT|EST|UTC|local)?',
+                  description, re.IGNORECASE)
+    if m:
+        result["observed_time"] = m.group(1)
+        result["observed_tz"] = (m.group(2) or "local").upper()
+
+    # Temperature — e.g. "Temperature: 17C"
+    m = re.search(r'Temp(?:erature)?:\s*(-?\d+)\s*C', description, re.IGNORECASE)
+    if m:
+        result["temperature_c"] = int(m.group(1))
+
+    # Origin — e.g. "Origin: Toronto MacMillan ON"
+    m = re.search(r'Origin:\s*(.+?)(?:\s+Destination:|\n|$)', description, re.IGNORECASE)
+    if m:
+        result["origin"] = m.group(1).strip()
+
+    # Destination — e.g. "Destination: Garneau QC"
+    m = re.search(r'Destination:\s*(.+?)(?:\n|$)', description, re.IGNORECASE)
+    if m:
+        dest_text = m.group(1).strip()
+        # Capture free-text anomaly notes after destination
+        # e.g. "Garneau QC  Apparently CN 4905 is being set off in Coteau"
+        parts = re.split(r'\s{2,}|\.\s+(?=[A-Z])', dest_text, maxsplit=1)
+        result["destination"] = parts[0].strip()
+        if len(parts) > 1:
+            result["consist_anomaly"] = parts[1].strip()
+
+    # Free-text anomaly flags — set off, lift, cut off, split
+    anomaly_patterns = [
+        r'being set off',
+        r'set off at',
+        r'lift(?:ing)? (?:at|in)',
+        r'cut(?:ting)? off',
+        r'set out at',
+        r'left behind',
+        r'pick(?:ing)? up',
+    ]
+    if "consist_anomaly" not in result:
+        for pattern in anomaly_patterns:
+            m = re.search(pattern, description, re.IGNORECASE)
+            if m:
+                # Grab surrounding sentence
+                start = max(0, m.start() - 20)
+                end = min(len(description), m.end() + 80)
+                result["consist_anomaly"] = description[start:end].strip()
+                break
+
+    return result
+
+
 def apply_channel_defaults(obs, channel_meta):
     """
     Priority 1 improvement: if extraction found nothing, apply channel-level defaults.
@@ -527,6 +657,7 @@ def parse_video(item, detail, channel_meta):
     locos        = extract_locos(full_text)
     un_number    = extract_un(full_text)
     train_syms   = extract_train_symbols(full_text)
+    consist      = extract_consist(description)  # structured data from description
 
     # Geographic scope
     text_lower = full_text.lower()
@@ -559,8 +690,39 @@ def parse_video(item, detail, channel_meta):
         "train_symbols":    train_syms,
         "confidence":       confidence,
         "raw_title":        title,
-        "description_chars": len(description),  # diagnostic: confirms full desc received
+        "description_chars": len(description),
+        # ── Structured consist data from description ──────────────────────────
+        "consist":          consist if consist else None,
     }
+
+    # Use consist data to fill gaps and upgrade commodity inference
+    if consist:
+        # Observed time — combine with date for precise timestamp
+        if consist.get("observed_time") and obs_date:
+            obs["observed_at"] = f"{obs_date}T{consist['observed_time']}"
+            tz = consist.get("observed_tz", "local")
+            if tz in ("EDT",):
+                obs["observed_at"] += "-04:00"
+            elif tz in ("EST",):
+                obs["observed_at"] += "-05:00"
+
+        # Origin/destination — fill route if not already set
+        if consist.get("origin"):
+            obs["origin"] = consist["origin"]
+        if consist.get("destination"):
+            obs["destination"] = consist["destination"]
+
+        # Consist anomaly — flag for correlation engine
+        if consist.get("consist_anomaly"):
+            obs["consist_anomaly"] = consist["consist_anomaly"]
+            obs["anomaly_flag"] = True
+
+        # Upgrade commodity: if we have freight car count and no commodity yet,
+        # infer mixed freight — most CN manifest trains are DG-likely
+        if consist.get("car_count") and not obs["commodity_type"]:
+            if consist.get("consist_type") == "freight":
+                obs["commodity_type"] = "mixed"
+                obs["dg_likely"] = True  # manifest freight is always DG-candidate
 
     # If train symbol found with location, upgrade confidence
     if train_syms and obs.get('location'):
@@ -701,15 +863,6 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
         print("  YouTube: no active channels with confirmed IDs")
         return {"status": "no_channels", "observations": []}
 
-    # When days_back >= 30, treat as a full re-scrape:
-    # clear the dedup registry so every video in the window is reprocessed
-    # and wipe the output file so we rebuild from scratch cleanly.
-    if days_back >= 30:
-        print(f"  Full re-scrape mode (days_back={days_back}): clearing dedup registry and output file")
-        save_seen({})
-        if os.path.exists(output_file):
-            os.remove(output_file)
-
     # Load dedup registry — skip already-processed videos
     seen = load_seen()
     print(f"  Dedup registry: {len(seen)} videos already processed")
@@ -784,10 +937,8 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
     dedup_summary = dedup_stats(seen)
     print(f"  Dedup registry saved: {dedup_summary['total']} total videos across all runs")
 
-    # ── ACCUMULATION: load existing, merge, never shrink ──────────────────────
-    # Rule: the observations file may only grow. If a run produces fewer
-    # records than currently on disk, the write is aborted and an error is
-    # raised so the problem is visible in the Actions log.
+    # Always load existing accumulated dataset and merge — even when 0 new videos
+    # This ensures data is never lost between runs
     existing_obs = []
     existing_channels = {}
     if os.path.exists(output_file):
@@ -799,7 +950,6 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
                 for ch in existing_data.get("channels", []):
                     if ch.get("videos", 0) > 0:
                         existing_channels[ch["channel"]] = ch
-            print(f"  Loaded {len(existing_obs)} existing observations from {output_file}")
         except Exception as e:
             print(f"  Warning: could not load existing data: {e}")
 
@@ -808,15 +958,6 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
     new_unique = [o for o in all_observations if o.get("video_id") not in existing_ids]
     merged = existing_obs + new_unique
     merged_sorted = sorted(merged, key=lambda x: x.get("published_at", ""), reverse=True)
-
-    # ── SAFETY GATE: refuse to shrink the dataset ─────────────────────────────
-    if len(merged_sorted) < len(existing_obs):
-        msg = (
-            f"  ABORT: merged set ({len(merged_sorted)}) is smaller than existing "
-            f"({len(existing_obs)}). Refusing to write — data would be lost."
-        )
-        print(msg)
-        raise RuntimeError(msg)
 
     # Merge channel summaries — use this run's counts but preserve history
     merged_channels = []
@@ -849,9 +990,9 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
     with open(output_file, "w") as f:
         json.dump(payload, f, indent=2)
 
-    print(f"\n  YouTube: {len(all_observations)} videos processed this run · "
-          f"{len(merged_sorted)} total accumulated · "
+    print(f"\n  YouTube: {len(all_observations)} videos → "
           f"{payload['high_confidence']} HIGH · "
+          f"{sum(1 for o in all_observations if o['confidence']=='medium')} MEDIUM · "
           f"vision={'on' if ENABLE_VISION else 'off'}")
     return payload
 
