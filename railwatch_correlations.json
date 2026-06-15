@@ -1,7 +1,712 @@
 {
-  "generated_at": "2026-06-15T19:25:10.791791Z",
-  "total": 0,
+  "generated_at": "2026-06-15T20:46:15.679767Z",
+  "total": 22,
   "high": 0,
   "dg_correlations": 0,
-  "correlations": []
+  "correlations": [
+    {
+      "symbol": "CN2807",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-06-11",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "video_url": "https://www.youtube.com/watch?v=HIgAhslz93w",
+        "title": "CN Train 106 Eastbound Meets CN Train 109 Westbound June 11,"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-06-12",
+        "channel": "Brockville RailFan",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=yWPJFqH9I5U",
+        "title": "CN Train 368 Lifting June 12, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.55,
+        "avg_speed_kmh": 13.2,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679415Z"
+    },
+    {
+      "symbol": "CN3950",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-06-08",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "video_url": "https://www.youtube.com/watch?v=QhqjGy9z7dY",
+        "title": "CN Train 368 Eastbound June 8, 2026"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-06-10",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "video_url": "https://www.youtube.com/watch?v=DSr85p440rI",
+        "title": "CN Train 105 Westbound June 10, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 47.95,
+        "avg_speed_kmh": 6.5,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": false
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679464Z"
+    },
+    {
+      "symbol": "CN2903",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-06-08",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "video_url": "https://www.youtube.com/watch?v=QhqjGy9z7dY",
+        "title": "CN Train 368 Eastbound June 8, 2026"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-06-10",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "video_url": "https://www.youtube.com/watch?v=DSr85p440rI",
+        "title": "CN Train 105 Westbound June 10, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 47.95,
+        "avg_speed_kmh": 6.5,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": false
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679476Z"
+    },
+    {
+      "symbol": "CN3031",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-06-08",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "video_url": "https://www.youtube.com/watch?v=drv3v3y1SIw",
+        "title": "CN Train 149 Westbound June 8, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-06-09",
+        "channel": "Brockville RailFan",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=NuAQB-xolQk",
+        "title": "CN Train 368 Lifting June 9, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 26.0,
+        "avg_speed_kmh": 12.0,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679512Z"
+    },
+    {
+      "symbol": "CN3861",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-06-08",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "video_url": "https://www.youtube.com/watch?v=drv3v3y1SIw",
+        "title": "CN Train 149 Westbound June 8, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-06-09",
+        "channel": "Brockville RailFan",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=NuAQB-xolQk",
+        "title": "CN Train 368 Lifting June 9, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 26.0,
+        "avg_speed_kmh": 12.0,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679525Z"
+    },
+    {
+      "symbol": "Z148",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "IC 2719",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=OLhJDNCvVrw",
+        "title": "IC 2719 + CN 8364 lead CN Z148 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.52,
+        "avg_speed_kmh": 7.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679572Z"
+    },
+    {
+      "symbol": "A425",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=SINkvyCXrVA",
+        "title": "CN A425 horn salute through Mansewood"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 11.68,
+        "avg_speed_kmh": 4.1,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679586Z"
+    },
+    {
+      "symbol": "A424",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=ld0yXjkfUN0",
+        "title": "CN A424 passes the mile 32.3 halton signal"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.55,
+        "avg_speed_kmh": 7.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679627Z"
+    },
+    {
+      "symbol": "CN2267",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 2267",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=0Yi5qAChnSw",
+        "title": "CN 2267 + CN 8850 + CN 2654 lead CN 421"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 11.72,
+        "avg_speed_kmh": 4.1,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679635Z"
+    },
+    {
+      "symbol": "CN8850",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 2267",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=0Yi5qAChnSw",
+        "title": "CN 2267 + CN 8850 + CN 2654 lead CN 421"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 11.72,
+        "avg_speed_kmh": 4.1,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679645Z"
+    },
+    {
+      "symbol": "CN2654",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 2267",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=0Yi5qAChnSw",
+        "title": "CN 2267 + CN 8850 + CN 2654 lead CN 421"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 11.72,
+        "avg_speed_kmh": 4.1,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679653Z"
+    },
+    {
+      "symbol": "CN905",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=nnZHTnqASt8",
+        "title": "VIA 905 P42DC heads through Speyside"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 11.64,
+        "avg_speed_kmh": 4.1,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679663Z"
+    },
+    {
+      "symbol": "CN3403",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 3403",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=5DhdGzQ4aKM",
+        "title": "CN 3403 blasting its weird horn east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.85,
+        "avg_speed_kmh": 7.0,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679673Z"
+    },
+    {
+      "symbol": "M394",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 2996",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=8Hnfdl1f9J0",
+        "title": "CN 2996 + CN 3086 lead CN M394"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.67,
+        "avg_speed_kmh": 7.2,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679685Z"
+    },
+    {
+      "symbol": "CN2996",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 2996",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=8Hnfdl1f9J0",
+        "title": "CN 2996 + CN 3086 lead CN M394"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.67,
+        "avg_speed_kmh": 7.2,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679693Z"
+    },
+    {
+      "symbol": "CN3086",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 2996",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=8Hnfdl1f9J0",
+        "title": "CN 2996 + CN 3086 lead CN M394"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.67,
+        "avg_speed_kmh": 7.2,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679700Z"
+    },
+    {
+      "symbol": "L570",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 3401",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=qUVuJAjRMBA",
+        "title": "CN 3401 + CN 3070 lead CN L570 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.63,
+        "avg_speed_kmh": 7.3,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679708Z"
+    },
+    {
+      "symbol": "CN3401",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 3401",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=qUVuJAjRMBA",
+        "title": "CN 3401 + CN 3070 lead CN L570 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.63,
+        "avg_speed_kmh": 7.3,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679715Z"
+    },
+    {
+      "symbol": "CN3070",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 3401",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=qUVuJAjRMBA",
+        "title": "CN 3401 + CN 3070 lead CN L570 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.63,
+        "avg_speed_kmh": 7.3,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679724Z"
+    },
+    {
+      "symbol": "CN72",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "VIA 6439",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=vhcfMYE60ZY",
+        "title": "VIA 6439 F40PH leads VIA 72 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.59,
+        "avg_speed_kmh": 7.3,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679732Z"
+    },
+    {
+      "symbol": "CN6439",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "VIA 6439",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=vhcfMYE60ZY",
+        "title": "VIA 6439 F40PH leads VIA 72 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.59,
+        "avg_speed_kmh": 7.3,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679740Z"
+    },
+    {
+      "symbol": "CN8364",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "IC 2719",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=OLhJDNCvVrw",
+        "title": "IC 2719 + CN 8364 lead CN Z148 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "channel": "MJM Productions",
+        "direction": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.52,
+        "avg_speed_kmh": 7.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "confidence": "low",
+      "correlated_at": "2026-06-15T20:46:15.679747Z"
+    }
+  ]
 }
