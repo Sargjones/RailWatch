@@ -31,16 +31,16 @@ jobs:
         run: |
           python scraper/railwatch_cameras.py || echo "Camera scraper: 511on unavailable"
 
-      - name: Run correlation engine
-        run: |
-          python scraper/railwatch_correlate.py || echo "Correlation engine: no matches yet"
-
       - name: Run YouTube scraper
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ENABLE_VISION: "true"
         run: python scraper/railwatch_youtube.py 7
+
+      - name: Run correlation engine
+        run: |
+          python scraper/railwatch_correlate.py || echo "Correlation engine: no matches yet"
 
       - name: Commit and push data
         run: |
