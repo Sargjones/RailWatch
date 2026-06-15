@@ -859,10 +859,16 @@ function render() {
 }
 
 function renderHeader() {
-  const meta = state.data?.meta;
-  if (!meta) return;
+  // Use the most recent timestamp across all data sources
+  const sources = [
+    state.data?.meta?.generated_at,
+    state.youtube?.generated_at,
+    state.correlations?.generated_at,
+  ].filter(Boolean).sort().reverse();
+  const ts = sources[0];
+  if (!ts) return;
   document.getElementById('last-updated').textContent =
-    'Updated: ' + (meta.generated_at || '').slice(0,16).replace('T',' ') + ' UTC';
+    'Updated: ' + ts.slice(0,16).replace('T',' ') + ' UTC';
 }
 
 // ── MAP ─────────────────────────────────────────────────────────────────
@@ -1569,8 +1575,8 @@ const CHANNELS_CONFIG = [
   { name:'Brockville RailFan',      handle:'@BrockvilleRailFan',        focus:'CN Kingston Sub / VIA Rail / Brockville',     id_set: true,  active: true  },
   { name:'PTBO Railfanning',        handle:'@PlanesTrainsBoatsOnline',   focus:'CN Chatham Sub / Sarnia / Great Lakes shipping',id_set: true, active: true  },
   { name:'MJM Productions',         handle:'@MJMProductions',            focus:'CN Kingston Sub / Toronto east end / Cedarbrae', id_set: true,  active: true  },
-  { name:'Ontario Northland Railfan',handle:'@OntarioNorthlandRailfan', focus:'Ontario Northland Railway / Northern ON',     id_set: false },
-  { name:'Ontario Railfan',         handle:'@OntarioRailfan',           focus:'Southern Ontario / CN / CPKC',               id_set: false },
+  { name:'Ontario Northland Railfan',handle:'@OntarioNorthlandRailfan', focus:'Ontario Northland Railway / Northern ON',     id_set: true,  active: true  },
+  { name:'Ontario Railman',          handle:'@OntarioRailfan',           focus:'Southern Ontario / CN / CPKC',               id_set: true,  active: true  },
   { name:'Chris Wilson Sudbury',    handle:'@ChrisWilsonSudbury',       focus:'CN Bala Sub / Sudbury / Northern Ontario',   id_set: false },
 ];
 
@@ -1580,6 +1586,7 @@ async function loadYoutube() {
     if (r.ok) {
       state.youtube = await r.json();
       renderYoutube();
+      renderHeader();  // update timestamp from youtube generated_at
     }
   } catch(e) {
     state.youtube = null;
@@ -1591,11 +1598,31 @@ function renderYoutube() {
   // Channel summary pills
   const summaryEl = document.getElementById('yt-channel-summary');
   const channels = state.youtube?.channels || [];
-  summaryEl.innerHTML = channels.map(c => `
+  // Count from accumulated observations — not new_this_run (which is 0 on non-scrape days)
+  const allObsForCount = state.youtube?.observations || [];
+  const countByChannel = {};
+  const dgByChannel = {};
+  for (const o of allObsForCount) {
+    const ch = o.channel;
+    countByChannel[ch] = (countByChannel[ch] || 0) + 1;
+    if (o.dg_likely) dgByChannel[ch] = (dgByChannel[ch] || 0) + 1;
+  }
+
+  // Build card list: use channels from JSON if available, else fall back to CHANNELS_CONFIG
+  const cardChannels = channels.length > 0
+    ? channels.map(c => c.channel)
+    : CHANNELS_CONFIG.filter(c => c.id_set !== false && c.active !== false).map(c => c.name);
+
+  const uniqueCardChannels = [...new Set([
+    ...cardChannels,
+    ...Object.keys(countByChannel)
+  ])].filter(name => countByChannel[name] > 0);
+
+  summaryEl.innerHTML = uniqueCardChannels.map(name => `
     <div class="card" style="padding:10px 14px;min-width:160px;">
-      <div class="card-title">${c.channel}</div>
-      <div class="card-value" style="font-size:28px">${c.videos || 0}</div>
-      <div class="card-sub">videos · ${c.dg_likely || 0} DG likely</div>
+      <div class="card-title">${name}</div>
+      <div class="card-value" style="font-size:28px">${countByChannel[name] || 0}</div>
+      <div class="card-sub">videos · ${dgByChannel[name] || 0} DG likely</div>
     </div>`).join('');
 
   // Observations table
