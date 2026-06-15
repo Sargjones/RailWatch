@@ -393,6 +393,7 @@ footer a { color: var(--accent); text-decoration: none; }
   <button class="nav-tab" onclick="switchTab('incidents')">Incidents</button>
   <button class="nav-tab" onclick="switchTab('observations')">Community Feed</button>
   <button class="nav-tab" onclick="switchTab('youtube')">Rail Video</button>
+  <button class="nav-tab" onclick="switchTab('correlations')">Correlations</button>
   <button class="nav-tab" onclick="switchTab('about')">About</button>
 </div>
 
@@ -618,6 +619,50 @@ footer a { color: var(--accent); text-decoration: none; }
   <div id="yt-channel-list"></div>
 </div>
 
+<!-- ══ CORRELATIONS ═════════════════════════════════════════════════ -->
+<div id="tab-correlations" class="tab-panel">
+  <div class="section-label">Consist correlation — cross-observer train tracking</div>
+  <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
+    When the same train symbol appears in videos from multiple observers at different locations,
+    RailWatch can infer transit time, speed, and direction of travel. This is the foundation
+    for tracking dangerous goods shipments across the corridor network.
+  </p>
+  <div class="grid-4" style="margin-bottom:20px;">
+    <div class="card"><div class="card-title">Total correlations</div><div class="card-value" id="corr-total">—</div><div class="card-sub">Cross-observer matches</div></div>
+    <div class="card"><div class="card-title">High confidence</div><div class="card-value" id="corr-high" style="color:var(--accent)">—</div><div class="card-sub">Speed + direction consistent</div></div>
+    <div class="card"><div class="card-title">DG-likely consists</div><div class="card-value" id="corr-dg" style="color:var(--danger)">—</div><div class="card-sub">Dangerous goods involved</div></div>
+    <div class="card"><div class="card-title">Observers contributing</div><div class="card-value" id="corr-channels">—</div><div class="card-sub">Channels with symbol data</div></div>
+  </div>
+  <div style="overflow-x:auto;">
+    <table class="incident-table" id="corr-table">
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Sighting A</th>
+          <th>Sighting B</th>
+          <th>Distance</th>
+          <th>Transit</th>
+          <th>Speed</th>
+          <th>Direction</th>
+          <th>DG?</th>
+          <th>Confidence</th>
+        </tr>
+      </thead>
+      <tbody id="corr-tbody"></tbody>
+    </table>
+  </div>
+  <div class="section-label" style="margin-top:28px;">How this works</div>
+  <div class="card" style="max-width:700px;font-size:13px;line-height:1.8;color:var(--muted);">
+    <p style="margin-bottom:10px;">Brockville RailFan titles like <span style="color:var(--text);font-family:var(--font-mono)">"CN Train 368 Eastbound June 15, 2026"</span>
+    contain train symbols. When the same symbol appears in a Bayview Junction video from Trackside Ontario
+    earlier the same day, RailWatch can calculate transit time and average speed.</p>
+    <p>A consist averaging 65 km/h eastbound from Hamilton to Brockville (207km) would arrive in approximately
+    3 hours and 10 minutes. If that consist carried tank cars at Bayview, the destination is east of Brockville —
+    Montreal, or interchange to a US carrier at the border.</p>
+    <p style="margin-top:10px;color:var(--accent)">This is how we answer where the sodium hypochlorite is going.</p>
+  </div>
+</div>
+
 <!-- ══ ABOUT ══════════════════════════════════════════════════════════ -->
 <div id="tab-about" class="tab-panel">
   <div class="section-label">About RailWatch Canada</div>
@@ -748,6 +793,7 @@ function switchTab(name) {
   if (name === 'overview' && state.map) setTimeout(() => state.map.invalidateSize(), 50);
   if (name === 'decoder') renderConsist();
   if (name === 'youtube' && !state.youtube) loadYoutube();
+  if (name === 'correlations' && !state.correlations) loadCorrelations();
 }
 
 // ── DATA LOAD ───────────────────────────────────────────────────────────
@@ -769,7 +815,8 @@ async function loadAll() {
   if (!state.tdg)  state.tdg  = buildSeedTDG();
 
   render();
-  loadYoutube(); // non-blocking — loads YouTube data after main render
+  loadYoutube();       // non-blocking
+  loadCorrelations();  // non-blocking
 }
 
 // ── RENDER ALL ──────────────────────────────────────────────────────────
@@ -1469,7 +1516,8 @@ function buildSeedTDG() {
 
 // ── INIT ──────────────────────────────────────────────────────────────────
 
-const YT_DATA_URL = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_youtube_latest.json';
+const YT_DATA_URL   = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_youtube_latest.json';
+const CORR_DATA_URL = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_correlations.json';
 
 const CONFIDENCE_BADGE = {
   high:   { cls:'badge-high',  label:'HIGH ★' },
@@ -1570,6 +1618,77 @@ function renderYoutube() {
         ${!c.id_set ? 'ID NEEDED' : c.active === false ? 'INACTIVE' : 'ACTIVE'}
       </div>
     </div>`).join('');
+}
+
+async function loadCorrelations() {
+  try {
+    const r = await fetch(CORR_DATA_URL + '?v=' + Date.now());
+    if (r.ok) {
+      state.correlations = await r.json();
+      renderCorrelations();
+    }
+  } catch(e) {
+    state.correlations = { total: 0, high: 0, dg_correlations: 0, correlations: [] };
+    renderCorrelations();
+  }
+}
+
+function renderCorrelations() {
+  const d = state.correlations;
+  if (!d) return;
+
+  setText('corr-total',    d.total || 0);
+  setText('corr-high',     d.high || 0);
+  setText('corr-dg',       d.dg_correlations || 0);
+
+  // Count unique channels contributing train symbol data
+  const chans = new Set();
+  (state.youtube?.observations || []).forEach(o => {
+    if (o.train_symbols?.length) chans.add(o.channel);
+  });
+  setText('corr-channels', chans.size || '—');
+
+  const tbody = document.getElementById('corr-tbody');
+  if (!tbody) return;
+
+  const corrs = d.correlations || [];
+  if (!corrs.length) {
+    tbody.innerHTML = `<tr><td colspan="9" class="empty">
+      No correlations yet — train symbols are being collected. Check back after more
+      observations accumulate from Brockville RailFan and other channels.
+    </td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = corrs.map(c => {
+    const t = c.transit || {};
+    const badge = c.confidence === 'high'
+      ? '<span class="badge badge-high">HIGH ★</span>'
+      : '<span class="badge badge-pg">LOW</span>';
+    return `<tr>
+      <td style="font-family:var(--font-mono);color:var(--accent);font-weight:600">${c.symbol}</td>
+      <td>
+        <a href="${c.sighting_a.video_url}" target="_blank" style="color:var(--text);text-decoration:none;">
+          <div style="font-weight:500">${c.sighting_a.location}</div>
+          <div style="font-size:11px;color:var(--muted)">${c.sighting_a.channel} · ${c.sighting_a.date}</div>
+        </a>
+      </td>
+      <td>
+        <a href="${c.sighting_b.video_url}" target="_blank" style="color:var(--text);text-decoration:none;">
+          <div style="font-weight:500">${c.sighting_b.location}</div>
+          <div style="font-size:11px;color:var(--muted)">${c.sighting_b.channel} · ${c.sighting_b.date}</div>
+        </a>
+      </td>
+      <td style="font-family:var(--font-mono);font-size:12px">${t.distance_km || '—'} km</td>
+      <td style="font-family:var(--font-mono);font-size:12px">${t.elapsed_hours || '—'} h</td>
+      <td style="font-family:var(--font-mono);font-size:12px;color:${t.speed_plausible ? 'var(--ok)' : 'var(--warn)'}">
+        ${t.avg_speed_kmh || '—'} km/h
+      </td>
+      <td style="color:var(--muted);font-size:12px">${t.inferred_direction || '—'}</td>
+      <td class="${c.dg_likely ? 'dg-yes' : 'dg-no'}">${c.dg_likely ? 'LIKELY' : 'No'}</td>
+      <td>${badge}</td>
+    </tr>`;
+  }).join('');
 }
 
 window.addEventListener('load', loadAll);
