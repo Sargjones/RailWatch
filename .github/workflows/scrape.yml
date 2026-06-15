@@ -13,15 +13,8 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout data branch (gh-pages)
+      - name: Checkout main branch
         uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-
-      - name: Checkout scraper (main branch)
-        uses: actions/checkout@v4
-        with:
-          path: scraper-src
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -32,14 +25,14 @@ jobs:
         run: pip install requests
 
       - name: Run core scraper
-        run: python scraper-src/scraper/railwatch_scraper.py
+        run: python scraper/railwatch_scraper.py
 
       - name: Run YouTube scraper
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ENABLE_VISION: "true"    # vision reads thumbnail text for location/consist data
-        run: python scraper-src/scraper/railwatch_youtube.py 7
+          ENABLE_VISION: "true"
+        run: python scraper/railwatch_youtube.py 7
 
       - name: Commit and push data
         run: |
