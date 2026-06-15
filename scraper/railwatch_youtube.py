@@ -701,6 +701,15 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
         print("  YouTube: no active channels with confirmed IDs")
         return {"status": "no_channels", "observations": []}
 
+    # When days_back >= 30, treat as a full re-scrape:
+    # clear the dedup registry so every video in the window is reprocessed
+    # and wipe the output file so we rebuild from scratch cleanly.
+    if days_back >= 30:
+        print(f"  Full re-scrape mode (days_back={days_back}): clearing dedup registry and output file")
+        save_seen({})
+        if os.path.exists(output_file):
+            os.remove(output_file)
+
     # Load dedup registry — skip already-processed videos
     seen = load_seen()
     print(f"  Dedup registry: {len(seen)} videos already processed")
@@ -775,8 +784,10 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
     dedup_summary = dedup_stats(seen)
     print(f"  Dedup registry saved: {dedup_summary['total']} total videos across all runs")
 
-    # Always load existing accumulated dataset and merge — even when 0 new videos
-    # This ensures data is never lost between runs
+    # ── ACCUMULATION: load existing, merge, never shrink ──────────────────────
+    # Rule: the observations file may only grow. If a run produces fewer
+    # records than currently on disk, the write is aborted and an error is
+    # raised so the problem is visible in the Actions log.
     existing_obs = []
     existing_channels = {}
     if os.path.exists(output_file):
@@ -788,6 +799,7 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
                 for ch in existing_data.get("channels", []):
                     if ch.get("videos", 0) > 0:
                         existing_channels[ch["channel"]] = ch
+            print(f"  Loaded {len(existing_obs)} existing observations from {output_file}")
         except Exception as e:
             print(f"  Warning: could not load existing data: {e}")
 
@@ -796,6 +808,15 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
     new_unique = [o for o in all_observations if o.get("video_id") not in existing_ids]
     merged = existing_obs + new_unique
     merged_sorted = sorted(merged, key=lambda x: x.get("published_at", ""), reverse=True)
+
+    # ── SAFETY GATE: refuse to shrink the dataset ─────────────────────────────
+    if len(merged_sorted) < len(existing_obs):
+        msg = (
+            f"  ABORT: merged set ({len(merged_sorted)}) is smaller than existing "
+            f"({len(existing_obs)}). Refusing to write — data would be lost."
+        )
+        print(msg)
+        raise RuntimeError(msg)
 
     # Merge channel summaries — use this run's counts but preserve history
     merged_channels = []
@@ -828,9 +849,9 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
     with open(output_file, "w") as f:
         json.dump(payload, f, indent=2)
 
-    print(f"\n  YouTube: {len(all_observations)} videos → "
+    print(f"\n  YouTube: {len(all_observations)} videos processed this run · "
+          f"{len(merged_sorted)} total accumulated · "
           f"{payload['high_confidence']} HIGH · "
-          f"{sum(1 for o in all_observations if o['confidence']=='medium')} MEDIUM · "
           f"vision={'on' if ENABLE_VISION else 'off'}")
     return payload
 
