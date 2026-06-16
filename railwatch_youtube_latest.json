@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T18:06:38.365528Z",
+  "generated_at": "2026-06-16T18:17:57.303799Z",
   "dedup_registry": {
     "total": 217,
     "by_channel": {
@@ -30,13 +30,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -50,13 +45,8 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 1,
-      "skipped": 7,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 8
     },
     {
       "channel": "Rail Fans Canada",
@@ -65,13 +55,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 18,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 20
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -95,7 +80,7 @@
     }
   ],
   "total": 217,
-  "new_this_run": 4,
+  "new_this_run": 0,
   "high_confidence": 18,
   "dg_likely": 10,
   "observations": [
