@@ -99,7 +99,9 @@ CHANNELS = [
         "default_lat":      44.8990,
         "default_lon":      -76.0220,
         "province_filter":  True,
-        "active":           True,
+        "active":           False,  # DEACTIVATED 2026-06-16: channel is model trains / layout livestreams
+                                    # "Silver Creek Sub" is a model layout, not the real CN Smiths Falls Sub
+                                    # Backfill produced 0 useful observations — not worth quota
     },
     # ── PENDING CHANNEL IDs — verify and set active: True ──────────────────
     {
@@ -311,11 +313,21 @@ COMMODITY_KEYWORDS = {
 }
 
 OUT_OF_SCOPE_KEYWORDS = [
+    # Out-of-province geography
     "british columbia", " bc ", "thompson canyon", "alberta", "saskatchewan",
     "manitoba", "nova scotia", "new brunswick", "fraser", "rockies",
     "tunnel mountain", "rogers pass", "spiral tunnel", "field bc",
     "kamloops", "revelstoke", "jasper", "banff", "calgary", "edmonton",
     "vancouver", "surrey", "winnipeg", "regina", "saskatoon",
+    # Model trains — not real freight intelligence
+    "n scale", "ho scale", "o scale", "g scale", "z scale",
+    "model train", "model railroad", "model railway", "layout",
+    "kato ", "bachmann", "athearn", "walthers", "intermountain",
+    "scenery", "dcc decoder", "proto throttle", "unboxing",
+    "off the track", "bucket hat junction", "silver creek sub layout",
+    # Japanese / European prototype — not Canadian
+    "shinkansen", "e657", "hitachi tokiwa", "ice train",
+    "deutschebahn", "deutsche bahn", "sncf", "jr east", "jr west",
 ]
 
 DIRECTION_PATTERNS = [
@@ -653,6 +665,15 @@ def parse_video(item, detail, channel_meta):
 
     # Combine all text sources for extraction
     full_text = f"{title}\n{description}\n{' '.join(tags)}"
+
+    # Channel-specific model train filter — Scott Rails mixes real and model content
+    if channel_meta.get("name") == "Scott Rails (Chasing The Money Shot)":
+        model_kw = ["n scale", "ho scale", "kato", "bachmann", "unboxing",
+                    "layout", "scenery", "dcc", "model train", "e657",
+                    "hitachi", "shinkansen", "scale set", "locomotive model"]
+        if any(kw in full_text.lower() for kw in model_kw):
+            print(f"    [skip] Scott Rails model content: {title[:50]}")
+            return None
 
     # Run extractors against full combined text
     obs_date  = extract_date(title) or extract_date(description) or published[:10]
