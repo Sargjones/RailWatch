@@ -40,5 +40,16 @@
     "started_at": "2026-06-16T11:01:29.440015Z",
     "last_run": "2026-06-16T19:51:53.473872Z",
     "completed_at": "2026-06-16T19:51:53.473880Z"
+  },
+  "Ontario Northland Railfan": {
+    "channel": "Ontario Northland Railfan",
+    "fetch_before": "2026-03-18",
+    "backfill_until": "2025-06-16",
+    "windows_fetched": 1,
+    "total_videos": 5,
+    "status": "in_progress",
+    "started_at": "2026-06-16T20:57:51.159743Z",
+    "last_run": "2026-06-16T20:57:54.576680Z",
+    "completed_at": null
   }
 }
