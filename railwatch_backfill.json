@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T20:57:54.576673Z",
+  "generated_at": "2026-06-16T22:31:20.526180Z",
   "description": "RailWatch historical backfill \u2014 separate from live data",
   "channels": {
     "PTBO Railfanning": {
@@ -13,17 +13,22 @@
       ]
     },
     "Ontario Northland Railfan": {
-      "total": 5,
+      "total": 7,
       "windows": [
         {
           "from": "2026-03-18",
           "to": "2026-06-16",
           "videos": 5
+        },
+        {
+          "from": "2025-09-19",
+          "to": "2025-12-18",
+          "videos": 2
         }
       ]
     }
   },
-  "total_videos": 21,
+  "total_videos": 23,
   "observations": [
     {
       "source": "youtube",
@@ -156,6 +161,60 @@
       "confidence": "high",
       "raw_title": "Early morning 207 on the last few miles to Kidd Mine",
       "description_chars": 60,
+      "consist": null,
+      "location_source": "channel_default",
+      "backfill": true
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Northland Railfan",
+      "channel_id": "UC6X-uZ6i0sXin0PRKUCYkpw",
+      "video_id": "zLa_xZy2guc",
+      "video_url": "https://www.youtube.com/watch?v=zLa_xZy2guc",
+      "title": "Ontario Northland 1809 working Cochrane yard",
+      "published_at": "2025-10-10T10:01:47Z",
+      "date": "2025-10-10",
+      "location": "Kirkland Lake",
+      "subdivision": "Ontario Northland Railway",
+      "lat": 48.15,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Ontario Northland 1809 working Cochrane yard",
+      "description_chars": 196,
+      "consist": null,
+      "location_source": "channel_default",
+      "backfill": true
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Northland Railfan",
+      "channel_id": "UC6X-uZ6i0sXin0PRKUCYkpw",
+      "video_id": "wgk-ubCUFYA",
+      "video_url": "https://www.youtube.com/watch?v=wgk-ubCUFYA",
+      "title": "Dumping rock on the Kirkland Lake subdivision",
+      "published_at": "2025-10-06T20:32:35Z",
+      "date": "2025-10-06",
+      "location": "Kirkland Lake",
+      "subdivision": "Ontario Northland Railway",
+      "lat": 48.15,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": "unknown",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "Dumping rock on the Kirkland Lake subdivision",
+      "description_chars": 398,
       "consist": null,
       "location_source": "channel_default",
       "backfill": true
