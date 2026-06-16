@@ -1,0 +1,3178 @@
+{
+  "generated_at": "2026-06-16T19:37:05.221806Z",
+  "total_units": 64,
+  "min_sightings": 2,
+  "by_road": {
+    "CN": 45,
+    "VIA": 3,
+    "CP": 16
+  },
+  "units": [
+    {
+      "road": "CN",
+      "number": "4905",
+      "display": "CN 4905",
+      "sighting_count": 5,
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-15",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 368",
+        "CN 532"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_FPHoanlsig",
+          "title": "CN Train 368 Eastbound June 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=kkpZ31zykdw",
+          "title": "CN Train 368 Lifting June 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-04",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-2RiqtOSIpY",
+          "title": "CN Train 532 Westbound June 4, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-04",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GKsCrh6NWMo",
+          "title": "CN Train 532 Eastbound June 4, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-03",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=A8sc8k3uFsY",
+          "title": "CN Train 532 Eastbound June 3, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2249",
+      "display": "CN 2249",
+      "sighting_count": 3,
+      "first_seen": "2026-06-10",
+      "last_seen": "2026-06-11",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368",
+        "CN 377"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=6UDWWQkHuMM",
+          "title": "CN Train 368 Eastbound June 11, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=fOHNAZauvus",
+          "title": "CN Train 368 Lifting June 11, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 377",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Iw8__iVF1vk",
+          "title": "CN Train 377 Westbound June 10, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2807",
+      "display": "CN 2807",
+      "sighting_count": 3,
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-12",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 368",
+        "CN 106"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mSW8LC9pgdY",
+          "title": "CN Train 368 Eastbound June 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=yWPJFqH9I5U",
+          "title": "CN Train 368 Lifting June 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-11",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=HIgAhslz93w",
+          "title": "CN Train 106 Eastbound Meets CN Train 109 Westbound June 11,",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3031",
+      "display": "CN 3031",
+      "sighting_count": 3,
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 368",
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NXbEsUJgCIg",
+          "title": "CN Train 368 Eastbound June 9, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NuAQB-xolQk",
+          "title": "CN Train 368 Lifting June 9, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=drv3v3y1SIw",
+          "title": "CN Train 149 Westbound June 8, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3861",
+      "display": "CN 3861",
+      "sighting_count": 3,
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-09",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 368",
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NXbEsUJgCIg",
+          "title": "CN Train 368 Eastbound June 9, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NuAQB-xolQk",
+          "title": "CN Train 368 Lifting June 9, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=drv3v3y1SIw",
+          "title": "CN Train 149 Westbound June 8, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3950",
+      "display": "CN 3950",
+      "sighting_count": 3,
+      "first_seen": "2026-06-01",
+      "last_seen": "2026-06-10",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 105",
+        "CN 368",
+        "CN 730"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-10",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 105",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=DSr85p440rI",
+          "title": "CN Train 105 Westbound June 10, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-08",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=QhqjGy9z7dY",
+          "title": "CN Train 368 Eastbound June 8, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-01",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 730",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=pZm5H3JPJvQ",
+          "title": "CN Train 730 Eastbound June 1, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "4727",
+      "display": "CN 4727",
+      "sighting_count": 3,
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 532"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-04",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-2RiqtOSIpY",
+          "title": "CN Train 532 Westbound June 4, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-04",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GKsCrh6NWMo",
+          "title": "CN Train 532 Eastbound June 4, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-03",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=A8sc8k3uFsY",
+          "title": "CN Train 532 Eastbound June 3, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "4939",
+      "display": "CN 4939",
+      "sighting_count": 3,
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-06-04",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 532"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-04",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-2RiqtOSIpY",
+          "title": "CN Train 532 Westbound June 4, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-04",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GKsCrh6NWMo",
+          "title": "CN Train 532 Eastbound June 4, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-03",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=A8sc8k3uFsY",
+          "title": "CN Train 532 Eastbound June 3, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8893",
+      "display": "CN 8893",
+      "sighting_count": 3,
+      "first_seen": "2026-06-04",
+      "last_seen": "CP 8893",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 322",
+        "CN 369"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 8893",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Vlo4llqywOk",
+          "title": "CP 8893 + CP 8116 + CP 8815 lead CP 322",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
+          "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 369",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=fwB341OAdV4",
+          "title": "CN Train 369 Westbound June 4, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2222",
+      "display": "CN 2222",
+      "sighting_count": 2,
+      "first_seen": "2026-05-31",
+      "last_seen": "IC 2719",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Q107"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "IC 2719",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
+          "title": "IC 2719 + CN 2222 lead CN Q107 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-31",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+          "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2267",
+      "display": "CN 2267",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 2267",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 2267",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=0Yi5qAChnSw",
+          "title": "CN 2267 + CN 8850 + CN 2654 lead CN 421",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2654",
+      "display": "CN 2654",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 2267",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 2267",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=0Yi5qAChnSw",
+          "title": "CN 2267 + CN 8850 + CN 2654 lead CN 421",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2903",
+      "display": "CN 2903",
+      "sighting_count": 2,
+      "first_seen": "2026-06-08",
+      "last_seen": "2026-06-10",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 105",
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-10",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 105",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=DSr85p440rI",
+          "title": "CN Train 105 Westbound June 10, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-08",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=QhqjGy9z7dY",
+          "title": "CN Train 368 Eastbound June 8, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2987",
+      "display": "CN 2987",
+      "sighting_count": 2,
+      "first_seen": "2026-05-31",
+      "last_seen": "CN 2987",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Q107",
+        "Q101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 2987",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=QAIJlkwe2S4",
+          "title": "CN 2987 leads CN Q101 over the bridge",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-31",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+          "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2996",
+      "display": "CN 2996",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 2996",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "M394"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 2996",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "M394",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=8Hnfdl1f9J0",
+          "title": "CN 2996 + CN 3086 lead CN M394",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3063",
+      "display": "CN 3063",
+      "sighting_count": 2,
+      "first_seen": "2026-06-09",
+      "last_seen": "2026-06-09",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NXbEsUJgCIg",
+          "title": "CN Train 368 Eastbound June 9, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NuAQB-xolQk",
+          "title": "CN Train 368 Lifting June 9, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3070",
+      "display": "CN 3070",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 3401",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "L570"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 3401",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "L570",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qUVuJAjRMBA",
+          "title": "CN 3401 + CN 3070 lead CN L570 east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3086",
+      "display": "CN 3086",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 2996",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "M394"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 2996",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "M394",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=8Hnfdl1f9J0",
+          "title": "CN 2996 + CN 3086 lead CN M394",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3355",
+      "display": "CN 3355",
+      "sighting_count": 2,
+      "first_seen": "2026-06-12",
+      "last_seen": "2026-06-12",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mSW8LC9pgdY",
+          "title": "CN Train 368 Eastbound June 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=yWPJFqH9I5U",
+          "title": "CN Train 368 Lifting June 12, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3392",
+      "display": "CN 3392",
+      "sighting_count": 2,
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_FPHoanlsig",
+          "title": "CN Train 368 Eastbound June 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=kkpZ31zykdw",
+          "title": "CN Train 368 Lifting June 15, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3401",
+      "display": "CN 3401",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 3401",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "L570"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 3401",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "L570",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qUVuJAjRMBA",
+          "title": "CN 3401 + CN 3070 lead CN L570 east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3403",
+      "display": "CN 3403",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 3403",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 3403",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5DhdGzQ4aKM",
+          "title": "CN 3403 blasting its weird horn east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3811",
+      "display": "CN 3811",
+      "sighting_count": 2,
+      "first_seen": "2026-06-15",
+      "last_seen": "2026-06-15",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_FPHoanlsig",
+          "title": "CN Train 368 Eastbound June 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=kkpZ31zykdw",
+          "title": "CN Train 368 Lifting June 15, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3840",
+      "display": "CN 3840",
+      "sighting_count": 2,
+      "first_seen": "2026-05-31",
+      "last_seen": "CN 3840",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Q107",
+        "Q104"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 3840",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q104",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lY9Jj_tj4yU",
+          "title": "CN 3840 leads CN Q104 past Pine Orchard",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-31",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+          "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3922",
+      "display": "CN 3922",
+      "sighting_count": 2,
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=jFoQakVY7G0",
+          "title": "CN Train 368 Eastbound June 16, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=jFoQakVY7G0",
+          "title": "CN Train 368 Eastbound June 16, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3942",
+      "display": "CN 3942",
+      "sighting_count": 2,
+      "first_seen": "2026-06-11",
+      "last_seen": "2026-06-11",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=6UDWWQkHuMM",
+          "title": "CN Train 368 Eastbound June 11, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=fOHNAZauvus",
+          "title": "CN Train 368 Lifting June 11, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3968",
+      "display": "CN 3968",
+      "sighting_count": 2,
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-06-16",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=jFoQakVY7G0",
+          "title": "CN Train 368 Eastbound June 16, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=jFoQakVY7G0",
+          "title": "CN Train 368 Eastbound June 16, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "5607",
+      "display": "CN 5607",
+      "sighting_count": 2,
+      "first_seen": "2026-05-24",
+      "last_seen": "CN 5607",
+      "corridors": [
+        "CN Bala Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "W908"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 5607",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "W908",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W-A8HQQYE8M",
+          "title": "CN 5607 SD70i leads CN W908 east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-24",
+          "location": "Sudbury",
+          "subdivision": "CN Bala Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "W908",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=6olLAk4UO9U",
+          "title": "CWR TRAIN! CN 5607 at Quaker, ON (MAY 24, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "5612",
+      "display": "CN 5612",
+      "sighting_count": 2,
+      "first_seen": "2026-06-04",
+      "last_seen": "CN 5767",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 5767",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PsIoDIotGW4",
+          "title": "CN 5767 + CN 5612 lead CN Z148 east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ny6FC0DH0ZU",
+          "title": "EMD DUO! CN 5767 at Stewarttown, ON (JUN 4, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "5766",
+      "display": "CN 5766",
+      "sighting_count": 2,
+      "first_seen": "2026-05-26",
+      "last_seen": "CP 5766",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 5766",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=HN1RqH_YZfU",
+          "title": "CP 5766 + CP 5901 lead a CWR train",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-05-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zhQa00rYM4A",
+          "title": "RARE SD40-2 DUO! CP 5766 at Vaughan, ON (MAY 26, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "5767",
+      "display": "CN 5767",
+      "sighting_count": 2,
+      "first_seen": "2026-06-04",
+      "last_seen": "CN 5767",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 5767",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PsIoDIotGW4",
+          "title": "CN 5767 + CN 5612 lead CN Z148 east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ny6FC0DH0ZU",
+          "title": "EMD DUO! CN 5767 at Stewarttown, ON (JUN 4, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "6439",
+      "display": "CN 6439",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "VIA 6439",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "CN 72"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "VIA 6439",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 72",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=vhcfMYE60ZY",
+          "title": "VIA 6439 F40PH leads VIA 72 east",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "6454",
+      "display": "CN 6454",
+      "sighting_count": 2,
+      "first_seen": "2026-05-31",
+      "last_seen": "VIA 6454",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Q107"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "VIA 6454",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=koAS1GfyGbU",
+          "title": "VIA 6454 + VIA 6416 lead the Canadian",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-05-31",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+          "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7001",
+      "display": "CN 7001",
+      "sighting_count": 2,
+      "first_seen": "2026-05-29",
+      "last_seen": "CP 7001",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 137"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7001",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 137",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=EU5Vi4grQuE",
+          "title": "CP 7001 SD70ACU leads CPKC 137",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-05-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 137",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=wb6_K_oRaso",
+          "title": "SD70ACU! CP 7001 at Streetsville, ON (MAY 29, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7019",
+      "display": "CN 7019",
+      "sighting_count": 2,
+      "first_seen": "2026-06-13",
+      "last_seen": "CP 7019",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7019",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ao-I3e3DTww",
+          "title": "CP 7019 HERITAGE SD70ACU leads CPKC 118",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
+          "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7052",
+      "display": "CN 7052",
+      "sighting_count": 2,
+      "first_seen": "2026-06-11",
+      "last_seen": "CP 7052",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7052",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=CgjVSsMkTWE",
+          "title": "CP 7052 SD70ACU leads CPKC 421 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=IO8HV_Mdadc",
+          "title": "MIXED LASHUP! CP 7052 at Baxter, ON (JUN 11, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7479",
+      "display": "CN 7479",
+      "sighting_count": 2,
+      "first_seen": "2026-06-14",
+      "last_seen": "CP 7479",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 328"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7479",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TK32O3Utbuw",
+          "title": "CP 7479 north rips around the long bend",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 328",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
+          "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7503",
+      "display": "CN 7503",
+      "sighting_count": 2,
+      "first_seen": "2026-06-03",
+      "last_seen": "CP 7503",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7503",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=xLvRb6sJscQ",
+          "title": "CP 7503 + CP 9752 lead CPKC 2-114",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
+          "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7603",
+      "display": "CN 7603",
+      "sighting_count": 2,
+      "first_seen": "2026-06-14",
+      "last_seen": "CP 7603",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 328",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7603",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=CBfXgDI0Y9s",
+          "title": "CP 7603 new ET44AC leads CPKC 421",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 328",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
+          "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8120",
+      "display": "CN 8120",
+      "sighting_count": 2,
+      "first_seen": "2026-06-14",
+      "last_seen": "CP 8120",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 328"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 8120",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 328",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=acxsGzPak9A",
+          "title": "CP 8120 & KCS 4687 lead CPKC 328 south",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 328",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
+          "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8364",
+      "display": "CN 8364",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "IC 2719",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "IC 2719",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=OLhJDNCvVrw",
+          "title": "IC 2719 + CN 8364 lead CN Z148 east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8850",
+      "display": "CN 8850",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 2267",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 2267",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=0Yi5qAChnSw",
+          "title": "CN 2267 + CN 8850 + CN 2654 lead CN 421",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "9355",
+      "display": "CN 9355",
+      "sighting_count": 2,
+      "first_seen": "2026-06-03",
+      "last_seen": "CP 9355",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 112",
+        "CN 420"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 9355",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 420",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RkU1c9p3vGA",
+          "title": "CP 9355 + KCS 4044 lead CPKC 420",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
+          "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "9753",
+      "display": "CN 9753",
+      "sighting_count": 2,
+      "first_seen": "2026-06-09",
+      "last_seen": "CP 9753",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 322",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 9753",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ky7R2axF8wA",
+          "title": "CP 9753 + CP 7055 lead CPKC 421 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
+          "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "9783",
+      "display": "CN 9783",
+      "sighting_count": 2,
+      "first_seen": "2026-06-13",
+      "last_seen": "CP 9783",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 118",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 9783",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=uVQFBAbYqig",
+          "title": "CP 9783 AC4400CW leads CPKC 421 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
+          "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "VIA",
+      "number": "6416",
+      "display": "VIA 6416",
+      "sighting_count": 2,
+      "first_seen": "2026-05-31",
+      "last_seen": "VIA 6454",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Q107"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "VIA 6454",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=koAS1GfyGbU",
+          "title": "VIA 6454 + VIA 6416 lead the Canadian",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-31",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+          "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "VIA",
+      "number": "6439",
+      "display": "VIA 6439",
+      "sighting_count": 2,
+      "first_seen": "2026-05-30",
+      "last_seen": "VIA 6439",
+      "corridors": [
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "CN 72"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "VIA 6439",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 72",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=vhcfMYE60ZY",
+          "title": "VIA 6439 F40PH leads VIA 72 east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "VIA",
+      "number": "6454",
+      "display": "VIA 6454",
+      "sighting_count": 2,
+      "first_seen": "2026-05-31",
+      "last_seen": "VIA 6454",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Q107"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "VIA 6454",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=koAS1GfyGbU",
+          "title": "VIA 6454 + VIA 6416 lead the Canadian",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-31",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+          "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "5766",
+      "display": "CP 5766",
+      "sighting_count": 2,
+      "first_seen": "2026-05-26",
+      "last_seen": "CP 5766",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 5766",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=HN1RqH_YZfU",
+          "title": "CP 5766 + CP 5901 lead a CWR train",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zhQa00rYM4A",
+          "title": "RARE SD40-2 DUO! CP 5766 at Vaughan, ON (MAY 26, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "5901",
+      "display": "CP 5901",
+      "sighting_count": 2,
+      "first_seen": "2026-05-26",
+      "last_seen": "CP 5766",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 5766",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=HN1RqH_YZfU",
+          "title": "CP 5766 + CP 5901 lead a CWR train",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zhQa00rYM4A",
+          "title": "RARE SD40-2 DUO! CP 5766 at Vaughan, ON (MAY 26, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7001",
+      "display": "CP 7001",
+      "sighting_count": 2,
+      "first_seen": "2026-05-29",
+      "last_seen": "CP 7001",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 137"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7001",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 137",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=EU5Vi4grQuE",
+          "title": "CP 7001 SD70ACU leads CPKC 137",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 137",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=wb6_K_oRaso",
+          "title": "SD70ACU! CP 7001 at Streetsville, ON (MAY 29, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7019",
+      "display": "CP 7019",
+      "sighting_count": 2,
+      "first_seen": "2026-06-13",
+      "last_seen": "CP 7019",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7019",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ao-I3e3DTww",
+          "title": "CP 7019 HERITAGE SD70ACU leads CPKC 118",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
+          "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7052",
+      "display": "CP 7052",
+      "sighting_count": 2,
+      "first_seen": "2026-06-11",
+      "last_seen": "CP 7052",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7052",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=CgjVSsMkTWE",
+          "title": "CP 7052 SD70ACU leads CPKC 421 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=IO8HV_Mdadc",
+          "title": "MIXED LASHUP! CP 7052 at Baxter, ON (JUN 11, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7055",
+      "display": "CP 7055",
+      "sighting_count": 2,
+      "first_seen": "2026-06-09",
+      "last_seen": "CP 9753",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 322",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 9753",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ky7R2axF8wA",
+          "title": "CP 9753 + CP 7055 lead CPKC 421 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
+          "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7479",
+      "display": "CP 7479",
+      "sighting_count": 2,
+      "first_seen": "2026-06-14",
+      "last_seen": "CP 7479",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 328"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7479",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TK32O3Utbuw",
+          "title": "CP 7479 north rips around the long bend",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 328",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
+          "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7503",
+      "display": "CP 7503",
+      "sighting_count": 2,
+      "first_seen": "2026-06-03",
+      "last_seen": "CP 7503",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7503",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=xLvRb6sJscQ",
+          "title": "CP 7503 + CP 9752 lead CPKC 2-114",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
+          "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7603",
+      "display": "CP 7603",
+      "sighting_count": 2,
+      "first_seen": "2026-06-14",
+      "last_seen": "CP 7603",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 328",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7603",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=CBfXgDI0Y9s",
+          "title": "CP 7603 new ET44AC leads CPKC 421",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 328",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
+          "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8116",
+      "display": "CP 8116",
+      "sighting_count": 2,
+      "first_seen": "2026-06-09",
+      "last_seen": "CP 8893",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 322"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 8893",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Vlo4llqywOk",
+          "title": "CP 8893 + CP 8116 + CP 8815 lead CP 322",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
+          "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8120",
+      "display": "CP 8120",
+      "sighting_count": 2,
+      "first_seen": "2026-06-14",
+      "last_seen": "CP 8120",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 328"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 8120",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 328",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=acxsGzPak9A",
+          "title": "CP 8120 & KCS 4687 lead CPKC 328 south",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 328",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
+          "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8815",
+      "display": "CP 8815",
+      "sighting_count": 2,
+      "first_seen": "2026-06-09",
+      "last_seen": "CP 8893",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 322"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 8893",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Vlo4llqywOk",
+          "title": "CP 8893 + CP 8116 + CP 8815 lead CP 322",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
+          "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8893",
+      "display": "CP 8893",
+      "sighting_count": 2,
+      "first_seen": "2026-06-09",
+      "last_seen": "CP 8893",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 322"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 8893",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Vlo4llqywOk",
+          "title": "CP 8893 + CP 8116 + CP 8815 lead CP 322",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
+          "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9355",
+      "display": "CP 9355",
+      "sighting_count": 2,
+      "first_seen": "2026-06-03",
+      "last_seen": "CP 9355",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 112",
+        "CN 420"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 9355",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 420",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RkU1c9p3vGA",
+          "title": "CP 9355 + KCS 4044 lead CPKC 420",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
+          "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9753",
+      "display": "CP 9753",
+      "sighting_count": 2,
+      "first_seen": "2026-06-09",
+      "last_seen": "CP 9753",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 322",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 9753",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ky7R2axF8wA",
+          "title": "CP 9753 + CP 7055 lead CPKC 421 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
+          "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9783",
+      "display": "CP 9783",
+      "sighting_count": 2,
+      "first_seen": "2026-06-13",
+      "last_seen": "CP 9783",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 118",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 9783",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=uVQFBAbYqig",
+          "title": "CP 9783 AC4400CW leads CPKC 421 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
+          "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    }
+  ]
+}
