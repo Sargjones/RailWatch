@@ -40,6 +40,9 @@ jobs:
       - name: Run correlation engine
         run: python scraper/railwatch_correlate.py
 
+      - name: Run roster builder
+        run: python scraper/railwatch_roster.py
+
       - name: Run backfill scraper
         if: ${{ vars.BACKFILL_CHANNEL != '' }}
         env:
