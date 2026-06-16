@@ -738,6 +738,77 @@ footer a { color: var(--accent); text-decoration: none; }
   <div id="footer-status">Data: loading…</div>
 </footer>
 
+
+
+<!-- ══ ADMIN ══════════════════════════════════════════════════════════ -->
+<!-- Hidden tab — only visible when ?admin=true in URL                  -->
+<!-- Fetches from railwatch-facilities private repo via user-supplied PAT -->
+<div id="tab-admin" class="tab-panel">
+  <div class="section-label">Intelligence Console — Contributor Access</div>
+
+  <div id="admin-auth" style="max-width:520px;margin:32px auto;">
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:24px;">
+      <div style="font-family:var(--font-display);font-size:20px;color:var(--accent);margin-bottom:8px;">
+        RAILWATCH FACILITIES ACCESS
+      </div>
+      <div style="color:var(--muted);font-size:12px;margin-bottom:20px;line-height:1.6;">
+        Enter your GitHub fine-grained PAT scoped to <code style="color:var(--accent2)">railwatch-facilities</code>.
+        The token is held in session memory only and never written to disk or sent anywhere except GitHub's API.
+      </div>
+      <div style="display:flex;gap:8px;">
+        <input id="admin-pat-input" type="password"
+               placeholder="github_pat_..."
+               style="flex:1;background:var(--surface2);border:1px solid var(--border2);
+                      border-radius:var(--r);padding:8px 12px;color:var(--text);
+                      font-family:var(--font-mono);font-size:12px;outline:none;">
+        <button onclick="adminAuth()"
+                style="background:var(--accent);color:var(--bg);border:none;
+                       border-radius:var(--r);padding:8px 16px;cursor:pointer;
+                       font-family:var(--font-display);font-size:14px;letter-spacing:0.05em;">
+          CONNECT
+        </button>
+      </div>
+      <div id="admin-auth-error" style="color:var(--danger);font-size:11px;margin-top:8px;display:none;"></div>
+    </div>
+  </div>
+
+  <div id="admin-console" style="display:none;">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+      <div style="font-size:12px;color:var(--ok);font-family:var(--font-mono)">
+        ● Connected to railwatch-facilities
+        <span id="admin-identity" style="color:var(--muted);margin-left:8px;"></span>
+      </div>
+      <button onclick="adminDisconnect()"
+              style="background:transparent;border:1px solid var(--border2);color:var(--muted);
+                     border-radius:var(--r);padding:4px 12px;cursor:pointer;font-size:11px;">
+        Disconnect
+      </button>
+    </div>
+
+    <!-- File browser -->
+    <div style="display:grid;grid-template-columns:240px 1fr;gap:16px;min-height:500px;">
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:12px;">
+        <div style="font-size:11px;color:var(--muted);font-family:var(--font-mono);
+                    margin-bottom:10px;letter-spacing:0.05em;">REPOSITORY FILES</div>
+        <div id="admin-file-list" style="font-size:12px;"></div>
+      </div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px;">
+        <div id="admin-file-viewer" style="font-size:12px;color:var(--muted);">
+          Select a file to view its contents.
+        </div>
+      </div>
+    </div>
+
+    <!-- Manual observations section -->
+    <div style="margin-top:24px;">
+      <div class="section-label">Manual Observations</div>
+      <div id="admin-observations" style="font-size:12px;color:var(--muted);">
+        Loading observations from facilities repo...
+      </div>
+    </div>
+  </div>
+</div>
+
 <script>
 // ── STATE ──────────────────────────────────────────────────────────────
 const DATA_URL = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_data_latest.json';
@@ -1807,7 +1878,252 @@ function renderCorrelations() {
   }).join('');
 }
 
-window.addEventListener('load', loadAll);
+window.addEventListener('load', () => { checkAdminMode(); loadAll(); });
+
+
+// ── ADMIN TAB ────────────────────────────────────────────────────────────────
+// Token held in session memory only — never persisted
+const adminState = { pat: null, files: [] };
+const FACILITIES_REPO = 'Sargjones/railwatch-facilities';
+
+function adminAuth() {
+  const pat = document.getElementById('admin-pat-input').value.trim();
+  if (!pat || !pat.startsWith('github_pat_')) {
+    showAdminError('Token must start with github_pat_');
+    return;
+  }
+  adminState.pat = pat;
+  document.getElementById('admin-pat-input').value = '';  // clear from DOM immediately
+  verifyAndConnect();
+}
+
+async function verifyAndConnect() {
+  try {
+    // Verify token by fetching repo contents
+    const res = await fetch(
+      `https://api.github.com/repos/${FACILITIES_REPO}/contents/`,
+      { headers: { Authorization: `Bearer ${adminState.pat}`, Accept: 'application/vnd.github.v3+json' } }
+    );
+    if (!res.ok) {
+      adminState.pat = null;
+      showAdminError(res.status === 401 ? 'Invalid token — check PAT and try again'
+                   : res.status === 404 ? 'Repository not found or no access'
+                   : `GitHub API error: ${res.status}`);
+      return;
+    }
+    const files = await res.json();
+    adminState.files = files;
+
+    // Show console, hide auth form
+    document.getElementById('admin-auth').style.display = 'none';
+    document.getElementById('admin-console').style.display = 'block';
+
+    // Show repo identity
+    const meRes = await fetch('https://api.github.com/user',
+      { headers: { Authorization: `Bearer ${adminState.pat}` } });
+    if (meRes.ok) {
+      const me = await meRes.json();
+      document.getElementById('admin-identity').textContent = `@ ${me.login}`;
+    }
+
+    renderAdminFiles(files);
+    loadAdminObservations(files);
+
+  } catch(e) {
+    adminState.pat = null;
+    showAdminError('Network error — check connection');
+  }
+}
+
+function renderAdminFiles(files) {
+  const el = document.getElementById('admin-file-list');
+  el.innerHTML = files.map(f => `
+    <div onclick="loadAdminFile('${f.path}', '${f.name}')"
+         style="padding:6px 8px;border-radius:4px;cursor:pointer;margin-bottom:2px;
+                color:${f.name.endsWith('.json') ? 'var(--accent2)' : 'var(--text)'};
+                transition:background 0.1s;"
+         onmouseover="this.style.background='var(--surface2)'"
+         onmouseout="this.style.background='transparent'">
+      ${f.type === 'dir' ? '📁' : '📄'} ${f.name}
+    </div>`).join('');
+}
+
+async function loadAdminFile(path, name) {
+  const viewer = document.getElementById('admin-file-viewer');
+  viewer.innerHTML = `<div style="color:var(--muted)">Loading ${name}...</div>`;
+
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${FACILITIES_REPO}/contents/${path}`,
+      { headers: { Authorization: `Bearer ${adminState.pat}`, Accept: 'application/vnd.github.v3+json' } }
+    );
+    if (!res.ok) { viewer.innerHTML = `<div style="color:var(--danger)">Error: ${res.status}</div>`; return; }
+
+    const data = await res.json();
+    const content = atob(data.content.replace(/
+/g, ''));
+
+    if (name.endsWith('.json')) {
+      try {
+        const parsed = JSON.parse(content);
+        // Render observation record specially
+        if (parsed.observation && parsed.consist) {
+          viewer.innerHTML = renderObservationRecord(parsed, name);
+        } else {
+          viewer.innerHTML = `<pre style="font-family:var(--font-mono);font-size:11px;
+            color:var(--text);white-space:pre-wrap;overflow-wrap:break-word;">${
+            JSON.stringify(parsed, null, 2)}</pre>`;
+        }
+      } catch {
+        viewer.innerHTML = `<pre style="font-family:var(--font-mono);font-size:11px;
+          color:var(--text);white-space:pre-wrap;">${content}</pre>`;
+      }
+    } else {
+      viewer.innerHTML = `<pre style="font-family:var(--font-mono);font-size:11px;
+        color:var(--text);white-space:pre-wrap;overflow-wrap:break-word;">${content}</pre>`;
+    }
+  } catch(e) {
+    viewer.innerHTML = `<div style="color:var(--danger)">Failed to load file: ${e.message}</div>`;
+  }
+}
+
+function renderObservationRecord(data, filename) {
+  const obs = data.observation || {};
+  const consist = data.consist || {};
+  const dg = data.dg_summary || {};
+  const cars = consist.cars || [];
+  const dgCars = cars.filter(c => c.dg_confirmed || c.dg_likely);
+  const confirmedCars = cars.filter(c => c.dg_confirmed);
+
+  return `
+    <div style="margin-bottom:16px;">
+      <div style="font-family:var(--font-display);font-size:22px;color:var(--accent);">
+        ${obs.train_symbol || 'Unknown Train'}</div>
+      <div style="color:var(--muted);font-size:12px;margin-top:2px;">
+        ${obs.direction || ''} · ${obs.date || ''} · ${obs.location || ''} · ${obs.subdivision || ''}
+      </div>
+      <div style="margin-top:8px;display:flex;gap:8px;flex-wrap:wrap;">
+        ${obs.dg_confirmed ? '<span style="background:rgba(240,74,74,0.15);color:var(--danger);border:1px solid var(--danger);border-radius:4px;padding:2px 8px;font-size:11px;font-family:var(--font-mono)">DG CONFIRMED</span>' : ''}
+        <span style="background:var(--surface2);border:1px solid var(--border2);border-radius:4px;padding:2px 8px;font-size:11px;font-family:var(--font-mono);color:var(--muted)">${obs.confidence?.toUpperCase() || 'UNKNOWN'} CONFIDENCE</span>
+        <span style="background:var(--surface2);border:1px solid var(--border2);border-radius:4px;padding:2px 8px;font-size:11px;font-family:var(--font-mono);color:var(--muted)">${cars.length} CARS DOCUMENTED</span>
+      </div>
+    </div>
+
+    ${confirmedCars.length > 0 ? `
+    <div style="background:rgba(240,74,74,0.08);border:1px solid rgba(240,74,74,0.3);
+                border-radius:var(--r);padding:12px;margin-bottom:16px;">
+      <div style="color:var(--danger);font-size:11px;font-family:var(--font-mono);
+                  letter-spacing:0.05em;margin-bottom:8px;">⚠ CONFIRMED DG CARS</div>
+      ${confirmedCars.map(c => `
+        <div style="margin-bottom:6px;">
+          <span style="font-family:var(--font-mono);color:var(--warn)">${c.reporting_mark} ${c.car_number}</span>
+          <span style="color:var(--muted);margin-left:8px;font-size:11px;">${c.placard_note || c.dg_note || ''}</span>
+        </div>`).join('')}
+    </div>` : ''}
+
+    <div style="font-size:11px;color:var(--muted);font-family:var(--font-mono);
+                letter-spacing:0.05em;margin-bottom:8px;">CONSIST (${cars.length} documented)</div>
+    <div style="overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:11px;">
+        <thead>
+          <tr style="border-bottom:1px solid var(--border);">
+            <th style="text-align:left;padding:4px 8px;color:var(--muted);font-weight:500;">#</th>
+            <th style="text-align:left;padding:4px 8px;color:var(--muted);font-weight:500;">MARK</th>
+            <th style="text-align:left;padding:4px 8px;color:var(--muted);font-weight:500;">NUMBER</th>
+            <th style="text-align:left;padding:4px 8px;color:var(--muted);font-weight:500;">TYPE</th>
+            <th style="text-align:left;padding:4px 8px;color:var(--muted);font-weight:500;">DG?</th>
+            <th style="text-align:left;padding:4px 8px;color:var(--muted);font-weight:500;">NOTES</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${cars.map(c => `
+            <tr style="border-bottom:1px solid var(--border);
+                       background:${c.dg_confirmed ? 'rgba(240,74,74,0.06)' : c.dg_likely ? 'rgba(240,184,74,0.04)' : 'transparent'}">
+              <td style="padding:4px 8px;color:var(--muted)">${c.seq}</td>
+              <td style="padding:4px 8px;font-family:var(--font-mono);color:var(--accent2)">${c.reporting_mark}</td>
+              <td style="padding:4px 8px;font-family:var(--font-mono)">${c.car_number}</td>
+              <td style="padding:4px 8px;color:var(--muted)">${(c.car_type || '').replace(/_/g,' ')}</td>
+              <td style="padding:4px 8px;">
+                ${c.dg_confirmed ? '<span style="color:var(--danger);font-weight:700">CONFIRMED</span>'
+                  : c.dg_likely  ? '<span style="color:var(--warn)">likely</span>'
+                  : '<span style="color:var(--muted)">no</span>'}
+              </td>
+              <td style="padding:4px 8px;color:var(--muted);max-width:300px;overflow:hidden;
+                         text-overflow:ellipsis;white-space:nowrap"
+                  title="${(c.dg_note || c.placard_note || '').replace(/"/g,"'")}">
+                ${c.placard_colour ? `<span style="color:var(--warn)">[${c.placard_colour} placard]</span> ` : ''}
+                ${c.dg_note || c.placard_note || ''}
+              </td>
+            </tr>`).join('')}
+        </tbody>
+      </table>
+    </div>
+
+    ${dg.next_steps ? `
+    <div style="margin-top:16px;background:var(--surface2);border-radius:var(--r);padding:12px;">
+      <div style="font-size:11px;color:var(--muted);font-family:var(--font-mono);
+                  letter-spacing:0.05em;margin-bottom:8px;">NEXT STEPS</div>
+      ${dg.next_steps.map(s => `
+        <div style="font-size:12px;color:var(--text);margin-bottom:4px;">→ ${s}</div>`).join('')}
+    </div>` : ''}
+
+    ${obs.video_url ? `
+    <div style="margin-top:12px;">
+      <a href="${obs.video_url}" target="_blank"
+         style="color:var(--accent2);font-size:12px;font-family:var(--font-mono);">
+        ▶ Source video
+      </a>
+    </div>` : ''}
+  `;
+}
+
+function loadAdminObservations(files) {
+  const el = document.getElementById('admin-observations');
+  const obsFiles = files.filter(f => f.name.endsWith('.json') && f.name.includes('PRIVATE'));
+  if (!obsFiles.length) {
+    el.innerHTML = '<div style="color:var(--muted)">No observation files found yet.</div>';
+    return;
+  }
+  el.innerHTML = obsFiles.map(f => `
+    <div onclick="loadAdminFile('${f.path}', '${f.name}')"
+         style="background:var(--surface);border:1px solid var(--border);border-radius:var(--r);
+                padding:12px 16px;margin-bottom:8px;cursor:pointer;transition:border-color 0.1s;"
+         onmouseover="this.style.borderColor='var(--accent2)'"
+         onmouseout="this.style.borderColor='var(--border)'">
+      <div style="font-family:var(--font-mono);font-size:12px;color:var(--accent2)">${f.name}</div>
+      <div style="font-size:11px;color:var(--muted);margin-top:2px;">Click to view full observation record</div>
+    </div>`).join('');
+}
+
+function adminDisconnect() {
+  adminState.pat = null;
+  adminState.files = [];
+  document.getElementById('admin-auth').style.display = 'block';
+  document.getElementById('admin-console').style.display = 'none';
+  document.getElementById('admin-auth-error').style.display = 'none';
+}
+
+function showAdminError(msg) {
+  const el = document.getElementById('admin-auth-error');
+  el.textContent = msg;
+  el.style.display = 'block';
+}
+
+// Check for admin URL parameter on load
+function checkAdminMode() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('admin') === 'true') {
+    // Add admin tab to nav — silently
+    const nav = document.querySelector('.nav-tabs');
+    const btn = document.createElement('button');
+    btn.className = 'nav-tab';
+    btn.textContent = 'Intelligence';
+    btn.onclick = () => switchTab('admin');
+    btn.style.color = 'var(--accent)';
+    nav.appendChild(btn);
+  }
+}
+
 </script>
 </body>
 </html>
