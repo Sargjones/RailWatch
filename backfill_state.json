@@ -29,5 +29,16 @@
     "started_at": "2026-06-16T00:37:05.636573Z",
     "last_run": "2026-06-16T00:44:52.418592Z",
     "completed_at": null
+  },
+  "PTBO Railfanning": {
+    "channel": "PTBO Railfanning",
+    "fetch_before": "2026-03-18",
+    "backfill_until": "2025-06-16",
+    "windows_fetched": 1,
+    "total_videos": 0,
+    "status": "in_progress",
+    "started_at": "2026-06-16T11:01:29.440015Z",
+    "last_run": "2026-06-16T11:01:31.124569Z",
+    "completed_at": null
   }
 }
