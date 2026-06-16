@@ -51,5 +51,16 @@
     "started_at": "2026-06-16T20:57:51.159743Z",
     "last_run": "2026-06-16T22:31:20.526191Z",
     "completed_at": null
+  },
+  "Ontario Railman": {
+    "channel": "Ontario Railman",
+    "fetch_before": "2026-03-18",
+    "backfill_until": "2025-06-16",
+    "windows_fetched": 1,
+    "total_videos": 0,
+    "status": "in_progress",
+    "started_at": "2026-06-16T23:28:06.712043Z",
+    "last_run": "2026-06-16T23:28:08.296901Z",
+    "completed_at": null
   }
 }
