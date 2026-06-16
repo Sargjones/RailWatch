@@ -21,13 +21,13 @@
   },
   "Track Side Mike": {
     "channel": "Track Side Mike",
-    "fetch_before": "2026-03-18",
+    "fetch_before": "2025-12-18",
     "backfill_until": "2025-06-16",
-    "windows_fetched": 1,
+    "windows_fetched": 2,
     "total_videos": 0,
     "status": "in_progress",
     "started_at": "2026-06-16T00:37:05.636573Z",
-    "last_run": "2026-06-16T00:37:07.200848Z",
+    "last_run": "2026-06-16T00:44:52.418592Z",
     "completed_at": null
   }
 }
