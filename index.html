@@ -906,7 +906,7 @@ const JUNE14_CONSIST = [
 function switchTab(name) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-  if (name === 'roster' && state.roster) renderRoster();
+  if (name === 'roster') { if (state.roster) renderRoster(); else loadRoster(); }
   document.getElementById('tab-' + name).classList.add('active');
   const labels = {overview:'overview',tdg:'tdg',decoder:'car',incidents:'incidents',observations:'community',about:'about'};
   document.querySelectorAll('.nav-tab').forEach(t => {
@@ -2159,9 +2159,7 @@ async function loadRoster() {
     const r = await fetch(ROSTER_URL + '?t=' + Date.now());
     if (!r.ok) return;
     state.roster = await r.json();
-    if (document.getElementById('tab-roster').classList.contains('active')) {
-      renderRoster();
-    }
+    renderRoster();  // always render — fast and idempotent
   } catch(e) {
     console.log('Roster not yet available:', e.message);
   }
