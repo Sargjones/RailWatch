@@ -1960,8 +1960,7 @@ async function loadAdminFile(path, name) {
     if (!res.ok) { viewer.innerHTML = `<div style="color:var(--danger)">Error: ${res.status}</div>`; return; }
 
     const data = await res.json();
-    const content = atob(data.content.replace(/
-/g, ''));
+    const content = atob(data.content.split('\n').join(''));
 
     if (name.endsWith('.json')) {
       try {
@@ -2050,8 +2049,8 @@ function renderObservationRecord(data, filename) {
               </td>
               <td style="padding:4px 8px;color:var(--muted);max-width:300px;overflow:hidden;
                          text-overflow:ellipsis;white-space:nowrap"
-                  title="${(c.dg_note || c.placard_note || '').replace(/"/g,"'")}">
-                ${c.placard_colour ? `<span style="color:var(--warn)">[${c.placard_colour} placard]</span> ` : ''}
+                  title="${(c.dg_note || c.placard_note || '')}">
+                ${c.placard_colour ? '<span style="color:var(--warn)">[' + c.placard_colour + ' placard]</span> ' : ''}
                 ${c.dg_note || c.placard_note || ''}
               </td>
             </tr>`).join('')}
