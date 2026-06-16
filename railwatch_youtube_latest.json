@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T22:19:05.170349Z",
+  "generated_at": "2026-06-16T00:37:05.439718Z",
   "dedup_registry": {
     "total": 213,
     "by_channel": {
@@ -20,8 +20,8 @@
       "meta": 0
     }
   },
-  "days_back": 30,
-  "since": "2026-05-16T00:00:00Z",
+  "days_back": 7,
+  "since": "2026-06-09T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -31,7 +31,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 32
+      "skipped": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -51,7 +51,7 @@
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
       "videos": 0,
-      "skipped": 0
+      "skipped": 7
     },
     {
       "channel": "Rail Fans Canada",

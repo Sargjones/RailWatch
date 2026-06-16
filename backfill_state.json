@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "description": "RailWatch backfill cursor state — tracks progress per channel",
+    "description": "RailWatch backfill cursor state \u2014 tracks progress per channel",
     "maintained_by": "railwatch_backfill.py",
     "do_not_edit_manually": true,
     "schedule": {
@@ -16,7 +16,18 @@
       "Jun 28-29": "Southern Ontario Railfan",
       "Jun 30-Jul 3": "MJM Productions",
       "Jul 4-10": "Brockville RailFan",
-      "Jul 11": "PROMOTE — merge backfill into live data"
+      "Jul 11": "PROMOTE \u2014 merge backfill into live data"
     }
+  },
+  "Track Side Mike": {
+    "channel": "Track Side Mike",
+    "fetch_before": "2026-03-18",
+    "backfill_until": "2025-06-16",
+    "windows_fetched": 1,
+    "total_videos": 0,
+    "status": "in_progress",
+    "started_at": "2026-06-16T00:37:05.636573Z",
+    "last_run": "2026-06-16T00:37:07.200848Z",
+    "completed_at": null
   }
 }
