@@ -203,29 +203,40 @@ def fetch_tdg_lookup():
     """
     TC_TDG_CSV = "https://opendatatc.tc.canada.ca/TDGR_SCHEDULE1_ENG.csv"
     records = []
+    loaded_from_tc = False
     try:
         r = safe_get(TC_TDG_CSV, timeout=30)
-        reader = csv.DictReader(StringIO(r.text))
-        for row in reader:
-            un = row.get("UN_NUMBER","").strip().lstrip("UN").lstrip("0")
-            name = row.get("SHIPPING_NAME","").strip()
-            cls  = row.get("CLASS","").strip()
-            pg   = row.get("PACKING_GROUP","").strip() or None
-            erap = bool(row.get("ERAP_INDEX","").strip())
-            if un and name:
-                records.append({
-                    "un": un,
-                    "name": name,
-                    "class": cls,
-                    "class_label": TDG_CLASS_LABELS.get(cls, cls),
-                    "packing_group": pg,
-                    "erap_required": erap,
-                    "notes": None,
-                    "source": "Transport Canada Schedule 1 CSV",
-                })
-        print(f"  TDG: loaded {len(records)} records from TC CSV")
+        if r.status_code == 200 and "UN_NUMBER" in r.text[:500]:
+            reader = csv.DictReader(StringIO(r.text))
+            for row in reader:
+                un = row.get("UN_NUMBER","").strip().lstrip("UN").lstrip("0")
+                name = row.get("SHIPPING_NAME","").strip()
+                cls  = row.get("CLASS","").strip()
+                pg   = row.get("PACKING_GROUP","").strip() or None
+                erap = bool(row.get("ERAP_INDEX","").strip())
+                if un and name:
+                    records.append({
+                        "un": un,
+                        "name": name,
+                        "class": cls,
+                        "class_label": TDG_CLASS_LABELS.get(cls, cls),
+                        "packing_group": pg,
+                        "erap_required": erap,
+                        "notes": None,
+                        "source": "Transport Canada Schedule 1 CSV",
+                    })
+            if records:
+                loaded_from_tc = True
+                print(f"  TDG: loaded {len(records)} records from TC CSV")
+            else:
+                print(f"  TDG: TC CSV returned 200 but 0 records — falling back to seed")
+        else:
+            print(f"  TDG: TC CSV returned {r.status_code} — falling back to seed data")
     except Exception as e:
-        print(f"  TDG: TC CSV unavailable ({e}), using seed data ({len(TDG_SEED)} entries)")
+        print(f"  TDG: TC CSV unavailable ({e}) — falling back to seed data")
+
+    if not loaded_from_tc:
+        print(f"  TDG: using seed data ({len(TDG_SEED)} entries)")
         for un, name, cls, pg, erap, notes in TDG_SEED:
             records.append({
                 "un": un,
