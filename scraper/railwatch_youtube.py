@@ -666,13 +666,31 @@ def parse_video(item, detail, channel_meta):
     # Combine all text sources for extraction
     full_text = f"{title}\n{description}\n{' '.join(tags)}"
 
-    # Channel-specific model train filter — Scott Rails mixes real and model content
+    # Channel-specific model train filter — Scott Rails mixes real railfanning
+    # at Bayview Junction with model train livestreams and unboxings.
+    # His real content has train numbers in the title. His model content doesn't.
     if channel_meta.get("name") == "Scott Rails (Chasing The Money Shot)":
-        model_kw = ["n scale", "ho scale", "kato", "bachmann", "unboxing",
-                    "layout", "scenery", "dcc", "model train", "e657",
-                    "hitachi", "shinkansen", "scale set", "locomotive model"]
-        if any(kw in full_text.lower() for kw in model_kw):
-            print(f"    [skip] Scott Rails model content: {title[:50]}")
+        model_kw = [
+            "n scale", "ho scale", "kato", "bachmann", "unboxing",
+            "layout", "scenery", "dcc", "model train", "e657",
+            "hitachi", "shinkansen", "scale set", "locomotive model",
+            "kit builds", "electrickery", "kit bash", "workbench",
+            "no ads",       # his livestream signature
+            "gg1", "subscriber gifts", "shiver me timbers", "boat contraption",  # "NO ADS!" in title
+            "sound and vision test",  # model sound test livestream
+            "late night loco",        # model session
+            "running trains",         # model running session
+            "chat n chill",           # chat livestream
+            "friday night",           # friday model livestream pattern
+        ]
+        title_lower = title.lower()
+        # Also filter if title contains "live" but no train symbol
+        is_live_no_train = ("live" in title_lower and 
+                           not any(pat in title_lower for pat in 
+                                   ["eastbound", "westbound", "northbound", "southbound",
+                                    "cn train", "via train", "cp train", "cpkc"]))
+        if any(kw in full_text.lower() for kw in model_kw) or is_live_no_train:
+            print(f"    [skip] Scott Rails non-rail content: {title[:50]}")
             return None
 
     # Run extractors against full combined text
