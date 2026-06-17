@@ -619,9 +619,9 @@ footer a { color: var(--accent); text-decoration: none; }
   <div id="yt-channel-summary" style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px;"></div>
   <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;">
     <label style="font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;cursor:pointer;">
-      <input type="checkbox" id="yt-ontario-only" checked onchange="renderYoutube()"
+      <input type="checkbox" id="yt-ontario-only" onchange="renderYoutube()"
              style="accent-color:var(--accent)">
-      Ontario corridors only
+      Show Ontario corridors only
     </label>
     <span id="yt-filter-count" style="font-size:11px;color:var(--muted);font-family:var(--font-mono)"></span>
   </div>
@@ -972,8 +972,8 @@ function renderHeader() {
 function renderMap() {
   if (state.map) { state.map.remove(); state.map = null; }
   const map = L.map('corridor-map', {
-    center: [44.5, -79.0],
-    zoom: 6,
+    center: [50.5, -96.0],
+    zoom: 4,
     zoomControl: true,
   });
 
@@ -993,7 +993,7 @@ function renderMap() {
   // ── CORRIDOR DEFINITIONS ─────────────────────────────────────────────
   // Each line hugs the actual rail alignment, not road network or straight lines
 
-  // CN DUNDAS SUB: Windsor → London → Hamilton → Toronto (PILOT)
+  // CN DUNDAS SUB: Windsor → London → Hamilton → Toronto
   // Follows north shore of Lake Erie then cuts NE to Hamilton
   const dundasPts = [
     [42.3149,-83.0364], // Windsor
@@ -1021,7 +1021,7 @@ function renderMap() {
     [43.2870,-79.7760], // Bayview Junction ★
   ];
   L.polyline(dundasPts, { color:'#c8f04a', weight:3, opacity:0.9 })
-   .addTo(map).bindPopup('<b>CN Dundas Subdivision</b><br>Windsor · London · Hamilton<br><span style="color:#c8f04a">PILOT corridor</span>');
+   .addTo(map).bindPopup('<b>CN Dundas Subdivision</b><br>Windsor · London · Hamilton<br><span style="color:#c8f04a">Active corridor</span>');
 
   // CN OAKVILLE SUB: Bayview Junction → Toronto Union (along lakeshore)
   // Follows the actual lakeshore alignment through Burlington, Oakville, Mississauga
@@ -1044,7 +1044,7 @@ function renderMap() {
     [43.6450,-79.3800], // Toronto Union
   ];
   L.polyline(oakvillePts, { color:'#c8f04a', weight:3, opacity:0.9 })
-   .addTo(map).bindPopup('<b>CN Oakville Subdivision</b><br>Bayview Junction · Burlington · Oakville · Toronto<br><span style="color:#c8f04a">PILOT corridor (Dundas Sub extension)</span>');
+   .addTo(map).bindPopup('<b>CN Oakville Subdivision</b><br>Bayview Junction · Burlington · Oakville · Toronto<br><span style="color:#c8f04a">Active corridor (Dundas Sub extension)</span>');
 
   // CN CHATHAM SUB: Windsor → Sarnia (northeast along St. Clair River)
   const chathamPts = [
@@ -1163,7 +1163,104 @@ function renderMap() {
   L.polyline(galtPts, { color:'#f04a9a', weight:2, opacity:0.7, dashArray:'4 6' })
    .addTo(map).bindPopup('<b>CPKC Galt Subdivision</b><br>Toronto · Guelph · Kitchener · London · Windsor<br>Via Rail Kitchener/Sarnia corridor');
 
-  // ── KEY MARKERS ─────────────────────────────────────────────────────
+  // ── NATIONAL EXPANSION — PRAIRIE / BC ──────────────────────────────
+  // Added 2026-06-17. Matches subdivision geocoding in railwatch_youtube.py
+
+  // CN MAINLINE MANITOBA: Winnipeg → Portage la Prairie → Rivers → Wainwright (AB)
+  const cnManitobaPts = [
+    [49.8951,-97.1384], // Winnipeg
+    [49.9700,-97.8000], // Portage la Prairie
+    [50.0300,-99.0000],
+    [50.0300,-100.2400], // Rivers Sub
+    [50.4000,-102.5000],
+    [50.4500,-104.6178], // Regina area
+    [50.8000,-107.0000],
+    [52.8400,-110.8600], // Wainwright Sub
+  ];
+  L.polyline(cnManitobaPts, { color:'#4ac8f0', weight:2.5, opacity:0.8, dashArray:'6 4' })
+   .addTo(map).bindPopup('<b>CN Mainline (Manitoba–Alberta)</b><br>Winnipeg · Portage la Prairie · Rivers · Wainwright<br>National expansion — prairie corridor');
+
+  // CPKC CARBERRY SUB: Winnipeg → Carberry → Brandon (west Manitoba)
+  const cpkcCarberryPts = [
+    [49.8951,-97.1384], // Winnipeg
+    [49.8800,-98.0000],
+    [49.8700,-99.3500], // Carberry Sub
+    [49.8480,-99.9530], // Brandon
+  ];
+  L.polyline(cpkcCarberryPts, { color:'#f0c84a', weight:2.5, opacity:0.8, dashArray:'5 5' })
+   .addTo(map).bindPopup('<b>CPKC Carberry Subdivision</b><br>Winnipeg · Carberry · Brandon<br>Manitoba mainline');
+
+  // CN EDSON SUB: Edmonton → Edson → Jasper (gateway to BC)
+  const cnEdsonPts = [
+    [53.5461,-113.4938], // Edmonton
+    [53.5800,-114.8000],
+    [53.5800,-116.4300], // Edson Sub
+    [53.2000,-117.7000],
+    [52.8734,-118.0814], // Jasper
+  ];
+  L.polyline(cnEdsonPts, { color:'#4ac8f0', weight:2, opacity:0.75, dashArray:'5 5' })
+   .addTo(map).bindPopup('<b>CN Edson Subdivision</b><br>Edmonton · Edson · Jasper<br>Gateway to BC / Yellowhead route');
+
+  // CPKC MOUNTAIN / LAGGAN SUB: Calgary → Banff → Field, BC → Laggan
+  const cpkcMountainPts = [
+    [51.0447,-114.0719], // Calgary
+    [51.0800,-114.8000],
+    [51.1700,-115.5700], // Canmore
+    [51.1700,-115.5700],
+    [51.1700,-116.2000], // Laggan Sub (Lake Louise area)
+    [51.1700,-116.9700],
+    [51.1700,-117.6800], // Field, BC
+    [51.1700,-117.9400], // Mountain Sub
+  ];
+  L.polyline(cpkcMountainPts, { color:'#f0c84a', weight:2.5, opacity:0.8, dashArray:'6 4' })
+   .addTo(map).bindPopup('<b>CPKC Laggan / Mountain Subdivision</b><br>Calgary · Banff · Lake Louise · Field, BC<br>Continental Divide crossing');
+
+  // CPKC SHUSWAP SUB: Revelstoke → Shuswap → Kamloops
+  const cpkcShuswapPts = [
+    [50.9981,-118.1957], // Revelstoke
+    [50.9500,-119.0000],
+    [50.9000,-119.2000], // Shuswap Sub
+    [50.8000,-119.8000],
+    [50.6745,-120.3273], // Kamloops
+  ];
+  L.polyline(cpkcShuswapPts, { color:'#f0c84a', weight:2, opacity:0.75, dashArray:'5 5' })
+   .addTo(map).bindPopup('<b>CPKC Shuswap Subdivision</b><br>Revelstoke · Shuswap · Kamloops<br>BC interior corridor · Virtual Railfan Revelstoke territory');
+
+  // CPKC BROOKS / RED DEER SUB: Calgary → Red Deer → Edmonton (north) / Calgary → Brooks → Medicine Hat (south)
+  const cpkcRedDeerPts = [
+    [51.0447,-114.0719], // Calgary
+    [51.6000,-113.9500],
+    [52.2681,-113.8112], // Red Deer Sub
+    [53.0000,-113.7000],
+    [53.5461,-113.4938], // Edmonton
+  ];
+  L.polyline(cpkcRedDeerPts, { color:'#f04a9a', weight:2, opacity:0.7, dashArray:'4 6' })
+   .addTo(map).bindPopup('<b>CPKC Red Deer Subdivision</b><br>Calgary · Red Deer · Edmonton<br>Alberta mainline');
+
+  const cpkcBrooksPts = [
+    [51.0447,-114.0719], // Calgary
+    [50.8000,-113.0000],
+    [50.5640,-111.8980], // Brooks Sub
+    [50.0420,-110.6770], // Medicine Hat
+  ];
+  L.polyline(cpkcBrooksPts, { color:'#f04a9a', weight:2, opacity:0.7, dashArray:'4 6' })
+   .addTo(map).bindPopup('<b>CPKC Brooks Subdivision</b><br>Calgary · Brooks · Medicine Hat<br>Southern Alberta corridor');
+
+  // Winnipeg — prairie hub (CN Mainline + CPKC Carberry Sub)
+  L.circleMarker([49.8951,-97.1384], {
+    radius: 8, color:'#4ac8f0', fillColor:'#4ac8f0', fillOpacity:0.9, weight:2
+  }).addTo(map).bindPopup(
+    '<b>Winnipeg</b><br>Hub of CN Mainline Manitoba, CPKC Carberry Sub<br>' +
+    'Winnipeg Railman · The Cando Railfan · The Manitoba Railfan · Central Canada Railfan'
+  );
+
+  // Calgary — Alberta / Rockies hub (CPKC Mountain, Red Deer, Brooks Subs)
+  L.circleMarker([51.0447,-114.0719], {
+    radius: 8, color:'#f0c84a', fillColor:'#f0c84a', fillOpacity:0.9, weight:2
+  }).addTo(map).bindPopup(
+    '<b>Calgary</b><br>Hub of CPKC Mountain, Red Deer, Brooks Subs<br>' +
+    'Gateway to Rocky Mountain crossing'
+  );
 
   // Toronto Union — hub of all corridors
   L.circleMarker([43.6450,-79.3800], {
@@ -1285,7 +1382,7 @@ function renderMap() {
     const d = L.DomUtil.create('div');
     d.style.cssText = 'background:rgba(13,15,14,0.88);border:1px solid #2a2e2b;border-radius:6px;padding:10px 14px;font-family:DM Sans,sans-serif;font-size:11px;color:#8a9189;line-height:2;min-width:180px;';
     d.innerHTML = `
-      <div style="color:#e8ede9;font-weight:600;margin-bottom:4px;letter-spacing:.08em;font-size:10px;text-transform:uppercase;">Corridors</div>
+      <div style="color:#e8ede9;font-weight:600;margin-bottom:4px;letter-spacing:.08em;font-size:10px;text-transform:uppercase;">Corridors — Ontario</div>
       <div><span style="color:#c8f04a">━━</span> CN Dundas / Oakville Sub<span style="color:#c8f04a;font-size:9px">ACTIVE</span></div>
       <div><span style="color:#4ac8a0">╌╌</span> CN Chatham Sub</div>
       <div><span style="color:#f0b84a">╌╌</span> CN Kingston Sub (Toronto–Montreal)</div>
@@ -1294,6 +1391,10 @@ function renderMap() {
       <div><span style="color:#f0b84a">╌╌</span> CN Halton Sub</div>
       <div><span style="color:#8a7af0">╌╌</span> CN Bala Sub (Northern ON)</div>
       <div><span style="color:#f04a9a">╌╌</span> CPKC Galt Sub</div>
+      <div style="color:#e8ede9;font-weight:600;margin:6px 0 4px;letter-spacing:.08em;font-size:10px;text-transform:uppercase;border-top:1px solid #2a2e2b;padding-top:6px;">Corridors — Prairie / BC</div>
+      <div><span style="color:#4ac8f0">╌╌</span> CN Mainline (MB–AB) / Edson Sub</div>
+      <div><span style="color:#f0c84a">╌╌</span> CPKC Carberry / Mountain / Shuswap Subs</div>
+      <div><span style="color:#f04a9a">╌╌</span> CPKC Red Deer / Brooks Subs</div>
       <div style="margin-top:6px;border-top:1px solid #2a2e2b;padding-top:6px;">
         <span style="color:#f04a4a">●</span> TSB incident &nbsp;
         <span style="color:#f0b84a">●</span> Observation
@@ -1311,13 +1412,20 @@ function renderMap() {
 // ── CORRIDORS ────────────────────────────────────────────────────────────
 function renderCorridors() {
   const corridors = [
-    { id:'dundas_sub',   name:'CN Dundas / Oakville Sub',   route:'Windsor · London · Hamilton · Toronto (lakeshore)', badge:'PILOT',   cls:'',          active:true  },
+    { id:'dundas_sub',   name:'CN Dundas / Oakville Sub',   route:'Windsor · London · Hamilton · Toronto (lakeshore)', badge:'ACTIVE',   cls:'',          active:true  },
     { id:'chatham_sub',  name:'CN Chatham Subdivision',      route:'Windsor · Chatham · Sarnia — Chemical Valley',      badge:'PLANNED', cls:'secondary', active:false },
     { id:'kingston_sub', name:'CN Kingston Subdivision',     route:'Toronto · Oshawa · Kingston · Brockville · Montreal',badge:'PLANNED', cls:'tertiary',  active:false },
     { id:'ottawa_sub',   name:'CN Smiths Falls / VIA Brockville Sub', route:'Ottawa · Smiths Falls · Napanee / Smiths Falls · Brockville', badge:'PLANNED', cls:'tertiary', active:false },
     { id:'halton_sub',   name:'CN Halton Subdivision',       route:'Toronto · Brampton · Georgetown · Burlington',      badge:'PLANNED', cls:'tertiary',  active:false },
     { id:'bala_sub',     name:'CN Bala Subdivision',         route:'Toronto · Barrie · Parry Sound · Sudbury',          badge:'PLANNED', cls:'secondary', active:false },
     { id:'galt_sub',     name:'CPKC Galt Subdivision',       route:'Toronto · Guelph · Kitchener · London · Windsor',   badge:'PLANNED', cls:'tertiary',  active:false },
+    { id:'cn_manitoba',  name:'CN Mainline (Manitoba–Alberta)', route:'Winnipeg · Portage la Prairie · Rivers · Wainwright', badge:'ACTIVE', cls:'',         active:true  },
+    { id:'cpkc_carberry',name:'CPKC Carberry Subdivision',   route:'Winnipeg · Carberry · Brandon',                     badge:'ACTIVE',  cls:'',          active:true  },
+    { id:'cn_edson',     name:'CN Edson Subdivision',        route:'Edmonton · Edson · Jasper',                         badge:'PLANNED', cls:'tertiary',  active:false },
+    { id:'cpkc_mountain',name:'CPKC Laggan / Mountain Sub',   route:'Calgary · Banff · Lake Louise · Field, BC',         badge:'PLANNED', cls:'tertiary',  active:false },
+    { id:'cpkc_shuswap', name:'CPKC Shuswap Subdivision',     route:'Revelstoke · Shuswap · Kamloops',                   badge:'PLANNED', cls:'tertiary',  active:false },
+    { id:'cpkc_reddeer', name:'CPKC Red Deer Subdivision',    route:'Calgary · Red Deer · Edmonton',                     badge:'PLANNED', cls:'secondary', active:false },
+    { id:'cpkc_brooks',  name:'CPKC Brooks Subdivision',      route:'Calgary · Brooks · Medicine Hat',                   badge:'PLANNED', cls:'secondary', active:false },
   ];
   document.getElementById('corridor-list').innerHTML = corridors.map(c => `
     <div class="corridor-bar ${c.active ? 'active-corridor' : ''}">
