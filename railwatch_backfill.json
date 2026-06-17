@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T22:31:20.526180Z",
+  "generated_at": "2026-06-17T13:31:36.326751Z",
   "description": "RailWatch historical backfill \u2014 separate from live data",
   "channels": {
     "PTBO Railfanning": {
@@ -26,9 +26,19 @@
           "videos": 2
         }
       ]
+    },
+    "Ontario Railman": {
+      "total": 4,
+      "windows": [
+        {
+          "from": "2025-09-19",
+          "to": "2025-12-18",
+          "videos": 4
+        }
+      ]
     }
   },
-  "total_videos": 23,
+  "total_videos": 27,
   "observations": [
     {
       "source": "youtube",
@@ -217,6 +227,139 @@
       "description_chars": 398,
       "consist": null,
       "location_source": "channel_default",
+      "backfill": true
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Railman",
+      "channel_id": "UCFuVf51HoTGIGdecd_JfRcw",
+      "video_id": "yqogwc7aDu4",
+      "video_url": "https://www.youtube.com/watch?v=yqogwc7aDu4",
+      "title": "(75i/Downpour/DPU 2872!) CN 111 | 3865 Leads 5682 Through Sudbury Jct",
+      "published_at": "2025-09-20T01:24:04Z",
+      "date": "2025-09-20",
+      "location": "Sudbury",
+      "subdivision": "CN Bala Sub",
+      "lat": 46.49,
+      "lon": -80.99,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 111"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 111",
+          "raw": "CN 111"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "(75i/Downpour/DPU 2872!) CN 111 | 3865 Leads 5682 Through Sudbury Jct",
+      "description_chars": 25,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted",
+      "backfill": true
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Railman",
+      "channel_id": "UCFuVf51HoTGIGdecd_JfRcw",
+      "video_id": "tnGxw-0BWdI",
+      "video_url": "https://www.youtube.com/watch?v=tnGxw-0BWdI",
+      "title": "CN 397 | 2972 Leads 3937 Through Brantford Station ",
+      "published_at": "2025-09-20T01:12:06Z",
+      "date": "2025-09-20",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 397"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 397",
+          "raw": "CN 397"
+        }
+      ],
+      "confidence": "low",
+      "raw_title": "CN 397 | 2972 Leads 3937 Through Brantford Station ",
+      "description_chars": 23,
+      "consist": null,
+      "location_source": "none",
+      "backfill": true
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Railman",
+      "channel_id": "UCFuVf51HoTGIGdecd_JfRcw",
+      "video_id": "ZBS8npqyCyU",
+      "video_url": "https://www.youtube.com/watch?v=ZBS8npqyCyU",
+      "title": "CN Manifest | 2994 Leads 3173 Through Powerline Road West",
+      "published_at": "2025-09-20T01:10:22Z",
+      "date": "2025-09-20",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Manifest | 2994 Leads 3173 Through Powerline Road West",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none",
+      "backfill": true
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Railman",
+      "channel_id": "UCFuVf51HoTGIGdecd_JfRcw",
+      "video_id": "mdr4UqX6078",
+      "video_url": "https://www.youtube.com/watch?v=mdr4UqX6078",
+      "title": "CN 397 | 3397 Leads 3056 & 8340 Through Hardy Rd",
+      "published_at": "2025-09-20T01:09:11Z",
+      "date": "2025-09-20",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 397"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 397",
+          "raw": "CN 397"
+        }
+      ],
+      "confidence": "low",
+      "raw_title": "CN 397 | 3397 Leads 3056 & 8340 Through Hardy Rd",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none",
       "backfill": true
     },
     {
