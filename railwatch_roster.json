@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-17T13:31:32.738346Z",
-  "total_units": 64,
+  "generated_at": "2026-06-17T20:20:22.736050Z",
+  "total_units": 66,
   "min_sightings": 2,
   "by_road": {
-    "CN": 45,
+    "CN": 47,
     "VIA": 3,
     "CP": 16
   },
@@ -868,6 +868,53 @@
     },
     {
       "road": "CN",
+      "number": "3014",
+      "display": "CN 3014",
+      "sighting_count": 2,
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-17",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mgPpaL12qn0",
+          "title": "CN Train 149 Westbound June 17, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-17",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mgPpaL12qn0",
+          "title": "CN Train 149 Westbound June 17, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3063",
       "display": "CN 3063",
       "sighting_count": 2,
@@ -1005,6 +1052,53 @@
           "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
           "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3275",
+      "display": "CN 3275",
+      "sighting_count": 2,
+      "first_seen": "2026-06-17",
+      "last_seen": "2026-06-17",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-17",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mgPpaL12qn0",
+          "title": "CN Train 149 Westbound June 17, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-17",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mgPpaL12qn0",
+          "title": "CN Train 149 Westbound June 17, 2026",
+          "source": "description_structured"
         }
       ]
     },

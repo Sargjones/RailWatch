@@ -54,13 +54,13 @@
   },
   "Ontario Railman": {
     "channel": "Ontario Railman",
-    "fetch_before": "2025-09-19",
+    "fetch_before": "2025-06-21",
     "backfill_until": "2025-06-16",
-    "windows_fetched": 3,
-    "total_videos": 4,
+    "windows_fetched": 4,
+    "total_videos": 6,
     "status": "in_progress",
     "started_at": "2026-06-16T23:28:06.712043Z",
-    "last_run": "2026-06-17T13:31:36.326763Z",
+    "last_run": "2026-06-17T20:20:26.187311Z",
     "completed_at": null
   }
 }

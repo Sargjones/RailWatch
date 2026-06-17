@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T13:31:36.326751Z",
+  "generated_at": "2026-06-17T20:20:26.187299Z",
   "description": "RailWatch historical backfill \u2014 separate from live data",
   "channels": {
     "PTBO Railfanning": {
@@ -28,17 +28,22 @@
       ]
     },
     "Ontario Railman": {
-      "total": 4,
+      "total": 6,
       "windows": [
         {
           "from": "2025-09-19",
           "to": "2025-12-18",
           "videos": 4
+        },
+        {
+          "from": "2025-06-21",
+          "to": "2025-09-19",
+          "videos": 2
         }
       ]
     }
   },
-  "total_videos": 27,
+  "total_videos": 29,
   "observations": [
     {
       "source": "youtube",
@@ -792,6 +797,76 @@
       "description_chars": 546,
       "consist": null,
       "location_source": "channel_default",
+      "backfill": true
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Railman",
+      "channel_id": "UCFuVf51HoTGIGdecd_JfRcw",
+      "video_id": "KXjZoCdwlMc",
+      "video_url": "https://www.youtube.com/watch?v=KXjZoCdwlMc",
+      "title": "CN 502 | GECX 2038 Leads 3055 Through Stanley St (Brantford)",
+      "published_at": "2025-06-21T15:49:57Z",
+      "date": "2025-06-21",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 502"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 502",
+          "raw": "CN 502"
+        }
+      ],
+      "confidence": "low",
+      "raw_title": "CN 502 | GECX 2038 Leads 3055 Through Stanley St (Brantford)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none",
+      "backfill": true
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Railman",
+      "channel_id": "UCFuVf51HoTGIGdecd_JfRcw",
+      "video_id": "CyUEI7CFPdY",
+      "video_url": "https://www.youtube.com/watch?v=CyUEI7CFPdY",
+      "title": "CN 502 With GECX 2038 Through Stanley St! #shorts #trains #fyp",
+      "published_at": "2025-06-21T15:46:42Z",
+      "date": "2025-06-21",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 502"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 502",
+          "raw": "CN 502"
+        }
+      ],
+      "confidence": "low",
+      "raw_title": "CN 502 With GECX 2038 Through Stanley St! #shorts #trains #fyp",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none",
       "backfill": true
     }
   ]

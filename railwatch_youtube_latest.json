@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-17T13:31:32.635766Z",
+  "generated_at": "2026-06-17T20:20:22.634849Z",
   "dedup_registry": {
-    "total": 217,
+    "total": 221,
     "by_channel": {
       "Trackside Ontario": 14,
-      "Trackside Tyson": 33,
+      "Trackside Tyson": 34,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 4,
       "Track Side Mike": 16,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 8,
-      "Brockville RailFan": 52,
+      "Brockville RailFan": 55,
       "MJM Productions": 50
     },
     "by_confidence": {
-      "high": 18,
-      "medium": 183,
+      "high": 20,
+      "medium": 185,
       "low": 16,
       "meta": 0
     }
@@ -30,8 +30,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -55,8 +60,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 17
+      "videos": 3,
+      "skipped": 17,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -99,11 +109,192 @@
       "skipped": 0
     }
   ],
-  "total": 217,
-  "new_this_run": 0,
-  "high_confidence": 18,
-  "dg_likely": 10,
+  "total": 221,
+  "new_this_run": 4,
+  "high_confidence": 20,
+  "dg_likely": 11,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "LgzG1qVMtho",
+      "video_url": "https://www.youtube.com/watch?v=LgzG1qVMtho",
+      "title": "DOUBLE STACK CURVING THRU THE CANYON #youtubeshorts",
+      "published_at": "2026-06-17T15:30:24Z",
+      "date": "2026-06-17",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "DOUBLE STACK CURVING THRU THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "mgPpaL12qn0",
+      "video_url": "https://www.youtube.com/watch?v=mgPpaL12qn0",
+      "title": "CN Train 149 Westbound June 17, 2026",
+      "published_at": "2026-06-17T14:35:47Z",
+      "date": "2026-06-17",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3275",
+        "CN 3014"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3275",
+          "raw": "CN 3275"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3014",
+          "raw": "CN 3014"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound June 17, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 3275",
+          "CN 3014"
+        ],
+        "car_count": 186,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 60,
+        "speed_raw": "37 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:05",
+        "observed_tz": "EDT",
+        "temperature_c": 17,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-06-17T09:05-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "msq64fYsarY",
+      "video_url": "https://www.youtube.com/watch?v=msq64fYsarY",
+      "title": "VIA Train 61 Westbound June 17, 2026",
+      "published_at": "2026-06-17T14:17:00Z",
+      "date": "2026-06-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound June 17, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 69 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 111,
+        "speed_raw": "69 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:46",
+        "observed_tz": "EDT",
+        "temperature_c": 17,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-06-17T08:46-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "ZogfoPh06LE",
+      "video_url": "https://www.youtube.com/watch?v=ZogfoPh06LE",
+      "title": "MOW Tie Train Westbound June 17, 2026",
+      "published_at": "2026-06-17T14:12:01Z",
+      "date": "2026-06-17",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "MOW Tie Train Westbound June 17, 2026",
+      "description_chars": 256,
+      "consist": {
+        "engines": [
+          "RUCK 17251"
+        ],
+        "car_count": 3,
+        "consist_type": "freight",
+        "observed_time": "07:59",
+        "observed_tz": "EDT",
+        "temperature_c": 14,
+        "origin": "Someplace east of Brockville ON",
+        "destination": "Brockville ON"
+      },
+      "observed_at": "2026-06-17T07:59-04:00",
+      "origin": "Someplace east of Brockville ON",
+      "destination": "Brockville ON",
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

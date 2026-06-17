@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-06-17T13:31:32.632798Z",
-    "total_videos": 217
+    "updated_at": "2026-06-17T20:20:22.632023Z",
+    "total_videos": 221
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1306,6 +1306,30 @@
       "title": "CN Train 368 Eastbound June 16, 2026",
       "confidence": "high",
       "processed_at": "2026-06-16T18:06:37.561545Z"
+    },
+    "LgzG1qVMtho": {
+      "channel": "Trackside Tyson",
+      "title": "DOUBLE STACK CURVING THRU THE CANYON #youtubeshorts",
+      "confidence": "medium",
+      "processed_at": "2026-06-17T20:20:19.675449Z"
+    },
+    "mgPpaL12qn0": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound June 17, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-17T20:20:20.940088Z"
+    },
+    "msq64fYsarY": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound June 17, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-06-17T20:20:20.940277Z"
+    },
+    "ZogfoPh06LE": {
+      "channel": "Brockville RailFan",
+      "title": "MOW Tie Train Westbound June 17, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-17T20:20:20.940458Z"
     }
   }
 }

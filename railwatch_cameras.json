@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T13:31:29.229543Z",
+  "generated_at": "2026-06-17T20:20:18.955121Z",
   "source": "Ontario 511 Developer API (511on.ca)",
   "total_cameras": 181,
   "enabled_cameras": 181,
@@ -46,7 +46,7 @@
     },
     {
       "id": 340,
-      "name": "Highway 401 near Yonge Street",
+      "name": "Highway 401 at Yonge Street",
       "roadway": "Highway 401",
       "lat": 43.752745,
       "lon": -79.408364,
@@ -137,7 +137,7 @@
     },
     {
       "id": 342,
-      "name": "Highway 401 near Bayview Avenue",
+      "name": "Highway 401 at Bayview Avenue",
       "roadway": "Highway 401",
       "lat": 43.762571,
       "lon": -79.387207,
@@ -150,7 +150,7 @@
     },
     {
       "id": 338,
-      "name": "Highway 401 near Avenue Road",
+      "name": "Highway 401 at Avenue Road",
       "roadway": "Highway 401",
       "lat": 43.741895,
       "lon": -79.422741,
@@ -306,7 +306,7 @@
     },
     {
       "id": 1223,
-      "name": "Highway 402 near Front Street North",
+      "name": "Highway 402 at Front Street North",
       "roadway": "Highway 402",
       "lat": 42.988074,
       "lon": -82.404456,
@@ -319,7 +319,7 @@
     },
     {
       "id": 1224,
-      "name": "Highway 402 near Christina Street North",
+      "name": "Highway 402 at Christina Street North",
       "roadway": "Highway 402",
       "lat": 42.98769,
       "lon": -82.398469,
@@ -514,7 +514,7 @@
     },
     {
       "id": 542,
-      "name": "Highway 401 near Highbury Avenue South",
+      "name": "Highway 401 at Highbury Avenue South",
       "roadway": "Highway 401",
       "lat": 42.936192,
       "lon": -81.177893,
@@ -579,7 +579,7 @@
     },
     {
       "id": 541,
-      "name": "Highway 401 near Wellington Road South",
+      "name": "Highway 401 at Wellington Road South",
       "roadway": "Highway 401",
       "lat": 42.922115,
       "lon": -81.211796,
@@ -592,7 +592,7 @@
     },
     {
       "id": 543,
-      "name": "Highway 401 near Old Victoria Road South",
+      "name": "Highway 401 at Old Victoria Road South",
       "roadway": "Highway 401",
       "lat": 42.941093,
       "lon": -81.139526,
@@ -605,7 +605,7 @@
     },
     {
       "id": 216,
-      "name": "QEW near Woodward Avenue",
+      "name": "QEW at Woodward Avenue",
       "roadway": "QEW",
       "lat": 43.264956,
       "lon": -79.772243,
@@ -670,7 +670,7 @@
     },
     {
       "id": 228,
-      "name": "QEW near Guelph Line",
+      "name": "QEW at Guelph Line",
       "roadway": "QEW",
       "lat": 43.350991,
       "lon": -79.804387,
@@ -683,7 +683,7 @@
     },
     {
       "id": 321,
-      "name": "Highway 401 near Renforth Drive",
+      "name": "Highway 401 at Renforth Drive",
       "roadway": "Highway 401",
       "lat": 43.667682,
       "lon": -79.590981,
@@ -709,7 +709,7 @@
     },
     {
       "id": 1390,
-      "name": "Highway 410 near Derry Road",
+      "name": "Highway 410 at Derry Road",
       "roadway": "Highway 410",
       "lat": 43.661974,
       "lon": -79.6902,
@@ -761,7 +761,7 @@
     },
     {
       "id": 300,
-      "name": "Highway 401 Near Trafalgar Road",
+      "name": "Highway 401 at Trafalgar Road",
       "roadway": "Highway 401",
       "lat": 43.569023,
       "lon": -79.831159,
@@ -774,7 +774,7 @@
     },
     {
       "id": 1391,
-      "name": "Highway 410 near Highway 407",
+      "name": "Highway 410 at Highway 407",
       "roadway": "Highway 410",
       "lat": 43.668736,
       "lon": -79.6993,
@@ -813,7 +813,7 @@
     },
     {
       "id": 491,
-      "name": "Highway 427 near Highway 401",
+      "name": "Highway 427 at Highway 401",
       "roadway": "Highway 427",
       "lat": 43.671378,
       "lon": -79.575228,
@@ -839,7 +839,7 @@
     },
     {
       "id": 322,
-      "name": "Highway 401 near Carlingview Drive",
+      "name": "Highway 401 at Carlingview Drive",
       "roadway": "Highway 401",
       "lat": 43.672565,
       "lon": -79.58044,
@@ -917,7 +917,7 @@
     },
     {
       "id": 319,
-      "name": "Highway 401 near Transfer (East of Dixie)",
+      "name": "Highway 401 at Transfer (East of Dixie)",
       "roadway": "Highway 401",
       "lat": 43.65921,
       "lon": -79.612899,
@@ -1164,7 +1164,7 @@
     },
     {
       "id": 1388,
-      "name": "Highway 410 near Courtneypark Drive",
+      "name": "Highway 410 at Courtneypark Drive",
       "roadway": "Highway 410",
       "lat": 43.651287,
       "lon": -79.675971,
@@ -1216,7 +1216,7 @@
     },
     {
       "id": 230,
-      "name": "QEW near Walkers Line",
+      "name": "QEW at Walkers Line",
       "roadway": "QEW",
       "lat": 43.365999,
       "lon": -79.787822,
@@ -1268,7 +1268,7 @@
     },
     {
       "id": 224,
-      "name": "QEW near Fairview Street",
+      "name": "QEW at Fairview Street",
       "roadway": "QEW",
       "lat": 43.327831,
       "lon": -79.824901,
@@ -1320,7 +1320,7 @@
     },
     {
       "id": 493,
-      "name": "Highway 427 near Airport Road",
+      "name": "Highway 427 at Airport Road",
       "roadway": "Highway 427",
       "lat": 43.684544,
       "lon": -79.597828,
@@ -1333,7 +1333,7 @@
     },
     {
       "id": 225,
-      "name": "QEW near Highway 403/407 IC",
+      "name": "QEW at Highway 403/407 IC",
       "roadway": "QEW",
       "lat": 43.336509,
       "lon": -79.828291,
@@ -1346,7 +1346,7 @@
     },
     {
       "id": 488,
-      "name": "Highway 427 near Burnhamthorpe Road",
+      "name": "Highway 427 at Burnhamthorpe Road",
       "roadway": "Highway 427",
       "lat": 43.645548,
       "lon": -79.56449,
@@ -1450,7 +1450,7 @@
     },
     {
       "id": 297,
-      "name": "Highway 401 near James Snow Parkway",
+      "name": "Highway 401 at James Snow Parkway",
       "roadway": "Highway 401",
       "lat": 43.541525,
       "lon": -79.862437,
@@ -1476,7 +1476,7 @@
     },
     {
       "id": 1093,
-      "name": "Highway 401 near Dixie Road",
+      "name": "Highway 401 at Dixie Road",
       "roadway": "Highway 401",
       "lat": 43.647908,
       "lon": -79.637232,
@@ -1541,7 +1541,7 @@
     },
     {
       "id": 363,
-      "name": "Highway 401 near Kingston Road",
+      "name": "Highway 401 at Kingston Road",
       "roadway": "Highway 401",
       "lat": 43.794858,
       "lon": -79.152589,
@@ -1554,7 +1554,7 @@
     },
     {
       "id": 374,
-      "name": "Highway 401 near Westney Road",
+      "name": "Highway 401 at Westney Road",
       "roadway": "Highway 401",
       "lat": 43.848084,
       "lon": -79.040623,
@@ -1580,7 +1580,7 @@
     },
     {
       "id": 376,
-      "name": "Highway 401 near Salem Road",
+      "name": "Highway 401 at Salem Road",
       "roadway": "Highway 401",
       "lat": 43.854373,
       "lon": -79.015844,
@@ -1619,7 +1619,7 @@
     },
     {
       "id": 364,
-      "name": "Highway 401 near Port Union Road",
+      "name": "Highway 401 at Port Union Road",
       "roadway": "Highway 401",
       "lat": 43.796995,
       "lon": -79.144135,
@@ -1684,7 +1684,7 @@
     },
     {
       "id": 371,
-      "name": "Highway 401 near Brock Road",
+      "name": "Highway 401 at Brock Road",
       "roadway": "Highway 401",
       "lat": 43.837932,
       "lon": -79.070406,
@@ -1723,7 +1723,7 @@
     },
     {
       "id": 367,
-      "name": "Highway 401 near Whites Road",
+      "name": "Highway 401 at Whites Road",
       "roadway": "Highway 401",
       "lat": 43.814897,
       "lon": -79.115124,
@@ -1749,7 +1749,7 @@
     },
     {
       "id": 379,
-      "name": "Highway 401 Near Lakeridge Road",
+      "name": "Highway 401 at Lakeridge Road",
       "roadway": "Highway 401",
       "lat": 43.861607,
       "lon": -78.9829,
@@ -1762,7 +1762,7 @@
     },
     {
       "id": 380,
-      "name": "Highway 401 near Highway 412",
+      "name": "Highway 401 at Highway 412",
       "roadway": "Highway 401",
       "lat": 43.864264,
       "lon": -78.970876,
@@ -1853,7 +1853,7 @@
     },
     {
       "id": 369,
-      "name": "Highway 401 near Liverpool Road",
+      "name": "Highway 401 at Liverpool Road",
       "roadway": "Highway 401",
       "lat": 43.829635,
       "lon": -79.088345,
@@ -1892,7 +1892,7 @@
     },
     {
       "id": 481,
-      "name": "Highway 418 near Highway 2",
+      "name": "Highway 418 at Highway 2",
       "roadway": "Highway 418",
       "lat": 43.913,
       "lon": -78.7629,
@@ -2022,7 +2022,7 @@
     },
     {
       "id": 362,
-      "name": "Highway 401 near Meadowvale Road",
+      "name": "Highway 401 at Meadowvale Road",
       "roadway": "Highway 401",
       "lat": 43.798699,
       "lon": -79.166021,
@@ -2035,7 +2035,7 @@
     },
     {
       "id": 1380,
-      "name": "Highway 401 near Brock Street (Whitby)",
+      "name": "Highway 401 at Brock Street (Whitby)",
       "roadway": "Highway 401",
       "lat": 43.8665,
       "lon": -78.936293,
@@ -2243,7 +2243,7 @@
     },
     {
       "id": 763,
-      "name": "Highway 417 near Bronson Avenue",
+      "name": "Highway 417 at Bronson Avenue",
       "roadway": "Highway 417",
       "lat": 45.404645,
       "lon": -75.702141,
@@ -2256,7 +2256,7 @@
     },
     {
       "id": 762,
-      "name": "Highway 417 near Bayswater Avenue",
+      "name": "Highway 417 at Bayswater Avenue",
       "roadway": "Highway 417",
       "lat": 45.401146,
       "lon": -75.717132,
@@ -2282,7 +2282,7 @@
     },
     {
       "id": 764,
-      "name": "Highway 417 near O'Connor Street",
+      "name": "Highway 417 at O'Connor Street",
       "roadway": "Highway 417",
       "lat": 45.410155,
       "lon": -75.688648,
@@ -2295,7 +2295,7 @@
     },
     {
       "id": 761,
-      "name": "Highway 417 near Parkdale Avenue",
+      "name": "Highway 417 at Parkdale Avenue",
       "roadway": "Highway 417",
       "lat": 45.3966268,
       "lon": -75.7295591,
@@ -2321,7 +2321,7 @@
     },
     {
       "id": 759,
-      "name": "Highway 417 near Churchill Avenue South",
+      "name": "Highway 417 at Churchill Avenue South",
       "roadway": "Highway 417",
       "lat": 45.3779,
       "lon": -75.745942,
@@ -2334,7 +2334,7 @@
     },
     {
       "id": 765,
-      "name": "Highway 417 near Nicholas Street (1)",
+      "name": "Highway 417 at Nicholas Street (1)",
       "roadway": "Highway 417",
       "lat": 45.41684,
       "lon": -75.67392,
@@ -2347,7 +2347,7 @@
     },
     {
       "id": 1359,
-      "name": "Highway 417 near Nicholas Street (2)",
+      "name": "Highway 417 at Nicholas Street (2)",
       "roadway": "Highway 417",
       "lat": 45.41683,
       "lon": -75.67393,
@@ -2360,7 +2360,7 @@
     },
     {
       "id": 1363,
-      "name": "Highway 417 near Maitland Avenue",
+      "name": "Highway 417 at Maitland Avenue",
       "roadway": "Highway 417",
       "lat": 45.370179,
       "lon": -75.754297,
