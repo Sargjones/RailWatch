@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-18T10:13:03.163688Z",
+  "generated_at": "2026-06-18T20:31:34.170282Z",
   "dedup_registry": {
-    "total": 222,
+    "total": 231,
     "by_channel": {
       "Trackside Ontario": 14,
-      "Trackside Tyson": 34,
+      "Trackside Tyson": 35,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 4,
       "Track Side Mike": 16,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 9,
-      "Brockville RailFan": 55,
+      "Brockville RailFan": 63,
       "MJM Productions": 50
     },
     "by_confidence": {
-      "high": 20,
-      "medium": 186,
-      "low": 16,
+      "high": 27,
+      "medium": 187,
+      "low": 17,
       "meta": 0
     }
   },
@@ -30,8 +30,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -50,18 +55,18 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 16
+      "videos": 8,
+      "skipped": 16,
+      "high": 7,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 6,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -104,11 +109,555 @@
       "skipped": 0
     }
   ],
-  "total": 222,
-  "new_this_run": 1,
-  "high_confidence": 20,
-  "dg_likely": 11,
+  "total": 231,
+  "new_this_run": 9,
+  "high_confidence": 27,
+  "dg_likely": 17,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Epz96ovccfg",
+      "video_url": "https://www.youtube.com/watch?v=Epz96ovccfg",
+      "title": "CN Train 368 Eastbound June 18, 2026",
+      "published_at": "2026-06-18T15:48:20Z",
+      "date": "2026-06-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3014",
+        "CN 3275"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3014",
+          "raw": "CN 3014"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3275",
+          "raw": "CN 3275"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Eastbound June 18, 2026",
+      "description_chars": 201,
+      "consist": {
+        "engines": [
+          "CN 3014"
+        ],
+        "dpu": [
+          "CN 3275"
+        ],
+        "car_count": 145,
+        "consist_type": "freight",
+        "speed_kmh": 53,
+        "speed_raw": "33 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:53",
+        "observed_tz": "EDT",
+        "temperature_c": 16,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-06-18T08:53-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "T9d9TBVBsgQ",
+      "video_url": "https://www.youtube.com/watch?v=T9d9TBVBsgQ",
+      "title": "CN TRAIN CURVING THRU THE FRASER CANYON #youtubeshorts",
+      "published_at": "2026-06-18T15:30:25Z",
+      "date": "2026-06-18",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CN TRAIN CURVING THRU THE FRASER CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "SRZ8Vvkk97I",
+      "video_url": "https://www.youtube.com/watch?v=SRZ8Vvkk97I",
+      "title": "VIA Train 61 Westbound June 18, 2026",
+      "published_at": "2026-06-18T15:27:52Z",
+      "date": "2026-06-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound June 18, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 69 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 111,
+        "speed_raw": "69 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:45",
+        "observed_tz": "EDT",
+        "temperature_c": 16,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-06-18T08:45-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Z6ToBeSZwAs",
+      "video_url": "https://www.youtube.com/watch?v=Z6ToBeSZwAs",
+      "title": "CN Train 149 Westbound June 18, 2026",
+      "published_at": "2026-06-18T15:22:37Z",
+      "date": "2026-06-18",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3904",
+        "CN 3262"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3904",
+          "raw": "CN 3904"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3262",
+          "raw": "CN 3262"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound June 18, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 3904",
+          "CN 3262"
+        ],
+        "car_count": 196,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 60,
+        "speed_raw": "37 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:30",
+        "observed_tz": "EDT",
+        "temperature_c": 15,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-06-18T08:30-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "-eLYZcE8bjo",
+      "video_url": "https://www.youtube.com/watch?v=-eLYZcE8bjo",
+      "title": "CN Train 106 Eastbound June 18, 2026",
+      "published_at": "2026-06-18T14:59:09Z",
+      "date": "2026-06-18",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3225",
+        "CN 2256"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 106",
+          "raw": "CN Train 106"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3225",
+          "raw": "CN 3225"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2256",
+          "raw": "CN 2256"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 106 Eastbound June 18, 2026",
+      "description_chars": 215,
+      "consist": {
+        "engines": [
+          "CN 3225"
+        ],
+        "dpu": [
+          "CN 2256"
+        ],
+        "car_count": 170,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 48,
+        "speed_raw": "30 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:20",
+        "observed_tz": "EDT",
+        "temperature_c": 15,
+        "origin": "Roberts Bank BC",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-06-18T08:20-04:00",
+      "origin": "Roberts Bank BC",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "p2hAOIt3Gxo",
+      "video_url": "https://www.youtube.com/watch?v=p2hAOIt3Gxo",
+      "title": "CN Train 731 Westbound June 18, 2026",
+      "published_at": "2026-06-18T14:36:57Z",
+      "date": "2026-06-18",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3896",
+        "CN 3266"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 731",
+          "raw": "CN Train 731"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3896",
+          "raw": "CN 3896"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3266",
+          "raw": "CN 3266"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 731 Westbound June 18, 2026",
+      "description_chars": 200,
+      "consist": {
+        "engines": [
+          "CN 3896",
+          "GECX 2029"
+        ],
+        "dpu": [
+          "CN 3266"
+        ],
+        "car_count": 193,
+        "consist_type": "freight",
+        "speed_kmh": 51,
+        "speed_raw": "32 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:13",
+        "observed_tz": "EDT",
+        "temperature_c": 15,
+        "origin": "St. John NB",
+        "destination": "Yarbo SK"
+      },
+      "observed_at": "2026-06-18T08:13-04:00",
+      "origin": "St. John NB",
+      "destination": "Yarbo SK",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "MFK7Q7H0uXw",
+      "video_url": "https://www.youtube.com/watch?v=MFK7Q7H0uXw",
+      "title": "CN Train 276 Eastbound June 18, 2026",
+      "published_at": "2026-06-18T14:24:02Z",
+      "date": "2026-06-18",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3967",
+        "CN 2617"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 276",
+          "raw": "CN Train 276"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3967",
+          "raw": "CN 3967"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2617",
+          "raw": "CN 2617"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 276 Eastbound June 18, 2026",
+      "description_chars": 206,
+      "consist": {
+        "engines": [
+          "CN 3967",
+          "CN 2617"
+        ],
+        "car_count": 109,
+        "consist_type": "freight",
+        "speed_kmh": 50,
+        "speed_raw": "31 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:03",
+        "observed_tz": "EDT",
+        "temperature_c": 15,
+        "origin": "Chicago Markham IL",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-06-18T08:03-04:00",
+      "origin": "Chicago Markham IL",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Kvjtws_Hq4A",
+      "video_url": "https://www.youtube.com/watch?v=Kvjtws_Hq4A",
+      "title": "CN Train 730 Eastbound June 18, 2026",
+      "published_at": "2026-06-18T14:00:30Z",
+      "date": "2026-06-18",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3936",
+        "CN 2767",
+        "CN 2800",
+        "CN 2948",
+        "CN 3379"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 730",
+          "raw": "CN Train 730"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3936",
+          "raw": "CN 3936"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2767",
+          "raw": "CN 2767"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2800",
+          "raw": "CN 2800"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2948",
+          "raw": "CN 2948"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3379",
+          "raw": "CN 3379"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 730 Eastbound June 18, 2026",
+      "description_chars": 245,
+      "consist": {
+        "engines": [
+          "CN 3936",
+          "CN 2767",
+          "CN 2800"
+        ],
+        "dpu": [
+          "CN 2948",
+          "CN 3379"
+        ],
+        "car_count": 191,
+        "consist_type": "freight",
+        "speed_kmh": 50,
+        "speed_raw": "31 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:47",
+        "observed_tz": "EDT",
+        "temperature_c": 15,
+        "origin": "Alwinsal or Sylvite or Yarbo SK",
+        "destination": "Saint John NB"
+      },
+      "observed_at": "2026-06-18T07:47-04:00",
+      "origin": "Alwinsal or Sylvite or Yarbo SK",
+      "destination": "Saint John NB",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "SLLqjwQWhzY",
+      "video_url": "https://www.youtube.com/watch?v=SLLqjwQWhzY",
+      "title": "CN MOW Train June 18, 2026",
+      "published_at": "2026-06-18T13:36:27Z",
+      "date": "2026-06-18",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 69148"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 6914",
+          "raw": "CN 6914"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN MOW Train June 18, 2026",
+      "description_chars": 231,
+      "consist": {
+        "engines": [
+          "RUCK 17251"
+        ],
+        "car_count": 3,
+        "consist_type": "freight",
+        "speed_kmh": 45,
+        "speed_raw": "28 mph",
+        "detector_milepost": 124,
+        "observed_time": "06:53",
+        "observed_tz": "EDT",
+        "temperature_c": 14,
+        "origin": "Someplace east of Brockville ON",
+        "destination": "Brockville ON"
+      },
+      "observed_at": "2026-06-18T06:53-04:00",
+      "origin": "Someplace east of Brockville ON",
+      "destination": "Brockville ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
