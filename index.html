@@ -1276,7 +1276,8 @@ function renderMap() {
       <div><span style="color:#f0b84a">╌╌</span> CN Smiths Falls Sub (Ottawa–Napanee)</div>
       <div><span style="color:#f0b84a">╌╌╌</span> VIA Brockville Sub (Smiths Falls–Brockville)</div>
       <div><span style="color:#f0b84a">╌╌</span> CN Halton Sub</div>
-      <div><span style="color:#8a7af0">╌╌</span> CN Bala Sub (Northern ON)</div>
+      <div><span style="color:#8a7af0">╌╌</span> CN Bala · Ruel · Allanwater · Kashabowie Subs</div>
+      <div style="font-size:10px;color:#3a3e3b;padding-left:16px;">Toronto · Sudbury · Thunder Bay · Fort Frances · Manitoba</div>
       <div><span style="color:#f04a9a">╌╌</span> CPKC Galt Sub</div>
       <div><span style="color:#f04af0">╌╌</span> Ontario Northland Railway</div>
       <div style="color:#e8ede9;font-weight:600;margin:6px 0 4px;letter-spacing:.08em;font-size:10px;text-transform:uppercase;border-top:1px solid #2a2e2b;padding-top:6px;">Corridors — Prairie / BC</div>
@@ -1844,7 +1845,14 @@ const ORWN_SUB_STYLE = {
   'Kingston':     { color: '#f0b84a', weight: 2.5, opacity: 0.8, dashArray: '5 5' },
   'Halton':       { color: '#f0b84a', weight: 2,   opacity: 0.75, dashArray: '5 5' },
   'Bala':         { color: '#8a7af0', weight: 2,   opacity: 0.7, dashArray: '5 5' },
-  'Smiths Falls': { color: '#f0b84a', weight: 2.5, opacity: 0.8, dashArray: '5 5' },
+  'Ruel':         { color: '#8a7af0', weight: 2,   opacity: 0.7, dashArray: '5 5' },
+  'Allanwater':   { color: '#8a7af0', weight: 2,   opacity: 0.65, dashArray: '5 5' },
+  'Kashabowie':   { color: '#8a7af0', weight: 2,   opacity: 0.65, dashArray: '5 5' },
+  'Fort Frances': { color: '#8a7af0', weight: 2,   opacity: 0.6, dashArray: '5 5' },
+  'Sprague':      { color: '#8a7af0', weight: 2,   opacity: 0.6, dashArray: '5 5' },
+  'Soo':          { color: '#8a7af0', weight: 1.5, opacity: 0.5, dashArray: '4 6' },
+  'Vankleek':     { color: '#f0b84a', weight: 2,   opacity: 0.7, dashArray: '5 5' },
+  'Grimsby':      { color: '#c8f04a', weight: 2.5, opacity: 0.85, dashArray: null },
   'Temagami':     { color: '#f04af0', weight: 2,   opacity: 0.8, dashArray: '6 4' },
   'Kapuskasing':  { color: '#f04af0', weight: 2,   opacity: 0.8, dashArray: '6 4' },
   'Iroquois Falls':{ color: '#f04af0', weight: 2,  opacity: 0.7, dashArray: '6 4' },
@@ -1951,11 +1959,19 @@ function renderCorrelations() {
   setText('corr-dg',       d.dg_correlations || 0);
 
   // Count unique channels contributing train symbol data
+  // Use youtube observations if loaded, otherwise fall back to correlation source channels
   const chans = new Set();
   (state.youtube?.observations || []).forEach(o => {
     if (o.train_symbols?.length) chans.add(o.channel);
   });
-  setText('corr-channels', chans.size || '—');
+  // Also count from correlation sighting sources as a fallback
+  if (!chans.size) {
+    (d.correlations || []).forEach(c => {
+      if (c.sighting_a?.channel) chans.add(c.sighting_a.channel);
+      if (c.sighting_b?.channel) chans.add(c.sighting_b.channel);
+    });
+  }
+  setText('corr-channels', chans.size > 0 ? chans.size : 0);
 
   const tbody = document.getElementById('corr-tbody');
   if (!tbody) return;
