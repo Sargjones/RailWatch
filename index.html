@@ -407,11 +407,16 @@ footer a { color: var(--accent); text-decoration: none; }
 
   <div style="display:flex;align-items:center;gap:16px;margin-bottom:8px;">
   <label style="font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;cursor:pointer;">
-    <input type="checkbox" id="cam-toggle" checked onchange="toggleCameras()"
+    <input type="checkbox" id="cam-toggle" onchange="toggleCameras()"
            style="accent-color:var(--accent2)">
     Show MTO traffic cameras near corridors
   </label>
   <span id="cam-count" style="font-size:11px;color:var(--muted);font-family:var(--font-mono)"></span>
+  <label style="font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;cursor:pointer;margin-left:8px;">
+    <input type="checkbox" id="decom-toggle" onchange="toggleDecommissioned()"
+           style="accent-color:var(--warn)">
+    Show decommissioned / abandoned infrastructure
+  </label>
 </div>
 <div id="corridor-map"></div>
 
@@ -1391,20 +1396,25 @@ function renderMap() {
       <div><span style="color:#f0b84a">╌╌</span> CN Halton Sub</div>
       <div><span style="color:#8a7af0">╌╌</span> CN Bala Sub (Northern ON)</div>
       <div><span style="color:#f04a9a">╌╌</span> CPKC Galt Sub</div>
+      <div><span style="color:#f04af0">╌╌</span> Ontario Northland Railway</div>
       <div style="color:#e8ede9;font-weight:600;margin:6px 0 4px;letter-spacing:.08em;font-size:10px;text-transform:uppercase;border-top:1px solid #2a2e2b;padding-top:6px;">Corridors — Prairie / BC</div>
       <div><span style="color:#4ac8f0">╌╌</span> CN Mainline (MB–AB) / Edson Sub</div>
       <div><span style="color:#f0c84a">╌╌</span> CPKC Carberry / Mountain / Shuswap Subs</div>
       <div><span style="color:#f04a9a">╌╌</span> CPKC Red Deer / Brooks Subs</div>
-      <div style="margin-top:6px;border-top:1px solid #2a2e2b;padding-top:6px;">
+      <div style="margin-top:4px;border-top:1px solid #2a2e2b;padding-top:6px;">
         <span style="color:#f04a4a">●</span> TSB incident &nbsp;
         <span style="color:#f0b84a">●</span> Observation
-      </div>`;
+      </div>
+      <div style="margin-top:4px;"><span style="color:#f0b84a;opacity:0.6">╌ ╌</span> Decommissioned / abandoned (toggle)</div>
+      <div style="margin-top:4px;font-size:9px;color:#3a3e3b;">Track geometry: LIO ORWN 2022</div>`;
     return d;
   };
   legend.addTo(map);
 
   // Load camera layer after map initialises
   loadCameraLayer(map);
+  // Load ORWN authoritative track geometry (CN + Ontario Northland)
+  loadORWNLayer(map);
 
   state.map = map;
 }
@@ -1760,6 +1770,8 @@ function buildSeedTDG() {
 const YT_DATA_URL   = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_youtube_latest.json';
 const CORR_DATA_URL   = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_correlations.json';
 const CAM_DATA_URL    = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_cameras.json';
+const ORWN_CN_URL     = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/cn_track.geojson';
+const ORWN_ONT_URL    = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/ontario_northland_track.geojson';
 
 const CONFIDENCE_BADGE = {
   high:   { cls:'badge-high',  label:'HIGH ★' },
@@ -1939,6 +1951,100 @@ function renderCameraLayer(map) {
 
 function toggleCameras() {
   if (state.map) renderCameraLayer(state.map);
+}
+
+// ── ORWN AUTHORITATIVE TRACK GEOMETRY ────────────────────────────────────────
+// Colours per CN subdivision, matching existing corridor legend
+const ORWN_SUB_STYLE = {
+  'Dundas':       { color: '#c8f04a', weight: 3,   opacity: 0.9, dashArray: null },
+  'Oakville':     { color: '#c8f04a', weight: 3,   opacity: 0.9, dashArray: null },
+  'Chatham':      { color: '#4ac8a0', weight: 2.5, opacity: 0.8, dashArray: '7 4' },
+  'Kingston':     { color: '#f0b84a', weight: 2.5, opacity: 0.8, dashArray: '5 5' },
+  'Halton':       { color: '#f0b84a', weight: 2,   opacity: 0.75, dashArray: '5 5' },
+  'Bala':         { color: '#8a7af0', weight: 2,   opacity: 0.7, dashArray: '5 5' },
+  'Smiths Falls': { color: '#f0b84a', weight: 2.5, opacity: 0.8, dashArray: '5 5' },
+  'Temagami':     { color: '#f04af0', weight: 2,   opacity: 0.8, dashArray: '6 4' },
+  'Kapuskasing':  { color: '#f04af0', weight: 2,   opacity: 0.8, dashArray: '6 4' },
+  'Iroquois Falls':{ color: '#f04af0', weight: 2,  opacity: 0.7, dashArray: '6 4' },
+  'Ramore':       { color: '#f04af0', weight: 2,   opacity: 0.7, dashArray: '6 4' },
+  'Pagwa':        { color: '#f04af0', weight: 2,   opacity: 0.7, dashArray: '6 4' },
+  'Devonshire':   { color: '#f04af0', weight: 2,   opacity: 0.7, dashArray: '6 4' },
+  'Island Falls': { color: '#f04af0', weight: 2,   opacity: 0.7, dashArray: '6 4' },
+};
+const ORWN_DEFAULT_STYLE   = { color: '#3a3e3b', weight: 1, opacity: 0.4, dashArray: '3 6' };
+const ORWN_DECOM_STYLE     = { color: '#f0b84a', weight: 1.5, opacity: 0.55, dashArray: '2 8' };
+
+let orwnDecomLayers = []; // stored so toggle can show/hide without refetch
+
+async function loadORWNLayer(map) {
+  try {
+    const [cnRes, ontRes] = await Promise.all([
+      fetch(ORWN_CN_URL + '?v=' + Date.now()),
+      fetch(ORWN_ONT_URL + '?v=' + Date.now()),
+    ]);
+    const featureCollections = [];
+    if (cnRes.ok)  featureCollections.push(await cnRes.json());
+    if (ontRes.ok) featureCollections.push(await ontRes.json());
+    if (!featureCollections.length) return;
+
+    featureCollections.forEach(fc => {
+      // Operational layer — always visible
+      L.geoJSON(fc, {
+        style: function(feature) {
+          const sub = feature.properties?.subdivision || '';
+          const key = Object.keys(ORWN_SUB_STYLE).find(k =>
+            sub.toLowerCase().includes(k.toLowerCase())
+          );
+          const s = key ? ORWN_SUB_STYLE[key] : ORWN_DEFAULT_STYLE;
+          return { color: s.color, weight: s.weight, opacity: s.opacity, dashArray: s.dashArray || null };
+        },
+        onEachFeature: function(feature, layer) {
+          const p = feature.properties || {};
+          if (!p.subdivision) return;
+          layer.bindPopup(
+            `<b>${p.operator_name || p.operator} — ${p.subdivision} Sub</b><br>` +
+            `${p.sub_start_mile}–${p.sub_end_mile} mi · Status: ${p.status || 'Unknown'}`
+          );
+        },
+        filter: function(feature) {
+          return feature.properties?.status === 'Operational';
+        }
+      }).addTo(map);
+
+      // Decommissioned / abandoned layer — built but not added to map yet
+      const decomLayer = L.geoJSON(fc, {
+        style: function() { return ORWN_DECOM_STYLE; },
+        onEachFeature: function(feature, layer) {
+          const p = feature.properties || {};
+          layer.bindPopup(
+            `<b>⚠ Decommissioned — ${p.operator_name || p.operator}</b><br>` +
+            `${p.subdivision || 'Unknown'} Sub · ${p.track_name || ''}<br>` +
+            `Status: ${p.status || 'Unknown'}`
+          );
+        },
+        filter: function(feature) {
+          const status = (feature.properties?.status || '').toLowerCase();
+          return status !== 'operational';
+        }
+      });
+      orwnDecomLayers.push(decomLayer);
+    });
+
+    console.log('ORWN track geometry loaded');
+  } catch(e) {
+    console.warn('ORWN layer unavailable:', e);
+  }
+}
+
+function toggleDecommissioned() {
+  const show = document.getElementById('decom-toggle')?.checked;
+  orwnDecomLayers.forEach(layer => {
+    if (show) {
+      layer.addTo(state.map);
+    } else {
+      if (state.map.hasLayer(layer)) state.map.removeLayer(layer);
+    }
+  });
 }
 
 async function loadCorrelations() {
