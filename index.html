@@ -934,7 +934,13 @@ async function loadAll() {
       fetch(TDG_URL + bust).catch(() => null),
     ]);
     if (dataRes && dataRes.ok) state.data = await dataRes.json();
-    if (tdgRes  && tdgRes.ok)  state.tdg  = await tdgRes.json();
+    if (tdgRes  && tdgRes.ok) {
+      const raw = await tdgRes.json();
+      // JSON is a plain array — wrap into the shape renderTDG/lookupTDG expect
+      state.tdg = Array.isArray(raw)
+        ? { records: raw, record_count: raw.length }
+        : raw;
+    }
   } catch (e) {
     console.warn('Remote data unavailable, using seed data');
   }
@@ -996,118 +1002,11 @@ function renderMap() {
   }
 
   // ── CORRIDOR DEFINITIONS ─────────────────────────────────────────────
-  // Each line hugs the actual rail alignment, not road network or straight lines
-
-  // CN DUNDAS SUB: Windsor → London → Hamilton → Toronto
-  // Follows north shore of Lake Erie then cuts NE to Hamilton
-  const dundasPts = [
-    [42.3149,-83.0364], // Windsor
-    [42.3700,-82.9100],
-    [42.4700,-82.6200], // Tilbury
-    [42.5800,-82.3500], // Chatham (junction point)
-    [42.6500,-82.0800],
-    [42.7500,-81.8500],
-    [42.8500,-81.5800],
-    [42.9000,-81.4200],
-    [43.0000,-81.2700], // St. Thomas
-    [43.0080,-80.9960], // London
-    [43.0400,-80.9000],
-    [43.0700,-80.8000],
-    [43.0900,-80.6500], // Woodstock
-    [43.1100,-80.5500],
-    [43.1400,-80.4000],
-    [43.1700,-80.2500],
-    [43.2000,-80.0800],
-    [43.2200,-79.9800],
-    [43.2500,-79.9000],
-    [43.2600,-79.8700], // Dundas
-    [43.2700,-79.8300], // Hamilton West
-    [43.2750,-79.8000], // Hamilton CN Yard
-    [43.2870,-79.7760], // Bayview Junction ★
-  ];
-  L.polyline(dundasPts, { color:'#c8f04a', weight:3, opacity:0.9 })
-   .addTo(map).bindPopup('<b>CN Dundas Subdivision</b><br>Windsor · London · Hamilton<br><span style="color:#c8f04a">Active corridor</span>');
-
-  // CN OAKVILLE SUB: Bayview Junction → Toronto Union (along lakeshore)
-  // Follows the actual lakeshore alignment through Burlington, Oakville, Mississauga
-  const oakvillePts = [
-    [43.2870,-79.7760], // Bayview Junction
-    [43.3050,-79.7500], // Aldershot
-    [43.3200,-79.7200],
-    [43.3500,-79.6700], // Grimsby area
-    [43.3700,-79.6100],
-    [43.3900,-79.5600],
-    [43.4050,-79.5200], // Bronte
-    [43.4100,-79.4800],
-    [43.4200,-79.4300], // Oakville
-    [43.4500,-79.3900], // Clarkson
-    [43.4900,-79.3600],
-    [43.5200,-79.3500], // Port Credit
-    [43.5500,-79.3300],
-    [43.5900,-79.3100], // Mimico
-    [43.6300,-79.3600],
-    [43.6450,-79.3800], // Toronto Union
-  ];
-  L.polyline(oakvillePts, { color:'#c8f04a', weight:3, opacity:0.9 })
-   .addTo(map).bindPopup('<b>CN Oakville Subdivision</b><br>Bayview Junction · Burlington · Oakville · Toronto<br><span style="color:#c8f04a">Active corridor (Dundas Sub extension)</span>');
-
-  // CN CHATHAM SUB: Windsor → Sarnia (northeast along St. Clair River)
-  const chathamPts = [
-    [42.3149,-83.0364], // Windsor
-    [42.3900,-82.8000],
-    [42.4900,-82.5500], // Chatham
-    [42.6000,-82.4500],
-    [42.7200,-82.4200],
-    [42.8500,-82.4100],
-    [42.9744,-82.4058], // Sarnia
-  ];
-  L.polyline(chathamPts, { color:'#4ac8a0', weight:2.5, opacity:0.8, dashArray:'7 4' })
-   .addTo(map).bindPopup('<b>CN Chatham Subdivision</b><br>Windsor · Chatham · Sarnia<br>Chemical Valley gateway');
-
-  // CN HALTON SUB: Toronto (MacMillan Yard) → Burlington West
-  // GO Kitchener line corridor; connects to Dundas Sub at Burlington
-  const haltonPts = [
-    [43.6450,-79.3800], // Toronto Union / MacMillan Yard area
-    [43.6600,-79.4700],
-    [43.6800,-79.5600],
-    [43.6700,-79.6300], // Brampton
-    [43.6900,-79.7500],
-    [43.6500,-79.8500], // Georgetown
-    [43.5500,-79.9000],
-    [43.4200,-79.8700], // Burlington West
-    [43.3100,-79.8000], // Burlington / meets Bayview
-  ];
-  L.polyline(haltonPts, { color:'#f0b84a', weight:2, opacity:0.75, dashArray:'5 5' })
-   .addTo(map).bindPopup('<b>CN Halton Subdivision</b><br>Toronto · Brampton · Georgetown · Burlington<br>GO Kitchener / Via Sarnia corridor');
-
-  // CN KINGSTON SUB: Toronto → Kingston → Brockville → Montreal
-  // Hugs north shore of Lake Ontario then St. Lawrence
-  const kingstonPts = [
-    [43.6450,-79.3800], // Toronto Union
-    [43.6600,-79.3200],
-    [43.6800,-79.2600], // Scarborough
-    [43.8100,-79.0800], // Pickering
-    [43.8700,-78.8500], // Ajax
-    [43.9000,-78.7200], // Whitby
-    [43.9000,-78.6000], // Oshawa
-    [43.9300,-78.3500], // Bowmanville area
-    [43.9500,-78.1500],
-    [44.0500,-77.8700], // Port Hope
-    [44.0600,-77.6800], // Cobourg
-    [44.1200,-77.4000], // Trenton
-    [44.1600,-77.1200],
-    [44.2300,-76.8200], // Kingston
-    [44.3500,-76.5500], // Gananoque
-    [44.5800,-75.7000], // Brockville
-    [44.9000,-75.0700], // Prescott
-    [45.0000,-74.7500], // Cardinal
-    [45.3200,-74.1200], // Cornwall
-  ];
-  L.polyline(kingstonPts, { color:'#f0b84a', weight:2.5, opacity:0.8, dashArray:'5 5' })
-   .addTo(map).bindPopup('<b>CN Kingston Subdivision</b><br>Toronto · Oshawa · Kingston · Brockville · Montreal<br>Major freight + Via Rail corridor');
+  // CN Dundas, Oakville, Chatham, Halton, Kingston, Bala now drawn from
+  // ORWN authoritative GeoJSON (cn_track_filtered.geojson) — see loadORWNLayer()
+  // Remaining hand-coded corridors: Smiths Falls, VIA Brockville, CPKC Galt, prairie/BC
 
   // CN SMITHS FALLS SUB: Ottawa → Smiths Falls → Napanee (joins Kingston Sub)
-  // This is the actual CN alignment — runs SW from Ottawa through Smiths Falls to Napanee
   const cnSmithsFallsPts = [
     [45.4230,-75.6950], // Ottawa
     [45.3500,-75.7500],
@@ -1133,24 +1032,7 @@ function renderMap() {
   L.polyline(viaSmithsFallsBrockvillePts, { color:'#f0b84a', weight:2, opacity:0.7, dashArray:'3 6' })
    .addTo(map).bindPopup('<b>VIA Brockville Subdivision</b><br>Smiths Falls · Brockville<br>Formerly CP · VIA-owned since 2015<br>Toronto–Ottawa passenger route connection');
 
-  // CN BALA SUB: Toronto → Barrie → Parry Sound → Sudbury
-  const balaPts = [
-    [43.6450,-79.3800], // Toronto Union
-    [43.7200,-79.4200],
-    [43.7800,-79.4500], // York area
-    [43.8500,-79.4800],
-    [43.9500,-79.4500], // Richmond Hill
-    [44.0800,-79.4400],
-    [44.3900,-79.6800], // Barrie
-    [44.7500,-79.8000],
-    [45.0500,-79.9000], // Parry Sound
-    [45.3500,-80.0400],
-    [45.8000,-80.4000],
-    [46.3500,-80.9500],
-    [46.4900,-80.9900], // Sudbury
-  ];
-  L.polyline(balaPts, { color:'#8a7af0', weight:2, opacity:0.7, dashArray:'5 5' })
-   .addTo(map).bindPopup('<b>CN Bala Subdivision</b><br>Toronto · Barrie · Parry Sound · Sudbury<br>Northern Ontario freight gateway');
+  // CN BALA SUB now drawn from ORWN GeoJSON — see loadORWNLayer()
 
   // CPKC GALT SUB: Toronto → Guelph → Kitchener → London → Windsor
   const galtPts = [
@@ -1385,7 +1267,7 @@ function renderMap() {
   const legend = L.control({ position: 'bottomright' });
   legend.onAdd = function() {
     const d = L.DomUtil.create('div');
-    d.style.cssText = 'background:rgba(13,15,14,0.88);border:1px solid #2a2e2b;border-radius:6px;padding:10px 14px;font-family:DM Sans,sans-serif;font-size:11px;color:#8a9189;line-height:2;min-width:180px;';
+    d.style.cssText = 'background:rgba(13,15,14,0.88);border:1px solid #2a2e2b;border-radius:6px;padding:10px 14px;font-family:DM Sans,sans-serif;font-size:11px;color:#8a9189;line-height:2;min-width:180px;max-height:360px;overflow-y:auto;';
     d.innerHTML = `
       <div style="color:#e8ede9;font-weight:600;margin-bottom:4px;letter-spacing:.08em;font-size:10px;text-transform:uppercase;">Corridors — Ontario</div>
       <div><span style="color:#c8f04a">━━</span> CN Dundas / Oakville Sub<span style="color:#c8f04a;font-size:9px">ACTIVE</span></div>
