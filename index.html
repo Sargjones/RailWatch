@@ -1382,7 +1382,7 @@ function renderMap() {
   );
 
   // ── MAP LEGEND ──────────────────────────────────────────────────────
-  const legend = L.control({ position: 'bottomleft' });
+  const legend = L.control({ position: 'bottomright' });
   legend.onAdd = function() {
     const d = L.DomUtil.create('div');
     d.style.cssText = 'background:rgba(13,15,14,0.88);border:1px solid #2a2e2b;border-radius:6px;padding:10px 14px;font-family:DM Sans,sans-serif;font-size:11px;color:#8a9189;line-height:2;min-width:180px;';
@@ -1770,7 +1770,7 @@ function buildSeedTDG() {
 const YT_DATA_URL   = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_youtube_latest.json';
 const CORR_DATA_URL   = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_correlations.json';
 const CAM_DATA_URL    = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_cameras.json';
-const ORWN_CN_URL     = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/cn_track.geojson';
+const ORWN_CN_URL     = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/cn_track_filtered.geojson';
 const ORWN_ONT_URL    = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/ontario_northland_track.geojson';
 
 const CONFIDENCE_BADGE = {
