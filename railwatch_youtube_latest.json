@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-17T20:20:22.634849Z",
+  "generated_at": "2026-06-18T10:13:03.163688Z",
   "dedup_registry": {
-    "total": 221,
+    "total": 222,
     "by_channel": {
       "Trackside Ontario": 14,
       "Trackside Tyson": 34,
@@ -9,19 +9,19 @@
       "Trackside Tristan": 4,
       "Track Side Mike": 16,
       "Scott Rails (Chasing The Money Shot)": 24,
-      "Rail Fans Canada": 8,
+      "Rail Fans Canada": 9,
       "Brockville RailFan": 55,
       "MJM Productions": 50
     },
     "by_confidence": {
       "high": 20,
-      "medium": 185,
+      "medium": 186,
       "low": 16,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-06-10T00:00:00Z",
+  "since": "2026-06-11T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -30,13 +30,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -51,22 +46,22 @@
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
       "videos": 0,
-      "skipped": 7
+      "skipped": 6
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 17,
-      "high": 2,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -81,7 +76,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 12
+      "skipped": 10
     },
     {
       "channel": "Ontario Railman",
@@ -109,11 +104,37 @@
       "skipped": 0
     }
   ],
-  "total": 221,
-  "new_this_run": 4,
+  "total": 222,
+  "new_this_run": 1,
   "high_confidence": 20,
   "dg_likely": 11,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "mhPKALVpU5s",
+      "video_url": "https://www.youtube.com/watch?v=mhPKALVpU5s",
+      "title": "\ud83d\ude86 LIVE O-Train Ottawa | Bayview Station (Line 1 & 2 Trains 24/7)",
+      "published_at": "2026-06-18T00:48:35Z",
+      "date": "2026-06-18",
+      "location": "Bayview",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "\ud83d\ude86 LIVE O-Train Ottawa | Bayview Station (Line 1 & 2 Trains 24/7)",
+      "description_chars": 1504,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

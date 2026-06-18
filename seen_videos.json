@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-06-17T20:20:22.632023Z",
-    "total_videos": 221
+    "updated_at": "2026-06-18T10:13:03.160569Z",
+    "total_videos": 222
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1330,6 +1330,12 @@
       "title": "MOW Tie Train Westbound June 17, 2026",
       "confidence": "high",
       "processed_at": "2026-06-17T20:20:20.940458Z"
+    },
+    "mhPKALVpU5s": {
+      "channel": "Rail Fans Canada",
+      "title": "\ud83d\ude86 LIVE O-Train Ottawa | Bayview Station (Line 1 & 2 Trains 24/7)",
+      "confidence": "medium",
+      "processed_at": "2026-06-18T10:13:01.382455Z"
     }
   }
 }
