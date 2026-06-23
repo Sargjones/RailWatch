@@ -89,20 +89,12 @@ CHANNELS = [
         "province_filter":  True,
         "active":           True,
     },
-    {
-        "id":               "UCWK8y_tzwbtVknVsPSKremw",
-        "name":             "Track Side Mike",
-        "handle":           "@TrackSideMike",
-        "focus":            ["CN Smiths Falls Sub", "CN Kingston Sub"],
-        "default_location": "Smiths Falls",
-        "default_subdivision": "CN Smiths Falls Sub",
-        "default_lat":      44.8990,
-        "default_lon":      -76.0220,
-        "province_filter":  True,
-        "active":           False,  # DEACTIVATED 2026-06-16: channel is model trains / layout livestreams
-                                    # "Silver Creek Sub" is a model layout, not the real CN Smiths Falls Sub
-                                    # Backfill produced 0 useful observations — not worth quota
-    },
+    # REMOVED 2026-06-19: "Track Side Mike" (UCWK8y_tzwbtVknVsPSKremw) deleted
+    # entirely, not just deactivated. Channel is model-train layout content
+    # ("Silver Creek Sub" is a model layout, not the real CN Smiths Falls
+    # Sub) — was polluting live observations (16 false entries) and the
+    # backfill state. If this ID ever needs reverification for a different
+    # reason, treat it as a fresh add, not a reactivation.
     # ── PENDING CHANNEL IDs — verify and set active: True ──────────────────
     {
         "id":               "UCQUUHzkvfoCqcTKIn6cI9yw",  # Scott's Rails / Chasing The Money Shot (verified 2026-06-15)
@@ -698,7 +690,6 @@ def apply_channel_defaults(obs, channel_meta):
     """
     Priority 1 improvement: if extraction found nothing, apply channel-level defaults.
     Trackside Ontario is almost always at Bayview Junction.
-    Track Side Mike is almost always on CN Smiths Falls Sub.
     Mark these as 'default' so the dashboard can display them differently if needed.
     """
     if not obs["location"] and channel_meta.get("default_location"):
@@ -1004,6 +995,15 @@ def run(days_back=7, output_file="railwatch_youtube_latest.json"):
 
             detail = details.get(vid_id, item)
             obs    = parse_video(item, detail, channel)
+
+            if obs is None:
+                # parse_video returns None for filtered content (e.g. Scott
+                # Rails non-rail model-train/livestream skip). Nothing to
+                # process or mark — move to the next video. Without this
+                # check the script crashed with TypeError mid-loop and
+                # never reached save_seen()/the output write, silently
+                # discarding every channel's progress for that run.
+                continue
 
             # Vision enhancement — only on new videos (dedup ensures this runs once per video)
             if ENABLE_VISION:
