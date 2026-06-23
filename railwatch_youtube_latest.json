@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23T19:21:25.228730Z",
+  "generated_at": "2026-06-23T20:11:47.515606Z",
   "dedup_registry": {
-    "total": 252,
+    "total": 254,
     "by_channel": {
       "Trackside Ontario": 17,
       "Trackside Tyson": 41,
@@ -10,12 +10,12 @@
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 10,
       "Brockville RailFan": 85,
-      "MJM Productions": 53,
+      "MJM Productions": 55,
       "Central Canada Railfan": 1
     },
     "by_confidence": {
       "high": 44,
-      "medium": 188,
+      "medium": 190,
       "low": 20,
       "meta": 0
     }
@@ -25,23 +25,13 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 3,
-      "skipped": 0,
-      "high": 0,
-      "medium": 3,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 6,
-      "skipped": 3,
-      "high": 0,
-      "medium": 3,
-      "low_meta": 3,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 9
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -50,13 +40,8 @@
     },
     {
       "channel": "Trackside Tristan",
-      "videos": 1,
-      "skipped": 0,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 1
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
@@ -70,23 +55,13 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 22,
-      "skipped": 13,
-      "high": 16,
-      "medium": 6,
-      "low_meta": 0,
-      "dg_likely": 13,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 35
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -100,13 +75,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 3,
-      "skipped": 0,
+      "videos": 2,
+      "skipped": 3,
       "high": 0,
-      "medium": 3,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 2
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -130,20 +105,99 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 0,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 1
     }
   ],
-  "total": 252,
-  "new_this_run": 37,
+  "total": 254,
+  "new_this_run": 2,
   "high_confidence": 44,
   "dg_likely": 32,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "y88-Bg8Jh1w",
+      "video_url": "https://www.youtube.com/watch?v=y88-Bg8Jh1w",
+      "title": "CN 3069 WC heritage unit heads north",
+      "published_at": "2026-06-23T19:49:12Z",
+      "date": "2026-06-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3069"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3069",
+          "raw": "CN 3069"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3069 WC heritage unit heads north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "2wiXM8KZWb0",
+      "video_url": "https://www.youtube.com/watch?v=2wiXM8KZWb0",
+      "title": "WISCONSIN CENTRAL! CN 3069 at Gormley, ON (JUN 23, 2026)",
+      "published_at": "2026-06-23T19:48:42Z",
+      "date": "2026-06-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3069",
+        "CN 3898"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3069",
+          "raw": "CN 3069"
+        },
+        {
+          "road": "CN",
+          "symbol": "M303",
+          "raw": "M303"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3898",
+          "raw": "CN 3898"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "WISCONSIN CENTRAL! CN 3069 at Gormley, ON (JUN 23, 2026)",
+      "description_chars": 354,
+      "consist": {
+        "observed_time": "12:20",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-06-23T12:20",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

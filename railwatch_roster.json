@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-23T19:21:25.333945Z",
-  "total_units": 112,
+  "generated_at": "2026-06-23T20:11:47.622436Z",
+  "total_units": 113,
   "min_sightings": 2,
   "by_road": {
-    "CN": 89,
+    "CN": 90,
     "VIA": 3,
     "CP": 19,
     "RUCK": 1
@@ -1144,6 +1144,67 @@
     },
     {
       "road": "CN",
+      "number": "3898",
+      "display": "CN 3898",
+      "sighting_count": 3,
+      "first_seen": "2026-06-18",
+      "last_seen": "2026-06-23",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "M303",
+        "CN 369"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "M303",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=2wiXM8KZWb0",
+          "title": "WISCONSIN CENTRAL! CN 3069 at Gormley, ON (JUN 23, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-18",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 369",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Z1WI9yzd_mw",
+          "title": "CN Train 369 Westbound June 18, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-18",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 369",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Z1WI9yzd_mw",
+          "title": "CN Train 369 Westbound June 18, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3950",
       "display": "CN 3950",
       "sighting_count": 3,
@@ -2094,6 +2155,53 @@
     },
     {
       "road": "CN",
+      "number": "3069",
+      "display": "CN 3069",
+      "sighting_count": 2,
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-06-23",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "M303"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=y88-Bg8Jh1w",
+          "title": "CN 3069 WC heritage unit heads north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "M303",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=2wiXM8KZWb0",
+          "title": "WISCONSIN CENTRAL! CN 3069 at Gormley, ON (JUN 23, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3070",
       "display": "CN 3070",
       "sighting_count": 2,
@@ -2981,53 +3089,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=p2hAOIt3Gxo",
           "title": "CN Train 731 Westbound June 18, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3898",
-      "display": "CN 3898",
-      "sighting_count": 2,
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-18",
-      "corridors": [
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 369"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-06-18",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 369",
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=Z1WI9yzd_mw",
-          "title": "CN Train 369 Westbound June 18, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-18",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 369",
-          "direction": "West",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=Z1WI9yzd_mw",
-          "title": "CN Train 369 Westbound June 18, 2026",
           "source": "description_structured"
         }
       ]
