@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-06-24T08:58:07.714139Z",
-    "total_videos": 254
+    "updated_at": "2026-06-24T19:52:24.032750Z",
+    "total_videos": 256
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1528,6 +1528,18 @@
       "title": "CN 3069 WC heritage unit heads north",
       "confidence": "medium",
       "processed_at": "2026-06-23T20:11:46.357814Z"
+    },
+    "Z4WZ948iL5U": {
+      "channel": "Trackside Tyson",
+      "title": "HERITAGE LEADER ON FAST DOUBLE STACK #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-06-24T19:52:20.901654Z"
+    },
+    "myhLFnzeo0o": {
+      "channel": "Brockville RailFan",
+      "title": "CN MOW Tie Train in the Rain May 13, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-24T19:52:22.246280Z"
     }
   }
 }

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-24T08:58:07.718013Z",
+  "generated_at": "2026-06-24T19:52:24.036551Z",
   "dedup_registry": {
-    "total": 254,
+    "total": 256,
     "by_channel": {
       "Trackside Ontario": 17,
-      "Trackside Tyson": 41,
+      "Trackside Tyson": 42,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 10,
-      "Brockville RailFan": 85,
+      "Brockville RailFan": 86,
       "MJM Productions": 55,
       "Central Canada Railfan": 1
     },
     "by_confidence": {
-      "high": 44,
+      "high": 45,
       "medium": 190,
-      "low": 20,
+      "low": 21,
       "meta": 0
     }
   },
@@ -30,8 +30,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 8
+      "videos": 1,
+      "skipped": 8,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -60,8 +65,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 33
+      "videos": 1,
+      "skipped": 33,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -104,11 +114,91 @@
       "skipped": 1
     }
   ],
-  "total": 254,
-  "new_this_run": 0,
-  "high_confidence": 44,
-  "dg_likely": 32,
+  "total": 256,
+  "new_this_run": 2,
+  "high_confidence": 45,
+  "dg_likely": 33,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "Z4WZ948iL5U",
+      "video_url": "https://www.youtube.com/watch?v=Z4WZ948iL5U",
+      "title": "HERITAGE LEADER ON FAST DOUBLE STACK #youtubeshorts",
+      "published_at": "2026-06-24T15:00:25Z",
+      "date": "2026-06-24",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "HERITAGE LEADER ON FAST DOUBLE STACK #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "myhLFnzeo0o",
+      "video_url": "https://www.youtube.com/watch?v=myhLFnzeo0o",
+      "title": "CN MOW Tie Train in the Rain May 13, 2026",
+      "published_at": "2026-06-24T14:17:18Z",
+      "date": "2026-05-13",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 69148"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 1755",
+          "raw": "CN 1755"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 6914",
+          "raw": "CN 6914"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN MOW Tie Train in the Rain May 13, 2026",
+      "description_chars": 342,
+      "consist": {
+        "car_count": 4,
+        "consist_type": "freight",
+        "speed_kmh": 29,
+        "speed_raw": "18 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:43",
+        "observed_tz": "EDT",
+        "temperature_c": 6,
+        "origin": "Someplace east of Brockville ON",
+        "destination": "Brockville ON"
+      },
+      "observed_at": "2026-05-13T07:43-04:00",
+      "origin": "Someplace east of Brockville ON",
+      "destination": "Brockville ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

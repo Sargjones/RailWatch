@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T08:58:07.825795Z",
+  "generated_at": "2026-06-24T19:52:24.144599Z",
   "total_units": 113,
   "min_sightings": 2,
   "by_road": {
@@ -1379,6 +1379,120 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=A8sc8k3uFsY",
           "title": "CN Train 532 Eastbound June 3, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "6914",
+      "display": "CN 6914",
+      "sighting_count": 3,
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-06-23",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-23",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=523LKHz_Rcc",
+          "title": "MOW Tie Train June 23, 2026",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-18",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SLLqjwQWhzY",
+          "title": "CN MOW Train June 18, 2026",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-05-13",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myhLFnzeo0o",
+          "title": "CN MOW Tie Train in the Rain May 13, 2026",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "69148",
+      "display": "CN 69148",
+      "sighting_count": 3,
+      "first_seen": "2026-05-13",
+      "last_seen": "2026-06-23",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-23",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=523LKHz_Rcc",
+          "title": "MOW Tie Train June 23, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-18",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SLLqjwQWhzY",
+          "title": "CN MOW Train June 18, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-13",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myhLFnzeo0o",
+          "title": "CN MOW Tie Train in the Rain May 13, 2026",
           "source": "text_extraction"
         }
       ]
@@ -3793,94 +3907,6 @@
           "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
           "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)",
           "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "6914",
-      "display": "CN 6914",
-      "sighting_count": 2,
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-23",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-06-23",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=523LKHz_Rcc",
-          "title": "MOW Tie Train June 23, 2026",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-06-18",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=SLLqjwQWhzY",
-          "title": "CN MOW Train June 18, 2026",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "69148",
-      "display": "CN 69148",
-      "sighting_count": 2,
-      "first_seen": "2026-06-18",
-      "last_seen": "2026-06-23",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-06-23",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=523LKHz_Rcc",
-          "title": "MOW Tie Train June 23, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-18",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=SLLqjwQWhzY",
-          "title": "CN MOW Train June 18, 2026",
-          "source": "text_extraction"
         }
       ]
     },
