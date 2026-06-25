@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-24T19:52:24.036551Z",
+  "generated_at": "2026-06-25T08:52:29.486782Z",
   "dedup_registry": {
-    "total": 256,
+    "total": 258,
     "by_channel": {
       "Trackside Ontario": 17,
       "Trackside Tyson": 42,
@@ -10,18 +10,18 @@
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 10,
       "Brockville RailFan": 86,
-      "MJM Productions": 55,
+      "MJM Productions": 57,
       "Central Canada Railfan": 1
     },
     "by_confidence": {
       "high": 45,
-      "medium": 190,
+      "medium": 192,
       "low": 21,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-06-17T00:00:00Z",
+  "since": "2026-06-18T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -30,13 +30,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 8,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 8
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -51,7 +46,7 @@
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
       "videos": 0,
-      "skipped": 1,
+      "skipped": 0,
       "high": 0,
       "medium": 0,
       "low_meta": 0,
@@ -65,13 +60,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 1,
-      "skipped": 33,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 31
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -85,8 +75,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 5
+      "videos": 2,
+      "skipped": 5,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -114,11 +109,85 @@
       "skipped": 1
     }
   ],
-  "total": 256,
+  "total": 258,
   "new_this_run": 2,
   "high_confidence": 45,
   "dg_likely": 33,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "pkJFBMoa7m0",
+      "video_url": "https://www.youtube.com/watch?v=pkJFBMoa7m0",
+      "title": "ACU LEADER! CP 7049 at Hornby East, ON (JUN 24, 2026)",
+      "published_at": "2026-06-24T22:49:26Z",
+      "date": "2026-06-24",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7049"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7049",
+          "raw": "CP 7049"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "ACU LEADER! CP 7049 at Hornby East, ON (JUN 24, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "7Acpk1mGIcU",
+      "video_url": "https://www.youtube.com/watch?v=7Acpk1mGIcU",
+      "title": "CP 7049 SD70ACU leads CPKC 230 east",
+      "published_at": "2026-06-24T21:09:42Z",
+      "date": "2026-06-24",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7049",
+        "CPKC 230"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7049",
+          "raw": "CP 7049"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 230",
+          "raw": "CPKC 230"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7049 SD70ACU leads CPKC 230 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

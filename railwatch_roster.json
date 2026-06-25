@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-24T19:52:24.144599Z",
-  "total_units": 113,
+  "generated_at": "2026-06-25T08:52:29.601319Z",
+  "total_units": 115,
   "min_sightings": 2,
   "by_road": {
-    "CN": 90,
+    "CN": 91,
     "VIA": 3,
-    "CP": 19,
+    "CP": 20,
     "RUCK": 1
   },
   "units": [
@@ -4053,6 +4053,52 @@
     },
     {
       "road": "CN",
+      "number": "7049",
+      "display": "CN 7049",
+      "sighting_count": 2,
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 230"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=pkJFBMoa7m0",
+          "title": "ACU LEADER! CP 7049 at Hornby East, ON (JUN 24, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 230",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=7Acpk1mGIcU",
+          "title": "CP 7049 SD70ACU leads CPKC 230 east",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7052",
       "display": "CN 7052",
       "sighting_count": 2,
@@ -5083,6 +5129,52 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
           "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7049",
+      "display": "CP 7049",
+      "sighting_count": 2,
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-06-24",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 230"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=pkJFBMoa7m0",
+          "title": "ACU LEADER! CP 7049 at Hornby East, ON (JUN 24, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 230",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=7Acpk1mGIcU",
+          "title": "CP 7049 SD70ACU leads CPKC 230 east",
           "source": "text_extraction"
         }
       ]
