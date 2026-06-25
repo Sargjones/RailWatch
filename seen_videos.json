@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-06-25T08:52:29.483382Z",
-    "total_videos": 258
+    "updated_at": "2026-06-25T20:07:19.369051Z",
+    "total_videos": 263
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1552,6 +1552,36 @@
       "title": "CP 7049 SD70ACU leads CPKC 230 east",
       "confidence": "medium",
       "processed_at": "2026-06-25T08:52:28.481024Z"
+    },
+    "MXuivtiqQas": {
+      "channel": "Trackside Tyson",
+      "title": "BIG TRAIN SNAKING THRU THE CANYON #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-06-25T20:07:16.237572Z"
+    },
+    "McWTp5ORMOc": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound June 25, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-25T20:07:17.515035Z"
+    },
+    "v8CUHqpo6V0": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 305 Westbound June 25, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-25T20:07:17.515224Z"
+    },
+    "OA-EK6xN0C4": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 644 Eastbound June 24, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-06-25T20:07:17.515347Z"
+    },
+    "500LL7cLmIg": {
+      "channel": "MJM Productions",
+      "title": "CN 2977 + CN 2543 + CN 2501 head west",
+      "confidence": "medium",
+      "processed_at": "2026-06-25T20:07:18.352472Z"
     }
   }
 }
