@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-06-25T20:07:19.369051Z",
-    "total_videos": 263
+    "updated_at": "2026-06-26T08:55:39.062657Z",
+    "total_videos": 264
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1582,6 +1582,12 @@
       "title": "CN 2977 + CN 2543 + CN 2501 head west",
       "confidence": "medium",
       "processed_at": "2026-06-25T20:07:18.352472Z"
+    },
+    "czn7IaiEPiA": {
+      "channel": "MJM Productions",
+      "title": "CP 7049 SD70ACU leads CPKC 230 east",
+      "confidence": "medium",
+      "processed_at": "2026-06-26T08:55:37.975354Z"
     }
   }
 }
