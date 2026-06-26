@@ -1,13 +1,49 @@
 {
-  "generated_at": "2026-06-26T08:55:39.133553Z",
-  "total": 12,
+  "generated_at": "2026-06-26T19:56:39.309088Z",
+  "total": 14,
   "cross_observer": 0,
-  "chase": 12,
+  "chase": 14,
   "high": 0,
   "medium": 0,
   "dg_correlations": 2,
   "splits_suspected": 1,
-  "anomalies": [],
+  "anomalies": [
+    {
+      "type": "consist_anomaly",
+      "channel": "Brockville RailFan",
+      "date": "2026-06-26",
+      "location": "Toronto",
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8006",
+          "raw": "CN 8006"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2296",
+          "raw": "CN 2296"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 377",
+          "raw": "CN Train 377"
+        }
+      ],
+      "anomaly_note": "Lambert QC",
+      "car_count": 156,
+      "car_count_note": null,
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "video_url": "https://www.youtube.com/watch?v=8SlcqL2aa_c",
+      "title": "CN Train 322 Eastbound June 26, 2026"
+    }
+  ],
   "correlations": [
     {
       "symbol": "CN368",
@@ -56,9 +92,109 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-06-26T08:55:39.133184Z",
+      "correlated_at": "2026-06-26T19:56:39.308788Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-06-25",
+        "observed_at": "2026-06-25T09:03-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 195,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=McWTp5ORMOc",
+        "title": "CN Train 149 Westbound June 25, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-06-26",
+        "observed_at": "2026-06-26T08:56-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=JZA-AmPyMZg",
+        "title": "CN Train 149 Raced by VIA Train 61 June 26, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.88,
+        "avg_speed_kmh": 13.0,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 195,
+        "car_count_b": null,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-06-26T19:56:39.308622Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN126",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-06-23",
+        "observed_at": "2026-06-23T08:44-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=YZggQLnlgAI",
+        "title": "CN Train 368 Raced by CN Train 126 Eastbound June 23, 2026"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-06-25",
+        "observed_at": "2026-06-25T16:21-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 96,
+        "origin": "Edmonton Intermodal Terminal (MIT) AB",
+        "destination": "Montreal Intermodal QC",
+        "video_url": "https://www.youtube.com/watch?v=5WzRDr34IDQ",
+        "title": "CN Train 126 Eastbound June 25, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 55.62,
+        "avg_speed_kmh": 5.6,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 96,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-06-26T19:56:39.308728Z",
+      "confidence": "low"
     },
     {
       "symbol": "CN368",
@@ -107,7 +243,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-06-26T08:55:39.133213Z",
+      "correlated_at": "2026-06-26T19:56:39.308804Z",
       "confidence": "low"
     },
     {
@@ -152,7 +288,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-06-26T08:55:39.133341Z",
+      "correlated_at": "2026-06-26T19:56:39.308882Z",
       "confidence": "low"
     },
     {
@@ -197,7 +333,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-06-26T08:55:39.133387Z",
+      "correlated_at": "2026-06-26T19:56:39.308917Z",
       "confidence": "low"
     },
     {
@@ -242,7 +378,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-06-26T08:55:39.133411Z",
+      "correlated_at": "2026-06-26T19:56:39.308935Z",
       "confidence": "low"
     },
     {
@@ -287,7 +423,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-06-26T08:55:39.133438Z",
+      "correlated_at": "2026-06-26T19:56:39.308960Z",
       "confidence": "low"
     },
     {
@@ -332,7 +468,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-06-26T08:55:39.133454Z",
+      "correlated_at": "2026-06-26T19:56:39.308975Z",
       "confidence": "low"
     },
     {
@@ -377,7 +513,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-06-26T08:55:39.133468Z",
+      "correlated_at": "2026-06-26T19:56:39.308989Z",
       "confidence": "low"
     },
     {
@@ -422,7 +558,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-06-26T08:55:39.133481Z",
+      "correlated_at": "2026-06-26T19:56:39.309006Z",
       "confidence": "low"
     },
     {
@@ -467,7 +603,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-06-26T08:55:39.133499Z",
+      "correlated_at": "2026-06-26T19:56:39.309022Z",
       "confidence": "low"
     },
     {
@@ -512,7 +648,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-06-26T08:55:39.133511Z",
+      "correlated_at": "2026-06-26T19:56:39.309037Z",
       "confidence": "low"
     },
     {
@@ -557,7 +693,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-06-26T08:55:39.133523Z",
+      "correlated_at": "2026-06-26T19:56:39.309051Z",
       "confidence": "low"
     }
   ]

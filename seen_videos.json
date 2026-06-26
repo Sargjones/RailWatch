@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-06-26T08:55:39.062657Z",
-    "total_videos": 264
+    "updated_at": "2026-06-26T19:56:39.242897Z",
+    "total_videos": 270
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1588,6 +1588,42 @@
       "title": "CP 7049 SD70ACU leads CPKC 230 east",
       "confidence": "medium",
       "processed_at": "2026-06-26T08:55:37.975354Z"
+    },
+    "JZA-AmPyMZg": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Raced by VIA Train 61 June 26, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-26T19:56:37.305004Z"
+    },
+    "8SlcqL2aa_c": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Eastbound June 26, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-26T19:56:37.305576Z"
+    },
+    "H5A-V5dVEdM": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 532 Meets VIA Train 644 June 25, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-26T19:56:37.305860Z"
+    },
+    "5WzRDr34IDQ": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 126 Eastbound June 25, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-26T19:56:37.306023Z"
+    },
+    "oJn0Yniiht8": {
+      "channel": "MJM Productions",
+      "title": "CP 3040 GP38-2 leads CPKC H86 west",
+      "confidence": "medium",
+      "processed_at": "2026-06-26T19:56:38.078985Z"
+    },
+    "TjB64nk67H8": {
+      "channel": "MJM Productions",
+      "title": "CP 8160 + CP 8751 + CP 2311 lead CPKC 135",
+      "confidence": "medium",
+      "processed_at": "2026-06-26T19:56:38.079191Z"
     }
   }
 }
