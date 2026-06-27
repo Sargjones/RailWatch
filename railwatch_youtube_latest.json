@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-27T08:29:53.677521Z",
+  "generated_at": "2026-06-27T19:27:20.182137Z",
   "dedup_registry": {
-    "total": 277,
+    "total": 283,
     "by_channel": {
       "Trackside Ontario": 17,
-      "Trackside Tyson": 44,
+      "Trackside Tyson": 45,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 10,
       "Brockville RailFan": 93,
-      "MJM Productions": 67,
+      "MJM Productions": 72,
       "Central Canada Railfan": 1
     },
     "by_confidence": {
       "high": 51,
-      "medium": 203,
+      "medium": 209,
       "low": 23,
       "meta": 0
     }
@@ -31,11 +31,11 @@
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 7,
+      "skipped": 8,
       "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
       "defaulted": 0
     },
     {
@@ -80,13 +80,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 6,
-      "skipped": 9,
+      "videos": 5,
+      "skipped": 15,
       "high": 0,
-      "medium": 6,
+      "medium": 5,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 6
+      "defaulted": 5
     },
     {
       "channel": "Ontario Railman",
@@ -114,11 +114,244 @@
       "skipped": 1
     }
   ],
-  "total": 277,
-  "new_this_run": 7,
+  "total": 283,
+  "new_this_run": 6,
   "high_confidence": 51,
-  "dg_likely": 36,
+  "dg_likely": 37,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Fphiuq7dhVc",
+      "video_url": "https://www.youtube.com/watch?v=Fphiuq7dhVc",
+      "title": "CN 3115 BCOL HERITAGE leads CN Q109",
+      "published_at": "2026-06-27T18:40:25Z",
+      "date": "2026-06-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3115"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3115",
+          "raw": "CN 3115"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q109",
+          "raw": "Q109"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3115 BCOL HERITAGE leads CN Q109",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Y2zwIDBpQrY",
+      "video_url": "https://www.youtube.com/watch?v=Y2zwIDBpQrY",
+      "title": "CN 8816 + CN 2337 lead CN M377 west",
+      "published_at": "2026-06-27T18:37:54Z",
+      "date": "2026-06-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8816",
+        "CN 2337"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8816",
+          "raw": "CN 8816"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2337",
+          "raw": "CN 2337"
+        },
+        {
+          "road": "CN",
+          "symbol": "M377",
+          "raw": "M377"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8816 + CN 2337 lead CN M377 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "vPUgfy-fij4",
+      "video_url": "https://www.youtube.com/watch?v=vPUgfy-fij4",
+      "title": "BIG TRAINS IN CANADA THRU THE BEAUTIFUL RUGGED THOMPSON CANYON!",
+      "published_at": "2026-06-27T17:55:33Z",
+      "date": "2026-06-27",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "BIG TRAINS IN CANADA THRU THE BEAUTIFUL RUGGED THOMPSON CANYON!",
+      "description_chars": 484,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "nBSUI16VR5M",
+      "video_url": "https://www.youtube.com/watch?v=nBSUI16VR5M",
+      "title": "CN 5783 SD75i leads CN E276 east",
+      "published_at": "2026-06-27T16:55:35Z",
+      "date": "2026-06-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5783"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5783",
+          "raw": "CN 5783"
+        },
+        {
+          "road": "CN",
+          "symbol": "E276",
+          "raw": "E276"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 5783 SD75i leads CN E276 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "WdSyckiSqk0",
+      "video_url": "https://www.youtube.com/watch?v=WdSyckiSqk0",
+      "title": "CN 3253 + CN 3061 lead CN M306",
+      "published_at": "2026-06-27T16:13:51Z",
+      "date": "2026-06-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3253",
+        "CN 3061"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3253",
+          "raw": "CN 3253"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3061",
+          "raw": "CN 3061"
+        },
+        {
+          "road": "CN",
+          "symbol": "M306",
+          "raw": "M306"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3253 + CN 3061 lead CN M306",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "6I5CUyLAidQ",
+      "video_url": "https://www.youtube.com/watch?v=6I5CUyLAidQ",
+      "title": "CN 8006 leads CN M397 west outta Mac",
+      "published_at": "2026-06-27T16:10:19Z",
+      "date": "2026-06-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8006"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8006",
+          "raw": "CN 8006"
+        },
+        {
+          "road": "CN",
+          "symbol": "M397",
+          "raw": "M397"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8006 leads CN M397 west outta Mac",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
