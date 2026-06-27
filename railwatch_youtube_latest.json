@@ -1,37 +1,42 @@
 {
-  "generated_at": "2026-06-26T19:56:39.246627Z",
+  "generated_at": "2026-06-27T08:29:53.677521Z",
   "dedup_registry": {
-    "total": 270,
+    "total": 277,
     "by_channel": {
       "Trackside Ontario": 17,
-      "Trackside Tyson": 43,
+      "Trackside Tyson": 44,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 10,
       "Brockville RailFan": 93,
-      "MJM Productions": 61,
+      "MJM Productions": 67,
       "Central Canada Railfan": 1
     },
     "by_confidence": {
       "high": 51,
-      "medium": 197,
-      "low": 22,
+      "medium": 203,
+      "low": 23,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-06-19T00:00:00Z",
+  "since": "2026-06-20T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 8
+      "videos": 1,
+      "skipped": 7,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -60,13 +65,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 4,
-      "skipped": 26,
-      "high": 4,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 27
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -80,13 +80,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 8,
+      "videos": 6,
+      "skipped": 9,
       "high": 0,
-      "medium": 2,
+      "medium": 6,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 2
+      "defaulted": 6
     },
     {
       "channel": "Ontario Railman",
@@ -114,11 +114,251 @@
       "skipped": 1
     }
   ],
-  "total": 270,
-  "new_this_run": 6,
+  "total": 277,
+  "new_this_run": 7,
   "high_confidence": 51,
   "dg_likely": 36,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "T7GONxzRnpM",
+      "video_url": "https://www.youtube.com/watch?v=T7GONxzRnpM",
+      "title": "EMD LEADERS! Railfanning around Drumbo, ON (JUN 26, 2026)",
+      "published_at": "2026-06-27T03:26:32Z",
+      "date": "2026-06-26",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "EMD LEADERS! Railfanning around Drumbo, ON (JUN 26, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "YFfPkYrQr44",
+      "video_url": "https://www.youtube.com/watch?v=YFfPkYrQr44",
+      "title": "CP 9719 + KCS 4138 lead CPKC 137 west",
+      "published_at": "2026-06-27T01:57:13Z",
+      "date": "2026-06-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9719",
+        "CPKC 137"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9719",
+          "raw": "CP 9719"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 137",
+          "raw": "CPKC 137"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9719 + KCS 4138 lead CPKC 137 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "JXBC3n85QZQ",
+      "video_url": "https://www.youtube.com/watch?v=JXBC3n85QZQ",
+      "title": "CP 3024 leads CPKC H72 light power",
+      "published_at": "2026-06-27T01:55:10Z",
+      "date": "2026-06-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3024"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3024",
+          "raw": "CP 3024"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 3024 leads CPKC H72 light power",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "I1GDpdfAJa0",
+      "video_url": "https://www.youtube.com/watch?v=I1GDpdfAJa0",
+      "title": "CP 8892 + KCS 4816 lead CPKC 134 east",
+      "published_at": "2026-06-27T01:53:47Z",
+      "date": "2026-06-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8892",
+        "CPKC 134"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8892",
+          "raw": "CP 8892"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 134",
+          "raw": "CPKC 134"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8892 + KCS 4816 lead CPKC 134 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "_YpkMrxrCAg",
+      "video_url": "https://www.youtube.com/watch?v=_YpkMrxrCAg",
+      "title": "CP 8160 leads CPKC 135 past Drumbo\ufffc",
+      "published_at": "2026-06-27T01:52:20Z",
+      "date": "2026-06-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8160",
+        "CPKC 135"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8160",
+          "raw": "CP 8160"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 135",
+          "raw": "CPKC 135"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8160 leads CPKC 135 past Drumbo\ufffc",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "4dpFwgBLh70",
+      "video_url": "https://www.youtube.com/watch?v=4dpFwgBLh70",
+      "title": "EVENING VIA RAIL PASSENGER TRAIN! #youtubeshorts",
+      "published_at": "2026-06-27T00:00:39Z",
+      "date": "2026-06-27",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "EVENING VIA RAIL PASSENGER TRAIN! #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "kkTqfpP9HCc",
+      "video_url": "https://www.youtube.com/watch?v=kkTqfpP9HCc",
+      "title": "CP 6256 leads CPKC H78 past Drumbo",
+      "published_at": "2026-06-26T20:24:27Z",
+      "date": "2026-06-26",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 6256"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 6256",
+          "raw": "CP 6256"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 6256 leads CPKC H78 past Drumbo",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

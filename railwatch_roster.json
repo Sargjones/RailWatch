@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-26T19:56:39.348646Z",
-  "total_units": 123,
+  "generated_at": "2026-06-27T08:29:53.809074Z",
+  "total_units": 125,
   "min_sightings": 2,
   "by_road": {
-    "CN": 99,
+    "CN": 100,
     "VIA": 3,
-    "CP": 20,
+    "CP": 21,
     "RUCK": 1
   },
   "units": [
@@ -4800,6 +4800,52 @@
     },
     {
       "road": "CN",
+      "number": "8160",
+      "display": "CN 8160",
+      "sighting_count": 2,
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-27",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 135"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 135",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_YpkMrxrCAg",
+          "title": "CP 8160 leads CPKC 135 past Drumbo\ufffc",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 135",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TjB64nk67H8",
+          "title": "CP 8160 + CP 8751 + CP 2311 lead CPKC 135",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "8319",
       "display": "CN 8319",
       "sighting_count": 2,
@@ -5984,6 +6030,52 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
           "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8160",
+      "display": "CP 8160",
+      "sighting_count": 2,
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-06-27",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 135"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 135",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_YpkMrxrCAg",
+          "title": "CP 8160 leads CPKC 135 past Drumbo\ufffc",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 135",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TjB64nk67H8",
+          "title": "CP 8160 + CP 8751 + CP 2311 lead CPKC 135",
           "source": "text_extraction"
         }
       ]
