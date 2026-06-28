@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-28T08:44:53.082658Z",
+  "generated_at": "2026-06-28T19:27:50.415121Z",
   "dedup_registry": {
-    "total": 284,
+    "total": 288,
     "by_channel": {
-      "Trackside Ontario": 17,
-      "Trackside Tyson": 45,
+      "Trackside Ontario": 19,
+      "Trackside Tyson": 46,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 10,
       "Brockville RailFan": 93,
-      "MJM Productions": 72,
+      "MJM Productions": 73,
       "Central Canada Railfan": 2
     },
     "by_confidence": {
-      "high": 52,
-      "medium": 209,
-      "low": 23,
+      "high": 53,
+      "medium": 211,
+      "low": 24,
       "meta": 0
     }
   },
@@ -25,13 +25,23 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 1
+      "videos": 2,
+      "skipped": 1,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 7,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -75,8 +85,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 20
+      "videos": 1,
+      "skipped": 20,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -100,20 +115,151 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 2
     }
   ],
-  "total": 284,
-  "new_this_run": 1,
-  "high_confidence": 52,
+  "total": 288,
+  "new_this_run": 4,
+  "high_confidence": 53,
   "dg_likely": 38,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "_hy75Atg27s",
+      "video_url": "https://www.youtube.com/watch?v=_hy75Atg27s",
+      "title": "CN Q109 at Washago \u2022 June 27, 2026",
+      "published_at": "2026-06-28T18:50:41Z",
+      "date": "2026-06-27",
+      "location": "Washago",
+      "subdivision": "CN Bala Sub",
+      "lat": 44.75,
+      "lon": -79.33,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3115",
+        "CN 3840"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Q109",
+          "raw": "Q109"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q106",
+          "raw": "Q106"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3115",
+          "raw": "CN 3115"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3840",
+          "raw": "CN 3840"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Q109 at Washago \u2022 June 27, 2026",
+      "description_chars": 146,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "qX1w_G-lNvk",
+      "video_url": "https://www.youtube.com/watch?v=qX1w_G-lNvk",
+      "title": "VIA 79 Driver Waves Hello, Loses Hat \u2022 June 27, 2026",
+      "published_at": "2026-06-28T16:50:26Z",
+      "date": "2026-06-27",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 79",
+          "raw": "VIA 79"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 79 Driver Waves Hello, Loses Hat \u2022 June 27, 2026",
+      "description_chars": 262,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "HrsOTVQzTTg",
+      "video_url": "https://www.youtube.com/watch?v=HrsOTVQzTTg",
+      "title": "BCOL HERITAGE! Railfanning the CN York Sub (JUN 27, 2026)",
+      "published_at": "2026-06-28T15:38:16Z",
+      "date": "2026-06-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "BCOL HERITAGE! Railfanning the CN York Sub (JUN 27, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "DhYqt2U0S6g",
+      "video_url": "https://www.youtube.com/watch?v=DhYqt2U0S6g",
+      "title": "EMD IN THE LEAD THRU THE CANYON #youtubeshorts",
+      "published_at": "2026-06-28T13:30:20Z",
+      "date": "2026-06-28",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "EMD IN THE LEAD THRU THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

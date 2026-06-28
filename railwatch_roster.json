@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-28T08:44:53.186133Z",
-  "total_units": 125,
+  "generated_at": "2026-06-28T19:27:50.532016Z",
+  "total_units": 126,
   "min_sightings": 2,
   "by_road": {
-    "CN": 100,
+    "CN": 101,
     "VIA": 3,
     "CP": 21,
     "RUCK": 1
@@ -13,15 +13,17 @@
       "road": "CN",
       "number": "3840",
       "display": "CN 3840",
-      "sighting_count": 6,
+      "sighting_count": 7,
       "first_seen": "2026-05-31",
       "last_seen": "CN 3840",
       "corridors": [
+        "CN Bala Sub",
         "CN Kingston/Oakville Sub",
         "CN Halton Sub",
         "CN Kingston Sub"
       ],
       "trains_led": [
+        "Q109",
         "CN 368",
         "Q107",
         "Q104"
@@ -43,6 +45,19 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=lY9Jj_tj4yU",
           "title": "CN 3840 leads CN Q104 past Pine Orchard",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-27",
+          "location": "Washago",
+          "subdivision": "CN Bala Sub",
+          "channel": "Trackside Ontario",
+          "train_symbol": "Q109",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_hy75Atg27s",
+          "title": "CN Q109 at Washago \u2022 June 27, 2026",
           "source": "text_extraction"
         },
         {
@@ -2914,6 +2929,53 @@
           "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
           "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
           "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3115",
+      "display": "CN 3115",
+      "sighting_count": 2,
+      "first_seen": "2026-06-27",
+      "last_seen": "2026-06-27",
+      "corridors": [
+        "CN Bala Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Q109"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-27",
+          "location": "Washago",
+          "subdivision": "CN Bala Sub",
+          "channel": "Trackside Ontario",
+          "train_symbol": "Q109",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_hy75Atg27s",
+          "title": "CN Q109 at Washago \u2022 June 27, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q109",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Fphiuq7dhVc",
+          "title": "CN 3115 BCOL HERITAGE leads CN Q109",
+          "source": "text_extraction"
         }
       ]
     },
