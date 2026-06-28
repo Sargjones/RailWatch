@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-27T19:27:20.182137Z",
+  "generated_at": "2026-06-28T08:44:53.082658Z",
   "dedup_registry": {
-    "total": 283,
+    "total": 284,
     "by_channel": {
       "Trackside Ontario": 17,
       "Trackside Tyson": 45,
@@ -11,32 +11,27 @@
       "Rail Fans Canada": 10,
       "Brockville RailFan": 93,
       "MJM Productions": 72,
-      "Central Canada Railfan": 1
+      "Central Canada Railfan": 2
     },
     "by_confidence": {
-      "high": 51,
+      "high": 52,
       "medium": 209,
       "low": 23,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-06-20T00:00:00Z",
+  "since": "2026-06-21T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 8,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -46,7 +41,7 @@
     {
       "channel": "Trackside Tristan",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
@@ -80,13 +75,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 5,
-      "skipped": 15,
-      "high": 0,
-      "medium": 5,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 5
+      "videos": 0,
+      "skipped": 20
     },
     {
       "channel": "Ontario Railman",
@@ -110,15 +100,59 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 1
     }
   ],
-  "total": 283,
-  "new_this_run": 6,
-  "high_confidence": 51,
-  "dg_likely": 37,
+  "total": 284,
+  "new_this_run": 1,
+  "high_confidence": 52,
+  "dg_likely": 38,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "8v6-W-xd_90",
+      "video_url": "https://www.youtube.com/watch?v=8v6-W-xd_90",
+      "title": "Ex-BN SD60M and CP Weed Sprayer Train in Winnipeg!",
+      "published_at": "2026-06-27T23:00:17Z",
+      "date": "2026-06-20",
+      "location": "Winnipeg",
+      "subdivision": "CN Mainline Manitoba",
+      "lat": 49.8951,
+      "lon": -97.1384,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CP 5766"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "L533",
+          "raw": "L533"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5766",
+          "raw": "CP 5766"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Ex-BN SD60M and CP Weed Sprayer Train in Winnipeg!",
+      "description_chars": 383,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

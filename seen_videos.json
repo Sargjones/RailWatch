@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-06-27T19:27:20.177951Z",
-    "total_videos": 283
+    "updated_at": "2026-06-28T08:44:53.079050Z",
+    "total_videos": 284
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1702,6 +1702,12 @@
       "title": "CN 8006 leads CN M397 west outta Mac",
       "confidence": "medium",
       "processed_at": "2026-06-27T19:27:19.120506Z"
+    },
+    "8v6-W-xd_90": {
+      "channel": "Central Canada Railfan",
+      "title": "Ex-BN SD60M and CP Weed Sprayer Train in Winnipeg!",
+      "confidence": "high",
+      "processed_at": "2026-06-28T08:44:53.079006Z"
     }
   }
 }

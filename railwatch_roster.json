@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T19:27:20.293920Z",
+  "generated_at": "2026-06-28T08:44:53.186133Z",
   "total_units": 125,
   "min_sightings": 2,
   "by_road": {
@@ -1456,6 +1456,67 @@
           "video_url": "https://www.youtube.com/watch?v=A8sc8k3uFsY",
           "title": "CN Train 532 Eastbound June 3, 2026",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "5766",
+      "display": "CN 5766",
+      "sighting_count": 3,
+      "first_seen": "2026-05-26",
+      "last_seen": "CP 5766",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "L533"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 5766",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=HN1RqH_YZfU",
+          "title": "CP 5766 + CP 5901 lead a CWR train",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-20",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "L533",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=8v6-W-xd_90",
+          "title": "Ex-BN SD60M and CP Weed Sprayer Train in Winnipeg!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-05-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zhQa00rYM4A",
+          "title": "RARE SD40-2 DUO! CP 5766 at Vaughan, ON (MAY 26, 2026)",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -4218,51 +4279,6 @@
     },
     {
       "road": "CN",
-      "number": "5766",
-      "display": "CN 5766",
-      "sighting_count": 2,
-      "first_seen": "2026-05-26",
-      "last_seen": "CP 5766",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "CP 5766",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=HN1RqH_YZfU",
-          "title": "CP 5766 + CP 5901 lead a CWR train",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-05-26",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=zhQa00rYM4A",
-          "title": "RARE SD40-2 DUO! CP 5766 at Vaughan, ON (MAY 26, 2026)",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "5767",
       "display": "CN 5767",
       "sighting_count": 2,
@@ -5397,6 +5413,67 @@
     },
     {
       "road": "CP",
+      "number": "5766",
+      "display": "CP 5766",
+      "sighting_count": 3,
+      "first_seen": "2026-05-26",
+      "last_seen": "CP 5766",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "L533"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 5766",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=HN1RqH_YZfU",
+          "title": "CP 5766 + CP 5901 lead a CWR train",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-20",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "L533",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=8v6-W-xd_90",
+          "title": "Ex-BN SD60M and CP Weed Sprayer Train in Winnipeg!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zhQa00rYM4A",
+          "title": "RARE SD40-2 DUO! CP 5766 at Vaughan, ON (MAY 26, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "7049",
       "display": "CP 7049",
       "sighting_count": 3,
@@ -5450,51 +5527,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=7Acpk1mGIcU",
           "title": "CP 7049 SD70ACU leads CPKC 230 east",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "5766",
-      "display": "CP 5766",
-      "sighting_count": 2,
-      "first_seen": "2026-05-26",
-      "last_seen": "CP 5766",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "CP 5766",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=HN1RqH_YZfU",
-          "title": "CP 5766 + CP 5901 lead a CWR train",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-05-26",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=zhQa00rYM4A",
-          "title": "RARE SD40-2 DUO! CP 5766 at Vaughan, ON (MAY 26, 2026)",
           "source": "text_extraction"
         }
       ]
