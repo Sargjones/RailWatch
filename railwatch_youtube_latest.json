@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-29T10:46:36.374267Z",
+  "generated_at": "2026-06-29T20:04:53.685685Z",
   "dedup_registry": {
-    "total": 292,
+    "total": 296,
     "by_channel": {
-      "Trackside Ontario": 19,
+      "Trackside Ontario": 20,
       "Trackside Tyson": 47,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 10,
-      "Brockville RailFan": 93,
+      "Brockville RailFan": 95,
       "MJM Productions": 76,
-      "Central Canada Railfan": 2
+      "Central Canada Railfan": 3
     },
     "by_confidence": {
-      "high": 54,
-      "medium": 213,
+      "high": 55,
+      "medium": 216,
       "low": 25,
       "meta": 0
     }
@@ -25,18 +25,18 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -65,8 +65,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 19
+      "videos": 2,
+      "skipped": 19,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -80,13 +85,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 3,
-      "skipped": 20,
-      "high": 1,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 23
     },
     {
       "channel": "Ontario Railman",
@@ -110,15 +110,277 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     }
   ],
-  "total": 292,
+  "total": 296,
   "new_this_run": 4,
-  "high_confidence": 54,
+  "high_confidence": 55,
   "dg_likely": 38,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "adWDgRf0pcI",
+      "video_url": "https://www.youtube.com/watch?v=adWDgRf0pcI",
+      "title": "Friday at Isabella Street Parry Sound \u2022 June 26, 2026",
+      "published_at": "2026-06-29T19:34:32Z",
+      "date": "2026-06-26",
+      "location": "Parry Sound",
+      "subdivision": "CN Bala Sub",
+      "lat": 45.35,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Friday at Isabella Street Parry Sound \u2022 June 26, 2026",
+      "description_chars": 82,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "45IVMjIIwRg",
+      "video_url": "https://www.youtube.com/watch?v=45IVMjIIwRg",
+      "title": "Busy Evening of CP Trains on The Keewatin Sub. (6/25/2026)",
+      "published_at": "2026-06-29T17:00:30Z",
+      "date": "2026-06-25",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 321",
+        "CP 9375",
+        "CP 3112",
+        "CP 4432",
+        "CP 105",
+        "CP 7569",
+        "CP 620",
+        "CP 9754",
+        "CP 8149",
+        "CP 119",
+        "CP 7566",
+        "CP 7534",
+        "CP 7608"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 321",
+          "raw": "CP 321"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9375",
+          "raw": "CP 9375"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3112",
+          "raw": "CP 3112"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4432",
+          "raw": "CP 4432"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 105",
+          "raw": "CP 105"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7569",
+          "raw": "CP 7569"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 620",
+          "raw": "CP 620"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9754",
+          "raw": "CP 9754"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8149",
+          "raw": "CP 8149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CP 119"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7566",
+          "raw": "CP 7566"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7534",
+          "raw": "CP 7534"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7608",
+          "raw": "CP 7608"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Busy Evening of CP Trains on The Keewatin Sub. (6/25/2026)",
+      "description_chars": 727,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "T0tBoWJGz3E",
+      "video_url": "https://www.youtube.com/watch?v=T0tBoWJGz3E",
+      "title": "CN Train 109 Westbound Meets CN Train 368 Eastbound June 29, 2026",
+      "published_at": "2026-06-29T14:46:17Z",
+      "date": "2026-06-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3399",
+        "CN 2815",
+        "CN 3258",
+        "CN 2876",
+        "CN 8319"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 109",
+          "raw": "CN Train 109"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3399",
+          "raw": "CN 3399"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2815",
+          "raw": "CN 2815"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3258",
+          "raw": "CN 3258"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2876",
+          "raw": "CN 2876"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8319",
+          "raw": "CN 8319"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Train 109 Westbound Meets CN Train 368 Eastbound June 29, 2026",
+      "description_chars": 348,
+      "consist": {
+        "observed_time": "07:18",
+        "observed_tz": "EDT",
+        "temperature_c": 19
+      },
+      "observed_at": "2026-06-29T07:18-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "ZQGCuqzydeY",
+      "video_url": "https://www.youtube.com/watch?v=ZQGCuqzydeY",
+      "title": "VIA Train 61 Westbound June 29, 2026",
+      "published_at": "2026-06-29T14:15:12Z",
+      "date": "2026-06-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound June 29, 2026",
+      "description_chars": 179,
+      "consist": {
+        "coaches": [
+          "Speed: 66 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 106,
+        "speed_raw": "66 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:56",
+        "observed_tz": "EDT",
+        "temperature_c": 24,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-06-29T08:56-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-06-29T10:46:36.370185Z",
-    "total_videos": 292
+    "updated_at": "2026-06-29T20:04:53.681895Z",
+    "total_videos": 296
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1756,6 +1756,30 @@
       "title": "CN 8952 GTW heritage leads CM Z148",
       "confidence": "medium",
       "processed_at": "2026-06-29T10:46:35.393624Z"
+    },
+    "adWDgRf0pcI": {
+      "channel": "Trackside Ontario",
+      "title": "Friday at Isabella Street Parry Sound \u2022 June 26, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-06-29T20:04:50.447350Z"
+    },
+    "T0tBoWJGz3E": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 109 Westbound Meets CN Train 368 Eastbound June 29, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-06-29T20:04:51.897652Z"
+    },
+    "ZQGCuqzydeY": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound June 29, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-06-29T20:04:51.898215Z"
+    },
+    "45IVMjIIwRg": {
+      "channel": "Central Canada Railfan",
+      "title": "Busy Evening of CP Trains on The Keewatin Sub. (6/25/2026)",
+      "confidence": "high",
+      "processed_at": "2026-06-29T20:04:53.681875Z"
     }
   }
 }
