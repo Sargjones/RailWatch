@@ -1,42 +1,37 @@
 {
-  "generated_at": "2026-06-28T19:27:50.415121Z",
+  "generated_at": "2026-06-29T10:46:36.374267Z",
   "dedup_registry": {
-    "total": 288,
+    "total": 292,
     "by_channel": {
       "Trackside Ontario": 19,
-      "Trackside Tyson": 46,
+      "Trackside Tyson": 47,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 10,
       "Brockville RailFan": 93,
-      "MJM Productions": 73,
+      "MJM Productions": 76,
       "Central Canada Railfan": 2
     },
     "by_confidence": {
-      "high": 53,
-      "medium": 211,
-      "low": 24,
+      "high": 54,
+      "medium": 213,
+      "low": 25,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-06-21T00:00:00Z",
+  "since": "2026-06-22T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 2,
-      "skipped": 1,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 7,
+      "skipped": 6,
       "high": 0,
       "medium": 0,
       "low_meta": 1,
@@ -71,7 +66,7 @@
     {
       "channel": "Brockville RailFan",
       "videos": 0,
-      "skipped": 27
+      "skipped": 19
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -85,13 +80,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
+      "videos": 3,
       "skipped": 20,
-      "high": 0,
-      "medium": 1,
+      "high": 1,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -119,11 +114,160 @@
       "skipped": 2
     }
   ],
-  "total": 288,
+  "total": 292,
   "new_this_run": 4,
-  "high_confidence": 53,
+  "high_confidence": 54,
   "dg_likely": 38,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "CDSgy8rDZWQ",
+      "video_url": "https://www.youtube.com/watch?v=CDSgy8rDZWQ",
+      "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)",
+      "published_at": "2026-06-29T02:24:44Z",
+      "date": "2026-06-28",
+      "location": "Brampton",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6833,
+      "lon": -79.7667,
+      "direction": "East",
+      "commodity_type": "auto_rack",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8952",
+        "CN 3222"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8952",
+          "raw": "CN 8952"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z148",
+          "raw": "Z148"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3222",
+          "raw": "CN 3222"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)",
+      "description_chars": 598,
+      "consist": {
+        "observed_time": "4:06",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-06-28T4:06",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "PAka8fcG7cg",
+      "video_url": "https://www.youtube.com/watch?v=PAka8fcG7cg",
+      "title": "KCS 5000 leads CPKC 328 past Emery",
+      "published_at": "2026-06-28T22:59:40Z",
+      "date": "2026-06-28",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 328"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 328",
+          "raw": "CPKC 328"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "KCS 5000 leads CPKC 328 past Emery",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "c6lH-tR2018",
+      "video_url": "https://www.youtube.com/watch?v=c6lH-tR2018",
+      "title": "CPKC & CN RAILROADS WORKING THRU THE RUGGED THOMPSON CANYON! ",
+      "published_at": "2026-06-28T21:10:28Z",
+      "date": "2026-06-28",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CPKC & CN RAILROADS WORKING THRU THE RUGGED THOMPSON CANYON! ",
+      "description_chars": 447,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "fGNNjIQCidk",
+      "video_url": "https://www.youtube.com/watch?v=fGNNjIQCidk",
+      "title": "CN 8952 GTW heritage leads CM Z148",
+      "published_at": "2026-06-28T20:56:13Z",
+      "date": "2026-06-28",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8952"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8952",
+          "raw": "CN 8952"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z148",
+          "raw": "Z148"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8952 GTW heritage leads CM Z148",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

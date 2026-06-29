@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-06-28T19:27:50.411165Z",
-    "total_videos": 288
+    "updated_at": "2026-06-29T10:46:36.370185Z",
+    "total_videos": 292
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1732,6 +1732,30 @@
       "title": "BCOL HERITAGE! Railfanning the CN York Sub (JUN 27, 2026)",
       "confidence": "medium",
       "processed_at": "2026-06-28T19:27:49.451112Z"
+    },
+    "c6lH-tR2018": {
+      "channel": "Trackside Tyson",
+      "title": "CPKC & CN RAILROADS WORKING THRU THE RUGGED THOMPSON CANYON! ",
+      "confidence": "low",
+      "processed_at": "2026-06-29T10:46:33.583234Z"
+    },
+    "CDSgy8rDZWQ": {
+      "channel": "MJM Productions",
+      "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)",
+      "confidence": "high",
+      "processed_at": "2026-06-29T10:46:35.393241Z"
+    },
+    "PAka8fcG7cg": {
+      "channel": "MJM Productions",
+      "title": "KCS 5000 leads CPKC 328 past Emery",
+      "confidence": "medium",
+      "processed_at": "2026-06-29T10:46:35.393446Z"
+    },
+    "fGNNjIQCidk": {
+      "channel": "MJM Productions",
+      "title": "CN 8952 GTW heritage leads CM Z148",
+      "confidence": "medium",
+      "processed_at": "2026-06-29T10:46:35.393624Z"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-28T19:27:50.532016Z",
-  "total_units": 126,
+  "generated_at": "2026-06-29T10:46:36.481294Z",
+  "total_units": 127,
   "min_sightings": 2,
   "by_road": {
-    "CN": 101,
+    "CN": 102,
     "VIA": 3,
     "CP": 21,
     "RUCK": 1
@@ -5183,6 +5183,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
           "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8952",
+      "display": "CN 8952",
+      "sighting_count": 2,
+      "first_seen": "2026-06-28",
+      "last_seen": "2026-06-28",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z148"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-28",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=CDSgy8rDZWQ",
+          "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-28",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=fGNNjIQCidk",
+          "title": "CN 8952 GTW heritage leads CM Z148",
           "source": "text_extraction"
         }
       ]
