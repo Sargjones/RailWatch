@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-06-29T20:04:53.685685Z",
+  "generated_at": "2026-06-30T09:24:15.066478Z",
   "dedup_registry": {
-    "total": 296,
+    "total": 299,
     "by_channel": {
       "Trackside Ontario": 20,
-      "Trackside Tyson": 47,
+      "Trackside Tyson": 48,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 10,
       "Brockville RailFan": 95,
-      "MJM Productions": 76,
+      "MJM Productions": 78,
       "Central Canada Railfan": 3
     },
     "by_confidence": {
       "high": 55,
-      "medium": 216,
-      "low": 25,
+      "medium": 218,
+      "low": 26,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-06-22T00:00:00Z",
+  "since": "2026-06-23T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 2,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 7,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -61,17 +61,12 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 19,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -85,8 +80,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 23
+      "videos": 2,
+      "skipped": 22,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -110,20 +110,109 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 2,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     }
   ],
-  "total": 296,
-  "new_this_run": 4,
+  "total": 299,
+  "new_this_run": 3,
   "high_confidence": 55,
   "dg_likely": 38,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "rLXP3-A8SUs",
+      "video_url": "https://www.youtube.com/watch?v=rLXP3-A8SUs",
+      "title": "TRAIN THRU DANGEROUS TERRAIN #youtubeshorts",
+      "published_at": "2026-06-29T22:30:18Z",
+      "date": "2026-06-29",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "TRAIN THRU DANGEROUS TERRAIN #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "bYRBBKdgPBU",
+      "video_url": "https://www.youtube.com/watch?v=bYRBBKdgPBU",
+      "title": "AC4400CW LEAD! CP 9824 at Alliston, ON (JUN 29, 2026)",
+      "published_at": "2026-06-29T22:19:27Z",
+      "date": "2026-06-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9824"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9824",
+          "raw": "CP 9824"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "AC4400CW LEAD! CP 9824 at Alliston, ON (JUN 29, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "i8cPqKms9iE",
+      "video_url": "https://www.youtube.com/watch?v=i8cPqKms9iE",
+      "title": "CP 9824 AC4400CW leads CPKC 9-114",
+      "published_at": "2026-06-29T22:12:29Z",
+      "date": "2026-06-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9824"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9824",
+          "raw": "CP 9824"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9824 AC4400CW leads CPKC 9-114",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

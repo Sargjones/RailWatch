@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-06-29T20:04:53.789722Z",
-  "total_units": 127,
+  "generated_at": "2026-06-30T09:24:15.178982Z",
+  "total_units": 129,
   "min_sightings": 2,
   "by_road": {
-    "CN": 102,
+    "CN": 103,
     "VIA": 3,
-    "CP": 21,
+    "CP": 22,
     "RUCK": 1
   },
   "units": [
@@ -5408,6 +5408,50 @@
       ]
     },
     {
+      "road": "CN",
+      "number": "9824",
+      "display": "CN 9824",
+      "sighting_count": 2,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bYRBBKdgPBU",
+          "title": "AC4400CW LEAD! CP 9824 at Alliston, ON (JUN 29, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=i8cPqKms9iE",
+          "title": "CP 9824 AC4400CW leads CPKC 9-114",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
       "road": "VIA",
       "number": "6416",
       "display": "VIA 6416",
@@ -6560,6 +6604,50 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
           "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9824",
+      "display": "CP 9824",
+      "sighting_count": 2,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-06-29",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bYRBBKdgPBU",
+          "title": "AC4400CW LEAD! CP 9824 at Alliston, ON (JUN 29, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=i8cPqKms9iE",
+          "title": "CP 9824 AC4400CW leads CPKC 9-114",
           "source": "text_extraction"
         }
       ]
