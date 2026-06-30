@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-06-30T09:24:15.062371Z",
-    "total_videos": 299
+    "updated_at": "2026-06-30T20:04:34.713629Z",
+    "total_videos": 304
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1798,6 +1798,36 @@
       "title": "CP 9824 AC4400CW leads CPKC 9-114",
       "confidence": "medium",
       "processed_at": "2026-06-30T09:24:14.035684Z"
+    },
+    "f2YsWjkig88": {
+      "channel": "Trackside Ontario",
+      "title": "Monday Evening at Bayview and Copetown \u2022 June 29, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-06-30T20:04:31.212884Z"
+    },
+    "S12sonDCq3E": {
+      "channel": "Trackside Tyson",
+      "title": "EMD SD75I THRU CROSSING #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-06-30T20:04:31.641250Z"
+    },
+    "zWmpskm3a6U": {
+      "channel": "Rail Fans Canada",
+      "title": "Why Stage 2 East Isn't Open Yet: The Story Behind the Delay",
+      "confidence": "medium",
+      "processed_at": "2026-06-30T20:04:32.882203Z"
+    },
+    "5TOMQsAgxtE": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Raced by VIA Train 61 Westbound June 30, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-30T20:04:33.189072Z"
+    },
+    "XJThsVe24dQ": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound June 30, 2026",
+      "confidence": "high",
+      "processed_at": "2026-06-30T20:04:33.189737Z"
     }
   }
 }

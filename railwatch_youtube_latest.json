@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-06-30T09:24:15.066478Z",
+  "generated_at": "2026-06-30T20:04:34.717927Z",
   "dedup_registry": {
-    "total": 299,
+    "total": 304,
     "by_channel": {
-      "Trackside Ontario": 20,
-      "Trackside Tyson": 48,
+      "Trackside Ontario": 21,
+      "Trackside Tyson": 49,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
-      "Rail Fans Canada": 10,
-      "Brockville RailFan": 95,
+      "Rail Fans Canada": 11,
+      "Brockville RailFan": 97,
       "MJM Productions": 78,
       "Central Canada Railfan": 3
     },
     "by_confidence": {
-      "high": 55,
-      "medium": 218,
-      "low": 26,
+      "high": 57,
+      "medium": 220,
+      "low": 27,
       "meta": 0
     }
   },
@@ -25,13 +25,18 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 3
+      "videos": 1,
+      "skipped": 3,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 7,
+      "skipped": 8,
       "high": 0,
       "medium": 0,
       "low_meta": 1,
@@ -60,13 +65,23 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 14
+      "videos": 2,
+      "skipped": 14,
+      "high": 2,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -80,13 +95,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 22,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 24
     },
     {
       "channel": "Ontario Railman",
@@ -114,11 +124,257 @@
       "skipped": 2
     }
   ],
-  "total": 299,
-  "new_this_run": 3,
-  "high_confidence": 55,
-  "dg_likely": 38,
+  "total": 304,
+  "new_this_run": 5,
+  "high_confidence": 57,
+  "dg_likely": 39,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "f2YsWjkig88",
+      "video_url": "https://www.youtube.com/watch?v=f2YsWjkig88",
+      "title": "Monday Evening at Bayview and Copetown \u2022 June 29, 2026",
+      "published_at": "2026-06-30T16:50:05Z",
+      "date": "2026-06-29",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2222"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Z149",
+          "raw": "Z149"
+        },
+        {
+          "road": "CN",
+          "symbol": "E271",
+          "raw": "E271"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2222",
+          "raw": "CN 2222"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 75",
+          "raw": "VIA 75"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 79",
+          "raw": "VIA 79"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 78",
+          "raw": "VIA 78"
+        },
+        {
+          "road": "VIA",
+          "symbol": "VIA 75",
+          "raw": "VIA 75"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Monday Evening at Bayview and Copetown \u2022 June 29, 2026",
+      "description_chars": 510,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "S12sonDCq3E",
+      "video_url": "https://www.youtube.com/watch?v=S12sonDCq3E",
+      "title": "EMD SD75I THRU CROSSING #youtubeshorts",
+      "published_at": "2026-06-30T15:00:09Z",
+      "date": "2026-06-30",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "EMD SD75I THRU CROSSING #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "5TOMQsAgxtE",
+      "video_url": "https://www.youtube.com/watch?v=5TOMQsAgxtE",
+      "title": "CN Train 149 Raced by VIA Train 61 Westbound June 30, 2026",
+      "published_at": "2026-06-30T13:37:47Z",
+      "date": "2026-06-30",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2763",
+        "CN 3968"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2763",
+          "raw": "CN 2763"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3968",
+          "raw": "CN 3968"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Raced by VIA Train 61 Westbound June 30, 2026",
+      "description_chars": 354,
+      "consist": {
+        "observed_time": "08:47",
+        "observed_tz": "EDT",
+        "temperature_c": 21
+      },
+      "observed_at": "2026-06-30T08:47-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "XJThsVe24dQ",
+      "video_url": "https://www.youtube.com/watch?v=XJThsVe24dQ",
+      "title": "CN Train 368 Eastbound June 30, 2026",
+      "published_at": "2026-06-30T13:25:23Z",
+      "date": "2026-06-30",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2851",
+        "CN 6024",
+        "CN 2963"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2851",
+          "raw": "CN 2851"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 6024",
+          "raw": "CN 6024"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2963",
+          "raw": "CN 2963"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Eastbound June 30, 2026",
+      "description_chars": 209,
+      "consist": {
+        "engines": [
+          "CN 2851",
+          "CN 6024"
+        ],
+        "dpu": [
+          "CN 2963"
+        ],
+        "car_count": 156,
+        "consist_type": "freight",
+        "speed_kmh": 56,
+        "speed_raw": "35 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:34",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-06-30T07:34-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "zWmpskm3a6U",
+      "video_url": "https://www.youtube.com/watch?v=zWmpskm3a6U",
+      "title": "Why Stage 2 East Isn't Open Yet: The Story Behind the Delay",
+      "published_at": "2026-06-30T13:00:06Z",
+      "date": "2026-06-30",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Why Stage 2 East Isn't Open Yet: The Story Behind the Delay",
+      "description_chars": 1693,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
