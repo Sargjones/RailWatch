@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-01T09:36:04.711398Z",
-    "total_videos": 304
+    "updated_at": "2026-07-01T20:02:06.493565Z",
+    "total_videos": 308
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1828,6 +1828,30 @@
       "title": "CN Train 368 Eastbound June 30, 2026",
       "confidence": "high",
       "processed_at": "2026-06-30T20:04:33.189737Z"
+    },
+    "-29_Mp3r_Zg": {
+      "channel": "Rail Fans Canada",
+      "title": "Canada Day Fireworks 2026 \u2013 Watch the Sky Light Up above Bayview Station!",
+      "confidence": "medium",
+      "processed_at": "2026-07-01T20:02:04.456792Z"
+    },
+    "6M_TWsuEQAk": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 1, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-01T20:02:04.839912Z"
+    },
+    "SqaohJ-MM68": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound July 1, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-01T20:02:04.840125Z"
+    },
+    "Jbkd3xRhnMM": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Eastbound July 1, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-01T20:02:04.840277Z"
     }
   }
 }

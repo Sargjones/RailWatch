@@ -1,13 +1,43 @@
 {
-  "generated_at": "2026-07-01T09:36:04.783095Z",
-  "total": 15,
+  "generated_at": "2026-07-01T20:02:06.567865Z",
+  "total": 16,
   "cross_observer": 0,
-  "chase": 15,
+  "chase": 16,
   "high": 0,
   "medium": 0,
   "dg_correlations": 2,
   "splits_suspected": 1,
   "anomalies": [
+    {
+      "type": "consist_anomaly",
+      "channel": "Brockville RailFan",
+      "date": "2026-07-01",
+      "location": "Toronto",
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8875",
+          "raw": "CN 8875"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2257",
+          "raw": "CN 2257"
+        }
+      ],
+      "anomaly_note": "Lambert QC",
+      "car_count": 82,
+      "car_count_note": null,
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "video_url": "https://www.youtube.com/watch?v=Jbkd3xRhnMM",
+      "title": "CN Train 322 Eastbound July 1, 2026"
+    },
     {
       "type": "consist_anomaly",
       "channel": "Brockville RailFan",
@@ -92,7 +122,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-01T09:36:04.782701Z",
+      "correlated_at": "2026-07-01T20:02:06.567442Z",
       "confidence": "low",
       "split_suspected": true
     },
@@ -143,7 +173,57 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.782612Z",
+      "correlated_at": "2026-07-01T20:02:06.567338Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-06-30",
+        "observed_at": "2026-06-30T08:47-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=5TOMQsAgxtE",
+        "title": "CN Train 149 Raced by VIA Train 61 Westbound June 30, 2026"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-07-01",
+        "observed_at": "2026-07-01T08:37-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 192,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=SqaohJ-MM68",
+        "title": "CN Train 149 Westbound July 1, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.83,
+        "avg_speed_kmh": 13.1,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 192,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-07-01T20:02:06.567366Z",
       "confidence": "low"
     },
     {
@@ -193,7 +273,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-01T09:36:04.782718Z",
+      "correlated_at": "2026-07-01T20:02:06.567455Z",
       "confidence": "low"
     },
     {
@@ -238,7 +318,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.782766Z",
+      "correlated_at": "2026-07-01T20:02:06.567500Z",
       "confidence": "low"
     },
     {
@@ -283,7 +363,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.782782Z",
+      "correlated_at": "2026-07-01T20:02:06.567514Z",
       "confidence": "low"
     },
     {
@@ -333,7 +413,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.782855Z",
+      "correlated_at": "2026-07-01T20:02:06.567585Z",
       "confidence": "low"
     },
     {
@@ -378,7 +458,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.782936Z",
+      "correlated_at": "2026-07-01T20:02:06.567689Z",
       "confidence": "low"
     },
     {
@@ -423,7 +503,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.782962Z",
+      "correlated_at": "2026-07-01T20:02:06.567716Z",
       "confidence": "low"
     },
     {
@@ -468,7 +548,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.782985Z",
+      "correlated_at": "2026-07-01T20:02:06.567742Z",
       "confidence": "low"
     },
     {
@@ -513,7 +593,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.782997Z",
+      "correlated_at": "2026-07-01T20:02:06.567755Z",
       "confidence": "low"
     },
     {
@@ -558,7 +638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.783008Z",
+      "correlated_at": "2026-07-01T20:02:06.567770Z",
       "confidence": "low"
     },
     {
@@ -603,7 +683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.783020Z",
+      "correlated_at": "2026-07-01T20:02:06.567785Z",
       "confidence": "low"
     },
     {
@@ -648,7 +728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.783038Z",
+      "correlated_at": "2026-07-01T20:02:06.567801Z",
       "confidence": "low"
     },
     {
@@ -693,7 +773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.783052Z",
+      "correlated_at": "2026-07-01T20:02:06.567817Z",
       "confidence": "low"
     },
     {
@@ -738,7 +818,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-01T09:36:04.783065Z",
+      "correlated_at": "2026-07-01T20:02:06.567830Z",
       "confidence": "low"
     }
   ]

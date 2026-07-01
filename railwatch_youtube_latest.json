@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-01T09:36:04.715818Z",
+  "generated_at": "2026-07-01T20:02:06.498025Z",
   "dedup_registry": {
-    "total": 304,
+    "total": 308,
     "by_channel": {
       "Trackside Ontario": 21,
       "Trackside Tyson": 49,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
-      "Rail Fans Canada": 11,
-      "Brockville RailFan": 97,
+      "Rail Fans Canada": 12,
+      "Brockville RailFan": 100,
       "MJM Productions": 78,
       "Central Canada Railfan": 3
     },
     "by_confidence": {
-      "high": 57,
-      "medium": 220,
+      "high": 59,
+      "medium": 222,
       "low": 27,
       "meta": 0
     }
@@ -55,13 +55,23 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 12
+      "videos": 3,
+      "skipped": 12,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -104,11 +114,219 @@
       "skipped": 2
     }
   ],
-  "total": 304,
-  "new_this_run": 0,
-  "high_confidence": 57,
-  "dg_likely": 39,
+  "total": 308,
+  "new_this_run": 4,
+  "high_confidence": 59,
+  "dg_likely": 40,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "6M_TWsuEQAk",
+      "video_url": "https://www.youtube.com/watch?v=6M_TWsuEQAk",
+      "title": "VIA Train 61 Westbound July 1, 2026",
+      "published_at": "2026-07-01T14:18:33Z",
+      "date": "2026-07-01",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound July 1, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 64 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 103,
+        "speed_raw": "64 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:59",
+        "observed_tz": "EDT",
+        "temperature_c": 24,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-01T08:59-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "SqaohJ-MM68",
+      "video_url": "https://www.youtube.com/watch?v=SqaohJ-MM68",
+      "title": "CN Train 149 Westbound July 1, 2026",
+      "published_at": "2026-07-01T14:14:24Z",
+      "date": "2026-07-01",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2760",
+        "CN 3206"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2760",
+          "raw": "CN 2760"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3206",
+          "raw": "CN 3206"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound July 1, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 2760",
+          "CN 3206"
+        ],
+        "car_count": 192,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 63,
+        "speed_raw": "39 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:37",
+        "observed_tz": "EDT",
+        "temperature_c": 24,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-07-01T08:37-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Jbkd3xRhnMM",
+      "video_url": "https://www.youtube.com/watch?v=Jbkd3xRhnMM",
+      "title": "CN Train 322 Eastbound July 1, 2026",
+      "published_at": "2026-07-01T14:00:52Z",
+      "date": "2026-07-01",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 8875",
+        "CN 2257"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8875",
+          "raw": "CN 8875"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2257",
+          "raw": "CN 2257"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 322 Eastbound July 1, 2026",
+      "description_chars": 199,
+      "consist": {
+        "engines": [
+          "CN 8875",
+          "CN 2257"
+        ],
+        "car_count": 82,
+        "consist_type": "freight",
+        "speed_kmh": 84,
+        "speed_raw": "52 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:13",
+        "observed_tz": "EDT",
+        "temperature_c": 21,
+        "origin": "Toronto MacMillan ON",
+        "destination": "St",
+        "consist_anomaly": "Lambert QC"
+      },
+      "observed_at": "2026-07-01T07:13-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "consist_anomaly": "Lambert QC",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "-29_Mp3r_Zg",
+      "video_url": "https://www.youtube.com/watch?v=-29_Mp3r_Zg",
+      "title": "Canada Day Fireworks 2026 \u2013 Watch the Sky Light Up above Bayview Station!",
+      "published_at": "2026-07-01T11:06:32Z",
+      "date": "2026-07-01",
+      "location": "Bayview",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Canada Day Fireworks 2026 \u2013 Watch the Sky Light Up above Bayview Station!",
+      "description_chars": 664,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
