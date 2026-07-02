@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T20:02:06.498025Z",
+  "generated_at": "2026-07-02T08:47:31.411763Z",
   "dedup_registry": {
     "total": 308,
     "by_channel": {
@@ -21,7 +21,7 @@
     }
   },
   "days_back": 7,
-  "since": "2026-06-24T00:00:00Z",
+  "since": "2026-06-25T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -31,7 +31,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 8
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -55,23 +55,13 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 1
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 12,
-      "high": 2,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -86,7 +76,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 21
+      "skipped": 20
     },
     {
       "channel": "Ontario Railman",
@@ -115,7 +105,7 @@
     }
   ],
   "total": 308,
-  "new_this_run": 4,
+  "new_this_run": 0,
   "high_confidence": 59,
   "dg_likely": 40,
   "observations": [
