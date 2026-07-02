@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-02T08:47:31.411763Z",
+  "generated_at": "2026-07-02T19:37:49.484421Z",
   "dedup_registry": {
-    "total": 308,
+    "total": 311,
     "by_channel": {
       "Trackside Ontario": 21,
-      "Trackside Tyson": 49,
+      "Trackside Tyson": 50,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 12,
-      "Brockville RailFan": 100,
+      "Brockville RailFan": 102,
       "MJM Productions": 78,
       "Central Canada Railfan": 3
     },
     "by_confidence": {
-      "high": 59,
-      "medium": 222,
-      "low": 27,
+      "high": 60,
+      "medium": 223,
+      "low": 28,
       "meta": 0
     }
   },
@@ -30,8 +30,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 7,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -60,8 +65,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 14
+      "videos": 2,
+      "skipped": 14,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -104,11 +114,145 @@
       "skipped": 2
     }
   ],
-  "total": 308,
-  "new_this_run": 0,
-  "high_confidence": 59,
-  "dg_likely": 40,
+  "total": 311,
+  "new_this_run": 3,
+  "high_confidence": 60,
+  "dg_likely": 41,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "1Fd-379Ca3s",
+      "video_url": "https://www.youtube.com/watch?v=1Fd-379Ca3s",
+      "title": "CPKC TRAIN THRU THE FRASER CANYON #youtubeshorts",
+      "published_at": "2026-07-02T16:00:36Z",
+      "date": "2026-07-02",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CPKC TRAIN THRU THE FRASER CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "ykm99FERWy8",
+      "video_url": "https://www.youtube.com/watch?v=ykm99FERWy8",
+      "title": "VIA Train 61 Westbound July 2, 2026",
+      "published_at": "2026-07-02T13:51:23Z",
+      "date": "2026-07-02",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound July 2, 2026",
+      "description_chars": 222,
+      "consist": {
+        "speed_kmh": 92,
+        "speed_raw": "57 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:50",
+        "observed_tz": "EDT",
+        "temperature_c": 24,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-02T08:50-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "FJ136j2j9DQ",
+      "video_url": "https://www.youtube.com/watch?v=FJ136j2j9DQ",
+      "title": "CN Train 731 Westbound July 2, 2026",
+      "published_at": "2026-07-02T13:45:06Z",
+      "date": "2026-07-02",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3210",
+        "CN 3180"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 731",
+          "raw": "CN Train 731"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3210",
+          "raw": "CN 3210"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3180",
+          "raw": "CN 3180"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 731 Westbound July 2, 2026",
+      "description_chars": 270,
+      "consist": {
+        "engines": [
+          "CN 3210"
+        ],
+        "dpu": [
+          "CN 3180"
+        ],
+        "car_count": 208,
+        "consist_type": "freight",
+        "observed_time": "07:01",
+        "observed_tz": "LOCAL",
+        "temperature_c": 24,
+        "origin": "St. John NB",
+        "destination": "Yarbo SK"
+      },
+      "observed_at": "2026-07-02T07:01",
+      "origin": "St. John NB",
+      "destination": "Yarbo SK",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

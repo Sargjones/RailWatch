@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-02T08:47:31.407446Z",
-    "total_videos": 308
+    "updated_at": "2026-07-02T19:37:49.480182Z",
+    "total_videos": 311
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1852,6 +1852,24 @@
       "title": "CN Train 322 Eastbound July 1, 2026",
       "confidence": "high",
       "processed_at": "2026-07-01T20:02:04.840277Z"
+    },
+    "1Fd-379Ca3s": {
+      "channel": "Trackside Tyson",
+      "title": "CPKC TRAIN THRU THE FRASER CANYON #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-07-02T19:37:45.939469Z"
+    },
+    "ykm99FERWy8": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 2, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-02T19:37:47.343598Z"
+    },
+    "FJ136j2j9DQ": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 731 Westbound July 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-02T19:37:47.343835Z"
     }
   }
 }

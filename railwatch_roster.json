@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-02T08:47:31.521133Z",
-  "total_units": 136,
+  "generated_at": "2026-07-02T19:37:49.601471Z",
+  "total_units": 138,
   "min_sightings": 2,
   "by_road": {
-    "CN": 110,
+    "CN": 112,
     "VIA": 3,
     "CP": 22,
     "RUCK": 1
@@ -3532,6 +3532,100 @@
           "dpu": true,
           "video_url": "https://www.youtube.com/watch?v=Z1WI9yzd_mw",
           "title": "CN Train 369 Westbound June 18, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3180",
+      "display": "CN 3180",
+      "sighting_count": 2,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 731"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-02",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 731",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=FJ136j2j9DQ",
+          "title": "CN Train 731 Westbound July 2, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-02",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 731",
+          "direction": "West",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=FJ136j2j9DQ",
+          "title": "CN Train 731 Westbound July 2, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3210",
+      "display": "CN 3210",
+      "sighting_count": 2,
+      "first_seen": "2026-07-02",
+      "last_seen": "2026-07-02",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 731"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-02",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 731",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=FJ136j2j9DQ",
+          "title": "CN Train 731 Westbound July 2, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-02",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 731",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=FJ136j2j9DQ",
+          "title": "CN Train 731 Westbound July 2, 2026",
           "source": "description_structured"
         }
       ]
