@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T08:54:24.929394Z",
+  "generated_at": "2026-07-03T19:35:47.103556Z",
   "total": 16,
   "cross_observer": 0,
   "chase": 16,
@@ -8,6 +8,36 @@
   "dg_correlations": 2,
   "splits_suspected": 1,
   "anomalies": [
+    {
+      "type": "consist_anomaly",
+      "channel": "Brockville RailFan",
+      "date": "2026-07-03",
+      "location": "Toronto",
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3955",
+          "raw": "CN 3955"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2935",
+          "raw": "CN 2935"
+        }
+      ],
+      "anomaly_note": "Lambert QC",
+      "car_count": 123,
+      "car_count_note": null,
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "video_url": "https://www.youtube.com/watch?v=b-ZeU1tmD98",
+      "title": "CN Train 322 Eastbound July 3, 2026"
+    },
     {
       "type": "consist_anomaly",
       "channel": "Brockville RailFan",
@@ -122,9 +152,54 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-03T08:54:24.928994Z",
+      "correlated_at": "2026-07-03T19:35:47.103152Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "Q104",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 3840",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=lY9Jj_tj4yU",
+        "title": "CN 3840 leads CN Q104 past Pine Orchard"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-05-31",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 2.8,
+        "avg_speed_kmh": 11.2,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-07-03T19:35:47.102959Z",
+      "confidence": "low"
     },
     {
       "symbol": "CN149",
@@ -173,7 +248,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.928862Z",
+      "correlated_at": "2026-07-03T19:35:47.103061Z",
       "confidence": "low"
     },
     {
@@ -223,7 +298,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.928891Z",
+      "correlated_at": "2026-07-03T19:35:47.103075Z",
       "confidence": "low"
     },
     {
@@ -273,7 +348,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-03T08:54:24.929012Z",
+      "correlated_at": "2026-07-03T19:35:47.103166Z",
       "confidence": "low"
     },
     {
@@ -318,7 +393,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929058Z",
+      "correlated_at": "2026-07-03T19:35:47.103207Z",
       "confidence": "low"
     },
     {
@@ -363,7 +438,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929072Z",
+      "correlated_at": "2026-07-03T19:35:47.103220Z",
       "confidence": "low"
     },
     {
@@ -413,7 +488,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929143Z",
+      "correlated_at": "2026-07-03T19:35:47.103306Z",
       "confidence": "low"
     },
     {
@@ -458,7 +533,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929220Z",
+      "correlated_at": "2026-07-03T19:35:47.103389Z",
       "confidence": "low"
     },
     {
@@ -503,52 +578,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929246Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q104",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "CN 3840",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=lY9Jj_tj4yU",
-        "title": "CN 3840 leads CN Q104 past Pine Orchard"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-05-31",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
-        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 2.8,
-        "avg_speed_kmh": 11.2,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929270Z",
+      "correlated_at": "2026-07-03T19:35:47.103417Z",
       "confidence": "low"
     },
     {
@@ -593,7 +623,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929283Z",
+      "correlated_at": "2026-07-03T19:35:47.103444Z",
       "confidence": "low"
     },
     {
@@ -638,7 +668,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929298Z",
+      "correlated_at": "2026-07-03T19:35:47.103465Z",
       "confidence": "low"
     },
     {
@@ -683,7 +713,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929315Z",
+      "correlated_at": "2026-07-03T19:35:47.103478Z",
       "confidence": "low"
     },
     {
@@ -728,7 +758,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929331Z",
+      "correlated_at": "2026-07-03T19:35:47.103494Z",
       "confidence": "low"
     },
     {
@@ -773,7 +803,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929343Z",
+      "correlated_at": "2026-07-03T19:35:47.103508Z",
       "confidence": "low"
     },
     {
@@ -818,7 +848,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-03T08:54:24.929357Z",
+      "correlated_at": "2026-07-03T19:35:47.103521Z",
       "confidence": "low"
     }
   ]

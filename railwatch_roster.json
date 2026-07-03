@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-03T08:54:24.972727Z",
-  "total_units": 138,
+  "generated_at": "2026-07-03T19:35:47.146106Z",
+  "total_units": 144,
   "min_sightings": 2,
   "by_road": {
-    "CN": 112,
+    "CN": 118,
     "VIA": 3,
     "CP": 22,
     "RUCK": 1
@@ -1555,6 +1555,67 @@
     },
     {
       "road": "CN",
+      "number": "3922",
+      "display": "CN 3922",
+      "sighting_count": 3,
+      "first_seen": "2026-06-16",
+      "last_seen": "2026-07-03",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=K5aSOkEFktg",
+          "title": "CN 2924 + CN 3922 lead a stack train south",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=jFoQakVY7G0",
+          "title": "CN Train 368 Eastbound June 16, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=jFoQakVY7G0",
+          "title": "CN Train 368 Eastbound June 16, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3950",
       "display": "CN 3950",
       "sighting_count": 3,
@@ -2216,6 +2277,53 @@
     },
     {
       "road": "CN",
+      "number": "2245",
+      "display": "CN 2245",
+      "sighting_count": 2,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 371"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 371",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=1Edz3UntsZA",
+          "title": "CN Train 371 Westbound July 3, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 371",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=1Edz3UntsZA",
+          "title": "CN Train 371 Westbound July 3, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2256",
       "display": "CN 2256",
       "sighting_count": 2,
@@ -2641,6 +2749,53 @@
     },
     {
       "road": "CN",
+      "number": "2780",
+      "display": "CN 2780",
+      "sighting_count": 2,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-03",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=O4MhhNkeQGE",
+          "title": "CN Train 149 Westbound July 3, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-03",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=O4MhhNkeQGE",
+          "title": "CN Train 149 Westbound July 3, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2792",
       "display": "CN 2792",
       "sighting_count": 2,
@@ -2919,6 +3074,53 @@
           "video_url": "https://www.youtube.com/watch?v=QhqjGy9z7dY",
           "title": "CN Train 368 Eastbound June 8, 2026",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2935",
+      "display": "CN 2935",
+      "sighting_count": 2,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 322"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=b-ZeU1tmD98",
+          "title": "CN Train 322 Eastbound July 3, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=b-ZeU1tmD98",
+          "title": "CN Train 322 Eastbound July 3, 2026",
+          "source": "description_structured"
         }
       ]
     },
@@ -3485,6 +3687,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Tq-03HMsTjs",
           "title": "CN Train 149 Westbound June 20, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3117",
+      "display": "CN 3117",
+      "sighting_count": 2,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-03",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=O4MhhNkeQGE",
+          "title": "CN Train 149 Westbound July 3, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-03",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=O4MhhNkeQGE",
+          "title": "CN Train 149 Westbound July 3, 2026",
           "source": "description_structured"
         }
       ]
@@ -4429,53 +4678,6 @@
     },
     {
       "road": "CN",
-      "number": "3922",
-      "display": "CN 3922",
-      "sighting_count": 2,
-      "first_seen": "2026-06-16",
-      "last_seen": "2026-06-16",
-      "corridors": [
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 368"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-06-16",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=jFoQakVY7G0",
-          "title": "CN Train 368 Eastbound June 16, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-16",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=jFoQakVY7G0",
-          "title": "CN Train 368 Eastbound June 16, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "3930",
       "display": "CN 3930",
       "sighting_count": 2,
@@ -4611,6 +4813,53 @@
           "video_url": "https://www.youtube.com/watch?v=fOHNAZauvus",
           "title": "CN Train 368 Lifting June 11, 2026",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3955",
+      "display": "CN 3955",
+      "sighting_count": 2,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 322"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=b-ZeU1tmD98",
+          "title": "CN Train 322 Eastbound July 3, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=b-ZeU1tmD98",
+          "title": "CN Train 322 Eastbound July 3, 2026",
+          "source": "description_structured"
         }
       ]
     },
@@ -5693,6 +5942,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Jbkd3xRhnMM",
           "title": "CN Train 322 Eastbound July 1, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8917",
+      "display": "CN 8917",
+      "sighting_count": 2,
+      "first_seen": "2026-07-03",
+      "last_seen": "2026-07-03",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 371"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 371",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=1Edz3UntsZA",
+          "title": "CN Train 371 Westbound July 3, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 371",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=1Edz3UntsZA",
+          "title": "CN Train 371 Westbound July 3, 2026",
           "source": "description_structured"
         }
       ]

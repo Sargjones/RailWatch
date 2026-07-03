@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-03T08:54:24.856806Z",
-    "total_videos": 311
+    "updated_at": "2026-07-03T19:35:47.033249Z",
+    "total_videos": 325
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1870,6 +1870,90 @@
       "title": "CN Train 731 Westbound July 2, 2026",
       "confidence": "high",
       "processed_at": "2026-07-02T19:37:47.343835Z"
+    },
+    "ghCr2h6Ym7g": {
+      "channel": "Trackside Ontario",
+      "title": "Monday Morning at Bayview \u2022 June 29, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-03T19:35:43.470952Z"
+    },
+    "T7nFaOcD5kA": {
+      "channel": "Trackside Tyson",
+      "title": "CN FREIGHT TRAIN THRU TOWN OF YALE #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-07-03T19:35:43.847646Z"
+    },
+    "36_9Uf3KFdI": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 3, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-03T19:35:45.110962Z"
+    },
+    "O4MhhNkeQGE": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound July 3, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-03T19:35:45.111166Z"
+    },
+    "1Edz3UntsZA": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 371 Westbound July 3, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-03T19:35:45.111379Z"
+    },
+    "b-ZeU1tmD98": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Eastbound July 3, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-03T19:35:45.111533Z"
+    },
+    "EGDqspGUzOA": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 41 Westbound Brockville VIA Station Stop July 3, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-03T19:35:45.111700Z"
+    },
+    "IIW-DFq0qNk": {
+      "channel": "MJM Productions",
+      "title": "CPKC 119 past the mile 38.6 parry sound signals",
+      "confidence": "medium",
+      "processed_at": "2026-07-03T19:35:45.927780Z"
+    },
+    "hgttdlHCJlU": {
+      "channel": "MJM Productions",
+      "title": "CN Q104 south rounds the bend at Boyne",
+      "confidence": "medium",
+      "processed_at": "2026-07-03T19:35:45.927891Z"
+    },
+    "QPd_rKuCb3Q": {
+      "channel": "MJM Productions",
+      "title": "VIA 0002 the Canadian by Rosseau rd",
+      "confidence": "medium",
+      "processed_at": "2026-07-03T19:35:45.929154Z"
+    },
+    "kFPmtHvryCg": {
+      "channel": "MJM Productions",
+      "title": "CP 8112 + CP 7581 lead CPKC 118 south",
+      "confidence": "medium",
+      "processed_at": "2026-07-03T19:35:45.929362Z"
+    },
+    "h5R2pHB__7Y": {
+      "channel": "MJM Productions",
+      "title": "CN 2849 leads CN Q102 south",
+      "confidence": "medium",
+      "processed_at": "2026-07-03T19:35:45.929525Z"
+    },
+    "9wWTMuUEhCg": {
+      "channel": "MJM Productions",
+      "title": "CN 2895 + CN 3413 lead CN Z115 north",
+      "confidence": "medium",
+      "processed_at": "2026-07-03T19:35:45.929698Z"
+    },
+    "K5aSOkEFktg": {
+      "channel": "MJM Productions",
+      "title": "CN 2924 + CN 3922 lead a stack train south",
+      "confidence": "medium",
+      "processed_at": "2026-07-03T19:35:45.929870Z"
     }
   }
 }
