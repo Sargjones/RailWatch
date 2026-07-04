@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-04T08:29:17.398922Z",
+  "generated_at": "2026-07-04T19:20:53.298025Z",
   "dedup_registry": {
-    "total": 329,
+    "total": 331,
     "by_channel": {
       "Trackside Ontario": 22,
-      "Trackside Tyson": 51,
+      "Trackside Tyson": 52,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 12,
       "Brockville RailFan": 107,
-      "MJM Productions": 88,
+      "MJM Productions": 89,
       "Central Canada Railfan": 4
     },
     "by_confidence": {
       "high": 64,
-      "medium": 236,
+      "medium": 238,
       "low": 29,
       "meta": 0
     }
@@ -30,8 +30,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 8
+      "videos": 1,
+      "skipped": 8,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -75,13 +80,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 3,
-      "skipped": 23,
+      "videos": 1,
+      "skipped": 26,
       "high": 0,
-      "medium": 3,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 3
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -105,20 +110,67 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 2,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     }
   ],
-  "total": 329,
-  "new_this_run": 4,
+  "total": 331,
+  "new_this_run": 2,
   "high_confidence": 64,
   "dg_likely": 44,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "9X5QQ88frbc",
+      "video_url": "https://www.youtube.com/watch?v=9X5QQ88frbc",
+      "title": "DOUBLE STACK THRU JUNIPER BEACH #youtubeshorts",
+      "published_at": "2026-07-04T16:00:34Z",
+      "date": "2026-07-04",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "DOUBLE STACK THRU JUNIPER BEACH #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "0TYVLPUgpBI",
+      "video_url": "https://www.youtube.com/watch?v=0TYVLPUgpBI",
+      "title": "INSANE ACTION! Railfanning at Parry Sound, ON (JUL 3, 2026)",
+      "published_at": "2026-07-04T11:49:12Z",
+      "date": "2026-07-03",
+      "location": "Parry Sound",
+      "subdivision": "CN Bala Sub",
+      "lat": 45.35,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "INSANE ACTION! Railfanning at Parry Sound, ON (JUL 3, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
