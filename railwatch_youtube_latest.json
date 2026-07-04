@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-03T19:35:47.037704Z",
+  "generated_at": "2026-07-04T08:29:17.398922Z",
   "dedup_registry": {
-    "total": 325,
+    "total": 329,
     "by_channel": {
       "Trackside Ontario": 22,
       "Trackside Tyson": 51,
@@ -10,38 +10,28 @@
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 12,
       "Brockville RailFan": 107,
-      "MJM Productions": 85,
-      "Central Canada Railfan": 3
+      "MJM Productions": 88,
+      "Central Canada Railfan": 4
     },
     "by_confidence": {
-      "high": 63,
-      "medium": 233,
+      "high": 64,
+      "medium": 236,
       "low": 29,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-06-26T00:00:00Z",
+  "since": "2026-06-27T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 7,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 8
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -70,13 +60,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 5,
-      "skipped": 13,
-      "high": 3,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -90,13 +75,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 7,
-      "skipped": 18,
+      "videos": 3,
+      "skipped": 23,
       "high": 0,
-      "medium": 7,
+      "medium": 3,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 6
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -120,15 +105,336 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     }
   ],
-  "total": 325,
-  "new_this_run": 14,
-  "high_confidence": 63,
-  "dg_likely": 43,
+  "total": 329,
+  "new_this_run": 4,
+  "high_confidence": 64,
+  "dg_likely": 44,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "a2YPRr1TXv8",
+      "video_url": "https://www.youtube.com/watch?v=a2YPRr1TXv8",
+      "title": "Various Trains on CN\u2019s Mainlines Around Winnipeg - June 2026",
+      "published_at": "2026-07-04T02:00:06Z",
+      "date": "2026-06-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3926",
+        "CN 3877",
+        "CN 3893",
+        "CN 3007",
+        "CN 8836",
+        "CN 2535",
+        "CN 3942",
+        "CN 2677",
+        "CN 2509",
+        "CN 3879",
+        "CN 3402",
+        "CN 2885",
+        "CN 2823",
+        "CN 3364",
+        "CN 3867",
+        "CN 3247",
+        "CN 3905",
+        "CN 2895",
+        "CN 8355",
+        "CN 3218",
+        "CN 2751",
+        "CN 8938",
+        "CN 3185",
+        "CN 8321"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "L533",
+          "raw": "L533"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3926",
+          "raw": "CN 3926"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3877",
+          "raw": "CN 3877"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3893",
+          "raw": "CN 3893"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3007",
+          "raw": "CN 3007"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8836",
+          "raw": "CN 8836"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2535",
+          "raw": "CN 2535"
+        },
+        {
+          "road": "CN",
+          "symbol": "M316",
+          "raw": "M316"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3942",
+          "raw": "CN 3942"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2677",
+          "raw": "CN 2677"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2509",
+          "raw": "CN 2509"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z115",
+          "raw": "Z115"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3879",
+          "raw": "CN 3879"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3402",
+          "raw": "CN 3402"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2885",
+          "raw": "CN 2885"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2823",
+          "raw": "CN 2823"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3364",
+          "raw": "CN 3364"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3867",
+          "raw": "CN 3867"
+        },
+        {
+          "road": "CN",
+          "symbol": "G803",
+          "raw": "G803"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3247",
+          "raw": "CN 3247"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3905",
+          "raw": "CN 3905"
+        },
+        {
+          "road": "CN",
+          "symbol": "M314",
+          "raw": "M314"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2895",
+          "raw": "CN 2895"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8355",
+          "raw": "CN 8355"
+        },
+        {
+          "road": "CN",
+          "symbol": "M342",
+          "raw": "M342"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3218",
+          "raw": "CN 3218"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2751",
+          "raw": "CN 2751"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8938",
+          "raw": "CN 8938"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3185",
+          "raw": "CN 3185"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8321",
+          "raw": "CN 8321"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Various Trains on CN\u2019s Mainlines Around Winnipeg - June 2026",
+      "description_chars": 1701,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "GGm4k6iMyYY",
+      "video_url": "https://www.youtube.com/watch?v=GGm4k6iMyYY",
+      "title": "CN 2658 C44-9W leads the CN spray train",
+      "published_at": "2026-07-03T23:48:41Z",
+      "date": "2026-07-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2658"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2658",
+          "raw": "CN 2658"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2658 C44-9W leads the CN spray train",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "EGxC2FxzpLY",
+      "video_url": "https://www.youtube.com/watch?v=EGxC2FxzpLY",
+      "title": "CN 3238 + CN 2963 lead CN Q185 north",
+      "published_at": "2026-07-03T23:43:44Z",
+      "date": "2026-07-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3238",
+        "CN 2963"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3238",
+          "raw": "CN 3238"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2963",
+          "raw": "CN 2963"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q185",
+          "raw": "Q185"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3238 + CN 2963 lead CN Q185 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "8yiayXkQvKI",
+      "video_url": "https://www.youtube.com/watch?v=8yiayXkQvKI",
+      "title": "CN 8360 SD75IACC past the Nobel Rocks\ud83e\udea8",
+      "published_at": "2026-07-03T23:39:47Z",
+      "date": "2026-07-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8360"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8360",
+          "raw": "CN 8360"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8360 SD75IACC past the Nobel Rocks\ud83e\udea8",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
