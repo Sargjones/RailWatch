@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-05T08:45:42.072770Z",
+  "generated_at": "2026-07-05T19:24:24.402151Z",
   "dedup_registry": {
-    "total": 332,
+    "total": 336,
     "by_channel": {
       "Trackside Ontario": 22,
-      "Trackside Tyson": 53,
+      "Trackside Tyson": 54,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 12,
-      "Brockville RailFan": 107,
+      "Brockville RailFan": 110,
       "MJM Productions": 89,
       "Central Canada Railfan": 4
     },
     "by_confidence": {
-      "high": 64,
-      "medium": 238,
-      "low": 30,
+      "high": 65,
+      "medium": 240,
+      "low": 31,
       "meta": 0
     }
   },
@@ -31,7 +31,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 7,
+      "skipped": 8,
       "high": 0,
       "medium": 0,
       "low_meta": 1,
@@ -65,8 +65,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 14
+      "videos": 3,
+      "skipped": 14,
+      "high": 1,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -109,11 +114,207 @@
       "skipped": 2
     }
   ],
-  "total": 332,
-  "new_this_run": 1,
-  "high_confidence": 64,
-  "dg_likely": 44,
+  "total": 336,
+  "new_this_run": 4,
+  "high_confidence": 65,
+  "dg_likely": 45,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "NRopXcettpo",
+      "video_url": "https://www.youtube.com/watch?v=NRopXcettpo",
+      "title": "FRIENDLY CREW BLASTING THE HORN #youtubeshorts",
+      "published_at": "2026-07-05T15:00:33Z",
+      "date": "2026-07-05",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "FRIENDLY CREW BLASTING THE HORN #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "ZY4mJOKQlKQ",
+      "video_url": "https://www.youtube.com/watch?v=ZY4mJOKQlKQ",
+      "title": "CN Train 306 Eastbound Meets VIA Train 69 Westbound July 3, 2026",
+      "published_at": "2026-07-05T11:30:08Z",
+      "date": "2026-07-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2933",
+        "CN 3945"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 306",
+          "raw": "CN Train 306"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 69",
+          "raw": "VIA Train 69"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2933",
+          "raw": "CN 2933"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3945",
+          "raw": "CN 3945"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Train 306 Eastbound Meets VIA Train 69 Westbound July 3, 2026",
+      "description_chars": 380,
+      "consist": {
+        "observed_time": "19:26",
+        "observed_tz": "EDT",
+        "temperature_c": 28
+      },
+      "observed_at": "2026-07-03T19:26-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "zE8UsweXRi4",
+      "video_url": "https://www.youtube.com/watch?v=zE8UsweXRi4",
+      "title": "CN Train 532 Westbound Meets VIA Train 46 Eastbound July 3, 2025",
+      "published_at": "2026-07-05T11:15:23Z",
+      "date": "2025-07-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 4767",
+        "CN 9523",
+        "CN 4724"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 532",
+          "raw": "CN Train 532"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 46",
+          "raw": "VIA Train 46"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4767",
+          "raw": "CN 4767"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9523",
+          "raw": "CN 9523"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4724",
+          "raw": "CN 4724"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 532 Westbound Meets VIA Train 46 Eastbound July 3, 2025",
+      "description_chars": 365,
+      "consist": {
+        "car_count": 64,
+        "consist_type": "freight",
+        "observed_time": "19:10",
+        "observed_tz": "EDT",
+        "temperature_c": 28
+      },
+      "observed_at": "2025-07-03T19:10-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "PeHmdcehF3M",
+      "video_url": "https://www.youtube.com/watch?v=PeHmdcehF3M",
+      "title": "VIA Train 66 Eastbound July 3, 2026",
+      "published_at": "2026-07-05T11:00:09Z",
+      "date": "2026-07-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 66",
+          "raw": "VIA Train 66"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 66 Eastbound July 3, 2026",
+      "description_chars": 178,
+      "consist": {
+        "coaches": [
+          "Speed: 71 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 114,
+        "speed_raw": "71 mph",
+        "detector_milepost": 124,
+        "observed_time": "18:35",
+        "observed_tz": "EDT",
+        "temperature_c": 28,
+        "origin": "Toronto ON",
+        "destination": "Montreal QC"
+      },
+      "observed_at": "2026-07-03T18:35-04:00",
+      "origin": "Toronto ON",
+      "destination": "Montreal QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

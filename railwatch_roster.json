@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-05T08:45:42.182228Z",
-  "total_units": 146,
+  "generated_at": "2026-07-05T19:24:24.514736Z",
+  "total_units": 148,
   "min_sightings": 2,
   "by_road": {
-    "CN": 120,
+    "CN": 122,
     "VIA": 3,
     "CP": 22,
     "RUCK": 1
@@ -3312,6 +3312,54 @@
     },
     {
       "road": "CN",
+      "number": "2933",
+      "display": "CN 2933",
+      "sighting_count": 2,
+      "first_seen": "2026-05-29",
+      "last_seen": "2026-07-03",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 306",
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 306",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZY4mJOKQlKQ",
+          "title": "CN Train 306 Eastbound Meets VIA Train 69 Westbound July 3, ",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-29",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ALeKsTE7Ez4",
+          "title": "CN Train 149 Westbound May 29, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2935",
       "display": "CN 2935",
       "sighting_count": 2,
@@ -6225,6 +6273,52 @@
           "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
           "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
           "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "9523",
+      "display": "CN 9523",
+      "sighting_count": 2,
+      "first_seen": "2025-07-03",
+      "last_seen": "2026-06-25",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 532"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-06-25",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=H5A-V5dVEdM",
+          "title": "CN Train 532 Meets VIA Train 644 June 25, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2025-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 532",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zE8UsweXRi4",
+          "title": "CN Train 532 Westbound Meets VIA Train 46 Eastbound July 3, ",
+          "source": "text_extraction"
         }
       ]
     },
