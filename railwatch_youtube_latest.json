@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-04T19:20:53.298025Z",
+  "generated_at": "2026-07-05T08:45:42.072770Z",
   "dedup_registry": {
-    "total": 331,
+    "total": 332,
     "by_channel": {
       "Trackside Ontario": 22,
-      "Trackside Tyson": 52,
+      "Trackside Tyson": 53,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
@@ -16,12 +16,12 @@
     "by_confidence": {
       "high": 64,
       "medium": 238,
-      "low": 29,
+      "low": 30,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-06-27T00:00:00Z",
+  "since": "2026-06-28T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -31,10 +31,10 @@
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 8,
+      "skipped": 7,
       "high": 0,
-      "medium": 1,
-      "low_meta": 0,
+      "medium": 0,
+      "low_meta": 1,
       "dg_likely": 0,
       "defaulted": 0
     },
@@ -80,13 +80,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 26,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 17
     },
     {
       "channel": "Ontario Railman",
@@ -111,14 +106,40 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     }
   ],
-  "total": 331,
-  "new_this_run": 2,
+  "total": 332,
+  "new_this_run": 1,
   "high_confidence": 64,
   "dg_likely": 44,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "aiKjE9Aqk4o",
+      "video_url": "https://www.youtube.com/watch?v=aiKjE9Aqk4o",
+      "title": "BUSY TRAINS THRU THE THOMPSON CANYON!",
+      "published_at": "2026-07-05T05:09:51Z",
+      "date": "2026-07-05",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "BUSY TRAINS THRU THE THOMPSON CANYON!",
+      "description_chars": 447,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-04T19:20:53.294339Z",
-    "total_videos": 331
+    "updated_at": "2026-07-05T08:45:42.068524Z",
+    "total_videos": 332
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -1990,6 +1990,12 @@
       "title": "INSANE ACTION! Railfanning at Parry Sound, ON (JUL 3, 2026)",
       "confidence": "medium",
       "processed_at": "2026-07-04T19:20:52.356470Z"
+    },
+    "aiKjE9Aqk4o": {
+      "channel": "Trackside Tyson",
+      "title": "BUSY TRAINS THRU THE THOMPSON CANYON!",
+      "confidence": "low",
+      "processed_at": "2026-07-05T08:45:38.898203Z"
     }
   }
 }
