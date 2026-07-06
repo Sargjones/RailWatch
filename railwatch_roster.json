@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-06T10:05:55.335987Z",
-  "total_units": 148,
+  "generated_at": "2026-07-06T20:03:59.212627Z",
+  "total_units": 152,
   "min_sightings": 2,
   "by_road": {
-    "CN": 122,
+    "CN": 126,
     "VIA": 3,
     "CP": 22,
     "RUCK": 1
@@ -3974,6 +3974,100 @@
     },
     {
       "road": "CN",
+      "number": "3125",
+      "display": "CN 3125",
+      "sighting_count": 2,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 126"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-06",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3oF72QSMVJY",
+          "title": "CN Train 126 Eastbound July 6, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-06",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3oF72QSMVJY",
+          "title": "CN Train 126 Eastbound July 6, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3164",
+      "display": "CN 3164",
+      "sighting_count": 2,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-06",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=X6E-RtWc3lw",
+          "title": "CN Train 149 Westbound July 6, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-06",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=X6E-RtWc3lw",
+          "title": "CN Train 149 Westbound July 6, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3174",
       "display": "CN 3174",
       "sighting_count": 2,
@@ -4438,6 +4532,100 @@
           "video_url": "https://www.youtube.com/watch?v=yWPJFqH9I5U",
           "title": "CN Train 368 Lifting June 12, 2026",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3363",
+      "display": "CN 3363",
+      "sighting_count": 2,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 126"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-06",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3oF72QSMVJY",
+          "title": "CN Train 126 Eastbound July 6, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-06",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3oF72QSMVJY",
+          "title": "CN Train 126 Eastbound July 6, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3373",
+      "display": "CN 3373",
+      "sighting_count": 2,
+      "first_seen": "2026-07-06",
+      "last_seen": "2026-07-06",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-06",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=X6E-RtWc3lw",
+          "title": "CN Train 149 Westbound July 6, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-06",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=X6E-RtWc3lw",
+          "title": "CN Train 149 Westbound July 6, 2026",
+          "source": "description_structured"
         }
       ]
     },

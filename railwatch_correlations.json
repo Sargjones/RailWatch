@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T10:05:55.285413Z",
+  "generated_at": "2026-07-06T20:03:59.164279Z",
   "total": 16,
   "cross_observer": 0,
   "chase": 16,
@@ -152,54 +152,9 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-06T10:05:55.285067Z",
+      "correlated_at": "2026-07-06T20:03:59.163938Z",
       "confidence": "low",
       "split_suspected": true
-    },
-    {
-      "symbol": "Q104",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "CN 3840",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=lY9Jj_tj4yU",
-        "title": "CN 3840 leads CN Q104 past Pine Orchard"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-05-31",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
-        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 2.8,
-        "avg_speed_kmh": 11.2,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.284873Z",
-      "confidence": "low"
     },
     {
       "symbol": "CN149",
@@ -248,7 +203,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.284974Z",
+      "correlated_at": "2026-07-06T20:03:59.163738Z",
       "confidence": "low"
     },
     {
@@ -298,147 +253,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.284988Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN368",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-06-20",
-        "observed_at": "2026-06-20T09:19-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": 64,
-        "origin": "Chicago Markham IL",
-        "destination": "Montreal Taschereau QC",
-        "video_url": "https://www.youtube.com/watch?v=3EGwjhtrzZA",
-        "title": "CN Train 276 Eastbound June 20, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-06-20",
-        "observed_at": "2026-06-20T09:38-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": 105,
-        "origin": "Toronto MacMillan ON",
-        "destination": "Garneau QC",
-        "video_url": "https://www.youtube.com/watch?v=PSD_3rDhhlU",
-        "title": "CN Train 368 Eastbound June 20, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 0.32,
-        "avg_speed_kmh": 984.0,
-        "speed_plausible": false,
-        "consist_profile": "Mixed manifest freight",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 64,
-        "car_count_b": 105,
-        "delta": 41,
-        "split_suspected": false
-      },
-      "commodity": "mixed",
-      "dg_likely": true,
-      "correlated_at": "2026-07-06T10:05:55.285081Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Z148",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "IC 2719",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=OLhJDNCvVrw",
-        "title": "IC 2719 + CN 8364 lead CN Z148 east"
-      },
-      "sighting_b": {
-        "location": "Aldershot",
-        "date": "2026-05-30",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
-        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
-      },
-      "transit": {
-        "distance_km": 48.2,
-        "elapsed_hours": 6.52,
-        "avg_speed_kmh": 7.4,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285116Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Z148",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-06-28",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=fGNNjIQCidk",
-        "title": "CN 8952 GTW heritage leads CM Z148"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-06-28",
-        "observed_at": "2026-06-28T4:06",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=CDSgy8rDZWQ",
-        "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 5.48,
-        "avg_speed_kmh": 5.7,
-        "speed_plausible": false,
-        "consist_profile": "Automotive rack train",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "auto_rack",
-      "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285130Z",
+      "correlated_at": "2026-07-06T20:03:59.163769Z",
       "confidence": "low"
     },
     {
@@ -488,7 +303,192 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285183Z",
+      "correlated_at": "2026-07-06T20:03:59.163800Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q104",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 3840",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=lY9Jj_tj4yU",
+        "title": "CN 3840 leads CN Q104 past Pine Orchard"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-05-31",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 2.8,
+        "avg_speed_kmh": 11.2,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-07-06T20:03:59.163850Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN368",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-06-20",
+        "observed_at": "2026-06-20T09:19-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 64,
+        "origin": "Chicago Markham IL",
+        "destination": "Montreal Taschereau QC",
+        "video_url": "https://www.youtube.com/watch?v=3EGwjhtrzZA",
+        "title": "CN Train 276 Eastbound June 20, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-06-20",
+        "observed_at": "2026-06-20T09:38-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 105,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC",
+        "video_url": "https://www.youtube.com/watch?v=PSD_3rDhhlU",
+        "title": "CN Train 368 Eastbound June 20, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 0.32,
+        "avg_speed_kmh": 984.0,
+        "speed_plausible": false,
+        "consist_profile": "Mixed manifest freight",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 64,
+        "car_count_b": 105,
+        "delta": 41,
+        "split_suspected": false
+      },
+      "commodity": "mixed",
+      "dg_likely": true,
+      "correlated_at": "2026-07-06T20:03:59.163952Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Z148",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "IC 2719",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=OLhJDNCvVrw",
+        "title": "IC 2719 + CN 8364 lead CN Z148 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.52,
+        "avg_speed_kmh": 7.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-07-06T20:03:59.163991Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Z148",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-06-28",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=fGNNjIQCidk",
+        "title": "CN 8952 GTW heritage leads CM Z148"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-06-28",
+        "observed_at": "2026-06-28T4:06",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=CDSgy8rDZWQ",
+        "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 5.48,
+        "avg_speed_kmh": 5.7,
+        "speed_plausible": false,
+        "consist_profile": "Automotive rack train",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "auto_rack",
+      "dg_likely": false,
+      "correlated_at": "2026-07-06T20:03:59.164004Z",
       "confidence": "low"
     },
     {
@@ -533,7 +533,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285258Z",
+      "correlated_at": "2026-07-06T20:03:59.164112Z",
       "confidence": "low"
     },
     {
@@ -578,7 +578,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285282Z",
+      "correlated_at": "2026-07-06T20:03:59.164151Z",
       "confidence": "low"
     },
     {
@@ -623,7 +623,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285306Z",
+      "correlated_at": "2026-07-06T20:03:59.164174Z",
       "confidence": "low"
     },
     {
@@ -668,7 +668,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285317Z",
+      "correlated_at": "2026-07-06T20:03:59.164188Z",
       "confidence": "low"
     },
     {
@@ -713,7 +713,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285331Z",
+      "correlated_at": "2026-07-06T20:03:59.164202Z",
       "confidence": "low"
     },
     {
@@ -758,7 +758,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285347Z",
+      "correlated_at": "2026-07-06T20:03:59.164216Z",
       "confidence": "low"
     },
     {
@@ -803,7 +803,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285358Z",
+      "correlated_at": "2026-07-06T20:03:59.164227Z",
       "confidence": "low"
     },
     {
@@ -848,7 +848,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-06T10:05:55.285369Z",
+      "correlated_at": "2026-07-06T20:03:59.164238Z",
       "confidence": "low"
     }
   ]
