@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-07T09:31:29.496542Z",
+  "generated_at": "2026-07-07T20:02:09.174595Z",
   "dedup_registry": {
-    "total": 342,
+    "total": 346,
     "by_channel": {
-      "Trackside Ontario": 23,
+      "Trackside Ontario": 25,
       "Trackside Tyson": 55,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 13,
-      "Brockville RailFan": 113,
+      "Brockville RailFan": 115,
       "MJM Productions": 89,
       "Central Canada Railfan": 4
     },
     "by_confidence": {
-      "high": 67,
-      "medium": 244,
+      "high": 70,
+      "medium": 245,
       "low": 31,
       "meta": 0
     }
@@ -25,10 +25,10 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
+      "videos": 2,
       "skipped": 2,
-      "high": 0,
-      "medium": 1,
+      "high": 2,
+      "medium": 0,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
@@ -60,18 +60,18 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 18
+      "videos": 2,
+      "skipped": 18,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -114,11 +114,226 @@
       "skipped": 1
     }
   ],
-  "total": 342,
-  "new_this_run": 2,
-  "high_confidence": 67,
-  "dg_likely": 45,
+  "total": 346,
+  "new_this_run": 4,
+  "high_confidence": 70,
+  "dg_likely": 46,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "8KE65-1oCL8",
+      "video_url": "https://www.youtube.com/watch?v=8KE65-1oCL8",
+      "title": "Monday on the Dundas Subdivision and Bayview Junction \u2022 July 6, 2026",
+      "published_at": "2026-07-07T18:22:59Z",
+      "date": "2026-07-06",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": "East",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "A434",
+          "raw": "A434"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Monday on the Dundas Subdivision and Bayview Junction \u2022 July 6, 2026",
+      "description_chars": 337,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "aIfq_yYjWAc",
+      "video_url": "https://www.youtube.com/watch?v=aIfq_yYjWAc",
+      "title": "Intermodal meet at Bayview Junction \u2022 July 6, 2026",
+      "published_at": "2026-07-07T15:40:42Z",
+      "date": "2026-07-06",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": "East",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3907",
+        "CN 2257",
+        "CN 2261",
+        "CN 5627"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Z149",
+          "raw": "Z149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3907",
+          "raw": "CN 3907"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2257",
+          "raw": "CN 2257"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2261",
+          "raw": "CN 2261"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5627",
+          "raw": "CN 5627"
+        },
+        {
+          "road": "CN",
+          "symbol": "A434",
+          "raw": "A434"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Intermodal meet at Bayview Junction \u2022 July 6, 2026",
+      "description_chars": 379,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "rgKxCvj1SD8",
+      "video_url": "https://www.youtube.com/watch?v=rgKxCvj1SD8",
+      "title": "VIA Train 61 Westbound July 7, 2026",
+      "published_at": "2026-07-07T13:52:12Z",
+      "date": "2026-07-07",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound July 7, 2026",
+      "description_chars": 178,
+      "consist": {
+        "coaches": [
+          "Speed: 67 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 108,
+        "speed_raw": "67 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:49",
+        "observed_tz": "EDT",
+        "temperature_c": 24,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-07T08:49-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "aiGZpq82IR0",
+      "video_url": "https://www.youtube.com/watch?v=aiGZpq82IR0",
+      "title": "CN Train  322 Eastbound July 7, 2026",
+      "published_at": "2026-07-07T13:38:42Z",
+      "date": "2026-07-07",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3373",
+        "CN 3164"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train  322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3373",
+          "raw": "CN 3373"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3164",
+          "raw": "CN 3164"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train  322 Eastbound July 7, 2026",
+      "description_chars": 249,
+      "consist": {
+        "engines": [
+          "CN 3373"
+        ],
+        "dpu": [
+          "CN 3164"
+        ],
+        "car_count": 140,
+        "consist_type": "freight",
+        "speed_kmh": 35,
+        "speed_raw": "22 mph",
+        "detector_milepost": 137,
+        "observed_time": "08:11",
+        "observed_tz": "EDT",
+        "temperature_c": 22,
+        "origin": "Toronto MacMillan ON",
+        "destination": "St",
+        "consist_anomaly": "Lambert QC"
+      },
+      "observed_at": "2026-07-07T08:11-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "consist_anomaly": "Lambert QC",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
