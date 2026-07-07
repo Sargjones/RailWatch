@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-06T20:03:59.077062Z",
-    "total_videos": 340
+    "updated_at": "2026-07-07T09:31:29.491710Z",
+    "total_videos": 342
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2044,6 +2044,18 @@
       "title": "CN Train 126 Eastbound July 6, 2026",
       "confidence": "high",
       "processed_at": "2026-07-06T20:03:57.380122Z"
+    },
+    "gHi5Et0LKBg": {
+      "channel": "Trackside Ontario",
+      "title": "Monday Morning at Bayview \u2022 July 6, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-07T09:31:25.532591Z"
+    },
+    "8HWkLdpDl5o": {
+      "channel": "Rail Fans Canada",
+      "title": "Answering Your Biggest Stage 2 East Questions | Trial Running, Bearings & What's",
+      "confidence": "medium",
+      "processed_at": "2026-07-07T09:31:27.054662Z"
     }
   }
 }

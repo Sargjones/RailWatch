@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-07-06T20:03:59.081930Z",
+  "generated_at": "2026-07-07T09:31:29.496542Z",
   "dedup_registry": {
-    "total": 340,
+    "total": 342,
     "by_channel": {
-      "Trackside Ontario": 22,
+      "Trackside Ontario": 23,
       "Trackside Tyson": 55,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
-      "Rail Fans Canada": 12,
+      "Rail Fans Canada": 13,
       "Brockville RailFan": 113,
       "MJM Productions": 89,
       "Central Canada Railfan": 4
     },
     "by_confidence": {
       "high": 67,
-      "medium": 242,
+      "medium": 244,
       "low": 31,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-06-29T00:00:00Z",
+  "since": "2026-06-30T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 3
-    },
-    {
-      "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 7,
+      "skipped": 2,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
+    },
+    {
+      "channel": "Trackside Tyson",
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -60,18 +60,18 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 1
-    },
-    {
-      "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 17,
-      "high": 2,
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
+    },
+    {
+      "channel": "Brockville RailFan",
+      "videos": 0,
+      "skipped": 18
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -86,7 +86,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 14
+      "skipped": 11
     },
     {
       "channel": "Ontario Railman",
@@ -111,14 +111,66 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     }
   ],
-  "total": 340,
-  "new_this_run": 4,
+  "total": 342,
+  "new_this_run": 2,
   "high_confidence": 67,
   "dg_likely": 45,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "gHi5Et0LKBg",
+      "video_url": "https://www.youtube.com/watch?v=gHi5Et0LKBg",
+      "title": "Monday Morning at Bayview \u2022 July 6, 2026",
+      "published_at": "2026-07-07T04:38:37Z",
+      "date": "2026-07-06",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Monday Morning at Bayview \u2022 July 6, 2026",
+      "description_chars": 121,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "8HWkLdpDl5o",
+      "video_url": "https://www.youtube.com/watch?v=8HWkLdpDl5o",
+      "title": "Answering Your Biggest Stage 2 East Questions | Trial Running, Bearings & What's Next",
+      "published_at": "2026-07-06T17:27:40Z",
+      "date": "2026-07-06",
+      "location": "Ottawa",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 45.423,
+      "lon": -75.695,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Answering Your Biggest Stage 2 East Questions | Trial Running, Bearings & What's Next",
+      "description_chars": 1419,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
