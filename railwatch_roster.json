@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-07T20:02:09.282708Z",
-  "total_units": 152,
+  "generated_at": "2026-07-08T08:15:31.750305Z",
+  "total_units": 156,
   "min_sightings": 2,
   "by_road": {
-    "CN": 126,
+    "CN": 128,
     "VIA": 3,
-    "CP": 22,
+    "CP": 24,
     "RUCK": 1
   },
   "units": [
@@ -2920,6 +2920,53 @@
           "video_url": "https://www.youtube.com/watch?v=8SlcqL2aa_c",
           "title": "CN Train 322 Eastbound June 26, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2305",
+      "display": "CN 2305",
+      "sighting_count": 2,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-07-07",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 410"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 410",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -6599,6 +6646,54 @@
     },
     {
       "road": "CN",
+      "number": "9719",
+      "display": "CN 9719",
+      "sighting_count": 2,
+      "first_seen": "2026-06-27",
+      "last_seen": "2026-07-07",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 410",
+        "CN 137"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 410",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 137",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=YFfPkYrQr44",
+          "title": "CP 9719 + KCS 4138 lead CPKC 137 west",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "9753",
       "display": "CN 9753",
       "sighting_count": 2,
@@ -6995,6 +7090,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=7Acpk1mGIcU",
           "title": "CP 7049 SD70ACU leads CPKC 230 east",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "2305",
+      "display": "CP 2305",
+      "sighting_count": 2,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-07-07",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 410"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 410",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
           "source": "text_extraction"
         }
       ]
@@ -7747,6 +7889,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
           "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9719",
+      "display": "CP 9719",
+      "sighting_count": 2,
+      "first_seen": "2026-06-27",
+      "last_seen": "2026-07-07",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 410",
+        "CN 137"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 410",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 137",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=YFfPkYrQr44",
+          "title": "CP 9719 + KCS 4138 lead CPKC 137 west",
           "source": "text_extraction"
         }
       ]

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-07T20:02:09.174595Z",
+  "generated_at": "2026-07-08T08:15:31.639594Z",
   "dedup_registry": {
-    "total": 346,
+    "total": 348,
     "by_channel": {
-      "Trackside Ontario": 25,
+      "Trackside Ontario": 26,
       "Trackside Tyson": 55,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
@@ -11,24 +11,24 @@
       "Rail Fans Canada": 13,
       "Brockville RailFan": 115,
       "MJM Productions": 89,
-      "Central Canada Railfan": 4
+      "Central Canada Railfan": 5
     },
     "by_confidence": {
-      "high": 70,
-      "medium": 245,
+      "high": 71,
+      "medium": 246,
       "low": 31,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-06-30T00:00:00Z",
+  "since": "2026-07-01T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 2,
-      "skipped": 2,
-      "high": 2,
-      "medium": 0,
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
@@ -36,7 +36,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 7
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -61,17 +61,12 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 18,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 18
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -110,15 +105,257 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     }
   ],
-  "total": 346,
-  "new_this_run": 4,
-  "high_confidence": 70,
-  "dg_likely": 46,
+  "total": 348,
+  "new_this_run": 2,
+  "high_confidence": 71,
+  "dg_likely": 47,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "MDl4JtW5WYo",
+      "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+      "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+      "published_at": "2026-07-07T22:00:16Z",
+      "date": "2026-07-07",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CP 410",
+        "CP 8130",
+        "CP 100",
+        "CP 7491",
+        "CP 7497",
+        "CP 320",
+        "CP 8010",
+        "CP 8793",
+        "CP 118",
+        "CP 7518",
+        "CP 7546",
+        "CP 9719",
+        "CP 105",
+        "CP 7595",
+        "CP 7524",
+        "CP 8941",
+        "CP 8110",
+        "CP 8856",
+        "CP 7509",
+        "CP 2305",
+        "CP 2283",
+        "CP 2297",
+        "CP 119",
+        "CP 7607",
+        "CP 7550",
+        "CP 7601",
+        "CP 8760"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 410",
+          "raw": "CP 410"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8130",
+          "raw": "CP 8130"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 100",
+          "raw": "CP 100"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7491",
+          "raw": "CP 7491"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7497",
+          "raw": "CP 7497"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 320",
+          "raw": "CP 320"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8010",
+          "raw": "CP 8010"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8793",
+          "raw": "CP 8793"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CP 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7518",
+          "raw": "CP 7518"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7546",
+          "raw": "CP 7546"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9719",
+          "raw": "CP 9719"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 105",
+          "raw": "CP 105"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7595",
+          "raw": "CP 7595"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7524",
+          "raw": "CP 7524"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8941",
+          "raw": "CP 8941"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8110",
+          "raw": "CP 8110"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8856",
+          "raw": "CP 8856"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7509",
+          "raw": "CP 7509"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2305",
+          "raw": "CP 2305"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2283",
+          "raw": "CP 2283"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2297",
+          "raw": "CP 2297"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CP 119"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7607",
+          "raw": "CP 7607"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7550",
+          "raw": "CP 7550"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7601",
+          "raw": "CP 7601"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8760",
+          "raw": "CP 8760"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Assorted CP Train Action Around Winnipeg - June 2026",
+      "description_chars": 1370,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "uNBdNvmkZ0E",
+      "video_url": "https://www.youtube.com/watch?v=uNBdNvmkZ0E",
+      "title": "CN L583 at Woodstock VIA Station \u2022 July 6, 2026",
+      "published_at": "2026-07-07T20:16:46Z",
+      "date": "2026-07-06",
+      "location": "Woodstock",
+      "subdivision": "CN Dundas Sub",
+      "lat": 43.13,
+      "lon": -80.75,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 4908",
+        "CN 4141"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "L583",
+          "raw": "L583"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4908",
+          "raw": "CN 4908"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4141",
+          "raw": "CN 4141"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN L583 at Woodstock VIA Station \u2022 July 6, 2026",
+      "description_chars": 270,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

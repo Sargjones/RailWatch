@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-07T20:02:09.169750Z",
-    "total_videos": 346
+    "updated_at": "2026-07-08T08:15:31.634995Z",
+    "total_videos": 348
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2080,6 +2080,18 @@
       "title": "CN Train  322 Eastbound July 7, 2026",
       "confidence": "high",
       "processed_at": "2026-07-07T20:02:07.626878Z"
+    },
+    "uNBdNvmkZ0E": {
+      "channel": "Trackside Ontario",
+      "title": "CN L583 at Woodstock VIA Station \u2022 July 6, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-08T08:15:28.323926Z"
+    },
+    "MDl4JtW5WYo": {
+      "channel": "Central Canada Railfan",
+      "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-08T08:15:31.634972Z"
     }
   }
 }
