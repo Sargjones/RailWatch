@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-08T08:15:31.750305Z",
-  "total_units": 156,
+  "generated_at": "2026-07-08T19:39:27.340710Z",
+  "total_units": 157,
   "min_sightings": 2,
   "by_road": {
-    "CN": 128,
+    "CN": 129,
     "VIA": 3,
     "CP": 24,
     "RUCK": 1
@@ -545,6 +545,82 @@
           "video_url": "https://www.youtube.com/watch?v=mgPpaL12qn0",
           "title": "CN Train 149 Westbound June 17, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3109",
+      "display": "CN 3109",
+      "sighting_count": 4,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-07-08",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 106",
+        "CN 368"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+          "title": "CN Train 106 Eastbound July 8, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+          "title": "CN Train 106 Eastbound July 8, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-06-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=YZggQLnlgAI",
+          "title": "CN Train 368 Raced by CN Train 126 Eastbound June 23, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -4061,53 +4137,6 @@
     },
     {
       "road": "CN",
-      "number": "3109",
-      "display": "CN 3109",
-      "sighting_count": 2,
-      "first_seen": "2026-06-21",
-      "last_seen": "2026-06-23",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Mainline Manitoba"
-      ],
-      "trains_led": [
-        "CN 368"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-06-23",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=YZggQLnlgAI",
-          "title": "CN Train 368 Raced by CN Train 126 Eastbound June 23, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-21",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
-          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "3115",
       "display": "CN 3115",
       "sighting_count": 2,
@@ -6264,6 +6293,53 @@
           "video_url": "https://www.youtube.com/watch?v=TjB64nk67H8",
           "title": "CP 8160 + CP 8751 + CP 2311 lead CPKC 135",
           "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8313",
+      "display": "CN 8313",
+      "sighting_count": 2,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-08",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 106"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+          "title": "CN Train 106 Eastbound July 8, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+          "title": "CN Train 106 Eastbound July 8, 2026",
+          "source": "description_structured"
         }
       ]
     },

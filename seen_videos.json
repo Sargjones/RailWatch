@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-08T08:15:31.634995Z",
-    "total_videos": 348
+    "updated_at": "2026-07-08T19:39:27.233354Z",
+    "total_videos": 351
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2092,6 +2092,24 @@
       "title": "Assorted CP Train Action Around Winnipeg - June 2026",
       "confidence": "high",
       "processed_at": "2026-07-08T08:15:31.634972Z"
+    },
+    "fx7bneMf0-4": {
+      "channel": "Trackside Tyson",
+      "title": "DOUBLE KCS LEADS CPKC TRAIN IN THE CANYON #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-07-08T19:39:24.801572Z"
+    },
+    "0tnJ6sIbuK0": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 8, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-08T19:39:25.825811Z"
+    },
+    "W-m9LHepJFc": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 106 Eastbound July 8, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-08T19:39:25.826005Z"
     }
   }
 }

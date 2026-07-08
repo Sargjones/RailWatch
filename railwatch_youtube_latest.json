@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-08T08:15:31.639594Z",
+  "generated_at": "2026-07-08T19:39:27.238863Z",
   "dedup_registry": {
-    "total": 348,
+    "total": 351,
     "by_channel": {
       "Trackside Ontario": 26,
-      "Trackside Tyson": 55,
+      "Trackside Tyson": 56,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 13,
-      "Brockville RailFan": 115,
+      "Brockville RailFan": 117,
       "MJM Productions": 89,
       "Central Canada Railfan": 5
     },
     "by_confidence": {
-      "high": 71,
-      "medium": 246,
-      "low": 31,
+      "high": 72,
+      "medium": 247,
+      "low": 32,
       "meta": 0
     }
   },
@@ -25,18 +25,18 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -65,8 +65,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 18
+      "videos": 2,
+      "skipped": 18,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -105,20 +110,158 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     }
   ],
-  "total": 348,
-  "new_this_run": 2,
-  "high_confidence": 71,
-  "dg_likely": 47,
+  "total": 351,
+  "new_this_run": 3,
+  "high_confidence": 72,
+  "dg_likely": 48,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "fx7bneMf0-4",
+      "video_url": "https://www.youtube.com/watch?v=fx7bneMf0-4",
+      "title": "DOUBLE KCS LEADS CPKC TRAIN IN THE CANYON #youtubeshorts",
+      "published_at": "2026-07-08T15:00:37Z",
+      "date": "2026-07-08",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "DOUBLE KCS LEADS CPKC TRAIN IN THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "0tnJ6sIbuK0",
+      "video_url": "https://www.youtube.com/watch?v=0tnJ6sIbuK0",
+      "title": "VIA Train 61 Westbound July 8, 2026",
+      "published_at": "2026-07-08T13:32:56Z",
+      "date": "2026-07-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound July 8, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 68 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 109,
+        "speed_raw": "68 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:53",
+        "observed_tz": "EDT",
+        "temperature_c": 24,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-08T08:53-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "W-m9LHepJFc",
+      "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+      "title": "CN Train 106 Eastbound July 8, 2026",
+      "published_at": "2026-07-08T13:25:55Z",
+      "date": "2026-07-08",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 8313",
+        "CN 3109"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 106",
+          "raw": "CN Train 106"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8313",
+          "raw": "CN 8313"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3109",
+          "raw": "CN 3109"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 106 Eastbound July 8, 2026",
+      "description_chars": 259,
+      "consist": {
+        "engines": [
+          "CN 8313"
+        ],
+        "dpu": [
+          "CN 3109"
+        ],
+        "car_count": 168,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 16,
+        "speed_raw": "10 mph",
+        "detector_milepost": 137,
+        "observed_time": "07:26",
+        "observed_tz": "EDT",
+        "temperature_c": 21,
+        "origin": "Roberts Bank BC",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-07-08T07:26-04:00",
+      "origin": "Roberts Bank BC",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
