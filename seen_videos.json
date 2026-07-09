@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-09T09:28:28.493899Z",
-    "total_videos": 353
+    "updated_at": "2026-07-09T19:52:00.545361Z",
+    "total_videos": 357
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2122,6 +2122,30 @@
       "title": "Prairie Dog Central\u2019s Vintage Steam Engine in Winnipeg (07/07/2026)",
       "confidence": "high",
       "processed_at": "2026-07-09T09:28:27.842598Z"
+    },
+    "cTL9xDaxLig": {
+      "channel": "Trackside Ontario",
+      "title": "Tuesday Morning at Bayview Junction \u2022 July 7, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-09T19:51:57.547441Z"
+    },
+    "e15rYfOzW7I": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 9, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-09T19:51:59.041413Z"
+    },
+    "XnMtxWuAGtc": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 106 Eastbound July 9, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-09T19:51:59.041571Z"
+    },
+    "I2BMKTfmLx4": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Eastbound July 9, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-09T19:51:59.041730Z"
     }
   }
 }

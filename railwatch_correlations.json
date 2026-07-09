@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T09:28:28.567370Z",
+  "generated_at": "2026-07-09T19:52:00.607152Z",
   "total": 16,
   "cross_observer": 0,
   "chase": 16,
@@ -8,6 +8,36 @@
   "dg_correlations": 2,
   "splits_suspected": 1,
   "anomalies": [
+    {
+      "type": "consist_anomaly",
+      "channel": "Brockville RailFan",
+      "date": "2026-07-09",
+      "location": "Toronto",
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8829",
+          "raw": "CN 8829"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5602",
+          "raw": "CN 5602"
+        }
+      ],
+      "anomaly_note": "Lambert QC",
+      "car_count": 87,
+      "car_count_note": null,
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "video_url": "https://www.youtube.com/watch?v=I2BMKTfmLx4",
+      "title": "CN Train 322 Eastbound July 9, 2026"
+    },
     {
       "type": "consist_anomaly",
       "channel": "Brockville RailFan",
@@ -182,7 +212,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-09T09:28:28.567045Z",
+      "correlated_at": "2026-07-09T19:52:00.606903Z",
       "confidence": "low",
       "split_suspected": true
     },
@@ -233,7 +263,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.566870Z",
+      "correlated_at": "2026-07-09T19:52:00.606768Z",
       "confidence": "low"
     },
     {
@@ -283,7 +313,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.566898Z",
+      "correlated_at": "2026-07-09T19:52:00.606790Z",
       "confidence": "low"
     },
     {
@@ -333,7 +363,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.566926Z",
+      "correlated_at": "2026-07-09T19:52:00.606813Z",
       "confidence": "low"
     },
     {
@@ -378,7 +408,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.566972Z",
+      "correlated_at": "2026-07-09T19:52:00.606849Z",
       "confidence": "low"
     },
     {
@@ -428,7 +458,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-09T09:28:28.567059Z",
+      "correlated_at": "2026-07-09T19:52:00.606912Z",
       "confidence": "low"
     },
     {
@@ -473,7 +503,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.567088Z",
+      "correlated_at": "2026-07-09T19:52:00.606935Z",
       "confidence": "low"
     },
     {
@@ -518,7 +548,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.567098Z",
+      "correlated_at": "2026-07-09T19:52:00.606943Z",
       "confidence": "low"
     },
     {
@@ -563,7 +593,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.567204Z",
+      "correlated_at": "2026-07-09T19:52:00.607028Z",
       "confidence": "low"
     },
     {
@@ -608,7 +638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.567228Z",
+      "correlated_at": "2026-07-09T19:52:00.607047Z",
       "confidence": "low"
     },
     {
@@ -653,7 +683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.567254Z",
+      "correlated_at": "2026-07-09T19:52:00.607064Z",
       "confidence": "low"
     },
     {
@@ -698,7 +728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.567266Z",
+      "correlated_at": "2026-07-09T19:52:00.607073Z",
       "confidence": "low"
     },
     {
@@ -743,7 +773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.567278Z",
+      "correlated_at": "2026-07-09T19:52:00.607081Z",
       "confidence": "low"
     },
     {
@@ -788,7 +818,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.567292Z",
+      "correlated_at": "2026-07-09T19:52:00.607094Z",
       "confidence": "low"
     },
     {
@@ -833,7 +863,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.567303Z",
+      "correlated_at": "2026-07-09T19:52:00.607105Z",
       "confidence": "low"
     },
     {
@@ -878,7 +908,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-09T09:28:28.567318Z",
+      "correlated_at": "2026-07-09T19:52:00.607113Z",
       "confidence": "low"
     }
   ]

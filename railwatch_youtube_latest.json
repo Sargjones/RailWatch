@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-07-09T09:28:28.498762Z",
+  "generated_at": "2026-07-09T19:52:00.549261Z",
   "dedup_registry": {
-    "total": 353,
+    "total": 357,
     "by_channel": {
-      "Trackside Ontario": 26,
+      "Trackside Ontario": 27,
       "Trackside Tyson": 56,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 13,
-      "Brockville RailFan": 117,
+      "Brockville RailFan": 120,
       "MJM Productions": 89,
       "Central Canada Railfan": 5,
       "Winnipeg Railman": 2
     },
     "by_confidence": {
-      "high": 73,
-      "medium": 248,
+      "high": 75,
+      "medium": 250,
       "low": 32,
       "meta": 0
     }
@@ -26,8 +26,13 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
@@ -61,8 +66,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 17
+      "videos": 3,
+      "skipped": 17,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 2,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -86,13 +96,8 @@
     },
     {
       "channel": "Winnipeg Railman",
-      "videos": 2,
-      "skipped": 0,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "The Cando Railfan",
@@ -110,11 +115,228 @@
       "skipped": 2
     }
   ],
-  "total": 353,
-  "new_this_run": 2,
-  "high_confidence": 73,
-  "dg_likely": 49,
+  "total": 357,
+  "new_this_run": 4,
+  "high_confidence": 75,
+  "dg_likely": 51,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "e15rYfOzW7I",
+      "video_url": "https://www.youtube.com/watch?v=e15rYfOzW7I",
+      "title": "VIA Train 61 Westbound July 9, 2026",
+      "published_at": "2026-07-09T13:49:59Z",
+      "date": "2026-07-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound July 9, 2026",
+      "description_chars": 179,
+      "consist": {
+        "coaches": [
+          "Speed: 66 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 106,
+        "speed_raw": "66 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:46",
+        "observed_tz": "EDT",
+        "temperature_c": 24,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-09T08:46-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "XnMtxWuAGtc",
+      "video_url": "https://www.youtube.com/watch?v=XnMtxWuAGtc",
+      "title": "CN Train 106 Eastbound July 9, 2026",
+      "published_at": "2026-07-09T13:44:51Z",
+      "date": "2026-07-09",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3211",
+        "CN 3082",
+        "CN 3062"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 106",
+          "raw": "CN Train 106"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3211",
+          "raw": "CN 3211"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3082",
+          "raw": "CN 3082"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3062",
+          "raw": "CN 3062"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 106 Eastbound July 9, 2026",
+      "description_chars": 224,
+      "consist": {
+        "engines": [
+          "CN 3211",
+          "CN 3082"
+        ],
+        "dpu": [
+          "CN 3062"
+        ],
+        "car_count": 157,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 60,
+        "speed_raw": "37 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:06",
+        "observed_tz": "EDT",
+        "temperature_c": 24,
+        "origin": "Roberts Bank BC",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-07-09T08:06-04:00",
+      "origin": "Roberts Bank BC",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "I2BMKTfmLx4",
+      "video_url": "https://www.youtube.com/watch?v=I2BMKTfmLx4",
+      "title": "CN Train 322 Eastbound July 9, 2026",
+      "published_at": "2026-07-09T13:30:28Z",
+      "date": "2026-07-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 8829",
+        "CN 5602"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8829",
+          "raw": "CN 8829"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5602",
+          "raw": "CN 5602"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 322 Eastbound July 9, 2026",
+      "description_chars": 199,
+      "consist": {
+        "engines": [
+          "CN 8829",
+          "CN 5602"
+        ],
+        "car_count": 87,
+        "consist_type": "freight",
+        "speed_kmh": 50,
+        "speed_raw": "31 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:51",
+        "observed_tz": "EDT",
+        "temperature_c": 23,
+        "origin": "Toronto MacMillan ON",
+        "destination": "St",
+        "consist_anomaly": "Lambert QC"
+      },
+      "observed_at": "2026-07-09T07:51-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "consist_anomaly": "Lambert QC",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "cTL9xDaxLig",
+      "video_url": "https://www.youtube.com/watch?v=cTL9xDaxLig",
+      "title": "Tuesday Morning at Bayview Junction \u2022 July 7, 2026",
+      "published_at": "2026-07-09T10:48:03Z",
+      "date": "2026-07-07",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Morning at Bayview Junction \u2022 July 7, 2026",
+      "description_chars": 121,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
