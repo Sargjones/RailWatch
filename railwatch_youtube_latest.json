@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-08T19:39:27.238863Z",
+  "generated_at": "2026-07-09T09:28:28.498762Z",
   "dedup_registry": {
-    "total": 351,
+    "total": 353,
     "by_channel": {
       "Trackside Ontario": 26,
       "Trackside Tyson": 56,
@@ -11,17 +11,18 @@
       "Rail Fans Canada": 13,
       "Brockville RailFan": 117,
       "MJM Productions": 89,
-      "Central Canada Railfan": 5
+      "Central Canada Railfan": 5,
+      "Winnipeg Railman": 2
     },
     "by_confidence": {
-      "high": 72,
-      "medium": 247,
+      "high": 73,
+      "medium": 248,
       "low": 32,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-01T00:00:00Z",
+  "since": "2026-07-02T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -30,13 +31,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -65,13 +61,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 18,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 17
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -95,8 +86,13 @@
     },
     {
       "channel": "Winnipeg Railman",
-      "videos": 0,
-      "skipped": 0
+      "videos": 2,
+      "skipped": 0,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 2
     },
     {
       "channel": "The Cando Railfan",
@@ -114,11 +110,63 @@
       "skipped": 2
     }
   ],
-  "total": 351,
-  "new_this_run": 3,
-  "high_confidence": 72,
-  "dg_likely": 48,
+  "total": 353,
+  "new_this_run": 2,
+  "high_confidence": 73,
+  "dg_likely": 49,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Winnipeg Railman",
+      "channel_id": "UC9YbK-DpLdF7RlAPXHXa1KA",
+      "video_id": "Mlo_HMbkOHI",
+      "video_url": "https://www.youtube.com/watch?v=Mlo_HMbkOHI",
+      "title": "Rare BNSF Locomotive in Canada! #shorts #ytshorts #train #railway #canada #fyp",
+      "published_at": "2026-07-08T23:23:19Z",
+      "date": "2026-07-08",
+      "location": "Winnipeg",
+      "subdivision": "CN Mainline Manitoba",
+      "lat": 49.8951,
+      "lon": -97.1384,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Rare BNSF Locomotive in Canada! #shorts #ytshorts #train #railway #canada #fyp",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Winnipeg Railman",
+      "channel_id": "UC9YbK-DpLdF7RlAPXHXa1KA",
+      "video_id": "LVKXN1UH0ts",
+      "video_url": "https://www.youtube.com/watch?v=LVKXN1UH0ts",
+      "title": "Prairie Dog Central\u2019s Vintage Steam Engine in Winnipeg (07/07/2026)",
+      "published_at": "2026-07-08T23:12:23Z",
+      "date": "2026-07-07",
+      "location": "Winnipeg",
+      "subdivision": "CN Mainline Manitoba",
+      "lat": 49.8951,
+      "lon": -97.1384,
+      "direction": null,
+      "commodity_type": "unknown",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "Prairie Dog Central\u2019s Vintage Steam Engine in Winnipeg (07/07/2026)",
+      "description_chars": 337,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
