@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-07-09T19:52:00.549261Z",
+  "generated_at": "2026-07-10T09:24:33.978603Z",
   "dedup_registry": {
-    "total": 357,
+    "total": 360,
     "by_channel": {
       "Trackside Ontario": 27,
-      "Trackside Tyson": 56,
+      "Trackside Tyson": 57,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 13,
       "Brockville RailFan": 120,
-      "MJM Productions": 89,
+      "MJM Productions": 91,
       "Central Canada Railfan": 5,
       "Winnipeg Railman": 2
     },
     "by_confidence": {
       "high": 75,
-      "medium": 250,
-      "low": 32,
+      "medium": 252,
+      "low": 33,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-02T00:00:00Z",
+  "since": "2026-07-03T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 5,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -66,13 +66,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 17,
-      "high": 2,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 18
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -86,8 +81,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 11
+      "videos": 2,
+      "skipped": 11,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -115,11 +115,117 @@
       "skipped": 2
     }
   ],
-  "total": 357,
-  "new_this_run": 4,
+  "total": 360,
+  "new_this_run": 3,
   "high_confidence": 75,
   "dg_likely": 51,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "ld1HKDD6R7Y",
+      "video_url": "https://www.youtube.com/watch?v=ld1HKDD6R7Y",
+      "title": "CPKC 101 north rolls past my camera",
+      "published_at": "2026-07-10T01:07:51Z",
+      "date": "2026-07-10",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 101"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 101",
+          "raw": "CPKC 101"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 101 north rolls past my camera",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "GbfJshjVigw",
+      "video_url": "https://www.youtube.com/watch?v=GbfJshjVigw",
+      "title": "CP 7530 + CP 9802 lead CPKC 112 south",
+      "published_at": "2026-07-09T22:58:42Z",
+      "date": "2026-07-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7530",
+        "CP 9802",
+        "CPKC 112"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7530",
+          "raw": "CP 7530"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 9802",
+          "raw": "CP 9802"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7530 + CP 9802 lead CPKC 112 south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "MDkQGSgsipk",
+      "video_url": "https://www.youtube.com/watch?v=MDkQGSgsipk",
+      "title": "CN FREIGHT TRAIN THRU FRASER CANYON #youtubeshorts",
+      "published_at": "2026-07-09T21:00:05Z",
+      "date": "2026-07-09",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CN FREIGHT TRAIN THRU FRASER CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

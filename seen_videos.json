@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-09T19:52:00.545361Z",
-    "total_videos": 357
+    "updated_at": "2026-07-10T09:24:33.973821Z",
+    "total_videos": 360
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2146,6 +2146,24 @@
       "title": "CN Train 322 Eastbound July 9, 2026",
       "confidence": "high",
       "processed_at": "2026-07-09T19:51:59.041730Z"
+    },
+    "MDkQGSgsipk": {
+      "channel": "Trackside Tyson",
+      "title": "CN FREIGHT TRAIN THRU FRASER CANYON #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-07-10T09:24:30.048287Z"
+    },
+    "ld1HKDD6R7Y": {
+      "channel": "MJM Productions",
+      "title": "CPKC 101 north rolls past my camera",
+      "confidence": "medium",
+      "processed_at": "2026-07-10T09:24:32.783774Z"
+    },
+    "GbfJshjVigw": {
+      "channel": "MJM Productions",
+      "title": "CP 7530 + CP 9802 lead CPKC 112 south",
+      "confidence": "medium",
+      "processed_at": "2026-07-10T09:24:32.800238Z"
     }
   }
 }
