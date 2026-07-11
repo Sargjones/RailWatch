@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T07:46:00.421831Z",
+  "generated_at": "2026-07-11T19:10:34.179693Z",
   "total_units": 170,
   "min_sightings": 2,
   "by_road": {
@@ -2944,6 +2944,67 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=8SlcqL2aa_c",
           "title": "CN Train 322 Eastbound June 26, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8313",
+      "display": "CN 8313",
+      "sighting_count": 3,
+      "first_seen": "2026-07-08",
+      "last_seen": "2026-07-11",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Q109",
+        "CN 106"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q109",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=UGJTGkxOZ-E",
+          "title": "CN 8313 SD75IACC leads CN Q109 west",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+          "title": "CN Train 106 Eastbound July 8, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+          "title": "CN Train 106 Eastbound July 8, 2026",
           "source": "description_structured"
         }
       ]
@@ -6911,53 +6972,6 @@
           "video_url": "https://www.youtube.com/watch?v=TjB64nk67H8",
           "title": "CP 8160 + CP 8751 + CP 2311 lead CPKC 135",
           "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "8313",
-      "display": "CN 8313",
-      "sighting_count": 2,
-      "first_seen": "2026-07-08",
-      "last_seen": "2026-07-08",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 106"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-08",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 106",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
-          "title": "CN Train 106 Eastbound July 8, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-08",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 106",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
-          "title": "CN Train 106 Eastbound July 8, 2026",
-          "source": "description_structured"
         }
       ]
     },

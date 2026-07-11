@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-07-11T07:46:00.310073Z",
+  "generated_at": "2026-07-11T19:10:34.066938Z",
   "dedup_registry": {
-    "total": 367,
+    "total": 371,
     "by_channel": {
       "Trackside Ontario": 27,
-      "Trackside Tyson": 58,
+      "Trackside Tyson": 60,
       "Southern Ontario Railfan": 16,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 13,
       "Brockville RailFan": 125,
-      "MJM Productions": 91,
+      "MJM Productions": 93,
       "Central Canada Railfan": 6,
       "Winnipeg Railman": 2
     },
     "by_confidence": {
       "high": 79,
-      "medium": 254,
-      "low": 34,
+      "medium": 257,
+      "low": 35,
       "meta": 0
     }
   },
@@ -31,8 +31,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 2,
+      "skipped": 7,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -76,8 +81,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 3
+      "videos": 2,
+      "skipped": 3,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -105,11 +115,136 @@
       "skipped": 3
     }
   ],
-  "total": 367,
-  "new_this_run": 0,
+  "total": 371,
+  "new_this_run": 4,
   "high_confidence": 79,
   "dg_likely": 54,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "Y4WM86_se94",
+      "video_url": "https://www.youtube.com/watch?v=Y4WM86_se94",
+      "title": "DIRTY COAL TRAINS IN THE CANYON!",
+      "published_at": "2026-07-11T18:00:35Z",
+      "date": "2026-07-11",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "gondola",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "DIRTY COAL TRAINS IN THE CANYON!",
+      "description_chars": 478,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "_jckY8J3zWE",
+      "video_url": "https://www.youtube.com/watch?v=_jckY8J3zWE",
+      "title": "CPKC DOUBLE STACK THRU THE CANYON #youtubeshorts",
+      "published_at": "2026-07-11T17:30:01Z",
+      "date": "2026-07-11",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CPKC DOUBLE STACK THRU THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "UGJTGkxOZ-E",
+      "video_url": "https://www.youtube.com/watch?v=UGJTGkxOZ-E",
+      "title": "CN 8313 SD75IACC leads CN Q109 west",
+      "published_at": "2026-07-11T16:39:00Z",
+      "date": "2026-07-11",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8313"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8313",
+          "raw": "CN 8313"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q109",
+          "raw": "Q109"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8313 SD75IACC leads CN Q109 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "uZD-2YUZge0",
+      "video_url": "https://www.youtube.com/watch?v=uZD-2YUZge0",
+      "title": "CN 3423 AC4400C6M past the searchlights",
+      "published_at": "2026-07-11T15:56:46Z",
+      "date": "2026-07-11",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3423"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3423",
+          "raw": "CN 3423"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3423 AC4400C6M past the searchlights",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
