@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T19:10:34.066938Z",
+  "generated_at": "2026-07-12T08:07:15.068320Z",
   "dedup_registry": {
-    "total": 371,
+    "total": 373,
     "by_channel": {
       "Trackside Ontario": 27,
       "Trackside Tyson": 60,
@@ -10,19 +10,20 @@
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 13,
       "Brockville RailFan": 125,
-      "MJM Productions": 93,
+      "MJM Productions": 94,
       "Central Canada Railfan": 6,
-      "Winnipeg Railman": 2
+      "Winnipeg Railman": 2,
+      "PTBO Railfanning": 1
     },
     "by_confidence": {
       "high": 79,
-      "medium": 257,
+      "medium": 259,
       "low": 35,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-04T00:00:00Z",
+  "since": "2026-07-05T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -31,13 +32,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 2,
-      "skipped": 7,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 8
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -76,18 +72,23 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 3,
+      "videos": 1,
+      "skipped": 4,
       "high": 0,
-      "medium": 2,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 2
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -112,14 +113,66 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     }
   ],
-  "total": 371,
-  "new_this_run": 4,
+  "total": 373,
+  "new_this_run": 2,
   "high_confidence": 79,
   "dg_likely": 54,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "FvvpkAIHObA",
+      "video_url": "https://www.youtube.com/watch?v=FvvpkAIHObA",
+      "title": "SD75IACC LEAD! Railfanning at Markham, ON (JUL 11, 2026)",
+      "published_at": "2026-07-12T04:15:55Z",
+      "date": "2026-07-11",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "SD75IACC LEAD! Railfanning at Markham, ON (JUL 11, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "fIoenOG9J7A",
+      "video_url": "https://www.youtube.com/watch?v=fIoenOG9J7A",
+      "title": "1954 GMC 454 Truck At Clifford Truck Show 2026",
+      "published_at": "2026-07-11T23:11:00Z",
+      "date": "2026-07-11",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "1954 GMC 454 Truck At Clifford Truck Show 2026",
+      "description_chars": 530,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
