@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-12T08:07:15.062912Z",
-    "total_videos": 373
+    "updated_at": "2026-07-12T19:11:14.770541Z",
+    "total_videos": 381
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2242,6 +2242,54 @@
       "title": "SD75IACC LEAD! Railfanning at Markham, ON (JUL 11, 2026)",
       "confidence": "medium",
       "processed_at": "2026-07-12T08:07:14.010132Z"
+    },
+    "0sDZYJ2jdrQ": {
+      "channel": "Trackside Ontario",
+      "title": "Monday Evening at Bayview \u2022 June 15, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-12T19:11:11.960470Z"
+    },
+    "vp_7ZE8LT1c": {
+      "channel": "Southern Ontario Railfan",
+      "title": "CN Train & VIA Rail Train In Oshawa",
+      "confidence": "medium",
+      "processed_at": "2026-07-12T19:11:12.350289Z"
+    },
+    "4dQ38dEpOCE": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 45 Westbound July 11, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-12T19:11:13.315651Z"
+    },
+    "CveM9kkRAZ0": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 271 Westbound July 11, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-12T19:11:13.315855Z"
+    },
+    "T0oDfOAfeeQ": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 305 Westbound July 11, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-12T19:11:13.316043Z"
+    },
+    "bKk8pYCbL_0": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 63 Westbound Meets CN Train 368 Eastbound July 11, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-12T19:11:13.316241Z"
+    },
+    "3HtqmhT6gB8": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Lifting July 11, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-12T19:11:13.316452Z"
+    },
+    "UTH6p4YhnoQ": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 11, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-12T19:11:13.316614Z"
     }
   }
 }
