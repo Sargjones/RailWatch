@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-13T08:57:18.446994Z",
-    "total_videos": 387
+    "updated_at": "2026-07-13T19:27:44.942463Z",
+    "total_videos": 391
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2326,6 +2326,30 @@
       "title": "CP 7575 + CP 7485 lead CPKC 113 into Baxter",
       "confidence": "medium",
       "processed_at": "2026-07-13T08:57:17.501938Z"
+    },
+    "Pv0lCH_v8vY": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 13, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-13T19:27:42.985191Z"
+    },
+    "wCoqvY7Thlk": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train X310 Eastbound July 13, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-13T19:27:42.985393Z"
+    },
+    "xwgsFSTPeQA": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound July 13, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-13T19:27:42.985562Z"
+    },
+    "PwjBdbIAK1M": {
+      "channel": "Central Canada Railfan",
+      "title": "Rare SOO Line GP38-2 on The CP Winnipeg Beach Sub!",
+      "confidence": "medium",
+      "processed_at": "2026-07-13T19:27:44.942439Z"
     }
   }
 }
