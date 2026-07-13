@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-12T19:11:14.770541Z",
-    "total_videos": 381
+    "updated_at": "2026-07-13T08:57:18.446994Z",
+    "total_videos": 387
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2290,6 +2290,42 @@
       "title": "VIA Train 61 Westbound July 11, 2026",
       "confidence": "medium",
       "processed_at": "2026-07-12T19:11:13.316614Z"
+    },
+    "KhojvyE7jFA": {
+      "channel": "Trackside Tyson",
+      "title": "CHASING DOUBLE STACK INTO THE CANYON!",
+      "confidence": "low",
+      "processed_at": "2026-07-13T08:57:15.728353Z"
+    },
+    "ZdrxpQPLeYw": {
+      "channel": "Trackside Tyson",
+      "title": "ROCKY MOUNTAINEER IN THE CANYON #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-07-13T08:57:15.728539Z"
+    },
+    "D89c7Gy-faY": {
+      "channel": "MJM Productions",
+      "title": "Chasing CP 7043 SD70ACU south on the CPKC mactier sub (JUL 12, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-07-13T08:57:17.501338Z"
+    },
+    "NYNlM_taUiA": {
+      "channel": "MJM Productions",
+      "title": "CP 7556 leads CPKC 112 through Essa",
+      "confidence": "medium",
+      "processed_at": "2026-07-13T08:57:17.501543Z"
+    },
+    "VLEwmw8exGE": {
+      "channel": "MJM Productions",
+      "title": "CP 7043 SD70ACU south through Grenfel",
+      "confidence": "medium",
+      "processed_at": "2026-07-13T08:57:17.501723Z"
+    },
+    "C2hhs9eQC8Q": {
+      "channel": "MJM Productions",
+      "title": "CP 7575 + CP 7485 lead CPKC 113 into Baxter",
+      "confidence": "medium",
+      "processed_at": "2026-07-13T08:57:17.501938Z"
     }
   }
 }

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-12T19:11:14.886832Z",
-  "total_units": 176,
+  "generated_at": "2026-07-13T08:57:18.563976Z",
+  "total_units": 178,
   "min_sightings": 2,
   "by_road": {
-    "CN": 147,
+    "CN": 148,
     "VIA": 3,
-    "CP": 25,
+    "CP": 26,
     "RUCK": 1
   },
   "units": [
@@ -6999,6 +6999,51 @@
     },
     {
       "road": "CN",
+      "number": "7043",
+      "display": "CN 7043",
+      "sighting_count": 2,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "corridors": [
+        "CPKC MacTier Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-12",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=D89c7Gy-faY",
+          "title": "Chasing CP 7043 SD70ACU south on the CPKC mactier sub (JUL 1",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=VLEwmw8exGE",
+          "title": "CP 7043 SD70ACU south through Grenfel",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7052",
       "display": "CN 7052",
       "sighting_count": 2,
@@ -8429,6 +8474,51 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
           "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7043",
+      "display": "CP 7043",
+      "sighting_count": 2,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-07-12",
+      "corridors": [
+        "CPKC MacTier Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-12",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=D89c7Gy-faY",
+          "title": "Chasing CP 7043 SD70ACU south on the CPKC mactier sub (JUL 1",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=VLEwmw8exGE",
+          "title": "CP 7043 SD70ACU south through Grenfel",
           "source": "text_extraction"
         }
       ]
