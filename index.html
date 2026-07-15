@@ -46,6 +46,63 @@ body {
   min-height: 100vh;
 }
 
+/* ── FIRE WATCH BANNER ── */
+#fire-banner {
+  display: none;
+  background: linear-gradient(90deg, #2a1210, #1a1211);
+  border-bottom: 1px solid #7a2a20;
+  padding: 10px 24px;
+  position: sticky;
+  top: 0;
+  z-index: 101;
+}
+#fire-banner.show { display: block; }
+.fire-banner-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.fire-banner-icon {
+  font-size: 15px;
+  flex-shrink: 0;
+  animation: fire-pulse 1.8s ease-in-out infinite;
+}
+@keyframes fire-pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.55; } }
+.fire-banner-label {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  color: var(--danger);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.fire-banner-text {
+  font-size: 12.5px;
+  color: var(--text);
+  flex: 1;
+  min-width: 200px;
+}
+.fire-banner-text b { color: var(--warn); }
+.fire-banner-link {
+  font-size: 11px;
+  color: var(--danger);
+  text-decoration: underline;
+  cursor: pointer;
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+}
+.fire-banner-count {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
 /* ── LAYOUT ── */
 header {
   border-bottom: 1px solid var(--border);
@@ -386,6 +443,16 @@ footer a { color: var(--accent); text-decoration: none; }
   </div>
 </header>
 
+<div id="fire-banner">
+  <div class="fire-banner-row">
+    <span class="fire-banner-icon">🔥</span>
+    <span class="fire-banner-label">FIRE WATCH</span>
+    <span class="fire-banner-text" id="fire-banner-text">Loading…</span>
+    <span class="fire-banner-count" id="fire-banner-count"></span>
+    <button class="fire-banner-link" onclick="switchTab('incidents'); document.getElementById('fire-watch-section')?.scrollIntoView({behavior:'smooth'});">View details →</button>
+  </div>
+</div>
+
 <div class="nav-tabs">
   <button class="nav-tab active" onclick="switchTab('overview')">Overview</button>
   <!-- TDG Lookup tab hidden until full UN0004-UN3219 dataset is pulled; re-add this line to restore:
@@ -499,6 +566,15 @@ footer a { color: var(--accent); text-decoration: none; }
 
 <!-- ══ INCIDENTS ══════════════════════════════════════════════════════ -->
 <div id="tab-incidents" class="tab-panel">
+
+  <div id="fire-watch-section">
+    <div class="section-label">🔥 Fire Watch — active wildfire/rail intersections</div>
+    <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
+      Wildfire activity intersecting Ontario rail corridors — service suspensions, crew evacuations, and TDG-relevant exposure. New module, launched 15 Jul 2026.
+    </p>
+    <div id="fire-watch-cards" style="display:flex;flex-direction:column;gap:12px;margin-bottom:28px;"></div>
+  </div>
+
   <div class="section-label">TSB rail occurrences — CN Dundas Subdivision</div>
   <p style="font-size:13px;color:var(--muted);margin-bottom:16px;">
     Transportation Safety Board occurrence records filtered to the Dundas Subdivision and expanding nationally.
@@ -843,8 +919,9 @@ footer a { color: var(--accent); text-decoration: none; }
 // ── STATE ──────────────────────────────────────────────────────────────
 const DATA_URL = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_data_latest.json';
 const TDG_URL  = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_tdg.json';
+const FIREWATCH_URL = 'https://raw.githubusercontent.com/Sargjones/RailWatch/main/railwatch_firewatch.json';
 
-let state = { data: null, tdg: null, map: null, roster: null, activeTab: 'overview' };
+let state = { data: null, tdg: null, map: null, roster: null, activeTab: 'overview', firewatch: null };
 
 const TDG_CLASS_COLORS = {
   '1':  '#f04a4a', '1.1':'#f04a4a', '1.2':'#f04a4a', '1.3':'#f04a4a', '1.4':'#f04a4a',
@@ -953,6 +1030,78 @@ async function loadAll() {
   render();
   loadYoutube();       // non-blocking
   loadCorrelations();  // non-blocking
+  loadFireWatch();     // non-blocking
+}
+
+// ── FIRE WATCH ──────────────────────────────────────────────────────────
+async function loadFireWatch() {
+  try {
+    const r = await fetch(FIREWATCH_URL + '?v=' + Date.now());
+    if (r.ok) {
+      state.firewatch = await r.json();
+    } else {
+      state.firewatch = { incidents: [] };
+    }
+  } catch (e) {
+    state.firewatch = { incidents: [] };
+  }
+  renderFireBanner();
+  renderFireWatchCards();
+}
+
+function renderFireBanner() {
+  const banner = document.getElementById('fire-banner');
+  const d = state.firewatch;
+  const active = (d && d.incidents || []).filter(i => i.status === 'active');
+  if (!active.length) { banner.classList.remove('show'); return; }
+
+  const first = active[0];
+  const loc = first.location && first.location.community ? first.location.community : 'Ontario';
+  const sub = first.corridor ? `${first.corridor.operator} ${first.corridor.subdivision} Sub` : '';
+  document.getElementById('fire-banner-text').innerHTML =
+    `<b>${loc}</b> — ${sub ? sub + ' — ' : ''}${escapeHtml(first.headline || 'Active wildfire near rail corridor')}`;
+  document.getElementById('fire-banner-count').textContent =
+    active.length > 1 ? `${active.length} active incidents` : '1 active incident';
+  banner.classList.add('show');
+}
+
+function renderFireWatchCards() {
+  const el = document.getElementById('fire-watch-cards');
+  if (!el) return;
+  const d = state.firewatch;
+  const incidents = (d && d.incidents) || [];
+  if (!incidents.length) {
+    el.innerHTML = `<div style="font-size:12px;color:var(--muted);">No Fire Watch incidents on file.</div>`;
+    return;
+  }
+  el.innerHTML = incidents.map(inc => {
+    const statusColor = inc.status === 'active' ? 'var(--danger)' : 'var(--muted)';
+    const loc = inc.location || {};
+    const corr = inc.corridor || {};
+    const sources = (inc.sources || []).map(s =>
+      `<a href="${s.url}" target="_blank" rel="noopener" style="color:var(--accent2);">${escapeHtml(s.outlet)}</a>`
+    ).join(' · ');
+    const evac = (inc.evacuation_orders || []).join(', ');
+    return `
+      <div class="card" style="border-left:3px solid ${statusColor};">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap;">
+          <div style="font-size:13px;font-weight:500;">${escapeHtml(inc.headline || inc.id)}</div>
+          <span style="font-family:var(--font-mono);font-size:10px;color:${statusColor};text-transform:uppercase;letter-spacing:0.05em;">${escapeHtml(inc.status || '')}</span>
+        </div>
+        <div style="font-size:11px;color:var(--muted);font-family:var(--font-mono);margin-top:6px;">
+          ${escapeHtml(loc.community || '')} · ${escapeHtml(corr.operator || '')} ${escapeHtml(corr.subdivision || '')} Sub · reported ${escapeHtml(inc.date_reported || '')}
+        </div>
+        ${evac ? `<div style="font-size:11.5px;color:var(--warn);margin-top:8px;">Evacuation orders: ${escapeHtml(evac)}</div>` : ''}
+        ${inc.tdg_relevance && inc.tdg_relevance.historical_precedent ? `<div style="font-size:11.5px;color:var(--muted);margin-top:8px;">${escapeHtml(inc.tdg_relevance.historical_precedent)}</div>` : ''}
+        ${sources ? `<div style="font-size:11px;margin-top:10px;">Sources: ${sources}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+}
+
+function escapeHtml(str) {
+  if (str == null) return '';
+  return String(str).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
 // ── RENDER ALL ──────────────────────────────────────────────────────────
