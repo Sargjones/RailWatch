@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "platform": "RailWatch Canada \u2014 Fire Watch module",
+    "parent": "Critical TO (criticalto.ca)",
+    "version": "0.1.0",
+    "description": "Tracks wildfire activity intersecting Ontario rail corridors \u2014 service suspensions, crew evacuations, and TDG-relevant exposure (trains carrying dangerous goods halted or rerouted due to fire).",
+    "generated_at": "2026-07-15T00:00:00Z",
+    "status": "seeded manually \u2014 automated CWFIS/OPP correlation not yet wired up, see scraper/railwatch_firewatch.py"
+  },
+  "data_sources_planned": [
+    { "name": "CWFIS (Canadian Wildland Fire Information System, NRCan)", "what": "Active fire hotspots (MODIS/VIIRS) and fire perimeter polygons", "url": "https://cwfis.cfs.nrcan.gc.ca", "frequency": "daily" },
+    { "name": "Ontario Ministry of Natural Resources \u2014 active fire list", "what": "Fire numbers, status, size, location by district", "url": "https://www.ontario.ca/page/forest-fires", "frequency": "daily during fire season" },
+    { "name": "OPP social media / news releases", "what": "Evacuation orders, road/rail corridor closures", "frequency": "event-driven" },
+    { "name": "CN/CPKC/ONT service alerts", "what": "Confirmed operational suspensions", "frequency": "event-driven, manual capture" }
+  ],
+  "incidents": [
+    {
+      "id": "FW-2026-001",
+      "status": "active",
+      "headline": "CN transcontinental main (Allanwater Sub) halted by wildfire near Armstrong, ON \u2014 crew evacuation, viral cab video",
+      "date_reported": "2026-07-13",
+      "date_confirmed": "2026-07-15",
+      "location": {
+        "community": "Armstrong, Ontario",
+        "description": "North of Thunder Bay, unorganized Kenora District",
+        "lat": 49.9667,
+        "lon": -89.0333
+      },
+      "corridor": {
+        "operator": "CN",
+        "subdivision": "Allanwater",
+        "note": "Armstrong is Mile 0.00 of the Allanwater Subdivision, which runs west to Sioux Lookout (Mile 138.90) and connects east to the Caramat Subdivision."
+      },
+      "trains_affected": {
+        "count_halted": 3,
+        "cargo_note": "Reported by OPP as hauling combustible products; specific consist/placard detail not yet available through public channels",
+        "crew_status": "Evacuated safely \u2014 confirmed by CN spokesperson to CTV News"
+      },
+      "evacuation_orders": [
+        "Town of Armstrong",
+        "Collins First Nation",
+        "Cushing Lake",
+        "Gakijiwanong Anishinaabe Nation (Lac La Croix First Nation)",
+        "Lac des Mille Lacs First Nation",
+        "Whitesand First Nation"
+      ],
+      "media": {
+        "description": "Cab-view cellphone video from a CN crew member shows flames on both sides of the train, thick smoke, and the crew reacting to worsening conditions (\"This could potentially overtake us\"). Video went viral on social media starting ~13 Jul 2026, widely reported starting 15 Jul 2026.",
+        "note": "Original social video not embedded here \u2014 RailWatch links to news coverage rather than rehosting user-generated footage. See sources below."
+      },
+      "regional_context": {
+        "active_wildfires_nw_ontario": "100+",
+        "conditions": "Extreme heat and wildfire smoke advisory across northeastern/northwestern Ontario; humidity trapping smoke, yellowish sky"
+      },
+      "tdg_relevance": {
+        "assessment": "High \u2014 directly illustrates the transparency gap RailWatch documents: a viral video, not a public TDG disclosure, is how this community-adjacent hazmat exposure event became visible.",
+        "historical_precedent": "TSB R09W0033 \u2014 13 Feb 2009 CN derailment on this same subdivision (Robinson, ON, ~Mile 108.23) involving sodium chlorate (UN 1495) and propane (UN 1075) tank cars struck a wayside propane tank, causing fire and explosion. No injuries. Demonstrates recurring hazmat/fire risk on the Allanwater Sub specifically."
+      },
+      "sources": [
+        { "outlet": "CTV News / CP24", "url": "https://www.ctvnews.ca/northern-ontario/article/were-encased-in-flames-rail-worker-captures-harrowing-video-as-wildfire-closes-in-on-cn-train/" },
+        { "outlet": "Global News", "url": "https://globalnews.ca/news/11966535/northern-ontario-wildfires-cn-rail/" },
+        { "outlet": "SNNewsWatch / OPP", "url": "https://www.snnewswatch.com/local-news/freight-trains-hauling-combustible-products-stopped-by-wildfire-12548257" },
+        { "outlet": "TSB Rail Occurrence R09W0033 (historical precedent)", "url": "https://www.tsb.gc.ca/eng/rapports-reports/rail/2009/r09w0033/r09w0033.html" }
+      ],
+      "last_updated": "2026-07-15T00:00:00Z"
+    }
+  ]
+}

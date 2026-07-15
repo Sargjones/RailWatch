@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "platform": "RailWatch Canada",
+    "parent": "Critical TO (criticalto.ca)",
+    "scope_change": "Expanded from CN Dundas/Chatham + CPKC Windsor pilot to province-wide Ontario coverage",
+    "effective_date": "2026-07-15",
+    "note": "Geometry for all subdivisions below already existed in cn_track_filtered.geojson and ontario_northland_track.geojson prior to this expansion — the pilot scope in railwatch_data_latest.json simply hadn't been widened to register them as monitored corridors yet."
+  },
+  "operators": {
+    "CN": {
+      "source_geometry": "cn_track_filtered.geojson",
+      "subdivisions": {
+        "dundas":       { "name": "Dundas",       "description": "Toronto\u2013Hamilton\u2013London\u2013Windsor",  "status": "pilot",   "tier": 1 },
+        "chatham":      { "name": "Chatham",      "description": "Windsor\u2013Sarnia cross-border industrial", "status": "pilot",   "tier": 1 },
+        "halton":       { "name": "Halton",       "description": "MacMillan Yard\u2013Burlington",              "status": "planned", "tier": 1 },
+        "oakville":     { "name": "Oakville",     "description": "Toronto\u2013Hamilton lakeshore",             "status": "active",  "tier": 1 },
+        "kingston":     { "name": "Kingston",     "description": "Toronto\u2013Kingston\u2013Ottawa corridor",      "status": "active",  "tier": 1 },
+        "grimsby":      { "name": "Grimsby",      "description": "Hamilton\u2013Niagara",                       "status": "active",  "tier": 1 },
+        "bala":         { "name": "Bala",         "description": "Toronto\u2013Muskoka\u2013North Bay",             "status": "active",  "tier": 2 },
+        "vankleek":     { "name": "Vankleek",     "description": "Eastern Ontario, Ottawa Valley",           "status": "active",  "tier": 2 },
+        "parry_sound":  { "name": "Parry Sound",  "description": "North Bay\u2013Parry Sound",                   "status": "active",  "tier": 2 },
+        "north_bay":    { "name": "North Bay",    "description": "North Bay area",                           "status": "active",  "tier": 2 },
+        "cartier":      { "name": "Cartier",      "description": "Sudbury\u2013Cartier, transcontinental main",   "status": "active",  "tier": 2 },
+        "ruel":         { "name": "Ruel",         "description": "Cartier\u2013Ruel, north shore transcon",       "status": "active",  "tier": 2 },
+        "soo":          { "name": "Soo",          "description": "Sault Ste. Marie corridor",                "status": "active",  "tier": 2 },
+        "kashabowie":   { "name": "Kashabowie",   "description": "Thunder Bay area, transcontinental main",   "status": "active",  "tier": 3 },
+        "allanwater":   { "name": "Allanwater",   "description": "Armstrong\u2013Sioux Lookout, transcontinental main. Mile 0.00 at Armstrong, connects to Caramat Sub eastward.", "status": "active", "tier": 3, "note": "Site of 15 Jul 2026 wildfire incident (Fire Watch #FW-2026-001) and TSB R09W0033 (13 Feb 2009 derailment/fire, sodium chlorate + propane, mile 108.23)." },
+        "fort_frances": { "name": "Fort Frances", "description": "Fort Frances\u2013Rainy River, cross-border",     "status": "active",  "tier": 3 },
+        "sprague":      { "name": "Sprague",      "description": "Manitoba border area",                     "status": "active",  "tier": 3 }
+      }
+    },
+    "CPKC": {
+      "source_geometry": "not yet loaded \u2014 CPKC Windsor Sub geometry referenced in railwatch_data_latest.json but osm_relation is null",
+      "subdivisions": {
+        "windsor": { "name": "Windsor Sub", "description": "Toronto\u2013Guelph\u2013London\u2013Windsor via CPKC", "status": "pilot", "tier": 1 }
+      }
+    },
+    "ONT": {
+      "source_geometry": "ontario_northland_track.geojson",
+      "subdivisions": {
+        "temagami":      { "name": "Temagami",      "description": "North Bay\u2013Temagami\u2013Cochrane spine",  "status": "active", "tier": 2 },
+        "devonshire":    { "name": "Devonshire",    "description": "North Bay area",                    "status": "active", "tier": 2 },
+        "ramore":        { "name": "Ramore",        "description": "Cochrane area junction",             "status": "active", "tier": 2 },
+        "iroquois_falls":{ "name": "Iroquois Falls","description": "Iroquois Falls branch",              "status": "active", "tier": 3 },
+        "island_falls":  { "name": "Island Falls",  "description": "James Bay corridor",                 "status": "active", "tier": 3 },
+        "kapuskasing":   { "name": "Kapuskasing",   "description": "Kapuskasing\u2013Hearst branch",           "status": "active", "tier": 3 },
+        "pagwa":         { "name": "Pagwa",         "description": "Northern connector to CN Caramat Sub","status": "active", "tier": 3 }
+      }
+    }
+  },
+  "tier_definitions": {
+    "1": "Southern Ontario \u2014 dense TDG traffic, dense population, pilot/near-pilot monitoring depth",
+    "2": "Central/Northeastern Ontario \u2014 transcontinental main line segments, moderate community proximity",
+    "3": "Northwestern Ontario / remote \u2014 transcontinental main line and branches through sparse or unincorporated territory, elevated wildfire exposure. Fire Watch prioritizes this tier."
+  }
+}
