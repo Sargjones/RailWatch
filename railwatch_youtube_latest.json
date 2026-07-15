@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T16:23:41.776913Z",
+  "generated_at": "2026-07-15T19:17:43.041245Z",
   "dedup_registry": {
     "total": 402,
     "by_channel": {
@@ -62,13 +62,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 4,
-      "skipped": 23,
-      "high": 3,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 3,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 27
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -112,7 +107,7 @@
     }
   ],
   "total": 402,
-  "new_this_run": 4,
+  "new_this_run": 0,
   "high_confidence": 90,
   "dg_likely": 64,
   "observations": [
