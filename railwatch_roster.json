@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-15T07:57:03.994929Z",
-  "total_units": 188,
+  "generated_at": "2026-07-15T16:23:41.873419Z",
+  "total_units": 190,
   "min_sightings": 2,
   "by_road": {
-    "CN": 157,
+    "CN": 159,
     "VIA": 3,
     "CP": 27,
     "RUCK": 1
@@ -382,6 +382,178 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=PSD_3rDhhlU",
           "title": "CN Train 368 Eastbound June 20, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3272",
+      "display": "CN 3272",
+      "sighting_count": 5,
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZZ9KSjGvFrQ",
+          "title": "CN Train 368 Eastbound Meets VIA Train 61 Westbound July 15,",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=OjAyowqq450",
+          "title": "CN Train 368 Lifting July 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=OjAyowqq450",
+          "title": "CN Train 368 Lifting July 15, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tALiqTGcKDQ",
+          "title": "CN Train 368 Starting Their Lift, July 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tALiqTGcKDQ",
+          "title": "CN Train 368 Starting Their Lift, July 15, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3420",
+      "display": "CN 3420",
+      "sighting_count": 5,
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-07-15",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZZ9KSjGvFrQ",
+          "title": "CN Train 368 Eastbound Meets VIA Train 61 Westbound July 15,",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=OjAyowqq450",
+          "title": "CN Train 368 Lifting July 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=OjAyowqq450",
+          "title": "CN Train 368 Lifting July 15, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tALiqTGcKDQ",
+          "title": "CN Train 368 Starting Their Lift, July 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tALiqTGcKDQ",
+          "title": "CN Train 368 Starting Their Lift, July 15, 2026",
           "source": "description_structured"
         }
       ]

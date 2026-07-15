@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T07:57:03.875390Z",
+  "generated_at": "2026-07-15T16:23:41.776913Z",
   "dedup_registry": {
-    "total": 398,
+    "total": 402,
     "by_channel": {
       "Trackside Ontario": 29,
       "Trackside Tyson": 63,
@@ -9,15 +9,15 @@
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 14,
-      "Brockville RailFan": 138,
+      "Brockville RailFan": 142,
       "MJM Productions": 98,
       "Central Canada Railfan": 7,
       "Winnipeg Railman": 2,
       "PTBO Railfanning": 1
     },
     "by_confidence": {
-      "high": 87,
-      "medium": 274,
+      "high": 90,
+      "medium": 275,
       "low": 37,
       "meta": 0
     }
@@ -62,8 +62,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 23
+      "videos": 4,
+      "skipped": 23,
+      "high": 3,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 3,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -106,11 +111,237 @@
       "skipped": 2
     }
   ],
-  "total": 398,
-  "new_this_run": 0,
-  "high_confidence": 87,
-  "dg_likely": 61,
+  "total": 402,
+  "new_this_run": 4,
+  "high_confidence": 90,
+  "dg_likely": 64,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "ZZ9KSjGvFrQ",
+      "video_url": "https://www.youtube.com/watch?v=ZZ9KSjGvFrQ",
+      "title": "CN Train 368 Eastbound Meets VIA Train 61 Westbound July 15, 2026",
+      "published_at": "2026-07-15T15:08:17Z",
+      "date": "2026-07-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3420",
+        "CN 3272"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3420",
+          "raw": "CN 3420"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3272",
+          "raw": "CN 3272"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Eastbound Meets VIA Train 61 Westbound July 15, 2026",
+      "description_chars": 320,
+      "consist": {
+        "car_count": 108,
+        "consist_type": "freight",
+        "speed_kmh": 32,
+        "speed_raw": "20 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:51",
+        "observed_tz": "EDT",
+        "temperature_c": 20
+      },
+      "observed_at": "2026-07-15T08:51-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "OjAyowqq450",
+      "video_url": "https://www.youtube.com/watch?v=OjAyowqq450",
+      "title": "CN Train 368 Lifting July 15, 2026",
+      "published_at": "2026-07-15T14:50:40Z",
+      "date": "2026-07-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "tank",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3420",
+        "CN 3272"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3420",
+          "raw": "CN 3420"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3272",
+          "raw": "CN 3272"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Lifting July 15, 2026",
+      "description_chars": 191,
+      "consist": {
+        "engines": [
+          "CN 3420",
+          "CN 3272"
+        ],
+        "car_count": 5,
+        "car_count_note": ", 1 buffer car and 4 lifted tank cars",
+        "consist_type": "freight",
+        "observed_time": "08:28",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Toronto ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-07-15T08:28-04:00",
+      "origin": "Toronto ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "tALiqTGcKDQ",
+      "video_url": "https://www.youtube.com/watch?v=tALiqTGcKDQ",
+      "title": "CN Train 368 Starting Their Lift, July 15, 2026",
+      "published_at": "2026-07-15T14:39:18Z",
+      "date": "2026-07-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3420",
+        "CN 3272"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3420",
+          "raw": "CN 3420"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3272",
+          "raw": "CN 3272"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Starting Their Lift, July 15, 2026",
+      "description_chars": 164,
+      "consist": {
+        "engines": [
+          "CN 3420",
+          "CN 3272"
+        ],
+        "car_count": 1,
+        "consist_type": "freight",
+        "observed_time": "08:17",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-07-15T08:17-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "zAAgcbrkzN0",
+      "video_url": "https://www.youtube.com/watch?v=zAAgcbrkzN0",
+      "title": "VIA Train 41 Brockville VIA Station Stop July 15, 2026",
+      "published_at": "2026-07-15T14:20:36Z",
+      "date": "2026-07-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 41",
+          "raw": "VIA Train 41"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 41 Brockville VIA Station Stop July 15, 2026",
+      "description_chars": 189,
+      "consist": {
+        "observed_time": "07:01",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Ottawa ON",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-15T07:01-04:00",
+      "origin": "Ottawa ON",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

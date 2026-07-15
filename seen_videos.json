@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-15T07:57:03.869360Z",
-    "total_videos": 398
+    "updated_at": "2026-07-15T16:23:41.772603Z",
+    "total_videos": 402
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2392,6 +2392,30 @@
       "title": "CN Train 368 Lifting July 14, 2026",
       "confidence": "high",
       "processed_at": "2026-07-14T19:25:35.139248Z"
+    },
+    "ZZ9KSjGvFrQ": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound Meets VIA Train 61 Westbound July 15, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-15T16:23:39.771462Z"
+    },
+    "OjAyowqq450": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Lifting July 15, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-15T16:23:39.772095Z"
+    },
+    "tALiqTGcKDQ": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Starting Their Lift, July 15, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-15T16:23:39.772252Z"
+    },
+    "zAAgcbrkzN0": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 41 Brockville VIA Station Stop July 15, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-15T16:23:39.772402Z"
     }
   }
 }
