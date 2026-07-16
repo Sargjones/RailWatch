@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-16T08:02:31.209564Z",
-    "total_videos": 402
+    "updated_at": "2026-07-16T19:18:44.344569Z",
+    "total_videos": 405
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2416,6 +2416,24 @@
       "title": "VIA Train 41 Brockville VIA Station Stop July 15, 2026",
       "confidence": "medium",
       "processed_at": "2026-07-15T16:23:39.772402Z"
+    },
+    "GH-AuXWFjCc": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 16, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-16T19:18:42.554848Z"
+    },
+    "t04Q4pUFTn4": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 276 Eastbound July 16, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-16T19:18:42.555051Z"
+    },
+    "z1OjzOj9aJA": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound Meets CN Train Q149 Westbound July 16, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-16T19:18:42.555329Z"
     }
   }
 }
