@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-18T07:40:05.818393Z",
+  "generated_at": "2026-07-18T19:10:44.425706Z",
   "dedup_registry": {
-    "total": 420,
+    "total": 423,
     "by_channel": {
       "Trackside Ontario": 29,
-      "Trackside Tyson": 64,
+      "Trackside Tyson": 65,
       "Southern Ontario Railfan": 17,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 14,
       "Brockville RailFan": 151,
-      "MJM Productions": 104,
+      "MJM Productions": 106,
       "Central Canada Railfan": 8,
       "Winnipeg Railman": 2,
       "PTBO Railfanning": 1,
@@ -18,8 +18,8 @@
     },
     "by_confidence": {
       "high": 98,
-      "medium": 285,
-      "low": 37,
+      "medium": 287,
+      "low": 38,
       "meta": 0
     }
   },
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -78,13 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 3,
-      "skipped": 10,
+      "videos": 2,
+      "skipped": 13,
       "high": 0,
-      "medium": 3,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 3
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,116 @@
       "skipped": 2
     }
   ],
-  "total": 420,
+  "total": 423,
   "new_this_run": 3,
   "high_confidence": 98,
   "dg_likely": 70,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "TZUvxnUmYNo",
+      "video_url": "https://www.youtube.com/watch?v=TZUvxnUmYNo",
+      "title": "EVERY CHILD MATTERS! CP 8757 at Midhurst, ON (JUL 16, 2026)",
+      "published_at": "2026-07-18T18:54:42Z",
+      "date": "2026-07-16",
+      "location": "Sudbury",
+      "subdivision": "CN Bala Sub",
+      "lat": 46.49,
+      "lon": -80.99,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8757"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8757",
+          "raw": "CP 8757"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "EVERY CHILD MATTERS! CP 8757 at Midhurst, ON (JUL 16, 2026)",
+      "description_chars": 454,
+      "consist": {
+        "observed_time": "9:15",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-07-16T9:15",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "uFuT7Q2ZH3M",
+      "video_url": "https://www.youtube.com/watch?v=uFuT7Q2ZH3M",
+      "title": "CP 7498 leads CPKC 119 through Medonte",
+      "published_at": "2026-07-18T14:03:22Z",
+      "date": "2026-07-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7498",
+        "CPKC 119"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7498",
+          "raw": "CP 7498"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CPKC 119"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7498 leads CPKC 119 through Medonte",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "pDxWPT0xQqo",
+      "video_url": "https://www.youtube.com/watch?v=pDxWPT0xQqo",
+      "title": "DPU PUSHES DOUBLE STACK THRU TUNNEL #youtubeshorts",
+      "published_at": "2026-07-18T14:00:32Z",
+      "date": "2026-07-18",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "DPU PUSHES DOUBLE STACK THRU TUNNEL #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

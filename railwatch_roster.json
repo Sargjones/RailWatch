@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-18T07:40:05.941306Z",
-  "total_units": 208,
+  "generated_at": "2026-07-18T19:10:44.548938Z",
+  "total_units": 210,
   "min_sightings": 2,
   "by_road": {
-    "CN": 172,
+    "CN": 173,
     "VIA": 3,
-    "CP": 32,
+    "CP": 33,
     "RUCK": 1
   },
   "units": [
@@ -8921,6 +8921,51 @@
     },
     {
       "road": "CN",
+      "number": "8757",
+      "display": "CN 8757",
+      "sighting_count": 2,
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
+      "corridors": [
+        "CN Bala Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-17",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SaSgcvXBRF0",
+          "title": "CP 8757 every child matters heads south",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-16",
+          "location": "Sudbury",
+          "subdivision": "CN Bala Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TZUvxnUmYNo",
+          "title": "EVERY CHILD MATTERS! CP 8757 at Midhurst, ON (JUL 16, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "8829",
       "display": "CN 8829",
       "sighting_count": 2,
@@ -10743,6 +10788,51 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=TjB64nk67H8",
           "title": "CP 8160 + CP 8751 + CP 2311 lead CPKC 135",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8757",
+      "display": "CP 8757",
+      "sighting_count": 2,
+      "first_seen": "2026-07-16",
+      "last_seen": "2026-07-17",
+      "corridors": [
+        "CN Bala Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-17",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SaSgcvXBRF0",
+          "title": "CP 8757 every child matters heads south",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-16",
+          "location": "Sudbury",
+          "subdivision": "CN Bala Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TZUvxnUmYNo",
+          "title": "EVERY CHILD MATTERS! CP 8757 at Midhurst, ON (JUL 16, 2026)",
           "source": "text_extraction"
         }
       ]
