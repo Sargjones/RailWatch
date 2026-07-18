@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T19:16:40.640324Z",
+  "generated_at": "2026-07-18T07:40:05.818393Z",
   "dedup_registry": {
-    "total": 417,
+    "total": 420,
     "by_channel": {
       "Trackside Ontario": 29,
       "Trackside Tyson": 64,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 14,
       "Brockville RailFan": 151,
-      "MJM Productions": 101,
+      "MJM Productions": 104,
       "Central Canada Railfan": 8,
       "Winnipeg Railman": 2,
       "PTBO Railfanning": 1,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 98,
-      "medium": 282,
+      "medium": 285,
       "low": 37,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-10T00:00:00Z",
+  "since": "2026-07-11T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,13 +33,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -68,13 +63,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 6,
-      "skipped": 25,
-      "high": 5,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 5,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 26
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,13 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 9,
+      "videos": 3,
+      "skipped": 10,
       "high": 0,
-      "medium": 2,
+      "medium": 3,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -108,13 +98,8 @@
     },
     {
       "channel": "The Cando Railfan",
-      "videos": 1,
-      "skipped": 0,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 1
     },
     {
       "channel": "The Manitoba Railfan",
@@ -123,20 +108,99 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 2,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     }
   ],
-  "total": 417,
-  "new_this_run": 11,
+  "total": 420,
+  "new_this_run": 3,
   "high_confidence": 98,
   "dg_likely": 70,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "eTNukZwi9aE",
+      "video_url": "https://www.youtube.com/watch?v=eTNukZwi9aE",
+      "title": "CN A450 passes the South River Cascade",
+      "published_at": "2026-07-18T02:34:38Z",
+      "date": "2026-07-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "A450",
+          "raw": "A450"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN A450 passes the South River Cascade",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "I0PF5gGjeO8",
+      "video_url": "https://www.youtube.com/watch?v=I0PF5gGjeO8",
+      "title": "ONR 113 heads north up the Temagami sub",
+      "published_at": "2026-07-17T21:24:15Z",
+      "date": "2026-07-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "ONR 113 heads north up the Temagami sub",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "zrspnroNqqE",
+      "video_url": "https://www.youtube.com/watch?v=zrspnroNqqE",
+      "title": "OVR 61 heads east on the North Bay sub",
+      "published_at": "2026-07-17T21:23:18Z",
+      "date": "2026-07-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "OVR 61 heads east on the North Bay sub",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
