@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T19:10:44.425706Z",
+  "generated_at": "2026-07-19T08:06:40.110190Z",
   "dedup_registry": {
     "total": 423,
     "by_channel": {
@@ -24,7 +24,7 @@
     }
   },
   "days_back": 7,
-  "since": "2026-07-11T00:00:00Z",
+  "since": "2026-07-12T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,13 +33,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -79,17 +74,12 @@
     {
       "channel": "PTBO Railfanning",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 13,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 13
     },
     {
       "channel": "Ontario Railman",
@@ -118,7 +108,7 @@
     }
   ],
   "total": 423,
-  "new_this_run": 3,
+  "new_this_run": 0,
   "high_confidence": 98,
   "dg_likely": 70,
   "observations": [
