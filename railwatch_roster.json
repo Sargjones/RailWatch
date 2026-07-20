@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-19T19:11:54.299081Z",
-  "total_units": 210,
+  "generated_at": "2026-07-20T08:47:35.473591Z",
+  "total_units": 212,
   "min_sightings": 2,
   "by_road": {
-    "CN": 173,
+    "CN": 174,
     "VIA": 3,
-    "CP": 33,
+    "CP": 34,
     "RUCK": 1
   },
   "units": [
@@ -3920,6 +3920,66 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=7Acpk1mGIcU",
           "title": "CP 7049 SD70ACU leads CPKC 230 east",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7474",
+      "display": "CN 7474",
+      "sighting_count": 3,
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-20",
+      "corridors": [
+        "CN Kingston Sub",
+        "CPKC MacTier Sub"
+      ],
+      "trains_led": [
+        "CN 101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SxNSDC93sPA",
+          "title": "CP 7474 ET44AC leads 101 over my GoPro!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
+          "title": "CP 7474 + CP 7491 lead CPKC 101 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-19",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
+          "title": "CP 7474 ET44AC runs over my GoPro after Sunset!",
           "source": "symbol_extraction"
         }
       ]
@@ -9626,6 +9686,82 @@
     },
     {
       "road": "CP",
+      "number": "7491",
+      "display": "CP 7491",
+      "sighting_count": 4,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-08-07",
+      "corridors": [
+        "CPKC MacTier Sub",
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 100",
+        "CN 410"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
+          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
+          "title": "CP 7474 + CP 7491 lead CPKC 101 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-19",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
+          "title": "CP 7474 ET44AC runs over my GoPro after Sunset!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 410",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "4432",
       "display": "CP 4432",
       "sighting_count": 3,
@@ -9801,6 +9937,66 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=7Acpk1mGIcU",
           "title": "CP 7049 SD70ACU leads CPKC 230 east",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7474",
+      "display": "CP 7474",
+      "sighting_count": 3,
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-07-20",
+      "corridors": [
+        "CN Kingston Sub",
+        "CPKC MacTier Sub"
+      ],
+      "trains_led": [
+        "CN 101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SxNSDC93sPA",
+          "title": "CP 7474 ET44AC leads 101 over my GoPro!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
+          "title": "CP 7474 + CP 7491 lead CPKC 101 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-19",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
+          "title": "CP 7474 ET44AC runs over my GoPro after Sunset!",
           "source": "text_extraction"
         }
       ]
@@ -10316,53 +10512,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=C2hhs9eQC8Q",
           "title": "CP 7575 + CP 7485 lead CPKC 113 into Baxter",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "7491",
-      "display": "CP 7491",
-      "sighting_count": 2,
-      "first_seen": "2026-07-07",
-      "last_seen": "2026-08-07",
-      "corridors": [
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 100",
-        "CN 410"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 100",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
-          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 410",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
-          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
           "source": "text_extraction"
         }
       ]

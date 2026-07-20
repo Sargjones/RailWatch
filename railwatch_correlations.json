@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-19T19:11:54.246190Z",
-  "total": 16,
+  "generated_at": "2026-07-20T08:47:35.420371Z",
+  "total": 17,
   "cross_observer": 0,
-  "chase": 16,
+  "chase": 17,
   "high": 0,
   "medium": 0,
   "dg_correlations": 2,
@@ -212,9 +212,54 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-19T19:11:54.245620Z",
+      "correlated_at": "2026-07-20T08:47:35.419834Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "CN101",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-07-20",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
+        "title": "CP 7474 + CP 7491 lead CPKC 101 north"
+      },
+      "sighting_b": {
+        "location": "MacTier",
+        "date": "2026-07-19",
+        "observed_at": "2026-07-19T9:22",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": "South",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
+        "title": "CP 7474 ET44AC runs over my GoPro after Sunset!"
+      },
+      "transit": {
+        "distance_km": 147.8,
+        "elapsed_hours": 0.36,
+        "avg_speed_kmh": 410.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-07-20T08:47:35.419661Z",
+      "confidence": "low"
     },
     {
       "symbol": "CN368",
@@ -263,7 +308,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-19T19:11:54.245649Z",
+      "correlated_at": "2026-07-20T08:47:35.419850Z",
       "confidence": "low"
     },
     {
@@ -313,7 +358,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.245709Z",
+      "correlated_at": "2026-07-20T08:47:35.419908Z",
       "confidence": "low"
     },
     {
@@ -363,7 +408,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.245723Z",
+      "correlated_at": "2026-07-20T08:47:35.419918Z",
       "confidence": "low"
     },
     {
@@ -408,7 +453,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.245794Z",
+      "correlated_at": "2026-07-20T08:47:35.419984Z",
       "confidence": "low"
     },
     {
@@ -458,7 +503,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.245866Z",
+      "correlated_at": "2026-07-20T08:47:35.420054Z",
       "confidence": "low"
     },
     {
@@ -503,7 +548,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.245939Z",
+      "correlated_at": "2026-07-20T08:47:35.420126Z",
       "confidence": "low"
     },
     {
@@ -548,7 +593,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.245949Z",
+      "correlated_at": "2026-07-20T08:47:35.420139Z",
       "confidence": "low"
     },
     {
@@ -593,7 +638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.246028Z",
+      "correlated_at": "2026-07-20T08:47:35.420217Z",
       "confidence": "low"
     },
     {
@@ -638,7 +683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.246055Z",
+      "correlated_at": "2026-07-20T08:47:35.420243Z",
       "confidence": "low"
     },
     {
@@ -683,7 +728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.246077Z",
+      "correlated_at": "2026-07-20T08:47:35.420264Z",
       "confidence": "low"
     },
     {
@@ -728,7 +773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.246088Z",
+      "correlated_at": "2026-07-20T08:47:35.420275Z",
       "confidence": "low"
     },
     {
@@ -773,7 +818,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.246100Z",
+      "correlated_at": "2026-07-20T08:47:35.420291Z",
       "confidence": "low"
     },
     {
@@ -818,7 +863,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.246115Z",
+      "correlated_at": "2026-07-20T08:47:35.420304Z",
       "confidence": "low"
     },
     {
@@ -863,7 +908,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.246128Z",
+      "correlated_at": "2026-07-20T08:47:35.420315Z",
       "confidence": "low"
     },
     {
@@ -908,7 +953,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-19T19:11:54.246141Z",
+      "correlated_at": "2026-07-20T08:47:35.420328Z",
       "confidence": "low"
     }
   ]

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-19T19:11:54.166711Z",
+  "generated_at": "2026-07-20T08:47:35.341949Z",
   "dedup_registry": {
-    "total": 428,
+    "total": 431,
     "by_channel": {
       "Trackside Ontario": 29,
       "Trackside Tyson": 67,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 14,
       "Brockville RailFan": 151,
-      "MJM Productions": 108,
+      "MJM Productions": 111,
       "Central Canada Railfan": 8,
       "Winnipeg Railman": 2,
       "PTBO Railfanning": 1,
@@ -18,38 +18,28 @@
     },
     "by_confidence": {
       "high": 98,
-      "medium": 290,
+      "medium": 293,
       "low": 40,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-12T00:00:00Z",
+  "since": "2026-07-13T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 2,
-      "skipped": 5,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 2,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 1
     },
     {
       "channel": "Trackside Tristan",
@@ -74,7 +64,7 @@
     {
       "channel": "Brockville RailFan",
       "videos": 0,
-      "skipped": 26
+      "skipped": 20
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,10 +78,10 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 13,
+      "videos": 3,
+      "skipped": 11,
       "high": 0,
-      "medium": 2,
+      "medium": 3,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 2
@@ -122,11 +112,142 @@
       "skipped": 2
     }
   ],
-  "total": 428,
-  "new_this_run": 5,
+  "total": 431,
+  "new_this_run": 3,
   "high_confidence": 98,
   "dg_likely": 70,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "SxNSDC93sPA",
+      "video_url": "https://www.youtube.com/watch?v=SxNSDC93sPA",
+      "title": "CP 7474 ET44AC leads 101 over my GoPro!",
+      "published_at": "2026-07-20T02:19:42Z",
+      "date": "2026-07-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7474"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7474",
+          "raw": "CP 7474"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7474 ET44AC leads 101 over my GoPro!",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "IDlMj9B7iwQ",
+      "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
+      "title": "CP 7474 ET44AC runs over my GoPro after Sunset!",
+      "published_at": "2026-07-20T02:08:36Z",
+      "date": "2026-07-19",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": "South",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7474",
+        "CPKC 101",
+        "CP 7491"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7474",
+          "raw": "CP 7474"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 101",
+          "raw": "CPKC 101"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7491",
+          "raw": "CP 7491"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7474 ET44AC runs over my GoPro after Sunset!",
+      "description_chars": 539,
+      "consist": {
+        "observed_time": "9:22",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-07-19T9:22",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "m6IhjQVQKnU",
+      "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
+      "title": "CP 7474 + CP 7491 lead CPKC 101 north",
+      "published_at": "2026-07-20T01:47:00Z",
+      "date": "2026-07-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7474",
+        "CP 7491",
+        "CPKC 101"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7474",
+          "raw": "CP 7474"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7491",
+          "raw": "CP 7491"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 101",
+          "raw": "CPKC 101"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7474 + CP 7491 lead CPKC 101 north",
+      "description_chars": 79,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
