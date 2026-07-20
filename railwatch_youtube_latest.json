@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-20T08:47:35.341949Z",
+  "generated_at": "2026-07-20T19:48:05.886779Z",
   "dedup_registry": {
-    "total": 431,
+    "total": 434,
     "by_channel": {
-      "Trackside Ontario": 29,
-      "Trackside Tyson": 67,
+      "Trackside Ontario": 30,
+      "Trackside Tyson": 68,
       "Southern Ontario Railfan": 18,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 24,
       "Rail Fans Canada": 14,
-      "Brockville RailFan": 151,
+      "Brockville RailFan": 152,
       "MJM Productions": 111,
       "Central Canada Railfan": 8,
       "Winnipeg Railman": 2,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 98,
-      "medium": 293,
+      "medium": 296,
       "low": 40,
       "meta": 0
     }
@@ -28,13 +28,23 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,8 +73,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 20
+      "videos": 1,
+      "skipped": 20,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,13 +93,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 3,
-      "skipped": 11,
-      "high": 0,
-      "medium": 3,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +122,113 @@
       "skipped": 2
     }
   ],
-  "total": 431,
+  "total": 434,
   "new_this_run": 3,
   "high_confidence": 98,
   "dg_likely": 70,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "uzxRLAWtW1Y",
+      "video_url": "https://www.youtube.com/watch?v=uzxRLAWtW1Y",
+      "title": "Tuesday Morning at Bayview \u2022 July 14, 2026",
+      "published_at": "2026-07-20T19:31:23Z",
+      "date": "2026-07-14",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Morning at Bayview \u2022 July 14, 2026",
+      "description_chars": 122,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "5tXFwvBAhF8",
+      "video_url": "https://www.youtube.com/watch?v=5tXFwvBAhF8",
+      "title": "CPKC COAL TRAIN THRU CURVE #youtubeshorts",
+      "published_at": "2026-07-20T17:00:30Z",
+      "date": "2026-07-20",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "gondola",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CPKC COAL TRAIN THRU CURVE #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "ZISC0fa9AFs",
+      "video_url": "https://www.youtube.com/watch?v=ZISC0fa9AFs",
+      "title": "VIA Train 61 Westbound July 20, 2026",
+      "published_at": "2026-07-20T13:32:45Z",
+      "date": "2026-07-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound July 20, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 67 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 108,
+        "speed_raw": "67 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:48",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-20T08:48-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
