@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-21T08:15:10.843710Z",
-  "total_units": 212,
+  "generated_at": "2026-07-21T19:37:02.712297Z",
+  "total_units": 214,
   "min_sightings": 2,
   "by_road": {
-    "CN": 174,
+    "CN": 176,
     "VIA": 3,
     "CP": 34,
     "RUCK": 1
@@ -4698,6 +4698,53 @@
     },
     {
       "road": "CN",
+      "number": "2326",
+      "display": "CN 2326",
+      "sighting_count": 2,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 276"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-21",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 276",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=B5QJGLin4LE",
+          "title": "CN Train 276 Eastbound July 21, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 276",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=B5QJGLin4LE",
+          "title": "CN Train 276 Eastbound July 21, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2332",
       "display": "CN 2332",
       "sighting_count": 2,
@@ -4928,6 +4975,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Kvjtws_Hq4A",
           "title": "CN Train 730 Eastbound June 18, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2773",
+      "display": "CN 2773",
+      "sighting_count": 2,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-07-21",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 276"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-21",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 276",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=B5QJGLin4LE",
+          "title": "CN Train 276 Eastbound July 21, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 276",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=B5QJGLin4LE",
+          "title": "CN Train 276 Eastbound July 21, 2026",
           "source": "description_structured"
         }
       ]
