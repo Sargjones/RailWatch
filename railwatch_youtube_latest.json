@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-20T19:48:05.886779Z",
+  "generated_at": "2026-07-21T08:15:10.711876Z",
   "dedup_registry": {
-    "total": 434,
+    "total": 436,
     "by_channel": {
-      "Trackside Ontario": 30,
+      "Trackside Ontario": 31,
       "Trackside Tyson": 68,
       "Southern Ontario Railfan": 18,
       "Trackside Tristan": 5,
-      "Scott Rails (Chasing The Money Shot)": 24,
+      "Scott Rails (Chasing The Money Shot)": 25,
       "Rail Fans Canada": 14,
       "Brockville RailFan": 152,
       "MJM Productions": 111,
@@ -17,34 +17,29 @@
       "The Cando Railfan": 1
     },
     "by_confidence": {
-      "high": 98,
-      "medium": 296,
+      "high": 99,
+      "medium": 297,
       "low": 40,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-13T00:00:00Z",
+  "since": "2026-07-14T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 1,
       "skipped": 1,
-      "high": 0,
-      "medium": 1,
+      "high": 1,
+      "medium": 0,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 5,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -58,13 +53,13 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 0,
+      "videos": 1,
       "skipped": 0,
       "high": 0,
-      "medium": 0,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 0
+      "defaulted": 1
     },
     {
       "channel": "Rail Fans Canada",
@@ -73,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 1,
-      "skipped": 20,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 18
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -94,7 +84,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 14
+      "skipped": 13
     },
     {
       "channel": "Ontario Railman",
@@ -119,14 +109,66 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     }
   ],
-  "total": 434,
-  "new_this_run": 3,
-  "high_confidence": 98,
+  "total": 436,
+  "new_this_run": 2,
+  "high_confidence": 99,
   "dg_likely": 70,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "out-of-province",
+      "channel": "Scott Rails (Chasing The Money Shot)",
+      "channel_id": "UCQUUHzkvfoCqcTKIn6cI9yw",
+      "video_id": "aqFpKLK_4D4",
+      "video_url": "https://www.youtube.com/watch?v=aqFpKLK_4D4",
+      "title": "Walthers Trainline Chessie GP15 Truck repair. One year later ",
+      "published_at": "2026-07-21T02:41:31Z",
+      "date": "2026-07-21",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Walthers Trainline Chessie GP15 Truck repair. One year later ",
+      "description_chars": 86,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "MX17qdSlLIg",
+      "video_url": "https://www.youtube.com/watch?v=MX17qdSlLIg",
+      "title": "CN Intermodal with Illinois Central Heritage Unit Leading! \u2022 July 14, 2026",
+      "published_at": "2026-07-20T23:31:35Z",
+      "date": "2026-07-14",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "CN Intermodal with Illinois Central Heritage Unit Leading! \u2022 July 14, 2026",
+      "description_chars": 122,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

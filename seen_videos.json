@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-20T19:48:05.880852Z",
-    "total_videos": 434
+    "updated_at": "2026-07-21T08:15:10.705878Z",
+    "total_videos": 436
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2608,6 +2608,18 @@
       "title": "VIA Train 61 Westbound July 20, 2026",
       "confidence": "medium",
       "processed_at": "2026-07-20T19:48:04.547415Z"
+    },
+    "MX17qdSlLIg": {
+      "channel": "Trackside Ontario",
+      "title": "CN Intermodal with Illinois Central Heritage Unit Leading! \u2022 July 14, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-21T08:15:07.754317Z"
+    },
+    "aqFpKLK_4D4": {
+      "channel": "Scott Rails (Chasing The Money Shot)",
+      "title": "Walthers Trainline Chessie GP15 Truck repair. One year later ",
+      "confidence": "medium",
+      "processed_at": "2026-07-21T08:15:08.686305Z"
     }
   }
 }
