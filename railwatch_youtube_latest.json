@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-22T08:15:52.082676Z",
+  "generated_at": "2026-07-22T19:26:57.702895Z",
   "dedup_registry": {
-    "total": 445,
+    "total": 450,
     "by_channel": {
       "Trackside Ontario": 32,
-      "Trackside Tyson": 69,
+      "Trackside Tyson": 70,
       "Southern Ontario Railfan": 18,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 25,
       "Rail Fans Canada": 14,
-      "Brockville RailFan": 154,
+      "Brockville RailFan": 158,
       "MJM Productions": 116,
       "Central Canada Railfan": 8,
       "Winnipeg Railman": 2,
@@ -17,9 +17,9 @@
       "The Cando Railfan": 1
     },
     "by_confidence": {
-      "high": 100,
-      "medium": 305,
-      "low": 40,
+      "high": 103,
+      "medium": 306,
+      "low": 41,
       "meta": 0
     }
   },
@@ -28,18 +28,18 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 2,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -68,8 +68,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 16
+      "videos": 4,
+      "skipped": 16,
+      "high": 3,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 2,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 17,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 18
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +117,289 @@
       "skipped": 1
     }
   ],
-  "total": 445,
-  "new_this_run": 2,
-  "high_confidence": 100,
-  "dg_likely": 71,
+  "total": 450,
+  "new_this_run": 5,
+  "high_confidence": 103,
+  "dg_likely": 73,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "W2Iqv0CUE98",
+      "video_url": "https://www.youtube.com/watch?v=W2Iqv0CUE98",
+      "title": "DOUBLE STACK THRU YALE TUNNELS #shorts",
+      "published_at": "2026-07-22T16:30:15Z",
+      "date": "2026-07-22",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "DOUBLE STACK THRU YALE TUNNELS #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "VGphju48XkQ",
+      "video_url": "https://www.youtube.com/watch?v=VGphju48XkQ",
+      "title": "VIA Train 61 Westbound July 22, 2026",
+      "published_at": "2026-07-22T14:17:51Z",
+      "date": "2026-07-22",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound July 22, 2026",
+      "description_chars": 160,
+      "consist": {
+        "coaches": [
+          "Temperature: 15C"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "observed_time": "08:51",
+        "observed_tz": "EDT",
+        "temperature_c": 15,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-22T08:51-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "3vTA_pr0DXU",
+      "video_url": "https://www.youtube.com/watch?v=3vTA_pr0DXU",
+      "title": "CN Train 156 Eastbound July 22, 2026",
+      "published_at": "2026-07-22T14:08:41Z",
+      "date": "2026-07-22",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2282",
+        "CN 3384",
+        "CN 3026"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 156",
+          "raw": "CN Train 156"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2282",
+          "raw": "CN 2282"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3384",
+          "raw": "CN 3384"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3026",
+          "raw": "CN 3026"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 156 Eastbound July 22, 2026",
+      "description_chars": 341,
+      "consist": {
+        "engines": [
+          "CN 2282",
+          "CN 3384"
+        ],
+        "dpu": [
+          "CN 3026"
+        ],
+        "car_count": 147,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 56,
+        "speed_raw": "35 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:21",
+        "observed_tz": "EDT",
+        "temperature_c": 15,
+        "origin": "Winnipeg MB",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-07-22T08:21-04:00",
+      "origin": "Winnipeg MB",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "z-wxahRQ0vs",
+      "video_url": "https://www.youtube.com/watch?v=z-wxahRQ0vs",
+      "title": "CN Train 149 Westbound July 22, 2026",
+      "published_at": "2026-07-22T13:52:38Z",
+      "date": "2026-07-22",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3408",
+        "CN 3802"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3408",
+          "raw": "CN 3408"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3802",
+          "raw": "CN 3802"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound July 22, 2026",
+      "description_chars": 238,
+      "consist": {
+        "engines": [
+          "CN 3408",
+          "CN 3802"
+        ],
+        "car_count": 139,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 68,
+        "speed_raw": "42 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:09",
+        "observed_tz": "EDT",
+        "temperature_c": 14,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-07-22T08:09-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "NFpQ6rGm0fM",
+      "video_url": "https://www.youtube.com/watch?v=NFpQ6rGm0fM",
+      "title": "CN Train 368 Eastbound July 22, 2026",
+      "published_at": "2026-07-22T13:41:43Z",
+      "date": "2026-07-22",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3433",
+        "CN 3235"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3433",
+          "raw": "CN 3433"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3235",
+          "raw": "CN 3235"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Eastbound July 22, 2026",
+      "description_chars": 410,
+      "consist": {
+        "engines": [
+          "CN 3433"
+        ],
+        "dpu": [
+          "CN 3235"
+        ],
+        "car_count": 156,
+        "consist_type": "freight",
+        "speed_kmh": 51,
+        "speed_raw": "32 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:04",
+        "observed_tz": "EDT",
+        "temperature_c": 15,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-07-22T08:04-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
