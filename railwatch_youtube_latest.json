@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-21T19:37:02.601653Z",
+  "generated_at": "2026-07-22T08:15:52.082676Z",
   "dedup_registry": {
-    "total": 443,
+    "total": 445,
     "by_channel": {
-      "Trackside Ontario": 31,
+      "Trackside Ontario": 32,
       "Trackside Tyson": 69,
       "Southern Ontario Railfan": 18,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 25,
       "Rail Fans Canada": 14,
       "Brockville RailFan": 154,
-      "MJM Productions": 115,
+      "MJM Productions": 116,
       "Central Canada Railfan": 8,
       "Winnipeg Railman": 2,
       "PTBO Railfanning": 1,
@@ -18,28 +18,28 @@
     },
     "by_confidence": {
       "high": 100,
-      "medium": 303,
+      "medium": 305,
       "low": 40,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-14T00:00:00Z",
+  "since": "2026-07-15T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 2
-    },
-    {
-      "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 6,
+      "skipped": 2,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
+    },
+    {
+      "channel": "Trackside Tyson",
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -64,17 +64,12 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 18,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,13 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 4,
-      "skipped": 13,
+      "videos": 1,
+      "skipped": 17,
       "high": 0,
-      "medium": 4,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 4
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +117,123 @@
       "skipped": 1
     }
   ],
-  "total": 443,
-  "new_this_run": 7,
+  "total": 445,
+  "new_this_run": 2,
   "high_confidence": 100,
   "dg_likely": 71,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "P1pObQVxInU",
+      "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
+      "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
+      "published_at": "2026-07-21T22:05:49Z",
+      "date": "2026-07-21",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 132",
+        "CP 7456",
+        "CP 7490",
+        "CP 8621",
+        "CP 8637",
+        "CP 9839",
+        "CP 8943",
+        "CP 9801"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "AC4400",
+          "raw": "AC4400"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 132",
+          "raw": "CPKC 132"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7456",
+          "raw": "CP 7456"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7490",
+          "raw": "CP 7490"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8621",
+          "raw": "CP 8621"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8637",
+          "raw": "CP 8637"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9839",
+          "raw": "CP 9839"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8943",
+          "raw": "CP 8943"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9801",
+          "raw": "CP 9801"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
+      "description_chars": 1005,
+      "consist": {
+        "observed_time": "12:00",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-07-21T12:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "KQRW2g3RGLI",
+      "video_url": "https://www.youtube.com/watch?v=KQRW2g3RGLI",
+      "title": "Monday Morning at Bayview \u2022 July 20, 2026",
+      "published_at": "2026-07-21T20:54:51Z",
+      "date": "2026-07-20",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Monday Morning at Bayview \u2022 July 20, 2026",
+      "description_chars": 121,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
