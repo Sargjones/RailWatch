@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-22T19:26:57.837457Z",
-  "total_units": 230,
+  "generated_at": "2026-07-23T08:20:25.493136Z",
+  "total_units": 234,
   "min_sightings": 2,
   "by_road": {
-    "CN": 186,
+    "CN": 187,
     "VIA": 3,
-    "CP": 40,
+    "CP": 43,
     "RUCK": 1
   },
   "units": [
@@ -9168,6 +9168,52 @@
     },
     {
       "road": "CN",
+      "number": "7570",
+      "display": "CN 7570",
+      "sighting_count": 2,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-23",
+      "corridors": [
+        "CPKC MacTier Sub"
+      ],
+      "trains_led": [
+        "CN 101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-23",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=7sdQeB4u_bk",
+          "title": "CP 7570 + CP 9751 lead CPKC 101 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-22",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=7V8lSwdH7FU",
+          "title": "Camera under late CPKC intermodal train (JUL 22, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7575",
       "display": "CN 7575",
       "sighting_count": 2,
@@ -11365,6 +11411,52 @@
     },
     {
       "road": "CP",
+      "number": "7570",
+      "display": "CP 7570",
+      "sighting_count": 2,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-23",
+      "corridors": [
+        "CPKC MacTier Sub"
+      ],
+      "trains_led": [
+        "CN 101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-23",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=7sdQeB4u_bk",
+          "title": "CP 7570 + CP 9751 lead CPKC 101 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-22",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=7V8lSwdH7FU",
+          "title": "Camera under late CPKC intermodal train (JUL 22, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "7575",
       "display": "CP 7575",
       "sighting_count": 2,
@@ -11834,6 +11926,52 @@
     },
     {
       "road": "CP",
+      "number": "8925",
+      "display": "CP 8925",
+      "sighting_count": 2,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-23",
+      "corridors": [
+        "CPKC MacTier Sub"
+      ],
+      "trains_led": [
+        "CN 101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-23",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=7sdQeB4u_bk",
+          "title": "CP 7570 + CP 9751 lead CPKC 101 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-22",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=7V8lSwdH7FU",
+          "title": "Camera under late CPKC intermodal train (JUL 22, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "8943",
       "display": "CP 8943",
       "sighting_count": 2,
@@ -12018,6 +12156,52 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=gBIAuUnMTWA",
           "title": "CP 7561 + CP 9720 + KCS 4777 into Baxter",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9751",
+      "display": "CP 9751",
+      "sighting_count": 2,
+      "first_seen": "2026-07-22",
+      "last_seen": "2026-07-23",
+      "corridors": [
+        "CPKC MacTier Sub"
+      ],
+      "trains_led": [
+        "CN 101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-23",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=7sdQeB4u_bk",
+          "title": "CP 7570 + CP 9751 lead CPKC 101 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-22",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=7V8lSwdH7FU",
+          "title": "Camera under late CPKC intermodal train (JUL 22, 2026)",
           "source": "text_extraction"
         }
       ]

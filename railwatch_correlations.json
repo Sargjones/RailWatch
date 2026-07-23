@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-22T19:26:57.784330Z",
-  "total": 17,
+  "generated_at": "2026-07-23T08:20:25.428607Z",
+  "total": 19,
   "cross_observer": 0,
-  "chase": 17,
+  "chase": 19,
   "high": 0,
   "medium": 0,
   "dg_correlations": 2,
@@ -212,9 +212,144 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-22T19:26:57.783783Z",
+      "correlated_at": "2026-07-23T08:20:25.428071Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "CN101",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-07-20",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
+        "title": "CP 7474 + CP 7491 lead CPKC 101 north"
+      },
+      "sighting_b": {
+        "location": "MacTier",
+        "date": "2026-07-19",
+        "observed_at": "2026-07-19T9:22",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": "South",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
+        "title": "CP 7474 ET44AC runs over my GoPro after Sunset!"
+      },
+      "transit": {
+        "distance_km": 147.8,
+        "elapsed_hours": 0.36,
+        "avg_speed_kmh": 410.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-07-23T08:20:25.427847Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN101",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "MacTier",
+        "date": "2026-07-19",
+        "observed_at": "2026-07-19T9:22",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": "South",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
+        "title": "CP 7474 ET44AC runs over my GoPro after Sunset!"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-07-23",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": "North",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=RCDLaogA0Sk",
+        "title": "CPKC 101 northbound runs over camera"
+      },
+      "transit": {
+        "distance_km": 147.8,
+        "elapsed_hours": 71.69,
+        "avg_speed_kmh": 2.1,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-07-23T08:20:25.427875Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN101",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-07-23",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": "North",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=RCDLaogA0Sk",
+        "title": "CPKC 101 northbound runs over camera"
+      },
+      "sighting_b": {
+        "location": "MacTier",
+        "date": "2026-07-23",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=7sdQeB4u_bk",
+        "title": "CP 7570 + CP 9751 lead CPKC 101 north"
+      },
+      "transit": {
+        "distance_km": 147.8,
+        "elapsed_hours": 0.01,
+        "avg_speed_kmh": 25330.0,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-07-23T08:20:25.427894Z",
+      "confidence": "low"
     },
     {
       "symbol": "CN149",
@@ -263,7 +398,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.783693Z",
+      "correlated_at": "2026-07-23T08:20:25.427999Z",
       "confidence": "low"
     },
     {
@@ -313,7 +448,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.783720Z",
+      "correlated_at": "2026-07-23T08:20:25.428011Z",
       "confidence": "low"
     },
     {
@@ -363,52 +498,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-22T19:26:57.783795Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN101",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-07-20",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
-        "title": "CP 7474 + CP 7491 lead CPKC 101 north"
-      },
-      "sighting_b": {
-        "location": "MacTier",
-        "date": "2026-07-19",
-        "observed_at": "2026-07-19T9:22",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": "South",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
-        "title": "CP 7474 ET44AC runs over my GoPro after Sunset!"
-      },
-      "transit": {
-        "distance_km": 147.8,
-        "elapsed_hours": 0.36,
-        "avg_speed_kmh": 410.4,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.783850Z",
+      "correlated_at": "2026-07-23T08:20:25.428084Z",
       "confidence": "low"
     },
     {
@@ -453,7 +543,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.783957Z",
+      "correlated_at": "2026-07-23T08:20:25.428231Z",
       "confidence": "low"
     },
     {
@@ -503,7 +593,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784021Z",
+      "correlated_at": "2026-07-23T08:20:25.428295Z",
       "confidence": "low"
     },
     {
@@ -548,7 +638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784092Z",
+      "correlated_at": "2026-07-23T08:20:25.428366Z",
       "confidence": "low"
     },
     {
@@ -593,7 +683,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784101Z",
+      "correlated_at": "2026-07-23T08:20:25.428378Z",
       "confidence": "low"
     },
     {
@@ -638,7 +728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784176Z",
+      "correlated_at": "2026-07-23T08:20:25.428449Z",
       "confidence": "low"
     },
     {
@@ -683,7 +773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784201Z",
+      "correlated_at": "2026-07-23T08:20:25.428472Z",
       "confidence": "low"
     },
     {
@@ -728,7 +818,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784223Z",
+      "correlated_at": "2026-07-23T08:20:25.428494Z",
       "confidence": "low"
     },
     {
@@ -773,7 +863,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784234Z",
+      "correlated_at": "2026-07-23T08:20:25.428505Z",
       "confidence": "low"
     },
     {
@@ -818,7 +908,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784245Z",
+      "correlated_at": "2026-07-23T08:20:25.428520Z",
       "confidence": "low"
     },
     {
@@ -863,7 +953,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784258Z",
+      "correlated_at": "2026-07-23T08:20:25.428534Z",
       "confidence": "low"
     },
     {
@@ -908,7 +998,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784273Z",
+      "correlated_at": "2026-07-23T08:20:25.428544Z",
       "confidence": "low"
     },
     {
@@ -953,7 +1043,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-22T19:26:57.784284Z",
+      "correlated_at": "2026-07-23T08:20:25.428555Z",
       "confidence": "low"
     }
   ]

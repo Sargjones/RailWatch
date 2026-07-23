@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-22T19:26:57.702895Z",
+  "generated_at": "2026-07-23T08:20:25.348689Z",
   "dedup_registry": {
-    "total": 450,
+    "total": 453,
     "by_channel": {
       "Trackside Ontario": 32,
       "Trackside Tyson": 70,
@@ -10,21 +10,21 @@
       "Scott Rails (Chasing The Money Shot)": 25,
       "Rail Fans Canada": 14,
       "Brockville RailFan": 158,
-      "MJM Productions": 116,
+      "MJM Productions": 119,
       "Central Canada Railfan": 8,
       "Winnipeg Railman": 2,
       "PTBO Railfanning": 1,
       "The Cando Railfan": 1
     },
     "by_confidence": {
-      "high": 103,
-      "medium": 306,
+      "high": 104,
+      "medium": 308,
       "low": 41,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-15T00:00:00Z",
+  "since": "2026-07-16T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,13 +33,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -68,13 +63,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 4,
-      "skipped": 16,
-      "high": 3,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,8 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 18
+      "videos": 3,
+      "skipped": 18,
+      "high": 1,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +112,155 @@
       "skipped": 1
     }
   ],
-  "total": 450,
-  "new_this_run": 5,
-  "high_confidence": 103,
+  "total": 453,
+  "new_this_run": 3,
+  "high_confidence": 104,
   "dg_likely": 73,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "7V8lSwdH7FU",
+      "video_url": "https://www.youtube.com/watch?v=7V8lSwdH7FU",
+      "title": "Camera under late CPKC intermodal train (JUL 22, 2026)",
+      "published_at": "2026-07-23T01:53:35Z",
+      "date": "2026-07-22",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 101",
+        "CP 7570",
+        "CP 9751",
+        "CP 8925"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 101",
+          "raw": "CPKC 101"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7570",
+          "raw": "CP 7570"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 9751",
+          "raw": "CP 9751"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8925",
+          "raw": "CP 8925"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Camera under late CPKC intermodal train (JUL 22, 2026)",
+      "description_chars": 164,
+      "consist": {
+        "observed_time": "9:30",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-07-22T9:30",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "7sdQeB4u_bk",
+      "video_url": "https://www.youtube.com/watch?v=7sdQeB4u_bk",
+      "title": "CP 7570 + CP 9751 lead CPKC 101 north",
+      "published_at": "2026-07-23T01:50:20Z",
+      "date": "2026-07-23",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7570",
+        "CP 9751",
+        "CPKC 101",
+        "CP 8925"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7570",
+          "raw": "CP 7570"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 9751",
+          "raw": "CP 9751"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 101",
+          "raw": "CPKC 101"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8925",
+          "raw": "CP 8925"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7570 + CP 9751 lead CPKC 101 north",
+      "description_chars": 113,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "RCDLaogA0Sk",
+      "video_url": "https://www.youtube.com/watch?v=RCDLaogA0Sk",
+      "title": "CPKC 101 northbound runs over camera",
+      "published_at": "2026-07-23T01:49:59Z",
+      "date": "2026-07-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": "North",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 101"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 101",
+          "raw": "CPKC 101"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 101 northbound runs over camera",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
