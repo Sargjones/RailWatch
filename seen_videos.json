@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-23T08:20:25.342670Z",
-    "total_videos": 453
+    "updated_at": "2026-07-23T19:23:54.109072Z",
+    "total_videos": 460
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2722,6 +2722,48 @@
       "title": "CP 7570 + CP 9751 lead CPKC 101 north",
       "confidence": "medium",
       "processed_at": "2026-07-23T08:20:24.198109Z"
+    },
+    "rd4_C5jAfe4": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 23, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-23T19:23:52.201285Z"
+    },
+    "HjucO73vRoc": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 156 Eastbound July 23, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-23T19:23:52.201501Z"
+    },
+    "QTNyQjipU0E": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound Meets CN Train 149 Westbound July 23, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-23T19:23:52.201721Z"
+    },
+    "JyRrz-0-b10": {
+      "channel": "MJM Productions",
+      "title": "IC 2715 C44-9W leads CN M314 south",
+      "confidence": "medium",
+      "processed_at": "2026-07-23T19:23:52.907545Z"
+    },
+    "h0Ms3PpN-Jg": {
+      "channel": "MJM Productions",
+      "title": "CN 5731 + CN 5749 lead CN Q102 south",
+      "confidence": "medium",
+      "processed_at": "2026-07-23T19:23:52.907748Z"
+    },
+    "hQnmRkwpKP4": {
+      "channel": "The Cando Railfan",
+      "title": "CPKC ET44AC + KCS DPU Haul Oil Train North on Emerson Subdivision",
+      "confidence": "medium",
+      "processed_at": "2026-07-23T19:23:53.537219Z"
+    },
+    "U81sZXL_Uog": {
+      "channel": "Central Canada Railfan",
+      "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg! + SD40-2, BCOL 464",
+      "confidence": "high",
+      "processed_at": "2026-07-23T19:23:54.109046Z"
     }
   }
 }
