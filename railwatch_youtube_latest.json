@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T19:23:54.115020Z",
+  "generated_at": "2026-07-24T08:14:50.086412Z",
   "dedup_registry": {
-    "total": 460,
+    "total": 461,
     "by_channel": {
       "Trackside Ontario": 32,
       "Trackside Tyson": 70,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 25,
       "Rail Fans Canada": 14,
       "Brockville RailFan": 161,
-      "MJM Productions": 121,
+      "MJM Productions": 122,
       "Central Canada Railfan": 9,
       "Winnipeg Railman": 2,
       "PTBO Railfanning": 1,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 107,
-      "medium": 312,
+      "medium": 313,
       "low": 41,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-16T00:00:00Z",
+  "since": "2026-07-17T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -63,13 +63,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 16,
-      "high": 2,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 21,
+      "videos": 1,
+      "skipped": 23,
       "high": 0,
-      "medium": 2,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 2
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -103,13 +98,8 @@
     },
     {
       "channel": "The Cando Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "The Manitoba Railfan",
@@ -118,20 +108,41 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 2
     }
   ],
-  "total": 460,
-  "new_this_run": 7,
+  "total": 461,
+  "new_this_run": 1,
   "high_confidence": 107,
   "dg_likely": 75,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "q-R_I1dRiyU",
+      "video_url": "https://www.youtube.com/watch?v=q-R_I1dRiyU",
+      "title": "Two Decent Leaders on the CN Bala Subdivision (JUL 23, 2026)",
+      "published_at": "2026-07-24T01:54:12Z",
+      "date": "2026-07-23",
+      "location": "CN Bala Sub",
+      "subdivision": "CN Bala Sub",
+      "lat": 44.5,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Two Decent Leaders on the CN Bala Subdivision (JUL 23, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
