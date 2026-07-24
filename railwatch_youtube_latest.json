@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-24T08:14:50.086412Z",
+  "generated_at": "2026-07-24T19:35:26.538352Z",
   "dedup_registry": {
-    "total": 461,
+    "total": 469,
     "by_channel": {
       "Trackside Ontario": 32,
-      "Trackside Tyson": 70,
+      "Trackside Tyson": 71,
       "Southern Ontario Railfan": 18,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 25,
       "Rail Fans Canada": 14,
-      "Brockville RailFan": 161,
+      "Brockville RailFan": 168,
       "MJM Productions": 122,
       "Central Canada Railfan": 9,
       "Winnipeg Railman": 2,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 107,
-      "medium": 313,
+      "high": 110,
+      "medium": 318,
       "low": 41,
       "meta": 0
     }
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 7,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,8 +68,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 16
+      "videos": 7,
+      "skipped": 16,
+      "high": 3,
+      "medium": 4,
+      "low_meta": 0,
+      "dg_likely": 3,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 23,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 24
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,427 @@
       "skipped": 2
     }
   ],
-  "total": 461,
-  "new_this_run": 1,
-  "high_confidence": 107,
-  "dg_likely": 75,
+  "total": 469,
+  "new_this_run": 8,
+  "high_confidence": 110,
+  "dg_likely": 78,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "yyMDyQxq1rs",
+      "video_url": "https://www.youtube.com/watch?v=yyMDyQxq1rs",
+      "title": "VIA Train 61 Westbound July 24, 2026",
+      "published_at": "2026-07-24T14:24:35Z",
+      "date": "2026-07-24",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound July 24, 2026",
+      "description_chars": 179,
+      "consist": {
+        "coaches": [
+          "Speed: 63 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 101,
+        "speed_raw": "63 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:43",
+        "observed_tz": "EDT",
+        "temperature_c": 19,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-24T08:43-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "imaLNPxCDDc",
+      "video_url": "https://www.youtube.com/watch?v=imaLNPxCDDc",
+      "title": "CN Train 306 Eastbound July 23, 2026",
+      "published_at": "2026-07-24T14:13:50Z",
+      "date": "2026-07-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3212",
+        "CN 3875"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 306",
+          "raw": "CN Train 306"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3212",
+          "raw": "CN 3212"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3875",
+          "raw": "CN 3875"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 306 Eastbound July 23, 2026",
+      "description_chars": 200,
+      "consist": {
+        "engines": [
+          "CN 3212"
+        ],
+        "dpu": [
+          "CN 3875"
+        ],
+        "car_count": 142,
+        "consist_type": "freight",
+        "speed_kmh": 61,
+        "speed_raw": "38 mph",
+        "detector_milepost": 124,
+        "observed_time": "18:24",
+        "observed_tz": "EDT",
+        "temperature_c": 22,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Moncton NB"
+      },
+      "observed_at": "2026-07-23T18:24-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Moncton NB",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "jqFDHT4kATY",
+      "video_url": "https://www.youtube.com/watch?v=jqFDHT4kATY",
+      "title": "HUGE CPKC GRAIN TRAIN IN THE CANYON #youtubeshorts",
+      "published_at": "2026-07-24T14:00:24Z",
+      "date": "2026-07-24",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "HUGE CPKC GRAIN TRAIN IN THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "xVrGNEA18AA",
+      "video_url": "https://www.youtube.com/watch?v=xVrGNEA18AA",
+      "title": "CN Train 369 Westbound July 23, 2026",
+      "published_at": "2026-07-24T13:53:52Z",
+      "date": "2026-07-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3092",
+        "CN 3294"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 369",
+          "raw": "CN Train 369"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3092",
+          "raw": "CN 3092"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3294",
+          "raw": "CN 3294"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 369 Westbound July 23, 2026",
+      "description_chars": 212,
+      "consist": {
+        "engines": [
+          "CN 3092"
+        ],
+        "dpu": [
+          "CN 3294"
+        ],
+        "car_count": 140,
+        "consist_type": "freight",
+        "speed_kmh": 66,
+        "speed_raw": "41 mph",
+        "detector_milepost": 124,
+        "observed_time": "17:36",
+        "observed_tz": "EDT",
+        "temperature_c": 22,
+        "origin": "Montreal Taschereau QC",
+        "destination": "Toronto MacMillan ON"
+      },
+      "observed_at": "2026-07-23T17:36-04:00",
+      "origin": "Montreal Taschereau QC",
+      "destination": "Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "rTiHowkvvgM",
+      "video_url": "https://www.youtube.com/watch?v=rTiHowkvvgM",
+      "title": "VIA Train 644 Eastbound July 23, 2026",
+      "published_at": "2026-07-24T13:42:32Z",
+      "date": "2026-07-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 644",
+          "raw": "VIA Train 644"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 644 Eastbound July 23, 2026",
+      "description_chars": 190,
+      "consist": {
+        "observed_time": "16:49",
+        "observed_tz": "EDT",
+        "temperature_c": 22,
+        "origin": "Toronto ON",
+        "destination": "Ottawa ON"
+      },
+      "observed_at": "2026-07-23T16:49-04:00",
+      "origin": "Toronto ON",
+      "destination": "Ottawa ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "_SoXtCIvCxM",
+      "video_url": "https://www.youtube.com/watch?v=_SoXtCIvCxM",
+      "title": "VIA Train 67 Westbound July 23, 2026",
+      "published_at": "2026-07-24T13:35:25Z",
+      "date": "2026-07-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 67",
+          "raw": "VIA Train 67"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 67 Westbound July 23, 2026",
+      "description_chars": 179,
+      "consist": {
+        "coaches": [
+          "Speed: 69 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 111,
+        "speed_raw": "69 mph",
+        "detector_milepost": 124,
+        "observed_time": "16:16",
+        "observed_tz": "EDT",
+        "temperature_c": 22,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-23T16:16-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "-no6gT_gYos",
+      "video_url": "https://www.youtube.com/watch?v=-no6gT_gYos",
+      "title": "CN Train 532 Eastbound July 23, 2026",
+      "published_at": "2026-07-24T13:30:31Z",
+      "date": "2026-07-23",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 9523",
+        "CN 9543"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 532",
+          "raw": "CN Train 532"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9523",
+          "raw": "CN 9523"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9543",
+          "raw": "CN 9543"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 532 Eastbound July 23, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 9523",
+          "CN 9543"
+        ],
+        "car_count": 44,
+        "consist_type": "freight",
+        "speed_kmh": 37,
+        "speed_raw": "23 mph",
+        "detector_milepost": 124,
+        "observed_time": "16:06",
+        "observed_tz": "EDT",
+        "temperature_c": 23,
+        "origin": "Brockville ON",
+        "destination": "Various customers east of Brockville ON"
+      },
+      "observed_at": "2026-07-23T16:06-04:00",
+      "origin": "Brockville ON",
+      "destination": "Various customers east of Brockville ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "adJIP3efSxE",
+      "video_url": "https://www.youtube.com/watch?v=adJIP3efSxE",
+      "title": "VIA Train 645 Westbound July 23, 2026",
+      "published_at": "2026-07-24T13:17:50Z",
+      "date": "2026-07-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 645",
+          "raw": "VIA Train 645"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 645 Westbound July 23, 2026",
+      "description_chars": 189,
+      "consist": {
+        "coaches": [
+          "2306 (Cab-Coach)",
+          "2806",
+          "2906",
+          "2706",
+          "2606",
+          "2207"
+        ],
+        "car_count": 6,
+        "consist_type": "passenger",
+        "observed_time": "15:48",
+        "observed_tz": "EDT",
+        "temperature_c": 23,
+        "origin": "Ottawa ON",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-07-23T15:48-04:00",
+      "origin": "Ottawa ON",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
