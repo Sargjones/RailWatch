@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-25T07:57:31.386351Z",
-    "total_videos": 473
+    "updated_at": "2026-07-25T19:14:05.333170Z",
+    "total_videos": 474
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2842,6 +2842,12 @@
       "title": "Two Decent Leaders on the CN Halton Subdivision (JUL 24, 2026)",
       "confidence": "medium",
       "processed_at": "2026-07-25T07:57:30.319240Z"
+    },
+    "W7dmogiARBE": {
+      "channel": "Trackside Tyson",
+      "title": "TRAIN THRU THE BEAUTIFUL CANYON #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-07-25T19:14:02.208691Z"
     }
   }
 }
