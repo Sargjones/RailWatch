@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-24T19:35:26.538352Z",
+  "generated_at": "2026-07-25T07:57:31.482078Z",
   "dedup_registry": {
-    "total": 469,
+    "total": 473,
     "by_channel": {
       "Trackside Ontario": 32,
-      "Trackside Tyson": 71,
+      "Trackside Tyson": 72,
       "Southern Ontario Railfan": 18,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 25,
       "Rail Fans Canada": 14,
       "Brockville RailFan": 168,
-      "MJM Productions": 122,
+      "MJM Productions": 125,
       "Central Canada Railfan": 9,
       "Winnipeg Railman": 2,
       "PTBO Railfanning": 1,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 110,
-      "medium": 318,
-      "low": 41,
+      "medium": 321,
+      "low": 42,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-17T00:00:00Z",
+  "since": "2026-07-18T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -36,8 +36,8 @@
       "videos": 1,
       "skipped": 7,
       "high": 0,
-      "medium": 1,
-      "low_meta": 0,
+      "medium": 0,
+      "low_meta": 1,
       "dg_likely": 0,
       "defaulted": 0
     },
@@ -68,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 7,
-      "skipped": 16,
-      "high": 3,
-      "medium": 4,
-      "low_meta": 0,
-      "dg_likely": 3,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 17
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 24
+      "videos": 3,
+      "skipped": 19,
+      "high": 0,
+      "medium": 3,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -104,7 +104,7 @@
     {
       "channel": "The Cando Railfan",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     },
     {
       "channel": "The Manitoba Railfan",
@@ -114,14 +114,150 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     }
   ],
-  "total": 469,
-  "new_this_run": 8,
+  "total": 473,
+  "new_this_run": 4,
   "high_confidence": 110,
   "dg_likely": 78,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "miIsfL0cCAU",
+      "video_url": "https://www.youtube.com/watch?v=miIsfL0cCAU",
+      "title": "POWERFUL TRAINS PULLING BIG FREIGHT THRU THE DANGEROUS CANYON ",
+      "published_at": "2026-07-25T04:57:50Z",
+      "date": "2026-07-25",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "POWERFUL TRAINS PULLING BIG FREIGHT THRU THE DANGEROUS CANYON ",
+      "description_chars": 440,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "EbWFEv6sawk",
+      "video_url": "https://www.youtube.com/watch?v=EbWFEv6sawk",
+      "title": "IC 2715 + CN 2677 + CN 5603 lead CN M397",
+      "published_at": "2026-07-25T01:23:44Z",
+      "date": "2026-07-25",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2677",
+        "CN 5603"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2677",
+          "raw": "CN 2677"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5603",
+          "raw": "CN 5603"
+        },
+        {
+          "road": "CN",
+          "symbol": "M397",
+          "raw": "M397"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "IC 2715 + CN 2677 + CN 5603 lead CN M397",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "b2Te80Q0z2g",
+      "video_url": "https://www.youtube.com/watch?v=b2Te80Q0z2g",
+      "title": "CN 3431 leads CN Z114 past Snider West",
+      "published_at": "2026-07-25T01:22:18Z",
+      "date": "2026-07-25",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3431"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3431",
+          "raw": "CN 3431"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z114",
+          "raw": "Z114"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3431 leads CN Z114 past Snider West",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "A39zpDB5gIs",
+      "video_url": "https://www.youtube.com/watch?v=A39zpDB5gIs",
+      "title": "Two Decent Leaders on the CN Halton Subdivision (JUL 24, 2026)",
+      "published_at": "2026-07-25T00:21:46Z",
+      "date": "2026-07-24",
+      "location": "CN Halton Sub",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Two Decent Leaders on the CN Halton Subdivision (JUL 24, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

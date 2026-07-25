@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-24T19:35:26.530766Z",
-    "total_videos": 469
+    "updated_at": "2026-07-25T07:57:31.386351Z",
+    "total_videos": 473
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2818,6 +2818,30 @@
       "title": "VIA Train 645 Westbound July 23, 2026",
       "confidence": "medium",
       "processed_at": "2026-07-24T19:35:24.854834Z"
+    },
+    "miIsfL0cCAU": {
+      "channel": "Trackside Tyson",
+      "title": "POWERFUL TRAINS PULLING BIG FREIGHT THRU THE DANGEROUS CANYON ",
+      "confidence": "low",
+      "processed_at": "2026-07-25T07:57:28.586818Z"
+    },
+    "b2Te80Q0z2g": {
+      "channel": "MJM Productions",
+      "title": "CN 3431 leads CN Z114 past Snider West",
+      "confidence": "medium",
+      "processed_at": "2026-07-25T07:57:30.318884Z"
+    },
+    "EbWFEv6sawk": {
+      "channel": "MJM Productions",
+      "title": "IC 2715 + CN 2677 + CN 5603 lead CN M397",
+      "confidence": "medium",
+      "processed_at": "2026-07-25T07:57:30.319088Z"
+    },
+    "A39zpDB5gIs": {
+      "channel": "MJM Productions",
+      "title": "Two Decent Leaders on the CN Halton Subdivision (JUL 24, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-07-25T07:57:30.319240Z"
     }
   }
 }
