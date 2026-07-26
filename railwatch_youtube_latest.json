@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-07-26T08:15:23.701029Z",
+  "generated_at": "2026-07-26T19:17:30.246039Z",
   "dedup_registry": {
-    "total": 475,
+    "total": 482,
     "by_channel": {
       "Trackside Ontario": 32,
-      "Trackside Tyson": 73,
-      "Southern Ontario Railfan": 18,
+      "Trackside Tyson": 75,
+      "Southern Ontario Railfan": 19,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 26,
       "Rail Fans Canada": 14,
-      "Brockville RailFan": 168,
+      "Brockville RailFan": 170,
       "MJM Productions": 125,
-      "Central Canada Railfan": 9,
-      "Winnipeg Railman": 2,
+      "Central Canada Railfan": 10,
+      "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 110,
-      "medium": 322,
-      "low": 43,
+      "high": 112,
+      "medium": 326,
+      "low": 44,
       "meta": 0
     }
   },
@@ -33,13 +33,23 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 8
+      "videos": 2,
+      "skipped": 8,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -48,13 +58,13 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 1,
-      "skipped": 1,
+      "videos": 0,
+      "skipped": 2,
       "high": 0,
-      "medium": 1,
+      "medium": 0,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 0
     },
     {
       "channel": "Rail Fans Canada",
@@ -63,8 +73,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 17
+      "videos": 2,
+      "skipped": 17,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,8 +103,13 @@
     },
     {
       "channel": "Winnipeg Railman",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "The Cando Railfan",
@@ -103,15 +123,338 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 1
     }
   ],
-  "total": 475,
-  "new_this_run": 1,
-  "high_confidence": 110,
-  "dg_likely": 78,
+  "total": 482,
+  "new_this_run": 7,
+  "high_confidence": 112,
+  "dg_likely": 80,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "qtpguUBSXYw",
+      "video_url": "https://www.youtube.com/watch?v=qtpguUBSXYw",
+      "title": "FATHER & SON RAILFANNING IN THE THOMPSON CANYON! ",
+      "published_at": "2026-07-26T18:00:08Z",
+      "date": "2026-07-26",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "FATHER & SON RAILFANNING IN THE THOMPSON CANYON! ",
+      "description_chars": 437,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "p1CBgDJv0_Q",
+      "video_url": "https://www.youtube.com/watch?v=p1CBgDJv0_Q",
+      "title": "CN Trains on The Rivers and Sprague Mainlines. (7/15/2026)",
+      "published_at": "2026-07-26T17:00:28Z",
+      "date": "2026-07-15",
+      "location": "Winnipeg",
+      "subdivision": "CN Mainline Manitoba",
+      "lat": 49.8951,
+      "lon": -97.1384,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2889",
+        "CN 3089",
+        "CN 8900",
+        "CN 8353",
+        "CN 3911",
+        "CN 3932",
+        "CN 8882",
+        "CN 2662",
+        "CN 3218",
+        "CN 2829",
+        "CN 8824",
+        "CN 8851"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2889",
+          "raw": "CN 2889"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3089",
+          "raw": "CN 3089"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q196",
+          "raw": "Q196"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8900",
+          "raw": "CN 8900"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8353",
+          "raw": "CN 8353"
+        },
+        {
+          "road": "CN",
+          "symbol": "S775",
+          "raw": "S775"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3911",
+          "raw": "CN 3911"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3932",
+          "raw": "CN 3932"
+        },
+        {
+          "road": "CN",
+          "symbol": "M356",
+          "raw": "M356"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8882",
+          "raw": "CN 8882"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2662",
+          "raw": "CN 2662"
+        },
+        {
+          "road": "CN",
+          "symbol": "G891",
+          "raw": "G891"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3218",
+          "raw": "CN 3218"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2829",
+          "raw": "CN 2829"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8824",
+          "raw": "CN 8824"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8851",
+          "raw": "CN 8851"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Trains on The Rivers and Sprague Mainlines. (7/15/2026)",
+      "description_chars": 898,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "Bw7wQvwSqwQ",
+      "video_url": "https://www.youtube.com/watch?v=Bw7wQvwSqwQ",
+      "title": "CN Train In Oshawa",
+      "published_at": "2026-07-26T15:24:42Z",
+      "date": "2026-07-26",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train In Oshawa",
+      "description_chars": 74,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Winnipeg Railman",
+      "channel_id": "UC9YbK-DpLdF7RlAPXHXa1KA",
+      "video_id": "d0W8dns0LQ4",
+      "video_url": "https://www.youtube.com/watch?v=d0W8dns0LQ4",
+      "title": "THE LONG (DOG) WALK - Trainboy Vlogs: Episode 82",
+      "published_at": "2026-07-26T14:00:16Z",
+      "date": "2026-07-26",
+      "location": "Winnipeg",
+      "subdivision": "CN Mainline Manitoba",
+      "lat": 49.8951,
+      "lon": -97.1384,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "THE LONG (DOG) WALK - Trainboy Vlogs: Episode 82",
+      "description_chars": 310,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "wE7Cx_IyjEo",
+      "video_url": "https://www.youtube.com/watch?v=wE7Cx_IyjEo",
+      "title": "DOUBLE EMD PULLS GRAIN THRU CURVES #youtubeshorts",
+      "published_at": "2026-07-26T14:00:03Z",
+      "date": "2026-07-26",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "DOUBLE EMD PULLS GRAIN THRU CURVES #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "LPe_ps1uiU8",
+      "video_url": "https://www.youtube.com/watch?v=LPe_ps1uiU8",
+      "title": "VIA Train 46 Eastbound July 25, 2026",
+      "published_at": "2026-07-26T13:04:06Z",
+      "date": "2026-07-25",
+      "location": "Smiths Falls",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 44.899,
+      "lon": -76.022,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 46",
+          "raw": "VIA Train 46"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 46 Eastbound July 25, 2026",
+      "description_chars": 180,
+      "consist": {
+        "observed_time": "19:38",
+        "observed_tz": "EDT",
+        "temperature_c": 26,
+        "origin": "Toronto ON",
+        "destination": "Ottawa ON"
+      },
+      "observed_at": "2026-07-25T19:38-04:00",
+      "origin": "Toronto ON",
+      "destination": "Ottawa ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "gXFx5e4UuM8",
+      "video_url": "https://www.youtube.com/watch?v=gXFx5e4UuM8",
+      "title": "CPKC Train 112 Eastbound July 25, 2026",
+      "published_at": "2026-07-26T12:52:05Z",
+      "date": "2026-07-25",
+      "location": "Smiths Falls",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 44.899,
+      "lon": -76.022,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC Train 112"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CPKC Train 112 Eastbound July 25, 2026",
+      "description_chars": 190,
+      "consist": {
+        "engines": [
+          "KCS 4688"
+        ],
+        "dpu": [
+          "KCS 4605",
+          "KCS 4624"
+        ],
+        "car_count": 179,
+        "car_count_note": "(wells) + 3 spine cars",
+        "consist_type": "freight",
+        "observed_time": "19:30",
+        "observed_tz": "EDT",
+        "temperature_c": 26,
+        "origin": "Vancouver BC",
+        "destination": "St Luc QC"
+      },
+      "observed_at": "2026-07-25T19:30-04:00",
+      "origin": "Vancouver BC",
+      "destination": "St Luc QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

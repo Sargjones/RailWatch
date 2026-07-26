@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-26T08:15:23.826197Z",
-  "total_units": 243,
+  "generated_at": "2026-07-26T19:17:30.386112Z",
+  "total_units": 244,
   "min_sightings": 2,
   "by_road": {
-    "CN": 195,
+    "CN": 196,
     "VIA": 3,
     "CP": 44,
     "RUCK": 1
@@ -7135,6 +7135,54 @@
           "video_url": "https://www.youtube.com/watch?v=XnMtxWuAGtc",
           "title": "CN Train 106 Eastbound July 9, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3218",
+      "display": "CN 3218",
+      "sighting_count": 2,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-07-15",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "Q196",
+        "L533"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-15",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "Q196",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=p1CBgDJv0_Q",
+          "title": "CN Trains on The Rivers and Sprague Mainlines. (7/15/2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "L533",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=a2YPRr1TXv8",
+          "title": "Various Trains on CN\u2019s Mainlines Around Winnipeg - June 2026",
+          "source": "text_extraction"
         }
       ]
     },
