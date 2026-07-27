@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T09:38:54.911330Z",
+  "generated_at": "2026-07-27T19:40:47.738168Z",
   "total": 21,
   "cross_observer": 0,
   "chase": 21,
@@ -212,54 +212,9 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-27T09:38:54.910878Z",
+      "correlated_at": "2026-07-27T19:40:47.737470Z",
       "confidence": "low",
       "split_suspected": true
-    },
-    {
-      "symbol": "CN113",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-07-26",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=491HoOmLSLM",
-        "title": "CP 8803 ES44AC leads CPKC 113 north"
-      },
-      "sighting_b": {
-        "location": "MacTier",
-        "date": "2026-07-26",
-        "observed_at": "2026-07-26T5:03",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=gmhJ8ZVzfro",
-        "title": "NO CPKC POWER! CP 8803 at Utopia, ON (JUL 26, 2026)"
-      },
-      "transit": {
-        "distance_km": 147.8,
-        "elapsed_hours": 2.46,
-        "avg_speed_kmh": 60.2,
-        "speed_plausible": true,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.910702Z",
-      "confidence": "medium"
     },
     {
       "symbol": "CN368",
@@ -308,8 +263,53 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-27T09:38:54.910891Z",
+      "correlated_at": "2026-07-27T19:40:47.737496Z",
       "confidence": "low"
+    },
+    {
+      "symbol": "CN113",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-07-26",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=491HoOmLSLM",
+        "title": "CP 8803 ES44AC leads CPKC 113 north"
+      },
+      "sighting_b": {
+        "location": "MacTier",
+        "date": "2026-07-26",
+        "observed_at": "2026-07-26T5:03",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=gmhJ8ZVzfro",
+        "title": "NO CPKC POWER! CP 8803 at Utopia, ON (JUL 26, 2026)"
+      },
+      "transit": {
+        "distance_km": 147.8,
+        "elapsed_hours": 2.46,
+        "avg_speed_kmh": 60.2,
+        "speed_plausible": true,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-07-27T19:40:47.737527Z",
+      "confidence": "medium"
     },
     {
       "symbol": "CN149",
@@ -358,7 +358,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.910946Z",
+      "correlated_at": "2026-07-27T19:40:47.737655Z",
       "confidence": "low"
     },
     {
@@ -408,7 +408,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.910955Z",
+      "correlated_at": "2026-07-27T19:40:47.737669Z",
       "confidence": "low"
     },
     {
@@ -458,7 +458,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.910964Z",
+      "correlated_at": "2026-07-27T19:40:47.737679Z",
       "confidence": "low"
     },
     {
@@ -503,7 +503,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.910982Z",
+      "correlated_at": "2026-07-27T19:40:47.737700Z",
       "confidence": "low"
     },
     {
@@ -548,7 +548,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.910990Z",
+      "correlated_at": "2026-07-27T19:40:47.737709Z",
       "confidence": "low"
     },
     {
@@ -593,7 +593,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.910997Z",
+      "correlated_at": "2026-07-27T19:40:47.737718Z",
       "confidence": "low"
     },
     {
@@ -638,7 +638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911077Z",
+      "correlated_at": "2026-07-27T19:40:47.737823Z",
       "confidence": "low"
     },
     {
@@ -688,7 +688,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911124Z",
+      "correlated_at": "2026-07-27T19:40:47.737902Z",
       "confidence": "low"
     },
     {
@@ -733,7 +733,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911163Z",
+      "correlated_at": "2026-07-27T19:40:47.737954Z",
       "confidence": "low"
     },
     {
@@ -778,7 +778,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911172Z",
+      "correlated_at": "2026-07-27T19:40:47.737963Z",
       "confidence": "low"
     },
     {
@@ -823,7 +823,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911216Z",
+      "correlated_at": "2026-07-27T19:40:47.738016Z",
       "confidence": "low"
     },
     {
@@ -868,7 +868,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911233Z",
+      "correlated_at": "2026-07-27T19:40:47.738042Z",
       "confidence": "low"
     },
     {
@@ -913,7 +913,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911249Z",
+      "correlated_at": "2026-07-27T19:40:47.738063Z",
       "confidence": "low"
     },
     {
@@ -958,7 +958,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911258Z",
+      "correlated_at": "2026-07-27T19:40:47.738073Z",
       "confidence": "low"
     },
     {
@@ -1003,7 +1003,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911267Z",
+      "correlated_at": "2026-07-27T19:40:47.738084Z",
       "confidence": "low"
     },
     {
@@ -1048,7 +1048,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911278Z",
+      "correlated_at": "2026-07-27T19:40:47.738097Z",
       "confidence": "low"
     },
     {
@@ -1093,7 +1093,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911286Z",
+      "correlated_at": "2026-07-27T19:40:47.738110Z",
       "confidence": "low"
     },
     {
@@ -1138,7 +1138,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-27T09:38:54.911294Z",
+      "correlated_at": "2026-07-27T19:40:47.738122Z",
       "confidence": "low"
     }
   ]

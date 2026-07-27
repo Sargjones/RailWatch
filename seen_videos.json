@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-27T09:38:54.835342Z",
-    "total_videos": 484
+    "updated_at": "2026-07-27T19:40:47.650727Z",
+    "total_videos": 490
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2908,6 +2908,42 @@
       "title": "CP 8803 ES44AC leads CPKC 113 north",
       "confidence": "medium",
       "processed_at": "2026-07-27T09:38:53.754219Z"
+    },
+    "sJCctVwugjU": {
+      "channel": "Trackside Ontario",
+      "title": "Three Train Meet at Bayview \u2022 July 27, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-27T19:40:44.186489Z"
+    },
+    "JpdlG1N58VM": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 27, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-27T19:40:45.833476Z"
+    },
+    "d7irgpJMD_4": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 121 Westbound July 27 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-27T19:40:45.833989Z"
+    },
+    "B6tnA_BLK4U": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 730 Eastbound July 27, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-27T19:40:45.834197Z"
+    },
+    "TWUYnG3KCZQ": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound July 27, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-27T19:40:45.834338Z"
+    },
+    "1VPUW-6zpJo": {
+      "channel": "Brockville RailFan",
+      "title": "CN MOW Tie Train Westbound July 27, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-27T19:40:45.834523Z"
     }
   }
 }
