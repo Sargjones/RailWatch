@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-27T19:40:47.650727Z",
-    "total_videos": 490
+    "updated_at": "2026-07-28T08:23:33.926369Z",
+    "total_videos": 493
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2944,6 +2944,24 @@
       "title": "CN MOW Tie Train Westbound July 27, 2026",
       "confidence": "high",
       "processed_at": "2026-07-27T19:40:45.834523Z"
+    },
+    "uy76soJCo_k": {
+      "channel": "MJM Productions",
+      "title": "SD70ACU! Railfanning at Cherrywood, ON (JUL 27, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-07-28T08:23:32.822835Z"
+    },
+    "j-pxSNI8oWQ": {
+      "channel": "MJM Productions",
+      "title": "CP 7032 SD70ACU leads CPKC 731 west",
+      "confidence": "medium",
+      "processed_at": "2026-07-28T08:23:32.823495Z"
+    },
+    "bpBmrSJsx70": {
+      "channel": "MJM Productions",
+      "title": "CP 8877 leads CPKC 106 past Cherrywood",
+      "confidence": "medium",
+      "processed_at": "2026-07-28T08:23:32.823638Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-27T19:40:47.657567Z",
+  "generated_at": "2026-07-28T08:23:33.932342Z",
   "dedup_registry": {
-    "total": 490,
+    "total": 493,
     "by_channel": {
       "Trackside Ontario": 33,
       "Trackside Tyson": 75,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 26,
       "Rail Fans Canada": 14,
       "Brockville RailFan": 175,
-      "MJM Productions": 127,
+      "MJM Productions": 130,
       "Central Canada Railfan": 10,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
@@ -18,28 +18,23 @@
     },
     "by_confidence": {
       "high": 116,
-      "medium": 330,
+      "medium": 333,
       "low": 44,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-20T00:00:00Z",
+  "since": "2026-07-21T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 8
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -68,13 +63,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 5,
-      "skipped": 19,
-      "high": 4,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 4,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 23
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,8 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 19
+      "videos": 3,
+      "skipped": 16,
+      "high": 0,
+      "medium": 3,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +112,117 @@
       "skipped": 2
     }
   ],
-  "total": 490,
-  "new_this_run": 6,
+  "total": 493,
+  "new_this_run": 3,
   "high_confidence": 116,
   "dg_likely": 84,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "uy76soJCo_k",
+      "video_url": "https://www.youtube.com/watch?v=uy76soJCo_k",
+      "title": "SD70ACU! Railfanning at Cherrywood, ON (JUL 27, 2026)",
+      "published_at": "2026-07-28T02:43:22Z",
+      "date": "2026-07-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "SD70ACU! Railfanning at Cherrywood, ON (JUL 27, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "j-pxSNI8oWQ",
+      "video_url": "https://www.youtube.com/watch?v=j-pxSNI8oWQ",
+      "title": "CP 7032 SD70ACU leads CPKC 731 west",
+      "published_at": "2026-07-27T22:25:42Z",
+      "date": "2026-07-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7032",
+        "CPKC 731"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7032",
+          "raw": "CP 7032"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 731",
+          "raw": "CPKC 731"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7032 SD70ACU leads CPKC 731 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "bpBmrSJsx70",
+      "video_url": "https://www.youtube.com/watch?v=bpBmrSJsx70",
+      "title": "CP 8877 leads CPKC 106 past Cherrywood",
+      "published_at": "2026-07-27T21:03:21Z",
+      "date": "2026-07-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8877",
+        "CPKC 106"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8877",
+          "raw": "CP 8877"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 106",
+          "raw": "CPKC 106"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8877 leads CPKC 106 past Cherrywood",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
