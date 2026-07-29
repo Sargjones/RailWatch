@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-29T08:29:13.486346Z",
+  "generated_at": "2026-07-29T19:22:53.417018Z",
   "source": "Ontario 511 Developer API (511on.ca)",
-  "total_cameras": 181,
-  "enabled_cameras": 181,
+  "total_cameras": 182,
+  "enabled_cameras": 182,
   "radius_km": 2.5,
   "by_corridor": {
     "CN Bala Sub": {
@@ -22,8 +22,8 @@
       "enabled": 65
     },
     "CN Kingston Sub": {
-      "total": 56,
-      "enabled": 56
+      "total": 57,
+      "enabled": 57
     },
     "CN Smiths Falls Sub": {
       "total": 12,
@@ -2187,6 +2187,19 @@
       "view_count": 2,
       "corridor": "CN Kingston Sub",
       "dist_km": 2.25,
+      "enabled": true
+    },
+    {
+      "id": 1428,
+      "name": "Highway 401 at Ontario Street",
+      "roadway": "Highway 401",
+      "lat": 43.969702,
+      "lon": -78.289175,
+      "view_url": "https://511on.ca/map/Cctv/2863",
+      "view_desc": "Looking West",
+      "view_count": 3,
+      "corridor": "CN Kingston Sub",
+      "dist_km": 2.26,
       "enabled": true
     },
     {
