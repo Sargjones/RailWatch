@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-28T19:38:32.369279Z",
-    "total_videos": 498
+    "updated_at": "2026-07-29T08:29:16.380737Z",
+    "total_videos": 500
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -2992,6 +2992,18 @@
       "title": "CP 6307, CP 6222, KCS 3928 lead GPS-27",
       "confidence": "medium",
       "processed_at": "2026-07-28T19:38:31.235970Z"
+    },
+    "0wQD_7Rm580": {
+      "channel": "Trackside Ontario",
+      "title": "CN M396 meets CN A425 at Bayview \u2022 July 27, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-29T08:29:13.873982Z"
+    },
+    "a9I50DuCSRE": {
+      "channel": "MJM Productions",
+      "title": "BALLAST TRAIN! CP 6307 at Palgrave, ON (JUL 28, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-07-29T08:29:15.555350Z"
     }
   }
 }

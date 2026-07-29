@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T19:38:32.452544Z",
+  "generated_at": "2026-07-29T08:29:16.463497Z",
   "total": 21,
   "cross_observer": 0,
   "chase": 21,
@@ -212,9 +212,54 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-28T19:38:32.451862Z",
+      "correlated_at": "2026-07-29T08:29:16.462837Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "A425",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-05-30",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=SINkvyCXrVA",
+        "title": "CN A425 horn salute through Mansewood"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 11.68,
+        "avg_speed_kmh": 4.1,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-07-29T08:29:16.462571Z",
+      "confidence": "low"
     },
     {
       "symbol": "CN149",
@@ -263,7 +308,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.451659Z",
+      "correlated_at": "2026-07-29T08:29:16.462641Z",
       "confidence": "low"
     },
     {
@@ -313,7 +358,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.451682Z",
+      "correlated_at": "2026-07-29T08:29:16.462655Z",
       "confidence": "low"
     },
     {
@@ -363,7 +408,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.451696Z",
+      "correlated_at": "2026-07-29T08:29:16.462672Z",
       "confidence": "low"
     },
     {
@@ -413,7 +458,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-28T19:38:32.451879Z",
+      "correlated_at": "2026-07-29T08:29:16.462850Z",
       "confidence": "low"
     },
     {
@@ -458,7 +503,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.451908Z",
+      "correlated_at": "2026-07-29T08:29:16.462879Z",
       "confidence": "medium"
     },
     {
@@ -503,7 +548,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452017Z",
+      "correlated_at": "2026-07-29T08:29:16.462988Z",
       "confidence": "low"
     },
     {
@@ -548,7 +593,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452028Z",
+      "correlated_at": "2026-07-29T08:29:16.463001Z",
       "confidence": "low"
     },
     {
@@ -593,7 +638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452065Z",
+      "correlated_at": "2026-07-29T08:29:16.463011Z",
       "confidence": "low"
     },
     {
@@ -638,7 +683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452181Z",
+      "correlated_at": "2026-07-29T08:29:16.463119Z",
       "confidence": "low"
     },
     {
@@ -688,7 +733,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452241Z",
+      "correlated_at": "2026-07-29T08:29:16.463179Z",
       "confidence": "low"
     },
     {
@@ -733,7 +778,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452293Z",
+      "correlated_at": "2026-07-29T08:29:16.463230Z",
       "confidence": "low"
     },
     {
@@ -778,7 +823,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452304Z",
+      "correlated_at": "2026-07-29T08:29:16.463246Z",
       "confidence": "low"
     },
     {
@@ -823,52 +868,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452367Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "A425",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-05-30",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=SINkvyCXrVA",
-        "title": "CN A425 horn salute through Mansewood"
-      },
-      "sighting_b": {
-        "location": "Aldershot",
-        "date": "2026-05-30",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
-        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
-      },
-      "transit": {
-        "distance_km": 48.2,
-        "elapsed_hours": 11.68,
-        "avg_speed_kmh": 4.1,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452391Z",
+      "correlated_at": "2026-07-29T08:29:16.463334Z",
       "confidence": "low"
     },
     {
@@ -913,7 +913,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452415Z",
+      "correlated_at": "2026-07-29T08:29:16.463373Z",
       "confidence": "low"
     },
     {
@@ -958,7 +958,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452427Z",
+      "correlated_at": "2026-07-29T08:29:16.463390Z",
       "confidence": "low"
     },
     {
@@ -1003,7 +1003,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452444Z",
+      "correlated_at": "2026-07-29T08:29:16.463405Z",
       "confidence": "low"
     },
     {
@@ -1048,7 +1048,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452465Z",
+      "correlated_at": "2026-07-29T08:29:16.463423Z",
       "confidence": "low"
     },
     {
@@ -1093,7 +1093,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452478Z",
+      "correlated_at": "2026-07-29T08:29:16.463436Z",
       "confidence": "low"
     },
     {
@@ -1138,7 +1138,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-28T19:38:32.452492Z",
+      "correlated_at": "2026-07-29T08:29:16.463448Z",
       "confidence": "low"
     }
   ]

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-07-28T19:38:32.376070Z",
+  "generated_at": "2026-07-29T08:29:16.387442Z",
   "dedup_registry": {
-    "total": 498,
+    "total": 500,
     "by_channel": {
-      "Trackside Ontario": 33,
+      "Trackside Ontario": 34,
       "Trackside Tyson": 76,
       "Southern Ontario Railfan": 19,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 26,
       "Rail Fans Canada": 14,
       "Brockville RailFan": 177,
-      "MJM Productions": 132,
+      "MJM Productions": 133,
       "Central Canada Railfan": 10,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
@@ -18,28 +18,28 @@
     },
     "by_confidence": {
       "high": 117,
-      "medium": 337,
+      "medium": 339,
       "low": 44,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-21T00:00:00Z",
+  "since": "2026-07-22T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 2
-    },
-    {
-      "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 7,
+      "skipped": 1,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
+    },
+    {
+      "channel": "Trackside Tyson",
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -54,7 +54,7 @@
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
       "videos": 0,
-      "skipped": 2,
+      "skipped": 1,
       "high": 0,
       "medium": 0,
       "low_meta": 0,
@@ -68,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 23,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 23
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,13 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 19,
+      "videos": 1,
+      "skipped": 16,
       "high": 0,
-      "medium": 2,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 2
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +117,114 @@
       "skipped": 2
     }
   ],
-  "total": 498,
-  "new_this_run": 5,
+  "total": 500,
+  "new_this_run": 2,
   "high_confidence": 117,
   "dg_likely": 84,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "a9I50DuCSRE",
+      "video_url": "https://www.youtube.com/watch?v=a9I50DuCSRE",
+      "title": "BALLAST TRAIN! CP 6307 at Palgrave, ON (JUL 28, 2026)",
+      "published_at": "2026-07-28T22:14:42Z",
+      "date": "2026-07-28",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 6307"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 6307",
+          "raw": "CP 6307"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "BALLAST TRAIN! CP 6307 at Palgrave, ON (JUL 28, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "0wQD_7Rm580",
+      "video_url": "https://www.youtube.com/watch?v=0wQD_7Rm580",
+      "title": "CN M396 meets CN A425 at Bayview \u2022 July 27, 2026",
+      "published_at": "2026-07-28T21:23:24Z",
+      "date": "2026-07-27",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2336",
+        "CN 3068",
+        "CN 3038",
+        "CN 3367",
+        "CN 3059"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "M396",
+          "raw": "M396"
+        },
+        {
+          "road": "CN",
+          "symbol": "A425",
+          "raw": "A425"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2336",
+          "raw": "CN 2336"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3068",
+          "raw": "CN 3068"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3038",
+          "raw": "CN 3038"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3367",
+          "raw": "CN 3367"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3059",
+          "raw": "CN 3059"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN M396 meets CN A425 at Bayview \u2022 July 27, 2026",
+      "description_chars": 214,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

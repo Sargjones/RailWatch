@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-28T19:38:32.502125Z",
-  "total_units": 253,
+  "generated_at": "2026-07-29T08:29:16.512598Z",
+  "total_units": 255,
   "min_sightings": 2,
   "by_road": {
-    "CN": 204,
+    "CN": 205,
     "VIA": 3,
-    "CP": 45,
+    "CP": 46,
     "RUCK": 1
   },
   "units": [
@@ -9521,6 +9521,50 @@
     },
     {
       "road": "CN",
+      "number": "6307",
+      "display": "CN 6307",
+      "sighting_count": 2,
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-28",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=a9I50DuCSRE",
+          "title": "BALLAST TRAIN! CP 6307 at Palgrave, ON (JUL 28, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-28",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JiQiXPPt6B8",
+          "title": "CP 6307, CP 6222, KCS 3928 lead GPS-27",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "6439",
       "display": "CN 6439",
       "sighting_count": 2,
@@ -11819,6 +11863,50 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=zhQa00rYM4A",
           "title": "RARE SD40-2 DUO! CP 5766 at Vaughan, ON (MAY 26, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "6307",
+      "display": "CP 6307",
+      "sighting_count": 2,
+      "first_seen": "2026-07-28",
+      "last_seen": "2026-07-28",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-07-28",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=a9I50DuCSRE",
+          "title": "BALLAST TRAIN! CP 6307 at Palgrave, ON (JUL 28, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-28",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JiQiXPPt6B8",
+          "title": "CP 6307, CP 6222, KCS 3928 lead GPS-27",
           "source": "text_extraction"
         }
       ]
