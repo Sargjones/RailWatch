@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-30T08:13:29.327085Z",
-  "total": 22,
-  "cross_observer": 1,
-  "chase": 21,
+  "generated_at": "2026-07-30T19:39:13.939299Z",
+  "total": 24,
+  "cross_observer": 2,
+  "chase": 22,
   "high": 0,
-  "medium": 2,
-  "dg_correlations": 3,
+  "medium": 3,
+  "dg_correlations": 4,
   "splits_suspected": 1,
   "anomalies": [
     {
@@ -196,6 +196,56 @@
   ],
   "correlations": [
     {
+      "symbol": "CN106",
+      "tier": "cross_observer",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-07-27",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=bpBmrSJsx70",
+        "title": "CP 8877 leads CPKC 106 past Cherrywood"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-07-30",
+        "observed_at": "2026-07-30T09:15-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 175,
+        "origin": "Roberts Bank BC",
+        "destination": "Montreal Taschereau QC",
+        "video_url": "https://www.youtube.com/watch?v=Fv5Jz3-fCs8",
+        "title": "CN Train 106 Eastbound July 30, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 60.19,
+        "avg_speed_kmh": 5.2,
+        "speed_plausible": false,
+        "consist_profile": "Mixed manifest freight",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 175,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "mixed",
+      "dg_likely": true,
+      "correlated_at": "2026-07-30T19:39:13.938370Z",
+      "confidence": "medium"
+    },
+    {
       "symbol": "CN731",
       "tier": "cross_observer",
       "sighting_a": {
@@ -242,7 +292,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-30T08:13:29.326382Z",
+      "correlated_at": "2026-07-30T19:39:13.938676Z",
       "confidence": "medium"
     },
     {
@@ -292,7 +342,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-30T08:13:29.326512Z",
+      "correlated_at": "2026-07-30T19:39:13.938600Z",
       "confidence": "low",
       "split_suspected": true
     },
@@ -343,7 +393,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326190Z",
+      "correlated_at": "2026-07-30T19:39:13.938498Z",
       "confidence": "low"
     },
     {
@@ -393,7 +443,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326221Z",
+      "correlated_at": "2026-07-30T19:39:13.938514Z",
       "confidence": "low"
     },
     {
@@ -443,52 +493,57 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326239Z",
+      "correlated_at": "2026-07-30T19:39:13.938529Z",
       "confidence": "low"
     },
     {
-      "symbol": "A425",
+      "symbol": "CN149",
       "tier": "chase",
       "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-05-30",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=SINkvyCXrVA",
-        "title": "CN A425 horn salute through Mansewood"
+        "location": "Brockville",
+        "date": "2026-07-29",
+        "observed_at": "2026-07-29T09:10-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 199,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=sPdLEHRBryo",
+        "title": "CN Train 149 Westbound July 29, 2026"
       },
       "sighting_b": {
-        "location": "Aldershot",
-        "date": "2026-05-30",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
+        "location": "Toronto",
+        "date": "2026-07-30",
+        "observed_at": "2026-07-30T08:48-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
         "car_count": null,
         "origin": null,
         "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
-        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+        "video_url": "https://www.youtube.com/watch?v=x_FKIL7-lT0",
+        "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30,"
       },
       "transit": {
-        "distance_km": 48.2,
-        "elapsed_hours": 11.68,
-        "avg_speed_kmh": 4.1,
+        "distance_km": 311.6,
+        "elapsed_hours": 23.63,
+        "avg_speed_kmh": 13.2,
         "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
+        "consist_profile": "Intermodal unit train",
         "inferred_direction": "West",
-        "direction_consistent": true,
+        "direction_consistent": false,
         "time_note": null
       },
-      "consist_delta": null,
-      "commodity": "unknown",
+      "consist_delta": {
+        "car_count_a": 199,
+        "car_count_b": null,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326428Z",
+      "correlated_at": "2026-07-30T19:39:13.938540Z",
       "confidence": "low"
     },
     {
@@ -538,7 +593,52 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-07-30T08:13:29.326523Z",
+      "correlated_at": "2026-07-30T19:39:13.938611Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "A425",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-05-30",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=SINkvyCXrVA",
+        "title": "CN A425 horn salute through Mansewood"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 11.68,
+        "avg_speed_kmh": 4.1,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-07-30T19:39:13.938715Z",
       "confidence": "low"
     },
     {
@@ -583,7 +683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326550Z",
+      "correlated_at": "2026-07-30T19:39:13.938751Z",
       "confidence": "medium"
     },
     {
@@ -628,7 +728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326624Z",
+      "correlated_at": "2026-07-30T19:39:13.938822Z",
       "confidence": "low"
     },
     {
@@ -673,7 +773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326635Z",
+      "correlated_at": "2026-07-30T19:39:13.938833Z",
       "confidence": "low"
     },
     {
@@ -718,7 +818,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326644Z",
+      "correlated_at": "2026-07-30T19:39:13.938846Z",
       "confidence": "low"
     },
     {
@@ -763,7 +863,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326749Z",
+      "correlated_at": "2026-07-30T19:39:13.938951Z",
       "confidence": "low"
     },
     {
@@ -813,7 +913,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326812Z",
+      "correlated_at": "2026-07-30T19:39:13.938993Z",
       "confidence": "low"
     },
     {
@@ -858,7 +958,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326858Z",
+      "correlated_at": "2026-07-30T19:39:13.939036Z",
       "confidence": "low"
     },
     {
@@ -903,7 +1003,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326870Z",
+      "correlated_at": "2026-07-30T19:39:13.939048Z",
       "confidence": "low"
     },
     {
@@ -948,7 +1048,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326933Z",
+      "correlated_at": "2026-07-30T19:39:13.939114Z",
       "confidence": "low"
     },
     {
@@ -993,7 +1093,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326962Z",
+      "correlated_at": "2026-07-30T19:39:13.939182Z",
       "confidence": "low"
     },
     {
@@ -1038,7 +1138,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326975Z",
+      "correlated_at": "2026-07-30T19:39:13.939195Z",
       "confidence": "low"
     },
     {
@@ -1083,7 +1183,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.326987Z",
+      "correlated_at": "2026-07-30T19:39:13.939206Z",
       "confidence": "low"
     },
     {
@@ -1128,7 +1228,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.327006Z",
+      "correlated_at": "2026-07-30T19:39:13.939220Z",
       "confidence": "low"
     },
     {
@@ -1173,7 +1273,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.327017Z",
+      "correlated_at": "2026-07-30T19:39:13.939235Z",
       "confidence": "low"
     },
     {
@@ -1218,7 +1318,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-07-30T08:13:29.327027Z",
+      "correlated_at": "2026-07-30T19:39:13.939245Z",
       "confidence": "low"
     }
   ]

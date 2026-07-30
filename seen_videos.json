@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-30T08:13:29.236742Z",
-    "total_videos": 512
+    "updated_at": "2026-07-30T19:39:13.851496Z",
+    "total_videos": 516
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3076,6 +3076,30 @@
       "title": "VIA Train 67 Westbound July 28, 2026",
       "confidence": "medium",
       "processed_at": "2026-07-29T19:22:56.090513Z"
+    },
+    "SLbCPLpxv0M": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 377 Westbound July 30, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-30T19:39:12.031879Z"
+    },
+    "Fv5Jz3-fCs8": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 106 Eastbound July 30, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-30T19:39:12.032147Z"
+    },
+    "VKQ9cz5tTwk": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound July 30, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-07-30T19:39:12.032324Z"
+    },
+    "x_FKIL7-lT0": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30, 2026",
+      "confidence": "high",
+      "processed_at": "2026-07-30T19:39:12.032542Z"
     }
   }
 }
