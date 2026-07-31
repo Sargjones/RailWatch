@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-07-30T19:39:13.851496Z",
-    "total_videos": 516
+    "updated_at": "2026-07-31T08:40:20.464061Z",
+    "total_videos": 517
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3100,6 +3100,12 @@
       "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30, 2026",
       "confidence": "high",
       "processed_at": "2026-07-30T19:39:12.032542Z"
+    },
+    "QJ3BjL8dnQg": {
+      "channel": "Scott Rails (Chasing The Money Shot)",
+      "title": "Big Train On The Banked Curve #modeltrains",
+      "confidence": "medium",
+      "processed_at": "2026-07-31T08:40:18.120744Z"
     }
   }
 }

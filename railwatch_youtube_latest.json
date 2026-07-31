@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-30T19:39:13.858873Z",
+  "generated_at": "2026-07-31T08:40:20.471524Z",
   "dedup_registry": {
-    "total": 516,
+    "total": 517,
     "by_channel": {
       "Trackside Ontario": 34,
       "Trackside Tyson": 77,
       "Southern Ontario Railfan": 19,
       "Trackside Tristan": 5,
-      "Scott Rails (Chasing The Money Shot)": 26,
+      "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 15,
       "Brockville RailFan": 191,
       "MJM Productions": 133,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 126,
-      "medium": 345,
+      "medium": 346,
       "low": 45,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-23T00:00:00Z",
+  "since": "2026-07-24T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -48,13 +48,13 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 0,
+      "videos": 1,
       "skipped": 1,
       "high": 0,
-      "medium": 0,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 0
+      "defaulted": 1
     },
     {
       "channel": "Rail Fans Canada",
@@ -63,13 +63,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 4,
-      "skipped": 29,
-      "high": 3,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 30
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -84,7 +79,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 17
+      "skipped": 12
     },
     {
       "channel": "Ontario Railman",
@@ -99,7 +94,7 @@
     {
       "channel": "The Cando Railfan",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "The Manitoba Railfan",
@@ -109,14 +104,40 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     }
   ],
-  "total": 516,
-  "new_this_run": 4,
+  "total": 517,
+  "new_this_run": 1,
   "high_confidence": 126,
   "dg_likely": 91,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Scott Rails (Chasing The Money Shot)",
+      "channel_id": "UCQUUHzkvfoCqcTKIn6cI9yw",
+      "video_id": "QJ3BjL8dnQg",
+      "video_url": "https://www.youtube.com/watch?v=QJ3BjL8dnQg",
+      "title": "Big Train On The Banked Curve #modeltrains",
+      "published_at": "2026-07-30T20:29:00Z",
+      "date": "2026-07-30",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Big Train On The Banked Curve #modeltrains",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
