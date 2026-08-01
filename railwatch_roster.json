@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-31T19:40:36.024863Z",
-  "total_units": 271,
+  "generated_at": "2026-08-01T08:10:29.581426Z",
+  "total_units": 275,
   "min_sightings": 2,
   "by_road": {
-    "CN": 221,
+    "CN": 223,
     "VIA": 3,
-    "CP": 46,
+    "CP": 48,
     "RUCK": 1
   },
   "units": [
@@ -745,6 +745,94 @@
           "video_url": "https://www.youtube.com/watch?v=fOHNAZauvus",
           "title": "CN Train 368 Lifting June 11, 2026",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "4432",
+      "display": "CN 4432",
+      "sighting_count": 5,
+      "first_seen": "2026-06-25",
+      "last_seen": "2026-09-07",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 240",
+        "CN 100",
+        "CN 321"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-07",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 240",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=U81sZXL_Uog",
+          "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
+          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-17",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "The Cando Railfan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5yD4qRGB-o0",
+          "title": "SOO 4402 Leads Local Freight South on Emerson Subdivision",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-25",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 321",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=45IVMjIIwRg",
+          "title": "Busy Evening of CP Trains on The Keewatin Sub. (6/25/2026)",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -2259,81 +2347,6 @@
     },
     {
       "road": "CN",
-      "number": "4432",
-      "display": "CN 4432",
-      "sighting_count": 4,
-      "first_seen": "2026-06-25",
-      "last_seen": "2026-09-07",
-      "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 240",
-        "CN 100",
-        "CN 321"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-07",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 240",
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=U81sZXL_Uog",
-          "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-08-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 100",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
-          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-07-17",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "The Cando Railfan",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=5yD4qRGB-o0",
-          "title": "SOO 4402 Leads Local Freight South on Emerson Subdivision",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-06-25",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 321",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=45IVMjIIwRg",
-          "title": "Busy Evening of CP Trains on The Keewatin Sub. (6/25/2026)",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "4939",
       "display": "CN 4939",
       "sighting_count": 4,
@@ -3680,6 +3693,67 @@
     },
     {
       "road": "CN",
+      "number": "3053",
+      "display": "CN 3053",
+      "sighting_count": 3,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-08-01",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 271"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-11",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 271",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=CveM9kkRAZ0",
+          "title": "CN Train 271 Westbound July 11, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-11",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 271",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=CveM9kkRAZ0",
+          "title": "CN Train 271 Westbound July 11, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3062",
       "display": "CN 3062",
       "sighting_count": 3,
@@ -3736,6 +3810,127 @@
           "video_url": "https://www.youtube.com/watch?v=8gkIQBpWETU",
           "title": "CN Train 149 Westbound June 1, 2026",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3092",
+      "display": "CN 3092",
+      "sighting_count": 3,
+      "first_seen": "2026-07-23",
+      "last_seen": "2026-08-01",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 369"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 369",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=xVrGNEA18AA",
+          "title": "CN Train 369 Westbound July 23, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 369",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=xVrGNEA18AA",
+          "title": "CN Train 369 Westbound July 23, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3112",
+      "display": "CN 3112",
+      "sighting_count": 3,
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-08-01",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 321"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-25",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 321",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=45IVMjIIwRg",
+          "title": "Busy Evening of CP Trains on The Keewatin Sub. (6/25/2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-05-07",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PwjBdbIAK1M",
+          "title": "Rare SOO Line GP38-2 on The CP Winnipeg Beach Sub!",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -4536,6 +4731,67 @@
           "video_url": "https://www.youtube.com/watch?v=jFoQakVY7G0",
           "title": "CN Train 368 Eastbound June 16, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "4444",
+      "display": "CN 4444",
+      "sighting_count": 3,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-09-07",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 240",
+        "CN 100"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-07",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 240",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=U81sZXL_Uog",
+          "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
+          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -7172,48 +7428,45 @@
     },
     {
       "road": "CN",
-      "number": "3053",
-      "display": "CN 3053",
+      "number": "3049",
+      "display": "CN 3049",
       "sighting_count": 2,
-      "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-08-01",
       "corridors": [
-        "CN Kingston Sub"
+        "CN Mainline Manitoba"
       ],
-      "trains_led": [
-        "CN 271"
-      ],
+      "trains_led": [],
       "dpu_confirmed": false,
       "roles_seen": [
-        "unknown",
-        "lead"
+        "unknown"
       ],
       "sightings": [
         {
-          "date": "2026-07-11",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 271",
-          "direction": "West",
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
           "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=CveM9kkRAZ0",
-          "title": "CN Train 271 Westbound July 11, 2026",
-          "source": "text_extraction"
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "symbol_extraction"
         },
         {
-          "date": "2026-07-11",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 271",
-          "direction": "West",
-          "role": "lead",
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=CveM9kkRAZ0",
-          "title": "CN Train 271 Westbound July 11, 2026",
-          "source": "description_structured"
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -7455,53 +7708,6 @@
     },
     {
       "road": "CN",
-      "number": "3092",
-      "display": "CN 3092",
-      "sighting_count": 2,
-      "first_seen": "2026-07-23",
-      "last_seen": "2026-07-23",
-      "corridors": [
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 369"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-23",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 369",
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=xVrGNEA18AA",
-          "title": "CN Train 369 Westbound July 23, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-23",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 369",
-          "direction": "West",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=xVrGNEA18AA",
-          "title": "CN Train 369 Westbound July 23, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "3099",
       "display": "CN 3099",
       "sighting_count": 2,
@@ -7591,53 +7797,6 @@
           "video_url": "https://www.youtube.com/watch?v=sPdLEHRBryo",
           "title": "CN Train 149 Westbound July 29, 2026",
           "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3112",
-      "display": "CN 3112",
-      "sighting_count": 2,
-      "first_seen": "2026-05-07",
-      "last_seen": "2026-06-25",
-      "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 321"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-06-25",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 321",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=45IVMjIIwRg",
-          "title": "Busy Evening of CP Trains on The Keewatin Sub. (6/25/2026)",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-05-07",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=PwjBdbIAK1M",
-          "title": "Rare SOO Line GP38-2 on The CP Winnipeg Beach Sub!",
-          "source": "symbol_extraction"
         }
       ]
     },
@@ -7826,6 +7985,50 @@
           "video_url": "https://www.youtube.com/watch?v=d7irgpJMD_4",
           "title": "CN Train 121 Westbound July 27 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3123",
+      "display": "CN 3123",
+      "sighting_count": 2,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-08-01",
+      "corridors": [
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -10087,54 +10290,6 @@
     },
     {
       "road": "CN",
-      "number": "4444",
-      "display": "CN 4444",
-      "sighting_count": 2,
-      "first_seen": "2026-08-07",
-      "last_seen": "2026-09-07",
-      "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 240",
-        "CN 100"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-07",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 240",
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=U81sZXL_Uog",
-          "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-08-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 100",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
-          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "5602",
       "display": "CN 5602",
       "sighting_count": 2,
@@ -12249,7 +12404,7 @@
       "road": "CP",
       "number": "4432",
       "display": "CP 4432",
-      "sighting_count": 4,
+      "sighting_count": 5,
       "first_seen": "2026-06-25",
       "last_seen": "2026-09-07",
       "corridors": [
@@ -12290,6 +12445,19 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
           "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
           "source": "text_extraction"
         },
         {
@@ -12392,6 +12560,127 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
           "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "3112",
+      "display": "CP 3112",
+      "sighting_count": 3,
+      "first_seen": "2026-05-07",
+      "last_seen": "2026-08-01",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 321"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-25",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 321",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=45IVMjIIwRg",
+          "title": "Busy Evening of CP Trains on The Keewatin Sub. (6/25/2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-07",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PwjBdbIAK1M",
+          "title": "Rare SOO Line GP38-2 on The CP Winnipeg Beach Sub!",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "4444",
+      "display": "CP 4444",
+      "sighting_count": 3,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-09-07",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 240",
+        "CN 100"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-07",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 240",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=U81sZXL_Uog",
+          "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
+          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
           "source": "text_extraction"
         }
       ]
@@ -12625,95 +12914,88 @@
     },
     {
       "road": "CP",
-      "number": "3112",
-      "display": "CP 3112",
+      "number": "3049",
+      "display": "CP 3049",
       "sighting_count": 2,
-      "first_seen": "2026-05-07",
-      "last_seen": "2026-06-25",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-08-01",
       "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston/Oakville Sub"
+        "CN Mainline Manitoba"
       ],
-      "trains_led": [
-        "CN 321"
-      ],
+      "trains_led": [],
       "dpu_confirmed": false,
       "roles_seen": [
         "unknown"
       ],
       "sightings": [
         {
-          "date": "2026-06-25",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 321",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=45IVMjIIwRg",
-          "title": "Busy Evening of CP Trains on The Keewatin Sub. (6/25/2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-05-07",
+          "date": "2026-08-01",
           "location": "Winnipeg",
           "subdivision": "CN Mainline Manitoba",
           "channel": "Central Canada Railfan",
           "train_symbol": null,
-          "direction": null,
+          "direction": "East",
           "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=PwjBdbIAK1M",
-          "title": "Rare SOO Line GP38-2 on The CP Winnipeg Beach Sub!",
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
           "source": "text_extraction"
         }
       ]
     },
     {
       "road": "CP",
-      "number": "4444",
-      "display": "CP 4444",
+      "number": "3123",
+      "display": "CP 3123",
       "sighting_count": 2,
-      "first_seen": "2026-08-07",
-      "last_seen": "2026-09-07",
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-08-01",
       "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston/Oakville Sub"
+        "CN Mainline Manitoba"
       ],
-      "trains_led": [
-        "CN 240",
-        "CN 100"
-      ],
+      "trains_led": [],
       "dpu_confirmed": false,
       "roles_seen": [
         "unknown"
       ],
       "sightings": [
         {
-          "date": "2026-09-07",
+          "date": "2026-08-01",
           "location": "Winnipeg",
           "subdivision": "CN Mainline Manitoba",
           "channel": "Central Canada Railfan",
-          "train_symbol": "CN 240",
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=U81sZXL_Uog",
-          "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 100",
+          "train_symbol": null,
           "direction": "East",
           "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
-          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
           "source": "text_extraction"
         }
       ]

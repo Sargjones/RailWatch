@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-31T19:40:35.902986Z",
+  "generated_at": "2026-08-01T08:10:29.454819Z",
   "dedup_registry": {
-    "total": 522,
+    "total": 523,
     "by_channel": {
       "Trackside Ontario": 34,
       "Trackside Tyson": 78,
@@ -11,20 +11,20 @@
       "Rail Fans Canada": 15,
       "Brockville RailFan": 195,
       "MJM Productions": 133,
-      "Central Canada Railfan": 10,
+      "Central Canada Railfan": 11,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 129,
+      "high": 130,
       "medium": 347,
       "low": 46,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-24T00:00:00Z",
+  "since": "2026-07-25T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,13 +33,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 7,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -68,13 +63,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 4,
-      "skipped": 30,
-      "high": 3,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 27
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -89,7 +79,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 12
+      "skipped": 11
     },
     {
       "channel": "Ontario Railman",
@@ -113,15 +103,114 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     }
   ],
-  "total": 522,
-  "new_this_run": 5,
-  "high_confidence": 129,
+  "total": 523,
+  "new_this_run": 1,
+  "high_confidence": 130,
   "dg_likely": 93,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "bJ7D-UYZJVE",
+      "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+      "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-Milwaukee Road GP38-2! - July 2026",
+      "published_at": "2026-08-01T00:30:32Z",
+      "date": "2026-08-01",
+      "location": "Winnipeg",
+      "subdivision": "CN Mainline Manitoba",
+      "lat": 49.8951,
+      "lon": -97.1384,
+      "direction": "East",
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 4432",
+        "CP 4444",
+        "CP 3049",
+        "CP 3123",
+        "CP 4511",
+        "CP 2304",
+        "CP 3053",
+        "CP 4421",
+        "CP 3112",
+        "CP 3092",
+        "CP 4447"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 4432",
+          "raw": "CP 4432"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4444",
+          "raw": "CP 4444"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3049",
+          "raw": "CP 3049"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3123",
+          "raw": "CP 3123"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4511",
+          "raw": "CP 4511"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2304",
+          "raw": "CP 2304"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3053",
+          "raw": "CP 3053"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4421",
+          "raw": "CP 4421"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3112",
+          "raw": "CP 3112"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3092",
+          "raw": "CP 3092"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4447",
+          "raw": "CP 4447"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-Milwaukee Road GP38-2! - July 2026",
+      "description_chars": 798,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
