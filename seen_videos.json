@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-01T08:10:29.448103Z",
-    "total_videos": 523
+    "updated_at": "2026-08-01T19:14:55.332348Z",
+    "total_videos": 524
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3142,6 +3142,12 @@
       "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-Milwaukee Road GP38-",
       "confidence": "high",
       "processed_at": "2026-08-01T08:10:29.448079Z"
+    },
+    "eWOy7p8e55g": {
+      "channel": "Trackside Tyson",
+      "title": "TRAIN MEET IN THE CANYON #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-08-01T19:14:52.173477Z"
     }
   }
 }
