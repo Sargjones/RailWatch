@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-02T08:11:40.717011Z",
+  "generated_at": "2026-08-02T19:16:41.178011Z",
   "dedup_registry": {
-    "total": 527,
+    "total": 530,
     "by_channel": {
       "Trackside Ontario": 35,
-      "Trackside Tyson": 81,
+      "Trackside Tyson": 82,
       "Southern Ontario Railfan": 19,
-      "Trackside Tristan": 5,
+      "Trackside Tristan": 7,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 15,
       "Brockville RailFan": 195,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 130,
-      "medium": 349,
+      "medium": 352,
       "low": 48,
       "meta": 0
     }
@@ -28,22 +28,17 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
+      "videos": 0,
+      "skipped": 3
+    },
+    {
+      "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 2,
+      "skipped": 8,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 0
-    },
-    {
-      "channel": "Trackside Tyson",
-      "videos": 2,
-      "skipped": 6,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 1,
-      "dg_likely": 1,
       "defaulted": 0
     },
     {
@@ -53,8 +48,13 @@
     },
     {
       "channel": "Trackside Tristan",
-      "videos": 0,
-      "skipped": 0
+      "videos": 2,
+      "skipped": 0,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
@@ -117,11 +117,89 @@
       "skipped": 2
     }
   ],
-  "total": 527,
+  "total": 530,
   "new_this_run": 3,
   "high_confidence": 130,
   "dg_likely": 94,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tristan",
+      "channel_id": "UCJzmiVZMfXiOm8dKP_Ntj7w",
+      "video_id": "ws3XGUc2QNY",
+      "video_url": "https://www.youtube.com/watch?v=ws3XGUc2QNY",
+      "title": "CN Train Arriving From the USA! \ud83c\uddfa\ud83c\uddf8 #canada #train #railway #usa #freighttrain #international",
+      "published_at": "2026-08-02T15:05:59Z",
+      "date": "2026-08-02",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train Arriving From the USA! \ud83c\uddfa\ud83c\uddf8 #canada #train #railway #usa #freighttrain #international",
+      "description_chars": 592,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tristan",
+      "channel_id": "UCJzmiVZMfXiOm8dKP_Ntj7w",
+      "video_id": "zu7SNYgJkQk",
+      "video_url": "https://www.youtube.com/watch?v=zu7SNYgJkQk",
+      "title": "Coyote Caught Commuting on the Train Tracks \ud83d\udee4\ufe0f #train #adventure #wildlife #trainwatching #shorts",
+      "published_at": "2026-08-02T14:54:55Z",
+      "date": "2026-08-02",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Coyote Caught Commuting on the Train Tracks \ud83d\udee4\ufe0f #train #adventure #wildlife #trainwatching #shorts",
+      "description_chars": 469,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "TPQNKLKzNxI",
+      "video_url": "https://www.youtube.com/watch?v=TPQNKLKzNxI",
+      "title": "CN GRAIN TRAIN THRU THE CANYON #youtubeshorts",
+      "published_at": "2026-08-02T13:00:21Z",
+      "date": "2026-08-02",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN GRAIN TRAIN THRU THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
