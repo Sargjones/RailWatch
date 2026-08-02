@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-01T19:14:55.339766Z",
+  "generated_at": "2026-08-02T08:11:40.717011Z",
   "dedup_registry": {
-    "total": 524,
+    "total": 527,
     "by_channel": {
-      "Trackside Ontario": 34,
-      "Trackside Tyson": 79,
+      "Trackside Ontario": 35,
+      "Trackside Tyson": 81,
       "Southern Ontario Railfan": 19,
       "Trackside Tristan": 5,
       "Scott Rails (Chasing The Money Shot)": 27,
@@ -18,27 +18,32 @@
     },
     "by_confidence": {
       "high": 130,
-      "medium": 347,
-      "low": 47,
+      "medium": 349,
+      "low": 48,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-25T00:00:00Z",
+  "since": "2026-07-26T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 7,
+      "videos": 2,
+      "skipped": 6,
       "high": 0,
-      "medium": 0,
+      "medium": 1,
       "low_meta": 1,
-      "dg_likely": 0,
+      "dg_likely": 1,
       "defaulted": 0
     },
     {
@@ -54,7 +59,7 @@
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
       "videos": 0,
-      "skipped": 2,
+      "skipped": 1,
       "high": 0,
       "medium": 0,
       "low_meta": 0,
@@ -84,7 +89,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 11
+      "skipped": 8
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,89 @@
       "skipped": 2
     }
   ],
-  "total": 524,
-  "new_this_run": 1,
+  "total": 527,
+  "new_this_run": 3,
   "high_confidence": 130,
-  "dg_likely": 93,
+  "dg_likely": 94,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "ikVhfcSK-ig",
+      "video_url": "https://www.youtube.com/watch?v=ikVhfcSK-ig",
+      "title": "CANADIAN RAILROAD ACTION THRU THE BUSY THOMPSON CANYON! ",
+      "published_at": "2026-08-01T22:12:13Z",
+      "date": "2026-08-01",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CANADIAN RAILROAD ACTION THRU THE BUSY THOMPSON CANYON! ",
+      "description_chars": 448,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "4NWu8Loa9cU",
+      "video_url": "https://www.youtube.com/watch?v=4NWu8Loa9cU",
+      "title": "Wednesday Evening at Bayview \u2022 July 29, 2026",
+      "published_at": "2026-08-01T22:08:37Z",
+      "date": "2026-07-29",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Wednesday Evening at Bayview \u2022 July 29, 2026",
+      "description_chars": 122,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "UOLCY_i65ts",
+      "video_url": "https://www.youtube.com/watch?v=UOLCY_i65ts",
+      "title": "BUSY TRAIN MEETS IN THE THOMPSON CANYON!",
+      "published_at": "2026-08-01T19:30:18Z",
+      "date": "2026-08-01",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "BUSY TRAIN MEETS IN THE THOMPSON CANYON!",
+      "description_chars": 566,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
