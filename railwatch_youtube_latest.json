@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-03T09:32:00.048897Z",
+  "generated_at": "2026-08-03T19:43:11.376698Z",
   "dedup_registry": {
-    "total": 535,
+    "total": 539,
     "by_channel": {
       "Trackside Ontario": 35,
-      "Trackside Tyson": 82,
+      "Trackside Tyson": 83,
       "Southern Ontario Railfan": 19,
       "Trackside Tristan": 7,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 15,
-      "Brockville RailFan": 195,
-      "MJM Productions": 138,
+      "Brockville RailFan": 196,
+      "MJM Productions": 140,
       "Central Canada Railfan": 11,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 130,
-      "medium": 357,
+      "medium": 361,
       "low": 48,
       "meta": 0
     }
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 7,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,8 +68,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 25
+      "videos": 1,
+      "skipped": 25,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,13 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 5,
-      "skipped": 7,
+      "videos": 2,
+      "skipped": 12,
       "high": 0,
-      "medium": 5,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 4
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +122,158 @@
       "skipped": 1
     }
   ],
-  "total": 535,
-  "new_this_run": 5,
+  "total": 539,
+  "new_this_run": 4,
   "high_confidence": 130,
   "dg_likely": 94,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "rtbNurvq1RE",
+      "video_url": "https://www.youtube.com/watch?v=rtbNurvq1RE",
+      "title": "BIG GRAIN TRAIN OVER BRIDGE #shortvideo",
+      "published_at": "2026-08-03T18:38:06Z",
+      "date": "2026-08-03",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "BIG GRAIN TRAIN OVER BRIDGE #shortvideo",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Nogor3ykLAA",
+      "video_url": "https://www.youtube.com/watch?v=Nogor3ykLAA",
+      "title": "CN 2514 C44-9WL leads CN Z126 south",
+      "published_at": "2026-08-03T18:00:13Z",
+      "date": "2026-08-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2514"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2514",
+          "raw": "CN 2514"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z126",
+          "raw": "Z126"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2514 C44-9WL leads CN Z126 south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "8PSosb4ANLs",
+      "video_url": "https://www.youtube.com/watch?v=8PSosb4ANLs",
+      "title": "CN Z126 heads south around the long bend",
+      "published_at": "2026-08-03T16:14:09Z",
+      "date": "2026-08-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Z126",
+          "raw": "Z126"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Z126 heads south around the long bend",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "LEs1Tt-7f6g",
+      "video_url": "https://www.youtube.com/watch?v=LEs1Tt-7f6g",
+      "title": "VIA Train 61 Westbound August 3, 2026",
+      "published_at": "2026-08-03T13:22:05Z",
+      "date": "2026-08-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound August 3, 2026",
+      "description_chars": 174,
+      "consist": {
+        "coaches": [
+          "Speed: 67 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 108,
+        "speed_raw": "67 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:54",
+        "observed_tz": "EDT",
+        "temperature_c": 17,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-08-03T08:54-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
