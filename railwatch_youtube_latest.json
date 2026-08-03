@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-02T19:16:41.178011Z",
+  "generated_at": "2026-08-03T09:32:00.048897Z",
   "dedup_registry": {
-    "total": 530,
+    "total": 535,
     "by_channel": {
       "Trackside Ontario": 35,
       "Trackside Tyson": 82,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 15,
       "Brockville RailFan": 195,
-      "MJM Productions": 133,
+      "MJM Productions": 138,
       "Central Canada Railfan": 11,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 130,
-      "medium": 352,
+      "medium": 357,
       "low": 48,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-26T00:00:00Z",
+  "since": "2026-07-27T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,28 +33,18 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 8,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "Trackside Tristan",
-      "videos": 2,
-      "skipped": 0,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
@@ -74,7 +64,7 @@
     {
       "channel": "Brockville RailFan",
       "videos": 0,
-      "skipped": 27
+      "skipped": 25
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,8 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 8
+      "videos": 5,
+      "skipped": 7,
+      "high": 0,
+      "medium": 5,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 4
     },
     {
       "channel": "Ontario Railman",
@@ -99,7 +94,7 @@
     {
       "channel": "Winnipeg Railman",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "The Cando Railfan",
@@ -114,14 +109,267 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     }
   ],
-  "total": 530,
-  "new_this_run": 3,
+  "total": 535,
+  "new_this_run": 5,
   "high_confidence": 130,
   "dg_likely": 94,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "MrlnmFXvbcM",
+      "video_url": "https://www.youtube.com/watch?v=MrlnmFXvbcM",
+      "title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)",
+      "published_at": "2026-08-03T00:35:26Z",
+      "date": "2026-08-02",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7604",
+        "CP 7465",
+        "CPKC 112",
+        "CP 8105",
+        "CP 7532",
+        "CP 7581",
+        "CPKC 113",
+        "CP 8877",
+        "CP 8747",
+        "CP 8037",
+        "CP 8605"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7604",
+          "raw": "CP 7604"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7465",
+          "raw": "CP 7465"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8105",
+          "raw": "CP 8105"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7532",
+          "raw": "CP 7532"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7581",
+          "raw": "CP 7581"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8877",
+          "raw": "CP 8877"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8747",
+          "raw": "CP 8747"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8037",
+          "raw": "CP 8037"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8605",
+          "raw": "CP 8605"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)",
+      "description_chars": 1119,
+      "consist": {
+        "observed_time": "2:32",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-08-02T2:32",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Ow2EEyFGfGs",
+      "video_url": "https://www.youtube.com/watch?v=Ow2EEyFGfGs",
+      "title": "CP 8037 AC4400CWM leads CPKC 2-100",
+      "published_at": "2026-08-02T22:17:43Z",
+      "date": "2026-08-02",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8037"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8037",
+          "raw": "CP 8037"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8037 AC4400CWM leads CPKC 2-100",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "eHItiaQUbac",
+      "video_url": "https://www.youtube.com/watch?v=eHItiaQUbac",
+      "title": "CP 8877 + CP 8747 lead CPKC 113 north",
+      "published_at": "2026-08-02T21:04:40Z",
+      "date": "2026-08-02",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8877",
+        "CP 8747",
+        "CPKC 113"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8877",
+          "raw": "CP 8877"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8747",
+          "raw": "CP 8747"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8877 + CP 8747 lead CPKC 113 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "CbVZDDXpXyc",
+      "video_url": "https://www.youtube.com/watch?v=CbVZDDXpXyc",
+      "title": "CP 8105 AC4400CWM leads CPKC 112",
+      "published_at": "2026-08-02T19:58:00Z",
+      "date": "2026-08-02",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8105",
+        "CPKC 112"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8105",
+          "raw": "CP 8105"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8105 AC4400CWM leads CPKC 112",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "1pVCnF-QVfY",
+      "video_url": "https://www.youtube.com/watch?v=1pVCnF-QVfY",
+      "title": "Freshly new CP 7604 leads CPKC 2-114 south",
+      "published_at": "2026-08-02T19:56:05Z",
+      "date": "2026-08-02",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7604"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7604",
+          "raw": "CP 7604"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Freshly new CP 7604 leads CPKC 2-114 south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
