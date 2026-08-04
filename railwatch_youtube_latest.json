@@ -1,45 +1,40 @@
 {
-  "generated_at": "2026-08-03T19:43:11.376698Z",
+  "generated_at": "2026-08-04T08:27:49.123288Z",
   "dedup_registry": {
-    "total": 539,
+    "total": 543,
     "by_channel": {
       "Trackside Ontario": 35,
       "Trackside Tyson": 83,
       "Southern Ontario Railfan": 19,
-      "Trackside Tristan": 7,
+      "Trackside Tristan": 9,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 15,
       "Brockville RailFan": 196,
-      "MJM Productions": 140,
+      "MJM Productions": 142,
       "Central Canada Railfan": 11,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 130,
-      "medium": 361,
+      "high": 132,
+      "medium": 363,
       "low": 48,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-27T00:00:00Z",
+  "since": "2026-07-28T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 7,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 8
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -48,8 +43,13 @@
     },
     {
       "channel": "Trackside Tristan",
-      "videos": 0,
-      "skipped": 2
+      "videos": 2,
+      "skipped": 2,
+      "high": 2,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
@@ -68,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 1,
-      "skipped": 25,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 21
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -89,12 +84,12 @@
     {
       "channel": "MJM Productions",
       "videos": 2,
-      "skipped": 12,
+      "skipped": 11,
       "high": 0,
       "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 2
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +117,143 @@
       "skipped": 1
     }
   ],
-  "total": 539,
+  "total": 543,
   "new_this_run": 4,
-  "high_confidence": 130,
-  "dg_likely": 94,
+  "high_confidence": 132,
+  "dg_likely": 95,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tristan",
+      "channel_id": "UCJzmiVZMfXiOm8dKP_Ntj7w",
+      "video_id": "ONcvRYfpTU0",
+      "video_url": "https://www.youtube.com/watch?v=ONcvRYfpTU0",
+      "title": "LOUD HORN! CPKC Intermodal Train Blasts Crossing #train #railway #shorts #subscribe #loud #fast",
+      "published_at": "2026-08-04T00:33:27Z",
+      "date": "2026-08-04",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "LOUD HORN! CPKC Intermodal Train Blasts Crossing #train #railway #shorts #subscribe #loud #fast",
+      "description_chars": 640,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tristan",
+      "channel_id": "UCJzmiVZMfXiOm8dKP_Ntj7w",
+      "video_id": "LKd0AwFFnv8",
+      "video_url": "https://www.youtube.com/watch?v=LKd0AwFFnv8",
+      "title": "Two massive CPKC freight trains creep past each other in Essa, ON! \ud83d\ude82\ud83c\udde8\ud83c\udde6 #trains #cpkc #shorts",
+      "published_at": "2026-08-04T00:19:08Z",
+      "date": "2026-08-04",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "unknown",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "Two massive CPKC freight trains creep past each other in Essa, ON! \ud83d\ude82\ud83c\udde8\ud83c\udde6 #trains #cpkc #shorts",
+      "description_chars": 984,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "aFWEQYx1Ccw",
+      "video_url": "https://www.youtube.com/watch?v=aFWEQYx1Ccw",
+      "title": "CN 3134 + CN 8101 lead CN Q109 north",
+      "published_at": "2026-08-03T23:08:48Z",
+      "date": "2026-08-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3134",
+        "CN 8101"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3134",
+          "raw": "CN 3134"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8101",
+          "raw": "CN 8101"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q109",
+          "raw": "Q109"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3134 + CN 8101 lead CN Q109 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "qa2pFAal3oA",
+      "video_url": "https://www.youtube.com/watch?v=qa2pFAal3oA",
+      "title": "Chasing CN 2514 C44-9WL south on the Bala sub (AUG 3, 2026)",
+      "published_at": "2026-08-03T23:06:47Z",
+      "date": "2026-08-03",
+      "location": "CN Bala Sub",
+      "subdivision": "CN Bala Sub",
+      "lat": 44.5,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2514"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2514",
+          "raw": "CN 2514"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Chasing CN 2514 C44-9WL south on the Bala sub (AUG 3, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

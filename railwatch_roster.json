@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-03T19:43:11.502013Z",
-  "total_units": 285,
+  "generated_at": "2026-08-04T08:27:49.223378Z",
+  "total_units": 286,
   "min_sightings": 2,
   "by_road": {
-    "CN": 227,
+    "CN": 228,
     "VIA": 3,
     "CP": 54,
     "RUCK": 1
@@ -2635,6 +2635,82 @@
     },
     {
       "road": "CN",
+      "number": "8101",
+      "display": "CN 8101",
+      "sighting_count": 4,
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-08-03",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "Q109",
+        "CN 730",
+        "CN 321"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q109",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=aFWEQYx1Ccw",
+          "title": "CN 3134 + CN 8101 lead CN Q109 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-27",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 730",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=B6tnA_BLK4U",
+          "title": "CN Train 730 Eastbound July 27, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-27",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 730",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=B6tnA_BLK4U",
+          "title": "CN Train 730 Eastbound July 27, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-04-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 321",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=AwcRw6RZQe0",
+          "title": "CP Rail and CN Trains In Western Manitoba! (7/4/2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "9523",
       "display": "CN 9523",
       "sighting_count": 4,
@@ -5221,68 +5297,6 @@
     },
     {
       "road": "CN",
-      "number": "8101",
-      "display": "CN 8101",
-      "sighting_count": 3,
-      "first_seen": "2026-04-07",
-      "last_seen": "2026-07-27",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 730",
-        "CN 321"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-27",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 730",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=B6tnA_BLK4U",
-          "title": "CN Train 730 Eastbound July 27, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-27",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 730",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=B6tnA_BLK4U",
-          "title": "CN Train 730 Eastbound July 27, 2026",
-          "source": "description_structured"
-        },
-        {
-          "date": "2026-04-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 321",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=AwcRw6RZQe0",
-          "title": "CP Rail and CN Trains In Western Manitoba! (7/4/2026)",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "8303",
       "display": "CN 8303",
       "sighting_count": 3,
@@ -6131,6 +6145,53 @@
           "video_url": "https://www.youtube.com/watch?v=CveM9kkRAZ0",
           "title": "CN Train 271 Westbound July 11, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2514",
+      "display": "CN 2514",
+      "sighting_count": 2,
+      "first_seen": "2026-08-03",
+      "last_seen": "2026-08-03",
+      "corridors": [
+        "CN Bala Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z126"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-03",
+          "location": "CN Bala Sub",
+          "subdivision": "CN Bala Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qa2pFAal3oA",
+          "title": "Chasing CN 2514 C44-9WL south on the Bala sub (AUG 3, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z126",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Nogor3ykLAA",
+          "title": "CN 2514 C44-9WL leads CN Z126 south",
+          "source": "text_extraction"
         }
       ]
     },

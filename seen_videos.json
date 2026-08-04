@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-03T19:43:11.369444Z",
-    "total_videos": 539
+    "updated_at": "2026-08-04T08:27:49.116929Z",
+    "total_videos": 543
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3238,6 +3238,30 @@
       "title": "CN Z126 heads south around the long bend",
       "confidence": "medium",
       "processed_at": "2026-08-03T19:43:10.421648Z"
+    },
+    "ONcvRYfpTU0": {
+      "channel": "Trackside Tristan",
+      "title": "LOUD HORN! CPKC Intermodal Train Blasts Crossing #train #railway #shorts #subscr",
+      "confidence": "high",
+      "processed_at": "2026-08-04T08:27:47.152786Z"
+    },
+    "LKd0AwFFnv8": {
+      "channel": "Trackside Tristan",
+      "title": "Two massive CPKC freight trains creep past each other in Essa, ON! \ud83d\ude82\ud83c\udde8\ud83c\udde6 #trains #",
+      "confidence": "high",
+      "processed_at": "2026-08-04T08:27:47.153381Z"
+    },
+    "aFWEQYx1Ccw": {
+      "channel": "MJM Productions",
+      "title": "CN 3134 + CN 8101 lead CN Q109 north",
+      "confidence": "medium",
+      "processed_at": "2026-08-04T08:27:48.370675Z"
+    },
+    "qa2pFAal3oA": {
+      "channel": "MJM Productions",
+      "title": "Chasing CN 2514 C44-9WL south on the Bala sub (AUG 3, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-08-04T08:27:48.370825Z"
     }
   }
 }
