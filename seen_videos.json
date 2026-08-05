@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-05T08:26:13.981964Z",
-    "total_videos": 548
+    "updated_at": "2026-08-05T19:41:21.626550Z",
+    "total_videos": 555
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3292,6 +3292,48 @@
       "title": "CN Train 368 Lifting Meets CN Train 149 Westbound August 4, 2026",
       "confidence": "medium",
       "processed_at": "2026-08-04T19:42:14.157661Z"
+    },
+    "k7K_5rzekfc": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 276 Eastbound Meets VIA Train 61 Westbound August 5, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-05T19:41:19.719084Z"
+    },
+    "Qh4ePOQnNcA": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound August 5, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-05T19:41:19.719680Z"
+    },
+    "eTYmmEFjx6M": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound August 5, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-05T19:41:19.719853Z"
+    },
+    "mS16jq2nFgo": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 106 Eastbound August 5, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-05T19:41:19.720041Z"
+    },
+    "-nIrTS-Pxnc": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Lifting August 5, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-05T19:41:19.720429Z"
+    },
+    "WH7sE8Imjns": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Setting Off August 5, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-05T19:41:19.720701Z"
+    },
+    "8Y7oDA5uyUU": {
+      "channel": "MJM Productions",
+      "title": "CP 7018 heritage SD70ACU leads CPKC 420",
+      "confidence": "medium",
+      "processed_at": "2026-08-05T19:41:20.571882Z"
     }
   }
 }
