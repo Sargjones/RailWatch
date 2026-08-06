@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-05T19:41:21.626550Z",
-    "total_videos": 555
+    "updated_at": "2026-08-06T08:24:11.541967Z",
+    "total_videos": 557
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3334,6 +3334,18 @@
       "title": "CP 7018 heritage SD70ACU leads CPKC 420",
       "confidence": "medium",
       "processed_at": "2026-08-05T19:41:20.571882Z"
+    },
+    "eoh3Hk2-lx4": {
+      "channel": "MJM Productions",
+      "title": "HERITAGE UNIT! Two CPKC trains on the mactier sub (AUG 5, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-08-06T08:24:10.234995Z"
+    },
+    "zVmSQcPIvSk": {
+      "channel": "MJM Productions",
+      "title": "CP 9824 + CP 8645 AC4400 duo north",
+      "confidence": "medium",
+      "processed_at": "2026-08-06T08:24:10.237083Z"
     }
   }
 }

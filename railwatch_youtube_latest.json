@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-05T19:41:21.633831Z",
+  "generated_at": "2026-08-06T08:24:11.549652Z",
   "dedup_registry": {
-    "total": 555,
+    "total": 557,
     "by_channel": {
       "Trackside Ontario": 36,
       "Trackside Tyson": 83,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 16,
       "Brockville RailFan": 205,
-      "MJM Productions": 143,
+      "MJM Productions": 145,
       "Central Canada Railfan": 11,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 137,
-      "medium": 370,
+      "medium": 372,
       "low": 48,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-29T00:00:00Z",
+  "since": "2026-07-30T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -34,7 +34,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 7
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -59,17 +59,12 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 6,
-      "skipped": 22,
-      "high": 5,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 4,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 18
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,10 +78,10 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 9,
+      "videos": 2,
+      "skipped": 10,
       "high": 0,
-      "medium": 1,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 1
@@ -117,11 +112,131 @@
       "skipped": 1
     }
   ],
-  "total": 555,
-  "new_this_run": 7,
+  "total": 557,
+  "new_this_run": 2,
   "high_confidence": 137,
   "dg_likely": 99,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "eoh3Hk2-lx4",
+      "video_url": "https://www.youtube.com/watch?v=eoh3Hk2-lx4",
+      "title": "HERITAGE UNIT! Two CPKC trains on the mactier sub (AUG 5, 2026)",
+      "published_at": "2026-08-06T00:26:26Z",
+      "date": "2026-08-05",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7018",
+        "CPKC 420",
+        "CP 7468",
+        "CP 9722",
+        "CPKC 421",
+        "CP 9824",
+        "CP 8645"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7018",
+          "raw": "CP 7018"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 420",
+          "raw": "CPKC 420"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7468",
+          "raw": "CP 7468"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 9722",
+          "raw": "CP 9722"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9824",
+          "raw": "CP 9824"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8645",
+          "raw": "CP 8645"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "HERITAGE UNIT! Two CPKC trains on the mactier sub (AUG 5, 2026)",
+      "description_chars": 691,
+      "consist": {
+        "observed_time": "10:49",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-08-05T10:49",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "zVmSQcPIvSk",
+      "video_url": "https://www.youtube.com/watch?v=zVmSQcPIvSk",
+      "title": "CP 9824 + CP 8645 AC4400 duo north",
+      "published_at": "2026-08-05T21:58:46Z",
+      "date": "2026-08-05",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9824",
+        "CP 8645"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9824",
+          "raw": "CP 9824"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8645",
+          "raw": "CP 8645"
+        },
+        {
+          "road": "CN",
+          "symbol": "AC4400",
+          "raw": "AC4400"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9824 + CP 8645 AC4400 duo north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-08-05T19:41:21.766126Z",
-  "total_units": 294,
+  "generated_at": "2026-08-06T08:24:11.687058Z",
+  "total_units": 298,
   "min_sightings": 2,
   "by_road": {
-    "CN": 236,
+    "CN": 237,
     "VIA": 3,
-    "CP": 54,
-    "RUCK": 1
+    "CP": 56,
+    "RUCK": 1,
+    "AC": 1
   },
   "units": [
     {
@@ -3128,6 +3129,79 @@
           "video_url": "https://www.youtube.com/watch?v=zE8UsweXRi4",
           "title": "CN Train 532 Westbound Meets VIA Train 46 Eastbound July 3, ",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "9824",
+      "display": "CN 9824",
+      "sighting_count": 4,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-08-05",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 420"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 420",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eoh3Hk2-lx4",
+          "title": "HERITAGE UNIT! Two CPKC trains on the mactier sub (AUG 5, 20",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zVmSQcPIvSk",
+          "title": "CP 9824 + CP 8645 AC4400 duo north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bYRBBKdgPBU",
+          "title": "AC4400CW LEAD! CP 9824 at Alliston, ON (JUN 29, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=i8cPqKms9iE",
+          "title": "CP 9824 AC4400CW leads CPKC 9-114",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -11491,6 +11565,53 @@
     },
     {
       "road": "CN",
+      "number": "7018",
+      "display": "CN 7018",
+      "sighting_count": 2,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 420"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 420",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eoh3Hk2-lx4",
+          "title": "HERITAGE UNIT! Two CPKC trains on the mactier sub (AUG 5, 20",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 420",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=8Y7oDA5uyUU",
+          "title": "CP 7018 heritage SD70ACU leads CPKC 420",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7019",
       "display": "CN 7019",
       "sighting_count": 2,
@@ -12996,50 +13117,6 @@
     },
     {
       "road": "CN",
-      "number": "9824",
-      "display": "CN 9824",
-      "sighting_count": 2,
-      "first_seen": "2026-06-29",
-      "last_seen": "2026-06-29",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-06-29",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=bYRBBKdgPBU",
-          "title": "AC4400CW LEAD! CP 9824 at Alliston, ON (JUN 29, 2026)",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-06-29",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=i8cPqKms9iE",
-          "title": "CP 9824 AC4400CW leads CPKC 9-114",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "9839",
       "display": "CN 9839",
       "sighting_count": 2,
@@ -13387,6 +13464,79 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
           "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9824",
+      "display": "CP 9824",
+      "sighting_count": 4,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-08-05",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 420"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 420",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eoh3Hk2-lx4",
+          "title": "HERITAGE UNIT! Two CPKC trains on the mactier sub (AUG 5, 20",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zVmSQcPIvSk",
+          "title": "CP 9824 + CP 8645 AC4400 duo north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bYRBBKdgPBU",
+          "title": "AC4400CW LEAD! CP 9824 at Alliston, ON (JUN 29, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=i8cPqKms9iE",
+          "title": "CP 9824 AC4400CW leads CPKC 9-114",
           "source": "text_extraction"
         }
       ]
@@ -13750,6 +13900,67 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=1pVCnF-QVfY",
           "title": "Freshly new CP 7604 leads CPKC 2-114 south",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8645",
+      "display": "CP 8645",
+      "sighting_count": 3,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-08-05",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 420",
+        "CN 135"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 420",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eoh3Hk2-lx4",
+          "title": "HERITAGE UNIT! Two CPKC trains on the mactier sub (AUG 5, 20",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zVmSQcPIvSk",
+          "title": "CP 9824 + CP 8645 AC4400 duo north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 135",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=otYSSSDpW9E",
+          "title": "CP 8747 + CP 8801 + CP 8645 lead CPKC 135",
           "source": "text_extraction"
         }
       ]
@@ -14192,6 +14403,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
           "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7018",
+      "display": "CP 7018",
+      "sighting_count": 2,
+      "first_seen": "2026-08-05",
+      "last_seen": "2026-08-05",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 420"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 420",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eoh3Hk2-lx4",
+          "title": "HERITAGE UNIT! Two CPKC trains on the mactier sub (AUG 5, 20",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 420",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=8Y7oDA5uyUU",
+          "title": "CP 7018 heritage SD70ACU leads CPKC 420",
           "source": "text_extraction"
         }
       ]
@@ -15845,50 +16103,6 @@
     },
     {
       "road": "CP",
-      "number": "9824",
-      "display": "CP 9824",
-      "sighting_count": 2,
-      "first_seen": "2026-06-29",
-      "last_seen": "2026-06-29",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-06-29",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=bYRBBKdgPBU",
-          "title": "AC4400CW LEAD! CP 9824 at Alliston, ON (JUN 29, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-29",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=i8cPqKms9iE",
-          "title": "CP 9824 AC4400CW leads CPKC 9-114",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
       "number": "9839",
       "display": "CP 9839",
       "sighting_count": 2,
@@ -15988,6 +16202,53 @@
           "video_url": "https://www.youtube.com/watch?v=ZogfoPh06LE",
           "title": "MOW Tie Train Westbound June 17, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "AC",
+      "number": "4400",
+      "display": "AC 4400",
+      "sighting_count": 2,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-08-05",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 132"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zVmSQcPIvSk",
+          "title": "CP 9824 + CP 8645 AC4400 duo north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 132",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
+          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
+          "source": "symbol_extraction"
         }
       ]
     }
