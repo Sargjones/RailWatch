@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-07T00:05:31.956747Z",
-    "total_videos": 564
+    "updated_at": "2026-08-07T07:04:59.583374Z",
+    "total_videos": 567
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3388,6 +3388,24 @@
       "title": "CN Trains on The Mainline at St. James Junction and A Bit Around Manitoba - July",
       "confidence": "high",
       "processed_at": "2026-08-07T00:05:31.956704Z"
+    },
+    "JYWhKgTeBzE": {
+      "channel": "Southern Ontario Railfan",
+      "title": "VIA Rail Train In Oshawa",
+      "confidence": "medium",
+      "processed_at": "2026-08-07T07:04:56.791129Z"
+    },
+    "FHRX0RR9yIY": {
+      "channel": "Southern Ontario Railfan",
+      "title": "VIA Rail Train In Oshawa",
+      "confidence": "medium",
+      "processed_at": "2026-08-07T07:04:56.791187Z"
+    },
+    "RkhefWzVj0w": {
+      "channel": "Trackside Tristan",
+      "title": "Canada looks best from a train window. \u2728 #ViaRail #TheCanadian #TrainTravel #Exp",
+      "confidence": "medium",
+      "processed_at": "2026-08-07T07:04:57.129403Z"
     }
   }
 }
