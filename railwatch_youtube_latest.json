@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-06T08:24:11.549652Z",
+  "generated_at": "2026-08-07T00:05:31.964339Z",
   "dedup_registry": {
-    "total": 557,
+    "total": 564,
     "by_channel": {
       "Trackside Ontario": 36,
-      "Trackside Tyson": 83,
+      "Trackside Tyson": 84,
       "Southern Ontario Railfan": 19,
       "Trackside Tristan": 9,
       "Scott Rails (Chasing The Money Shot)": 27,
-      "Rail Fans Canada": 16,
-      "Brockville RailFan": 205,
-      "MJM Productions": 145,
-      "Central Canada Railfan": 11,
+      "Rail Fans Canada": 17,
+      "Brockville RailFan": 207,
+      "MJM Productions": 147,
+      "Central Canada Railfan": 12,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 137,
-      "medium": 372,
-      "low": 48,
+      "high": 139,
+      "medium": 376,
+      "low": 49,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-07-30T00:00:00Z",
+  "since": "2026-07-31T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -49,7 +54,7 @@
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
       "videos": 0,
-      "skipped": 1,
+      "skipped": 0,
       "high": 0,
       "medium": 0,
       "low_meta": 0,
@@ -58,13 +63,23 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 18
+      "videos": 2,
+      "skipped": 14,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -79,7 +94,7 @@
     {
       "channel": "MJM Productions",
       "videos": 2,
-      "skipped": 10,
+      "skipped": 12,
       "high": 0,
       "medium": 2,
       "low_meta": 0,
@@ -108,15 +123,397 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     }
   ],
-  "total": 557,
-  "new_this_run": 2,
-  "high_confidence": 137,
-  "dg_likely": 99,
+  "total": 564,
+  "new_this_run": 7,
+  "high_confidence": 139,
+  "dg_likely": 100,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "j_UZCAejMdA",
+      "video_url": "https://www.youtube.com/watch?v=j_UZCAejMdA",
+      "title": "CN Trains on The Mainline at St. James Junction and A Bit Around Manitoba - July 2026",
+      "published_at": "2026-08-06T22:00:28Z",
+      "date": "2026-08-06",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3987",
+        "CN 3019",
+        "CN 3914",
+        "CN 3811",
+        "CN 3060",
+        "CN 2914",
+        "CN 8307",
+        "CN 3093",
+        "CN 8360",
+        "CN 3106",
+        "CN 3417",
+        "CN 3351",
+        "CN 3231",
+        "CN 3178",
+        "CN 8924",
+        "CN 2616"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3987",
+          "raw": "CN 3987"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3019",
+          "raw": "CN 3019"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3914",
+          "raw": "CN 3914"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3811",
+          "raw": "CN 3811"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z111",
+          "raw": "Z111"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3060",
+          "raw": "CN 3060"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2914",
+          "raw": "CN 2914"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8307",
+          "raw": "CN 8307"
+        },
+        {
+          "road": "CN",
+          "symbol": "S763",
+          "raw": "S763"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3093",
+          "raw": "CN 3093"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8360",
+          "raw": "CN 8360"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q106",
+          "raw": "Q106"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3106",
+          "raw": "CN 3106"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3417",
+          "raw": "CN 3417"
+        },
+        {
+          "road": "CN",
+          "symbol": "B743",
+          "raw": "B743"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3351",
+          "raw": "CN 3351"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3231",
+          "raw": "CN 3231"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3178",
+          "raw": "CN 3178"
+        },
+        {
+          "road": "CN",
+          "symbol": "M316",
+          "raw": "M316"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8924",
+          "raw": "CN 8924"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2616",
+          "raw": "CN 2616"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Trains on The Mainline at St. James Junction and A Bit Around Manitoba - July 2026",
+      "description_chars": 948,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "TmNshDWzFDU",
+      "video_url": "https://www.youtube.com/watch?v=TmNshDWzFDU",
+      "title": "Chasing CSXT 3112 east down the Galt sub (AUG 6, 2026)",
+      "published_at": "2026-08-06T18:26:23Z",
+      "date": "2026-08-06",
+      "location": "CPKC Galt Sub",
+      "subdivision": "CPKC Galt Sub",
+      "lat": 43.4,
+      "lon": -80.5,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Chasing CSXT 3112 east down the Galt sub (AUG 6, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "DScIsmqa0T8",
+      "video_url": "https://www.youtube.com/watch?v=DScIsmqa0T8",
+      "title": "RARE CSXT 3112 leads CPKC 528 east",
+      "published_at": "2026-08-06T18:16:52Z",
+      "date": "2026-08-06",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 528"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 528",
+          "raw": "CPKC 528"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "RARE CSXT 3112 leads CPKC 528 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "ygxGmGvAqUE",
+      "video_url": "https://www.youtube.com/watch?v=ygxGmGvAqUE",
+      "title": "NEW CPKC LEADING DOUBLE STACK TRAIN #shorts",
+      "published_at": "2026-08-06T14:00:38Z",
+      "date": "2026-08-06",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "NEW CPKC LEADING DOUBLE STACK TRAIN #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "eX101SifD9I",
+      "video_url": "https://www.youtube.com/watch?v=eX101SifD9I",
+      "title": "CN Train 149 Westbound August 6, 2026",
+      "published_at": "2026-08-06T13:39:17Z",
+      "date": "2026-08-06",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2991",
+        "CN 3211"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2991",
+          "raw": "CN 2991"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3211",
+          "raw": "CN 3211"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound August 6, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 2991",
+          "CN 3211"
+        ],
+        "car_count": 149,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 63,
+        "speed_raw": "39 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:50",
+        "observed_tz": "EDT",
+        "temperature_c": 24,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-08-06T08:50-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "q4RzIRRY_4o",
+      "video_url": "https://www.youtube.com/watch?v=q4RzIRRY_4o",
+      "title": "FIRST TRAIN to Algonquin Station! O-Train Stage 2 West Makes History",
+      "published_at": "2026-08-06T13:30:06Z",
+      "date": "2026-08-04",
+      "location": "Ottawa",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 45.423,
+      "lon": -75.695,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "FIRST TRAIN to Algonquin Station! O-Train Stage 2 West Makes History",
+      "description_chars": 1571,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "6-yxN8lg_S4",
+      "video_url": "https://www.youtube.com/watch?v=6-yxN8lg_S4",
+      "title": "VIA Train 61 Westbound August 6, 2026",
+      "published_at": "2026-08-06T13:28:02Z",
+      "date": "2026-08-06",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound August 6, 2026",
+      "description_chars": 179,
+      "consist": {
+        "coaches": [
+          "Speed: 67 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 108,
+        "speed_raw": "67 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:42",
+        "observed_tz": "EDT",
+        "temperature_c": 24,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-08-06T08:42-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

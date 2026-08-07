@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-06T08:24:11.632108Z",
-  "total": 29,
+  "generated_at": "2026-08-07T00:05:32.051435Z",
+  "total": 30,
   "cross_observer": 2,
-  "chase": 27,
+  "chase": 28,
   "high": 0,
   "medium": 4,
   "dg_correlations": 4,
@@ -272,7 +272,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-06T08:24:11.631466Z",
+      "correlated_at": "2026-08-07T00:05:32.050796Z",
       "confidence": "medium"
     },
     {
@@ -322,7 +322,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-06T08:24:11.631618Z",
+      "correlated_at": "2026-08-07T00:05:32.050943Z",
       "confidence": "medium"
     },
     {
@@ -372,54 +372,9 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-06T08:24:11.631423Z",
+      "correlated_at": "2026-08-07T00:05:32.050755Z",
       "confidence": "low",
       "split_suspected": true
-    },
-    {
-      "symbol": "CN61",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-08-04",
-        "observed_at": "2026-08-04T08:55-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=ck_Zhs0D8Sk",
-        "title": "CN Train 368 Eastbound Meets VIA Train 61 Westbound August 4"
-      },
-      "sighting_b": {
-        "location": "Brockville",
-        "date": "2026-08-05",
-        "observed_at": "2026-08-05T09:12-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": "Montreal Taschereau QC",
-        "video_url": "https://www.youtube.com/watch?v=k7K_5rzekfc",
-        "title": "CN Train 276 Eastbound Meets VIA Train 61 Westbound August 5"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 24.28,
-        "avg_speed_kmh": 12.8,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631218Z",
-      "confidence": "low"
     },
     {
       "symbol": "CN149",
@@ -468,7 +423,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631292Z",
+      "correlated_at": "2026-08-07T00:05:32.050441Z",
       "confidence": "low"
     },
     {
@@ -518,7 +473,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631306Z",
+      "correlated_at": "2026-08-07T00:05:32.050468Z",
       "confidence": "low"
     },
     {
@@ -568,7 +523,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631325Z",
+      "correlated_at": "2026-08-07T00:05:32.050486Z",
       "confidence": "low"
     },
     {
@@ -618,7 +573,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631337Z",
+      "correlated_at": "2026-08-07T00:05:32.050500Z",
       "confidence": "low"
     },
     {
@@ -668,7 +623,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631346Z",
+      "correlated_at": "2026-08-07T00:05:32.050512Z",
       "confidence": "low"
     },
     {
@@ -718,7 +673,102 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631359Z",
+      "correlated_at": "2026-08-07T00:05:32.050525Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN61",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-08-04",
+        "observed_at": "2026-08-04T08:55-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=ck_Zhs0D8Sk",
+        "title": "CN Train 368 Eastbound Meets VIA Train 61 Westbound August 4"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-08-05",
+        "observed_at": "2026-08-05T09:12-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": "Montreal Taschereau QC",
+        "video_url": "https://www.youtube.com/watch?v=k7K_5rzekfc",
+        "title": "CN Train 276 Eastbound Meets VIA Train 61 Westbound August 5"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 24.28,
+        "avg_speed_kmh": 12.8,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-08-07T00:05:32.050608Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN61",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-08-05",
+        "observed_at": "2026-08-05T09:12-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": "Montreal Taschereau QC",
+        "video_url": "https://www.youtube.com/watch?v=k7K_5rzekfc",
+        "title": "CN Train 276 Eastbound Meets VIA Train 61 Westbound August 5"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-08-06",
+        "observed_at": "2026-08-06T08:42-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 1,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON",
+        "video_url": "https://www.youtube.com/watch?v=6-yxN8lg_S4",
+        "title": "VIA Train 61 Westbound August 6, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.5,
+        "avg_speed_kmh": 13.3,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 1,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-08-07T00:05:32.050619Z",
       "confidence": "low"
     },
     {
@@ -768,7 +818,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-06T08:24:11.631437Z",
+      "correlated_at": "2026-08-07T00:05:32.050767Z",
       "confidence": "low"
     },
     {
@@ -813,7 +863,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631515Z",
+      "correlated_at": "2026-08-07T00:05:32.050847Z",
       "confidence": "low"
     },
     {
@@ -858,7 +908,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631542Z",
+      "correlated_at": "2026-08-07T00:05:32.050872Z",
       "confidence": "medium"
     },
     {
@@ -903,7 +953,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631552Z",
+      "correlated_at": "2026-08-07T00:05:32.050881Z",
       "confidence": "medium"
     },
     {
@@ -948,7 +998,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631659Z",
+      "correlated_at": "2026-08-07T00:05:32.050983Z",
       "confidence": "low"
     },
     {
@@ -993,7 +1043,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631729Z",
+      "correlated_at": "2026-08-07T00:05:32.051053Z",
       "confidence": "low"
     },
     {
@@ -1038,7 +1088,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631737Z",
+      "correlated_at": "2026-08-07T00:05:32.051063Z",
       "confidence": "low"
     },
     {
@@ -1083,7 +1133,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631748Z",
+      "correlated_at": "2026-08-07T00:05:32.051072Z",
       "confidence": "low"
     },
     {
@@ -1128,7 +1178,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631834Z",
+      "correlated_at": "2026-08-07T00:05:32.051157Z",
       "confidence": "low"
     },
     {
@@ -1178,7 +1228,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631877Z",
+      "correlated_at": "2026-08-07T00:05:32.051201Z",
       "confidence": "low"
     },
     {
@@ -1223,7 +1273,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631918Z",
+      "correlated_at": "2026-08-07T00:05:32.051243Z",
       "confidence": "low"
     },
     {
@@ -1268,7 +1318,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631930Z",
+      "correlated_at": "2026-08-07T00:05:32.051256Z",
       "confidence": "low"
     },
     {
@@ -1313,7 +1363,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631964Z",
+      "correlated_at": "2026-08-07T00:05:32.051294Z",
       "confidence": "low"
     },
     {
@@ -1358,7 +1408,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631987Z",
+      "correlated_at": "2026-08-07T00:05:32.051316Z",
       "confidence": "low"
     },
     {
@@ -1403,7 +1453,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.631998Z",
+      "correlated_at": "2026-08-07T00:05:32.051327Z",
       "confidence": "low"
     },
     {
@@ -1448,7 +1498,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.632009Z",
+      "correlated_at": "2026-08-07T00:05:32.051338Z",
       "confidence": "low"
     },
     {
@@ -1493,7 +1543,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.632022Z",
+      "correlated_at": "2026-08-07T00:05:32.051354Z",
       "confidence": "low"
     },
     {
@@ -1538,7 +1588,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.632033Z",
+      "correlated_at": "2026-08-07T00:05:32.051367Z",
       "confidence": "low"
     },
     {
@@ -1583,7 +1633,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-06T08:24:11.632046Z",
+      "correlated_at": "2026-08-07T00:05:32.051378Z",
       "confidence": "low"
     }
   ]
