@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-07T07:04:59.758892Z",
+  "generated_at": "2026-08-07T19:02:34.813891Z",
   "dedup_registry": {
-    "total": 567,
+    "total": 575,
     "by_channel": {
       "Trackside Ontario": 36,
-      "Trackside Tyson": 84,
+      "Trackside Tyson": 86,
       "Southern Ontario Railfan": 21,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 17,
-      "Brockville RailFan": 207,
-      "MJM Productions": 147,
+      "Brockville RailFan": 212,
+      "MJM Productions": 148,
       "Central Canada Railfan": 12,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 139,
-      "medium": 379,
-      "low": 49,
+      "high": 141,
+      "medium": 383,
+      "low": 51,
       "meta": 0
     }
   },
@@ -33,28 +33,23 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
-    },
-    {
-      "channel": "Southern Ontario Railfan",
       "videos": 2,
-      "skipped": 0,
+      "skipped": 7,
       "high": 0,
-      "medium": 2,
-      "low_meta": 0,
+      "medium": 0,
+      "low_meta": 2,
       "dg_likely": 0,
       "defaulted": 0
     },
     {
+      "channel": "Southern Ontario Railfan",
+      "videos": 0,
+      "skipped": 2
+    },
+    {
       "channel": "Trackside Tristan",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
@@ -73,8 +68,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 16
+      "videos": 5,
+      "skipped": 16,
+      "high": 2,
+      "medium": 3,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,8 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 14
+      "videos": 1,
+      "skipped": 14,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +122,391 @@
       "skipped": 2
     }
   ],
-  "total": 567,
-  "new_this_run": 3,
-  "high_confidence": 139,
+  "total": 575,
+  "new_this_run": 8,
+  "high_confidence": 141,
   "dg_likely": 100,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "g-gaZd_gnp0",
+      "video_url": "https://www.youtube.com/watch?v=g-gaZd_gnp0",
+      "title": "CN Train 126 Eastbound Meets CN Train 149 Westbound August 7, 2026",
+      "published_at": "2026-08-07T16:24:44Z",
+      "date": "2026-08-07",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2961",
+        "CN 8312",
+        "CN 3196",
+        "CN 3008"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 126",
+          "raw": "CN Train 126"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2961",
+          "raw": "CN 2961"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8312",
+          "raw": "CN 8312"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3196",
+          "raw": "CN 3196"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3008",
+          "raw": "CN 3008"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 126 Eastbound Meets CN Train 149 Westbound August 7, 2026",
+      "description_chars": 380,
+      "consist": {
+        "observed_time": "09:15",
+        "observed_tz": "EDT",
+        "temperature_c": 24
+      },
+      "observed_at": "2026-08-07T09:15-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "kARbkj_C-cE",
+      "video_url": "https://www.youtube.com/watch?v=kARbkj_C-cE",
+      "title": "VIA Train 61 Westbound August 7, 2026",
+      "published_at": "2026-08-07T15:54:50Z",
+      "date": "2026-08-07",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound August 7, 2026",
+      "description_chars": 203,
+      "consist": {
+        "coaches": [
+          "4009",
+          "4000",
+          "4112",
+          "4115",
+          "4111"
+        ],
+        "car_count": 5,
+        "consist_type": "passenger",
+        "speed_kmh": 68,
+        "speed_raw": "42 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:01",
+        "observed_tz": "EDT",
+        "temperature_c": 23,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-08-07T09:01-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "B4T83dihZLs",
+      "video_url": "https://www.youtube.com/watch?v=B4T83dihZLs",
+      "title": "CN Train X310 Eastbound In Emergency Meets CN Train 309 Westbound August 7, 2026",
+      "published_at": "2026-08-07T15:43:02Z",
+      "date": "2026-08-07",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "auto_rack",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3247",
+        "CN 2814",
+        "CN 3201",
+        "CN 3434"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "X310",
+          "raw": "X310"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 309",
+          "raw": "CN Train 309"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3247",
+          "raw": "CN 3247"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2814",
+          "raw": "CN 2814"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3201",
+          "raw": "CN 3201"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3434",
+          "raw": "CN 3434"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train X310 Eastbound In Emergency Meets CN Train 309 Westbound August 7, 2026",
+      "description_chars": 573,
+      "consist": {
+        "observed_time": "07:18",
+        "observed_tz": "EDT",
+        "temperature_c": 21
+      },
+      "observed_at": "2026-08-07T07:18-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "K2QxUTP5ttA",
+      "video_url": "https://www.youtube.com/watch?v=K2QxUTP5ttA",
+      "title": "CN Train 306 Raced by VIA Train 66 Eastbound August 6, 2026",
+      "published_at": "2026-08-07T15:35:36Z",
+      "date": "2026-08-06",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3147",
+        "CN 2850",
+        "CN 3128"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 306",
+          "raw": "CN Train 306"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 66",
+          "raw": "VIA Train 66"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3147",
+          "raw": "CN 3147"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2850",
+          "raw": "CN 2850"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3128",
+          "raw": "CN 3128"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Train 306 Raced by VIA Train 66 Eastbound August 6, 2026",
+      "description_chars": 345,
+      "consist": {
+        "observed_time": "18:52",
+        "observed_tz": "EDT",
+        "temperature_c": 26
+      },
+      "observed_at": "2026-08-06T18:52-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "8rWACgvikJQ",
+      "video_url": "https://www.youtube.com/watch?v=8rWACgvikJQ",
+      "title": "CN Train 532 Westbound Meets CN Train 106 Eastbound August 6, 2026",
+      "published_at": "2026-08-07T15:03:35Z",
+      "date": "2026-08-06",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 9523",
+        "CN 9543",
+        "CN 3285",
+        "CN 2803"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 532",
+          "raw": "CN Train 532"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 106",
+          "raw": "CN Train 106"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9523",
+          "raw": "CN 9523"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9543",
+          "raw": "CN 9543"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3285",
+          "raw": "CN 3285"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2803",
+          "raw": "CN 2803"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Train 532 Westbound Meets CN Train 106 Eastbound August 6, 2026",
+      "description_chars": 396,
+      "consist": {
+        "observed_time": "17:51",
+        "observed_tz": "EDT",
+        "temperature_c": 28
+      },
+      "observed_at": "2026-08-06T17:51-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "mFLGsr87vQc",
+      "video_url": "https://www.youtube.com/watch?v=mFLGsr87vQc",
+      "title": "BIG TRAIN IN THE RUGGED CANYON #shorts",
+      "published_at": "2026-08-07T14:00:00Z",
+      "date": "2026-08-07",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "BIG TRAIN IN THE RUGGED CANYON #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "XHM4dsHm3vY",
+      "video_url": "https://www.youtube.com/watch?v=XHM4dsHm3vY",
+      "title": "Early CPKC 119 ripping past Spence Yard",
+      "published_at": "2026-08-07T12:38:12Z",
+      "date": "2026-08-07",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 119"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CPKC 119"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Early CPKC 119 ripping past Spence Yard",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
@@ -1120,6 +1505,32 @@
       "anomaly_flag": true,
       "dg_candidate": true,
       "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "Wt0blumlNr0",
+      "video_url": "https://www.youtube.com/watch?v=Wt0blumlNr0",
+      "title": "BIG FREIGHTS THRU THE RUGGED CANYON OF BRITISH COLUMBIA!",
+      "published_at": "2026-08-05T01:33:54Z",
+      "date": "2026-08-05",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "BIG FREIGHTS THRU THE RUGGED CANYON OF BRITISH COLUMBIA!",
+      "description_chars": 447,
+      "consist": null,
+      "location_source": "none"
     },
     {
       "source": "youtube",
