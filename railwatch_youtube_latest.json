@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-08T06:40:29.398198Z",
+  "generated_at": "2026-08-08T18:42:44.794971Z",
   "dedup_registry": {
-    "total": 575,
+    "total": 580,
     "by_channel": {
       "Trackside Ontario": 36,
       "Trackside Tyson": 86,
@@ -9,8 +9,8 @@
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 17,
-      "Brockville RailFan": 212,
-      "MJM Productions": 148,
+      "Brockville RailFan": 213,
+      "MJM Productions": 152,
       "Central Canada Railfan": 12,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 141,
-      "medium": 383,
+      "medium": 388,
       "low": 51,
       "meta": 0
     }
@@ -63,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 17
+      "videos": 1,
+      "skipped": 17,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 15
+      "videos": 4,
+      "skipped": 15,
+      "high": 0,
+      "medium": 4,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 4
     },
     {
       "channel": "Ontario Railman",
@@ -107,11 +117,227 @@
       "skipped": 2
     }
   ],
-  "total": 575,
-  "new_this_run": 0,
+  "total": 580,
+  "new_this_run": 5,
   "high_confidence": 141,
   "dg_likely": 100,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "XzpYnDeg_UY",
+      "video_url": "https://www.youtube.com/watch?v=XzpYnDeg_UY",
+      "title": "CN 2793 + CN 3263 lead CN Q109 west",
+      "published_at": "2026-08-08T17:38:50Z",
+      "date": "2026-08-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2793",
+        "CN 3263"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2793",
+          "raw": "CN 2793"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3263",
+          "raw": "CN 3263"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q109",
+          "raw": "Q109"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2793 + CN 3263 lead CN Q109 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "YrV9bZuWpLs",
+      "video_url": "https://www.youtube.com/watch?v=YrV9bZuWpLs",
+      "title": "CN 3951 leads CN Z121 up the Beare hill",
+      "published_at": "2026-08-08T15:35:17Z",
+      "date": "2026-08-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3951"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3951",
+          "raw": "CN 3951"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z121",
+          "raw": "Z121"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3951 leads CN Z121 up the Beare hill",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "AnSaUmFevh4",
+      "video_url": "https://www.youtube.com/watch?v=AnSaUmFevh4",
+      "title": "CN 3950 + CN 3138 lead CN Q107 north",
+      "published_at": "2026-08-08T13:58:42Z",
+      "date": "2026-08-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3950",
+        "CN 3138"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3950",
+          "raw": "CN 3950"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3138",
+          "raw": "CN 3138"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3950 + CN 3138 lead CN Q107 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "2cn082-Fgao",
+      "video_url": "https://www.youtube.com/watch?v=2cn082-Fgao",
+      "title": "CN 3394 blasting its K3LA horn south",
+      "published_at": "2026-08-08T13:23:03Z",
+      "date": "2026-08-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3394"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3394",
+          "raw": "CN 3394"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3394 blasting its K3LA horn south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "eC1FhTahVJg",
+      "video_url": "https://www.youtube.com/watch?v=eC1FhTahVJg",
+      "title": "CPKC Train G65? Switching in Smiths Falls August 7, 2026",
+      "published_at": "2026-08-08T12:27:39Z",
+      "date": "2026-08-07",
+      "location": "Smiths Falls",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 44.899,
+      "lon": -76.022,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3100",
+        "CP 3108"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3100",
+          "raw": "CP 3100"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 3108",
+          "raw": "CP 3108"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC Train G65? Switching in Smiths Falls August 7, 2026",
+      "description_chars": 219,
+      "consist": {
+        "engines": [
+          "CP 3100",
+          "CP 3108"
+        ],
+        "observed_time": "14:54",
+        "observed_tz": "EDT",
+        "origin": "Smiths Falls ON",
+        "destination": "Smiths Falls ON"
+      },
+      "observed_at": "2026-08-07T14:54-04:00",
+      "origin": "Smiths Falls ON",
+      "destination": "Smiths Falls ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
