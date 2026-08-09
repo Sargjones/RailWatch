@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-09T06:44:13.680399Z",
+  "generated_at": "2026-08-09T18:47:15.691550Z",
   "dedup_registry": {
-    "total": 582,
+    "total": 587,
     "by_channel": {
       "Trackside Ontario": 37,
-      "Trackside Tyson": 87,
-      "Southern Ontario Railfan": 21,
+      "Trackside Tyson": 88,
+      "Southern Ontario Railfan": 22,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 17,
       "Brockville RailFan": 213,
-      "MJM Productions": 152,
+      "MJM Productions": 155,
       "Central Canada Railfan": 12,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
@@ -18,8 +18,8 @@
     },
     "by_confidence": {
       "high": 141,
-      "medium": 389,
-      "low": 52,
+      "medium": 393,
+      "low": 53,
       "meta": 0
     }
   },
@@ -28,18 +28,13 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 6,
+      "skipped": 7,
       "high": 0,
       "medium": 0,
       "low_meta": 1,
@@ -48,8 +43,13 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -88,8 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 19
+      "videos": 3,
+      "skipped": 19,
+      "high": 0,
+      "medium": 3,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +122,189 @@
       "skipped": 1
     }
   ],
-  "total": 582,
-  "new_this_run": 2,
+  "total": 587,
+  "new_this_run": 5,
   "high_confidence": 141,
   "dg_likely": 100,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "oOt9QVZXZQs",
+      "video_url": "https://www.youtube.com/watch?v=oOt9QVZXZQs",
+      "title": "CP 3055 + CP 4522 lead CPKC H17 north",
+      "published_at": "2026-08-09T17:49:32Z",
+      "date": "2026-08-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3055",
+        "CP 4522"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3055",
+          "raw": "CP 3055"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 4522",
+          "raw": "CP 4522"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 3055 + CP 4522 lead CPKC H17 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "WendjxS70j4",
+      "video_url": "https://www.youtube.com/watch?v=WendjxS70j4",
+      "title": "CN Train In Oshawa",
+      "published_at": "2026-08-09T15:02:48Z",
+      "date": "2026-08-09",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train In Oshawa",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "ag7oGYwn7kA",
+      "video_url": "https://www.youtube.com/watch?v=ag7oGYwn7kA",
+      "title": "LONG DOUBLE STACK TRAINS STRETCHING ALONG THE THOMPSON CANYON ",
+      "published_at": "2026-08-09T14:00:06Z",
+      "date": "2026-08-09",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "LONG DOUBLE STACK TRAINS STRETCHING ALONG THE THOMPSON CANYON ",
+      "description_chars": 447,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "v_UGzqzxCJ0",
+      "video_url": "https://www.youtube.com/watch?v=v_UGzqzxCJ0",
+      "title": "CP 7483 + CP 7529 lead CPKC 118 south",
+      "published_at": "2026-08-09T13:21:48Z",
+      "date": "2026-08-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7483",
+        "CP 7529",
+        "CPKC 118"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7483",
+          "raw": "CP 7483"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7529",
+          "raw": "CP 7529"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7483 + CP 7529 lead CPKC 118 south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "_loutIsZEKM",
+      "video_url": "https://www.youtube.com/watch?v=_loutIsZEKM",
+      "title": "CP 7556 leads CPKC 112 past the pond",
+      "published_at": "2026-08-09T13:00:38Z",
+      "date": "2026-08-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7556",
+        "CPKC 112"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7556",
+          "raw": "CP 7556"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7556 leads CPKC 112 past the pond",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

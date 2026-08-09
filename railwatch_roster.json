@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-09T06:44:13.812299Z",
-  "total_units": 305,
+  "generated_at": "2026-08-09T18:47:15.832571Z",
+  "total_units": 307,
   "min_sightings": 2,
   "by_road": {
-    "CN": 242,
+    "CN": 243,
     "VIA": 3,
-    "CP": 58,
+    "CP": 59,
     "RUCK": 1,
     "AC": 1
   },
@@ -4506,6 +4506,67 @@
     },
     {
       "road": "CN",
+      "number": "3055",
+      "display": "CN 3055",
+      "sighting_count": 3,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-08-09",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=oOt9QVZXZQs",
+          "title": "CP 3055 + CP 4522 lead CPKC H17 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TWUYnG3KCZQ",
+          "title": "CN Train 368 Eastbound July 27, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TWUYnG3KCZQ",
+          "title": "CN Train 368 Eastbound July 27, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3062",
       "display": "CN 3062",
       "sighting_count": 3,
@@ -8810,53 +8871,6 @@
     },
     {
       "road": "CN",
-      "number": "3055",
-      "display": "CN 3055",
-      "sighting_count": 2,
-      "first_seen": "2026-07-27",
-      "last_seen": "2026-07-27",
-      "corridors": [
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 368"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-27",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=TWUYnG3KCZQ",
-          "title": "CN Train 368 Eastbound July 27, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-27",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=TWUYnG3KCZQ",
-          "title": "CN Train 368 Eastbound July 27, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "3063",
       "display": "CN 3063",
       "sighting_count": 2,
@@ -12332,6 +12346,52 @@
     },
     {
       "road": "CN",
+      "number": "7556",
+      "display": "CN 7556",
+      "sighting_count": 2,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-08-09",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_loutIsZEKM",
+          "title": "CP 7556 leads CPKC 112 past the pond",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NYNlM_taUiA",
+          "title": "CP 7556 leads CPKC 112 through Essa",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7561",
       "display": "CN 7561",
       "sighting_count": 2,
@@ -15404,6 +15464,52 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
           "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7556",
+      "display": "CP 7556",
+      "sighting_count": 2,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-08-09",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_loutIsZEKM",
+          "title": "CP 7556 leads CPKC 112 past the pond",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NYNlM_taUiA",
+          "title": "CP 7556 leads CPKC 112 through Essa",
           "source": "text_extraction"
         }
       ]
