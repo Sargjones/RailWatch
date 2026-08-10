@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T07:19:04.585244Z",
+  "generated_at": "2026-08-10T19:02:30.183279Z",
   "total": 30,
   "cross_observer": 2,
   "chase": 28,
@@ -272,7 +272,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-10T07:19:04.584513Z",
+      "correlated_at": "2026-08-10T19:02:30.182460Z",
       "confidence": "medium"
     },
     {
@@ -322,7 +322,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-10T07:19:04.584775Z",
+      "correlated_at": "2026-08-10T19:02:30.182947Z",
       "confidence": "medium"
     },
     {
@@ -372,449 +372,9 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-10T07:19:04.584639Z",
+      "correlated_at": "2026-08-10T19:02:30.182713Z",
       "confidence": "low",
       "split_suspected": true
-    },
-    {
-      "symbol": "CN112",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-08-02",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=CbVZDDXpXyc",
-        "title": "CP 8105 AC4400CWM leads CPKC 112"
-      },
-      "sighting_b": {
-        "location": "MacTier",
-        "date": "2026-08-02",
-        "observed_at": "2026-08-02T2:32",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=MrlnmFXvbcM",
-        "title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)"
-      },
-      "transit": {
-        "distance_km": 147.8,
-        "elapsed_hours": 4.62,
-        "avg_speed_kmh": 32.0,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584121Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q107",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "IC 2719",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
-        "title": "IC 2719 + CN 2222 lead CN Q107 north"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-05-31",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
-        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 8.69,
-        "avg_speed_kmh": 3.6,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584191Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN126",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-06-23",
-        "observed_at": "2026-06-23T08:44-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=YZggQLnlgAI",
-        "title": "CN Train 368 Raced by CN Train 126 Eastbound June 23, 2026"
-      },
-      "sighting_b": {
-        "location": "Brockville",
-        "date": "2026-06-25",
-        "observed_at": "2026-06-25T16:21-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": 96,
-        "origin": "Edmonton Intermodal Terminal (MIT) AB",
-        "destination": "Montreal Intermodal QC",
-        "video_url": "https://www.youtube.com/watch?v=5WzRDr34IDQ",
-        "title": "CN Train 126 Eastbound June 25, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 55.62,
-        "avg_speed_kmh": 5.6,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": null,
-        "car_count_b": 96,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584226Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-06-25",
-        "observed_at": "2026-06-25T09:03-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 195,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=McWTp5ORMOc",
-        "title": "CN Train 149 Westbound June 25, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-06-26",
-        "observed_at": "2026-06-26T08:56-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=JZA-AmPyMZg",
-        "title": "CN Train 149 Raced by VIA Train 61 June 26, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 23.88,
-        "avg_speed_kmh": 13.0,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 195,
-        "car_count_b": null,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584292Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-06-30",
-        "observed_at": "2026-06-30T08:47-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=5TOMQsAgxtE",
-        "title": "CN Train 149 Raced by VIA Train 61 Westbound June 30, 2026"
-      },
-      "sighting_b": {
-        "location": "Brockville",
-        "date": "2026-07-01",
-        "observed_at": "2026-07-01T08:37-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 192,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=SqaohJ-MM68",
-        "title": "CN Train 149 Westbound July 1, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 23.83,
-        "avg_speed_kmh": 13.1,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": null,
-        "car_count_b": 192,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584304Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-07-22",
-        "observed_at": "2026-07-22T08:09-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 139,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=z-wxahRQ0vs",
-        "title": "CN Train 149 Westbound July 22, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-07-23",
-        "observed_at": "2026-07-23T08:13-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=QTNyQjipU0E",
-        "title": "CN Train 368 Eastbound Meets CN Train 149 Westbound July 23,"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 24.07,
-        "avg_speed_kmh": 12.9,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": false,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 139,
-        "car_count_b": null,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584314Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-07-29",
-        "observed_at": "2026-07-29T09:10-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 199,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=sPdLEHRBryo",
-        "title": "CN Train 149 Westbound July 29, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-07-30",
-        "observed_at": "2026-07-30T08:48-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=x_FKIL7-lT0",
-        "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30,"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 23.63,
-        "avg_speed_kmh": 13.2,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": false,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 199,
-        "car_count_b": null,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584326Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-07-30",
-        "observed_at": "2026-07-30T08:48-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=x_FKIL7-lT0",
-        "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30,"
-      },
-      "sighting_b": {
-        "location": "Brockville",
-        "date": "2026-07-31",
-        "observed_at": "2026-07-31T08:18-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 191,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=BfxDnjJB4rk",
-        "title": "CN Train 149 Westbound July 31, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 23.5,
-        "avg_speed_kmh": 13.3,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "East",
-        "direction_consistent": false,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": null,
-        "car_count_b": 191,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584336Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-08-04",
-        "observed_at": "2026-08-04T08:32-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=k4EwlB7_0-E",
-        "title": "CN Train 368 Lifting Meets CN Train 149 Westbound August 4, "
-      },
-      "sighting_b": {
-        "location": "Brockville",
-        "date": "2026-08-05",
-        "observed_at": "2026-08-05T09:03-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 135,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=Qh4ePOQnNcA",
-        "title": "CN Train 149 Westbound August 5, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 24.52,
-        "avg_speed_kmh": 12.7,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": null,
-        "car_count_b": 135,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584346Z",
-      "confidence": "low"
     },
     {
       "symbol": "CN61",
@@ -858,7 +418,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584434Z",
+      "correlated_at": "2026-08-10T19:02:30.182544Z",
       "confidence": "low"
     },
     {
@@ -908,7 +468,307 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584445Z",
+      "correlated_at": "2026-08-10T19:02:30.182554Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-06-25",
+        "observed_at": "2026-06-25T09:03-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 195,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=McWTp5ORMOc",
+        "title": "CN Train 149 Westbound June 25, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-06-26",
+        "observed_at": "2026-06-26T08:56-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=JZA-AmPyMZg",
+        "title": "CN Train 149 Raced by VIA Train 61 June 26, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.88,
+        "avg_speed_kmh": 13.0,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 195,
+        "car_count_b": null,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-08-10T19:02:30.182599Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-06-30",
+        "observed_at": "2026-06-30T08:47-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=5TOMQsAgxtE",
+        "title": "CN Train 149 Raced by VIA Train 61 Westbound June 30, 2026"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-07-01",
+        "observed_at": "2026-07-01T08:37-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 192,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=SqaohJ-MM68",
+        "title": "CN Train 149 Westbound July 1, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.83,
+        "avg_speed_kmh": 13.1,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 192,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-08-10T19:02:30.182609Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-07-22",
+        "observed_at": "2026-07-22T08:09-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 139,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=z-wxahRQ0vs",
+        "title": "CN Train 149 Westbound July 22, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-07-23",
+        "observed_at": "2026-07-23T08:13-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=QTNyQjipU0E",
+        "title": "CN Train 368 Eastbound Meets CN Train 149 Westbound July 23,"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 24.07,
+        "avg_speed_kmh": 12.9,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 139,
+        "car_count_b": null,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-08-10T19:02:30.182617Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-07-29",
+        "observed_at": "2026-07-29T09:10-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 199,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=sPdLEHRBryo",
+        "title": "CN Train 149 Westbound July 29, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-07-30",
+        "observed_at": "2026-07-30T08:48-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=x_FKIL7-lT0",
+        "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30,"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.63,
+        "avg_speed_kmh": 13.2,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 199,
+        "car_count_b": null,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-08-10T19:02:30.182630Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-07-30",
+        "observed_at": "2026-07-30T08:48-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=x_FKIL7-lT0",
+        "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30,"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-07-31",
+        "observed_at": "2026-07-31T08:18-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 191,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=BfxDnjJB4rk",
+        "title": "CN Train 149 Westbound July 31, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.5,
+        "avg_speed_kmh": 13.3,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "East",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 191,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-08-10T19:02:30.182638Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-08-04",
+        "observed_at": "2026-08-04T08:32-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=k4EwlB7_0-E",
+        "title": "CN Train 368 Lifting Meets CN Train 149 Westbound August 4, "
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-08-05",
+        "observed_at": "2026-08-05T09:03-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 135,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=Qh4ePOQnNcA",
+        "title": "CN Train 149 Westbound August 5, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 24.52,
+        "avg_speed_kmh": 12.7,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 135,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-08-10T19:02:30.182656Z",
       "confidence": "low"
     },
     {
@@ -958,7 +818,147 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-10T07:19:04.584650Z",
+      "correlated_at": "2026-08-10T19:02:30.182721Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN126",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-06-23",
+        "observed_at": "2026-06-23T08:44-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=YZggQLnlgAI",
+        "title": "CN Train 368 Raced by CN Train 126 Eastbound June 23, 2026"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-06-25",
+        "observed_at": "2026-06-25T16:21-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 96,
+        "origin": "Edmonton Intermodal Terminal (MIT) AB",
+        "destination": "Montreal Intermodal QC",
+        "video_url": "https://www.youtube.com/watch?v=5WzRDr34IDQ",
+        "title": "CN Train 126 Eastbound June 25, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 55.62,
+        "avg_speed_kmh": 5.6,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 96,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-08-10T19:02:30.182743Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN112",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-08-02",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=CbVZDDXpXyc",
+        "title": "CP 8105 AC4400CWM leads CPKC 112"
+      },
+      "sighting_b": {
+        "location": "MacTier",
+        "date": "2026-08-02",
+        "observed_at": "2026-08-02T2:32",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=MrlnmFXvbcM",
+        "title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)"
+      },
+      "transit": {
+        "distance_km": 147.8,
+        "elapsed_hours": 4.62,
+        "avg_speed_kmh": 32.0,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-08-10T19:02:30.182769Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q107",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "IC 2719",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
+        "title": "IC 2719 + CN 2222 lead CN Q107 north"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-05-31",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 8.69,
+        "avg_speed_kmh": 3.6,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-08-10T19:02:30.182804Z",
       "confidence": "low"
     },
     {
@@ -1003,7 +1003,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584713Z",
+      "correlated_at": "2026-08-10T19:02:30.182908Z",
       "confidence": "medium"
     },
     {
@@ -1048,7 +1048,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584726Z",
+      "correlated_at": "2026-08-10T19:02:30.182916Z",
       "confidence": "medium"
     },
     {
@@ -1093,7 +1093,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584816Z",
+      "correlated_at": "2026-08-10T19:02:30.182975Z",
       "confidence": "low"
     },
     {
@@ -1138,7 +1138,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584887Z",
+      "correlated_at": "2026-08-10T19:02:30.183025Z",
       "confidence": "low"
     },
     {
@@ -1183,7 +1183,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584897Z",
+      "correlated_at": "2026-08-10T19:02:30.183035Z",
       "confidence": "low"
     },
     {
@@ -1228,7 +1228,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584908Z",
+      "correlated_at": "2026-08-10T19:02:30.183043Z",
       "confidence": "low"
     },
     {
@@ -1273,7 +1273,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.584980Z",
+      "correlated_at": "2026-08-10T19:02:30.183094Z",
       "confidence": "low"
     },
     {
@@ -1318,7 +1318,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.585044Z",
+      "correlated_at": "2026-08-10T19:02:30.183139Z",
       "confidence": "low"
     },
     {
@@ -1363,7 +1363,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.585055Z",
+      "correlated_at": "2026-08-10T19:02:30.183148Z",
       "confidence": "low"
     },
     {
@@ -1408,7 +1408,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.585099Z",
+      "correlated_at": "2026-08-10T19:02:30.183183Z",
       "confidence": "low"
     },
     {
@@ -1453,7 +1453,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.585114Z",
+      "correlated_at": "2026-08-10T19:02:30.183192Z",
       "confidence": "low"
     },
     {
@@ -1498,7 +1498,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.585129Z",
+      "correlated_at": "2026-08-10T19:02:30.183202Z",
       "confidence": "low"
     },
     {
@@ -1543,7 +1543,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.585145Z",
+      "correlated_at": "2026-08-10T19:02:30.183213Z",
       "confidence": "low"
     },
     {
@@ -1588,7 +1588,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.585157Z",
+      "correlated_at": "2026-08-10T19:02:30.183221Z",
       "confidence": "low"
     },
     {
@@ -1633,7 +1633,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-10T07:19:04.585169Z",
+      "correlated_at": "2026-08-10T19:02:30.183236Z",
       "confidence": "low"
     }
   ]
