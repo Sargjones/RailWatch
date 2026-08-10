@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-09T18:47:15.691550Z",
+  "generated_at": "2026-08-10T07:19:04.501361Z",
   "dedup_registry": {
-    "total": 587,
+    "total": 589,
     "by_channel": {
       "Trackside Ontario": 37,
       "Trackside Tyson": 88,
@@ -10,21 +10,21 @@
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 17,
       "Brockville RailFan": 213,
-      "MJM Productions": 155,
-      "Central Canada Railfan": 12,
+      "MJM Productions": 156,
+      "Central Canada Railfan": 13,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 141,
-      "medium": 393,
+      "high": 142,
+      "medium": 394,
       "low": 53,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-02T00:00:00Z",
+  "since": "2026-08-03T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,28 +33,18 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 7,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 1,
-      "skipped": 2,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Trackside Tristan",
       "videos": 0,
-      "skipped": 5
+      "skipped": 3
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
@@ -88,13 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 3,
-      "skipped": 19,
+      "videos": 1,
+      "skipped": 18,
       "high": 0,
-      "medium": 3,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 3
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -118,15 +108,166 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     }
   ],
-  "total": 587,
-  "new_this_run": 5,
-  "high_confidence": 141,
+  "total": 589,
+  "new_this_run": 2,
+  "high_confidence": 142,
   "dg_likely": 100,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "KIrSGnCh8wE",
+      "video_url": "https://www.youtube.com/watch?v=KIrSGnCh8wE",
+      "title": "Early morning trains pass through Palgrave, ON (AUG 9, 2026)",
+      "published_at": "2026-08-09T20:40:47Z",
+      "date": "2026-08-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "North",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3055",
+        "CPKC 112",
+        "CP 7556",
+        "CPKC 118",
+        "CP 7483",
+        "CP 7529",
+        "CP 7586",
+        "CP 4522"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3055",
+          "raw": "CP 3055"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7556",
+          "raw": "CP 7556"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7483",
+          "raw": "CP 7483"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7529",
+          "raw": "CP 7529"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7586",
+          "raw": "CP 7586"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 4522",
+          "raw": "CP 4522"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Early morning trains pass through Palgrave, ON (AUG 9, 2026)",
+      "description_chars": 868,
+      "consist": {
+        "observed_time": "8:48",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-08-09T8:48",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "ctveGEnxgwo",
+      "video_url": "https://www.youtube.com/watch?v=ctveGEnxgwo",
+      "title": "A Pair of CP Intermodal Trains Around Kenora and Keewatin Ontario! (8/1/2026)",
+      "published_at": "2026-08-09T19:00:30Z",
+      "date": "2026-01-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 118",
+        "CP 8167",
+        "CP 8724",
+        "CP 100",
+        "CP 8873",
+        "CP 9370"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CP 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8167",
+          "raw": "CP 8167"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8724",
+          "raw": "CP 8724"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 100",
+          "raw": "CP 100"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8873",
+          "raw": "CP 8873"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9370",
+          "raw": "CP 9370"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "A Pair of CP Intermodal Trains Around Kenora and Keewatin Ontario! (8/1/2026)",
+      "description_chars": 490,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-09T18:47:15.683381Z",
-    "total_videos": 587
+    "updated_at": "2026-08-10T07:19:04.493383Z",
+    "total_videos": 589
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3526,6 +3526,18 @@
       "title": "CP 7556 leads CPKC 112 past the pond",
       "confidence": "medium",
       "processed_at": "2026-08-09T18:47:14.513739Z"
+    },
+    "KIrSGnCh8wE": {
+      "channel": "MJM Productions",
+      "title": "Early morning trains pass through Palgrave, ON (AUG 9, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-08-10T07:19:03.255493Z"
+    },
+    "ctveGEnxgwo": {
+      "channel": "Central Canada Railfan",
+      "title": "A Pair of CP Intermodal Trains Around Kenora and Keewatin Ontario! (8/1/2026)",
+      "confidence": "high",
+      "processed_at": "2026-08-10T07:19:04.493363Z"
     }
   }
 }
