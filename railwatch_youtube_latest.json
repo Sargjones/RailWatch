@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-10T19:02:30.111177Z",
+  "generated_at": "2026-08-11T06:56:05.190577Z",
   "dedup_registry": {
-    "total": 597,
+    "total": 602,
     "by_channel": {
-      "Trackside Ontario": 37,
+      "Trackside Ontario": 38,
       "Trackside Tyson": 89,
       "Southern Ontario Railfan": 22,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
-      "Rail Fans Canada": 17,
+      "Rail Fans Canada": 18,
       "Brockville RailFan": 220,
-      "MJM Productions": 156,
+      "MJM Productions": 159,
       "Central Canada Railfan": 13,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
@@ -18,28 +18,28 @@
     },
     "by_confidence": {
       "high": 148,
-      "medium": 395,
+      "medium": 400,
       "low": 54,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-03T00:00:00Z",
+  "since": "2026-08-04T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,18 +63,18 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 7,
-      "skipped": 18,
-      "high": 6,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 4,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 24
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,8 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 19
+      "videos": 3,
+      "skipped": 14,
+      "high": 0,
+      "medium": 3,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +122,160 @@
       "skipped": 2
     }
   ],
-  "total": 597,
-  "new_this_run": 8,
+  "total": 602,
+  "new_this_run": 5,
   "high_confidence": 148,
   "dg_likely": 104,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "K_sAcw-5tEk",
+      "video_url": "https://www.youtube.com/watch?v=K_sAcw-5tEk",
+      "title": "Two Rare Leaders on the Belleville & Mactier Subs (AUG 10, 2026)",
+      "published_at": "2026-08-11T00:15:29Z",
+      "date": "2026-08-10",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7022",
+        "CP 8655",
+        "CPKC 421",
+        "CP 7517"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7022",
+          "raw": "CP 7022"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8655",
+          "raw": "CP 8655"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7517",
+          "raw": "CP 7517"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Two Rare Leaders on the Belleville & Mactier Subs (AUG 10, 2026)",
+      "description_chars": 761,
+      "consist": {
+        "observed_time": "2:34",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-08-10T2:34",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "XaRJSmSQmHw",
+      "video_url": "https://www.youtube.com/watch?v=XaRJSmSQmHw",
+      "title": "CP 7022 Navy Heritage leads CPKC 421",
+      "published_at": "2026-08-10T22:08:47Z",
+      "date": "2026-08-10",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7022",
+        "CPKC 421"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7022",
+          "raw": "CP 7022"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7022 Navy Heritage leads CPKC 421",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "QgH70y4riW4",
+      "video_url": "https://www.youtube.com/watch?v=QgH70y4riW4",
+      "title": "Monday Morning at Bayview \u2022 August 10, 2026",
+      "published_at": "2026-08-10T21:23:59Z",
+      "date": "2026-08-10",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Monday Morning at Bayview \u2022 August 10, 2026",
+      "description_chars": 124,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "VHIspFl64AE",
+      "video_url": "https://www.youtube.com/watch?v=VHIspFl64AE",
+      "title": "CPKC 2-132 absolutely flying past Ajax",
+      "published_at": "2026-08-10T21:08:53Z",
+      "date": "2026-08-10",
+      "location": "Ajax",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8509,
+      "lon": -79.0205,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CPKC 2-132 absolutely flying past Ajax",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
@@ -586,6 +740,32 @@
       "origin": "Toronto MacMillan ON",
       "destination": "Garneau QC",
       "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "7BOUAuzhpzQ",
+      "video_url": "https://www.youtube.com/watch?v=7BOUAuzhpzQ",
+      "title": "Tracking the Progress: Ottawa\u2019s O-Train Stage 2 Western Extension - August 2026",
+      "published_at": "2026-08-09T23:00:19Z",
+      "date": "2026-07-01",
+      "location": "Ottawa",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 45.423,
+      "lon": -75.695,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tracking the Progress: Ottawa\u2019s O-Train Stage 2 Western Extension - August 2026",
+      "description_chars": 1867,
+      "consist": null,
       "location_source": "extracted"
     },
     {

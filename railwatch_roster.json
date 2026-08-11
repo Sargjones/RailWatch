@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-10T19:02:30.229613Z",
-  "total_units": 319,
+  "generated_at": "2026-08-11T06:56:05.309533Z",
+  "total_units": 321,
   "min_sightings": 2,
   "by_road": {
-    "CN": 251,
+    "CN": 252,
     "VIA": 3,
-    "CP": 63,
+    "CP": 64,
     "RUCK": 1,
     "AC": 1
   },
@@ -12534,6 +12534,53 @@
     },
     {
       "road": "CN",
+      "number": "7022",
+      "display": "CN 7022",
+      "sighting_count": 2,
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=K_sAcw-5tEk",
+          "title": "Two Rare Leaders on the Belleville & Mactier Subs (AUG 10, 2",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=XaRJSmSQmHw",
+          "title": "CP 7022 Navy Heritage leads CPKC 421",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7043",
       "display": "CN 7043",
       "sighting_count": 2,
@@ -15758,6 +15805,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
           "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7022",
+      "display": "CP 7022",
+      "sighting_count": 2,
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-08-10",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=K_sAcw-5tEk",
+          "title": "Two Rare Leaders on the Belleville & Mactier Subs (AUG 10, 2",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=XaRJSmSQmHw",
+          "title": "CP 7022 Navy Heritage leads CPKC 421",
           "source": "text_extraction"
         }
       ]
