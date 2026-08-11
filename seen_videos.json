@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-11T06:56:05.181986Z",
-    "total_videos": 602
+    "updated_at": "2026-08-11T19:07:02.506338Z",
+    "total_videos": 605
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3616,6 +3616,24 @@
       "title": "CPKC 2-132 absolutely flying past Ajax",
       "confidence": "medium",
       "processed_at": "2026-08-11T06:56:04.100874Z"
+    },
+    "wqQm2S6BFFc": {
+      "channel": "Trackside Tyson",
+      "title": "HUGE TRAINS MEET IN THE CANYON! #shorts",
+      "confidence": "low",
+      "processed_at": "2026-08-11T19:06:59.224054Z"
+    },
+    "PNuXk25-IME": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound August 11, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-11T19:07:00.734105Z"
+    },
+    "7WKWFz87ylU": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound August 11, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-11T19:07:00.734334Z"
     }
   }
 }
