@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-11T19:07:02.514928Z",
+  "generated_at": "2026-08-12T07:15:25.926961Z",
   "dedup_registry": {
-    "total": 605,
+    "total": 606,
     "by_channel": {
-      "Trackside Ontario": 38,
+      "Trackside Ontario": 39,
       "Trackside Tyson": 90,
       "Southern Ontario Railfan": 22,
       "Trackside Tristan": 10,
@@ -18,28 +18,28 @@
     },
     "by_confidence": {
       "high": 149,
-      "medium": 401,
+      "medium": 402,
       "low": 55,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-04T00:00:00Z",
+  "since": "2026-08-05T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 3
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -49,7 +49,7 @@
     {
       "channel": "Trackside Tristan",
       "videos": 0,
-      "skipped": 3
+      "skipped": 1
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
@@ -64,17 +64,12 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 24,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 23
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -117,11 +112,37 @@
       "skipped": 2
     }
   ],
-  "total": 605,
-  "new_this_run": 3,
+  "total": 606,
+  "new_this_run": 1,
   "high_confidence": 149,
   "dg_likely": 105,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "UuANI-WXuxI",
+      "video_url": "https://www.youtube.com/watch?v=UuANI-WXuxI",
+      "title": "Wednesday Evening at Bayview \u2022 June 3, 2026",
+      "published_at": "2026-08-11T19:19:02Z",
+      "date": "2026-06-03",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Wednesday Evening at Bayview \u2022 June 3, 2026",
+      "description_chars": 121,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
