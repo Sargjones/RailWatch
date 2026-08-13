@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-12T19:06:03.432812Z",
-    "total_videos": 613
+    "updated_at": "2026-08-13T07:17:34.270161Z",
+    "total_videos": 614
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3682,6 +3682,12 @@
       "title": "CN Train 121 Westbound August 12, 2026",
       "confidence": "high",
       "processed_at": "2026-08-12T19:06:01.661293Z"
+    },
+    "2DZ8-v7tKJc": {
+      "channel": "Trackside Ontario",
+      "title": "Tuesday Evening at Bayview \u2022 August 11, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-13T07:17:31.693348Z"
     }
   }
 }

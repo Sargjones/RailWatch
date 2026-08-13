@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-12T19:06:03.442233Z",
+  "generated_at": "2026-08-13T07:17:34.279132Z",
   "dedup_registry": {
-    "total": 613,
+    "total": 614,
     "by_channel": {
-      "Trackside Ontario": 39,
+      "Trackside Ontario": 40,
       "Trackside Tyson": 91,
       "Southern Ontario Railfan": 22,
       "Trackside Tristan": 10,
@@ -18,28 +18,28 @@
     },
     "by_confidence": {
       "high": 154,
-      "medium": 404,
+      "medium": 405,
       "low": 55,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-05T00:00:00Z",
+  "since": "2026-08-06T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 3
-    },
-    {
-      "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 7,
+      "skipped": 3,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
+    },
+    {
+      "channel": "Trackside Tyson",
+      "videos": 0,
+      "skipped": 8
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -68,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 6,
-      "skipped": 23,
-      "high": 5,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 3,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 23
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -89,7 +84,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 17
+      "skipped": 15
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +112,37 @@
       "skipped": 2
     }
   ],
-  "total": 613,
-  "new_this_run": 7,
+  "total": 614,
+  "new_this_run": 1,
   "high_confidence": 154,
   "dg_likely": 108,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "2DZ8-v7tKJc",
+      "video_url": "https://www.youtube.com/watch?v=2DZ8-v7tKJc",
+      "title": "Tuesday Evening at Bayview \u2022 August 11, 2026",
+      "published_at": "2026-08-13T00:45:21Z",
+      "date": "2026-08-11",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Evening at Bayview \u2022 August 11, 2026",
+      "description_chars": 124,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
