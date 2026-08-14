@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-13T19:06:57.861881Z",
+  "generated_at": "2026-08-14T07:15:17.019552Z",
   "dedup_registry": {
-    "total": 619,
+    "total": 620,
     "by_channel": {
-      "Trackside Ontario": 40,
+      "Trackside Ontario": 41,
       "Trackside Tyson": 92,
       "Southern Ontario Railfan": 22,
       "Trackside Tristan": 10,
@@ -18,28 +18,28 @@
     },
     "by_confidence": {
       "high": 157,
-      "medium": 407,
+      "medium": 408,
       "low": 55,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-06T00:00:00Z",
+  "since": "2026-08-07T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 4
-    },
-    {
-      "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 8,
+      "skipped": 4,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
+    },
+    {
+      "channel": "Trackside Tyson",
+      "videos": 0,
+      "skipped": 8
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -64,17 +64,12 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 23,
-      "high": 2,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 24
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -89,7 +84,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 15
+      "skipped": 12
     },
     {
       "channel": "Ontario Railman",
@@ -113,20 +108,41 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 2,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 2
     }
   ],
-  "total": 619,
-  "new_this_run": 5,
+  "total": 620,
+  "new_this_run": 1,
   "high_confidence": 157,
   "dg_likely": 111,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "XU8JNp2tdyY",
+      "video_url": "https://www.youtube.com/watch?v=XU8JNp2tdyY",
+      "title": "A Triple Meet At Bayview \u2022 August 11, 2026",
+      "published_at": "2026-08-14T02:05:05Z",
+      "date": "2026-08-11",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "A Triple Meet At Bayview \u2022 August 11, 2026",
+      "description_chars": 124,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
