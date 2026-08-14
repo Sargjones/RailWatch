@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-14T07:15:17.019552Z",
+  "generated_at": "2026-08-14T18:59:29.737358Z",
   "dedup_registry": {
-    "total": 620,
+    "total": 621,
     "by_channel": {
       "Trackside Ontario": 41,
-      "Trackside Tyson": 92,
+      "Trackside Tyson": 93,
       "Southern Ontario Railfan": 22,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 157,
-      "medium": 408,
+      "medium": 409,
       "low": 55,
       "meta": 0
     }
@@ -28,18 +28,18 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
+      "videos": 0,
+      "skipped": 5
+    },
+    {
+      "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 4,
+      "skipped": 8,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
-    },
-    {
-      "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 8
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -112,11 +112,37 @@
       "skipped": 2
     }
   ],
-  "total": 620,
+  "total": 621,
   "new_this_run": 1,
   "high_confidence": 157,
   "dg_likely": 111,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "8m6WddiXAso",
+      "video_url": "https://www.youtube.com/watch?v=8m6WddiXAso",
+      "title": "MONSTER COAL TRAIN IN THE CANYON #shorts",
+      "published_at": "2026-08-14T14:00:06Z",
+      "date": "2026-08-14",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "gondola",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "MONSTER COAL TRAIN IN THE CANYON #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
