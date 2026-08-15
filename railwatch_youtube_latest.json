@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-15T06:26:17.405619Z",
+  "generated_at": "2026-08-15T18:35:05.175207Z",
   "dedup_registry": {
-    "total": 621,
+    "total": 624,
     "by_channel": {
       "Trackside Ontario": 41,
-      "Trackside Tyson": 93,
+      "Trackside Tyson": 95,
       "Southern Ontario Railfan": 22,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 18,
       "Brockville RailFan": 231,
-      "MJM Productions": 159,
+      "MJM Productions": 160,
       "Central Canada Railfan": 14,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
@@ -18,8 +18,8 @@
     },
     "by_confidence": {
       "high": 157,
-      "medium": 409,
-      "low": 55,
+      "medium": 410,
+      "low": 57,
       "meta": 0
     }
   },
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 8
+      "videos": 2,
+      "skipped": 8,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 2,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -78,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 11
+      "videos": 1,
+      "skipped": 11,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -107,11 +117,102 @@
       "skipped": 2
     }
   ],
-  "total": 621,
-  "new_this_run": 0,
+  "total": 624,
+  "new_this_run": 3,
   "high_confidence": 157,
   "dg_likely": 111,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "22f-SaqkM_Y",
+      "video_url": "https://www.youtube.com/watch?v=22f-SaqkM_Y",
+      "title": "CN 2806 leads CN Q183 under the signals",
+      "published_at": "2026-08-15T15:53:06Z",
+      "date": "2026-08-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2806"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2806",
+          "raw": "CN 2806"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q183",
+          "raw": "Q183"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2806 leads CN Q183 under the signals",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "3sglqiFpmVI",
+      "video_url": "https://www.youtube.com/watch?v=3sglqiFpmVI",
+      "title": "CHASING THE ROCKY MOUNTAINEER INTO THE FRASER CANYON!",
+      "published_at": "2026-08-15T15:00:06Z",
+      "date": "2026-08-15",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CHASING THE ROCKY MOUNTAINEER INTO THE FRASER CANYON!",
+      "description_chars": 439,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "MqNve1HvoSA",
+      "video_url": "https://www.youtube.com/watch?v=MqNve1HvoSA",
+      "title": "TRESPASSERS ON ACTIVE TRAIN BRIDGE! #shorts",
+      "published_at": "2026-08-15T14:00:18Z",
+      "date": "2026-08-15",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "TRESPASSERS ON ACTIVE TRAIN BRIDGE! #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
