@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T06:29:22.481581Z",
+  "generated_at": "2026-08-16T18:34:09.750722Z",
   "total_units": 335,
   "min_sightings": 2,
   "by_road": {
@@ -925,6 +925,94 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=PSD_3rDhhlU",
           "title": "CN Train 368 Eastbound June 20, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3055",
+      "display": "CN 3055",
+      "sighting_count": 5,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-08-16",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 112",
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=kSLh3sVAiQw",
+          "title": "CP 3055 blasting its P3 horn out of Spence",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=KIrSGnCh8wE",
+          "title": "Early morning trains pass through Palgrave, ON (AUG 9, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=oOt9QVZXZQs",
+          "title": "CP 3055 + CP 4522 lead CPKC H17 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TWUYnG3KCZQ",
+          "title": "CN Train 368 Eastbound July 27, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TWUYnG3KCZQ",
+          "title": "CN Train 368 Eastbound July 27, 2026",
           "source": "description_structured"
         }
       ]
@@ -2373,81 +2461,6 @@
           "video_url": "https://www.youtube.com/watch?v=0wQD_7Rm580",
           "title": "CN M396 meets CN A425 at Bayview \u2022 July 27, 2026",
           "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3055",
-      "display": "CN 3055",
-      "sighting_count": 4,
-      "first_seen": "2026-07-27",
-      "last_seen": "2026-08-09",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 112",
-        "CN 368"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-09",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=KIrSGnCh8wE",
-          "title": "Early morning trains pass through Palgrave, ON (AUG 9, 2026)",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-08-09",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=oOt9QVZXZQs",
-          "title": "CP 3055 + CP 4522 lead CPKC H17 north",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-07-27",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=TWUYnG3KCZQ",
-          "title": "CN Train 368 Eastbound July 27, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-27",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=TWUYnG3KCZQ",
-          "title": "CN Train 368 Eastbound July 27, 2026",
-          "source": "description_structured"
         }
       ]
     },
@@ -15435,6 +15448,66 @@
     },
     {
       "road": "CP",
+      "number": "3055",
+      "display": "CP 3055",
+      "sighting_count": 3,
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-08-16",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=kSLh3sVAiQw",
+          "title": "CP 3055 blasting its P3 horn out of Spence",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=KIrSGnCh8wE",
+          "title": "Early morning trains pass through Palgrave, ON (AUG 9, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=oOt9QVZXZQs",
+          "title": "CP 3055 + CP 4522 lead CPKC H17 north",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "3112",
       "display": "CP 3112",
       "sighting_count": 3,
@@ -16128,53 +16201,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
           "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "3055",
-      "display": "CP 3055",
-      "sighting_count": 2,
-      "first_seen": "2026-08-09",
-      "last_seen": "2026-08-09",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 112"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-09",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=KIrSGnCh8wE",
-          "title": "Early morning trains pass through Palgrave, ON (AUG 9, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-09",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=oOt9QVZXZQs",
-          "title": "CP 3055 + CP 4522 lead CPKC H17 north",
           "source": "text_extraction"
         }
       ]
