@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-15T18:35:05.175207Z",
+  "generated_at": "2026-08-16T06:29:22.348453Z",
   "dedup_registry": {
-    "total": 624,
+    "total": 629,
     "by_channel": {
       "Trackside Ontario": 41,
       "Trackside Tyson": 95,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 18,
       "Brockville RailFan": 231,
-      "MJM Productions": 160,
+      "MJM Productions": 165,
       "Central Canada Railfan": 14,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 1,
@@ -18,28 +18,23 @@
     },
     "by_confidence": {
       "high": 157,
-      "medium": 410,
+      "medium": 415,
       "low": 57,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-08T00:00:00Z",
+  "since": "2026-08-09T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 5
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 2,
-      "skipped": 8,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 2,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 9
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -69,7 +64,7 @@
     {
       "channel": "Brockville RailFan",
       "videos": 0,
-      "skipped": 19
+      "skipped": 18
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 11,
+      "videos": 5,
+      "skipped": 8,
       "high": 0,
-      "medium": 1,
+      "medium": 5,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 5
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +112,179 @@
       "skipped": 2
     }
   ],
-  "total": 624,
-  "new_this_run": 3,
+  "total": 629,
+  "new_this_run": 5,
   "high_confidence": 157,
   "dg_likely": 111,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "DWR6-gbzlz0",
+      "video_url": "https://www.youtube.com/watch?v=DWR6-gbzlz0",
+      "title": "Multiple CPKC HOTSHOTS fly past Spence, ON (AUG 15, 2026)",
+      "published_at": "2026-08-15T23:18:09Z",
+      "date": "2026-08-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Multiple CPKC HOTSHOTS fly past Spence, ON (AUG 15, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "9qJU8ureO_4",
+      "video_url": "https://www.youtube.com/watch?v=9qJU8ureO_4",
+      "title": "CP 7547 south flies past South Spence",
+      "published_at": "2026-08-15T20:42:51Z",
+      "date": "2026-08-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7547"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7547",
+          "raw": "CP 7547"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7547 south flies past South Spence",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "_8QvNIcd63Y",
+      "video_url": "https://www.youtube.com/watch?v=_8QvNIcd63Y",
+      "title": "CPKC 106 rips past the Beeton bridge",
+      "published_at": "2026-08-15T20:40:08Z",
+      "date": "2026-08-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 106"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 106",
+          "raw": "CPKC 106"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 106 rips past the Beeton bridge",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "cwhrZkESecg",
+      "video_url": "https://www.youtube.com/watch?v=cwhrZkESecg",
+      "title": "CP 7578 leads a fast CPKC 112 south",
+      "published_at": "2026-08-15T20:37:43Z",
+      "date": "2026-08-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7578",
+        "CPKC 112"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7578",
+          "raw": "CP 7578"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7578 leads a fast CPKC 112 south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "P1_0DyHPz0I",
+      "video_url": "https://www.youtube.com/watch?v=P1_0DyHPz0I",
+      "title": "Double KCS gevos lead a FAST CPKC 113",
+      "published_at": "2026-08-15T20:33:20Z",
+      "date": "2026-08-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 113"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Double KCS gevos lead a FAST CPKC 113",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
