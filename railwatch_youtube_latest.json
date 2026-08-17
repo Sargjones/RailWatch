@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-17T06:40:30.741250Z",
+  "generated_at": "2026-08-17T18:44:47.655344Z",
   "dedup_registry": {
-    "total": 634,
+    "total": 639,
     "by_channel": {
-      "Trackside Ontario": 41,
+      "Trackside Ontario": 42,
       "Trackside Tyson": 96,
-      "Southern Ontario Railfan": 22,
+      "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 18,
-      "Brockville RailFan": 231,
+      "Brockville RailFan": 233,
       "MJM Productions": 167,
       "Central Canada Railfan": 14,
       "Winnipeg Railman": 3,
-      "PTBO Railfanning": 3,
+      "PTBO Railfanning": 4,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 157,
-      "medium": 420,
+      "high": 158,
+      "medium": 424,
       "low": 57,
       "meta": 0
     }
@@ -28,8 +28,13 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
@@ -38,8 +43,13 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -63,8 +73,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 18
+      "videos": 2,
+      "skipped": 18,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -73,8 +88,13 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "MJM Productions",
@@ -107,11 +127,203 @@
       "skipped": 1
     }
   ],
-  "total": 634,
-  "new_this_run": 0,
-  "high_confidence": 157,
-  "dg_likely": 111,
+  "total": 639,
+  "new_this_run": 5,
+  "high_confidence": 158,
+  "dg_likely": 112,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "9kS2Hak9Ydc",
+      "video_url": "https://www.youtube.com/watch?v=9kS2Hak9Ydc",
+      "title": "Monday Morning at Bayview \u2022 August 17, 2026",
+      "published_at": "2026-08-17T17:37:05Z",
+      "date": "2026-08-17",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Monday Morning at Bayview \u2022 August 17, 2026",
+      "description_chars": 124,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "1LzPZq5AShs",
+      "video_url": "https://www.youtube.com/watch?v=1LzPZq5AShs",
+      "title": "Western Ontario Outlaws Mower Racing Modified Rd 01 Aug 15 2026",
+      "published_at": "2026-08-17T17:00:35Z",
+      "date": "2026-08-15",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Western Ontario Outlaws Mower Racing Modified Rd 01 Aug 15 2026",
+      "description_chars": 547,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "1iHjnQ7zp_w",
+      "video_url": "https://www.youtube.com/watch?v=1iHjnQ7zp_w",
+      "title": "CN Train In Oshawa",
+      "published_at": "2026-08-17T16:49:49Z",
+      "date": "2026-08-17",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train In Oshawa",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "yt0Na3SxeWU",
+      "video_url": "https://www.youtube.com/watch?v=yt0Na3SxeWU",
+      "title": "VIA Train 61 Westbound August 17, 2026",
+      "published_at": "2026-08-17T13:48:49Z",
+      "date": "2026-08-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound August 17, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 70 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 113,
+        "speed_raw": "70 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:50",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-08-17T08:50-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "eeW6NjBB3EI",
+      "video_url": "https://www.youtube.com/watch?v=eeW6NjBB3EI",
+      "title": "CN Train X108 Eastbound August 17, 2026",
+      "published_at": "2026-08-17T13:36:42Z",
+      "date": "2026-08-17",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3976",
+        "CN 2319"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "X108",
+          "raw": "X108"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3976",
+          "raw": "CN 3976"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2319",
+          "raw": "CN 2319"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train X108 Eastbound August 17, 2026",
+      "description_chars": 215,
+      "consist": {
+        "engines": [
+          "CN 3976",
+          "CN 2319"
+        ],
+        "car_count": 92,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 51,
+        "speed_raw": "32 mph",
+        "detector_milepost": 124,
+        "observed_time": "06:52",
+        "observed_tz": "EDT",
+        "origin": "Vancouver Thornton BC",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-08-17T06:52-04:00",
+      "origin": "Vancouver Thornton BC",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
