@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-17T18:44:47.655344Z",
+  "generated_at": "2026-08-18T06:32:07.232281Z",
   "dedup_registry": {
-    "total": 639,
+    "total": 640,
     "by_channel": {
       "Trackside Ontario": 42,
       "Trackside Tyson": 96,
       "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
-      "Rail Fans Canada": 18,
+      "Rail Fans Canada": 19,
       "Brockville RailFan": 233,
       "MJM Productions": 167,
       "Central Canada Railfan": 14,
@@ -18,38 +18,28 @@
     },
     "by_confidence": {
       "high": 158,
-      "medium": 424,
+      "medium": 425,
       "low": 57,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-10T00:00:00Z",
+  "since": "2026-08-11T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 8
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 1,
-      "skipped": 0,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 1
     },
     {
       "channel": "Trackside Tristan",
@@ -68,18 +58,18 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 18,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 13
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,18 +78,13 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 1,
-      "skipped": 2,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 11
+      "skipped": 9
     },
     {
       "channel": "Ontario Railman",
@@ -127,8 +112,8 @@
       "skipped": 1
     }
   ],
-  "total": 639,
-  "new_this_run": 5,
+  "total": 640,
+  "new_this_run": 1,
   "high_confidence": 158,
   "dg_likely": 112,
   "observations": [
@@ -207,6 +192,32 @@
       "confidence": "medium",
       "raw_title": "CN Train In Oshawa",
       "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "ER95SlJhhyw",
+      "video_url": "https://www.youtube.com/watch?v=ER95SlJhhyw",
+      "title": "10 Quick Facts About Ottawa\u2019s O-Train | Episode 2",
+      "published_at": "2026-08-17T14:35:58Z",
+      "date": "2026-08-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "10 Quick Facts About Ottawa\u2019s O-Train | Episode 2",
+      "description_chars": 912,
       "consist": null,
       "location_source": "extracted"
     },
