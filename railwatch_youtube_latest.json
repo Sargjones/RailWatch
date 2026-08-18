@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-18T06:32:07.232281Z",
+  "generated_at": "2026-08-18T18:42:41.302378Z",
   "dedup_registry": {
-    "total": 640,
+    "total": 645,
     "by_channel": {
-      "Trackside Ontario": 42,
+      "Trackside Ontario": 43,
       "Trackside Tyson": 96,
       "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 19,
-      "Brockville RailFan": 233,
+      "Brockville RailFan": 236,
       "MJM Productions": 167,
       "Central Canada Railfan": 14,
       "Winnipeg Railman": 3,
-      "PTBO Railfanning": 4,
+      "PTBO Railfanning": 5,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 158,
-      "medium": 425,
+      "high": 159,
+      "medium": 429,
       "low": 57,
       "meta": 0
     }
@@ -28,8 +28,13 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
@@ -58,18 +63,18 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 13
+      "videos": 3,
+      "skipped": 13,
+      "high": 1,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,8 +83,13 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 0,
-      "skipped": 3
+      "videos": 1,
+      "skipped": 3,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "MJM Productions",
@@ -112,11 +122,247 @@
       "skipped": 1
     }
   ],
-  "total": 640,
-  "new_this_run": 1,
-  "high_confidence": 158,
+  "total": 645,
+  "new_this_run": 5,
+  "high_confidence": 159,
   "dg_likely": 112,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "9hHMnYIMPRw",
+      "video_url": "https://www.youtube.com/watch?v=9hHMnYIMPRw",
+      "title": "Western Ontario Outlaws Mower Racing Super Mod & Outlaw Rd 01 Aug 15 2026",
+      "published_at": "2026-08-18T18:00:00Z",
+      "date": "2026-08-15",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Western Ontario Outlaws Mower Racing Super Mod & Outlaw Rd 01 Aug 15 2026",
+      "description_chars": 557,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "F2NeKDzYhBc",
+      "video_url": "https://www.youtube.com/watch?v=F2NeKDzYhBc",
+      "title": "CN Train 368 Eastbound Meets CN Train 305 Westbound August 18, 2026",
+      "published_at": "2026-08-18T14:40:42Z",
+      "date": "2026-08-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3351",
+        "CN 3960",
+        "CN 2920"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 305",
+          "raw": "CN Train 305"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3351",
+          "raw": "CN 3351"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3960",
+          "raw": "CN 3960"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2920",
+          "raw": "CN 2920"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Train 368 Eastbound Meets CN Train 305 Westbound August 18, 2026",
+      "description_chars": 360,
+      "consist": {
+        "observed_time": "09:27",
+        "observed_tz": "EDT",
+        "temperature_c": 20
+      },
+      "observed_at": "2026-08-18T09:27-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "pwrCw6p09kA",
+      "video_url": "https://www.youtube.com/watch?v=pwrCw6p09kA",
+      "title": "VIA Train 61 Westbound August 18, 2026",
+      "published_at": "2026-08-18T14:16:09Z",
+      "date": "2026-08-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound August 18, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 39 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 63,
+        "speed_raw": "39 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:08",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-08-18T09:08-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "dJisUrPHnjw",
+      "video_url": "https://www.youtube.com/watch?v=dJisUrPHnjw",
+      "title": "CN Train 149 Westbound August 18, 2026",
+      "published_at": "2026-08-18T14:09:52Z",
+      "date": "2026-08-18",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2895",
+        "CN 3820"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2895",
+          "raw": "CN 2895"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3820",
+          "raw": "CN 3820"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound August 18, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 2895",
+          "CN 3820"
+        ],
+        "car_count": 117,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 63,
+        "speed_raw": "39 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:00",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-08-18T09:00-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "YsrfrRN30M8",
+      "video_url": "https://www.youtube.com/watch?v=YsrfrRN30M8",
+      "title": "CN M397 at MP 44 CN Halton Subdivision \u2022 August 17, 2026",
+      "published_at": "2026-08-18T12:35:57Z",
+      "date": "2026-08-17",
+      "location": "Burlington",
+      "subdivision": "CN Oakville Sub",
+      "lat": 43.32,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "M397",
+          "raw": "M397"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN M397 at MP 44 CN Halton Subdivision \u2022 August 17, 2026",
+      "description_chars": 95,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
