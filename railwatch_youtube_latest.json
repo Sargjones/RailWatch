@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-19T06:32:52.291056Z",
+  "generated_at": "2026-08-19T18:40:15.364258Z",
   "dedup_registry": {
-    "total": 645,
+    "total": 648,
     "by_channel": {
       "Trackside Ontario": 43,
-      "Trackside Tyson": 96,
+      "Trackside Tyson": 97,
       "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 19,
       "Brockville RailFan": 236,
       "MJM Productions": 167,
-      "Central Canada Railfan": 14,
+      "Central Canada Railfan": 15,
       "Winnipeg Railman": 3,
-      "PTBO Railfanning": 5,
+      "PTBO Railfanning": 6,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 159,
-      "medium": 429,
-      "low": 57,
+      "high": 160,
+      "medium": 430,
+      "low": 58,
       "meta": 0
     }
   },
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -73,8 +78,13 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "MJM Productions",
@@ -103,15 +113,202 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 1
     }
   ],
-  "total": 645,
-  "new_this_run": 0,
-  "high_confidence": 159,
-  "dg_likely": 112,
+  "total": 648,
+  "new_this_run": 3,
+  "high_confidence": 160,
+  "dg_likely": 113,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "2adh_9fmHuc",
+      "video_url": "https://www.youtube.com/watch?v=2adh_9fmHuc",
+      "title": "Western Ontario Outlaws Mower Racing Juniors Rd 02 Aug 15 2026",
+      "published_at": "2026-08-19T17:00:35Z",
+      "date": "2026-08-15",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Western Ontario Outlaws Mower Racing Juniors Rd 02 Aug 15 2026",
+      "description_chars": 546,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "5wpj4PFfcnY",
+      "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+      "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around Winnipeg! - Late July to Mid August 2026",
+      "published_at": "2026-08-19T17:00:08Z",
+      "date": "2026-08-14",
+      "location": "Winnipeg",
+      "subdivision": "CN Mainline Manitoba",
+      "lat": 49.8951,
+      "lon": -97.1384,
+      "direction": "East",
+      "commodity_type": "tank",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CP 118",
+        "CP 7572",
+        "CP 8154",
+        "CP 7530",
+        "CP 320",
+        "CP 8718",
+        "CP 7605",
+        "CP 8874",
+        "CP 8747",
+        "CP 8116",
+        "CP 7022",
+        "CP 577",
+        "CP 7472",
+        "CP 8949",
+        "CP 7020",
+        "CP 647",
+        "CP 3109"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CP 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7572",
+          "raw": "CP 7572"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8154",
+          "raw": "CP 8154"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7530",
+          "raw": "CP 7530"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 320",
+          "raw": "CP 320"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8718",
+          "raw": "CP 8718"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7605",
+          "raw": "CP 7605"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8874",
+          "raw": "CP 8874"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8747",
+          "raw": "CP 8747"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8116",
+          "raw": "CP 8116"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7022",
+          "raw": "CP 7022"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 577",
+          "raw": "CP 577"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7472",
+          "raw": "CP 7472"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8949",
+          "raw": "CP 8949"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7020",
+          "raw": "CP 7020"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 647",
+          "raw": "CP 647"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3109",
+          "raw": "CP 3109"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Veterans Units, SOO Line GP38 and More on CP Trains Around Winnipeg! - Late July to Mid August 2026",
+      "description_chars": 1151,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "EcbGomsGubo",
+      "video_url": "https://www.youtube.com/watch?v=EcbGomsGubo",
+      "title": "KCSM GREY GHOST ON CPKC LASHUP #shorts",
+      "published_at": "2026-08-19T15:00:37Z",
+      "date": "2026-08-19",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "KCSM GREY GHOST ON CPKC LASHUP #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
