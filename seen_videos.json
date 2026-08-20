@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-20T06:35:03.304370Z",
-    "total_videos": 650
+    "updated_at": "2026-08-20T18:45:15.023865Z",
+    "total_videos": 657
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3904,6 +3904,48 @@
       "title": "CN Train 149 Westbound August 19, 2026",
       "confidence": "high",
       "processed_at": "2026-08-20T06:35:01.670691Z"
+    },
+    "MRK420OhC6A": {
+      "channel": "Trackside Tyson",
+      "title": "SD70ACU DPU THRU CURVES #shorts",
+      "confidence": "low",
+      "processed_at": "2026-08-20T18:45:12.377327Z"
+    },
+    "bw3G9g-Whf4": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound August 20, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-20T18:45:13.627973Z"
+    },
+    "Tab8o1tQ4zY": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound August 20, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-20T18:45:13.628159Z"
+    },
+    "_AKehl2ES6c": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound August 20, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-20T18:45:13.628324Z"
+    },
+    "SwGNSx6Sibg": {
+      "channel": "Brockville RailFan",
+      "title": "CN 368 Train  Lifting Meets CN Train 106 Eastbound August 20, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-20T18:45:13.628540Z"
+    },
+    "_ZsDCrxcni4": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 121 Westbound Meets CN Train 276 Eastbound August 20, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-20T18:45:13.628799Z"
+    },
+    "Vj70BfR7tQU": {
+      "channel": "PTBO Railfanning",
+      "title": "Western Ontario Outlaws Mower Racing Econo Mod Rd 02 Aug 15 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-20T18:45:14.031710Z"
     }
   }
 }
