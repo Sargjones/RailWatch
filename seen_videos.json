@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-19T18:40:15.355109Z",
-    "total_videos": 648
+    "updated_at": "2026-08-20T06:35:03.304370Z",
+    "total_videos": 650
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -3892,6 +3892,18 @@
       "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around Winnipeg! - Late July",
       "confidence": "high",
       "processed_at": "2026-08-19T18:40:15.355089Z"
+    },
+    "y2ENMfkiwMQ": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound August 19, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-20T06:35:01.670460Z"
+    },
+    "Qx0Nm4v96MQ": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound August 19, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-20T06:35:01.670691Z"
     }
   }
 }
