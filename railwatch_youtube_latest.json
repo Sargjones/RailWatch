@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-21T06:34:54.087047Z",
+  "generated_at": "2026-08-21T18:41:21.646668Z",
   "dedup_registry": {
-    "total": 657,
+    "total": 665,
     "by_channel": {
       "Trackside Ontario": 43,
-      "Trackside Tyson": 98,
+      "Trackside Tyson": 99,
       "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 19,
-      "Brockville RailFan": 243,
-      "MJM Productions": 167,
+      "Brockville RailFan": 245,
+      "MJM Productions": 172,
       "Central Canada Railfan": 15,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 7,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 163,
-      "medium": 435,
+      "medium": 443,
       "low": 59,
       "meta": 0
     }
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,8 +68,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 12
+      "videos": 2,
+      "skipped": 12,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,8 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 8
+      "videos": 5,
+      "skipped": 8,
+      "high": 0,
+      "medium": 5,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -107,11 +122,312 @@
       "skipped": 1
     }
   ],
-  "total": 657,
-  "new_this_run": 0,
+  "total": 665,
+  "new_this_run": 8,
   "high_confidence": 163,
   "dg_likely": 114,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "tiWcnMAs4mo",
+      "video_url": "https://www.youtube.com/watch?v=tiWcnMAs4mo",
+      "title": "CP 7588 through the rocks at Otter Lake",
+      "published_at": "2026-08-21T18:00:11Z",
+      "date": "2026-08-21",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7588"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7588",
+          "raw": "CP 7588"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7588 through the rocks at Otter Lake",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "yrfdUWb3flU",
+      "video_url": "https://www.youtube.com/watch?v=yrfdUWb3flU",
+      "title": "VIA 6445 leads the Canadian thru Falding",
+      "published_at": "2026-08-21T15:31:50Z",
+      "date": "2026-08-21",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 6445"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 6445",
+          "raw": "VIA 6445"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 6445 leads the Canadian thru Falding",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "dra4Guo6juA",
+      "video_url": "https://www.youtube.com/watch?v=dra4Guo6juA",
+      "title": "EMD SD75I DRAGS GRAIN TRAIN #shorts",
+      "published_at": "2026-08-21T15:00:21Z",
+      "date": "2026-08-21",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "EMD SD75I DRAGS GRAIN TRAIN #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "cI1P_NqGoyc",
+      "video_url": "https://www.youtube.com/watch?v=cI1P_NqGoyc",
+      "title": "CN Train 306 Eastbound Meets VIA Train 69 Westbound August 20, 2026",
+      "published_at": "2026-08-21T14:19:05Z",
+      "date": "2026-08-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3092",
+        "CN 3143"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 306",
+          "raw": "CN Train 306"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 69",
+          "raw": "VIA Train 69"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3092",
+          "raw": "CN 3092"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3143",
+          "raw": "CN 3143"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Train 306 Eastbound Meets VIA Train 69 Westbound August 20, 2026",
+      "description_chars": 357,
+      "consist": {
+        "observed_time": "19:09",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "306 Toronto MacMillan ON"
+      },
+      "observed_at": "2026-08-20T19:09-04:00",
+      "origin": "306 Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "i_GjLSzxwk8",
+      "video_url": "https://www.youtube.com/watch?v=i_GjLSzxwk8",
+      "title": "CPKC 100 heads down the Parry Sound sub",
+      "published_at": "2026-08-21T14:05:00Z",
+      "date": "2026-08-21",
+      "location": "Parry Sound",
+      "subdivision": "CN Bala Sub",
+      "lat": 45.35,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 100"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 100",
+          "raw": "CPKC 100"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 100 heads down the Parry Sound sub",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "3fD81UqrjLo",
+      "video_url": "https://www.youtube.com/watch?v=3fD81UqrjLo",
+      "title": "VIA Train 644 Eastbound August 20, 2026",
+      "published_at": "2026-08-21T13:49:44Z",
+      "date": "2026-08-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 644",
+          "raw": "VIA Train 644"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 644 Eastbound August 20, 2026",
+      "description_chars": 190,
+      "consist": {
+        "observed_time": "16:58",
+        "observed_tz": "EDT",
+        "temperature_c": 22,
+        "origin": "Toronto ON",
+        "destination": "Ottawa ON"
+      },
+      "observed_at": "2026-08-20T16:58-04:00",
+      "origin": "Toronto ON",
+      "destination": "Ottawa ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "yFYviPOLAic",
+      "video_url": "https://www.youtube.com/watch?v=yFYviPOLAic",
+      "title": "CN 2884 leads CN Q180 past South Parry",
+      "published_at": "2026-08-21T12:23:09Z",
+      "date": "2026-08-21",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2884"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2884",
+          "raw": "CN 2884"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q180",
+          "raw": "Q180"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2884 leads CN Q180 past South Parry",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "TI-vhOyBD04",
+      "video_url": "https://www.youtube.com/watch?v=TI-vhOyBD04",
+      "title": "CN Z115 goes over the Parry Sound trestle",
+      "published_at": "2026-08-21T12:20:09Z",
+      "date": "2026-08-21",
+      "location": "Parry Sound",
+      "subdivision": "CN Bala Sub",
+      "lat": 45.35,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Z115",
+          "raw": "Z115"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Z115 goes over the Parry Sound trestle",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
