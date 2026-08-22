@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-08-21T18:41:21.646668Z",
+  "generated_at": "2026-08-22T06:28:46.956810Z",
   "dedup_registry": {
-    "total": 665,
+    "total": 675,
     "by_channel": {
       "Trackside Ontario": 43,
-      "Trackside Tyson": 99,
+      "Trackside Tyson": 100,
       "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
-      "Rail Fans Canada": 19,
-      "Brockville RailFan": 245,
-      "MJM Productions": 172,
+      "Rail Fans Canada": 20,
+      "Brockville RailFan": 247,
+      "MJM Productions": 177,
       "Central Canada Railfan": 15,
       "Winnipeg Railman": 3,
-      "PTBO Railfanning": 7,
+      "PTBO Railfanning": 8,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 163,
-      "medium": 443,
-      "low": 59,
+      "high": 164,
+      "medium": 451,
+      "low": 60,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-14T00:00:00Z",
+  "since": "2026-08-15T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "Trackside Tyson",
       "videos": 1,
       "skipped": 6,
       "high": 0,
-      "medium": 1,
-      "low_meta": 0,
+      "medium": 0,
+      "low_meta": 1,
       "dg_likely": 0,
       "defaulted": 0
     },
@@ -63,17 +63,22 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
       "videos": 2,
-      "skipped": 12,
-      "high": 0,
-      "medium": 2,
+      "skipped": 14,
+      "high": 1,
+      "medium": 1,
       "low_meta": 0,
-      "dg_likely": 0,
+      "dg_likely": 1,
       "defaulted": 0
     },
     {
@@ -83,18 +88,23 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "MJM Productions",
       "videos": 5,
-      "skipped": 8,
+      "skipped": 13,
       "high": 0,
       "medium": 5,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 3
+      "defaulted": 4
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +132,207 @@
       "skipped": 1
     }
   ],
-  "total": 665,
-  "new_this_run": 8,
-  "high_confidence": 163,
-  "dg_likely": 114,
+  "total": 675,
+  "new_this_run": 10,
+  "high_confidence": 164,
+  "dg_likely": 115,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "N7vzKMj-dUg",
+      "video_url": "https://www.youtube.com/watch?v=N7vzKMj-dUg",
+      "title": "ILLINOIS CENTRAL! Railfanning at Parry Sound, ON (AUG 21, 2026)",
+      "published_at": "2026-08-22T02:46:11Z",
+      "date": "2026-08-21",
+      "location": "Parry Sound",
+      "subdivision": "CN Bala Sub",
+      "lat": 45.35,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "ILLINOIS CENTRAL! Railfanning at Parry Sound, ON (AUG 21, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "tERkOV3Y_R4",
+      "video_url": "https://www.youtube.com/watch?v=tERkOV3Y_R4",
+      "title": "RailChat #13 - O-Train East Extension Update + Your Questions Answered Live!",
+      "published_at": "2026-08-22T01:07:15Z",
+      "date": "2026-08-22",
+      "location": "Ottawa",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 45.423,
+      "lon": -75.695,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "RailChat #13 - O-Train East Extension Update + Your Questions Answered Live!",
+      "description_chars": 850,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "ZwCbXWQyiwY",
+      "video_url": "https://www.youtube.com/watch?v=ZwCbXWQyiwY",
+      "title": "Rare mixed lashup on CPKC 421 thru Ypres",
+      "published_at": "2026-08-22T00:57:52Z",
+      "date": "2026-08-22",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 421"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Rare mixed lashup on CPKC 421 thru Ypres",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "kPsN04HOTKc",
+      "video_url": "https://www.youtube.com/watch?v=kPsN04HOTKc",
+      "title": "CN 3953 leads CN Q103 thru Dock Siding",
+      "published_at": "2026-08-21T23:44:20Z",
+      "date": "2026-08-21",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3953"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3953",
+          "raw": "CN 3953"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q103",
+          "raw": "Q103"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3953 leads CN Q103 thru Dock Siding",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "TP99cYyp5Pc",
+      "video_url": "https://www.youtube.com/watch?v=TP99cYyp5Pc",
+      "title": "ROCKY MOUNTAINEER PASSENGER TRAINS THRU THE SCENIC THOMPSON CANYON!",
+      "published_at": "2026-08-21T22:58:27Z",
+      "date": "2026-08-21",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "ROCKY MOUNTAINEER PASSENGER TRAINS THRU THE SCENIC THOMPSON CANYON!",
+      "description_chars": 452,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "YH_TybiTCqw",
+      "video_url": "https://www.youtube.com/watch?v=YH_TybiTCqw",
+      "title": "CN 2650 + CN 2647 lead CN Q107 north",
+      "published_at": "2026-08-21T20:37:08Z",
+      "date": "2026-08-21",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2650",
+        "CN 2647"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2650",
+          "raw": "CN 2650"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2647",
+          "raw": "CN 2647"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2650 + CN 2647 lead CN Q107 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
@@ -158,6 +364,32 @@
       "confidence": "medium",
       "raw_title": "CP 7588 through the rocks at Otter Lake",
       "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "TiDqHzcc_5Q",
+      "video_url": "https://www.youtube.com/watch?v=TiDqHzcc_5Q",
+      "title": "Western Ontario Outlaws Mower Racing Modified Rd 02 Aug 15 2026",
+      "published_at": "2026-08-21T17:00:34Z",
+      "date": "2026-08-15",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Western Ontario Outlaws Mower Racing Modified Rd 02 Aug 15 2026",
+      "description_chars": 547,
       "consist": null,
       "location_source": "channel_default"
     },
@@ -198,6 +430,40 @@
     {
       "source": "youtube",
       "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "ovrBnvRE7z0",
+      "video_url": "https://www.youtube.com/watch?v=ovrBnvRE7z0",
+      "title": "CN 8818 noodle less SD70M-2 heads south",
+      "published_at": "2026-08-21T15:30:47Z",
+      "date": "2026-08-21",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8818"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8818",
+          "raw": "CN 8818"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8818 noodle less SD70M-2 heads south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
       "channel": "Trackside Tyson",
       "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
       "video_id": "dra4Guo6juA",
@@ -220,6 +486,72 @@
       "description_chars": 0,
       "consist": null,
       "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "RJM-94RPYnI",
+      "video_url": "https://www.youtube.com/watch?v=RJM-94RPYnI",
+      "title": "CN Train 369 Westbound August 20, 2026",
+      "published_at": "2026-08-21T14:30:45Z",
+      "date": "2026-08-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3277",
+        "CN 2864"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 369",
+          "raw": "CN Train 369"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3277",
+          "raw": "CN 3277"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2864",
+          "raw": "CN 2864"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 369 Westbound August 20, 2026",
+      "description_chars": 213,
+      "consist": {
+        "engines": [
+          "CN 3277"
+        ],
+        "dpu": [
+          "CN 2864"
+        ],
+        "car_count": 145,
+        "consist_type": "freight",
+        "speed_kmh": 60,
+        "speed_raw": "37 mph",
+        "detector_milepost": 124,
+        "observed_time": "19:28",
+        "observed_tz": "EDT",
+        "temperature_c": 19,
+        "origin": "Montreal Taschereau QC",
+        "destination": "Toronto MacMillan ON"
+      },
+      "observed_at": "2026-08-20T19:28-04:00",
+      "origin": "Montreal Taschereau QC",
+      "destination": "Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
     },
     {
       "source": "youtube",
@@ -276,6 +608,56 @@
       },
       "observed_at": "2026-08-20T19:09-04:00",
       "origin": "306 Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Um89kcUaw58",
+      "video_url": "https://www.youtube.com/watch?v=Um89kcUaw58",
+      "title": "VIA Train 66 Eastbound August 20, 2026",
+      "published_at": "2026-08-21T14:07:09Z",
+      "date": "2026-08-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 66",
+          "raw": "VIA Train 66"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 66 Eastbound August 20, 2026",
+      "description_chars": 179,
+      "consist": {
+        "coaches": [
+          "Speed: 68 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 109,
+        "speed_raw": "68 mph",
+        "detector_milepost": 124,
+        "observed_time": "18:29",
+        "observed_tz": "EDT",
+        "temperature_c": 21,
+        "origin": "Toronto ON",
+        "destination": "Montreal QC"
+      },
+      "observed_at": "2026-08-20T18:29-04:00",
+      "origin": "Toronto ON",
+      "destination": "Montreal QC",
       "dg_candidate": true,
       "location_source": "extracted"
     },

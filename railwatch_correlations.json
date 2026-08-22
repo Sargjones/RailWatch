@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T18:41:21.966843Z",
+  "generated_at": "2026-08-22T06:28:47.026859Z",
   "total": 31,
   "cross_observer": 2,
   "chase": 29,
@@ -302,7 +302,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-21T18:41:21.966222Z",
+      "correlated_at": "2026-08-22T06:28:47.026322Z",
       "confidence": "medium"
     },
     {
@@ -352,7 +352,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-21T18:41:21.966516Z",
+      "correlated_at": "2026-08-22T06:28:47.026537Z",
       "confidence": "medium"
     },
     {
@@ -402,9 +402,54 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-21T18:41:21.966091Z",
+      "correlated_at": "2026-08-22T06:28:47.026207Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "Q107",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "IC 2719",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
+        "title": "IC 2719 + CN 2222 lead CN Q107 north"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-05-31",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 8.69,
+        "avg_speed_kmh": 3.6,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-08-22T06:28:47.025956Z",
+      "confidence": "low"
     },
     {
       "symbol": "CN149",
@@ -453,7 +498,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.965912Z",
+      "correlated_at": "2026-08-22T06:28:47.026058Z",
       "confidence": "low"
     },
     {
@@ -503,7 +548,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.965938Z",
+      "correlated_at": "2026-08-22T06:28:47.026069Z",
       "confidence": "low"
     },
     {
@@ -553,7 +598,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.965951Z",
+      "correlated_at": "2026-08-22T06:28:47.026078Z",
       "confidence": "low"
     },
     {
@@ -603,7 +648,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.965961Z",
+      "correlated_at": "2026-08-22T06:28:47.026092Z",
       "confidence": "low"
     },
     {
@@ -653,7 +698,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.965970Z",
+      "correlated_at": "2026-08-22T06:28:47.026132Z",
       "confidence": "low"
     },
     {
@@ -703,7 +748,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.965982Z",
+      "correlated_at": "2026-08-22T06:28:47.026142Z",
       "confidence": "low"
     },
     {
@@ -753,7 +798,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.965992Z",
+      "correlated_at": "2026-08-22T06:28:47.026150Z",
       "confidence": "low"
     },
     {
@@ -803,7 +848,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-21T18:41:21.966101Z",
+      "correlated_at": "2026-08-22T06:28:47.026216Z",
       "confidence": "low"
     },
     {
@@ -848,7 +893,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966185Z",
+      "correlated_at": "2026-08-22T06:28:47.026291Z",
       "confidence": "low"
     },
     {
@@ -898,7 +943,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966193Z",
+      "correlated_at": "2026-08-22T06:28:47.026298Z",
       "confidence": "low"
     },
     {
@@ -943,7 +988,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966324Z",
+      "correlated_at": "2026-08-22T06:28:47.026401Z",
       "confidence": "low"
     },
     {
@@ -988,7 +1033,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966347Z",
+      "correlated_at": "2026-08-22T06:28:47.026421Z",
       "confidence": "medium"
     },
     {
@@ -1033,7 +1078,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966356Z",
+      "correlated_at": "2026-08-22T06:28:47.026428Z",
       "confidence": "medium"
     },
     {
@@ -1083,52 +1128,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966383Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q107",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "IC 2719",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
-        "title": "IC 2719 + CN 2222 lead CN Q107 north"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-05-31",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
-        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 8.69,
-        "avg_speed_kmh": 3.6,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966434Z",
+      "correlated_at": "2026-08-22T06:28:47.026454Z",
       "confidence": "low"
     },
     {
@@ -1173,7 +1173,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966538Z",
+      "correlated_at": "2026-08-22T06:28:47.026558Z",
       "confidence": "low"
     },
     {
@@ -1218,7 +1218,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966589Z",
+      "correlated_at": "2026-08-22T06:28:47.026599Z",
       "confidence": "low"
     },
     {
@@ -1263,7 +1263,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966595Z",
+      "correlated_at": "2026-08-22T06:28:47.026605Z",
       "confidence": "low"
     },
     {
@@ -1308,7 +1308,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966603Z",
+      "correlated_at": "2026-08-22T06:28:47.026613Z",
       "confidence": "low"
     },
     {
@@ -1353,7 +1353,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966648Z",
+      "correlated_at": "2026-08-22T06:28:47.026684Z",
       "confidence": "low"
     },
     {
@@ -1398,7 +1398,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966687Z",
+      "correlated_at": "2026-08-22T06:28:47.026724Z",
       "confidence": "low"
     },
     {
@@ -1443,7 +1443,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966696Z",
+      "correlated_at": "2026-08-22T06:28:47.026733Z",
       "confidence": "low"
     },
     {
@@ -1488,7 +1488,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966730Z",
+      "correlated_at": "2026-08-22T06:28:47.026764Z",
       "confidence": "low"
     },
     {
@@ -1533,7 +1533,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966739Z",
+      "correlated_at": "2026-08-22T06:28:47.026774Z",
       "confidence": "low"
     },
     {
@@ -1578,7 +1578,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966750Z",
+      "correlated_at": "2026-08-22T06:28:47.026783Z",
       "confidence": "low"
     },
     {
@@ -1623,7 +1623,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966761Z",
+      "correlated_at": "2026-08-22T06:28:47.026794Z",
       "confidence": "low"
     },
     {
@@ -1668,7 +1668,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966774Z",
+      "correlated_at": "2026-08-22T06:28:47.026802Z",
       "confidence": "low"
     },
     {
@@ -1713,7 +1713,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-21T18:41:21.966783Z",
+      "correlated_at": "2026-08-22T06:28:47.026810Z",
       "confidence": "low"
     }
   ]

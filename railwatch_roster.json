@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-21T18:41:22.334685Z",
-  "total_units": 344,
+  "generated_at": "2026-08-22T06:28:47.067461Z",
+  "total_units": 346,
   "min_sightings": 2,
   "by_road": {
-    "CN": 274,
+    "CN": 276,
     "VIA": 3,
     "CP": 65,
     "RUCK": 1,
@@ -9490,6 +9490,53 @@
     },
     {
       "road": "CN",
+      "number": "2864",
+      "display": "CN 2864",
+      "sighting_count": 2,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 369"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 369",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RJM-94RPYnI",
+          "title": "CN Train 369 Westbound August 20, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 369",
+          "direction": "West",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=RJM-94RPYnI",
+          "title": "CN Train 369 Westbound August 20, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2867",
       "display": "CN 2867",
       "sighting_count": 2,
@@ -11792,6 +11839,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=m_0OTZAEY9o",
           "title": "CN Train 121 Westbound August 12, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3277",
+      "display": "CN 3277",
+      "sighting_count": 2,
+      "first_seen": "2026-08-20",
+      "last_seen": "2026-08-20",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 369"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 369",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RJM-94RPYnI",
+          "title": "CN Train 369 Westbound August 20, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 369",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RJM-94RPYnI",
+          "title": "CN Train 369 Westbound August 20, 2026",
           "source": "description_structured"
         }
       ]
