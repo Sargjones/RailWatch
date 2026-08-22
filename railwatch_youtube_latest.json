@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T06:28:46.956810Z",
+  "generated_at": "2026-08-22T18:35:46.706404Z",
   "dedup_registry": {
-    "total": 675,
+    "total": 677,
     "by_channel": {
       "Trackside Ontario": 43,
       "Trackside Tyson": 100,
@@ -11,14 +11,14 @@
       "Rail Fans Canada": 20,
       "Brockville RailFan": 247,
       "MJM Productions": 177,
-      "Central Canada Railfan": 15,
+      "Central Canada Railfan": 16,
       "Winnipeg Railman": 3,
-      "PTBO Railfanning": 8,
+      "PTBO Railfanning": 9,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 164,
-      "medium": 451,
+      "high": 165,
+      "medium": 452,
       "low": 60,
       "meta": 0
     }
@@ -33,13 +33,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,23 +58,13 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 14,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -89,7 +74,7 @@
     {
       "channel": "PTBO Railfanning",
       "videos": 1,
-      "skipped": 6,
+      "skipped": 7,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
@@ -98,13 +83,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 5,
-      "skipped": 13,
-      "high": 0,
-      "medium": 5,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 4
+      "videos": 0,
+      "skipped": 18
     },
     {
       "channel": "Ontario Railman",
@@ -128,15 +108,143 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     }
   ],
-  "total": 675,
-  "new_this_run": 10,
-  "high_confidence": 164,
-  "dg_likely": 115,
+  "total": 677,
+  "new_this_run": 2,
+  "high_confidence": 165,
+  "dg_likely": 116,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "BdQQ_PRSuWE",
+      "video_url": "https://www.youtube.com/watch?v=BdQQ_PRSuWE",
+      "title": "Western Ontario Outlaws Mower Racing Super Mod & Outlaw Rd 02 Aug 15 2026",
+      "published_at": "2026-08-22T18:00:04Z",
+      "date": "2026-08-15",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Western Ontario Outlaws Mower Racing Super Mod & Outlaw Rd 02 Aug 15 2026",
+      "description_chars": 557,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "SMK86J70yq0",
+      "video_url": "https://www.youtube.com/watch?v=SMK86J70yq0",
+      "title": "Quartet of CN Freight Trains over Bridges and Curves Near Scenic Rivers Manitoba! (8/15/2026)",
+      "published_at": "2026-08-22T17:00:25Z",
+      "date": "2026-08-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2301",
+        "CN 3003",
+        "CN 2877",
+        "CN 8345",
+        "CN 2931",
+        "CN 3851",
+        "CN 2763",
+        "CN 3885"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Q117",
+          "raw": "Q117"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2301",
+          "raw": "CN 2301"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3003",
+          "raw": "CN 3003"
+        },
+        {
+          "road": "CN",
+          "symbol": "S774",
+          "raw": "S774"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2877",
+          "raw": "CN 2877"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8345",
+          "raw": "CN 8345"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q102",
+          "raw": "Q102"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2931",
+          "raw": "CN 2931"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3851",
+          "raw": "CN 3851"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q105",
+          "raw": "Q105"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2763",
+          "raw": "CN 2763"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3885",
+          "raw": "CN 3885"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Quartet of CN Freight Trains over Bridges and Curves Near Scenic Rivers Manitoba! (8/15/2026)",
+      "description_chars": 579,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

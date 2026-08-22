@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-22T06:28:46.948571Z",
-    "total_videos": 675
+    "updated_at": "2026-08-22T18:35:46.696377Z",
+    "total_videos": 677
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4054,6 +4054,18 @@
       "title": "CN 8818 noodle less SD70M-2 heads south",
       "confidence": "medium",
       "processed_at": "2026-08-22T06:28:45.970182Z"
+    },
+    "BdQQ_PRSuWE": {
+      "channel": "PTBO Railfanning",
+      "title": "Western Ontario Outlaws Mower Racing Super Mod & Outlaw Rd 02 Aug 15 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-22T18:35:45.098069Z"
+    },
+    "SMK86J70yq0": {
+      "channel": "Central Canada Railfan",
+      "title": "Quartet of CN Freight Trains over Bridges and Curves Near Scenic Rivers Manitoba",
+      "confidence": "high",
+      "processed_at": "2026-08-22T18:35:46.696353Z"
     }
   }
 }
