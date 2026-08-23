@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-22T18:35:46.696377Z",
-    "total_videos": 677
+    "updated_at": "2026-08-23T06:30:04.025122Z",
+    "total_videos": 680
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4066,6 +4066,24 @@
       "title": "Quartet of CN Freight Trains over Bridges and Curves Near Scenic Rivers Manitoba",
       "confidence": "high",
       "processed_at": "2026-08-22T18:35:46.696353Z"
+    },
+    "vvDuHXNOGaQ": {
+      "channel": "Trackside Ontario",
+      "title": "Friday Evening at Bayview \u2022 August 14, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-23T06:30:00.932770Z"
+    },
+    "_CVjGfnP6NQ": {
+      "channel": "Trackside Ontario",
+      "title": "Monday Evening at Bayview \u2022 August 10, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-23T06:30:00.932945Z"
+    },
+    "jjr8ORZtKXc": {
+      "channel": "Trackside Tyson",
+      "title": "ROCKY MOUNTAINEER THRU HARRISON MILLS #shorts",
+      "confidence": "low",
+      "processed_at": "2026-08-23T06:30:01.333025Z"
     }
   }
 }

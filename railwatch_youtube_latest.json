@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-22T18:35:46.706404Z",
+  "generated_at": "2026-08-23T06:30:04.035009Z",
   "dedup_registry": {
-    "total": 677,
+    "total": 680,
     "by_channel": {
-      "Trackside Ontario": 43,
-      "Trackside Tyson": 100,
+      "Trackside Ontario": 45,
+      "Trackside Tyson": 101,
       "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
@@ -18,23 +18,33 @@
     },
     "by_confidence": {
       "high": 165,
-      "medium": 452,
-      "low": 60,
+      "medium": 454,
+      "low": 61,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-15T00:00:00Z",
+  "since": "2026-08-16T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 2
+      "videos": 2,
+      "skipped": 2,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -73,18 +83,13 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 1,
-      "skipped": 7,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 8
     },
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 18
+      "skipped": 12
     },
     {
       "channel": "Ontario Railman",
@@ -108,20 +113,67 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     }
   ],
-  "total": 677,
-  "new_this_run": 2,
+  "total": 680,
+  "new_this_run": 3,
   "high_confidence": 165,
   "dg_likely": 116,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "vvDuHXNOGaQ",
+      "video_url": "https://www.youtube.com/watch?v=vvDuHXNOGaQ",
+      "title": "Friday Evening at Bayview \u2022 August 14, 2026",
+      "published_at": "2026-08-22T20:08:16Z",
+      "date": "2026-08-14",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Friday Evening at Bayview \u2022 August 14, 2026",
+      "description_chars": 124,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "_CVjGfnP6NQ",
+      "video_url": "https://www.youtube.com/watch?v=_CVjGfnP6NQ",
+      "title": "Monday Evening at Bayview \u2022 August 10, 2026",
+      "published_at": "2026-08-22T20:06:28Z",
+      "date": "2026-08-10",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Monday Evening at Bayview \u2022 August 10, 2026",
+      "description_chars": 124,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
@@ -244,6 +296,32 @@
       "consist": null,
       "dg_candidate": true,
       "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "jjr8ORZtKXc",
+      "video_url": "https://www.youtube.com/watch?v=jjr8ORZtKXc",
+      "title": "ROCKY MOUNTAINEER THRU HARRISON MILLS #shorts",
+      "published_at": "2026-08-22T14:00:10Z",
+      "date": "2026-08-22",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "ROCKY MOUNTAINEER THRU HARRISON MILLS #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
     },
     {
       "source": "youtube",
