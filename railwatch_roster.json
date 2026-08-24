@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-23T18:34:38.815184Z",
-  "total_units": 346,
+  "generated_at": "2026-08-24T06:42:53.666768Z",
+  "total_units": 348,
   "min_sightings": 2,
   "by_road": {
-    "CN": 276,
+    "CN": 277,
     "VIA": 3,
-    "CP": 65,
+    "CP": 66,
     "RUCK": 1,
     "AC": 1
   },
@@ -8188,6 +8188,67 @@
     },
     {
       "road": "CN",
+      "number": "9783",
+      "display": "CN 9783",
+      "sighting_count": 3,
+      "first_seen": "2026-06-13",
+      "last_seen": "CP 9783",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 421",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 9783",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=uVQFBAbYqig",
+          "title": "CP 9783 AC4400CW leads CPKC 421 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=yQ7il7yfw4w",
+          "title": "CP 9783 AC4400CW leads CPKC 421 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
+          "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2202",
       "display": "CN 2202",
       "sighting_count": 2,
@@ -14394,6 +14455,54 @@
     },
     {
       "road": "CN",
+      "number": "7546",
+      "display": "CN 7546",
+      "sighting_count": 2,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-08-23",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 112",
+        "CN 410"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JFOFlHVeC6M",
+          "title": "CP 7546 horn show leading CPKC 112",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 410",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7561",
       "display": "CN 7561",
       "sighting_count": 2,
@@ -15713,54 +15822,6 @@
     },
     {
       "road": "CN",
-      "number": "9783",
-      "display": "CN 9783",
-      "sighting_count": 2,
-      "first_seen": "2026-06-13",
-      "last_seen": "CP 9783",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 118",
-        "CN 421"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "CP 9783",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 421",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=uVQFBAbYqig",
-          "title": "CP 9783 AC4400CW leads CPKC 421 north",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-06-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 118",
-          "direction": "South",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
-          "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "9839",
       "display": "CN 9839",
       "sighting_count": 2,
@@ -17057,6 +17118,67 @@
     },
     {
       "road": "CP",
+      "number": "9783",
+      "display": "CP 9783",
+      "sighting_count": 3,
+      "first_seen": "2026-06-13",
+      "last_seen": "CP 9783",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 421",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 9783",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=uVQFBAbYqig",
+          "title": "CP 9783 AC4400CW leads CPKC 421 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=yQ7il7yfw4w",
+          "title": "CP 9783 AC4400CW leads CPKC 421 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
+          "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "2305",
       "display": "CP 2305",
       "sighting_count": 2,
@@ -18118,6 +18240,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=v_UGzqzxCJ0",
           "title": "CP 7483 + CP 7529 lead CPKC 118 south",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7546",
+      "display": "CP 7546",
+      "sighting_count": 2,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-08-23",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 112",
+        "CN 410"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JFOFlHVeC6M",
+          "title": "CP 7546 horn show leading CPKC 112",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 410",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
           "source": "text_extraction"
         }
       ]
@@ -19199,54 +19369,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
           "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "9783",
-      "display": "CP 9783",
-      "sighting_count": 2,
-      "first_seen": "2026-06-13",
-      "last_seen": "CP 9783",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 118",
-        "CN 421"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "CP 9783",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 421",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=uVQFBAbYqig",
-          "title": "CP 9783 AC4400CW leads CPKC 421 north",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 118",
-          "direction": "South",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
-          "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
           "source": "text_extraction"
         }
       ]

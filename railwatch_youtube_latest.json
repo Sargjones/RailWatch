@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-23T18:34:38.703988Z",
+  "generated_at": "2026-08-24T06:42:53.539175Z",
   "dedup_registry": {
-    "total": 680,
+    "total": 686,
     "by_channel": {
-      "Trackside Ontario": 45,
-      "Trackside Tyson": 101,
+      "Trackside Ontario": 46,
+      "Trackside Tyson": 102,
       "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 20,
       "Brockville RailFan": 247,
-      "MJM Productions": 177,
+      "MJM Productions": 181,
       "Central Canada Railfan": 16,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 9,
@@ -18,23 +18,33 @@
     },
     "by_confidence": {
       "high": 165,
-      "medium": 454,
-      "low": 61,
+      "medium": 459,
+      "low": 62,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-16T00:00:00Z",
+  "since": "2026-08-17T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -74,12 +84,17 @@
     {
       "channel": "PTBO Railfanning",
       "videos": 0,
-      "skipped": 8
+      "skipped": 6
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 12
+      "videos": 4,
+      "skipped": 10,
+      "high": 0,
+      "medium": 4,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -107,11 +122,209 @@
       "skipped": 2
     }
   ],
-  "total": 680,
-  "new_this_run": 0,
+  "total": 686,
+  "new_this_run": 6,
   "high_confidence": 165,
   "dg_likely": 116,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "YvTeJWEFN04",
+      "video_url": "https://www.youtube.com/watch?v=YvTeJWEFN04",
+      "title": "Two Rare leaders on the CPKC Mactier & Galt subs (AUG 23, 2026)",
+      "published_at": "2026-08-24T01:28:44Z",
+      "date": "2026-08-23",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Two Rare leaders on the CPKC Mactier & Galt subs (AUG 23, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "jfyUdiX5Twg",
+      "video_url": "https://www.youtube.com/watch?v=jfyUdiX5Twg",
+      "title": "CP 7013 heritage unit leads CPKC 134 east",
+      "published_at": "2026-08-24T01:07:29Z",
+      "date": "2026-08-24",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7013",
+        "CPKC 134"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7013",
+          "raw": "CP 7013"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 134",
+          "raw": "CPKC 134"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7013 heritage unit leads CPKC 134 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "kc5iafg6skk",
+      "video_url": "https://www.youtube.com/watch?v=kc5iafg6skk",
+      "title": "Friday Evening at Bayview \u2022 August 7, 2026",
+      "published_at": "2026-08-23T23:31:50Z",
+      "date": "2026-08-07",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Friday Evening at Bayview \u2022 August 7, 2026",
+      "description_chars": 123,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "s-SZBByWPVM",
+      "video_url": "https://www.youtube.com/watch?v=s-SZBByWPVM",
+      "title": "HUGE OVERSIZE LOADS IN THE CANYON #shorts",
+      "published_at": "2026-08-23T23:00:24Z",
+      "date": "2026-08-23",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "HUGE OVERSIZE LOADS IN THE CANYON #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "yQ7il7yfw4w",
+      "video_url": "https://www.youtube.com/watch?v=yQ7il7yfw4w",
+      "title": "CP 9783 AC4400CW leads CPKC 421 north",
+      "published_at": "2026-08-23T22:02:37Z",
+      "date": "2026-08-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9783",
+        "CPKC 421"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9783",
+          "raw": "CP 9783"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9783 AC4400CW leads CPKC 421 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "JFOFlHVeC6M",
+      "video_url": "https://www.youtube.com/watch?v=JFOFlHVeC6M",
+      "title": "CP 7546 horn show leading CPKC 112",
+      "published_at": "2026-08-23T21:23:40Z",
+      "date": "2026-08-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7546",
+        "CPKC 112"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7546",
+          "raw": "CP 7546"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7546 horn show leading CPKC 112",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
