@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-24T06:42:53.529912Z",
-    "total_videos": 686
+    "updated_at": "2026-08-24T18:46:14.309219Z",
+    "total_videos": 689
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4120,6 +4120,24 @@
       "title": "CP 7546 horn show leading CPKC 112",
       "confidence": "medium",
       "processed_at": "2026-08-24T06:42:52.575033Z"
+    },
+    "PNIdm-A1fDA": {
+      "channel": "Trackside Tyson",
+      "title": "HEAVY COAL TRAIN THRU TUNNEL & OVER BRIDGE #shorts",
+      "confidence": "medium",
+      "processed_at": "2026-08-24T18:46:11.186174Z"
+    },
+    "Un8UmXHWHI8": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound August 24, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-24T18:46:12.637036Z"
+    },
+    "i82BMt_j7Nk": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound August 24, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-24T18:46:12.637252Z"
     }
   }
 }

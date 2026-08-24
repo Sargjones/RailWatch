@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-24T06:42:53.539175Z",
+  "generated_at": "2026-08-24T18:46:14.318967Z",
   "dedup_registry": {
-    "total": 686,
+    "total": 689,
     "by_channel": {
       "Trackside Ontario": 46,
-      "Trackside Tyson": 102,
+      "Trackside Tyson": 103,
       "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 20,
-      "Brockville RailFan": 247,
+      "Brockville RailFan": 249,
       "MJM Productions": 181,
       "Central Canada Railfan": 16,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 165,
-      "medium": 459,
+      "high": 166,
+      "medium": 461,
       "low": 62,
       "meta": 0
     }
@@ -28,21 +28,16 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 5,
+      "skipped": 6,
       "high": 0,
-      "medium": 0,
-      "low_meta": 1,
+      "medium": 1,
+      "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
     },
@@ -73,8 +68,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 16
+      "videos": 2,
+      "skipped": 16,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 4,
-      "skipped": 10,
-      "high": 0,
-      "medium": 4,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 3
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +117,152 @@
       "skipped": 2
     }
   ],
-  "total": 686,
-  "new_this_run": 6,
-  "high_confidence": 165,
+  "total": 689,
+  "new_this_run": 3,
+  "high_confidence": 166,
   "dg_likely": 116,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "PNIdm-A1fDA",
+      "video_url": "https://www.youtube.com/watch?v=PNIdm-A1fDA",
+      "title": "HEAVY COAL TRAIN THRU TUNNEL & OVER BRIDGE #shorts",
+      "published_at": "2026-08-24T15:00:24Z",
+      "date": "2026-08-24",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "gondola",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "HEAVY COAL TRAIN THRU TUNNEL & OVER BRIDGE #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Un8UmXHWHI8",
+      "video_url": "https://www.youtube.com/watch?v=Un8UmXHWHI8",
+      "title": "VIA Train 61 Westbound August 24, 2026",
+      "published_at": "2026-08-24T14:12:25Z",
+      "date": "2026-08-24",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound August 24, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 66 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 106,
+        "speed_raw": "66 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:51",
+        "observed_tz": "EDT",
+        "temperature_c": 14,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-08-24T08:51-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "i82BMt_j7Nk",
+      "video_url": "https://www.youtube.com/watch?v=i82BMt_j7Nk",
+      "title": "CN Train 149 Westbound August 24, 2026",
+      "published_at": "2026-08-24T14:07:11Z",
+      "date": "2026-08-24",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3114",
+        "CN 3262"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3114",
+          "raw": "CN 3114"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3262",
+          "raw": "CN 3262"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound August 24, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 3114",
+          "CN 3262"
+        ],
+        "car_count": 186,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 63,
+        "speed_raw": "39 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:29",
+        "observed_tz": "EDT",
+        "temperature_c": 14,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-08-24T08:29-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
