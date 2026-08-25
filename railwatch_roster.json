@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-24T18:46:14.453582Z",
-  "total_units": 349,
+  "generated_at": "2026-08-25T06:35:58.556294Z",
+  "total_units": 352,
   "min_sightings": 2,
   "by_road": {
-    "CN": 278,
+    "CN": 280,
     "VIA": 3,
-    "CP": 66,
+    "CP": 67,
     "RUCK": 1,
     "AC": 1
   },
@@ -2108,6 +2108,81 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=zE8UsweXRi4",
           "title": "CN Train 532 Westbound Meets VIA Train 46 Eastbound July 3, ",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2267",
+      "display": "CN 2267",
+      "sighting_count": 4,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 2267",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub",
+        "CN Oakville Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 2267",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=0Yi5qAChnSw",
+          "title": "CN 2267 + CN 8850 + CN 2654 lead CN 421",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=baHq8dt1msY",
+          "title": "TEC TRAIN! CP 2267 at Palgrave, ON (AUG 24, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=uDnPvYf4jFE",
+          "title": "CP 2267 leads the TEC train past the pond",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
           "source": "text_extraction"
         }
       ]
@@ -8556,54 +8631,6 @@
     },
     {
       "road": "CN",
-      "number": "2267",
-      "display": "CN 2267",
-      "sighting_count": 2,
-      "first_seen": "2026-05-30",
-      "last_seen": "CN 2267",
-      "corridors": [
-        "CN Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "Z148",
-        "CN 421"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "CN 2267",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 421",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=0Yi5qAChnSw",
-          "title": "CN 2267 + CN 8850 + CN 2654 lead CN 421",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-05-30",
-          "location": "Aldershot",
-          "subdivision": "CN Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z148",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
-          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "2282",
       "display": "CN 2282",
       "sighting_count": 2,
@@ -9350,6 +9377,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=JNfSfUH6bTw",
           "title": "CN Train 149 Westbound July 14, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2787",
+      "display": "CN 2787",
+      "sighting_count": 2,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 377"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 377",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=VzF3pyVsjm0",
+          "title": "CN Train 377 Westbound August 24, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 377",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=VzF3pyVsjm0",
+          "title": "CN Train 377 Westbound August 24, 2026",
           "source": "description_structured"
         }
       ]
@@ -13208,6 +13282,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=bw3G9g-Whf4",
           "title": "CN Train 149 Westbound August 20, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3923",
+      "display": "CN 3923",
+      "sighting_count": 2,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 377"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 377",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=VzF3pyVsjm0",
+          "title": "CN Train 377 Westbound August 24, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 377",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=VzF3pyVsjm0",
+          "title": "CN Train 377 Westbound August 24, 2026",
           "source": "description_structured"
         }
       ]
@@ -17246,6 +17367,51 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
           "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "2267",
+      "display": "CP 2267",
+      "sighting_count": 2,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-08-24",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=baHq8dt1msY",
+          "title": "TEC TRAIN! CP 2267 at Palgrave, ON (AUG 24, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=uDnPvYf4jFE",
+          "title": "CP 2267 leads the TEC train past the pond",
           "source": "text_extraction"
         }
       ]

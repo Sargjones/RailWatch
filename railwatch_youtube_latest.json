@@ -1,50 +1,50 @@
 {
-  "generated_at": "2026-08-24T18:46:14.318967Z",
+  "generated_at": "2026-08-25T06:35:58.382533Z",
   "dedup_registry": {
-    "total": 689,
+    "total": 696,
     "by_channel": {
-      "Trackside Ontario": 46,
+      "Trackside Ontario": 48,
       "Trackside Tyson": 103,
       "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
-      "Rail Fans Canada": 20,
-      "Brockville RailFan": 249,
-      "MJM Productions": 181,
+      "Rail Fans Canada": 21,
+      "Brockville RailFan": 250,
+      "MJM Productions": 183,
       "Central Canada Railfan": 16,
       "Winnipeg Railman": 3,
-      "PTBO Railfanning": 9,
+      "PTBO Railfanning": 10,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 166,
-      "medium": 461,
+      "high": 168,
+      "medium": 466,
       "low": 62,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-17T00:00:00Z",
+  "since": "2026-08-18T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 5
-    },
-    {
-      "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
+      "videos": 2,
+      "skipped": 4,
       "high": 0,
-      "medium": 1,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
     },
     {
+      "channel": "Trackside Tyson",
+      "videos": 0,
+      "skipped": 7
+    },
+    {
       "channel": "Southern Ontario Railfan",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -63,17 +63,22 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 1
-    },
-    {
-      "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 16,
-      "high": 1,
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
+      "defaulted": 0
+    },
+    {
+      "channel": "Brockville RailFan",
+      "videos": 1,
+      "skipped": 16,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
       "defaulted": 0
     },
     {
@@ -83,13 +88,23 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 14
+      "videos": 2,
+      "skipped": 14,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +132,171 @@
       "skipped": 2
     }
   ],
-  "total": 689,
-  "new_this_run": 3,
-  "high_confidence": 166,
-  "dg_likely": 116,
+  "total": 696,
+  "new_this_run": 7,
+  "high_confidence": 168,
+  "dg_likely": 117,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "jn_mgtjesig",
+      "video_url": "https://www.youtube.com/watch?v=jn_mgtjesig",
+      "title": "Western Ontario Outlaws Mower Racing Juniors Rd 03",
+      "published_at": "2026-08-25T02:31:01Z",
+      "date": "2026-08-15",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Western Ontario Outlaws Mower Racing Juniors Rd 03",
+      "description_chars": 546,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "baHq8dt1msY",
+      "video_url": "https://www.youtube.com/watch?v=baHq8dt1msY",
+      "title": "TEC TRAIN! CP 2267 at Palgrave, ON (AUG 24, 2026)",
+      "published_at": "2026-08-25T01:35:09Z",
+      "date": "2026-08-24",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 2267"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2267",
+          "raw": "CP 2267"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "TEC TRAIN! CP 2267 at Palgrave, ON (AUG 24, 2026)",
+      "description_chars": 532,
+      "consist": {
+        "observed_time": "7:11",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-08-24T7:11",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "uDnPvYf4jFE",
+      "video_url": "https://www.youtube.com/watch?v=uDnPvYf4jFE",
+      "title": "CP 2267 leads the TEC train past the pond",
+      "published_at": "2026-08-24T23:24:47Z",
+      "date": "2026-08-24",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 2267"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2267",
+          "raw": "CP 2267"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 2267 leads the TEC train past the pond",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "i5mLH6EkGt4",
+      "video_url": "https://www.youtube.com/watch?v=i5mLH6EkGt4",
+      "title": "Monday Morning at Bayview \u2022 August 24, 2026",
+      "published_at": "2026-08-24T23:20:34Z",
+      "date": "2026-08-24",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 1501"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 1501",
+          "raw": "CN 1501"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Monday Morning at Bayview \u2022 August 24, 2026",
+      "description_chars": 217,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "h-UwwFGNVIg",
+      "video_url": "https://www.youtube.com/watch?v=h-UwwFGNVIg",
+      "title": "Thursday at Tansley \u2022 August 20, 2026",
+      "published_at": "2026-08-24T20:32:09Z",
+      "date": "2026-08-20",
+      "location": "Burlington",
+      "subdivision": "CN Oakville Sub",
+      "lat": 43.32,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Thursday at Tansley \u2022 August 20, 2026",
+      "description_chars": 103,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
@@ -261,6 +436,96 @@
       "origin": "Montreal Intermodal QC",
       "destination": "Chicago Intermodal IL",
       "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "VzF3pyVsjm0",
+      "video_url": "https://www.youtube.com/watch?v=VzF3pyVsjm0",
+      "title": "CN Train 377 Westbound August 24, 2026",
+      "published_at": "2026-08-24T13:52:51Z",
+      "date": "2026-08-24",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2787",
+        "CN 3923"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 377",
+          "raw": "CN Train 377"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2787",
+          "raw": "CN 2787"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3923",
+          "raw": "CN 3923"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 377 Westbound August 24, 2026",
+      "description_chars": 297,
+      "consist": {
+        "engines": [
+          "CN 2787",
+          "CN 3923"
+        ],
+        "car_count": 133,
+        "consist_type": "freight",
+        "speed_kmh": 45,
+        "speed_raw": "28 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:18",
+        "observed_tz": "EDT",
+        "temperature_c": 14,
+        "origin": "Montreal Taschereau QC",
+        "destination": "Toronto MacMillan ON"
+      },
+      "observed_at": "2026-08-24T07:18-04:00",
+      "origin": "Montreal Taschereau QC",
+      "destination": "Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "IsW0KeD1m0o",
+      "video_url": "https://www.youtube.com/watch?v=IsW0KeD1m0o",
+      "title": "Ottawa's Fields, Forests & Rivers | O-Train Line 2 in Summer",
+      "published_at": "2026-08-24T13:14:34Z",
+      "date": "2026-08-24",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Ottawa's Fields, Forests & Rivers | O-Train Line 2 in Summer",
+      "description_chars": 1115,
+      "consist": null,
       "location_source": "extracted"
     },
     {
