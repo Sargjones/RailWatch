@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-25T06:35:58.371744Z",
-    "total_videos": 696
+    "updated_at": "2026-08-25T18:44:01.976303Z",
+    "total_videos": 699
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4180,6 +4180,24 @@
       "title": "CP 2267 leads the TEC train past the pond",
       "confidence": "medium",
       "processed_at": "2026-08-25T06:35:57.382093Z"
+    },
+    "XrUcqG1_PCY": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound Meets CN Train 731 Westbound August 25, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-25T18:44:00.132727Z"
+    },
+    "82mrHh026-Q": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound August 25, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-25T18:44:00.133337Z"
+    },
+    "aTDaQmo64Fc": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Lifting August 25, 2026",
+      "confidence": "high",
+      "processed_at": "2026-08-25T18:44:00.133753Z"
     }
   }
 }

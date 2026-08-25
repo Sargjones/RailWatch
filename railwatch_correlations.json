@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T06:35:58.495963Z",
+  "generated_at": "2026-08-25T18:44:02.069436Z",
   "total": 31,
   "cross_observer": 2,
   "chase": 29,
@@ -256,56 +256,6 @@
   ],
   "correlations": [
     {
-      "symbol": "CN106",
-      "tier": "cross_observer",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-07-27",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=bpBmrSJsx70",
-        "title": "CP 8877 leads CPKC 106 past Cherrywood"
-      },
-      "sighting_b": {
-        "location": "Brockville",
-        "date": "2026-07-30",
-        "observed_at": "2026-07-30T09:15-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": 175,
-        "origin": "Roberts Bank BC",
-        "destination": "Montreal Taschereau QC",
-        "video_url": "https://www.youtube.com/watch?v=Fv5Jz3-fCs8",
-        "title": "CN Train 106 Eastbound July 30, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 60.19,
-        "avg_speed_kmh": 5.2,
-        "speed_plausible": false,
-        "consist_profile": "Mixed manifest freight",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": null,
-        "car_count_b": 175,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "mixed",
-      "dg_likely": true,
-      "correlated_at": "2026-08-25T06:35:58.495326Z",
-      "confidence": "medium"
-    },
-    {
       "symbol": "CN731",
       "tier": "cross_observer",
       "sighting_a": {
@@ -352,7 +302,57 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-25T06:35:58.495567Z",
+      "correlated_at": "2026-08-25T18:44:02.068364Z",
+      "confidence": "medium"
+    },
+    {
+      "symbol": "CN106",
+      "tier": "cross_observer",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-07-27",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=bpBmrSJsx70",
+        "title": "CP 8877 leads CPKC 106 past Cherrywood"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-07-30",
+        "observed_at": "2026-07-30T09:15-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 175,
+        "origin": "Roberts Bank BC",
+        "destination": "Montreal Taschereau QC",
+        "video_url": "https://www.youtube.com/watch?v=Fv5Jz3-fCs8",
+        "title": "CN Train 106 Eastbound July 30, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 60.19,
+        "avg_speed_kmh": 5.2,
+        "speed_plausible": false,
+        "consist_profile": "Mixed manifest freight",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 175,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "mixed",
+      "dg_likely": true,
+      "correlated_at": "2026-08-25T18:44:02.068814Z",
       "confidence": "medium"
     },
     {
@@ -402,9 +402,59 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-08-25T06:35:58.495279Z",
+      "correlated_at": "2026-08-25T18:44:02.068297Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "CN368",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-06-20",
+        "observed_at": "2026-06-20T09:19-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 64,
+        "origin": "Chicago Markham IL",
+        "destination": "Montreal Taschereau QC",
+        "video_url": "https://www.youtube.com/watch?v=3EGwjhtrzZA",
+        "title": "CN Train 276 Eastbound June 20, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-06-20",
+        "observed_at": "2026-06-20T09:38-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 105,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC",
+        "video_url": "https://www.youtube.com/watch?v=PSD_3rDhhlU",
+        "title": "CN Train 368 Eastbound June 20, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 0.32,
+        "avg_speed_kmh": 984.0,
+        "speed_plausible": false,
+        "consist_profile": "Mixed manifest freight",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 64,
+        "car_count_b": 105,
+        "delta": 41,
+        "split_suspected": false
+      },
+      "commodity": "mixed",
+      "dg_likely": true,
+      "correlated_at": "2026-08-25T18:44:02.068326Z",
+      "confidence": "low"
     },
     {
       "symbol": "CN61",
@@ -448,7 +498,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.494863Z",
+      "correlated_at": "2026-08-25T18:44:02.068485Z",
       "confidence": "low"
     },
     {
@@ -498,7 +548,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.494891Z",
+      "correlated_at": "2026-08-25T18:44:02.068498Z",
       "confidence": "low"
     },
     {
@@ -548,7 +598,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.494973Z",
+      "correlated_at": "2026-08-25T18:44:02.068562Z",
       "confidence": "low"
     },
     {
@@ -598,7 +648,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.494988Z",
+      "correlated_at": "2026-08-25T18:44:02.068574Z",
       "confidence": "low"
     },
     {
@@ -648,7 +698,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.494999Z",
+      "correlated_at": "2026-08-25T18:44:02.068585Z",
       "confidence": "low"
     },
     {
@@ -698,7 +748,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495010Z",
+      "correlated_at": "2026-08-25T18:44:02.068597Z",
       "confidence": "low"
     },
     {
@@ -748,7 +798,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495027Z",
+      "correlated_at": "2026-08-25T18:44:02.068605Z",
       "confidence": "low"
     },
     {
@@ -798,7 +848,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495042Z",
+      "correlated_at": "2026-08-25T18:44:02.068615Z",
       "confidence": "low"
     },
     {
@@ -848,7 +898,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495052Z",
+      "correlated_at": "2026-08-25T18:44:02.068626Z",
       "confidence": "low"
     },
     {
@@ -893,7 +943,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495130Z",
+      "correlated_at": "2026-08-25T18:44:02.068701Z",
       "confidence": "low"
     },
     {
@@ -938,57 +988,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495157Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN368",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-06-20",
-        "observed_at": "2026-06-20T09:19-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": 64,
-        "origin": "Chicago Markham IL",
-        "destination": "Montreal Taschereau QC",
-        "video_url": "https://www.youtube.com/watch?v=3EGwjhtrzZA",
-        "title": "CN Train 276 Eastbound June 20, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-06-20",
-        "observed_at": "2026-06-20T09:38-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": 105,
-        "origin": "Toronto MacMillan ON",
-        "destination": "Garneau QC",
-        "video_url": "https://www.youtube.com/watch?v=PSD_3rDhhlU",
-        "title": "CN Train 368 Eastbound June 20, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 0.32,
-        "avg_speed_kmh": 984.0,
-        "speed_plausible": false,
-        "consist_profile": "Mixed manifest freight",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 64,
-        "car_count_b": 105,
-        "delta": 41,
-        "split_suspected": false
-      },
-      "commodity": "mixed",
-      "dg_likely": true,
-      "correlated_at": "2026-08-25T06:35:58.495291Z",
+      "correlated_at": "2026-08-25T18:44:02.068733Z",
       "confidence": "low"
     },
     {
@@ -1033,7 +1033,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495420Z",
+      "correlated_at": "2026-08-25T18:44:02.068910Z",
       "confidence": "medium"
     },
     {
@@ -1078,7 +1078,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495430Z",
+      "correlated_at": "2026-08-25T18:44:02.068923Z",
       "confidence": "medium"
     },
     {
@@ -1128,7 +1128,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495464Z",
+      "correlated_at": "2026-08-25T18:44:02.068957Z",
       "confidence": "low"
     },
     {
@@ -1173,7 +1173,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495594Z",
+      "correlated_at": "2026-08-25T18:44:02.069069Z",
       "confidence": "low"
     },
     {
@@ -1218,7 +1218,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495645Z",
+      "correlated_at": "2026-08-25T18:44:02.069120Z",
       "confidence": "low"
     },
     {
@@ -1263,7 +1263,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495653Z",
+      "correlated_at": "2026-08-25T18:44:02.069129Z",
       "confidence": "low"
     },
     {
@@ -1308,7 +1308,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495664Z",
+      "correlated_at": "2026-08-25T18:44:02.069140Z",
       "confidence": "low"
     },
     {
@@ -1353,7 +1353,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495722Z",
+      "correlated_at": "2026-08-25T18:44:02.069197Z",
       "confidence": "low"
     },
     {
@@ -1398,7 +1398,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495769Z",
+      "correlated_at": "2026-08-25T18:44:02.069247Z",
       "confidence": "low"
     },
     {
@@ -1443,7 +1443,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495779Z",
+      "correlated_at": "2026-08-25T18:44:02.069257Z",
       "confidence": "low"
     },
     {
@@ -1488,7 +1488,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495821Z",
+      "correlated_at": "2026-08-25T18:44:02.069301Z",
       "confidence": "low"
     },
     {
@@ -1533,7 +1533,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495835Z",
+      "correlated_at": "2026-08-25T18:44:02.069316Z",
       "confidence": "low"
     },
     {
@@ -1578,7 +1578,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495848Z",
+      "correlated_at": "2026-08-25T18:44:02.069331Z",
       "confidence": "low"
     },
     {
@@ -1623,7 +1623,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495862Z",
+      "correlated_at": "2026-08-25T18:44:02.069348Z",
       "confidence": "low"
     },
     {
@@ -1668,7 +1668,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495873Z",
+      "correlated_at": "2026-08-25T18:44:02.069360Z",
       "confidence": "low"
     },
     {
@@ -1713,7 +1713,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-08-25T06:35:58.495884Z",
+      "correlated_at": "2026-08-25T18:44:02.069371Z",
       "confidence": "low"
     }
   ]

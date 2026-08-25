@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T06:35:54.345255Z",
+  "generated_at": "2026-08-25T18:43:58.248019Z",
   "source": "Ontario 511 Developer API (511on.ca)",
-  "total_cameras": 182,
-  "enabled_cameras": 182,
+  "total_cameras": 179,
+  "enabled_cameras": 179,
   "radius_km": 2.5,
   "by_corridor": {
     "CN Bala Sub": {
@@ -10,8 +10,8 @@
       "enabled": 14
     },
     "CN Chatham Sub": {
-      "total": 11,
-      "enabled": 11
+      "total": 9,
+      "enabled": 9
     },
     "CN Dundas / Oakville Sub": {
       "total": 23,
@@ -26,8 +26,8 @@
       "enabled": 57
     },
     "CN Smiths Falls Sub": {
-      "total": 12,
-      "enabled": 12
+      "total": 11,
+      "enabled": 11
     }
   },
   "cameras": [
@@ -302,32 +302,6 @@
       "view_count": 4,
       "corridor": "CN Chatham Sub",
       "dist_km": 1.39,
-      "enabled": true
-    },
-    {
-      "id": 1223,
-      "name": "Highway 402 at Front Street North",
-      "roadway": "Highway 402",
-      "lat": 42.988074,
-      "lon": -82.404456,
-      "view_url": "https://511on.ca/map/Cctv/2414",
-      "view_desc": "",
-      "view_count": 1,
-      "corridor": "CN Chatham Sub",
-      "dist_km": 1.52,
-      "enabled": true
-    },
-    {
-      "id": 1224,
-      "name": "Highway 402 at Christina Street North",
-      "roadway": "Highway 402",
-      "lat": 42.98769,
-      "lon": -82.398469,
-      "view_url": "https://511on.ca/map/Cctv/2415",
-      "view_desc": "",
-      "view_count": 1,
-      "corridor": "CN Chatham Sub",
-      "dist_km": 1.59,
       "enabled": true
     },
     {
@@ -2278,19 +2252,6 @@
       "view_count": 1,
       "corridor": "CN Smiths Falls Sub",
       "dist_km": 0.64,
-      "enabled": true
-    },
-    {
-      "id": 1115,
-      "name": "Highway 416 at McKenna Casey Bridge",
-      "roadway": "Highway 416",
-      "lat": 45.25537,
-      "lon": -75.78517,
-      "view_url": "https://511on.ca/map/Cctv/2160",
-      "view_desc": "Looking South",
-      "view_count": 1,
-      "corridor": "CN Smiths Falls Sub",
-      "dist_km": 1.05,
       "enabled": true
     },
     {
