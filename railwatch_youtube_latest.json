@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-26T06:36:57.529992Z",
+  "generated_at": "2026-08-26T19:52:24.351443Z",
   "dedup_registry": {
-    "total": 700,
+    "total": 708,
     "by_channel": {
-      "Trackside Ontario": 48,
-      "Trackside Tyson": 103,
+      "Trackside Ontario": 49,
+      "Trackside Tyson": 104,
       "Southern Ontario Railfan": 23,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 21,
-      "Brockville RailFan": 253,
-      "MJM Productions": 183,
+      "Brockville RailFan": 256,
+      "MJM Productions": 185,
       "Central Canada Railfan": 16,
       "Winnipeg Railman": 3,
-      "PTBO Railfanning": 11,
+      "PTBO Railfanning": 12,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 169,
-      "medium": 469,
-      "low": 62,
+      "high": 172,
+      "medium": 473,
+      "low": 63,
       "meta": 0
     }
   },
@@ -28,13 +28,23 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 7,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,8 +73,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 17
+      "videos": 3,
+      "skipped": 17,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 2,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -74,7 +89,7 @@
     {
       "channel": "PTBO Railfanning",
       "videos": 1,
-      "skipped": 5,
+      "skipped": 6,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
@@ -83,8 +98,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 16
+      "videos": 2,
+      "skipped": 16,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +132,364 @@
       "skipped": 2
     }
   ],
-  "total": 700,
-  "new_this_run": 1,
-  "high_confidence": 169,
-  "dg_likely": 118,
+  "total": 708,
+  "new_this_run": 8,
+  "high_confidence": 172,
+  "dg_likely": 120,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "ADFOKt_cYDk",
+      "video_url": "https://www.youtube.com/watch?v=ADFOKt_cYDk",
+      "title": "ROCKY MOUNTAINEER PASSENGER TRAIN OVER BRIDGE #shorts",
+      "published_at": "2026-08-26T17:30:30Z",
+      "date": "2026-08-26",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "ROCKY MOUNTAINEER PASSENGER TRAIN OVER BRIDGE #shorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "5aXBZqt3xVk",
+      "video_url": "https://www.youtube.com/watch?v=5aXBZqt3xVk",
+      "title": "Chasing CP 9804 AC4400CW south on the Mactier sub (AUG 26, 2026)",
+      "published_at": "2026-08-26T17:23:16Z",
+      "date": "2026-08-26",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": "South",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9804",
+        "CPKC 100",
+        "CP 8871"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9804",
+          "raw": "CP 9804"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 100",
+          "raw": "CPKC 100"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8871",
+          "raw": "CP 8871"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Chasing CP 9804 AC4400CW south on the Mactier sub (AUG 26, 2026)",
+      "description_chars": 781,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "PtUKxsr7HPg",
+      "video_url": "https://www.youtube.com/watch?v=PtUKxsr7HPg",
+      "title": "Western Ontario Outlaws Mower Racing Modified Rd 03",
+      "published_at": "2026-08-26T17:00:35Z",
+      "date": "2026-08-15",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Western Ontario Outlaws Mower Racing Modified Rd 03",
+      "description_chars": 547,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "RCWh9GbRYSI",
+      "video_url": "https://www.youtube.com/watch?v=RCWh9GbRYSI",
+      "title": "CP 9804 south rips under the old bridge",
+      "published_at": "2026-08-26T16:02:20Z",
+      "date": "2026-08-26",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9804"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9804",
+          "raw": "CP 9804"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9804 south rips under the old bridge",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "z37NLGpHL8Q",
+      "video_url": "https://www.youtube.com/watch?v=z37NLGpHL8Q",
+      "title": "VIA Train 61 Westbound August 26, 2026",
+      "published_at": "2026-08-26T14:15:49Z",
+      "date": "2026-08-26",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound August 26, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 66 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 106,
+        "speed_raw": "66 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:59",
+        "observed_tz": "EDT",
+        "temperature_c": 19,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-08-26T08:59-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "gkUjACT6McA",
+      "video_url": "https://www.youtube.com/watch?v=gkUjACT6McA",
+      "title": "CN Train 276 Eastbound August 26, 2026",
+      "published_at": "2026-08-26T14:05:32Z",
+      "date": "2026-08-26",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 5724",
+        "CN 5603"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 276",
+          "raw": "CN Train 276"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5724",
+          "raw": "CN 5724"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5603",
+          "raw": "CN 5603"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 276 Eastbound August 26, 2026",
+      "description_chars": 206,
+      "consist": {
+        "engines": [
+          "CN 5724",
+          "CN 5603"
+        ],
+        "car_count": 104,
+        "consist_type": "freight",
+        "speed_kmh": 74,
+        "speed_raw": "46 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:49",
+        "observed_tz": "EDT",
+        "temperature_c": 18,
+        "origin": "Chicago Markham IL",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-08-26T08:49-04:00",
+      "origin": "Chicago Markham IL",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "RqWT9H0I7vg",
+      "video_url": "https://www.youtube.com/watch?v=RqWT9H0I7vg",
+      "title": "CN Train 730 Eastbound August 26, 2026",
+      "published_at": "2026-08-26T13:51:03Z",
+      "date": "2026-08-26",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3367",
+        "CN 3198",
+        "CN 3417",
+        "CN 3907"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 730",
+          "raw": "CN Train 730"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3367",
+          "raw": "CN 3367"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3198",
+          "raw": "CN 3198"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3417",
+          "raw": "CN 3417"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3907",
+          "raw": "CN 3907"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 730 Eastbound August 26, 2026",
+      "description_chars": 213,
+      "consist": {
+        "engines": [
+          "CN 3367",
+          "CN 3198"
+        ],
+        "dpu": [
+          "CN 3417",
+          "CN 3907"
+        ],
+        "car_count": 192,
+        "consist_type": "freight",
+        "speed_kmh": 45,
+        "speed_raw": "28 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:35",
+        "observed_tz": "EDT",
+        "temperature_c": 14,
+        "origin": "Yarbo SK",
+        "destination": "Saint John NB"
+      },
+      "observed_at": "2026-08-26T07:35-04:00",
+      "origin": "Yarbo SK",
+      "destination": "Saint John NB",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "xdy4hDu2-po",
+      "video_url": "https://www.youtube.com/watch?v=xdy4hDu2-po",
+      "title": "Tuesday Evening at Bayview \u2022 August 25, 2026",
+      "published_at": "2026-08-26T10:49:55Z",
+      "date": "2026-08-25",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Evening at Bayview \u2022 August 25, 2026",
+      "description_chars": 124,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
