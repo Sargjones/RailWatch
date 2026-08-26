@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T18:44:01.986426Z",
+  "generated_at": "2026-08-26T06:36:57.529992Z",
   "dedup_registry": {
-    "total": 699,
+    "total": 700,
     "by_channel": {
       "Trackside Ontario": 48,
       "Trackside Tyson": 103,
@@ -13,23 +13,23 @@
       "MJM Productions": 183,
       "Central Canada Railfan": 16,
       "Winnipeg Railman": 3,
-      "PTBO Railfanning": 10,
+      "PTBO Railfanning": 11,
       "The Cando Railfan": 2
     },
     "by_confidence": {
       "high": 169,
-      "medium": 468,
+      "medium": 469,
       "low": 62,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-18T00:00:00Z",
+  "since": "2026-08-19T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 6
+      "skipped": 5
     },
     {
       "channel": "Trackside Tyson",
@@ -59,17 +59,12 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 17,
-      "high": 1,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 17
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,8 +73,13 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "MJM Productions",
@@ -112,11 +112,37 @@
       "skipped": 2
     }
   ],
-  "total": 699,
-  "new_this_run": 3,
+  "total": 700,
+  "new_this_run": 1,
   "high_confidence": 169,
   "dg_likely": 118,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "oGBgwV51kuE",
+      "video_url": "https://www.youtube.com/watch?v=oGBgwV51kuE",
+      "title": "Western Ontario Outlaws Mower Racing Econo Mod Rd 03",
+      "published_at": "2026-08-25T17:00:39Z",
+      "date": "2026-08-15",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Western Ontario Outlaws Mower Racing Econo Mod Rd 03",
+      "description_chars": 548,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

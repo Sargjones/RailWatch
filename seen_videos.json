@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-25T18:44:01.976303Z",
-    "total_videos": 699
+    "updated_at": "2026-08-26T06:36:57.520003Z",
+    "total_videos": 700
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4198,6 +4198,12 @@
       "title": "CN Train 368 Lifting August 25, 2026",
       "confidence": "high",
       "processed_at": "2026-08-25T18:44:00.133753Z"
+    },
+    "oGBgwV51kuE": {
+      "channel": "PTBO Railfanning",
+      "title": "Western Ontario Outlaws Mower Racing Econo Mod Rd 03",
+      "confidence": "medium",
+      "processed_at": "2026-08-26T06:36:56.183294Z"
     }
   }
 }
