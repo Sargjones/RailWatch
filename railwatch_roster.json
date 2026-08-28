@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T17:12:55.562790Z",
+  "generated_at": "2026-08-28T02:05:40.767330Z",
   "total_units": 366,
   "min_sightings": 2,
   "by_road": {
@@ -8374,6 +8374,190 @@
     },
     {
       "road": "CN",
+      "number": "7491",
+      "display": "CN 7491",
+      "sighting_count": 3,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-08-22",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 118",
+        "CN 100",
+        "CN 410"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+          "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
+          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 410",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7503",
+      "display": "CN 7503",
+      "sighting_count": 3,
+      "first_seen": "2026-06-03",
+      "last_seen": "CP 7503",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 118",
+        "CN 112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CP 7503",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=xLvRb6sJscQ",
+          "title": "CP 7503 + CP 9752 lead CPKC 2-114",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+          "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
+          "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7530",
+      "display": "CN 7530",
+      "sighting_count": 3,
+      "first_seen": "2026-07-09",
+      "last_seen": "2026-08-22",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 118",
+        "CN 112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+          "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GbfJshjVigw",
+          "title": "CP 7530 + CP 9802 lead CPKC 112 south",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7556",
       "display": "CN 7556",
       "sighting_count": 3,
@@ -15251,148 +15435,6 @@
     },
     {
       "road": "CN",
-      "number": "7491",
-      "display": "CN 7491",
-      "sighting_count": 2,
-      "first_seen": "2026-07-07",
-      "last_seen": "2026-08-07",
-      "corridors": [
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 100",
-        "CN 410"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 100",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
-          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-07-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 410",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
-          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "7503",
-      "display": "CN 7503",
-      "sighting_count": 2,
-      "first_seen": "2026-06-03",
-      "last_seen": "CP 7503",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 112"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "CP 7503",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=xLvRb6sJscQ",
-          "title": "CP 7503 + CP 9752 lead CPKC 2-114",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-06-03",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
-          "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "7530",
-      "display": "CN 7530",
-      "sighting_count": 2,
-      "first_seen": "2026-07-09",
-      "last_seen": "2026-08-14",
-      "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 118",
-        "CN 112"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-14",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 118",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
-          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-07-09",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GbfJshjVigw",
-          "title": "CP 7530 + CP 9802 lead CPKC 112 south",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "7546",
       "display": "CN 7546",
       "sighting_count": 2,
@@ -17181,15 +17223,16 @@
       "road": "CP",
       "number": "7491",
       "display": "CP 7491",
-      "sighting_count": 4,
+      "sighting_count": 5,
       "first_seen": "2026-07-07",
-      "last_seen": "2026-08-07",
+      "last_seen": "2026-08-22",
       "corridors": [
+        "CN Kingston/Oakville Sub",
         "CPKC MacTier Sub",
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
+        "CN Kingston Sub"
       ],
       "trains_led": [
+        "CN 118",
         "CN 101",
         "CN 100",
         "CN 410"
@@ -17199,6 +17242,19 @@
         "unknown"
       ],
       "sightings": [
+        {
+          "date": "2026-08-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+          "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee",
+          "source": "text_extraction"
+        },
         {
           "date": "2026-08-07",
           "location": "Toronto",
@@ -17249,6 +17305,82 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
           "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7530",
+      "display": "CP 7530",
+      "sighting_count": 4,
+      "first_seen": "2026-06-14",
+      "last_seen": "2026-08-22",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 118",
+        "CN 112",
+        "CN 328"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+          "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GbfJshjVigw",
+          "title": "CP 7530 + CP 9802 lead CPKC 112 south",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 328",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
+          "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
           "source": "text_extraction"
         }
       ]
@@ -17828,20 +17960,18 @@
     },
     {
       "road": "CP",
-      "number": "7530",
-      "display": "CP 7530",
+      "number": "7503",
+      "display": "CP 7503",
       "sighting_count": 3,
-      "first_seen": "2026-06-14",
-      "last_seen": "2026-08-14",
+      "first_seen": "2026-06-03",
+      "last_seen": "CP 7503",
       "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
       ],
       "trains_led": [
         "CN 118",
-        "CN 112",
-        "CN 328"
+        "CN 112"
       ],
       "dpu_confirmed": false,
       "roles_seen": [
@@ -17849,42 +17979,42 @@
       ],
       "sightings": [
         {
-          "date": "2026-08-14",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
+          "date": "CP 7503",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=xLvRb6sJscQ",
+          "title": "CP 7503 + CP 9752 lead CPKC 2-114",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
           "channel": "Central Canada Railfan",
           "train_symbol": "CN 118",
           "direction": "East",
           "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
-          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
+          "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+          "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee",
           "source": "text_extraction"
         },
         {
-          "date": "2026-07-09",
+          "date": "2026-06-03",
           "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
+          "subdivision": "CN Kingston/Oakville Sub",
           "channel": "MJM Productions",
           "train_symbol": "CN 112",
           "direction": null,
           "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GbfJshjVigw",
-          "title": "CP 7530 + CP 9802 lead CPKC 112 south",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-14",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 328",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
-          "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
+          "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
+          "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
           "source": "text_extraction"
         }
       ]
@@ -19270,53 +19400,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=v1Op_VKXMnM",
           "title": "CP 7456 + CP 7490 lead CPKC 132 east",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "7503",
-      "display": "CP 7503",
-      "sighting_count": 2,
-      "first_seen": "2026-06-03",
-      "last_seen": "CP 7503",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 112"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "CP 7503",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=xLvRb6sJscQ",
-          "title": "CP 7503 + CP 9752 lead CPKC 2-114",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-03",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
-          "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
           "source": "text_extraction"
         }
       ]

@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-27T17:12:55.400196Z",
-    "total_videos": 716
+    "updated_at": "2026-08-28T02:05:40.644992Z",
+    "total_videos": 718
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4300,6 +4300,18 @@
       "title": "Western Ontario Outlaws Mower Racing Super Mod & Outlaw",
       "confidence": "medium",
       "processed_at": "2026-08-27T17:12:53.992258Z"
+    },
+    "ifQ1M14fUao": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound August 27, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-08-28T02:05:38.593952Z"
+    },
+    "zd2ZMnCoaMU": {
+      "channel": "Central Canada Railfan",
+      "title": "Saturday Afternoon Intermodals and Grainers Along The CP Keewatin Sub. (8/22/202",
+      "confidence": "high",
+      "processed_at": "2026-08-28T02:05:40.644972Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T17:12:55.411044Z",
+  "generated_at": "2026-08-28T02:05:40.653389Z",
   "dedup_registry": {
-    "total": 716,
+    "total": 718,
     "by_channel": {
       "Trackside Ontario": 49,
       "Trackside Tyson": 104,
@@ -9,22 +9,22 @@
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 21,
-      "Brockville RailFan": 263,
+      "Brockville RailFan": 264,
       "MJM Productions": 185,
-      "Central Canada Railfan": 16,
+      "Central Canada Railfan": 17,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 13,
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 176,
-      "medium": 477,
+      "high": 177,
+      "medium": 478,
       "low": 63,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-20T00:00:00Z",
+  "since": "2026-08-21T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -34,7 +34,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 7
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,12 +63,12 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 7,
-      "skipped": 18,
-      "high": 4,
-      "medium": 3,
+      "videos": 1,
+      "skipped": 20,
+      "high": 0,
+      "medium": 1,
       "low_meta": 0,
-      "dg_likely": 4,
+      "dg_likely": 0,
       "defaulted": 0
     },
     {
@@ -78,13 +78,8 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "MJM Productions",
@@ -113,15 +108,133 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     }
   ],
-  "total": 716,
-  "new_this_run": 8,
-  "high_confidence": 176,
-  "dg_likely": 124,
+  "total": 718,
+  "new_this_run": 2,
+  "high_confidence": 177,
+  "dg_likely": 125,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "zd2ZMnCoaMU",
+      "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+      "title": "Saturday Afternoon Intermodals and Grainers Along The CP Keewatin Sub. (8/22/2026)",
+      "published_at": "2026-08-28T00:00:35Z",
+      "date": "2026-08-22",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "unknown",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CP 118",
+        "CP 7515",
+        "CP 7503",
+        "CP 7492",
+        "CP 7545",
+        "CP 100",
+        "CP 8150",
+        "CP 8776",
+        "CP 9805",
+        "CP 321",
+        "CP 7491",
+        "CP 320",
+        "CP 7530",
+        "CP 8867"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CP 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7515",
+          "raw": "CP 7515"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7503",
+          "raw": "CP 7503"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7492",
+          "raw": "CP 7492"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7545",
+          "raw": "CP 7545"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 100",
+          "raw": "CP 100"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8150",
+          "raw": "CP 8150"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8776",
+          "raw": "CP 8776"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9805",
+          "raw": "CP 9805"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 321",
+          "raw": "CP 321"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7491",
+          "raw": "CP 7491"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 320",
+          "raw": "CP 320"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7530",
+          "raw": "CP 7530"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8867",
+          "raw": "CP 8867"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Saturday Afternoon Intermodals and Grainers Along The CP Keewatin Sub. (8/22/2026)",
+      "description_chars": 815,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
@@ -147,6 +260,56 @@
       "description_chars": 557,
       "consist": null,
       "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "ifQ1M14fUao",
+      "video_url": "https://www.youtube.com/watch?v=ifQ1M14fUao",
+      "title": "VIA Train 61 Westbound August 27, 2026",
+      "published_at": "2026-08-27T14:46:19Z",
+      "date": "2026-08-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound August 27, 2026",
+      "description_chars": 179,
+      "consist": {
+        "coaches": [
+          "Speed: 68 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 109,
+        "speed_raw": "68 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:51",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-08-27T08:51-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
     },
     {
       "source": "youtube",
