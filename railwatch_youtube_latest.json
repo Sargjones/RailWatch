@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-30T11:02:48.714752Z",
+  "generated_at": "2026-08-30T20:48:06.748975Z",
   "dedup_registry": {
-    "total": 726,
+    "total": 730,
     "by_channel": {
-      "Trackside Ontario": 51,
-      "Trackside Tyson": 106,
+      "Trackside Ontario": 52,
+      "Trackside Tyson": 108,
       "Southern Ontario Railfan": 26,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 21,
       "Brockville RailFan": 264,
       "MJM Productions": 185,
-      "Central Canada Railfan": 17,
+      "Central Canada Railfan": 18,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
       "The Cando Railfan": 2
     },
     "by_confidence": {
       "high": 177,
-      "medium": 484,
+      "medium": 488,
       "low": 65,
       "meta": 0
     }
@@ -28,13 +28,23 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 5
+      "videos": 2,
+      "skipped": 5,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -103,15 +113,137 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     }
   ],
-  "total": 726,
-  "new_this_run": 0,
+  "total": 730,
+  "new_this_run": 4,
   "high_confidence": 177,
-  "dg_likely": 125,
+  "dg_likely": 126,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "NBTUl6mljpU",
+      "video_url": "https://www.youtube.com/watch?v=NBTUl6mljpU",
+      "title": "Tuesday Morning at Bayview \u2022 July 21, 2026",
+      "published_at": "2026-08-30T19:31:52Z",
+      "date": "2026-07-21",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Morning at Bayview \u2022 July 21, 2026",
+      "description_chars": 122,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "3uLy3P_paqs",
+      "video_url": "https://www.youtube.com/watch?v=3uLy3P_paqs",
+      "title": "Fallen Flag Leaders on CP and CN Trains In Winnipeg!",
+      "published_at": "2026-08-30T17:00:28Z",
+      "date": "2026-08-30",
+      "location": "Winnipeg",
+      "subdivision": "CN Mainline Manitoba",
+      "lat": 49.8951,
+      "lon": -97.1384,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3109"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3109",
+          "raw": "CP 3109"
+        },
+        {
+          "road": "CN",
+          "symbol": "L533",
+          "raw": "L533"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Fallen Flag Leaders on CP and CN Trains In Winnipeg!",
+      "description_chars": 355,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "8tvGVDeHFQ8",
+      "video_url": "https://www.youtube.com/watch?v=8tvGVDeHFQ8",
+      "title": "MASSIVE CANADIAN FREIGHT TRAINS CURVING THRU THE RUGGED CANYON",
+      "published_at": "2026-08-30T16:00:06Z",
+      "date": "2026-08-30",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "MASSIVE CANADIAN FREIGHT TRAINS CURVING THRU THE RUGGED CANYON",
+      "description_chars": 496,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "tJBAwf09Utc",
+      "video_url": "https://www.youtube.com/watch?v=tJBAwf09Utc",
+      "title": "TRAIN THRU SLIDE SHED IN THE CANYON #youtubeshorts",
+      "published_at": "2026-08-30T15:26:10Z",
+      "date": "2026-08-30",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "TRAIN THRU SLIDE SHED IN THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

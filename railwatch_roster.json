@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T11:02:48.810489Z",
+  "generated_at": "2026-08-30T20:48:06.857063Z",
   "total_units": 366,
   "min_sightings": 2,
   "by_road": {
@@ -981,6 +981,110 @@
     },
     {
       "road": "CN",
+      "number": "3109",
+      "display": "CN 3109",
+      "sighting_count": 6,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-08-30",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "L533",
+        "CN 118",
+        "CN 106",
+        "CN 368"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-30",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "L533",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3uLy3P_paqs",
+          "title": "Fallen Flag Leaders on CP and CN Trains In Winnipeg!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+          "title": "CN Train 106 Eastbound July 8, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+          "title": "CN Train 106 Eastbound July 8, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-06-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=YZggQLnlgAI",
+          "title": "CN Train 368 Raced by CN Train 126 Eastbound June 23, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3373",
       "display": "CN 3373",
       "sighting_count": 6,
@@ -1449,96 +1553,6 @@
           "video_url": "https://www.youtube.com/watch?v=TWUYnG3KCZQ",
           "title": "CN Train 368 Eastbound July 27, 2026",
           "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3109",
-      "display": "CN 3109",
-      "sighting_count": 5,
-      "first_seen": "2026-06-21",
-      "last_seen": "2026-08-14",
-      "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 118",
-        "CN 106",
-        "CN 368"
-      ],
-      "dpu_confirmed": true,
-      "roles_seen": [
-        "unknown",
-        "dpu"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-14",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 118",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
-          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-07-08",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 106",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
-          "title": "CN Train 106 Eastbound July 8, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-08",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 106",
-          "direction": "East",
-          "role": "dpu",
-          "dpu": true,
-          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
-          "title": "CN Train 106 Eastbound July 8, 2026",
-          "source": "description_structured"
-        },
-        {
-          "date": "2026-06-23",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=YZggQLnlgAI",
-          "title": "CN Train 368 Raced by CN Train 126 Eastbound June 23, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-21",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
-          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
-          "source": "symbol_extraction"
         }
       ]
     },
@@ -17597,6 +17611,66 @@
     },
     {
       "road": "CP",
+      "number": "3109",
+      "display": "CP 3109",
+      "sighting_count": 3,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-08-30",
+      "corridors": [
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "L533",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-08-30",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "L533",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3uLy3P_paqs",
+          "title": "Fallen Flag Leaders on CP and CN Trains In Winnipeg!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "3112",
       "display": "CP 3112",
       "sighting_count": 3,
@@ -18610,52 +18684,6 @@
           "video_url": "https://www.youtube.com/watch?v=eC1FhTahVJg",
           "title": "CPKC Train G65? Switching in Smiths Falls August 7, 2026",
           "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "3109",
-      "display": "CP 3109",
-      "sighting_count": 2,
-      "first_seen": "2026-06-21",
-      "last_seen": "2026-08-14",
-      "corridors": [
-        "CN Mainline Manitoba"
-      ],
-      "trains_led": [
-        "CN 118"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-14",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 118",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
-          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-21",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
-          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
-          "source": "text_extraction"
         }
       ]
     },
