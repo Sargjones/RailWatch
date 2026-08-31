@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-30T20:48:06.748975Z",
+  "generated_at": "2026-08-31T12:25:11.627273Z",
   "dedup_registry": {
-    "total": 730,
+    "total": 731,
     "by_channel": {
       "Trackside Ontario": 52,
       "Trackside Tyson": 108,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 27,
       "Rail Fans Canada": 21,
-      "Brockville RailFan": 264,
+      "Brockville RailFan": 265,
       "MJM Productions": 185,
       "Central Canada Railfan": 18,
       "Winnipeg Railman": 3,
@@ -17,34 +17,24 @@
       "The Cando Railfan": 2
     },
     "by_confidence": {
-      "high": 177,
+      "high": 178,
       "medium": 488,
       "low": 65,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-23T00:00:00Z",
+  "since": "2026-08-24T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 2,
-      "skipped": 5,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -73,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 17
+      "videos": 1,
+      "skipped": 17,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -89,7 +84,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 8
+      "skipped": 6
     },
     {
       "channel": "Ontario Railman",
@@ -113,20 +108,51 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 2
     }
   ],
-  "total": 730,
-  "new_this_run": 4,
-  "high_confidence": 177,
-  "dg_likely": 126,
+  "total": 731,
+  "new_this_run": 1,
+  "high_confidence": 178,
+  "dg_likely": 127,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "k0gBNOL9EKI",
+      "video_url": "https://www.youtube.com/watch?v=k0gBNOL9EKI",
+      "title": "WCR 9 Augus30, 2026",
+      "published_at": "2026-08-30T21:14:08Z",
+      "date": "2026-08-30",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "WCR 9 Augus30, 2026",
+      "description_chars": 213,
+      "consist": {
+        "car_count": 6,
+        "consist_type": "freight",
+        "observed_time": "10:45",
+        "observed_tz": "EDT",
+        "origin": "Waterloo ON",
+        "destination": "Elmira ON"
+      },
+      "observed_at": "2026-08-30T10:45-04:00",
+      "origin": "Waterloo ON",
+      "destination": "Elmira ON",
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
