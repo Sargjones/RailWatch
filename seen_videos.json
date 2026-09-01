@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-08-31T22:39:56.717243Z",
-    "total_videos": 731
+    "updated_at": "2026-09-01T10:56:19.360303Z",
+    "total_videos": 732
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4390,6 +4390,12 @@
       "title": "WCR 9 Augus30, 2026",
       "confidence": "high",
       "processed_at": "2026-08-31T12:25:09.234736Z"
+    },
+    "QDe3O4g-LW0": {
+      "channel": "Trackside Ontario",
+      "title": "A Rainy Day at Bayview \u2022 August 31, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-01T10:56:16.247940Z"
     }
   }
 }
