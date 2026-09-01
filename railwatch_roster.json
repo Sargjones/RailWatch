@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-01T10:56:19.494850Z",
-  "total_units": 366,
+  "generated_at": "2026-09-01T20:48:40.360704Z",
+  "total_units": 368,
   "min_sightings": 2,
   "by_road": {
-    "CN": 293,
+    "CN": 295,
     "VIA": 3,
     "CP": 68,
     "RUCK": 1,
@@ -10796,6 +10796,53 @@
     },
     {
       "road": "CN",
+      "number": "2875",
+      "display": "CN 2875",
+      "sighting_count": 2,
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-01",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Itbs910JdiU",
+          "title": "CN Train 149 Westbound September 1, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-01",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Itbs910JdiU",
+          "title": "CN Train 149 Westbound September 1, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2886",
       "display": "CN 2886",
       "sighting_count": 2,
@@ -14318,6 +14365,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Kvjtws_Hq4A",
           "title": "CN Train 730 Eastbound June 18, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3940",
+      "display": "CN 3940",
+      "sighting_count": 2,
+      "first_seen": "2026-09-01",
+      "last_seen": "2026-09-01",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-01",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Itbs910JdiU",
+          "title": "CN Train 149 Westbound September 1, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-01",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Itbs910JdiU",
+          "title": "CN Train 149 Westbound September 1, 2026",
           "source": "description_structured"
         }
       ]

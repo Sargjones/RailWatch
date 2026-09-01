@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T10:56:19.447649Z",
+  "generated_at": "2026-09-01T20:48:40.311193Z",
   "total": 32,
   "cross_observer": 3,
   "chase": 29,
@@ -297,7 +297,7 @@
       "consist_delta": null,
       "commodity": "intermodal",
       "dg_likely": true,
-      "correlated_at": "2026-09-01T10:56:19.446612Z",
+      "correlated_at": "2026-09-01T20:48:40.310369Z",
       "confidence": "medium"
     },
     {
@@ -347,7 +347,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-01T10:56:19.446943Z",
+      "correlated_at": "2026-09-01T20:48:40.310576Z",
       "confidence": "medium"
     },
     {
@@ -397,7 +397,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-01T10:56:19.447202Z",
+      "correlated_at": "2026-09-01T20:48:40.310712Z",
       "confidence": "medium"
     },
     {
@@ -447,7 +447,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-01T10:56:19.446901Z",
+      "correlated_at": "2026-09-01T20:48:40.310537Z",
       "confidence": "low",
       "split_suspected": true
     },
@@ -493,7 +493,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.446729Z",
+      "correlated_at": "2026-09-01T20:48:40.310165Z",
       "confidence": "low"
     },
     {
@@ -543,57 +543,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.446743Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN368",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-06-20",
-        "observed_at": "2026-06-20T09:19-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": 64,
-        "origin": "Chicago Markham IL",
-        "destination": "Montreal Taschereau QC",
-        "video_url": "https://www.youtube.com/watch?v=3EGwjhtrzZA",
-        "title": "CN Train 276 Eastbound June 20, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-06-20",
-        "observed_at": "2026-06-20T09:38-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": 105,
-        "origin": "Toronto MacMillan ON",
-        "destination": "Garneau QC",
-        "video_url": "https://www.youtube.com/watch?v=PSD_3rDhhlU",
-        "title": "CN Train 368 Eastbound June 20, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 0.32,
-        "avg_speed_kmh": 984.0,
-        "speed_plausible": false,
-        "consist_profile": "Mixed manifest freight",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 64,
-        "car_count_b": 105,
-        "delta": 41,
-        "split_suspected": false
-      },
-      "commodity": "mixed",
-      "dg_likely": true,
-      "correlated_at": "2026-09-01T10:56:19.446912Z",
+      "correlated_at": "2026-09-01T20:48:40.310192Z",
       "confidence": "low"
     },
     {
@@ -643,7 +593,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.446992Z",
+      "correlated_at": "2026-09-01T20:48:40.310256Z",
       "confidence": "low"
     },
     {
@@ -693,7 +643,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447003Z",
+      "correlated_at": "2026-09-01T20:48:40.310266Z",
       "confidence": "low"
     },
     {
@@ -743,7 +693,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447011Z",
+      "correlated_at": "2026-09-01T20:48:40.310278Z",
       "confidence": "low"
     },
     {
@@ -793,7 +743,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447019Z",
+      "correlated_at": "2026-09-01T20:48:40.310290Z",
       "confidence": "low"
     },
     {
@@ -843,7 +793,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447027Z",
+      "correlated_at": "2026-09-01T20:48:40.310300Z",
       "confidence": "low"
     },
     {
@@ -893,7 +843,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447035Z",
+      "correlated_at": "2026-09-01T20:48:40.310311Z",
       "confidence": "low"
     },
     {
@@ -943,7 +893,57 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447046Z",
+      "correlated_at": "2026-09-01T20:48:40.310320Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN368",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-06-20",
+        "observed_at": "2026-06-20T09:19-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 64,
+        "origin": "Chicago Markham IL",
+        "destination": "Montreal Taschereau QC",
+        "video_url": "https://www.youtube.com/watch?v=3EGwjhtrzZA",
+        "title": "CN Train 276 Eastbound June 20, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-06-20",
+        "observed_at": "2026-06-20T09:38-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 105,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC",
+        "video_url": "https://www.youtube.com/watch?v=PSD_3rDhhlU",
+        "title": "CN Train 368 Eastbound June 20, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 0.32,
+        "avg_speed_kmh": 984.0,
+        "speed_plausible": false,
+        "consist_profile": "Mixed manifest freight",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 64,
+        "car_count_b": 105,
+        "delta": 41,
+        "split_suspected": false
+      },
+      "commodity": "mixed",
+      "dg_likely": true,
+      "correlated_at": "2026-09-01T20:48:40.310548Z",
       "confidence": "low"
     },
     {
@@ -988,7 +988,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447128Z",
+      "correlated_at": "2026-09-01T20:48:40.310639Z",
       "confidence": "low"
     },
     {
@@ -1033,7 +1033,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447154Z",
+      "correlated_at": "2026-09-01T20:48:40.310663Z",
       "confidence": "low"
     },
     {
@@ -1078,7 +1078,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447244Z",
+      "correlated_at": "2026-09-01T20:48:40.310757Z",
       "confidence": "medium"
     },
     {
@@ -1123,7 +1123,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447255Z",
+      "correlated_at": "2026-09-01T20:48:40.310766Z",
       "confidence": "medium"
     },
     {
@@ -1173,7 +1173,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447287Z",
+      "correlated_at": "2026-09-01T20:48:40.310796Z",
       "confidence": "low"
     },
     {
@@ -1218,7 +1218,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447358Z",
+      "correlated_at": "2026-09-01T20:48:40.310882Z",
       "confidence": "low"
     },
     {
@@ -1263,7 +1263,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447391Z",
+      "correlated_at": "2026-09-01T20:48:40.310919Z",
       "confidence": "low"
     },
     {
@@ -1308,7 +1308,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447398Z",
+      "correlated_at": "2026-09-01T20:48:40.310928Z",
       "confidence": "low"
     },
     {
@@ -1353,7 +1353,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447407Z",
+      "correlated_at": "2026-09-01T20:48:40.310936Z",
       "confidence": "low"
     },
     {
@@ -1398,7 +1398,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447452Z",
+      "correlated_at": "2026-09-01T20:48:40.310983Z",
       "confidence": "low"
     },
     {
@@ -1443,7 +1443,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447494Z",
+      "correlated_at": "2026-09-01T20:48:40.311027Z",
       "confidence": "low"
     },
     {
@@ -1488,7 +1488,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447503Z",
+      "correlated_at": "2026-09-01T20:48:40.311041Z",
       "confidence": "low"
     },
     {
@@ -1533,7 +1533,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447540Z",
+      "correlated_at": "2026-09-01T20:48:40.311080Z",
       "confidence": "low"
     },
     {
@@ -1578,7 +1578,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447552Z",
+      "correlated_at": "2026-09-01T20:48:40.311090Z",
       "confidence": "low"
     },
     {
@@ -1623,7 +1623,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447561Z",
+      "correlated_at": "2026-09-01T20:48:40.311100Z",
       "confidence": "low"
     },
     {
@@ -1668,7 +1668,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447573Z",
+      "correlated_at": "2026-09-01T20:48:40.311113Z",
       "confidence": "low"
     },
     {
@@ -1713,7 +1713,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447582Z",
+      "correlated_at": "2026-09-01T20:48:40.311123Z",
       "confidence": "low"
     },
     {
@@ -1758,7 +1758,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-01T10:56:19.447592Z",
+      "correlated_at": "2026-09-01T20:48:40.311134Z",
       "confidence": "low"
     }
   ]

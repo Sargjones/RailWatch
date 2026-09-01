@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-01T10:56:19.370071Z",
+  "generated_at": "2026-09-01T20:48:40.230094Z",
   "dedup_registry": {
-    "total": 732,
+    "total": 737,
     "by_channel": {
       "Trackside Ontario": 53,
       "Trackside Tyson": 108,
       "Southern Ontario Railfan": 26,
       "Trackside Tristan": 10,
-      "Scott Rails (Chasing The Money Shot)": 27,
+      "Scott Rails (Chasing The Money Shot)": 28,
       "Rail Fans Canada": 21,
-      "Brockville RailFan": 265,
+      "Brockville RailFan": 268,
       "MJM Productions": 185,
       "Central Canada Railfan": 18,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
-      "The Cando Railfan": 2
+      "The Cando Railfan": 3
     },
     "by_confidence": {
-      "high": 178,
-      "medium": 489,
+      "high": 180,
+      "medium": 492,
       "low": 65,
       "meta": 0
     }
@@ -28,13 +28,8 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Trackside Tyson",
@@ -53,13 +48,13 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 0,
+      "videos": 1,
       "skipped": 0,
       "high": 0,
-      "medium": 0,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 0
+      "defaulted": 1
     },
     {
       "channel": "Rail Fans Canada",
@@ -68,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 15
+      "videos": 3,
+      "skipped": 15,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -98,8 +98,13 @@
     },
     {
       "channel": "The Cando Railfan",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "The Manitoba Railfan",
@@ -112,11 +117,221 @@
       "skipped": 2
     }
   ],
-  "total": 732,
-  "new_this_run": 1,
-  "high_confidence": 178,
-  "dg_likely": 127,
+  "total": 737,
+  "new_this_run": 5,
+  "high_confidence": 180,
+  "dg_likely": 128,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "The Cando Railfan",
+      "channel_id": "UC0EU2sjkJ424t4zM0WYiFfA",
+      "video_id": "CUYDoRrROb4",
+      "video_url": "https://www.youtube.com/watch?v=CUYDoRrROb4",
+      "title": "GTW 5827 Leading Local Freight Towards Symington Yard",
+      "published_at": "2026-09-01T17:00:12Z",
+      "date": "2026-09-01",
+      "location": "Winnipeg",
+      "subdivision": "CN Mainline Manitoba",
+      "lat": 49.8951,
+      "lon": -97.1384,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 7528"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7528",
+          "raw": "CN 7528"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "GTW 5827 Leading Local Freight Towards Symington Yard",
+      "description_chars": 543,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "T2Ljj1XUKnU",
+      "video_url": "https://www.youtube.com/watch?v=T2Ljj1XUKnU",
+      "title": "VIA Train 61 Westbound September 1, 2026",
+      "published_at": "2026-09-01T15:06:59Z",
+      "date": "2026-09-01",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound September 1, 2026",
+      "description_chars": 192,
+      "consist": {
+        "coaches": [
+          "Speed: 59 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 95,
+        "speed_raw": "59 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:25",
+        "observed_tz": "EDT",
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-01T09:25-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Itbs910JdiU",
+      "video_url": "https://www.youtube.com/watch?v=Itbs910JdiU",
+      "title": "CN Train 149 Westbound September 1, 2026",
+      "published_at": "2026-09-01T14:57:16Z",
+      "date": "2026-09-01",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3940",
+        "CN 2875"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3940",
+          "raw": "CN 3940"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2875",
+          "raw": "CN 2875"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound September 1, 2026",
+      "description_chars": 218,
+      "consist": {
+        "engines": [
+          "CN 3940",
+          "CN 2875"
+        ],
+        "car_count": 159,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 60,
+        "speed_raw": "37 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:12",
+        "observed_tz": "EDT",
+        "temperature_c": 16,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-09-01T08:12-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Scott Rails (Chasing The Money Shot)",
+      "channel_id": "UCQUUHzkvfoCqcTKIn6cI9yw",
+      "video_id": "5_VgdUu-ks0",
+      "video_url": "https://www.youtube.com/watch?v=5_VgdUu-ks0",
+      "title": "Hogwarts Express Is On Its Way - Full Video Coming Soon. ",
+      "published_at": "2026-09-01T14:45:49Z",
+      "date": "2026-09-01",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Hogwarts Express Is On Its Way - Full Video Coming Soon. ",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "A1e8gkiLq3Q",
+      "video_url": "https://www.youtube.com/watch?v=A1e8gkiLq3Q",
+      "title": "WCR 9 Inaugural Run August 30, 2026",
+      "published_at": "2026-09-01T14:38:09Z",
+      "date": "2026-08-30",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "WCR 9 Inaugural Run August 30, 2026",
+      "description_chars": 480,
+      "consist": {
+        "car_count": 6,
+        "consist_type": "freight",
+        "observed_time": "11:45",
+        "observed_tz": "LOCAL",
+        "origin": "Waterloo ON",
+        "destination": "Elmira ON"
+      },
+      "observed_at": "2026-08-30T11:45",
+      "origin": "Waterloo ON",
+      "destination": "Elmira ON",
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
