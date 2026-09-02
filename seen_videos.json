@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-02T10:23:40.565573Z",
-    "total_videos": 737
+    "updated_at": "2026-09-02T20:48:14.263316Z",
+    "total_videos": 740
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4426,6 +4426,24 @@
       "title": "GTW 5827 Leading Local Freight Towards Symington Yard",
       "confidence": "medium",
       "processed_at": "2026-09-01T20:48:39.434957Z"
+    },
+    "S_HwDWiMNgU": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound September 2, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-02T20:48:12.629602Z"
+    },
+    "1hO9FtfPX90": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound September 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-02T20:48:12.629864Z"
+    },
+    "jFByuMy1KMY": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound September 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-02T20:48:12.630061Z"
     }
   }
 }
