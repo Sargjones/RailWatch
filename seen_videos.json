@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-02T20:48:14.263316Z",
-    "total_videos": 740
+    "updated_at": "2026-09-03T10:32:14.277623Z",
+    "total_videos": 742
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4444,6 +4444,18 @@
       "title": "CN Train 149 Westbound September 2, 2026",
       "confidence": "high",
       "processed_at": "2026-09-02T20:48:12.630061Z"
+    },
+    "lLW3o3_cous": {
+      "channel": "MJM Productions",
+      "title": "OLD CLASSIC! CP 9770 at Palgrave, ON (SEP 2, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-09-03T10:32:13.255267Z"
+    },
+    "gTohCGJbdmc": {
+      "channel": "MJM Productions",
+      "title": "CP 9770 + CP 7452 lead CPKC 421 north",
+      "confidence": "medium",
+      "processed_at": "2026-09-03T10:32:13.256093Z"
     }
   }
 }

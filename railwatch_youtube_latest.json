@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T20:48:14.274085Z",
+  "generated_at": "2026-09-03T10:32:14.288590Z",
   "dedup_registry": {
-    "total": 740,
+    "total": 742,
     "by_channel": {
       "Trackside Ontario": 53,
       "Trackside Tyson": 108,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 28,
       "Rail Fans Canada": 21,
       "Brockville RailFan": 271,
-      "MJM Productions": 185,
+      "MJM Productions": 187,
       "Central Canada Railfan": 18,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,23 +18,23 @@
     },
     "by_confidence": {
       "high": 182,
-      "medium": 493,
+      "medium": 495,
       "low": 65,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-26T00:00:00Z",
+  "since": "2026-08-27T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 5
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 5
+      "skipped": 4
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,13 +63,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 15,
-      "high": 2,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 15
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -79,12 +74,17 @@
     {
       "channel": "PTBO Railfanning",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 2
+      "videos": 2,
+      "skipped": 0,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +112,91 @@
       "skipped": 2
     }
   ],
-  "total": 740,
-  "new_this_run": 3,
+  "total": 742,
+  "new_this_run": 2,
   "high_confidence": 182,
   "dg_likely": 129,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "lLW3o3_cous",
+      "video_url": "https://www.youtube.com/watch?v=lLW3o3_cous",
+      "title": "OLD CLASSIC! CP 9770 at Palgrave, ON (SEP 2, 2026)",
+      "published_at": "2026-09-03T01:01:42Z",
+      "date": "2026-09-02",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9770"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9770",
+          "raw": "CP 9770"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "OLD CLASSIC! CP 9770 at Palgrave, ON (SEP 2, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "gTohCGJbdmc",
+      "video_url": "https://www.youtube.com/watch?v=gTohCGJbdmc",
+      "title": "CP 9770 + CP 7452 lead CPKC 421 north",
+      "published_at": "2026-09-03T00:03:13Z",
+      "date": "2026-09-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9770",
+        "CP 7452",
+        "CPKC 421"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9770",
+          "raw": "CP 9770"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7452",
+          "raw": "CP 7452"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9770 + CP 7452 lead CPKC 421 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

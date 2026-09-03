@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-02T20:48:14.410874Z",
-  "total_units": 370,
+  "generated_at": "2026-09-03T10:32:14.426209Z",
+  "total_units": 372,
   "min_sightings": 2,
   "by_road": {
-    "CN": 297,
+    "CN": 298,
     "VIA": 3,
-    "CP": 68,
+    "CP": 69,
     "RUCK": 1,
     "AC": 1
   },
@@ -17156,6 +17156,52 @@
     },
     {
       "road": "CN",
+      "number": "9770",
+      "display": "CN 9770",
+      "sighting_count": 2,
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-03",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=gTohCGJbdmc",
+          "title": "CP 9770 + CP 7452 lead CPKC 421 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-02",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lLW3o3_cous",
+          "title": "OLD CLASSIC! CP 9770 at Palgrave, ON (SEP 2, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "9804",
       "display": "CN 9804",
       "sighting_count": 2,
@@ -20850,6 +20896,52 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
           "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9770",
+      "display": "CP 9770",
+      "sighting_count": 2,
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-03",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=gTohCGJbdmc",
+          "title": "CP 9770 + CP 7452 lead CPKC 421 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-02",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lLW3o3_cous",
+          "title": "OLD CLASSIC! CP 9770 at Palgrave, ON (SEP 2, 2026)",
           "source": "text_extraction"
         }
       ]
