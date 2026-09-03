@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-03T10:32:14.426209Z",
-  "total_units": 372,
+  "generated_at": "2026-09-03T20:45:21.002287Z",
+  "total_units": 373,
   "min_sightings": 2,
   "by_road": {
-    "CN": 298,
+    "CN": 299,
     "VIA": 3,
     "CP": 69,
     "RUCK": 1,
@@ -3062,6 +3062,83 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=zhnIVq8lT_4",
           "title": "CN Train 368 Lifting July 14, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2991",
+      "display": "CN 2991",
+      "sighting_count": 4,
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-09-03",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z112",
+        "CN 368",
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-03",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W27SI6hd8No",
+          "title": "SD75IACC LEAD! CN 8342 at West Franklin, ON (SEP 3, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SwGNSx6Sibg",
+          "title": "CN 368 Train  Lifting Meets CN Train 106 Eastbound August 20",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-06",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eX101SifD9I",
+          "title": "CN Train 149 Westbound August 6, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-06",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eX101SifD9I",
+          "title": "CN Train 149 Westbound August 6, 2026",
           "source": "description_structured"
         }
       ]
@@ -6226,68 +6303,6 @@
           "dpu": true,
           "video_url": "https://www.youtube.com/watch?v=XJThsVe24dQ",
           "title": "CN Train 368 Eastbound June 30, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "2991",
-      "display": "CN 2991",
-      "sighting_count": 3,
-      "first_seen": "2026-08-06",
-      "last_seen": "2026-08-20",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 368",
-        "CN 149"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-20",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=SwGNSx6Sibg",
-          "title": "CN 368 Train  Lifting Meets CN Train 106 Eastbound August 20",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-06",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=eX101SifD9I",
-          "title": "CN Train 149 Westbound August 6, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-06",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=eX101SifD9I",
-          "title": "CN Train 149 Westbound August 6, 2026",
           "source": "description_structured"
         }
       ]
@@ -16254,6 +16269,53 @@
           "video_url": "https://www.youtube.com/watch?v=Qh4ePOQnNcA",
           "title": "CN Train 149 Westbound August 5, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8342",
+      "display": "CN 8342",
+      "sighting_count": 2,
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-03",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-03",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W27SI6hd8No",
+          "title": "SD75IACC LEAD! CN 8342 at West Franklin, ON (SEP 3, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3I90DFPsT0o",
+          "title": "CN 8342 SD75IACC leads CN Z112 south",
+          "source": "text_extraction"
         }
       ]
     },

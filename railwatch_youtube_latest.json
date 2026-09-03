@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T10:32:14.288590Z",
+  "generated_at": "2026-09-03T20:45:20.845016Z",
   "dedup_registry": {
-    "total": 742,
+    "total": 746,
     "by_channel": {
       "Trackside Ontario": 53,
       "Trackside Tyson": 108,
@@ -9,16 +9,16 @@
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 28,
       "Rail Fans Canada": 21,
-      "Brockville RailFan": 271,
-      "MJM Productions": 187,
+      "Brockville RailFan": 272,
+      "MJM Productions": 189,
       "Central Canada Railfan": 18,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
-      "The Cando Railfan": 3
+      "The Cando Railfan": 4
     },
     "by_confidence": {
       "high": 182,
-      "medium": 495,
+      "medium": 499,
       "low": 65,
       "meta": 0
     }
@@ -63,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 15
+      "videos": 1,
+      "skipped": 15,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -79,12 +84,12 @@
     {
       "channel": "MJM Productions",
       "videos": 2,
-      "skipped": 0,
+      "skipped": 2,
       "high": 0,
       "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 2
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -98,8 +103,13 @@
     },
     {
       "channel": "The Cando Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "The Manitoba Railfan",
@@ -112,11 +122,184 @@
       "skipped": 2
     }
   ],
-  "total": 742,
-  "new_this_run": 2,
+  "total": 746,
+  "new_this_run": 4,
   "high_confidence": 182,
   "dg_likely": 129,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "W27SI6hd8No",
+      "video_url": "https://www.youtube.com/watch?v=W27SI6hd8No",
+      "title": "SD75IACC LEAD! CN 8342 at West Franklin, ON (SEP 3, 2026)",
+      "published_at": "2026-09-03T18:56:15Z",
+      "date": "2026-09-03",
+      "location": "Brampton",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6833,
+      "lon": -79.7667,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8342",
+        "CN 2991"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8342",
+          "raw": "CN 8342"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z112",
+          "raw": "Z112"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2991",
+          "raw": "CN 2991"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "SD75IACC LEAD! CN 8342 at West Franklin, ON (SEP 3, 2026)",
+      "description_chars": 333,
+      "consist": {
+        "observed_time": "12:35",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-09-03T12:35",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "3I90DFPsT0o",
+      "video_url": "https://www.youtube.com/watch?v=3I90DFPsT0o",
+      "title": "CN 8342 SD75IACC leads CN Z112 south",
+      "published_at": "2026-09-03T17:04:21Z",
+      "date": "2026-09-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8342"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8342",
+          "raw": "CN 8342"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z112",
+          "raw": "Z112"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8342 SD75IACC leads CN Z112 south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "The Cando Railfan",
+      "channel_id": "UC0EU2sjkJ424t4zM0WYiFfA",
+      "video_id": "T-aEuqZy1cY",
+      "video_url": "https://www.youtube.com/watch?v=T-aEuqZy1cY",
+      "title": "Ex-BN SD60M Trailing on Letellier Subdivision Freight",
+      "published_at": "2026-09-03T17:00:21Z",
+      "date": "2026-09-03",
+      "location": "Winnipeg",
+      "subdivision": "CN Mainline Manitoba",
+      "lat": 49.8951,
+      "lon": -97.1384,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5687"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5687",
+          "raw": "CN 5687"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Ex-BN SD60M Trailing on Letellier Subdivision Freight",
+      "description_chars": 567,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "ySqrRar-twU",
+      "video_url": "https://www.youtube.com/watch?v=ySqrRar-twU",
+      "title": "VIA Train 61 Westbound September 3, 2026",
+      "published_at": "2026-09-03T13:33:29Z",
+      "date": "2026-09-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound September 3, 2026",
+      "description_chars": 179,
+      "consist": {
+        "coaches": [
+          "Speed: 63 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 101,
+        "speed_raw": "63 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:50",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-03T08:50-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
