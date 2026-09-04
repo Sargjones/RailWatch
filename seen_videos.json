@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-03T20:45:20.833860Z",
-    "total_videos": 746
+    "updated_at": "2026-09-04T10:21:41.633310Z",
+    "total_videos": 747
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4480,6 +4480,12 @@
       "title": "Ex-BN SD60M Trailing on Letellier Subdivision Freight",
       "confidence": "medium",
       "processed_at": "2026-09-03T20:45:20.292927Z"
+    },
+    "MgFcBaGoPXs": {
+      "channel": "Central Canada Railfan",
+      "title": "Various CP Freight Trains Around Winnipeg - Late August 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-04T10:21:41.633280Z"
     }
   }
 }
