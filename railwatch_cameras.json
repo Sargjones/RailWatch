@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-04T10:21:37.939321Z",
+  "generated_at": "2026-09-04T20:32:28.800942Z",
   "source": "Ontario 511 Developer API (511on.ca)",
-  "total_cameras": 179,
-  "enabled_cameras": 179,
+  "total_cameras": 180,
+  "enabled_cameras": 180,
   "radius_km": 2.5,
   "by_corridor": {
     "CN Bala Sub": {
@@ -14,8 +14,8 @@
       "enabled": 9
     },
     "CN Dundas / Oakville Sub": {
-      "total": 23,
-      "enabled": 23
+      "total": 24,
+      "enabled": 24
     },
     "CN Halton Sub": {
       "total": 65,
@@ -471,6 +471,19 @@
       "view_count": 3,
       "corridor": "CN Dundas / Oakville Sub",
       "dist_km": 1.0,
+      "enabled": true
+    },
+    {
+      "id": 1432,
+      "name": "Highway 403 at Garden Avenue",
+      "roadway": "Highway 403",
+      "lat": 43.167788,
+      "lon": -80.210775,
+      "view_url": "https://511on.ca/map/Cctv/2871",
+      "view_desc": "Looking West",
+      "view_count": 3,
+      "corridor": "CN Dundas / Oakville Sub",
+      "dist_km": 1.19,
       "enabled": true
     },
     {
@@ -1918,7 +1931,7 @@
     },
     {
       "id": 155,
-      "name": "Highway 401 near Aird Street",
+      "name": "Highway 401 at Aird Street",
       "roadway": "Highway 401",
       "lat": 44.00451,
       "lon": -78.02619166,

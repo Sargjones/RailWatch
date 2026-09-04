@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T10:21:41.735222Z",
+  "generated_at": "2026-09-04T20:32:33.056432Z",
   "total": 33,
   "cross_observer": 3,
   "chase": 30,
@@ -256,51 +256,6 @@
   ],
   "correlations": [
     {
-      "symbol": "CN100",
-      "tier": "cross_observer",
-      "sighting_a": {
-        "location": "MacTier",
-        "date": "2026-08-26",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": "South",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=5aXBZqt3xVk",
-        "title": "Chasing CP 9804 AC4400CW south on the Mactier sub (AUG 26, 2"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-08-22",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "Central Canada Railfan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
-        "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee"
-      },
-      "transit": {
-        "distance_km": 147.8,
-        "elapsed_hours": 30.62,
-        "avg_speed_kmh": 4.8,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": false,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "intermodal",
-      "dg_likely": true,
-      "correlated_at": "2026-09-04T10:21:41.734426Z",
-      "confidence": "medium"
-    },
-    {
       "symbol": "CN731",
       "tier": "cross_observer",
       "sighting_a": {
@@ -347,7 +302,52 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-04T10:21:41.734574Z",
+      "correlated_at": "2026-09-04T20:32:33.055303Z",
+      "confidence": "medium"
+    },
+    {
+      "symbol": "CN100",
+      "tier": "cross_observer",
+      "sighting_a": {
+        "location": "MacTier",
+        "date": "2026-08-26",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": "South",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=5aXBZqt3xVk",
+        "title": "Chasing CP 9804 AC4400CW south on the Mactier sub (AUG 26, 2"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-08-22",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "Central Canada Railfan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+        "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee"
+      },
+      "transit": {
+        "distance_km": 147.8,
+        "elapsed_hours": 30.62,
+        "avg_speed_kmh": 4.8,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "intermodal",
+      "dg_likely": true,
+      "correlated_at": "2026-09-04T20:32:33.055711Z",
       "confidence": "medium"
     },
     {
@@ -397,7 +397,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-04T10:21:41.734705Z",
+      "correlated_at": "2026-09-04T20:32:33.055908Z",
       "confidence": "medium"
     },
     {
@@ -447,54 +447,9 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-04T10:21:41.734247Z",
+      "correlated_at": "2026-09-04T20:32:33.055525Z",
       "confidence": "low",
       "split_suspected": true
-    },
-    {
-      "symbol": "Z112",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brampton",
-        "date": "2026-09-03",
-        "observed_at": "2026-09-03T12:35",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=W27SI6hd8No",
-        "title": "SD75IACC LEAD! CN 8342 at West Franklin, ON (SEP 3, 2026)"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-09-03",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=3I90DFPsT0o",
-        "title": "CN 8342 SD75IACC leads CN Z112 south"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 4.49,
-        "avg_speed_kmh": 7.0,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734000Z",
-      "confidence": "low"
     },
     {
       "symbol": "CN61",
@@ -538,7 +493,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734123Z",
+      "correlated_at": "2026-09-04T20:32:33.055232Z",
       "confidence": "low"
     },
     {
@@ -588,7 +543,52 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734139Z",
+      "correlated_at": "2026-09-04T20:32:33.055259Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Z112",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brampton",
+        "date": "2026-09-03",
+        "observed_at": "2026-09-03T12:35",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=W27SI6hd8No",
+        "title": "SD75IACC LEAD! CN 8342 at West Franklin, ON (SEP 3, 2026)"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-09-03",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=3I90DFPsT0o",
+        "title": "CN 8342 SD75IACC leads CN Z112 south"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 4.49,
+        "avg_speed_kmh": 7.0,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-09-04T20:32:33.055404Z",
       "confidence": "low"
     },
     {
@@ -638,7 +638,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-04T10:21:41.734261Z",
+      "correlated_at": "2026-09-04T20:32:33.055539Z",
       "confidence": "low"
     },
     {
@@ -688,7 +688,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734329Z",
+      "correlated_at": "2026-09-04T20:32:33.055610Z",
       "confidence": "low"
     },
     {
@@ -738,7 +738,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734342Z",
+      "correlated_at": "2026-09-04T20:32:33.055622Z",
       "confidence": "low"
     },
     {
@@ -788,7 +788,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734355Z",
+      "correlated_at": "2026-09-04T20:32:33.055641Z",
       "confidence": "low"
     },
     {
@@ -838,7 +838,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734366Z",
+      "correlated_at": "2026-09-04T20:32:33.055651Z",
       "confidence": "low"
     },
     {
@@ -888,7 +888,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734376Z",
+      "correlated_at": "2026-09-04T20:32:33.055659Z",
       "confidence": "low"
     },
     {
@@ -938,7 +938,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734385Z",
+      "correlated_at": "2026-09-04T20:32:33.055669Z",
       "confidence": "low"
     },
     {
@@ -988,7 +988,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734394Z",
+      "correlated_at": "2026-09-04T20:32:33.055680Z",
       "confidence": "low"
     },
     {
@@ -1033,7 +1033,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734623Z",
+      "correlated_at": "2026-09-04T20:32:33.055825Z",
       "confidence": "low"
     },
     {
@@ -1078,7 +1078,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734651Z",
+      "correlated_at": "2026-09-04T20:32:33.055851Z",
       "confidence": "low"
     },
     {
@@ -1123,7 +1123,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734757Z",
+      "correlated_at": "2026-09-04T20:32:33.055958Z",
       "confidence": "medium"
     },
     {
@@ -1168,7 +1168,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734766Z",
+      "correlated_at": "2026-09-04T20:32:33.055970Z",
       "confidence": "medium"
     },
     {
@@ -1218,7 +1218,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734799Z",
+      "correlated_at": "2026-09-04T20:32:33.056005Z",
       "confidence": "low"
     },
     {
@@ -1263,7 +1263,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734880Z",
+      "correlated_at": "2026-09-04T20:32:33.056078Z",
       "confidence": "low"
     },
     {
@@ -1308,7 +1308,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734916Z",
+      "correlated_at": "2026-09-04T20:32:33.056118Z",
       "confidence": "low"
     },
     {
@@ -1353,7 +1353,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734924Z",
+      "correlated_at": "2026-09-04T20:32:33.056128Z",
       "confidence": "low"
     },
     {
@@ -1398,7 +1398,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734932Z",
+      "correlated_at": "2026-09-04T20:32:33.056136Z",
       "confidence": "low"
     },
     {
@@ -1443,7 +1443,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.734986Z",
+      "correlated_at": "2026-09-04T20:32:33.056189Z",
       "confidence": "low"
     },
     {
@@ -1488,7 +1488,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.735034Z",
+      "correlated_at": "2026-09-04T20:32:33.056241Z",
       "confidence": "low"
     },
     {
@@ -1533,7 +1533,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.735046Z",
+      "correlated_at": "2026-09-04T20:32:33.056250Z",
       "confidence": "low"
     },
     {
@@ -1578,7 +1578,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.735088Z",
+      "correlated_at": "2026-09-04T20:32:33.056296Z",
       "confidence": "low"
     },
     {
@@ -1623,7 +1623,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.735099Z",
+      "correlated_at": "2026-09-04T20:32:33.056307Z",
       "confidence": "low"
     },
     {
@@ -1668,7 +1668,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.735112Z",
+      "correlated_at": "2026-09-04T20:32:33.056318Z",
       "confidence": "low"
     },
     {
@@ -1713,7 +1713,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.735128Z",
+      "correlated_at": "2026-09-04T20:32:33.056332Z",
       "confidence": "low"
     },
     {
@@ -1758,7 +1758,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.735142Z",
+      "correlated_at": "2026-09-04T20:32:33.056343Z",
       "confidence": "low"
     },
     {
@@ -1803,7 +1803,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-04T10:21:41.735152Z",
+      "correlated_at": "2026-09-04T20:32:33.056356Z",
       "confidence": "low"
     }
   ]
