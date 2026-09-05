@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T20:32:32.965878Z",
+  "generated_at": "2026-09-05T09:49:14.247158Z",
   "dedup_registry": {
-    "total": 755,
+    "total": 761,
     "by_channel": {
       "Trackside Ontario": 53,
       "Trackside Tyson": 108,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 28,
       "Rail Fans Canada": 21,
       "Brockville RailFan": 278,
-      "MJM Productions": 191,
+      "MJM Productions": 197,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 186,
-      "medium": 504,
+      "medium": 510,
       "low": 65,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-28T00:00:00Z",
+  "since": "2026-08-29T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -34,7 +34,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 4
+      "skipped": 3
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,13 +63,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 6,
-      "skipped": 8,
-      "high": 3,
-      "medium": 3,
-      "low_meta": 0,
-      "dg_likely": 3,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -79,17 +74,17 @@
     {
       "channel": "PTBO Railfanning",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 4,
+      "videos": 6,
+      "skipped": 5,
       "high": 0,
-      "medium": 2,
+      "medium": 6,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 2
+      "defaulted": 4
     },
     {
       "channel": "Ontario Railman",
@@ -114,14 +109,228 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     }
   ],
-  "total": 755,
-  "new_this_run": 8,
+  "total": 761,
+  "new_this_run": 6,
   "high_confidence": 186,
   "dg_likely": 133,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "wzq9cMANorE",
+      "video_url": "https://www.youtube.com/watch?v=wzq9cMANorE",
+      "title": "CPKC 113 passes the pond at North Bala",
+      "published_at": "2026-09-05T01:50:33Z",
+      "date": "2026-09-05",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 113"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 113 passes the pond at North Bala",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "S1IOfSJxUg0",
+      "video_url": "https://www.youtube.com/watch?v=S1IOfSJxUg0",
+      "title": "TEC TRAIN! Railfanning around Mactier, ON (SEP 4, 2026)",
+      "published_at": "2026-09-05T01:40:12Z",
+      "date": "2026-09-04",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "TEC TRAIN! Railfanning around Mactier, ON (SEP 4, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "pyub14YWijY",
+      "video_url": "https://www.youtube.com/watch?v=pyub14YWijY",
+      "title": "CP 7605 leads CPKC 114 past Brignall",
+      "published_at": "2026-09-04T21:14:25Z",
+      "date": "2026-09-04",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7605",
+        "CPKC 114"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7605",
+          "raw": "CP 7605"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 114",
+          "raw": "CPKC 114"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7605 leads CPKC 114 past Brignall",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "TcUPHeb7bOQ",
+      "video_url": "https://www.youtube.com/watch?v=TcUPHeb7bOQ",
+      "title": "CP 7539 leads CPKC 103 into Mactier",
+      "published_at": "2026-09-04T21:06:56Z",
+      "date": "2026-09-04",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7539",
+        "CPKC 103"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7539",
+          "raw": "CP 7539"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 103",
+          "raw": "CPKC 103"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7539 leads CPKC 103 into Mactier",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "CANAbuWpEdI",
+      "video_url": "https://www.youtube.com/watch?v=CANAbuWpEdI",
+      "title": "CN 3409 leads CN Q107 past Mckechnie lake",
+      "published_at": "2026-09-04T20:35:33Z",
+      "date": "2026-09-04",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3409"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3409",
+          "raw": "CN 3409"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3409 leads CN Q107 past Mckechnie lake",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "-d3uFQV0NJ8",
+      "video_url": "https://www.youtube.com/watch?v=-d3uFQV0NJ8",
+      "title": "CP 2267 leads the TEC train on the PS sub",
+      "published_at": "2026-09-04T20:33:39Z",
+      "date": "2026-09-04",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 2267"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2267",
+          "raw": "CP 2267"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 2267 leads the TEC train on the PS sub",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

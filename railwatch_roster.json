@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T20:32:33.113753Z",
+  "generated_at": "2026-09-05T09:49:14.388700Z",
   "total_units": 381,
   "min_sightings": 2,
   "by_road": {
@@ -1625,6 +1625,94 @@
     },
     {
       "road": "CN",
+      "number": "2267",
+      "display": "CN 2267",
+      "sighting_count": 5,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 2267",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub",
+        "CN Oakville Sub"
+      ],
+      "trains_led": [
+        "Z148",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 2267",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=0Yi5qAChnSw",
+          "title": "CN 2267 + CN 8850 + CN 2654 lead CN 421",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-d3uFQV0NJ8",
+          "title": "CP 2267 leads the TEC train on the PS sub",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=baHq8dt1msY",
+          "title": "TEC TRAIN! CP 2267 at Palgrave, ON (AUG 24, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=uDnPvYf4jFE",
+          "title": "CP 2267 leads the TEC train past the pond",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2862",
       "display": "CN 2862",
       "sighting_count": 5,
@@ -2584,81 +2672,6 @@
           "video_url": "https://www.youtube.com/watch?v=yz_bKa4ppAY",
           "title": "CN Train 126 Eastbound August 12, 2026",
           "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "2267",
-      "display": "CN 2267",
-      "sighting_count": 4,
-      "first_seen": "2026-05-30",
-      "last_seen": "CN 2267",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub",
-        "CN Oakville Sub"
-      ],
-      "trains_led": [
-        "Z148",
-        "CN 421"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "CN 2267",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 421",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=0Yi5qAChnSw",
-          "title": "CN 2267 + CN 8850 + CN 2654 lead CN 421",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-24",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=baHq8dt1msY",
-          "title": "TEC TRAIN! CP 2267 at Palgrave, ON (AUG 24, 2026)",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-08-24",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=uDnPvYf4jFE",
-          "title": "CP 2267 leads the TEC train past the pond",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-05-30",
-          "location": "Aldershot",
-          "subdivision": "CN Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z148",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
-          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
-          "source": "text_extraction"
         }
       ]
     },
@@ -8849,6 +8862,67 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=1pVCnF-QVfY",
           "title": "Freshly new CP 7604 leads CPKC 2-114 south",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7605",
+      "display": "CN 7605",
+      "sighting_count": 3,
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-09-04",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 114",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 114",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=pyub14YWijY",
+          "title": "CP 7605 leads CPKC 114 past Brignall",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 114",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=KM3cI--6Byo",
+          "title": "CP 7605 leads CPKC 114 through Brignall",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
           "source": "symbol_extraction"
         }
       ]
@@ -16222,54 +16296,6 @@
     },
     {
       "road": "CN",
-      "number": "7605",
-      "display": "CN 7605",
-      "sighting_count": 2,
-      "first_seen": "2026-08-14",
-      "last_seen": "2026-09-04",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Mainline Manitoba"
-      ],
-      "trains_led": [
-        "CN 114",
-        "CN 118"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-04",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 114",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=KM3cI--6Byo",
-          "title": "CP 7605 leads CPKC 114 through Brignall",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-08-14",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 118",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
-          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "8018",
       "display": "CN 8018",
       "sighting_count": 2,
@@ -18228,6 +18254,64 @@
     },
     {
       "road": "CP",
+      "number": "2267",
+      "display": "CP 2267",
+      "sighting_count": 3,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-09-04",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-d3uFQV0NJ8",
+          "title": "CP 2267 leads the TEC train on the PS sub",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=baHq8dt1msY",
+          "title": "TEC TRAIN! CP 2267 at Palgrave, ON (AUG 24, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=uDnPvYf4jFE",
+          "title": "CP 2267 leads the TEC train past the pond",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "3055",
       "display": "CP 3055",
       "sighting_count": 3,
@@ -18894,6 +18978,67 @@
     },
     {
       "road": "CP",
+      "number": "7605",
+      "display": "CP 7605",
+      "sighting_count": 3,
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-09-04",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 114",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 114",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=pyub14YWijY",
+          "title": "CP 7605 leads CPKC 114 past Brignall",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 114",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=KM3cI--6Byo",
+          "title": "CP 7605 leads CPKC 114 through Brignall",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "8116",
       "display": "CP 8116",
       "sighting_count": 3,
@@ -19134,51 +19279,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
           "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "2267",
-      "display": "CP 2267",
-      "sighting_count": 2,
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-24",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=baHq8dt1msY",
-          "title": "TEC TRAIN! CP 2267 at Palgrave, ON (AUG 24, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-24",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=uDnPvYf4jFE",
-          "title": "CP 2267 leads the TEC train past the pond",
           "source": "text_extraction"
         }
       ]
@@ -20532,54 +20632,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=tfkrf55csZA",
           "title": "HERITAGE! Railfanning around Barrie, ON (JUN 14, 2026)",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "7605",
-      "display": "CP 7605",
-      "sighting_count": 2,
-      "first_seen": "2026-08-14",
-      "last_seen": "2026-09-04",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Mainline Manitoba"
-      ],
-      "trains_led": [
-        "CN 114",
-        "CN 118"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-04",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 114",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=KM3cI--6Byo",
-          "title": "CP 7605 leads CPKC 114 through Brignall",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-14",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 118",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
-          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
           "source": "text_extraction"
         }
       ]
