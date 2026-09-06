@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-06T10:05:29.727888Z",
+  "generated_at": "2026-09-06T20:12:47.381061Z",
   "dedup_registry": {
-    "total": 771,
+    "total": 774,
     "by_channel": {
-      "Trackside Ontario": 54,
-      "Trackside Tyson": 111,
+      "Trackside Ontario": 55,
+      "Trackside Tyson": 112,
       "Southern Ontario Railfan": 26,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 28,
       "Rail Fans Canada": 21,
       "Brockville RailFan": 278,
-      "MJM Productions": 202,
+      "MJM Productions": 203,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,8 +18,8 @@
     },
     "by_confidence": {
       "high": 187,
-      "medium": 517,
-      "low": 67,
+      "medium": 519,
+      "low": 68,
       "meta": 0
     }
   },
@@ -28,17 +28,22 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 3
+      "videos": 1,
+      "skipped": 3,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 4,
+      "skipped": 5,
       "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
       "defaulted": 0
     },
     {
@@ -84,9 +89,9 @@
     {
       "channel": "MJM Productions",
       "videos": 1,
-      "skipped": 15,
-      "high": 1,
-      "medium": 0,
+      "skipped": 16,
+      "high": 0,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 1
@@ -117,11 +122,109 @@
       "skipped": 2
     }
   ],
-  "total": 771,
-  "new_this_run": 2,
+  "total": 774,
+  "new_this_run": 3,
   "high_confidence": 187,
   "dg_likely": 134,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "isskFw4oiio",
+      "video_url": "https://www.youtube.com/watch?v=isskFw4oiio",
+      "title": "Tuesday Evening at Bayview \u2022 July 21, 2026",
+      "published_at": "2026-09-06T19:15:21Z",
+      "date": "2026-07-21",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Evening at Bayview \u2022 July 21, 2026",
+      "description_chars": 122,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "out-of-province",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "ck4z6kD4lZk",
+      "video_url": "https://www.youtube.com/watch?v=ck4z6kD4lZk",
+      "title": "EX CITIRAIL THRU FALL SCENERY #youtubeshorts",
+      "published_at": "2026-09-06T19:00:29Z",
+      "date": "2026-09-06",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "EX CITIRAIL THRU FALL SCENERY #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "iB2yH3hQ1to",
+      "video_url": "https://www.youtube.com/watch?v=iB2yH3hQ1to",
+      "title": "CP 8801 + CP 8719 lead CPKC 119 north",
+      "published_at": "2026-09-06T18:02:04Z",
+      "date": "2026-09-06",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8801",
+        "CP 8719",
+        "CPKC 119"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8801",
+          "raw": "CP 8801"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8719",
+          "raw": "CP 8719"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CPKC 119"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8801 + CP 8719 lead CPKC 119 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

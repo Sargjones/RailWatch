@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-06T10:05:29.848293Z",
-  "total_units": 383,
+  "generated_at": "2026-09-06T20:12:47.529683Z",
+  "total_units": 384,
   "min_sightings": 2,
   "by_road": {
     "CN": 307,
     "VIA": 3,
-    "CP": 71,
+    "CP": 72,
     "RUCK": 1,
     "AC": 1
   },
@@ -21093,6 +21093,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=TZUvxnUmYNo",
           "title": "EVERY CHILD MATTERS! CP 8757 at Midhurst, ON (JUL 16, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8801",
+      "display": "CP 8801",
+      "sighting_count": 2,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-09-06",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 119",
+        "CN 135"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-06",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 119",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=iB2yH3hQ1to",
+          "title": "CP 8801 + CP 8719 lead CPKC 119 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 135",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=otYSSSDpW9E",
+          "title": "CP 8747 + CP 8801 + CP 8645 lead CPKC 135",
           "source": "text_extraction"
         }
       ]
