@@ -1,55 +1,50 @@
 {
-  "generated_at": "2026-09-05T20:07:50.578788Z",
+  "generated_at": "2026-09-06T10:05:29.727888Z",
   "dedup_registry": {
-    "total": 769,
+    "total": 771,
     "by_channel": {
       "Trackside Ontario": 54,
-      "Trackside Tyson": 110,
+      "Trackside Tyson": 111,
       "Southern Ontario Railfan": 26,
       "Trackside Tristan": 10,
       "Scott Rails (Chasing The Money Shot)": 28,
       "Rail Fans Canada": 21,
       "Brockville RailFan": 278,
-      "MJM Productions": 201,
+      "MJM Productions": 202,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
       "The Cando Railfan": 5
     },
     "by_confidence": {
-      "high": 186,
-      "medium": 516,
+      "high": 187,
+      "medium": 517,
       "low": 67,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-29T00:00:00Z",
+  "since": "2026-08-30T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
+      "videos": 0,
+      "skipped": 3
+    },
+    {
+      "channel": "Trackside Tyson",
       "videos": 1,
       "skipped": 4,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
-    },
-    {
-      "channel": "Trackside Tyson",
-      "videos": 2,
-      "skipped": 3,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 2,
-      "dg_likely": 0,
+      "dg_likely": 1,
       "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
       "videos": 0,
-      "skipped": 3
+      "skipped": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -88,13 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 4,
-      "skipped": 11,
-      "high": 0,
-      "medium": 4,
+      "videos": 1,
+      "skipped": 15,
+      "high": 1,
+      "medium": 0,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 4
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -108,13 +103,8 @@
     },
     {
       "channel": "The Cando Railfan",
-      "videos": 1,
-      "skipped": 2,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "The Manitoba Railfan",
@@ -127,11 +117,63 @@
       "skipped": 2
     }
   ],
-  "total": 769,
-  "new_this_run": 8,
-  "high_confidence": 186,
-  "dg_likely": 133,
+  "total": 771,
+  "new_this_run": 2,
+  "high_confidence": 187,
+  "dg_likely": 134,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "pZsS6IKp17M",
+      "video_url": "https://www.youtube.com/watch?v=pZsS6IKp17M",
+      "title": "MIXED FREIGHT THRU THOMPSON CANYON #youtubeshorts",
+      "published_at": "2026-09-05T23:00:38Z",
+      "date": "2026-09-05",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "tank",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "MIXED FREIGHT THRU THOMPSON CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "hnKfPEX7050",
+      "video_url": "https://www.youtube.com/watch?v=hnKfPEX7050",
+      "title": "GRAIN TRAIN! Railfanning around Nobel, ON (SEP 5, 2026)",
+      "published_at": "2026-09-05T22:43:06Z",
+      "date": "2026-09-05",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "GRAIN TRAIN! Railfanning around Nobel, ON (SEP 5, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
