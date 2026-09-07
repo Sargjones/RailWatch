@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-07T11:19:36.489816Z",
-    "total_videos": 778
+    "updated_at": "2026-09-07T21:20:24.550246Z",
+    "total_videos": 787
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4672,6 +4672,60 @@
       "title": "CP 7600 south at mile 14 Parry Sound sub",
       "confidence": "medium",
       "processed_at": "2026-09-07T11:19:35.389145Z"
+    },
+    "6Rd6IcXdmPs": {
+      "channel": "Trackside Ontario",
+      "title": "Wildfire Smoke at Bayview \u2022 July 16, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-07T21:20:20.670232Z"
+    },
+    "wFXKun0k4Xk": {
+      "channel": "Trackside Tyson",
+      "title": "WEST COAST EXPRESS PASSENGER TRAINS OVER BRIDGE IN MAPLE RIDGE BC",
+      "confidence": "low",
+      "processed_at": "2026-09-07T21:20:20.997055Z"
+    },
+    "BrkTmKyZRDw": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound September 7, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-07T21:20:22.375395Z"
+    },
+    "u3OK8N6mau8": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound September 7, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-07T21:20:22.375602Z"
+    },
+    "zsVKXdCCtHA": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound September 7, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-07T21:20:22.375818Z"
+    },
+    "xkz6N3oSKJs": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Lifting September 7, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-07T21:20:22.376044Z"
+    },
+    "g5b6EP3CJFA": {
+      "channel": "MJM Productions",
+      "title": "CP 7531 + BNSF 4419 lead CPKC 113 north",
+      "confidence": "medium",
+      "processed_at": "2026-09-07T21:20:23.149470Z"
+    },
+    "i1A9s6I-Ft0": {
+      "channel": "MJM Productions",
+      "title": "CP 7511 leads CPKC 100 south",
+      "confidence": "medium",
+      "processed_at": "2026-09-07T21:20:23.149668Z"
+    },
+    "EKKPu0dWZ9E": {
+      "channel": "MJM Productions",
+      "title": "THE NORTH! Railfanning at Parry Sound, ON (SEP 6, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-09-07T21:20:23.150635Z"
     }
   }
 }

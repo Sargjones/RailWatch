@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T11:19:36.589447Z",
-  "total": 33,
+  "generated_at": "2026-09-07T21:20:24.652526Z",
+  "total": 36,
   "cross_observer": 3,
-  "chase": 30,
+  "chase": 33,
   "high": 0,
   "medium": 5,
   "dg_correlations": 5,
@@ -256,6 +256,51 @@
   ],
   "correlations": [
     {
+      "symbol": "CN100",
+      "tier": "cross_observer",
+      "sighting_a": {
+        "location": "MacTier",
+        "date": "2026-08-26",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": "South",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=5aXBZqt3xVk",
+        "title": "Chasing CP 9804 AC4400CW south on the Mactier sub (AUG 26, 2"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-08-22",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "Central Canada Railfan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+        "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee"
+      },
+      "transit": {
+        "distance_km": 147.8,
+        "elapsed_hours": 30.62,
+        "avg_speed_kmh": 4.8,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "intermodal",
+      "dg_likely": true,
+      "correlated_at": "2026-09-07T21:20:24.651178Z",
+      "confidence": "medium"
+    },
+    {
       "symbol": "CN731",
       "tier": "cross_observer",
       "sighting_a": {
@@ -302,52 +347,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-07T11:19:36.588393Z",
-      "confidence": "medium"
-    },
-    {
-      "symbol": "CN100",
-      "tier": "cross_observer",
-      "sighting_a": {
-        "location": "MacTier",
-        "date": "2026-08-26",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": "South",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=5aXBZqt3xVk",
-        "title": "Chasing CP 9804 AC4400CW south on the Mactier sub (AUG 26, 2"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-08-22",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "Central Canada Railfan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
-        "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee"
-      },
-      "transit": {
-        "distance_km": 147.8,
-        "elapsed_hours": 30.62,
-        "avg_speed_kmh": 4.8,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": false,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "intermodal",
-      "dg_likely": true,
-      "correlated_at": "2026-09-07T11:19:36.588747Z",
+      "correlated_at": "2026-09-07T21:20:24.651727Z",
       "confidence": "medium"
     },
     {
@@ -397,7 +397,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-07T11:19:36.588939Z",
+      "correlated_at": "2026-09-07T21:20:24.651979Z",
       "confidence": "medium"
     },
     {
@@ -447,99 +447,9 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-07T11:19:36.588563Z",
+      "correlated_at": "2026-09-07T21:20:24.651393Z",
       "confidence": "low",
       "split_suspected": true
-    },
-    {
-      "symbol": "Q107",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "IC 2719",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
-        "title": "IC 2719 + CN 2222 lead CN Q107 north"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-05-31",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
-        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 8.69,
-        "avg_speed_kmh": 3.6,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588104Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Z112",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brampton",
-        "date": "2026-09-03",
-        "observed_at": "2026-09-03T12:35",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=W27SI6hd8No",
-        "title": "SD75IACC LEAD! CN 8342 at West Franklin, ON (SEP 3, 2026)"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-09-03",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=3I90DFPsT0o",
-        "title": "CN 8342 SD75IACC leads CN Z112 south"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 4.49,
-        "avg_speed_kmh": 7.0,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588163Z",
-      "confidence": "low"
     },
     {
       "symbol": "CN113",
@@ -583,7 +493,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588210Z",
+      "correlated_at": "2026-09-07T21:20:24.651113Z",
       "confidence": "medium"
     },
     {
@@ -628,7 +538,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588228Z",
+      "correlated_at": "2026-09-07T21:20:24.651143Z",
       "confidence": "medium"
     },
     {
@@ -673,7 +583,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588346Z",
+      "correlated_at": "2026-09-07T21:20:24.651291Z",
       "confidence": "low"
     },
     {
@@ -723,7 +633,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588360Z",
+      "correlated_at": "2026-09-07T21:20:24.651305Z",
       "confidence": "low"
     },
     {
@@ -773,7 +683,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-07T11:19:36.588577Z",
+      "correlated_at": "2026-09-07T21:20:24.651407Z",
       "confidence": "low"
     },
     {
@@ -823,7 +733,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588644Z",
+      "correlated_at": "2026-09-07T21:20:24.651478Z",
       "confidence": "low"
     },
     {
@@ -873,7 +783,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588654Z",
+      "correlated_at": "2026-09-07T21:20:24.651488Z",
       "confidence": "low"
     },
     {
@@ -923,7 +833,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588664Z",
+      "correlated_at": "2026-09-07T21:20:24.651497Z",
       "confidence": "low"
     },
     {
@@ -973,7 +883,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588677Z",
+      "correlated_at": "2026-09-07T21:20:24.651508Z",
       "confidence": "low"
     },
     {
@@ -1023,7 +933,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588685Z",
+      "correlated_at": "2026-09-07T21:20:24.651520Z",
       "confidence": "low"
     },
     {
@@ -1073,7 +983,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588695Z",
+      "correlated_at": "2026-09-07T21:20:24.651531Z",
       "confidence": "low"
     },
     {
@@ -1123,7 +1033,52 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588705Z",
+      "correlated_at": "2026-09-07T21:20:24.651540Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN119",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-09-06",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=iB2yH3hQ1to",
+        "title": "CP 8801 + CP 8719 lead CPKC 119 north"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-09-06",
+        "observed_at": "2026-09-06T1:18",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=EKKPu0dWZ9E",
+        "title": "THE NORTH! Railfanning at Parry Sound, ON (SEP 6, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 17.67,
+        "avg_speed_kmh": 1.8,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-09-07T21:20:24.651574Z",
       "confidence": "low"
     },
     {
@@ -1168,7 +1123,187 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588862Z",
+      "correlated_at": "2026-09-07T21:20:24.651610Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q107",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "IC 2719",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
+        "title": "IC 2719 + CN 2222 lead CN Q107 north"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-05-31",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 8.69,
+        "avg_speed_kmh": 3.6,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-09-07T21:20:24.651641Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q107",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-09-06",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=x_e7nE2agBY",
+        "title": "CN 2817 leads CN Q107 by Dock Siding"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-09-06",
+        "observed_at": "2026-09-06T1:18",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=EKKPu0dWZ9E",
+        "title": "THE NORTH! Railfanning at Parry Sound, ON (SEP 6, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 13.23,
+        "avg_speed_kmh": 2.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-09-07T21:20:24.651653Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "P0001",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-09-06",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=5t2MZnazB8A",
+        "title": "VIA P0001 winding through Dock Siding"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-09-06",
+        "observed_at": "2026-09-06T1:18",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=EKKPu0dWZ9E",
+        "title": "THE NORTH! Railfanning at Parry Sound, ON (SEP 6, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 13.17,
+        "avg_speed_kmh": 2.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-09-07T21:20:24.651667Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Z112",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brampton",
+        "date": "2026-09-03",
+        "observed_at": "2026-09-03T12:35",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=W27SI6hd8No",
+        "title": "SD75IACC LEAD! CN 8342 at West Franklin, ON (SEP 3, 2026)"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-09-03",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=3I90DFPsT0o",
+        "title": "CN 8342 SD75IACC leads CN Z112 south"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 4.49,
+        "avg_speed_kmh": 7.0,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-09-07T21:20:24.651686Z",
       "confidence": "low"
     },
     {
@@ -1218,7 +1353,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.588997Z",
+      "correlated_at": "2026-09-07T21:20:24.652039Z",
       "confidence": "low"
     },
     {
@@ -1263,7 +1398,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589071Z",
+      "correlated_at": "2026-09-07T21:20:24.652112Z",
       "confidence": "low"
     },
     {
@@ -1308,7 +1443,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589111Z",
+      "correlated_at": "2026-09-07T21:20:24.652157Z",
       "confidence": "low"
     },
     {
@@ -1353,7 +1488,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589123Z",
+      "correlated_at": "2026-09-07T21:20:24.652167Z",
       "confidence": "low"
     },
     {
@@ -1398,7 +1533,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589132Z",
+      "correlated_at": "2026-09-07T21:20:24.652182Z",
       "confidence": "low"
     },
     {
@@ -1443,7 +1578,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589188Z",
+      "correlated_at": "2026-09-07T21:20:24.652242Z",
       "confidence": "low"
     },
     {
@@ -1488,7 +1623,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589239Z",
+      "correlated_at": "2026-09-07T21:20:24.652294Z",
       "confidence": "low"
     },
     {
@@ -1533,7 +1668,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589252Z",
+      "correlated_at": "2026-09-07T21:20:24.652305Z",
       "confidence": "low"
     },
     {
@@ -1578,7 +1713,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589301Z",
+      "correlated_at": "2026-09-07T21:20:24.652349Z",
       "confidence": "low"
     },
     {
@@ -1623,7 +1758,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589316Z",
+      "correlated_at": "2026-09-07T21:20:24.652393Z",
       "confidence": "low"
     },
     {
@@ -1668,7 +1803,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589328Z",
+      "correlated_at": "2026-09-07T21:20:24.652407Z",
       "confidence": "low"
     },
     {
@@ -1713,7 +1848,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589343Z",
+      "correlated_at": "2026-09-07T21:20:24.652423Z",
       "confidence": "low"
     },
     {
@@ -1758,7 +1893,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589355Z",
+      "correlated_at": "2026-09-07T21:20:24.652438Z",
       "confidence": "low"
     },
     {
@@ -1803,7 +1938,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-07T11:19:36.589368Z",
+      "correlated_at": "2026-09-07T21:20:24.652450Z",
       "confidence": "low"
     }
   ]
