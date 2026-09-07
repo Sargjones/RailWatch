@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-06T20:12:47.381061Z",
+  "generated_at": "2026-09-07T11:19:36.501020Z",
   "dedup_registry": {
-    "total": 774,
+    "total": 778,
     "by_channel": {
       "Trackside Ontario": 55,
       "Trackside Tyson": 112,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 28,
       "Rail Fans Canada": 21,
       "Brockville RailFan": 278,
-      "MJM Productions": 203,
+      "MJM Productions": 207,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,33 +18,23 @@
     },
     "by_confidence": {
       "high": 187,
-      "medium": 519,
+      "medium": 523,
       "low": 68,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-08-30T00:00:00Z",
+  "since": "2026-08-31T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 5,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -74,7 +64,7 @@
     {
       "channel": "Brockville RailFan",
       "videos": 0,
-      "skipped": 14
+      "skipped": 13
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,13 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 16,
+      "videos": 4,
+      "skipped": 17,
       "high": 0,
-      "medium": 1,
+      "medium": 4,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -119,14 +109,160 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     }
   ],
-  "total": 774,
-  "new_this_run": 3,
+  "total": 778,
+  "new_this_run": 4,
   "high_confidence": 187,
   "dg_likely": 134,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Z0HMbkVIpSE",
+      "video_url": "https://www.youtube.com/watch?v=Z0HMbkVIpSE",
+      "title": "CP 3042 + CP 4522 lead CPKC H17 north",
+      "published_at": "2026-09-06T22:42:20Z",
+      "date": "2026-09-06",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3042",
+        "CP 4522"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3042",
+          "raw": "CP 3042"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 4522",
+          "raw": "CP 4522"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 3042 + CP 4522 lead CPKC H17 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "5t2MZnazB8A",
+      "video_url": "https://www.youtube.com/watch?v=5t2MZnazB8A",
+      "title": "VIA P0001 winding through Dock Siding",
+      "published_at": "2026-09-06T22:32:10Z",
+      "date": "2026-09-06",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "P0001",
+          "raw": "P0001"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA P0001 winding through Dock Siding",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "x_e7nE2agBY",
+      "video_url": "https://www.youtube.com/watch?v=x_e7nE2agBY",
+      "title": "CN 2817 leads CN Q107 by Dock Siding",
+      "published_at": "2026-09-06T22:28:26Z",
+      "date": "2026-09-06",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2817"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2817",
+          "raw": "CN 2817"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2817 leads CN Q107 by Dock Siding",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "3FT0a3MmfZ4",
+      "video_url": "https://www.youtube.com/watch?v=3FT0a3MmfZ4",
+      "title": "CP 7600 south at mile 14 Parry Sound sub",
+      "published_at": "2026-09-06T22:23:46Z",
+      "date": "2026-09-06",
+      "location": "Parry Sound",
+      "subdivision": "CN Bala Sub",
+      "lat": 45.35,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7600"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7600",
+          "raw": "CP 7600"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7600 south at mile 14 Parry Sound sub",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

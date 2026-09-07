@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-06T20:12:47.369722Z",
-    "total_videos": 774
+    "updated_at": "2026-09-07T11:19:36.489816Z",
+    "total_videos": 778
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4648,6 +4648,30 @@
       "title": "CP 8801 + CP 8719 lead CPKC 119 north",
       "confidence": "medium",
       "processed_at": "2026-09-06T20:12:46.274921Z"
+    },
+    "Z0HMbkVIpSE": {
+      "channel": "MJM Productions",
+      "title": "CP 3042 + CP 4522 lead CPKC H17 north",
+      "confidence": "medium",
+      "processed_at": "2026-09-07T11:19:35.388667Z"
+    },
+    "5t2MZnazB8A": {
+      "channel": "MJM Productions",
+      "title": "VIA P0001 winding through Dock Siding",
+      "confidence": "medium",
+      "processed_at": "2026-09-07T11:19:35.388772Z"
+    },
+    "x_e7nE2agBY": {
+      "channel": "MJM Productions",
+      "title": "CN 2817 leads CN Q107 by Dock Siding",
+      "confidence": "medium",
+      "processed_at": "2026-09-07T11:19:35.388989Z"
+    },
+    "3FT0a3MmfZ4": {
+      "channel": "MJM Productions",
+      "title": "CP 7600 south at mile 14 Parry Sound sub",
+      "confidence": "medium",
+      "processed_at": "2026-09-07T11:19:35.389145Z"
     }
   }
 }
