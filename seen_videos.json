@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-08T10:25:45.668743Z",
-    "total_videos": 792
+    "updated_at": "2026-09-08T20:55:32.267820Z",
+    "total_videos": 797
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4756,6 +4756,36 @@
       "title": "CP 8937 + KCS 4040 lead CPKC 118 south",
       "confidence": "medium",
       "processed_at": "2026-09-08T10:25:44.617261Z"
+    },
+    "ZgdJKTprWRc": {
+      "channel": "Trackside Ontario",
+      "title": "Tuesday Morning at Bayview \u2022 September 8, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-08T20:55:28.065479Z"
+    },
+    "9xamKs-Z_zo": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound September 8, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-08T20:55:30.224738Z"
+    },
+    "kOP1L1gdElw": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Eastbound September 8, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-08T20:55:30.224871Z"
+    },
+    "y6cyMe4SRKY": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 126 Eastbound September 8, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-08T20:55:30.224991Z"
+    },
+    "5qCZnT2cyzU": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Setting Off September 8, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-08T20:55:30.225123Z"
     }
   }
 }
