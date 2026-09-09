@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-09T10:35:39.411939Z",
-  "total_units": 400,
+  "generated_at": "2026-09-09T20:44:02.993459Z",
+  "total_units": 401,
   "min_sightings": 2,
   "by_road": {
-    "CN": 319,
+    "CN": 320,
     "VIA": 3,
     "CP": 76,
     "RUCK": 1,
@@ -12769,6 +12769,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=SLbCPLpxv0M",
           "title": "CN Train 377 Westbound July 30, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3030",
+      "display": "CN 3030",
+      "sighting_count": 2,
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-09",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "L596"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "L596",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=9zOpEAaOxC4",
+          "title": "CN Train L596 Eastbound September 9, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "L596",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=9zOpEAaOxC4",
+          "title": "CN Train L596 Eastbound September 9, 2026",
           "source": "description_structured"
         }
       ]
