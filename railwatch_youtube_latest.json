@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T20:55:32.317665Z",
+  "generated_at": "2026-09-09T10:35:39.264298Z",
   "dedup_registry": {
     "total": 797,
     "by_channel": {
@@ -24,17 +24,12 @@
     }
   },
   "days_back": 7,
-  "since": "2026-09-01T00:00:00Z",
+  "since": "2026-09-02T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
@@ -68,13 +63,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 4,
-      "skipped": 17,
-      "high": 3,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 18
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -104,7 +94,7 @@
     {
       "channel": "The Cando Railfan",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "The Manitoba Railfan",
@@ -118,7 +108,7 @@
     }
   ],
   "total": 797,
-  "new_this_run": 5,
+  "new_this_run": 0,
   "high_confidence": 193,
   "dg_likely": 138,
   "observations": [
