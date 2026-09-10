@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-10T10:23:42.705869Z",
-  "total_units": 401,
+  "generated_at": "2026-09-10T20:38:53.269987Z",
+  "total_units": 403,
   "min_sightings": 2,
   "by_road": {
-    "CN": 320,
+    "CN": 322,
     "VIA": 3,
     "CP": 76,
     "RUCK": 1,
@@ -10227,6 +10227,100 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=t04Q4pUFTn4",
           "title": "CN Train 276 Eastbound July 16, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2236",
+      "display": "CN 2236",
+      "sighting_count": 2,
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-10",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 126"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-10",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=g98DDHYKmSI",
+          "title": "CN Train 126 Eastbound September 10, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-10",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=g98DDHYKmSI",
+          "title": "CN Train 126 Eastbound September 10, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2237",
+      "display": "CN 2237",
+      "sighting_count": 2,
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-10",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 126"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-10",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=g98DDHYKmSI",
+          "title": "CN Train 126 Eastbound September 10, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-10",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=g98DDHYKmSI",
+          "title": "CN Train 126 Eastbound September 10, 2026",
           "source": "description_structured"
         }
       ]

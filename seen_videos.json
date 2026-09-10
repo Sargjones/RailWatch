@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-10T10:23:42.542427Z",
-    "total_videos": 800
+    "updated_at": "2026-09-10T20:38:53.128577Z",
+    "total_videos": 801
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4804,6 +4804,12 @@
       "title": "Ex-BN SD60M Leading CN 532 South on Letellier Subdivision",
       "confidence": "medium",
       "processed_at": "2026-09-09T20:44:02.411278Z"
+    },
+    "g98DDHYKmSI": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 126 Eastbound September 10, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-10T20:38:51.055603Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-10T10:23:42.554573Z",
+  "generated_at": "2026-09-10T20:38:53.139497Z",
   "dedup_registry": {
-    "total": 800,
+    "total": 801,
     "by_channel": {
       "Trackside Ontario": 57,
       "Trackside Tyson": 114,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 28,
       "Rail Fans Canada": 22,
-      "Brockville RailFan": 287,
+      "Brockville RailFan": 288,
       "MJM Productions": 212,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
@@ -17,7 +17,7 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 194,
+      "high": 195,
       "medium": 537,
       "low": 69,
       "meta": 0
@@ -63,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 16
+      "videos": 1,
+      "skipped": 16,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -107,11 +112,76 @@
       "skipped": 1
     }
   ],
-  "total": 800,
-  "new_this_run": 0,
-  "high_confidence": 194,
+  "total": 801,
+  "new_this_run": 1,
+  "high_confidence": 195,
   "dg_likely": 139,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "g98DDHYKmSI",
+      "video_url": "https://www.youtube.com/watch?v=g98DDHYKmSI",
+      "title": "CN Train 126 Eastbound September 10, 2026",
+      "published_at": "2026-09-10T13:26:41Z",
+      "date": "2026-09-10",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2237",
+        "CN 2236"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 126",
+          "raw": "CN Train 126"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2237",
+          "raw": "CN 2237"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2236",
+          "raw": "CN 2236"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 126 Eastbound September 10, 2026",
+      "description_chars": 277,
+      "consist": {
+        "engines": [
+          "CN 2237",
+          "CN 2236"
+        ],
+        "car_count": 160,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 66,
+        "speed_raw": "41 mph",
+        "detector_milepost": 137,
+        "observed_time": "07:40",
+        "observed_tz": "EDT",
+        "temperature_c": 18,
+        "origin": "Edmonton Intermodal Terminal (MIT) AB",
+        "destination": "Montreal Intermodal QC"
+      },
+      "observed_at": "2026-09-10T07:40-04:00",
+      "origin": "Edmonton Intermodal Terminal (MIT) AB",
+      "destination": "Montreal Intermodal QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
