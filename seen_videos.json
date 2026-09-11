@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-10T20:38:53.128577Z",
-    "total_videos": 801
+    "updated_at": "2026-09-11T10:25:33.481749Z",
+    "total_videos": 804
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -4810,6 +4810,24 @@
       "title": "CN Train 126 Eastbound September 10, 2026",
       "confidence": "high",
       "processed_at": "2026-09-10T20:38:51.055603Z"
+    },
+    "ph3wwlgl-ZY": {
+      "channel": "Trackside Ontario",
+      "title": "Rainy Day Trains at Bayview \u2022 September 9, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-11T10:25:30.223827Z"
+    },
+    "-_sHvWrgttE": {
+      "channel": "MJM Productions",
+      "title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-09-11T10:25:32.402257Z"
+    },
+    "JscciXab_bA": {
+      "channel": "MJM Productions",
+      "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
+      "confidence": "medium",
+      "processed_at": "2026-09-11T10:25:32.404910Z"
     }
   }
 }

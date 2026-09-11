@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-10T20:38:53.139497Z",
+  "generated_at": "2026-09-11T10:25:33.493430Z",
   "dedup_registry": {
-    "total": 801,
+    "total": 804,
     "by_channel": {
-      "Trackside Ontario": 57,
+      "Trackside Ontario": 58,
       "Trackside Tyson": 114,
       "Southern Ontario Railfan": 26,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 28,
       "Rail Fans Canada": 22,
       "Brockville RailFan": 288,
-      "MJM Productions": 212,
+      "MJM Productions": 214,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,18 +18,23 @@
     },
     "by_confidence": {
       "high": 195,
-      "medium": 537,
+      "medium": 540,
       "low": 69,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-03T00:00:00Z",
+  "since": "2026-09-04T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
@@ -63,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 1,
-      "skipped": 16,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 26
+      "videos": 2,
+      "skipped": 22,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -99,7 +104,7 @@
     {
       "channel": "The Cando Railfan",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "The Manitoba Railfan",
@@ -112,11 +117,130 @@
       "skipped": 1
     }
   ],
-  "total": 801,
-  "new_this_run": 1,
+  "total": 804,
+  "new_this_run": 3,
   "high_confidence": 195,
   "dg_likely": 139,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "ph3wwlgl-ZY",
+      "video_url": "https://www.youtube.com/watch?v=ph3wwlgl-ZY",
+      "title": "Rainy Day Trains at Bayview \u2022 September 9, 2026",
+      "published_at": "2026-09-11T02:37:28Z",
+      "date": "2026-09-09",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Rainy Day Trains at Bayview \u2022 September 9, 2026",
+      "description_chars": 126,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "-_sHvWrgttE",
+      "video_url": "https://www.youtube.com/watch?v=-_sHvWrgttE",
+      "title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
+      "published_at": "2026-09-10T23:04:57Z",
+      "date": "2026-09-10",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3023",
+        "CP 4427"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3023",
+          "raw": "CP 3023"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4427",
+          "raw": "CP 4427"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 4427",
+          "raw": "CP 4427"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
+      "description_chars": 416,
+      "consist": {
+        "observed_time": "5:31",
+        "observed_tz": "LOCAL",
+        "consist_anomaly": "hat many empties to pick up in Toronto and ended up being on duty around 2 pm. \n\nLocation: Caledon, ON\nTime"
+      },
+      "observed_at": "2026-09-10T5:31",
+      "consist_anomaly": "hat many empties to pick up in Toronto and ended up being on duty around 2 pm. \n\nLocation: Caledon, ON\nTime",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "JscciXab_bA",
+      "video_url": "https://www.youtube.com/watch?v=JscciXab_bA",
+      "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
+      "published_at": "2026-09-10T21:42:02Z",
+      "date": "2026-09-10",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3023",
+        "CP 4427"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3023",
+          "raw": "CP 3023"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 4427",
+          "raw": "CP 4427"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
