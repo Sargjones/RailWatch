@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-12T09:55:40.755834Z",
-  "total_units": 410,
+  "generated_at": "2026-09-12T20:21:55.015341Z",
+  "total_units": 412,
   "min_sightings": 2,
   "by_road": {
-    "CN": 327,
+    "CN": 328,
     "VIA": 3,
-    "CP": 78,
+    "CP": 79,
     "RUCK": 1,
     "AC": 1
   },
@@ -10101,6 +10101,66 @@
     },
     {
       "road": "CN",
+      "number": "8621",
+      "display": "CN 8621",
+      "sighting_count": 3,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-09-12",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 132"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=gxnQK03bXnk",
+          "title": "CP 8621 + KCSM 4914 rip through Milton",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 132",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
+          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=e0OdcxnKlU0",
+          "title": "CP 8621 + CP 8637 lead CPKC H19 east",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "8816",
       "display": "CN 8816",
       "sighting_count": 3,
@@ -17206,6 +17266,53 @@
     },
     {
       "road": "CN",
+      "number": "7511",
+      "display": "CN 7511",
+      "sighting_count": 2,
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-12",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 135",
+        "CN 100"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 135",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Rsjms8NoObo",
+          "title": "CP 7511 + CP 7586 lead CPKC 135 west",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 100",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=i1A9s6I-Ft0",
+          "title": "CP 7511 leads CPKC 100 south",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7528",
       "display": "CN 7528",
       "sighting_count": 2,
@@ -18140,53 +18247,6 @@
           "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
           "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
           "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "8621",
-      "display": "CN 8621",
-      "sighting_count": 2,
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-07-21",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 132"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-21",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 132",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
-          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-07-21",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=e0OdcxnKlU0",
-          "title": "CP 8621 + CP 8637 lead CPKC H19 east",
-          "source": "symbol_extraction"
         }
       ]
     },
@@ -20311,6 +20371,68 @@
     },
     {
       "road": "CP",
+      "number": "7511",
+      "display": "CP 7511",
+      "sighting_count": 3,
+      "first_seen": "2026-06-03",
+      "last_seen": "2026-09-12",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 135",
+        "CN 100",
+        "CN 112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 135",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Rsjms8NoObo",
+          "title": "CP 7511 + CP 7586 lead CPKC 135 west",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 100",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=i1A9s6I-Ft0",
+          "title": "CP 7511 leads CPKC 100 south",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
+          "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "7556",
       "display": "CP 7556",
       "sighting_count": 3,
@@ -20550,6 +20672,66 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
           "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8621",
+      "display": "CP 8621",
+      "sighting_count": 3,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-09-12",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 132"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=gxnQK03bXnk",
+          "title": "CP 8621 + KCSM 4914 rip through Milton",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 132",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
+          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=e0OdcxnKlU0",
+          "title": "CP 8621 + CP 8637 lead CPKC H19 east",
           "source": "text_extraction"
         }
       ]
@@ -21864,54 +22046,6 @@
     },
     {
       "road": "CP",
-      "number": "7511",
-      "display": "CP 7511",
-      "sighting_count": 2,
-      "first_seen": "2026-06-03",
-      "last_seen": "2026-09-07",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 100",
-        "CN 112"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 100",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=i1A9s6I-Ft0",
-          "title": "CP 7511 leads CPKC 100 south",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-03",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
-          "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
       "number": "7529",
       "display": "CP 7529",
       "sighting_count": 2,
@@ -22244,6 +22378,54 @@
     },
     {
       "road": "CP",
+      "number": "7586",
+      "display": "CP 7586",
+      "sighting_count": 2,
+      "first_seen": "2026-08-09",
+      "last_seen": "2026-09-12",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 135",
+        "CN 112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 135",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Rsjms8NoObo",
+          "title": "CP 7511 + CP 7586 lead CPKC 135 west",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=KIrSGnCh8wE",
+          "title": "Early morning trains pass through Palgrave, ON (AUG 9, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "7600",
       "display": "CP 7600",
       "sighting_count": 2,
@@ -22520,53 +22702,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=TjB64nk67H8",
           "title": "CP 8160 + CP 8751 + CP 2311 lead CPKC 135",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "8621",
-      "display": "CP 8621",
-      "sighting_count": 2,
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-07-21",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 132"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-21",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 132",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
-          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-21",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=e0OdcxnKlU0",
-          "title": "CP 8621 + CP 8637 lead CPKC H19 east",
           "source": "text_extraction"
         }
       ]
