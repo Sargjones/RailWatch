@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T10:55:52.593227Z",
+  "generated_at": "2026-09-13T20:32:31.360996Z",
   "total_units": 412,
   "min_sightings": 2,
   "by_road": {
@@ -10222,6 +10222,68 @@
     },
     {
       "road": "CN",
+      "number": "8832",
+      "display": "CN 8832",
+      "sighting_count": 3,
+      "first_seen": "2026-09-02",
+      "last_seen": "2026-09-13",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 119",
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 119",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lUG6_hLFOss",
+          "title": "CP 8832 solo leads CPKC 119 thru Palgrave",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-02",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=1hO9FtfPX90",
+          "title": "CN Train 368 Eastbound September 2, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-02",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=1hO9FtfPX90",
+          "title": "CN Train 368 Eastbound September 2, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "8877",
       "display": "CN 8877",
       "sighting_count": 3,
@@ -18480,53 +18542,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=I2BMKTfmLx4",
           "title": "CN Train 322 Eastbound July 9, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "8832",
-      "display": "CN 8832",
-      "sighting_count": 2,
-      "first_seen": "2026-09-02",
-      "last_seen": "2026-09-02",
-      "corridors": [
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 368"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-02",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=1hO9FtfPX90",
-          "title": "CN Train 368 Eastbound September 2, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-09-02",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=1hO9FtfPX90",
-          "title": "CN Train 368 Eastbound September 2, 2026",
           "source": "description_structured"
         }
       ]

@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-13T10:55:52.449687Z",
+  "generated_at": "2026-09-13T20:32:31.195756Z",
   "dedup_registry": {
-    "total": 814,
+    "total": 819,
     "by_channel": {
-      "Trackside Ontario": 58,
-      "Trackside Tyson": 116,
+      "Trackside Ontario": 59,
+      "Trackside Tyson": 117,
       "Southern Ontario Railfan": 26,
       "Trackside Tristan": 12,
-      "Scott Rails (Chasing The Money Shot)": 28,
+      "Scott Rails (Chasing The Money Shot)": 29,
       "Rail Fans Canada": 22,
       "Brockville RailFan": 291,
-      "MJM Productions": 219,
+      "MJM Productions": 221,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 198,
-      "medium": 547,
-      "low": 69,
+      "high": 199,
+      "medium": 550,
+      "low": 70,
       "meta": 0
     }
   },
@@ -28,13 +28,23 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -48,13 +58,13 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 0,
+      "videos": 1,
       "skipped": 0,
-      "high": 0,
+      "high": 1,
       "medium": 0,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 0
+      "defaulted": 1
     },
     {
       "channel": "Rail Fans Canada",
@@ -78,13 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 16,
+      "videos": 2,
+      "skipped": 17,
       "high": 0,
-      "medium": 1,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 0
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +122,169 @@
       "skipped": 0
     }
   ],
-  "total": 814,
-  "new_this_run": 1,
-  "high_confidence": 198,
+  "total": 819,
+  "new_this_run": 5,
+  "high_confidence": 199,
   "dg_likely": 141,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "UcE49U_iExs",
+      "video_url": "https://www.youtube.com/watch?v=UcE49U_iExs",
+      "title": "CANT BELIEVE WHAT I MISSED! TRAIN ACTION OVER HARRISON BRIDGE! ",
+      "published_at": "2026-09-13T18:00:06Z",
+      "date": "2026-09-13",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CANT BELIEVE WHAT I MISSED! TRAIN ACTION OVER HARRISON BRIDGE! ",
+      "description_chars": 436,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "pmnvgKl6aII",
+      "video_url": "https://www.youtube.com/watch?v=pmnvgKl6aII",
+      "title": "Tuesday Evening at Bayview \u2022 September 8, 2026",
+      "published_at": "2026-09-13T17:07:19Z",
+      "date": "2026-09-08",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Evening at Bayview \u2022 September 8, 2026",
+      "description_chars": 126,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "lUG6_hLFOss",
+      "video_url": "https://www.youtube.com/watch?v=lUG6_hLFOss",
+      "title": "CP 8832 solo leads CPKC 119 thru Palgrave",
+      "published_at": "2026-09-13T13:53:23Z",
+      "date": "2026-09-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8832",
+        "CPKC 119"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8832",
+          "raw": "CP 8832"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CPKC 119"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8832 solo leads CPKC 119 thru Palgrave",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "_DHKWcgnSnQ",
+      "video_url": "https://www.youtube.com/watch?v=_DHKWcgnSnQ",
+      "title": "CP 7488 + CP 9822 blast into the morning skies",
+      "published_at": "2026-09-13T12:46:50Z",
+      "date": "2026-09-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7488",
+        "CP 9822"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7488",
+          "raw": "CP 7488"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 9822",
+          "raw": "CP 9822"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7488 + CP 9822 blast into the morning skies",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Scott Rails (Chasing The Money Shot)",
+      "channel_id": "UCQUUHzkvfoCqcTKIn6cI9yw",
+      "video_id": "lMsNJyJkydE",
+      "video_url": "https://www.youtube.com/watch?v=lMsNJyJkydE",
+      "title": "Canadian Pacific Container Train Passing Through Field BC September 2026",
+      "published_at": "2026-09-13T11:35:47Z",
+      "date": "2026-09-13",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "Canadian Pacific Container Train Passing Through Field BC September 2026",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
