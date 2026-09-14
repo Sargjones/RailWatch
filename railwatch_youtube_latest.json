@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-14T11:29:29.201744Z",
+  "generated_at": "2026-09-14T21:39:52.780168Z",
   "dedup_registry": {
-    "total": 822,
+    "total": 827,
     "by_channel": {
       "Trackside Ontario": 59,
       "Trackside Tyson": 117,
-      "Southern Ontario Railfan": 26,
+      "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 29,
       "Rail Fans Canada": 22,
-      "Brockville RailFan": 291,
+      "Brockville RailFan": 293,
       "MJM Productions": 224,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 199,
-      "medium": 553,
+      "high": 201,
+      "medium": 556,
       "low": 70,
       "meta": 0
     }
@@ -38,8 +38,13 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 0
+      "videos": 3,
+      "skipped": 0,
+      "high": 0,
+      "medium": 3,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 3
     },
     {
       "channel": "Trackside Tristan",
@@ -63,8 +68,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 13
+      "videos": 2,
+      "skipped": 13,
+      "high": 2,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 3,
-      "skipped": 14,
-      "high": 0,
-      "medium": 3,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 17
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,206 @@
       "skipped": 0
     }
   ],
-  "total": 822,
-  "new_this_run": 3,
-  "high_confidence": 199,
-  "dg_likely": 141,
+  "total": 827,
+  "new_this_run": 5,
+  "high_confidence": 201,
+  "dg_likely": 142,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "x2oTm1efIpY",
+      "video_url": "https://www.youtube.com/watch?v=x2oTm1efIpY",
+      "title": "CN Train 149 Hides VIA Trian 61 September 14, 2026",
+      "published_at": "2026-09-14T13:37:55Z",
+      "date": "2026-09-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2803",
+        "CN 3933"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2803",
+          "raw": "CN 2803"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3933",
+          "raw": "CN 3933"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Hides VIA Trian 61 September 14, 2026",
+      "description_chars": 354,
+      "consist": {
+        "observed_time": "08:48",
+        "observed_tz": "EDT",
+        "temperature_c": 12
+      },
+      "observed_at": "2026-09-14T08:48-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "pYQsAO94yB8",
+      "video_url": "https://www.youtube.com/watch?v=pYQsAO94yB8",
+      "title": "CN Train 368 Eastbound September 14, 2026",
+      "published_at": "2026-09-14T13:24:03Z",
+      "date": "2026-09-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3264",
+        "CN 3183"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3264",
+          "raw": "CN 3264"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3183",
+          "raw": "CN 3183"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Eastbound September 14, 2026",
+      "description_chars": 244,
+      "consist": {
+        "engines": [
+          "CN 3264"
+        ],
+        "dpu": [
+          "CN 3183"
+        ],
+        "car_count": 140,
+        "consist_type": "freight",
+        "speed_kmh": 51,
+        "speed_raw": "32 mph",
+        "detector_milepost": 137,
+        "observed_time": "07:30",
+        "observed_tz": "EDT",
+        "temperature_c": 10,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-09-14T07:30-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "Jax7R8yyuPU",
+      "video_url": "https://www.youtube.com/watch?v=Jax7R8yyuPU",
+      "title": "CN Train In Newcastle",
+      "published_at": "2026-09-14T12:27:11Z",
+      "date": "2026-09-14",
+      "location": "CN Dundas Sub",
+      "subdivision": "CN Dundas Sub",
+      "lat": 43.1,
+      "lon": -80.5,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train In Newcastle",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "5fxUEZr8Jo0",
+      "video_url": "https://www.youtube.com/watch?v=5fxUEZr8Jo0",
+      "title": "CN Train In Newcastle",
+      "published_at": "2026-09-14T12:26:41Z",
+      "date": "2026-09-14",
+      "location": "CN Dundas Sub",
+      "subdivision": "CN Dundas Sub",
+      "lat": 43.1,
+      "lon": -80.5,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train In Newcastle",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "RoimWfWAkD4",
+      "video_url": "https://www.youtube.com/watch?v=RoimWfWAkD4",
+      "title": "CN Train In Newcastle",
+      "published_at": "2026-09-14T12:26:28Z",
+      "date": "2026-09-14",
+      "location": "CN Dundas Sub",
+      "subdivision": "CN Dundas Sub",
+      "lat": 43.1,
+      "lon": -80.5,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train In Newcastle",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
