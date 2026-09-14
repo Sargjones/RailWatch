@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-13T20:32:31.195756Z",
+  "generated_at": "2026-09-14T11:29:29.201744Z",
   "dedup_registry": {
-    "total": 819,
+    "total": 822,
     "by_channel": {
       "Trackside Ontario": 59,
       "Trackside Tyson": 117,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 29,
       "Rail Fans Canada": 22,
       "Brockville RailFan": 291,
-      "MJM Productions": 221,
+      "MJM Productions": 224,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,33 +18,23 @@
     },
     "by_confidence": {
       "high": 199,
-      "medium": 550,
+      "medium": 553,
       "low": 70,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-06T00:00:00Z",
+  "since": "2026-09-07T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -58,13 +48,13 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 1,
-      "skipped": 0,
-      "high": 1,
+      "videos": 0,
+      "skipped": 1,
+      "high": 0,
       "medium": 0,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 0
     },
     {
       "channel": "Rail Fans Canada",
@@ -88,10 +78,10 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 17,
+      "videos": 3,
+      "skipped": 14,
       "high": 0,
-      "medium": 2,
+      "medium": 3,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 2
@@ -122,11 +112,159 @@
       "skipped": 0
     }
   ],
-  "total": 819,
-  "new_this_run": 5,
+  "total": 822,
+  "new_this_run": 3,
   "high_confidence": 199,
   "dg_likely": 141,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "nwHJBgZLc6Y",
+      "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
+      "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
+      "published_at": "2026-09-13T23:00:53Z",
+      "date": "2026-09-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9820",
+        "CP 7040",
+        "CP 2264"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9820",
+          "raw": "CP 9820"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7040",
+          "raw": "CP 7040"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 2264",
+          "raw": "CP 2264"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7040",
+          "raw": "CP 7040"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
+      "description_chars": 548,
+      "consist": {
+        "observed_time": "5:07",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-09-13T5:07",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "PbTnt9iJRZk",
+      "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
+      "title": "CP 9820 + CP 7040 + CP 2264 head west",
+      "published_at": "2026-09-13T22:28:30Z",
+      "date": "2026-09-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9820",
+        "CP 7040",
+        "CP 2264"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9820",
+          "raw": "CP 9820"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7040",
+          "raw": "CP 7040"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 2264",
+          "raw": "CP 2264"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9820 + CP 7040 + CP 2264 head west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "4N_qW7M2_rk",
+      "video_url": "https://www.youtube.com/watch?v=4N_qW7M2_rk",
+      "title": "CP 3023 + CP 4427 + CP 8621 lead H17",
+      "published_at": "2026-09-13T22:26:59Z",
+      "date": "2026-09-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3023",
+        "CP 4427",
+        "CP 8621"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3023",
+          "raw": "CP 3023"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 4427",
+          "raw": "CP 4427"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8621",
+          "raw": "CP 8621"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 3023 + CP 4427 + CP 8621 lead H17",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

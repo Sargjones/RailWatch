@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-13T20:32:31.360996Z",
-  "total_units": 412,
+  "generated_at": "2026-09-14T11:29:29.353419Z",
+  "total_units": 416,
   "min_sightings": 2,
   "by_road": {
-    "CN": 328,
+    "CN": 329,
     "VIA": 3,
-    "CP": 79,
+    "CP": 82,
     "RUCK": 1,
     "AC": 1
   },
@@ -7166,6 +7166,64 @@
     },
     {
       "road": "CN",
+      "number": "3023",
+      "display": "CN 3023",
+      "sighting_count": 3,
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-13",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4N_qW7M2_rk",
+          "title": "CP 3023 + CP 4427 + CP 8621 lead H17",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-_sHvWrgttE",
+          "title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JscciXab_bA",
+          "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3025",
       "display": "CN 3025",
       "sighting_count": 3,
@@ -13099,51 +13157,6 @@
           "video_url": "https://www.youtube.com/watch?v=b6iBAeHqGMQ",
           "title": "CN Train 730 Eastbound June 23, 2026",
           "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3023",
-      "display": "CN 3023",
-      "sighting_count": 2,
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-10",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=-_sHvWrgttE",
-          "title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-09-10",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=JscciXab_bA",
-          "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
-          "source": "symbol_extraction"
         }
       ]
     },
@@ -19116,6 +19129,51 @@
     },
     {
       "road": "CN",
+      "number": "9820",
+      "display": "CN 9820",
+      "sighting_count": 2,
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
+          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
+          "title": "CP 9820 + CP 7040 + CP 2264 head west",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "9839",
       "display": "CN 9839",
       "sighting_count": 2,
@@ -19634,6 +19692,79 @@
     },
     {
       "road": "CP",
+      "number": "8621",
+      "display": "CP 8621",
+      "sighting_count": 4,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-09-13",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 132"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4N_qW7M2_rk",
+          "title": "CP 3023 + CP 4427 + CP 8621 lead H17",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=gxnQK03bXnk",
+          "title": "CP 8621 + KCSM 4914 rip through Milton",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 132",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
+          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=e0OdcxnKlU0",
+          "title": "CP 8621 + CP 8637 lead CPKC H19 east",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "8747",
       "display": "CP 8747",
       "sighting_count": 4,
@@ -19842,6 +19973,64 @@
     },
     {
       "road": "CP",
+      "number": "3023",
+      "display": "CP 3023",
+      "sighting_count": 3,
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-13",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4N_qW7M2_rk",
+          "title": "CP 3023 + CP 4427 + CP 8621 lead H17",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-_sHvWrgttE",
+          "title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JscciXab_bA",
+          "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "3055",
       "display": "CP 3055",
       "sighting_count": 3,
@@ -20016,6 +20205,64 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=PwjBdbIAK1M",
           "title": "Rare SOO Line GP38-2 on The CP Winnipeg Beach Sub!",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "4427",
+      "display": "CP 4427",
+      "sighting_count": 3,
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-09-13",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4N_qW7M2_rk",
+          "title": "CP 3023 + CP 4427 + CP 8621 lead H17",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-_sHvWrgttE",
+          "title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JscciXab_bA",
+          "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
           "source": "text_extraction"
         }
       ]
@@ -20693,66 +20940,6 @@
     },
     {
       "road": "CP",
-      "number": "8621",
-      "display": "CP 8621",
-      "sighting_count": 3,
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-09-12",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 132"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-12",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=gxnQK03bXnk",
-          "title": "CP 8621 + KCSM 4914 rip through Milton",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-21",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 132",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
-          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-21",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=e0OdcxnKlU0",
-          "title": "CP 8621 + CP 8637 lead CPKC H19 east",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
       "number": "8645",
       "display": "CP 8645",
       "sighting_count": 3,
@@ -20998,6 +21185,51 @@
     },
     {
       "road": "CP",
+      "number": "2264",
+      "display": "CP 2264",
+      "sighting_count": 2,
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
+          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
+          "title": "CP 9820 + CP 7040 + CP 2264 head west",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "2305",
       "display": "CP 2305",
       "sighting_count": 2,
@@ -21039,51 +21271,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
           "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "3023",
-      "display": "CP 3023",
-      "sighting_count": 2,
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-10",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=-_sHvWrgttE",
-          "title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-09-10",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=JscciXab_bA",
-          "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
           "source": "text_extraction"
         }
       ]
@@ -21309,51 +21496,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
           "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "4427",
-      "display": "CP 4427",
-      "sighting_count": 2,
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-10",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-10",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=-_sHvWrgttE",
-          "title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-09-10",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=JscciXab_bA",
-          "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
           "source": "text_extraction"
         }
       ]
@@ -21678,6 +21820,51 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
           "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7040",
+      "display": "CP 7040",
+      "sighting_count": 2,
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
+          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
+          "title": "CP 9820 + CP 7040 + CP 2264 head west",
           "source": "text_extraction"
         }
       ]
@@ -23420,6 +23607,51 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=RCWh9GbRYSI",
           "title": "CP 9804 south rips under the old bridge",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9820",
+      "display": "CP 9820",
+      "sighting_count": 2,
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-13",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
+          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
+          "title": "CP 9820 + CP 7040 + CP 2264 head west",
           "source": "text_extraction"
         }
       ]
