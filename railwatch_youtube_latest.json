@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-15T10:51:02.286959Z",
+  "generated_at": "2026-09-15T21:02:22.266318Z",
   "dedup_registry": {
-    "total": 831,
+    "total": 836,
     "by_channel": {
-      "Trackside Ontario": 59,
-      "Trackside Tyson": 117,
+      "Trackside Ontario": 60,
+      "Trackside Tyson": 118,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
-      "Scott Rails (Chasing The Money Shot)": 29,
+      "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 24,
-      "Brockville RailFan": 293,
+      "Brockville RailFan": 295,
       "MJM Productions": 226,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
@@ -17,9 +17,9 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 201,
-      "medium": 560,
-      "low": 70,
+      "high": 202,
+      "medium": 563,
+      "low": 71,
       "meta": 0
     }
   },
@@ -28,13 +28,23 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 3
+      "videos": 1,
+      "skipped": 3,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -48,28 +58,28 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 0,
+      "videos": 1,
       "skipped": 1,
       "high": 0,
-      "medium": 0,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 0
+      "defaulted": 1
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 2,
-      "skipped": 1,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 11
+      "videos": 2,
+      "skipped": 11,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +93,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 12,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +122,212 @@
       "skipped": 0
     }
   ],
-  "total": 831,
-  "new_this_run": 4,
-  "high_confidence": 201,
-  "dg_likely": 142,
+  "total": 836,
+  "new_this_run": 5,
+  "high_confidence": 202,
+  "dg_likely": 143,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Scott Rails (Chasing The Money Shot)",
+      "channel_id": "UCQUUHzkvfoCqcTKIn6cI9yw",
+      "video_id": "7XmC-r0aLAQ",
+      "video_url": "https://www.youtube.com/watch?v=7XmC-r0aLAQ",
+      "title": "Calgary Alberta Train Hunt Teaser video",
+      "published_at": "2026-09-15T20:05:24Z",
+      "date": "2026-09-15",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Calgary Alberta Train Hunt Teaser video",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "J72Sb_ESwNw",
+      "video_url": "https://www.youtube.com/watch?v=J72Sb_ESwNw",
+      "title": "Tuesday Morning at Bayview \u2022 September 15, 2026",
+      "published_at": "2026-09-15T19:52:01Z",
+      "date": "2026-09-15",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Morning at Bayview \u2022 September 15, 2026",
+      "description_chars": 127,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "6LlMe3ptPPY",
+      "video_url": "https://www.youtube.com/watch?v=6LlMe3ptPPY",
+      "title": "BNSF FOREIGN POWER IN CANADA #youtubeshorts",
+      "published_at": "2026-09-15T17:00:04Z",
+      "date": "2026-09-15",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "BNSF FOREIGN POWER IN CANADA #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "-9Y7-HnIteI",
+      "video_url": "https://www.youtube.com/watch?v=-9Y7-HnIteI",
+      "title": "CN Train 305 September 15, 2026",
+      "published_at": "2026-09-15T13:48:22Z",
+      "date": "2026-09-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "North",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3839",
+        "CN 3096",
+        "CN 3422"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 305",
+          "raw": "CN Train 305"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3839",
+          "raw": "CN 3839"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3096",
+          "raw": "CN 3096"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3422",
+          "raw": "CN 3422"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 305 September 15, 2026",
+      "description_chars": 253,
+      "consist": {
+        "engines": [
+          "CN 3839",
+          "CN 3096"
+        ],
+        "dpu": [
+          "CN 3422"
+        ],
+        "car_count": 143,
+        "consist_type": "freight",
+        "speed_kmh": 60,
+        "speed_raw": "37 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:07",
+        "observed_tz": "EDT",
+        "temperature_c": 13,
+        "origin": "Moncton NB",
+        "destination": "Toronto MacMillan ON"
+      },
+      "observed_at": "2026-09-15T09:07-04:00",
+      "origin": "Moncton NB",
+      "destination": "Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "rhEvuF6tL4k",
+      "video_url": "https://www.youtube.com/watch?v=rhEvuF6tL4k",
+      "title": "VIA Train 61 Westbound September 15, 2026",
+      "published_at": "2026-09-15T13:32:53Z",
+      "date": "2026-09-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound September 15, 2026",
+      "description_chars": 179,
+      "consist": {
+        "coaches": [
+          "Speed: 67 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 108,
+        "speed_raw": "67 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:47",
+        "observed_tz": "EDT",
+        "temperature_c": 12,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-15T08:47-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-15T10:51:02.432178Z",
-  "total_units": 419,
+  "generated_at": "2026-09-15T21:02:22.412730Z",
+  "total_units": 422,
   "min_sightings": 2,
   "by_road": {
-    "CN": 332,
+    "CN": 335,
     "VIA": 3,
     "CP": 82,
     "RUCK": 1,
@@ -7662,6 +7662,67 @@
           "video_url": "https://www.youtube.com/watch?v=j_UZCAejMdA",
           "title": "CN Trains on The Mainline at St. James Junction and A Bit Ar",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3096",
+      "display": "CN 3096",
+      "sighting_count": 3,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-09-15",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 305"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 305",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-9Y7-HnIteI",
+          "title": "CN Train 305 September 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 305",
+          "direction": "North",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-9Y7-HnIteI",
+          "title": "CN Train 305 September 15, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -15632,6 +15693,53 @@
     },
     {
       "road": "CN",
+      "number": "3422",
+      "display": "CN 3422",
+      "sighting_count": 2,
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 305"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 305",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-9Y7-HnIteI",
+          "title": "CN Train 305 September 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 305",
+          "direction": "North",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=-9Y7-HnIteI",
+          "title": "CN Train 305 September 15, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3802",
       "display": "CN 3802",
       "sighting_count": 2,
@@ -15814,6 +15922,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=B6tnA_BLK4U",
           "title": "CN Train 730 Eastbound July 27, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3839",
+      "display": "CN 3839",
+      "sighting_count": 2,
+      "first_seen": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 305"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 305",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-9Y7-HnIteI",
+          "title": "CN Train 305 September 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 305",
+          "direction": "North",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-9Y7-HnIteI",
+          "title": "CN Train 305 September 15, 2026",
           "source": "description_structured"
         }
       ]
