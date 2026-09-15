@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-14T21:39:52.780168Z",
+  "generated_at": "2026-09-15T10:51:02.286959Z",
   "dedup_registry": {
-    "total": 827,
+    "total": 831,
     "by_channel": {
       "Trackside Ontario": 59,
       "Trackside Tyson": 117,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 29,
-      "Rail Fans Canada": 22,
+      "Rail Fans Canada": 24,
       "Brockville RailFan": 293,
-      "MJM Productions": 224,
+      "MJM Productions": 226,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,38 +18,33 @@
     },
     "by_confidence": {
       "high": 201,
-      "medium": 556,
+      "medium": 560,
       "low": 70,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-07T00:00:00Z",
+  "since": "2026-09-08T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 4
+      "skipped": 3
     },
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 5
+      "skipped": 4
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 3,
-      "skipped": 0,
-      "high": 0,
-      "medium": 3,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 3
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Trackside Tristan",
       "videos": 0,
-      "skipped": 2
+      "skipped": 0
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
@@ -63,18 +58,18 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 1
+      "videos": 2,
+      "skipped": 1,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 13,
-      "high": 2,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 11
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 17
+      "videos": 2,
+      "skipped": 12,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +117,137 @@
       "skipped": 0
     }
   ],
-  "total": 827,
-  "new_this_run": 5,
+  "total": 831,
+  "new_this_run": 4,
   "high_confidence": 201,
   "dg_likely": 142,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "TYh-QYWm_Hg",
+      "video_url": "https://www.youtube.com/watch?v=TYh-QYWm_Hg",
+      "title": "SD70ACU LEAD! CP 7040 at Streetsville (SEP 14, 2026)",
+      "published_at": "2026-09-15T03:12:26Z",
+      "date": "2026-09-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7040"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7040",
+          "raw": "CP 7040"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "SD70ACU LEAD! CP 7040 at Streetsville (SEP 14, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "nnLiEohvinc",
+      "video_url": "https://www.youtube.com/watch?v=nnLiEohvinc",
+      "title": "7 years of O-Train Line 1! | 7 ans de la Ligne 1 de l\u2019O-Train!",
+      "published_at": "2026-09-15T00:23:48Z",
+      "date": "2019-09-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "7 years of O-Train Line 1! | 7 ans de la Ligne 1 de l\u2019O-Train!",
+      "description_chars": 1075,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "bpTmVbNoViU",
+      "video_url": "https://www.youtube.com/watch?v=bpTmVbNoViU",
+      "title": "CP 7040 SD70ACU leads CPKC 134 east",
+      "published_at": "2026-09-14T23:05:13Z",
+      "date": "2026-09-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7040",
+        "CPKC 134"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7040",
+          "raw": "CP 7040"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 134",
+          "raw": "CPKC 134"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7040 SD70ACU leads CPKC 134 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "6dLdws2UhmI",
+      "video_url": "https://www.youtube.com/watch?v=6dLdws2UhmI",
+      "title": "24 Hours at Cyrville Station | O-Train Line 1 Timelapse",
+      "published_at": "2026-09-14T17:38:27Z",
+      "date": "2026-09-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "24 Hours at Cyrville Station | O-Train Line 1 Timelapse",
+      "description_chars": 1364,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

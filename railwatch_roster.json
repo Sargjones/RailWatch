@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-14T21:39:52.884254Z",
-  "total_units": 418,
+  "generated_at": "2026-09-15T10:51:02.432178Z",
+  "total_units": 419,
   "min_sightings": 2,
   "by_road": {
-    "CN": 331,
+    "CN": 332,
     "VIA": 3,
     "CP": 82,
     "RUCK": 1,
@@ -9374,6 +9374,66 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=XaRJSmSQmHw",
           "title": "CP 7022 Navy Heritage leads CPKC 421",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7040",
+      "display": "CN 7040",
+      "sighting_count": 3,
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 134"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TYh-QYWm_Hg",
+          "title": "SD70ACU LEAD! CP 7040 at Streetsville (SEP 14, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 134",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bpTmVbNoViU",
+          "title": "CP 7040 SD70ACU leads CPKC 134 east",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
+          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
           "source": "symbol_extraction"
         }
       ]
@@ -19724,6 +19784,79 @@
     },
     {
       "road": "CP",
+      "number": "7040",
+      "display": "CP 7040",
+      "sighting_count": 4,
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-09-14",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 134"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=TYh-QYWm_Hg",
+          "title": "SD70ACU LEAD! CP 7040 at Streetsville (SEP 14, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 134",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bpTmVbNoViU",
+          "title": "CP 7040 SD70ACU leads CPKC 134 east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
+          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
+          "title": "CP 9820 + CP 7040 + CP 2264 head west",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "7530",
       "display": "CP 7530",
       "sighting_count": 4,
@@ -21928,51 +22061,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
           "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "7040",
-      "display": "CP 7040",
-      "sighting_count": 2,
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
-          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-09-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
-          "title": "CP 9820 + CP 7040 + CP 2264 head west",
           "source": "text_extraction"
         }
       ]
