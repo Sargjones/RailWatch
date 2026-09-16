@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-15T21:02:22.254317Z",
-    "total_videos": 836
+    "updated_at": "2026-09-16T10:40:08.725389Z",
+    "total_videos": 837
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5020,6 +5020,12 @@
       "title": "VIA Train 61 Westbound September 15, 2026",
       "confidence": "medium",
       "processed_at": "2026-09-15T21:02:20.576360Z"
+    },
+    "yGbHany4fK0": {
+      "channel": "MJM Productions",
+      "title": "CP 8877 leads CPKC 113 around the bend",
+      "confidence": "medium",
+      "processed_at": "2026-09-16T10:40:07.667877Z"
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T21:02:22.412730Z",
+  "generated_at": "2026-09-16T10:40:08.827443Z",
   "total_units": 422,
   "min_sightings": 2,
   "by_road": {
@@ -6185,6 +6185,81 @@
     },
     {
       "road": "CN",
+      "number": "8877",
+      "display": "CN 8877",
+      "sighting_count": 4,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-09-15",
+      "corridors": [
+        "CN Kingston Sub",
+        "CPKC MacTier Sub"
+      ],
+      "trains_led": [
+        "CN 113",
+        "CN 112",
+        "CN 106"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 113",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=yGbHany4fK0",
+          "title": "CP 8877 leads CPKC 113 around the bend",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-02",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MrlnmFXvbcM",
+          "title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-02",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 113",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eHItiaQUbac",
+          "title": "CP 8877 + CP 8747 lead CPKC 113 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 106",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bpBmrSJsx70",
+          "title": "CP 8877 leads CPKC 106 past Cherrywood",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "9824",
       "display": "CN 9824",
       "sighting_count": 4,
@@ -10472,68 +10547,6 @@
           "video_url": "https://www.youtube.com/watch?v=1hO9FtfPX90",
           "title": "CN Train 368 Eastbound September 2, 2026",
           "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "8877",
-      "display": "CN 8877",
-      "sighting_count": 3,
-      "first_seen": "2026-07-27",
-      "last_seen": "2026-08-02",
-      "corridors": [
-        "CPKC MacTier Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 112",
-        "CN 113",
-        "CN 106"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-02",
-          "location": "MacTier",
-          "subdivision": "CPKC MacTier Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=MrlnmFXvbcM",
-          "title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-08-02",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 113",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=eHItiaQUbac",
-          "title": "CP 8877 + CP 8747 lead CPKC 113 north",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-07-27",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 106",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=bpBmrSJsx70",
-          "title": "CP 8877 leads CPKC 106 past Cherrywood",
-          "source": "symbol_extraction"
         }
       ]
     },
@@ -20238,6 +20251,81 @@
     },
     {
       "road": "CP",
+      "number": "8877",
+      "display": "CP 8877",
+      "sighting_count": 4,
+      "first_seen": "2026-07-27",
+      "last_seen": "2026-09-15",
+      "corridors": [
+        "CN Kingston Sub",
+        "CPKC MacTier Sub"
+      ],
+      "trains_led": [
+        "CN 113",
+        "CN 112",
+        "CN 106"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 113",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=yGbHany4fK0",
+          "title": "CP 8877 leads CPKC 113 around the bend",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-02",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MrlnmFXvbcM",
+          "title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-02",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 113",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eHItiaQUbac",
+          "title": "CP 8877 + CP 8747 lead CPKC 113 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 106",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bpBmrSJsx70",
+          "title": "CP 8877 leads CPKC 106 past Cherrywood",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "9824",
       "display": "CP 9824",
       "sighting_count": 4,
@@ -21452,68 +21540,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=otYSSSDpW9E",
           "title": "CP 8747 + CP 8801 + CP 8645 lead CPKC 135",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "8877",
-      "display": "CP 8877",
-      "sighting_count": 3,
-      "first_seen": "2026-07-27",
-      "last_seen": "2026-08-02",
-      "corridors": [
-        "CPKC MacTier Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 112",
-        "CN 113",
-        "CN 106"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-02",
-          "location": "MacTier",
-          "subdivision": "CPKC MacTier Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=MrlnmFXvbcM",
-          "title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-02",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 113",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=eHItiaQUbac",
-          "title": "CP 8877 + CP 8747 lead CPKC 113 north",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-27",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 106",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=bpBmrSJsx70",
-          "title": "CP 8877 leads CPKC 106 past Cherrywood",
           "source": "text_extraction"
         }
       ]

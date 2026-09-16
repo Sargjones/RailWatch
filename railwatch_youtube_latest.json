@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-15T21:02:22.266318Z",
+  "generated_at": "2026-09-16T10:40:08.732719Z",
   "dedup_registry": {
-    "total": 836,
+    "total": 837,
     "by_channel": {
       "Trackside Ontario": 60,
       "Trackside Tyson": 118,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 24,
       "Brockville RailFan": 295,
-      "MJM Productions": 226,
+      "MJM Productions": 227,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,33 +18,23 @@
     },
     "by_confidence": {
       "high": 202,
-      "medium": 563,
+      "medium": 564,
       "low": 71,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-08T00:00:00Z",
+  "since": "2026-09-09T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -58,28 +48,18 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 11,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 9
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -93,8 +73,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 14
+      "videos": 1,
+      "skipped": 14,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +107,51 @@
       "skipped": 0
     }
   ],
-  "total": 836,
-  "new_this_run": 5,
+  "total": 837,
+  "new_this_run": 1,
   "high_confidence": 202,
   "dg_likely": 143,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "yGbHany4fK0",
+      "video_url": "https://www.youtube.com/watch?v=yGbHany4fK0",
+      "title": "CP 8877 leads CPKC 113 around the bend",
+      "published_at": "2026-09-15T21:48:52Z",
+      "date": "2026-09-15",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8877",
+        "CPKC 113"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8877",
+          "raw": "CP 8877"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8877 leads CPKC 113 around the bend",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
