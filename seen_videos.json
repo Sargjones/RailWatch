@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-16T10:40:08.725389Z",
-    "total_videos": 837
+    "updated_at": "2026-09-16T21:04:52.637775Z",
+    "total_videos": 841
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5026,6 +5026,30 @@
       "title": "CP 8877 leads CPKC 113 around the bend",
       "confidence": "medium",
       "processed_at": "2026-09-16T10:40:07.667877Z"
+    },
+    "2ku7fvVxIxQ": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound September 16, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-16T21:04:50.634782Z"
+    },
+    "4JFoyXoj_YM": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound September 26, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-16T21:04:50.635019Z"
+    },
+    "uQUr-sWmJAI": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound September 16, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-16T21:04:50.635197Z"
+    },
+    "tNnWkxRrv0c": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Lifting September 16, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-16T21:04:50.635564Z"
     }
   }
 }
