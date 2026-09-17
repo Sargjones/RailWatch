@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-16T21:04:52.650262Z",
+  "generated_at": "2026-09-17T10:48:25.348759Z",
   "dedup_registry": {
-    "total": 841,
+    "total": 845,
     "by_channel": {
       "Trackside Ontario": 60,
-      "Trackside Tyson": 118,
+      "Trackside Tyson": 119,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 24,
       "Brockville RailFan": 299,
-      "MJM Productions": 227,
+      "MJM Productions": 230,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 205,
-      "medium": 565,
-      "low": 71,
+      "medium": 568,
+      "low": 72,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-09T00:00:00Z",
+  "since": "2026-09-10T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -58,13 +63,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 4,
-      "skipped": 9,
-      "high": 3,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 12
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,8 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 15
+      "videos": 3,
+      "skipped": 15,
+      "high": 0,
+      "medium": 3,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -94,7 +99,7 @@
     {
       "channel": "The Cando Railfan",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "The Manitoba Railfan",
@@ -107,11 +112,143 @@
       "skipped": 0
     }
   ],
-  "total": 841,
+  "total": 845,
   "new_this_run": 4,
   "high_confidence": 205,
   "dg_likely": 145,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "WrYXL9MqSe8",
+      "video_url": "https://www.youtube.com/watch?v=WrYXL9MqSe8",
+      "title": "EMD LEADER! CP 7051 at Palgrave, ON (SEP 16, 2026)",
+      "published_at": "2026-09-17T09:37:17Z",
+      "date": "2026-09-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7051"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7051",
+          "raw": "CP 7051"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "EMD LEADER! CP 7051 at Palgrave, ON (SEP 16, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "nzN5K-wLH3U",
+      "video_url": "https://www.youtube.com/watch?v=nzN5K-wLH3U",
+      "title": "CP 7051 + CP 7307 lead CPKC 421 north",
+      "published_at": "2026-09-17T00:26:20Z",
+      "date": "2026-09-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7051",
+        "CP 7307",
+        "CPKC 421"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7051",
+          "raw": "CP 7051"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7307",
+          "raw": "CP 7307"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7051 + CP 7307 lead CPKC 421 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "aY0MEqN-O0I",
+      "video_url": "https://www.youtube.com/watch?v=aY0MEqN-O0I",
+      "title": "TRAIN CHUGGING THRU SHARP CURVE #youtubeshorts",
+      "published_at": "2026-09-16T23:00:19Z",
+      "date": "2026-09-16",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "TRAIN CHUGGING THRU SHARP CURVE #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "52jU7fqe07M",
+      "video_url": "https://www.youtube.com/watch?v=52jU7fqe07M",
+      "title": "KCS 4855 north blasting its fouled horn",
+      "published_at": "2026-09-16T22:15:09Z",
+      "date": "2026-09-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "KCS 4855 north blasting its fouled horn",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

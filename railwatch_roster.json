@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-16T21:04:52.804519Z",
-  "total_units": 425,
+  "generated_at": "2026-09-17T10:48:25.492500Z",
+  "total_units": 427,
   "min_sightings": 2,
   "by_road": {
-    "CN": 338,
+    "CN": 339,
     "VIA": 3,
-    "CP": 82,
+    "CP": 83,
     "RUCK": 1,
     "AC": 1
   },
@@ -17760,6 +17760,52 @@
     },
     {
       "road": "CN",
+      "number": "7051",
+      "display": "CN 7051",
+      "sighting_count": 2,
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-17",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-17",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=nzN5K-wLH3U",
+          "title": "CP 7051 + CP 7307 lead CPKC 421 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=WrYXL9MqSe8",
+          "title": "EMD LEADER! CP 7051 at Palgrave, ON (SEP 16, 2026)",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7052",
       "display": "CN 7052",
       "sighting_count": 2,
@@ -22559,6 +22605,52 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=VLEwmw8exGE",
           "title": "CP 7043 SD70ACU south through Grenfel",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7051",
+      "display": "CP 7051",
+      "sighting_count": 2,
+      "first_seen": "2026-09-16",
+      "last_seen": "2026-09-17",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-17",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=nzN5K-wLH3U",
+          "title": "CP 7051 + CP 7307 lead CPKC 421 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=WrYXL9MqSe8",
+          "title": "EMD LEADER! CP 7051 at Palgrave, ON (SEP 16, 2026)",
           "source": "text_extraction"
         }
       ]
