@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-17T10:48:25.336949Z",
-    "total_videos": 845
+    "updated_at": "2026-09-17T21:07:21.114305Z",
+    "total_videos": 848
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5074,6 +5074,24 @@
       "title": "KCS 4855 north blasting its fouled horn",
       "confidence": "medium",
       "processed_at": "2026-09-17T10:48:24.174546Z"
+    },
+    "TNIbMq3mEjU": {
+      "channel": "Brockville RailFan",
+      "title": "VIA 61 Westbound September 17, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-17T21:07:19.100975Z"
+    },
+    "PS6khx04tuE": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 106 Eastbound September 17, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-17T21:07:19.101270Z"
+    },
+    "skvv1huns6c": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 120 Eastbound September 17, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-17T21:07:19.101455Z"
     }
   }
 }
