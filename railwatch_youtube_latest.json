@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-18T10:23:50.859011Z",
+  "generated_at": "2026-09-18T20:40:06.473788Z",
   "dedup_registry": {
-    "total": 850,
+    "total": 881,
     "by_channel": {
       "Trackside Ontario": 60,
-      "Trackside Tyson": 121,
+      "Trackside Tyson": 122,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 24,
-      "Brockville RailFan": 302,
-      "MJM Productions": 230,
+      "Brockville RailFan": 311,
+      "MJM Productions": 251,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 207,
-      "medium": 571,
+      "high": 214,
+      "medium": 595,
       "low": 72,
       "meta": 0
     }
@@ -33,10 +33,10 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 2,
-      "skipped": 5,
+      "videos": 1,
+      "skipped": 7,
       "high": 0,
-      "medium": 2,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
@@ -68,8 +68,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 14
+      "videos": 9,
+      "skipped": 14,
+      "high": 7,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 6,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,8 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 16
+      "videos": 21,
+      "skipped": 16,
+      "high": 0,
+      "medium": 21,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 21
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +122,1376 @@
       "skipped": 0
     }
   ],
-  "total": 850,
-  "new_this_run": 2,
-  "high_confidence": 207,
-  "dg_likely": 147,
+  "total": 881,
+  "new_this_run": 31,
+  "high_confidence": 214,
+  "dg_likely": 153,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "ljAj8keSOY8",
+      "video_url": "https://www.youtube.com/watch?v=ljAj8keSOY8",
+      "title": "VIA 903 races past CN Q148 at Clarke West",
+      "published_at": "2026-09-18T20:38:07Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 903"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 903",
+          "raw": "VIA 903"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q148",
+          "raw": "Q148"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 903 races past CN Q148 at Clarke West",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "zia13rJYje8",
+      "video_url": "https://www.youtube.com/watch?v=zia13rJYje8",
+      "title": "CN 3907 + CN 3888 lead CN Q148 east",
+      "published_at": "2026-09-18T20:36:10Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3907",
+        "CN 3888"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3907",
+          "raw": "CN 3907"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3888",
+          "raw": "CN 3888"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q148",
+          "raw": "Q148"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3907 + CN 3888 lead CN Q148 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "oIW7MwdVBSU",
+      "video_url": "https://www.youtube.com/watch?v=oIW7MwdVBSU",
+      "title": "CN 3813 + KKIX 3006 lead CN M305 west",
+      "published_at": "2026-09-18T20:28:47Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3813"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3813",
+          "raw": "CN 3813"
+        },
+        {
+          "road": "CN",
+          "symbol": "M305",
+          "raw": "M305"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3813 + KKIX 3006 lead CN M305 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "UbjnTce_LSk",
+      "video_url": "https://www.youtube.com/watch?v=UbjnTce_LSk",
+      "title": "CN Q149 blowing thru Clarke West",
+      "published_at": "2026-09-18T20:13:42Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Q149",
+          "raw": "Q149"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Q149 blowing thru Clarke West",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "AnktYdf3JlA",
+      "video_url": "https://www.youtube.com/watch?v=AnktYdf3JlA",
+      "title": "VIA 2211 east blasting thru Clarke West",
+      "published_at": "2026-09-18T19:25:18Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 2211"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2211",
+          "raw": "VIA 2211"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 2211 east blasting thru Clarke West",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "idTUx2zXjNM",
+      "video_url": "https://www.youtube.com/watch?v=idTUx2zXjNM",
+      "title": "CN M371 passes under the old signal tower",
+      "published_at": "2026-09-18T19:18:34Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "M371",
+          "raw": "M371"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN M371 passes under the old signal tower",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "IZuWdfG8vd0",
+      "video_url": "https://www.youtube.com/watch?v=IZuWdfG8vd0",
+      "title": "VIA 2302 west blasting thru Bennett rd",
+      "published_at": "2026-09-18T19:17:29Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 2302"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2302",
+          "raw": "VIA 2302"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 2302 west blasting thru Bennett rd",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "T-jWImrrtKI",
+      "video_url": "https://www.youtube.com/watch?v=T-jWImrrtKI",
+      "title": "VIA 910 PD42DC heads through Clarke West",
+      "published_at": "2026-09-18T18:04:10Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 910"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 910",
+          "raw": "VIA 910"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 910 PD42DC heads through Clarke West",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "1eqQXdhSWo0",
+      "video_url": "https://www.youtube.com/watch?v=1eqQXdhSWo0",
+      "title": "VIA 2307 leads a charger set west",
+      "published_at": "2026-09-18T18:01:32Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 2307"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2307",
+          "raw": "VIA 2307"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 2307 leads a charger set west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "HTLYs8IuLss",
+      "video_url": "https://www.youtube.com/watch?v=HTLYs8IuLss",
+      "title": "CP 7432 leads CPKC 118 thru Lovekin",
+      "published_at": "2026-09-18T17:58:30Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7432",
+        "CPKC 118"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7432",
+          "raw": "CP 7432"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7432 leads CPKC 118 thru Lovekin",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "y0tg_fpVpO8",
+      "video_url": "https://www.youtube.com/watch?v=y0tg_fpVpO8",
+      "title": "CPKC GRAIN TRAIN W/ KCS & CN POWER OVER HAWKINS PICKLE RD BRIDGE! ",
+      "published_at": "2026-09-18T17:00:05Z",
+      "date": "2026-09-18",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CPKC GRAIN TRAIN W/ KCS & CN POWER OVER HAWKINS PICKLE RD BRIDGE! ",
+      "description_chars": 433,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "sSOEcP20oEs",
+      "video_url": "https://www.youtube.com/watch?v=sSOEcP20oEs",
+      "title": "CN 2260 + CN 8954 lead CN E278 east",
+      "published_at": "2026-09-18T16:22:02Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2260",
+        "CN 8954"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2260",
+          "raw": "CN 2260"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8954",
+          "raw": "CN 8954"
+        },
+        {
+          "road": "CN",
+          "symbol": "E278",
+          "raw": "E278"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2260 + CN 8954 lead CN E278 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "w726NJGZhPE",
+      "video_url": "https://www.youtube.com/watch?v=w726NJGZhPE",
+      "title": "VIA 2217 leads VIA P040 east",
+      "published_at": "2026-09-18T15:34:43Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 2217"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2217",
+          "raw": "VIA 2217"
+        },
+        {
+          "road": "CN",
+          "symbol": "P040",
+          "raw": "P040"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 2217 leads VIA P040 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "9qsQ9lJ8huA",
+      "video_url": "https://www.youtube.com/watch?v=9qsQ9lJ8huA",
+      "title": "VIA 904 SPEEDS BY AT 81 MPH!",
+      "published_at": "2026-09-18T15:33:58Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 904"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 904",
+          "raw": "VIA 904"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 904 SPEEDS BY AT 81 MPH!",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "llT2HW9oPng",
+      "video_url": "https://www.youtube.com/watch?v=llT2HW9oPng",
+      "title": "VIA Train 61 Westbound September 18, 2026",
+      "published_at": "2026-09-18T15:18:23Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound September 18, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 63 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 101,
+        "speed_raw": "63 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:53",
+        "observed_tz": "EDT",
+        "temperature_c": 14,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-18T08:53-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "WP8_BK0vWMQ",
+      "video_url": "https://www.youtube.com/watch?v=WP8_BK0vWMQ",
+      "title": "CN Train 149 Westbound September 18, 2026",
+      "published_at": "2026-09-18T15:17:14Z",
+      "date": "2026-09-18",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2844",
+        "CN 3414"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2844",
+          "raw": "CN 2844"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3414",
+          "raw": "CN 3414"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound September 18, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 2844",
+          "CN 3414"
+        ],
+        "car_count": 194,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 58,
+        "speed_raw": "36 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:44",
+        "observed_tz": "EDT",
+        "temperature_c": 14,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-09-18T08:44-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "hStPvGmt_Tg",
+      "video_url": "https://www.youtube.com/watch?v=hStPvGmt_Tg",
+      "title": "CN Train 368 Eastbound September 18, 2026",
+      "published_at": "2026-09-18T15:03:01Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3882",
+        "CN 3035"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3882",
+          "raw": "CN 3882"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3035",
+          "raw": "CN 3035"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 371",
+          "raw": "CN Train 371"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Eastbound September 18, 2026",
+      "description_chars": 249,
+      "consist": {
+        "engines": [
+          "CN 3882"
+        ],
+        "dpu": [
+          "CN 3035"
+        ],
+        "car_count": 133,
+        "consist_type": "freight",
+        "speed_kmh": 37,
+        "speed_raw": "23 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:11",
+        "observed_tz": "EDT",
+        "temperature_c": 13,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-09-18T08:11-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "_s2dBN0My0U",
+      "video_url": "https://www.youtube.com/watch?v=_s2dBN0My0U",
+      "title": "CN Train 371 Westbound September 18, 2026",
+      "published_at": "2026-09-18T14:49:48Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3289",
+        "CN 3838",
+        "CN 9543"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 371",
+          "raw": "CN Train 371"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3289",
+          "raw": "CN 3289"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3838",
+          "raw": "CN 3838"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9543",
+          "raw": "CN 9543"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 371 Westbound September 18, 2026",
+      "description_chars": 350,
+      "consist": {
+        "engines": [
+          "CN 3289",
+          "CN 3838",
+          "CN 9543"
+        ],
+        "car_count": 121,
+        "consist_type": "freight",
+        "speed_kmh": 55,
+        "speed_raw": "34 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:01",
+        "observed_tz": "EDT",
+        "temperature_c": 12,
+        "origin": "Montreal Taschereau QC",
+        "destination": "Toronto MacMillan ON"
+      },
+      "observed_at": "2026-09-18T08:01-04:00",
+      "origin": "Montreal Taschereau QC",
+      "destination": "Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "O0eWp1RDLks",
+      "video_url": "https://www.youtube.com/watch?v=O0eWp1RDLks",
+      "title": "CP 9839 AC4400CW around the long bend",
+      "published_at": "2026-09-18T14:48:45Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9839"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9839",
+          "raw": "CP 9839"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9839 AC4400CW around the long bend",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "AnHNtYnot4g",
+      "video_url": "https://www.youtube.com/watch?v=AnHNtYnot4g",
+      "title": "CN 5787 + CN 8309 lead CN M372 east",
+      "published_at": "2026-09-18T14:45:51Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5787",
+        "CN 8309"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5787",
+          "raw": "CN 5787"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8309",
+          "raw": "CN 8309"
+        },
+        {
+          "road": "CN",
+          "symbol": "M372",
+          "raw": "M372"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 5787 + CN 8309 lead CN M372 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "x9bqeeSw6-M",
+      "video_url": "https://www.youtube.com/watch?v=x9bqeeSw6-M",
+      "title": "CN 3261 + CN 3211 lead CN Q185 west",
+      "published_at": "2026-09-18T14:39:36Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3261",
+        "CN 3211"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3261",
+          "raw": "CN 3261"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3211",
+          "raw": "CN 3211"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q185",
+          "raw": "Q185"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3261 + CN 3211 lead CN Q185 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "W56fYHpCChM",
+      "video_url": "https://www.youtube.com/watch?v=W56fYHpCChM",
+      "title": "CN Train 368 Lifting September 18, 2026",
+      "published_at": "2026-09-18T14:32:27Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3882",
+        "CN 3035"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3882",
+          "raw": "CN 3882"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3035",
+          "raw": "CN 3035"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Lifting September 18, 2026",
+      "description_chars": 198,
+      "consist": {
+        "engines": [
+          "CN 3882"
+        ],
+        "dpu": [
+          "CN 3035"
+        ],
+        "car_count": 3,
+        "car_count_note": "lifted, 1 buffer car",
+        "consist_type": "freight",
+        "observed_time": "07:52",
+        "observed_tz": "EDT",
+        "temperature_c": 12,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-09-18T07:52-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "K1ddxd6w39M",
+      "video_url": "https://www.youtube.com/watch?v=K1ddxd6w39M",
+      "title": "CN Train 368 Setting Off September 18, 2026",
+      "published_at": "2026-09-18T14:17:35Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3882",
+        "CN 3035"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3882",
+          "raw": "CN 3882"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3035",
+          "raw": "CN 3035"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Setting Off September 18, 2026",
+      "description_chars": 204,
+      "consist": {
+        "engines": [
+          "CN 3882"
+        ],
+        "dpu": [
+          "CN 3035"
+        ],
+        "car_count": 23,
+        "car_count_note": "to set off, 1 buffer car",
+        "consist_type": "freight",
+        "observed_time": "07:34",
+        "observed_tz": "EDT",
+        "temperature_c": 12,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-09-18T07:34-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "avbpP51gtCQ",
+      "video_url": "https://www.youtube.com/watch?v=avbpP51gtCQ",
+      "title": "CN Train 306 Eastbound September 17, 2026",
+      "published_at": "2026-09-18T14:00:00Z",
+      "date": "2026-09-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 8360",
+        "CN 3805"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 306",
+          "raw": "CN Train 306"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8360",
+          "raw": "CN 8360"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3805",
+          "raw": "CN 3805"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 306 Eastbound September 17, 2026",
+      "description_chars": 244,
+      "consist": {
+        "engines": [
+          "CN 8360"
+        ],
+        "dpu": [
+          "CN 3805"
+        ],
+        "car_count": 147,
+        "consist_type": "freight",
+        "speed_kmh": 60,
+        "speed_raw": "37 mph",
+        "detector_milepost": 137,
+        "observed_time": "17:35",
+        "observed_tz": "EDT",
+        "temperature_c": 19,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Moncton NB"
+      },
+      "observed_at": "2026-09-17T17:35-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Moncton NB",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Xxs-IWOAwGY",
+      "video_url": "https://www.youtube.com/watch?v=Xxs-IWOAwGY",
+      "title": "VIA Train 644 Eastbound September 17, 2026",
+      "published_at": "2026-09-18T13:47:00Z",
+      "date": "2026-09-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 644",
+          "raw": "VIA Train 644"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 644 Eastbound September 17, 2026",
+      "description_chars": 190,
+      "consist": {
+        "observed_time": "16:48",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Toronto ON",
+        "destination": "Ottawa ON"
+      },
+      "observed_at": "2026-09-17T16:48-04:00",
+      "origin": "Toronto ON",
+      "destination": "Ottawa ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "cTh7d0O9fvc",
+      "video_url": "https://www.youtube.com/watch?v=cTh7d0O9fvc",
+      "title": "VIA P064 eastbound passing thru Lovekin",
+      "published_at": "2026-09-18T13:42:55Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "P064",
+          "raw": "P064"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA P064 eastbound passing thru Lovekin",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "LRXnFrVlZqM",
+      "video_url": "https://www.youtube.com/watch?v=LRXnFrVlZqM",
+      "title": "CN Train 532 September 17, 2026",
+      "published_at": "2026-09-18T13:39:20Z",
+      "date": "2026-09-17",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 9590",
+        "CN 9410"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 532",
+          "raw": "CN Train 532"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9590",
+          "raw": "CN 9590"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9410",
+          "raw": "CN 9410"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 532 September 17, 2026",
+      "description_chars": 218,
+      "consist": {
+        "engines": [
+          "CN 9590",
+          "CN 9410"
+        ],
+        "car_count": 26,
+        "consist_type": "freight",
+        "speed_kmh": 56,
+        "speed_raw": "35 mph",
+        "detector_milepost": 124,
+        "observed_time": "16:34",
+        "observed_tz": "EDT",
+        "temperature_c": 20,
+        "origin": "Brockville ON",
+        "destination": "Various customers east of Brockville ON"
+      },
+      "observed_at": "2026-09-17T16:34-04:00",
+      "origin": "Brockville ON",
+      "destination": "Various customers east of Brockville ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "oY2PyauGKXE",
+      "video_url": "https://www.youtube.com/watch?v=oY2PyauGKXE",
+      "title": "CP 7578 + BNSF 8390 lead CPKC 113 west",
+      "published_at": "2026-09-18T13:31:19Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7578",
+        "CPKC 113"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7578",
+          "raw": "CP 7578"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7578 + BNSF 8390 lead CPKC 113 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "yhDKei1h2J0",
+      "video_url": "https://www.youtube.com/watch?v=yhDKei1h2J0",
+      "title": "CN 2769 leads CN Z121 around the bend",
+      "published_at": "2026-09-18T13:29:59Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2769"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2769",
+          "raw": "CN 2769"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z121",
+          "raw": "Z121"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2769 leads CN Z121 around the bend",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "P5Trn8GbCAk",
+      "video_url": "https://www.youtube.com/watch?v=P5Trn8GbCAk",
+      "title": "VIA 2226 leads a VIA charger set east",
+      "published_at": "2026-09-18T11:43:29Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 2226"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2226",
+          "raw": "VIA 2226"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 2226 leads a VIA charger set east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "7KaQ83iw5HE",
+      "video_url": "https://www.youtube.com/watch?v=7KaQ83iw5HE",
+      "title": "CN M377 blasting thru the morning skies",
+      "published_at": "2026-09-18T11:40:10Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "M377",
+          "raw": "M377"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN M377 blasting thru the morning skies",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
