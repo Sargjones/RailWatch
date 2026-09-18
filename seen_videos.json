@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-17T21:07:21.114305Z",
-    "total_videos": 848
+    "updated_at": "2026-09-18T10:23:50.851939Z",
+    "total_videos": 850
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5092,6 +5092,18 @@
       "title": "CN Train 120 Eastbound September 17, 2026",
       "confidence": "high",
       "processed_at": "2026-09-17T21:07:19.101455Z"
+    },
+    "tIUxwG92P0o": {
+      "channel": "Trackside Tyson",
+      "title": "TRAINS AT JUNIPER BEACH CAMPGROUND",
+      "confidence": "medium",
+      "processed_at": "2026-09-18T10:23:47.820898Z"
+    },
+    "Bski_jW_C2I": {
+      "channel": "Trackside Tyson",
+      "title": "EMD SD70M-2 PULLS BIG GRAIN TRAIN #youtubeshorts",
+      "confidence": "medium",
+      "processed_at": "2026-09-18T10:23:47.821043Z"
     }
   }
 }
