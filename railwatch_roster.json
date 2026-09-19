@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-19T10:07:51.927294Z",
-  "total_units": 443,
+  "generated_at": "2026-09-19T20:18:40.552360Z",
+  "total_units": 448,
   "min_sightings": 2,
   "by_road": {
-    "CN": 354,
+    "CN": 356,
     "VIA": 3,
-    "CP": 84,
+    "CP": 87,
     "RUCK": 1,
     "AC": 1
   },
@@ -595,6 +595,124 @@
           "video_url": "https://www.youtube.com/watch?v=K2QxUTP5ttA",
           "title": "CN Train 306 Raced by VIA Train 66 Eastbound August 6, 2026",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3109",
+      "display": "CN 3109",
+      "sighting_count": 7,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 100",
+        "L533",
+        "CN 118",
+        "CN 106",
+        "CN 368"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-30",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "L533",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3uLy3P_paqs",
+          "title": "Fallen Flag Leaders on CP and CN Trains In Winnipeg!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+          "title": "CN Train 106 Eastbound July 8, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-08",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 106",
+          "direction": "East",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
+          "title": "CN Train 106 Eastbound July 8, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-06-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=YZggQLnlgAI",
+          "title": "CN Train 368 Raced by CN Train 126 Eastbound June 23, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -1869,110 +1987,6 @@
           "video_url": "https://www.youtube.com/watch?v=XnMtxWuAGtc",
           "title": "CN Train 106 Eastbound July 9, 2026",
           "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3109",
-      "display": "CN 3109",
-      "sighting_count": 6,
-      "first_seen": "2026-06-21",
-      "last_seen": "2026-08-30",
-      "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "L533",
-        "CN 118",
-        "CN 106",
-        "CN 368"
-      ],
-      "dpu_confirmed": true,
-      "roles_seen": [
-        "unknown",
-        "dpu"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-30",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "L533",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=3uLy3P_paqs",
-          "title": "Fallen Flag Leaders on CP and CN Trains In Winnipeg!",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-08-14",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 118",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
-          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-07-08",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 106",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
-          "title": "CN Train 106 Eastbound July 8, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-08",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 106",
-          "direction": "East",
-          "role": "dpu",
-          "dpu": true,
-          "video_url": "https://www.youtube.com/watch?v=W-m9LHepJFc",
-          "title": "CN Train 106 Eastbound July 8, 2026",
-          "source": "description_structured"
-        },
-        {
-          "date": "2026-06-23",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=YZggQLnlgAI",
-          "title": "CN Train 368 Raced by CN Train 126 Eastbound June 23, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-21",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
-          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
-          "source": "symbol_extraction"
         }
       ]
     },
@@ -6118,6 +6132,80 @@
     },
     {
       "road": "CN",
+      "number": "4444",
+      "display": "CN 4444",
+      "sighting_count": 4,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 100",
+        "CN 240"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-07",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 240",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=U81sZXL_Uog",
+          "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
+          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "4939",
       "display": "CN 4939",
       "sighting_count": 4,
@@ -7033,6 +7121,68 @@
           "video_url": "https://www.youtube.com/watch?v=Jbkd3xRhnMM",
           "title": "CN Train 322 Eastbound July 1, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2297",
+      "display": "CN 2297",
+      "sighting_count": 3,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 100",
+        "Z112",
+        "CN 410"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-05",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=w8z7XfSNCPM",
+          "title": "CN 3119 + CN 2297 lead CN Z112 south",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 410",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -8013,6 +8163,66 @@
           "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
           "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3049",
+      "display": "CN 3049",
+      "sighting_count": 3,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 100"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -9734,67 +9944,6 @@
     },
     {
       "road": "CN",
-      "number": "4444",
-      "display": "CN 4444",
-      "sighting_count": 3,
-      "first_seen": "2026-08-01",
-      "last_seen": "2026-09-07",
-      "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 240",
-        "CN 100"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-07",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 240",
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=U81sZXL_Uog",
-          "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-08-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 100",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
-          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-08-01",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
-          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "4727",
       "display": "CN 4727",
       "sighting_count": 3,
@@ -11411,6 +11560,54 @@
     },
     {
       "road": "CN",
+      "number": "2234",
+      "display": "CN 2234",
+      "sighting_count": 2,
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 100",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-04",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MgFcBaGoPXs",
+          "title": "Various CP Freight Trains Around Winnipeg - Late August 2026",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2236",
       "display": "CN 2236",
       "sighting_count": 2,
@@ -11786,54 +11983,6 @@
     },
     {
       "road": "CN",
-      "number": "2297",
-      "display": "CN 2297",
-      "sighting_count": 2,
-      "first_seen": "2026-07-07",
-      "last_seen": "2026-09-05",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "Z112",
-        "CN 410"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-05",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z112",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=w8z7XfSNCPM",
-          "title": "CN 3119 + CN 2297 lead CN Z112 south",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 410",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
-          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "2305",
       "display": "CN 2305",
       "sighting_count": 2,
@@ -11970,6 +12119,54 @@
           "video_url": "https://www.youtube.com/watch?v=B5QJGLin4LE",
           "title": "CN Train 276 Eastbound July 21, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2328",
+      "display": "CN 2328",
+      "sighting_count": 2,
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 100",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-04",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MgFcBaGoPXs",
+          "title": "Various CP Freight Trains Around Winnipeg - Late August 2026",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -14276,50 +14473,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Z0HMbkVIpSE",
           "title": "CP 3042 + CP 4522 lead CPKC H17 north",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3049",
-      "display": "CN 3049",
-      "sighting_count": 2,
-      "first_seen": "2026-06-21",
-      "last_seen": "2026-08-01",
-      "corridors": [
-        "CN Mainline Manitoba"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-01",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
-          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-06-21",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
-          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
           "source": "symbol_extraction"
         }
       ]
@@ -21131,6 +21284,155 @@
     },
     {
       "road": "CP",
+      "number": "3109",
+      "display": "CP 3109",
+      "sighting_count": 4,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 100",
+        "L533",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-30",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "L533",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3uLy3P_paqs",
+          "title": "Fallen Flag Leaders on CP and CN Trains In Winnipeg!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "4444",
+      "display": "CP 4444",
+      "sighting_count": 4,
+      "first_seen": "2026-08-01",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 100",
+        "CN 240"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-07",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 240",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=U81sZXL_Uog",
+          "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
+          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "4522",
       "display": "CP 4522",
       "sighting_count": 4,
@@ -21769,6 +22071,66 @@
     },
     {
       "road": "CP",
+      "number": "3049",
+      "display": "CP 3049",
+      "sighting_count": 3,
+      "first_seen": "2026-06-21",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 100"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-01",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
+          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-21",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
+          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "3055",
       "display": "CP 3055",
       "sighting_count": 3,
@@ -21823,66 +22185,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=oOt9QVZXZQs",
           "title": "CP 3055 + CP 4522 lead CPKC H17 north",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "3109",
-      "display": "CP 3109",
-      "sighting_count": 3,
-      "first_seen": "2026-06-21",
-      "last_seen": "2026-08-30",
-      "corridors": [
-        "CN Mainline Manitoba"
-      ],
-      "trains_led": [
-        "L533",
-        "CN 118"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-30",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "L533",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=3uLy3P_paqs",
-          "title": "Fallen Flag Leaders on CP and CN Trains In Winnipeg!",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-14",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 118",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
-          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-21",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
-          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
           "source": "text_extraction"
         }
       ]
@@ -22001,67 +22303,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=JscciXab_bA",
           "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "4444",
-      "display": "CP 4444",
-      "sighting_count": 3,
-      "first_seen": "2026-08-01",
-      "last_seen": "2026-09-07",
-      "corridors": [
-        "CN Mainline Manitoba",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 240",
-        "CN 100"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-07",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 240",
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=U81sZXL_Uog",
-          "title": "Cool CN, BNSF and CP Rail Action Inside and Outside Winnipeg",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-07",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "CN 100",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=RRV2pkd28nY",
-          "title": "Another Busy Evening On The CP Keewatin Subdivision w/ Tripl",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-01",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
-          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
           "source": "text_extraction"
         }
       ]
@@ -22921,6 +23162,54 @@
     },
     {
       "road": "CP",
+      "number": "2234",
+      "display": "CP 2234",
+      "sighting_count": 2,
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 100",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-04",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MgFcBaGoPXs",
+          "title": "Various CP Freight Trains Around Winnipeg - Late August 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "2264",
       "display": "CP 2264",
       "sighting_count": 2,
@@ -22960,6 +23249,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
           "title": "CP 9820 + CP 7040 + CP 2264 head west",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "2297",
+      "display": "CP 2297",
+      "sighting_count": 2,
+      "first_seen": "2026-07-07",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 100",
+        "CN 410"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-07",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 410",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
+          "title": "Assorted CP Train Action Around Winnipeg - June 2026",
           "source": "text_extraction"
         }
       ]
@@ -23013,6 +23349,54 @@
     },
     {
       "road": "CP",
+      "number": "2328",
+      "display": "CP 2328",
+      "sighting_count": 2,
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-09-19",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 100",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-04",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MgFcBaGoPXs",
+          "title": "Various CP Freight Trains Around Winnipeg - Late August 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "3042",
       "display": "CP 3042",
       "sighting_count": 2,
@@ -23054,50 +23438,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Z0HMbkVIpSE",
           "title": "CP 3042 + CP 4522 lead CPKC H17 north",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "3049",
-      "display": "CP 3049",
-      "sighting_count": 2,
-      "first_seen": "2026-06-21",
-      "last_seen": "2026-08-01",
-      "corridors": [
-        "CN Mainline Manitoba"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-01",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=bJ7D-UYZJVE",
-          "title": "GP38 Leaders on Different Local Trains Around Winnipeg + Ex-",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-21",
-          "location": "Winnipeg",
-          "subdivision": "CN Mainline Manitoba",
-          "channel": "Central Canada Railfan",
-          "train_symbol": null,
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
-          "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
           "source": "text_extraction"
         }
       ]

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T10:07:51.772901Z",
+  "generated_at": "2026-09-19T20:18:40.393849Z",
   "dedup_registry": {
-    "total": 884,
+    "total": 885,
     "by_channel": {
       "Trackside Ontario": 60,
       "Trackside Tyson": 123,
@@ -11,13 +11,13 @@
       "Rail Fans Canada": 24,
       "Brockville RailFan": 311,
       "MJM Productions": 253,
-      "Central Canada Railfan": 19,
+      "Central Canada Railfan": 20,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 214,
+      "high": 215,
       "medium": 597,
       "low": 73,
       "meta": 0
@@ -33,13 +33,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 7,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 8
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -83,13 +78,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 37,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 39
     },
     {
       "channel": "Ontario Railman",
@@ -113,15 +103,139 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     }
   ],
-  "total": 884,
-  "new_this_run": 3,
-  "high_confidence": 214,
+  "total": 885,
+  "new_this_run": 1,
+  "high_confidence": 215,
   "dg_likely": 153,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "GhRe9VwhQUU",
+      "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+      "title": "Great Power on Various CP Trains Around Winnipeg!",
+      "published_at": "2026-09-19T17:00:03Z",
+      "date": "2026-09-19",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 2328",
+        "CP 2234",
+        "CP 100",
+        "CP 9758",
+        "CP 9782",
+        "CP 3109",
+        "CP 118",
+        "CP 8813",
+        "CP 4441",
+        "CP 4444",
+        "CP 5922",
+        "CP 8601",
+        "CP 4405",
+        "CP 3049",
+        "CP 2297"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2328",
+          "raw": "CP 2328"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2234",
+          "raw": "CP 2234"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 100",
+          "raw": "CP 100"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9758",
+          "raw": "CP 9758"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9782",
+          "raw": "CP 9782"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3109",
+          "raw": "CP 3109"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CP 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8813",
+          "raw": "CP 8813"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4441",
+          "raw": "CP 4441"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4444",
+          "raw": "CP 4444"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5922",
+          "raw": "CP 5922"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8601",
+          "raw": "CP 8601"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4405",
+          "raw": "CP 4405"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3049",
+          "raw": "CP 3049"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2297",
+          "raw": "CP 2297"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Great Power on Various CP Trains Around Winnipeg!",
+      "description_chars": 1436,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
