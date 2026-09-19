@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-18T20:40:06.473788Z",
+  "generated_at": "2026-09-19T10:07:51.772901Z",
   "dedup_registry": {
-    "total": 881,
+    "total": 884,
     "by_channel": {
       "Trackside Ontario": 60,
-      "Trackside Tyson": 122,
+      "Trackside Tyson": 123,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 24,
       "Brockville RailFan": 311,
-      "MJM Productions": 251,
+      "MJM Productions": 253,
       "Central Canada Railfan": 19,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,26 +18,26 @@
     },
     "by_confidence": {
       "high": 214,
-      "medium": 595,
-      "low": 72,
+      "medium": 597,
+      "low": 73,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-11T00:00:00Z",
+  "since": "2026-09-12T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "Trackside Tyson",
       "videos": 1,
       "skipped": 7,
       "high": 0,
-      "medium": 1,
-      "low_meta": 0,
+      "medium": 0,
+      "low_meta": 1,
       "dg_likely": 0,
       "defaulted": 0
     },
@@ -68,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 9,
-      "skipped": 14,
-      "high": 7,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 6,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 20
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,13 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 21,
-      "skipped": 16,
+      "videos": 2,
+      "skipped": 37,
       "high": 0,
-      "medium": 21,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 21
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +117,117 @@
       "skipped": 0
     }
   ],
-  "total": 881,
-  "new_this_run": 31,
+  "total": 884,
+  "new_this_run": 3,
   "high_confidence": 214,
   "dg_likely": 153,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "JQYk1Vp-RUY",
+      "video_url": "https://www.youtube.com/watch?v=JQYk1Vp-RUY",
+      "title": "CP 3085 + CP 3027 + CP 2317 lead H17",
+      "published_at": "2026-09-19T05:24:07Z",
+      "date": "2026-09-19",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3085",
+        "CP 3027",
+        "CP 2317"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3085",
+          "raw": "CP 3085"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 3027",
+          "raw": "CP 3027"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 2317",
+          "raw": "CP 2317"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 3085 + CP 3027 + CP 2317 lead H17",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "ezZYrGr3BHE",
+      "video_url": "https://www.youtube.com/watch?v=ezZYrGr3BHE",
+      "title": "DOUBLE STACK THRU TUNNEL #youtubeshorts",
+      "published_at": "2026-09-19T00:00:21Z",
+      "date": "2026-09-19",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "DOUBLE STACK THRU TUNNEL #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "WGD2zVXN0Ik",
+      "video_url": "https://www.youtube.com/watch?v=WGD2zVXN0Ik",
+      "title": "VIA 6408 F40PH heads through Clarke West",
+      "published_at": "2026-09-18T20:47:44Z",
+      "date": "2026-09-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 6408"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 6408",
+          "raw": "VIA 6408"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA 6408 F40PH heads through Clarke West",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
