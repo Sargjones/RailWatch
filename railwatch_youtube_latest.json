@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-19T20:18:40.393849Z",
+  "generated_at": "2026-09-20T10:26:27.025940Z",
   "dedup_registry": {
-    "total": 885,
+    "total": 888,
     "by_channel": {
       "Trackside Ontario": 60,
-      "Trackside Tyson": 123,
+      "Trackside Tyson": 125,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 24,
       "Brockville RailFan": 311,
-      "MJM Productions": 253,
+      "MJM Productions": 254,
       "Central Canada Railfan": 20,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 215,
-      "medium": 597,
-      "low": 73,
+      "medium": 599,
+      "low": 74,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-12T00:00:00Z",
+  "since": "2026-09-13T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 8
+      "videos": 2,
+      "skipped": 7,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -78,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 39
+      "videos": 1,
+      "skipped": 34,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -103,20 +113,399 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 0,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 1
     }
   ],
-  "total": 885,
-  "new_this_run": 1,
+  "total": 888,
+  "new_this_run": 3,
   "high_confidence": 215,
   "dg_likely": 153,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "R_zJ5mbvSOc",
+      "video_url": "https://www.youtube.com/watch?v=R_zJ5mbvSOc",
+      "title": "BUSY RAILROAD ACTION AT BASQUE JUNCTION IN CANADA'S DESERT!",
+      "published_at": "2026-09-20T02:28:34Z",
+      "date": "2026-09-20",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "BUSY RAILROAD ACTION AT BASQUE JUNCTION IN CANADA'S DESERT!",
+      "description_chars": 447,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "out-of-province",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "eul4DP-mHm0",
+      "video_url": "https://www.youtube.com/watch?v=eul4DP-mHm0",
+      "title": "GRAIN TRAIN THRU FALL SCENERY IN THE CANYON #youtubeshorts",
+      "published_at": "2026-09-20T00:15:24Z",
+      "date": "2026-09-20",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "GRAIN TRAIN THRU FALL SCENERY IN THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Bq0VZotgbzs",
+      "video_url": "https://www.youtube.com/watch?v=Bq0VZotgbzs",
+      "title": "MONSTER ACTION! Railfanning at Lovekin, ON (SEP 18, 2026)",
+      "published_at": "2026-09-19T23:18:17Z",
+      "date": "2026-09-18",
+      "location": "Brampton",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6833,
+      "lon": -79.7667,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3368",
+        "CN 3886",
+        "VIA 2226",
+        "VIA 2310",
+        "CN 2769",
+        "CN 3811",
+        "CPKC 113",
+        "CP 7578",
+        "VIA 2228",
+        "CPKC 132",
+        "CP 9839",
+        "CN 3261",
+        "CN 3211",
+        "CN 5787",
+        "CN 8309",
+        "VIA 904",
+        "VIA 2217",
+        "VIA 2320",
+        "CN 2260",
+        "CN 8954",
+        "CPKC 118",
+        "CP 7432",
+        "CP 9752",
+        "VIA 2307",
+        "VIA 2208",
+        "VIA 910",
+        "VIA 6410",
+        "VIA 2302",
+        "VIA 2203",
+        "CN 3289",
+        "CN 3838",
+        "VIA 2211",
+        "VIA 2311",
+        "CN 2844",
+        "CN 3414",
+        "CN 3813",
+        "CN 3350",
+        "CN 3907",
+        "CN 3888",
+        "VIA 903",
+        "VIA 911",
+        "VIA 6408",
+        "VIA 909"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "M377",
+          "raw": "M377"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3368",
+          "raw": "CN 3368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3886",
+          "raw": "CN 3886"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2226",
+          "raw": "VIA 2226"
+        },
+        {
+          "road": "VIA",
+          "symbol": "VIA 2310",
+          "raw": "VIA 2310"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z121",
+          "raw": "Z121"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2769",
+          "raw": "CN 2769"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3811",
+          "raw": "CN 3811"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7578",
+          "raw": "CP 7578"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2228",
+          "raw": "VIA 2228"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 132",
+          "raw": "CPKC 132"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9839",
+          "raw": "CP 9839"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q185",
+          "raw": "Q185"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3261",
+          "raw": "CN 3261"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3211",
+          "raw": "CN 3211"
+        },
+        {
+          "road": "CN",
+          "symbol": "M372",
+          "raw": "M372"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5787",
+          "raw": "CN 5787"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8309",
+          "raw": "CN 8309"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 904",
+          "raw": "VIA 904"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2217",
+          "raw": "VIA 2217"
+        },
+        {
+          "road": "VIA",
+          "symbol": "VIA 2320",
+          "raw": "VIA 2320"
+        },
+        {
+          "road": "CN",
+          "symbol": "E278",
+          "raw": "E278"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2260",
+          "raw": "CN 2260"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8954",
+          "raw": "CN 8954"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7432",
+          "raw": "CP 7432"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 9752",
+          "raw": "CP 9752"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2307",
+          "raw": "VIA 2307"
+        },
+        {
+          "road": "VIA",
+          "symbol": "VIA 2208",
+          "raw": "VIA 2208"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 910",
+          "raw": "VIA 910"
+        },
+        {
+          "road": "VIA",
+          "symbol": "VIA 6410",
+          "raw": "VIA 6410"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2302",
+          "raw": "VIA 2302"
+        },
+        {
+          "road": "VIA",
+          "symbol": "VIA 2203",
+          "raw": "VIA 2203"
+        },
+        {
+          "road": "CN",
+          "symbol": "M371",
+          "raw": "M371"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3289",
+          "raw": "CN 3289"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3838",
+          "raw": "CN 3838"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2211",
+          "raw": "VIA 2211"
+        },
+        {
+          "road": "VIA",
+          "symbol": "VIA 2311",
+          "raw": "VIA 2311"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q149",
+          "raw": "Q149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2844",
+          "raw": "CN 2844"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3414",
+          "raw": "CN 3414"
+        },
+        {
+          "road": "CN",
+          "symbol": "M305",
+          "raw": "M305"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3813",
+          "raw": "CN 3813"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3350",
+          "raw": "CN 3350"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q148",
+          "raw": "Q148"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3907",
+          "raw": "CN 3907"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3888",
+          "raw": "CN 3888"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 903",
+          "raw": "VIA 903"
+        },
+        {
+          "road": "VIA",
+          "symbol": "VIA 911",
+          "raw": "VIA 911"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 6408",
+          "raw": "VIA 6408"
+        },
+        {
+          "road": "VIA",
+          "symbol": "VIA 909",
+          "raw": "VIA 909"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "MONSTER ACTION! Railfanning at Lovekin, ON (SEP 18, 2026)",
+      "description_chars": 2747,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
