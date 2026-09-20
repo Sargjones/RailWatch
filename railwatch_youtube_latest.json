@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T10:26:27.025940Z",
+  "generated_at": "2026-09-20T20:33:22.012637Z",
   "dedup_registry": {
-    "total": 888,
+    "total": 892,
     "by_channel": {
       "Trackside Ontario": 60,
       "Trackside Tyson": 125,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 24,
       "Brockville RailFan": 311,
-      "MJM Productions": 254,
+      "MJM Productions": 258,
       "Central Canada Railfan": 20,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 215,
-      "medium": 599,
+      "medium": 603,
       "low": 74,
       "meta": 0
     }
@@ -33,13 +33,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 2,
-      "skipped": 7,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 9
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -83,13 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 34,
+      "videos": 4,
+      "skipped": 35,
       "high": 0,
-      "medium": 1,
+      "medium": 4,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 0
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +112,171 @@
       "skipped": 1
     }
   ],
-  "total": 888,
-  "new_this_run": 3,
+  "total": 892,
+  "new_this_run": 4,
   "high_confidence": 215,
   "dg_likely": 153,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "HQ86neuJBsI",
+      "video_url": "https://www.youtube.com/watch?v=HQ86neuJBsI",
+      "title": "CP 7561 leads CPKC 113 across the bridge",
+      "published_at": "2026-09-20T18:30:10Z",
+      "date": "2026-09-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7561",
+        "CPKC 113"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7561",
+          "raw": "CP 7561"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7561 leads CPKC 113 across the bridge",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Jc7VNC0PKFo",
+      "video_url": "https://www.youtube.com/watch?v=Jc7VNC0PKFo",
+      "title": "CP 9805 AC4400CW leads CPKC 236 west",
+      "published_at": "2026-09-20T17:05:34Z",
+      "date": "2026-09-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9805",
+        "CPKC 236"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9805",
+          "raw": "CP 9805"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 236",
+          "raw": "CPKC 236"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9805 AC4400CW leads CPKC 236 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "nCyQAo7GvLg",
+      "video_url": "https://www.youtube.com/watch?v=nCyQAo7GvLg",
+      "title": "CP 8832 + KCS 4162 lead CPKC 118 east",
+      "published_at": "2026-09-20T15:08:46Z",
+      "date": "2026-09-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8832",
+        "CPKC 118"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8832",
+          "raw": "CP 8832"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8832 + KCS 4162 lead CPKC 118 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "m9Cn8xH8-Aw",
+      "video_url": "https://www.youtube.com/watch?v=m9Cn8xH8-Aw",
+      "title": "CN 5634 leads CN Q107 up the Bala sub",
+      "published_at": "2026-09-20T13:33:45Z",
+      "date": "2026-09-20",
+      "location": "CN Bala Sub",
+      "subdivision": "CN Bala Sub",
+      "lat": 44.5,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5634"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5634",
+          "raw": "CN 5634"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 5634 leads CN Q107 up the Bala sub",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
