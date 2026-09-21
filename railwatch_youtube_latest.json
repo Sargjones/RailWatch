@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-20T20:33:22.012637Z",
+  "generated_at": "2026-09-21T11:43:20.764076Z",
   "dedup_registry": {
-    "total": 892,
+    "total": 894,
     "by_channel": {
       "Trackside Ontario": 60,
       "Trackside Tyson": 125,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 24,
       "Brockville RailFan": 311,
-      "MJM Productions": 258,
+      "MJM Productions": 260,
       "Central Canada Railfan": 20,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,23 +18,23 @@
     },
     "by_confidence": {
       "high": 215,
-      "medium": 603,
+      "medium": 605,
       "low": 74,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-13T00:00:00Z",
+  "since": "2026-09-14T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     },
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 9
+      "skipped": 8
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -49,7 +49,7 @@
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
       "videos": 0,
-      "skipped": 2,
+      "skipped": 1,
       "high": 0,
       "medium": 0,
       "low_meta": 0,
@@ -78,13 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 4,
-      "skipped": 35,
+      "videos": 2,
+      "skipped": 34,
       "high": 0,
-      "medium": 4,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 3
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +112,77 @@
       "skipped": 1
     }
   ],
-  "total": 892,
-  "new_this_run": 4,
+  "total": 894,
+  "new_this_run": 2,
   "high_confidence": 215,
   "dg_likely": 153,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "7FU7GpJ46os",
+      "video_url": "https://www.youtube.com/watch?v=7FU7GpJ46os",
+      "title": "AC4400s! Railfanning the CPKC Belleville Sub (SEP 20, 2026)",
+      "published_at": "2026-09-21T00:22:19Z",
+      "date": "2026-09-20",
+      "location": "Belleville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.16,
+      "lon": -77.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "AC4400s! Railfanning the CPKC Belleville Sub (SEP 20, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "GsZ_XFU6Ads",
+      "video_url": "https://www.youtube.com/watch?v=GsZ_XFU6Ads",
+      "title": "CP 9825 leads CPKC 529 thru Cherrywood",
+      "published_at": "2026-09-20T21:05:53Z",
+      "date": "2026-09-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9825",
+        "CPKC 529"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9825",
+          "raw": "CP 9825"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 529",
+          "raw": "CPKC 529"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9825 leads CPKC 529 thru Cherrywood",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
