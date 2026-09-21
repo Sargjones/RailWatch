@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-21T11:43:20.764076Z",
+  "generated_at": "2026-09-21T21:50:20.127490Z",
   "dedup_registry": {
-    "total": 894,
+    "total": 906,
     "by_channel": {
       "Trackside Ontario": 60,
       "Trackside Tyson": 125,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
-      "Rail Fans Canada": 24,
-      "Brockville RailFan": 311,
+      "Rail Fans Canada": 26,
+      "Brockville RailFan": 321,
       "MJM Productions": 260,
       "Central Canada Railfan": 20,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 215,
-      "medium": 605,
+      "high": 221,
+      "medium": 611,
       "low": 74,
       "meta": 0
     }
@@ -58,13 +58,23 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 2
+      "videos": 2,
+      "skipped": 2,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 20
+      "videos": 10,
+      "skipped": 20,
+      "high": 6,
+      "medium": 4,
+      "low_meta": 0,
+      "dg_likely": 5,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 34,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 36
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,614 @@
       "skipped": 1
     }
   ],
-  "total": 894,
-  "new_this_run": 2,
-  "high_confidence": 215,
-  "dg_likely": 153,
+  "total": 906,
+  "new_this_run": 12,
+  "high_confidence": 221,
+  "dg_likely": 158,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "F24foXPjU5k",
+      "video_url": "https://www.youtube.com/watch?v=F24foXPjU5k",
+      "title": "\ud83d\ude86 LIVE O-Train Ottawa | Bayview Station (Line 1 & 2 Trains 24/7)",
+      "published_at": "2026-09-21T20:14:15Z",
+      "date": "2026-09-21",
+      "location": "Bayview",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "\ud83d\ude86 LIVE O-Train Ottawa | Bayview Station (Line 1 & 2 Trains 24/7)",
+      "description_chars": 1504,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "MDedWvqacWY",
+      "video_url": "https://www.youtube.com/watch?v=MDedWvqacWY",
+      "title": "VIA Train 61 Westbound September 21, 2026",
+      "published_at": "2026-09-21T15:38:20Z",
+      "date": "2026-09-21",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound September 21, 2026",
+      "description_chars": 169,
+      "consist": {
+        "speed_kmh": 108,
+        "speed_raw": "67 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:52",
+        "observed_tz": "EDT",
+        "temperature_c": 8,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-21T08:52-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "cmUX9vNqtMQ",
+      "video_url": "https://www.youtube.com/watch?v=cmUX9vNqtMQ",
+      "title": "CN Train 278 Eastbound September 21, 2026",
+      "published_at": "2026-09-21T15:30:29Z",
+      "date": "2026-09-21",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 8323",
+        "CN 2553"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 278",
+          "raw": "CN Train 278"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8323",
+          "raw": "CN 8323"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2553",
+          "raw": "CN 2553"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 278 Eastbound September 21, 2026",
+      "description_chars": 238,
+      "consist": {
+        "engines": [
+          "CN 8323",
+          "CN 2553"
+        ],
+        "car_count": 106,
+        "consist_type": "freight",
+        "speed_kmh": 56,
+        "speed_raw": "35 mph",
+        "detector_milepost": 137,
+        "observed_time": "08:42",
+        "observed_tz": "EDT",
+        "temperature_c": 8,
+        "origin": "Chicago Markham IL",
+        "destination": "Moncton NB"
+      },
+      "observed_at": "2026-09-21T08:42-04:00",
+      "origin": "Chicago Markham IL",
+      "destination": "Moncton NB",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "_w7ry3sbgd0",
+      "video_url": "https://www.youtube.com/watch?v=_w7ry3sbgd0",
+      "title": "CN Train 322 Eastbound September 21, 2026",
+      "published_at": "2026-09-21T15:21:58Z",
+      "date": "2026-09-21",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2304",
+        "CN 2303"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2304",
+          "raw": "CN 2304"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2303",
+          "raw": "CN 2303"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 322 Eastbound September 21, 2026",
+      "description_chars": 203,
+      "consist": {
+        "engines": [
+          "CN 2304"
+        ],
+        "dpu": [
+          "CN 2303"
+        ],
+        "car_count": 112,
+        "consist_type": "freight",
+        "speed_kmh": 39,
+        "speed_raw": "24 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:02",
+        "observed_tz": "EDT",
+        "temperature_c": 7,
+        "origin": "Toronto McMillan ON",
+        "destination": "St",
+        "consist_anomaly": "Lambert QC"
+      },
+      "observed_at": "2026-09-21T08:02-04:00",
+      "origin": "Toronto McMillan ON",
+      "destination": "St",
+      "consist_anomaly": "Lambert QC",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "w6sPwiWMxcs",
+      "video_url": "https://www.youtube.com/watch?v=w6sPwiWMxcs",
+      "title": "CN Train 322 Setting Off September 21, 2026",
+      "published_at": "2026-09-21T15:11:52Z",
+      "date": "2026-09-21",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2304",
+        "CN 2303"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2304",
+          "raw": "CN 2304"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2303",
+          "raw": "CN 2303"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 322 Setting Off September 21, 2026",
+      "description_chars": 215,
+      "consist": {
+        "engines": [
+          "CN 2304"
+        ],
+        "dpu": [
+          "CN 2303"
+        ],
+        "car_count": 18,
+        "car_count_note": ", 17 were set off, one was retained",
+        "consist_type": "freight",
+        "observed_time": "07:28",
+        "observed_tz": "EDT",
+        "temperature_c": 7,
+        "origin": "Toronto McMillan ON",
+        "destination": "St",
+        "consist_anomaly": "Lambert QC"
+      },
+      "observed_at": "2026-09-21T07:28-04:00",
+      "origin": "Toronto McMillan ON",
+      "destination": "St",
+      "consist_anomaly": "Lambert QC",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "qCx9EoaxegU",
+      "video_url": "https://www.youtube.com/watch?v=qCx9EoaxegU",
+      "title": "CN Train 271 Westbound September 19, 2026",
+      "published_at": "2026-09-21T14:59:59Z",
+      "date": "2026-09-19",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 5787",
+        "CN 3198"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 271",
+          "raw": "CN Train 271"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5787",
+          "raw": "CN 5787"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3198",
+          "raw": "CN 3198"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 271 Westbound September 19, 2026",
+      "description_chars": 195,
+      "consist": {
+        "engines": [
+          "CN 5787",
+          "CN 3198"
+        ],
+        "car_count": 87,
+        "consist_type": "freight",
+        "speed_kmh": 58,
+        "speed_raw": "36 mph",
+        "detector_milepost": 124,
+        "observed_time": "14:21",
+        "observed_tz": "EDT",
+        "temperature_c": 16,
+        "origin": "Montreal Taschereau QC",
+        "destination": "Flint MI"
+      },
+      "observed_at": "2026-09-19T14:21-04:00",
+      "origin": "Montreal Taschereau QC",
+      "destination": "Flint MI",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "jqVE7avBKLo",
+      "video_url": "https://www.youtube.com/watch?v=jqVE7avBKLo",
+      "title": "VIA Train 63 Westbound September 19, 2026",
+      "published_at": "2026-09-21T14:47:29Z",
+      "date": "2026-09-19",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 63",
+          "raw": "VIA Train 63"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 63 Westbound September 19, 2026",
+      "description_chars": 218,
+      "consist": {
+        "speed_kmh": 93,
+        "speed_raw": "58 mph",
+        "detector_milepost": 124,
+        "observed_time": "10:58",
+        "observed_tz": "EDT",
+        "temperature_c": 12,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-19T10:58-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "wIgob0VvY6c",
+      "video_url": "https://www.youtube.com/watch?v=wIgob0VvY6c",
+      "title": "VIA Train 643 September 19, 2026",
+      "published_at": "2026-09-21T14:41:32Z",
+      "date": "2026-09-19",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 643",
+          "raw": "VIA Train 643"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 643 September 19, 2026",
+      "description_chars": 170,
+      "consist": {
+        "coaches": [
+          "4009",
+          "4000",
+          "4110",
+          "4115",
+          "4111"
+        ],
+        "car_count": 5,
+        "consist_type": "passenger",
+        "observed_time": "09:52",
+        "observed_tz": "EDT",
+        "temperature_c": 11,
+        "origin": "Ottawa ON",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-19T09:52-04:00",
+      "origin": "Ottawa ON",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "WfyTr9YEV4U",
+      "video_url": "https://www.youtube.com/watch?v=WfyTr9YEV4U",
+      "title": "CN Train 149 Westbound September 19, 2026",
+      "published_at": "2026-09-21T14:31:23Z",
+      "date": "2026-09-19",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3888",
+        "CN 3907"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3888",
+          "raw": "CN 3888"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3907",
+          "raw": "CN 3907"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound September 19, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 3888",
+          "CN 3907"
+        ],
+        "car_count": 201,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 61,
+        "speed_raw": "38 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:28",
+        "observed_tz": "EDT",
+        "temperature_c": 10,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-09-19T09:28-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "kNTOibN_-NM",
+      "video_url": "https://www.youtube.com/watch?v=kNTOibN_-NM",
+      "title": "VIA Train 61 Westbound September 19, 2026",
+      "published_at": "2026-09-21T14:18:16Z",
+      "date": "2026-09-19",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound September 19, 2026",
+      "description_chars": 221,
+      "consist": {
+        "speed_kmh": 95,
+        "speed_raw": "59 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:53",
+        "observed_tz": "EDT",
+        "temperature_c": 8,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-19T08:53-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Vt0ZA8LXU-Y",
+      "video_url": "https://www.youtube.com/watch?v=Vt0ZA8LXU-Y",
+      "title": "CN Train 377 Westbound September 19, 2026",
+      "published_at": "2026-09-21T14:13:10Z",
+      "date": "2026-09-19",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 5634",
+        "CN 8811"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 377",
+          "raw": "CN Train 377"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5634",
+          "raw": "CN 5634"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8811",
+          "raw": "CN 8811"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 377 Westbound September 19, 2026",
+      "description_chars": 201,
+      "consist": {
+        "engines": [
+          "CN 5634",
+          "CN 8811"
+        ],
+        "car_count": 136,
+        "car_count_note": ", including a 3 well car",
+        "consist_type": "freight",
+        "observed_time": "08:48",
+        "observed_tz": "EDT",
+        "temperature_c": 8,
+        "origin": "Montreal Taschereau QC",
+        "destination": "Toronto MacMillan ON"
+      },
+      "observed_at": "2026-09-19T08:48-04:00",
+      "origin": "Montreal Taschereau QC",
+      "destination": "Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
@@ -891,6 +1499,32 @@
       "description_chars": 0,
       "consist": null,
       "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "0iV9U5R7x9g",
+      "video_url": "https://www.youtube.com/watch?v=0iV9U5R7x9g",
+      "title": "O-Train Line 2: Why Is It Stuck at 12 Minutes?",
+      "published_at": "2026-09-19T02:15:47Z",
+      "date": "2026-09-19",
+      "location": "Bayview",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "O-Train Line 2: Why Is It Stuck at 12 Minutes?",
+      "description_chars": 1426,
+      "consist": null,
+      "location_source": "extracted"
     },
     {
       "source": "youtube",
