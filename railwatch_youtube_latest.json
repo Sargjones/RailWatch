@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T10:46:49.598307Z",
+  "generated_at": "2026-09-22T21:03:42.231672Z",
   "dedup_registry": {
-    "total": 909,
+    "total": 914,
     "by_channel": {
       "Trackside Ontario": 62,
       "Trackside Tyson": 126,
@@ -9,16 +9,16 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 26,
-      "Brockville RailFan": 321,
-      "MJM Productions": 260,
+      "Brockville RailFan": 324,
+      "MJM Productions": 262,
       "Central Canada Railfan": 20,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 221,
-      "medium": 614,
+      "high": 222,
+      "medium": 618,
       "low": 74,
       "meta": 0
     }
@@ -28,23 +28,13 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 2,
-      "skipped": 1,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 8,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 9
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -73,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 28
+      "videos": 3,
+      "skipped": 28,
+      "high": 1,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 35
+      "videos": 2,
+      "skipped": 35,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +117,275 @@
       "skipped": 1
     }
   ],
-  "total": 909,
-  "new_this_run": 3,
-  "high_confidence": 221,
-  "dg_likely": 158,
+  "total": 914,
+  "new_this_run": 5,
+  "high_confidence": 222,
+  "dg_likely": 159,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "RwBaVfbPkeo",
+      "video_url": "https://www.youtube.com/watch?v=RwBaVfbPkeo",
+      "title": "AC4400CW! CP 9711 at Guelph Junction, ON (SEP 22, 2026)",
+      "published_at": "2026-09-22T20:37:40Z",
+      "date": "2026-09-22",
+      "location": "Guelph",
+      "subdivision": "CPKC Galt Sub",
+      "lat": 43.5448,
+      "lon": -80.2482,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9711"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9711",
+          "raw": "CP 9711"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "AC4400CW! CP 9711 at Guelph Junction, ON (SEP 22, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "dfG99SllvqI",
+      "video_url": "https://www.youtube.com/watch?v=dfG99SllvqI",
+      "title": "CP 9711 leads CPKC 137 at Guelph Junction",
+      "published_at": "2026-09-22T18:31:49Z",
+      "date": "2026-09-22",
+      "location": "Guelph",
+      "subdivision": "CPKC Galt Sub",
+      "lat": 43.5448,
+      "lon": -80.2482,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9711",
+        "CPKC 137"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9711",
+          "raw": "CP 9711"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 137",
+          "raw": "CPKC 137"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 9711 leads CPKC 137 at Guelph Junction",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "doyFe0EZuQc",
+      "video_url": "https://www.youtube.com/watch?v=doyFe0EZuQc",
+      "title": "VIA Train 61 Westbound September 22, 2026",
+      "published_at": "2026-09-22T14:11:17Z",
+      "date": "2026-09-22",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound September 22, 2026",
+      "description_chars": 178,
+      "consist": {
+        "coaches": [
+          "Speed: 66 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 106,
+        "speed_raw": "66 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:09",
+        "observed_tz": "EDT",
+        "temperature_c": 8,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-22T09:09-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "5QKd2mA2Mps",
+      "video_url": "https://www.youtube.com/watch?v=5QKd2mA2Mps",
+      "title": "CN Train 322 Eastbound Meets CN Train 713 Westbound September 22, 2026",
+      "published_at": "2026-09-22T14:05:30Z",
+      "date": "2026-09-22",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2896",
+        "CN 3852",
+        "CN 3220",
+        "CN 3403"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 713",
+          "raw": "CN Train 713"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2896",
+          "raw": "CN 2896"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3852",
+          "raw": "CN 3852"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3220",
+          "raw": "CN 3220"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3403",
+          "raw": "CN 3403"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Train 322 Eastbound Meets CN Train 713 Westbound September 22, 2026",
+      "description_chars": 396,
+      "consist": {
+        "observed_time": "08:04",
+        "observed_tz": "EDT",
+        "temperature_c": 6
+      },
+      "observed_at": "2026-09-22T08:04-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "3lzcPC8LVpw",
+      "video_url": "https://www.youtube.com/watch?v=3lzcPC8LVpw",
+      "title": "CN Train 322 Setting Off September 22, 2026",
+      "published_at": "2026-09-22T13:44:12Z",
+      "date": "2026-09-22",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2896",
+        "CN 3852"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2896",
+          "raw": "CN 2896"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3852",
+          "raw": "CN 3852"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 322 Setting Off September 22, 2026",
+      "description_chars": 318,
+      "consist": {
+        "engines": [
+          "CN 2896"
+        ],
+        "dpu": [
+          "CN 3852"
+        ],
+        "car_count": 130,
+        "car_count_note": "on arrival, 7 to set off",
+        "consist_type": "freight",
+        "speed_kmh": 51,
+        "speed_raw": "32 mph",
+        "detector_milepost": 137,
+        "observed_time": "07:38",
+        "observed_tz": "EDT",
+        "temperature_c": 5,
+        "origin": "Toronto MacMillan ON",
+        "destination": "St",
+        "consist_anomaly": "Lambert QC"
+      },
+      "observed_at": "2026-09-22T07:38-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "consist_anomaly": "Lambert QC",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

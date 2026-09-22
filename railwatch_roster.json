@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-22T10:46:49.754854Z",
-  "total_units": 478,
+  "generated_at": "2026-09-22T21:03:42.395480Z",
+  "total_units": 481,
   "min_sightings": 2,
   "by_road": {
-    "CN": 376,
+    "CN": 378,
     "VIA": 9,
-    "CP": 91,
+    "CP": 92,
     "RUCK": 1,
     "AC": 1
   },
@@ -3333,6 +3333,95 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=tALiqTGcKDQ",
           "title": "CN Train 368 Starting Their Lift, July 15, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3852",
+      "display": "CN 3852",
+      "sighting_count": 5,
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-09-22",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 322",
+        "CN 149"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5QKd2mA2Mps",
+          "title": "CN Train 322 Eastbound Meets CN Train 713 Westbound Septembe",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3lzcPC8LVpw",
+          "title": "CN Train 322 Setting Off September 22, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=3lzcPC8LVpw",
+          "title": "CN Train 322 Setting Off September 22, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-07-10",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Q4-CqTUUe_I",
+          "title": "CN Train 149 Westbound July 10, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-10",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Q4-CqTUUe_I",
+          "title": "CN Train 149 Westbound July 10, 2026",
           "source": "description_structured"
         }
       ]
@@ -8382,6 +8471,66 @@
     },
     {
       "road": "CN",
+      "number": "2896",
+      "display": "CN 2896",
+      "sighting_count": 3,
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 322"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5QKd2mA2Mps",
+          "title": "CN Train 322 Eastbound Meets CN Train 713 Westbound Septembe",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3lzcPC8LVpw",
+          "title": "CN Train 322 Setting Off September 22, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": null,
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3lzcPC8LVpw",
+          "title": "CN Train 322 Setting Off September 22, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2924",
       "display": "CN 2924",
       "sighting_count": 3,
@@ -10089,6 +10238,68 @@
           "video_url": "https://www.youtube.com/watch?v=b6iBAeHqGMQ",
           "title": "CN Train 730 Eastbound June 23, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3403",
+      "display": "CN 3403",
+      "sighting_count": 3,
+      "first_seen": "2026-05-30",
+      "last_seen": "CN 3403",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 322",
+        "Z148"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 3403",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5DhdGzQ4aKM",
+          "title": "CN 3403 blasting its weird horn east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5QKd2mA2Mps",
+          "title": "CN Train 322 Eastbound Meets CN Train 713 Westbound Septembe",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-30",
+          "location": "Aldershot",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
+          "source": "text_extraction"
         }
       ]
     },
@@ -17832,53 +18043,6 @@
     },
     {
       "road": "CN",
-      "number": "3403",
-      "display": "CN 3403",
-      "sighting_count": 2,
-      "first_seen": "2026-05-30",
-      "last_seen": "CN 3403",
-      "corridors": [
-        "CN Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "Z148"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "CN 3403",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=5DhdGzQ4aKM",
-          "title": "CN 3403 blasting its weird horn east",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-05-30",
-          "location": "Aldershot",
-          "subdivision": "CN Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z148",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
-          "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "3407",
       "display": "CN 3407",
       "sighting_count": 2,
@@ -18344,53 +18508,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=-9Y7-HnIteI",
           "title": "CN Train 305 September 15, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3852",
-      "display": "CN 3852",
-      "sighting_count": 2,
-      "first_seen": "2026-07-10",
-      "last_seen": "2026-07-10",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 149"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-10",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=Q4-CqTUUe_I",
-          "title": "CN Train 149 Westbound July 10, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-10",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=Q4-CqTUUe_I",
-          "title": "CN Train 149 Westbound July 10, 2026",
           "source": "description_structured"
         }
       ]
@@ -22010,6 +22127,52 @@
           "video_url": "https://www.youtube.com/watch?v=LRXnFrVlZqM",
           "title": "CN Train 532 September 17, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "9711",
+      "display": "CN 9711",
+      "sighting_count": 2,
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "corridors": [
+        "CPKC Galt Sub"
+      ],
+      "trains_led": [
+        "CN 137"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-22",
+          "location": "Guelph",
+          "subdivision": "CPKC Galt Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RwBaVfbPkeo",
+          "title": "AC4400CW! CP 9711 at Guelph Junction, ON (SEP 22, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-22",
+          "location": "Guelph",
+          "subdivision": "CPKC Galt Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 137",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=dfG99SllvqI",
+          "title": "CP 9711 leads CPKC 137 at Guelph Junction",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -27203,6 +27366,52 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
           "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9711",
+      "display": "CP 9711",
+      "sighting_count": 2,
+      "first_seen": "2026-09-22",
+      "last_seen": "2026-09-22",
+      "corridors": [
+        "CPKC Galt Sub"
+      ],
+      "trains_led": [
+        "CN 137"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-22",
+          "location": "Guelph",
+          "subdivision": "CPKC Galt Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=RwBaVfbPkeo",
+          "title": "AC4400CW! CP 9711 at Guelph Junction, ON (SEP 22, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-22",
+          "location": "Guelph",
+          "subdivision": "CPKC Galt Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 137",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=dfG99SllvqI",
+          "title": "CP 9711 leads CPKC 137 at Guelph Junction",
           "source": "text_extraction"
         }
       ]
