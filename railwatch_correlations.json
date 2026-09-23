@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T10:36:35.908581Z",
+  "generated_at": "2026-09-23T21:18:19.377005Z",
   "total": 52,
   "cross_observer": 4,
   "chase": 48,
@@ -8,6 +8,66 @@
   "dg_correlations": 5,
   "splits_suspected": 1,
   "anomalies": [
+    {
+      "type": "consist_anomaly",
+      "channel": "Brockville RailFan",
+      "date": "2026-09-23",
+      "location": "Toronto",
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2943",
+          "raw": "CN 2943"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3062",
+          "raw": "CN 3062"
+        }
+      ],
+      "anomaly_note": "Lambert QC",
+      "car_count": 133,
+      "car_count_note": null,
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "video_url": "https://www.youtube.com/watch?v=FPRNf4tlaYQ",
+      "title": "CN Train 322 Eastbound September 23, 2026"
+    },
+    {
+      "type": "consist_anomaly",
+      "channel": "Brockville RailFan",
+      "date": "2026-09-23",
+      "location": "Toronto",
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2943",
+          "raw": "CN 2943"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3062",
+          "raw": "CN 3062"
+        }
+      ],
+      "anomaly_note": "Lambert QC",
+      "car_count": 6,
+      "car_count_note": null,
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "video_url": "https://www.youtube.com/watch?v=h_3yYTFrl-0",
+      "title": "CN Train 322 Return to Train After Set Off, September 23, 2026"
+    },
     {
       "type": "consist_anomaly",
       "channel": "Brockville RailFan",
@@ -487,7 +547,7 @@
       "consist_delta": null,
       "commodity": "hopper",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907374Z",
+      "correlated_at": "2026-09-23T21:18:19.375796Z",
       "confidence": "medium"
     },
     {
@@ -532,7 +592,7 @@
       "consist_delta": null,
       "commodity": "intermodal",
       "dg_likely": true,
-      "correlated_at": "2026-09-23T10:36:35.907605Z",
+      "correlated_at": "2026-09-23T21:18:19.376066Z",
       "confidence": "medium"
     },
     {
@@ -582,7 +642,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-23T10:36:35.907800Z",
+      "correlated_at": "2026-09-23T21:18:19.376259Z",
       "confidence": "medium"
     },
     {
@@ -632,7 +692,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-23T10:36:35.908045Z",
+      "correlated_at": "2026-09-23T21:18:19.376469Z",
       "confidence": "medium"
     },
     {
@@ -682,7 +742,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-23T10:36:35.907695Z",
+      "correlated_at": "2026-09-23T21:18:19.376154Z",
       "confidence": "low",
       "split_suspected": true
     },
@@ -728,7 +788,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907017Z",
+      "correlated_at": "2026-09-23T21:18:19.375486Z",
       "confidence": "low"
     },
     {
@@ -778,7 +838,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907047Z",
+      "correlated_at": "2026-09-23T21:18:19.375515Z",
       "confidence": "low"
     },
     {
@@ -828,7 +888,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907180Z",
+      "correlated_at": "2026-09-23T21:18:19.375609Z",
       "confidence": "low"
     },
     {
@@ -878,7 +938,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907194Z",
+      "correlated_at": "2026-09-23T21:18:19.375620Z",
       "confidence": "low"
     },
     {
@@ -928,7 +988,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907205Z",
+      "correlated_at": "2026-09-23T21:18:19.375631Z",
       "confidence": "low"
     },
     {
@@ -978,7 +1038,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907216Z",
+      "correlated_at": "2026-09-23T21:18:19.375646Z",
       "confidence": "low"
     },
     {
@@ -1028,7 +1088,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907230Z",
+      "correlated_at": "2026-09-23T21:18:19.375657Z",
       "confidence": "low"
     },
     {
@@ -1078,7 +1138,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907242Z",
+      "correlated_at": "2026-09-23T21:18:19.375667Z",
       "confidence": "low"
     },
     {
@@ -1128,7 +1188,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907254Z",
+      "correlated_at": "2026-09-23T21:18:19.375676Z",
       "confidence": "low"
     },
     {
@@ -1173,7 +1233,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907306Z",
+      "correlated_at": "2026-09-23T21:18:19.375730Z",
       "confidence": "medium"
     },
     {
@@ -1218,7 +1278,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907319Z",
+      "correlated_at": "2026-09-23T21:18:19.375742Z",
       "confidence": "medium"
     },
     {
@@ -1263,7 +1323,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907332Z",
+      "correlated_at": "2026-09-23T21:18:19.375753Z",
       "confidence": "low"
     },
     {
@@ -1308,7 +1368,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907341Z",
+      "correlated_at": "2026-09-23T21:18:19.375762Z",
       "confidence": "low"
     },
     {
@@ -1353,7 +1413,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907382Z",
+      "correlated_at": "2026-09-23T21:18:19.375804Z",
       "confidence": "low"
     },
     {
@@ -1398,7 +1458,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907405Z",
+      "correlated_at": "2026-09-23T21:18:19.375828Z",
       "confidence": "low"
     },
     {
@@ -1443,7 +1503,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907416Z",
+      "correlated_at": "2026-09-23T21:18:19.375837Z",
       "confidence": "low"
     },
     {
@@ -1488,7 +1548,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907430Z",
+      "correlated_at": "2026-09-23T21:18:19.375851Z",
       "confidence": "low"
     },
     {
@@ -1533,7 +1593,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907444Z",
+      "correlated_at": "2026-09-23T21:18:19.375867Z",
       "confidence": "low"
     },
     {
@@ -1578,7 +1638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907472Z",
+      "correlated_at": "2026-09-23T21:18:19.375895Z",
       "confidence": "low"
     },
     {
@@ -1623,7 +1683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907483Z",
+      "correlated_at": "2026-09-23T21:18:19.375919Z",
       "confidence": "low"
     },
     {
@@ -1668,7 +1728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907496Z",
+      "correlated_at": "2026-09-23T21:18:19.375931Z",
       "confidence": "low"
     },
     {
@@ -1713,7 +1773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907507Z",
+      "correlated_at": "2026-09-23T21:18:19.375942Z",
       "confidence": "low"
     },
     {
@@ -1758,7 +1818,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907518Z",
+      "correlated_at": "2026-09-23T21:18:19.375953Z",
       "confidence": "low"
     },
     {
@@ -1803,7 +1863,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907531Z",
+      "correlated_at": "2026-09-23T21:18:19.375966Z",
       "confidence": "low"
     },
     {
@@ -1848,7 +1908,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907544Z",
+      "correlated_at": "2026-09-23T21:18:19.375980Z",
       "confidence": "low"
     },
     {
@@ -1893,7 +1953,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907559Z",
+      "correlated_at": "2026-09-23T21:18:19.375992Z",
       "confidence": "low"
     },
     {
@@ -1938,7 +1998,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907571Z",
+      "correlated_at": "2026-09-23T21:18:19.376003Z",
       "confidence": "low"
     },
     {
@@ -1983,7 +2043,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907582Z",
+      "correlated_at": "2026-09-23T21:18:19.376016Z",
       "confidence": "low"
     },
     {
@@ -2033,7 +2093,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-09-23T10:36:35.907707Z",
+      "correlated_at": "2026-09-23T21:18:19.376164Z",
       "confidence": "low"
     },
     {
@@ -2078,7 +2138,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907901Z",
+      "correlated_at": "2026-09-23T21:18:19.376327Z",
       "confidence": "low"
     },
     {
@@ -2128,7 +2188,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907934Z",
+      "correlated_at": "2026-09-23T21:18:19.376359Z",
       "confidence": "low"
     },
     {
@@ -2173,7 +2233,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907970Z",
+      "correlated_at": "2026-09-23T21:18:19.376399Z",
       "confidence": "low"
     },
     {
@@ -2218,7 +2278,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.907989Z",
+      "correlated_at": "2026-09-23T21:18:19.376415Z",
       "confidence": "low"
     },
     {
@@ -2263,7 +2323,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908005Z",
+      "correlated_at": "2026-09-23T21:18:19.376430Z",
       "confidence": "low"
     },
     {
@@ -2308,7 +2368,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908247Z",
+      "correlated_at": "2026-09-23T21:18:19.376643Z",
       "confidence": "low"
     },
     {
@@ -2353,7 +2413,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908291Z",
+      "correlated_at": "2026-09-23T21:18:19.376680Z",
       "confidence": "low"
     },
     {
@@ -2398,7 +2458,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908299Z",
+      "correlated_at": "2026-09-23T21:18:19.376688Z",
       "confidence": "low"
     },
     {
@@ -2443,7 +2503,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908306Z",
+      "correlated_at": "2026-09-23T21:18:19.376698Z",
       "confidence": "low"
     },
     {
@@ -2488,7 +2548,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908335Z",
+      "correlated_at": "2026-09-23T21:18:19.376727Z",
       "confidence": "low"
     },
     {
@@ -2533,7 +2593,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908384Z",
+      "correlated_at": "2026-09-23T21:18:19.376774Z",
       "confidence": "low"
     },
     {
@@ -2578,7 +2638,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908396Z",
+      "correlated_at": "2026-09-23T21:18:19.376788Z",
       "confidence": "low"
     },
     {
@@ -2623,7 +2683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908433Z",
+      "correlated_at": "2026-09-23T21:18:19.376824Z",
       "confidence": "low"
     },
     {
@@ -2668,7 +2728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908444Z",
+      "correlated_at": "2026-09-23T21:18:19.376835Z",
       "confidence": "low"
     },
     {
@@ -2713,7 +2773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908455Z",
+      "correlated_at": "2026-09-23T21:18:19.376848Z",
       "confidence": "low"
     },
     {
@@ -2758,7 +2818,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908471Z",
+      "correlated_at": "2026-09-23T21:18:19.376861Z",
       "confidence": "low"
     },
     {
@@ -2803,7 +2863,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908484Z",
+      "correlated_at": "2026-09-23T21:18:19.376876Z",
       "confidence": "low"
     },
     {
@@ -2848,7 +2908,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-09-23T10:36:35.908494Z",
+      "correlated_at": "2026-09-23T21:18:19.376888Z",
       "confidence": "low"
     }
   ]

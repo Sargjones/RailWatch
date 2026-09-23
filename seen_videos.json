@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-23T10:36:35.788383Z",
-    "total_videos": 914
+    "updated_at": "2026-09-23T21:18:19.266250Z",
+    "total_videos": 916
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5488,6 +5488,18 @@
       "title": "CP 9711 leads CPKC 137 at Guelph Junction",
       "confidence": "medium",
       "processed_at": "2026-09-22T21:03:40.968390Z"
+    },
+    "FPRNf4tlaYQ": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Eastbound September 23, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-23T21:18:17.317658Z"
+    },
+    "h_3yYTFrl-0": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Return to Train After Set Off, September 23, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-23T21:18:17.318139Z"
     }
   }
 }
