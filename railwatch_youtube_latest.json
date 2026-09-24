@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-23T21:18:19.279562Z",
+  "generated_at": "2026-09-24T10:56:11.411761Z",
   "dedup_registry": {
-    "total": 916,
+    "total": 920,
     "by_channel": {
-      "Trackside Ontario": 62,
-      "Trackside Tyson": 126,
+      "Trackside Ontario": 63,
+      "Trackside Tyson": 127,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 26,
       "Brockville RailFan": 326,
-      "MJM Productions": 262,
+      "MJM Productions": 264,
       "Central Canada Railfan": 20,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,23 +18,33 @@
     },
     "by_confidence": {
       "high": 224,
-      "medium": 618,
-      "low": 74,
+      "medium": 621,
+      "low": 75,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-16T00:00:00Z",
+  "since": "2026-09-17T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 8
+      "videos": 1,
+      "skipped": 7,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,13 +73,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 29,
-      "high": 2,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 27
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,8 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 35
+      "videos": 2,
+      "skipped": 34,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +122,152 @@
       "skipped": 1
     }
   ],
-  "total": 916,
-  "new_this_run": 2,
+  "total": 920,
+  "new_this_run": 4,
   "high_confidence": 224,
   "dg_likely": 161,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "YdJeOUDnUGM",
+      "video_url": "https://www.youtube.com/watch?v=YdJeOUDnUGM",
+      "title": "Tuesday Afternoon at Tansley \u2022 September 22, 2026",
+      "published_at": "2026-09-24T10:46:38Z",
+      "date": "2026-09-22",
+      "location": "Burlington",
+      "subdivision": "CN Oakville Sub",
+      "lat": 43.32,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Afternoon at Tansley \u2022 September 22, 2026",
+      "description_chars": 75,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "lxAE9T6B1NQ",
+      "video_url": "https://www.youtube.com/watch?v=lxAE9T6B1NQ",
+      "title": "BCOL HERITAGE! CN 3115 at Vaughan, ON (SEP 23, 2026)",
+      "published_at": "2026-09-24T00:24:54Z",
+      "date": "2026-09-23",
+      "location": "Brampton",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6833,
+      "lon": -79.7667,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3115",
+        "CN 2760"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3115",
+          "raw": "CN 3115"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q149",
+          "raw": "Q149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2760",
+          "raw": "CN 2760"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "BCOL HERITAGE! CN 3115 at Vaughan, ON (SEP 23, 2026)",
+      "description_chars": 529,
+      "consist": {
+        "observed_time": "6:29",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-09-23T6:29",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "j0-tRbNS4I8",
+      "video_url": "https://www.youtube.com/watch?v=j0-tRbNS4I8",
+      "title": "CN 3115 BCOL heritage leads CN Q149 west",
+      "published_at": "2026-09-23T23:50:10Z",
+      "date": "2026-09-23",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3115"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3115",
+          "raw": "CN 3115"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q149",
+          "raw": "Q149"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3115 BCOL heritage leads CN Q149 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "out-of-province",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "VyjJrt_j0fA",
+      "video_url": "https://www.youtube.com/watch?v=VyjJrt_j0fA",
+      "title": "DOUBLE STACK TRAIN IN AUTUMN SCENERY #youtubeshorts",
+      "published_at": "2026-09-23T23:00:03Z",
+      "date": "2026-09-23",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "DOUBLE STACK TRAIN IN AUTUMN SCENERY #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
