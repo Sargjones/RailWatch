@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-25T10:57:45.651972Z",
+  "generated_at": "2026-09-25T21:18:29.703216Z",
   "dedup_registry": {
-    "total": 926,
+    "total": 928,
     "by_channel": {
       "Trackside Ontario": 64,
       "Trackside Tyson": 127,
@@ -9,16 +9,16 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 26,
-      "Brockville RailFan": 331,
-      "MJM Productions": 264,
+      "Brockville RailFan": 332,
+      "MJM Productions": 265,
       "Central Canada Railfan": 20,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 228,
-      "medium": 623,
+      "high": 229,
+      "medium": 624,
       "low": 75,
       "meta": 0
     }
@@ -28,13 +28,8 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
@@ -68,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 29
+      "videos": 1,
+      "skipped": 29,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 22
+      "videos": 1,
+      "skipped": 22,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,109 @@
       "skipped": 1
     }
   ],
-  "total": 926,
-  "new_this_run": 1,
-  "high_confidence": 228,
-  "dg_likely": 162,
+  "total": 928,
+  "new_this_run": 2,
+  "high_confidence": 229,
+  "dg_likely": 163,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "E47xXRx019k",
+      "video_url": "https://www.youtube.com/watch?v=E47xXRx019k",
+      "title": "CN Train 371 Westbound September 25, 2026",
+      "published_at": "2026-09-25T13:51:12Z",
+      "date": "2026-09-25",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2822",
+        "CN 3952",
+        "CN 2235"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 371",
+          "raw": "CN Train 371"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2822",
+          "raw": "CN 2822"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3952",
+          "raw": "CN 3952"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2235",
+          "raw": "CN 2235"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 371 Westbound September 25, 2026",
+      "description_chars": 309,
+      "consist": {
+        "engines": [
+          "CN 2822",
+          "CN 3952",
+          "CN 2235"
+        ],
+        "car_count": 103,
+        "car_count_note": "+ 8 wells",
+        "consist_type": "freight",
+        "speed_kmh": 74,
+        "speed_raw": "46 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:10",
+        "observed_tz": "EDT",
+        "temperature_c": 3,
+        "origin": "Montreal Taschereau QC",
+        "destination": "Toronto MacMillan ON"
+      },
+      "observed_at": "2026-09-25T07:10-04:00",
+      "origin": "Montreal Taschereau QC",
+      "destination": "Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "02uitym1w94",
+      "video_url": "https://www.youtube.com/watch?v=02uitym1w94",
+      "title": "Havelock\u2019s old ECO duo heads up the mactier",
+      "published_at": "2026-09-25T12:29:41Z",
+      "date": "2026-09-25",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Havelock\u2019s old ECO duo heads up the mactier",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

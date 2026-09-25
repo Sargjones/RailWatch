@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-25T10:57:45.638896Z",
-    "total_videos": 926
+    "updated_at": "2026-09-25T21:18:29.689630Z",
+    "total_videos": 928
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5560,6 +5560,18 @@
       "title": "Fall is Coming to Bayview \u2022 September 22, 2026",
       "confidence": "medium",
       "processed_at": "2026-09-25T10:57:42.613334Z"
+    },
+    "E47xXRx019k": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 371 Westbound September 25, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-25T21:18:27.719346Z"
+    },
+    "02uitym1w94": {
+      "channel": "MJM Productions",
+      "title": "Havelock\u2019s old ECO duo heads up the mactier",
+      "confidence": "medium",
+      "processed_at": "2026-09-25T21:18:28.599025Z"
     }
   }
 }
