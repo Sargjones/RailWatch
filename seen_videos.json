@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-26T10:38:18.629552Z",
-    "total_videos": 930
+    "updated_at": "2026-09-26T20:51:01.368347Z",
+    "total_videos": 931
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5584,6 +5584,12 @@
       "title": "TRAIN ACTION THRU YALE TUNNELS IN THE FRASER CANYON",
       "confidence": "medium",
       "processed_at": "2026-09-26T10:38:16.066871Z"
+    },
+    "mRfj051v92c": {
+      "channel": "Central Canada Railfan",
+      "title": "Kansas City Southern SD70MAC Along The La Riviere Sub - Winnipeg to Winkler, MB ",
+      "confidence": "medium",
+      "processed_at": "2026-09-26T20:51:01.368321Z"
     }
   }
 }

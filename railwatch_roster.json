@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-26T10:38:18.808711Z",
-  "total_units": 490,
+  "generated_at": "2026-09-26T20:51:01.495116Z",
+  "total_units": 492,
   "min_sightings": 2,
   "by_road": {
-    "CN": 387,
+    "CN": 388,
     "VIA": 9,
-    "CP": 92,
+    "CP": 93,
     "RUCK": 1,
     "AC": 1
   },
@@ -20142,6 +20142,53 @@
     },
     {
       "road": "CN",
+      "number": "5922",
+      "display": "CN 5922",
+      "sighting_count": 2,
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-20",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 100"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-20",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mRfj051v92c",
+          "title": "Kansas City Southern SD70MAC Along The La Riviere Sub - Winn",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "6024",
       "display": "CN 6024",
       "sighting_count": 2,
@@ -26174,6 +26221,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=zhQa00rYM4A",
           "title": "RARE SD40-2 DUO! CP 5766 at Vaughan, ON (MAY 26, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "5922",
+      "display": "CP 5922",
+      "sighting_count": 2,
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-09-20",
+      "corridors": [
+        "CN Mainline Manitoba",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 100"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-20",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mRfj051v92c",
+          "title": "Kansas City Southern SD70MAC Along The La Riviere Sub - Winn",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+          "title": "Great Power on Various CP Trains Around Winnipeg!",
           "source": "text_extraction"
         }
       ]
