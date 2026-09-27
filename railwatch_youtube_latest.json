@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-27T11:11:35.547733Z",
+  "generated_at": "2026-09-27T21:07:34.311613Z",
   "dedup_registry": {
-    "total": 931,
+    "total": 939,
     "by_channel": {
-      "Trackside Ontario": 64,
+      "Trackside Ontario": 66,
       "Trackside Tyson": 129,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 26,
       "Brockville RailFan": 332,
-      "MJM Productions": 265,
+      "MJM Productions": 271,
       "Central Canada Railfan": 21,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 229,
-      "medium": 627,
+      "medium": 635,
       "low": 75,
       "meta": 0
     }
@@ -28,8 +28,13 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 4
+      "videos": 2,
+      "skipped": 4,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
@@ -78,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 11
+      "videos": 6,
+      "skipped": 11,
+      "high": 0,
+      "medium": 6,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 5
     },
     {
       "channel": "Ontario Railman",
@@ -107,11 +117,283 @@
       "skipped": 1
     }
   ],
-  "total": 931,
-  "new_this_run": 0,
+  "total": 939,
+  "new_this_run": 8,
   "high_confidence": 229,
   "dg_likely": 163,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "4nv8BsJmzFU",
+      "video_url": "https://www.youtube.com/watch?v=4nv8BsJmzFU",
+      "title": "CP 7047 leads CPKC 231 at Newtonville",
+      "published_at": "2026-09-27T21:02:31Z",
+      "date": "2026-09-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7047",
+        "CPKC 231"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7047",
+          "raw": "CP 7047"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 231",
+          "raw": "CPKC 231"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7047 leads CPKC 231 at Newtonville",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Mgc8Ff1xogs",
+      "video_url": "https://www.youtube.com/watch?v=Mgc8Ff1xogs",
+      "title": "CP 7047 SD70ACU blasting thru Port Hope",
+      "published_at": "2026-09-27T20:59:16Z",
+      "date": "2026-09-27",
+      "location": "Port Hope",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.95,
+      "lon": -78.29,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7047"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7047",
+          "raw": "CP 7047"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7047 SD70ACU blasting thru Port Hope",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "VeR0_g-mhP8",
+      "video_url": "https://www.youtube.com/watch?v=VeR0_g-mhP8",
+      "title": "CP 8759 + CP 8750 lead CPKC 9-230",
+      "published_at": "2026-09-27T19:12:34Z",
+      "date": "2026-09-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8759",
+        "CP 8750"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8759",
+          "raw": "CP 8759"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8750",
+          "raw": "CP 8750"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8759 + CP 8750 lead CPKC 9-230",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "KYxXgKzgNJU",
+      "video_url": "https://www.youtube.com/watch?v=KYxXgKzgNJU",
+      "title": "Thursday Evening at Tansley \u2022 September 24, 2026",
+      "published_at": "2026-09-27T19:04:30Z",
+      "date": "2026-09-24",
+      "location": "Burlington",
+      "subdivision": "CN Oakville Sub",
+      "lat": 43.32,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Thursday Evening at Tansley \u2022 September 24, 2026",
+      "description_chars": 75,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "SS3M1dSAjB0",
+      "video_url": "https://www.youtube.com/watch?v=SS3M1dSAjB0",
+      "title": "CN 2664 + CN 2503 lead CN M377 west",
+      "published_at": "2026-09-27T16:47:40Z",
+      "date": "2026-09-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2664",
+        "CN 2503"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2664",
+          "raw": "CN 2664"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2503",
+          "raw": "CN 2503"
+        },
+        {
+          "road": "CN",
+          "symbol": "M377",
+          "raw": "M377"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2664 + CN 2503 lead CN M377 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "qY_nrfZEsOM",
+      "video_url": "https://www.youtube.com/watch?v=qY_nrfZEsOM",
+      "title": "CPKC 132 heads east through Newtonville",
+      "published_at": "2026-09-27T16:42:38Z",
+      "date": "2026-09-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 132"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 132",
+          "raw": "CPKC 132"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 132 heads east through Newtonville",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "K1XtDd2WQTw",
+      "video_url": "https://www.youtube.com/watch?v=K1XtDd2WQTw",
+      "title": "Wednesday Evening at Bayview \u2022 September 23, 2026",
+      "published_at": "2026-09-27T15:44:29Z",
+      "date": "2026-09-23",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Wednesday Evening at Bayview \u2022 September 23, 2026",
+      "description_chars": 127,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "HcjmIPTIvT0",
+      "video_url": "https://www.youtube.com/watch?v=HcjmIPTIvT0",
+      "title": "Possibly the worst VIA horn of all time?!",
+      "published_at": "2026-09-27T14:31:28Z",
+      "date": "2026-09-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Possibly the worst VIA horn of all time?!",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

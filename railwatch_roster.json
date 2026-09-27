@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-27T11:11:35.712629Z",
-  "total_units": 492,
+  "generated_at": "2026-09-27T21:07:34.486288Z",
+  "total_units": 494,
   "min_sightings": 2,
   "by_road": {
-    "CN": 388,
+    "CN": 389,
     "VIA": 9,
-    "CP": 93,
+    "CP": 94,
     "RUCK": 1,
     "AC": 1
   },
@@ -20655,6 +20655,52 @@
     },
     {
       "road": "CN",
+      "number": "7047",
+      "display": "CN 7047",
+      "sighting_count": 2,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 231"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 231",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4nv8BsJmzFU",
+          "title": "CP 7047 leads CPKC 231 at Newtonville",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Port Hope",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Mgc8Ff1xogs",
+          "title": "CP 7047 SD70ACU blasting thru Port Hope",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7051",
       "display": "CN 7051",
       "sighting_count": 2,
@@ -26592,6 +26638,52 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=VLEwmw8exGE",
           "title": "CP 7043 SD70ACU south through Grenfel",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7047",
+      "display": "CP 7047",
+      "sighting_count": 2,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-27",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 231"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 231",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4nv8BsJmzFU",
+          "title": "CP 7047 leads CPKC 231 at Newtonville",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Port Hope",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Mgc8Ff1xogs",
+          "title": "CP 7047 SD70ACU blasting thru Port Hope",
           "source": "text_extraction"
         }
       ]
