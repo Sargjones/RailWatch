@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-09-28T12:38:44.013555Z",
+  "generated_at": "2026-09-28T23:04:13.804272Z",
   "dedup_registry": {
-    "total": 944,
+    "total": 949,
     "by_channel": {
       "Trackside Ontario": 66,
-      "Trackside Tyson": 130,
+      "Trackside Tyson": 131,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
-      "Rail Fans Canada": 26,
-      "Brockville RailFan": 332,
-      "MJM Productions": 275,
+      "Rail Fans Canada": 27,
+      "Brockville RailFan": 334,
+      "MJM Productions": 276,
       "Central Canada Railfan": 21,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 229,
-      "medium": 639,
-      "low": 76,
+      "high": 230,
+      "medium": 642,
+      "low": 77,
       "meta": 0
     }
   },
@@ -34,7 +34,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 4,
+      "skipped": 5,
       "high": 0,
       "medium": 0,
       "low_meta": 1,
@@ -63,13 +63,23 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 21
+      "videos": 2,
+      "skipped": 21,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +93,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 4,
-      "skipped": 12,
+      "videos": 1,
+      "skipped": 16,
       "high": 0,
-      "medium": 4,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 3
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +127,197 @@
       "skipped": 1
     }
   ],
-  "total": 944,
+  "total": 949,
   "new_this_run": 5,
-  "high_confidence": 229,
-  "dg_likely": 163,
+  "high_confidence": 230,
+  "dg_likely": 164,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "N2IQ38B_VI8",
+      "video_url": "https://www.youtube.com/watch?v=N2IQ38B_VI8",
+      "title": "OLD SCHOOL CN LASHUP THRU AUTUMN #youtubeshorts",
+      "published_at": "2026-09-28T23:00:28Z",
+      "date": "2026-09-28",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "OLD SCHOOL CN LASHUP THRU AUTUMN #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "3NhDEuLtqGs",
+      "video_url": "https://www.youtube.com/watch?v=3NhDEuLtqGs",
+      "title": "BCOL C44-9WL! CN 5767 at Beare, ON (SEP 27, 2026)",
+      "published_at": "2026-09-28T22:00:40Z",
+      "date": "2026-09-27",
+      "location": "Pickering",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8354,
+      "lon": -79.0893,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5767"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5767",
+          "raw": "CN 5767"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q105",
+          "raw": "Q105"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "BCOL C44-9WL! CN 5767 at Beare, ON (SEP 27, 2026)",
+      "description_chars": 809,
+      "consist": {
+        "observed_time": "5:33",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-09-27T5:33",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "PN2xIgcQ1-w",
+      "video_url": "https://www.youtube.com/watch?v=PN2xIgcQ1-w",
+      "title": "VIA Train 61 Westbound September 28, 2026",
+      "published_at": "2026-09-28T13:33:20Z",
+      "date": "2026-09-28",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound September 28, 2026",
+      "description_chars": 173,
+      "consist": {
+        "coaches": [
+          "Speed: 68 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 109,
+        "speed_raw": "68 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:48",
+        "observed_tz": "EDT",
+        "temperature_c": 12,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-28T08:48-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "DyBMNT1XyXY",
+      "video_url": "https://www.youtube.com/watch?v=DyBMNT1XyXY",
+      "title": "CN Train 368 Eastbound September 28, 2026",
+      "published_at": "2026-09-28T13:24:19Z",
+      "date": "2026-09-28",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2998",
+        "CN 3088"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2998",
+          "raw": "CN 2998"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3088",
+          "raw": "CN 3088"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Eastbound September 28, 2026",
+      "description_chars": 200,
+      "consist": {
+        "engines": [
+          "CN 2998"
+        ],
+        "dpu": [
+          "CN 3088"
+        ],
+        "car_count": 130,
+        "consist_type": "freight",
+        "speed_kmh": 68,
+        "speed_raw": "42 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:27",
+        "observed_tz": "EDT",
+        "temperature_c": 12,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-09-28T08:27-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
@@ -256,6 +452,32 @@
       "description_chars": 0,
       "consist": null,
       "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "tS_OeVSM1FM",
+      "video_url": "https://www.youtube.com/watch?v=tS_OeVSM1FM",
+      "title": "Place d'Orleans Station Walkthrough \u2013 Full Tour of Ottawa's Main East-End O-Train Transit Hub",
+      "published_at": "2026-09-28T00:28:01Z",
+      "date": "2026-09-28",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Place d'Orleans Station Walkthrough \u2013 Full Tour of Ottawa's Main East-End O-Train Transit Hub",
+      "description_chars": 1160,
+      "consist": null,
+      "location_source": "extracted"
     },
     {
       "source": "youtube",
