@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T21:07:34.486288Z",
+  "generated_at": "2026-09-28T12:38:44.149471Z",
   "total_units": 494,
   "min_sightings": 2,
   "by_road": {
@@ -3920,6 +3920,91 @@
     },
     {
       "road": "CN",
+      "number": "7047",
+      "display": "CN 7047",
+      "sighting_count": 5,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 231"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-28",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 231",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PTGjTYFN6hs",
+          "title": "CP 7047 leads CPKC 231 at Cherrywood",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-28",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=v_zs3CEpIcY",
+          "title": "CP 7047 blasting its P5 horn thru Darlington",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Belleville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4WUHqgzP_3c",
+          "title": "Chasing CP 7047 SD70ACU west on the Belleville sub (SEP 27, ",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 231",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4nv8BsJmzFU",
+          "title": "CP 7047 leads CPKC 231 at Newtonville",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Port Hope",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Mgc8Ff1xogs",
+          "title": "CP 7047 SD70ACU blasting thru Port Hope",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "8356",
       "display": "CN 8356",
       "sighting_count": 5,
@@ -7287,6 +7372,81 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=A8sc8k3uFsY",
           "title": "CN Train 532 Eastbound June 3, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "5767",
+      "display": "CN 5767",
+      "sighting_count": 4,
+      "first_seen": "2026-06-04",
+      "last_seen": "CN 5767",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "Q105",
+        "X108",
+        "Z148"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "CN 5767",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PsIoDIotGW4",
+          "title": "CN 5767 + CN 5612 lead CN Z148 east",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q105",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=gInRz83rrrc",
+          "title": "CN 5767 + BCOL 4642 lead CN Q105 west",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X108",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4KUJksEwbCo",
+          "title": "CN Train X108 Eastbound Meets CN Train 121 Westbound July 10",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ny6FC0DH0ZU",
+          "title": "EMD DUO! CN 5767 at Stewarttown, ON (JUN 4, 2026)",
           "source": "text_extraction"
         }
       ]
@@ -11672,67 +11832,6 @@
           "video_url": "https://www.youtube.com/watch?v=zhQa00rYM4A",
           "title": "RARE SD40-2 DUO! CP 5766 at Vaughan, ON (MAY 26, 2026)",
           "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "5767",
-      "display": "CN 5767",
-      "sighting_count": 3,
-      "first_seen": "2026-06-04",
-      "last_seen": "CN 5767",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "X108",
-        "Z148"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "CN 5767",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z148",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=PsIoDIotGW4",
-          "title": "CN 5767 + CN 5612 lead CN Z148 east",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-10",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "X108",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=4KUJksEwbCo",
-          "title": "CN Train X108 Eastbound Meets CN Train 121 Westbound July 10",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-04",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z148",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=ny6FC0DH0ZU",
-          "title": "EMD DUO! CN 5767 at Stewarttown, ON (JUN 4, 2026)",
-          "source": "text_extraction"
         }
       ]
     },
@@ -20655,52 +20754,6 @@
     },
     {
       "road": "CN",
-      "number": "7047",
-      "display": "CN 7047",
-      "sighting_count": 2,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 231"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-27",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 231",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=4nv8BsJmzFU",
-          "title": "CP 7047 leads CPKC 231 at Newtonville",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-09-27",
-          "location": "Port Hope",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=Mgc8Ff1xogs",
-          "title": "CP 7047 SD70ACU blasting thru Port Hope",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "7051",
       "display": "CN 7051",
       "sighting_count": 2,
@@ -23707,6 +23760,91 @@
     },
     {
       "road": "CP",
+      "number": "7047",
+      "display": "CP 7047",
+      "sighting_count": 5,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-09-28",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 231"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-09-28",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 231",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PTGjTYFN6hs",
+          "title": "CP 7047 leads CPKC 231 at Cherrywood",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-28",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=v_zs3CEpIcY",
+          "title": "CP 7047 blasting its P5 horn thru Darlington",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Belleville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4WUHqgzP_3c",
+          "title": "Chasing CP 7047 SD70ACU west on the Belleville sub (SEP 27, ",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 231",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4nv8BsJmzFU",
+          "title": "CP 7047 leads CPKC 231 at Newtonville",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Port Hope",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Mgc8Ff1xogs",
+          "title": "CP 7047 SD70ACU blasting thru Port Hope",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "7491",
       "display": "CP 7491",
       "sighting_count": 5,
@@ -26638,52 +26776,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=VLEwmw8exGE",
           "title": "CP 7043 SD70ACU south through Grenfel",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "7047",
-      "display": "CP 7047",
-      "sighting_count": 2,
-      "first_seen": "2026-09-27",
-      "last_seen": "2026-09-27",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 231"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-27",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 231",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=4nv8BsJmzFU",
-          "title": "CP 7047 leads CPKC 231 at Newtonville",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-09-27",
-          "location": "Port Hope",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=Mgc8Ff1xogs",
-          "title": "CP 7047 SD70ACU blasting thru Port Hope",
           "source": "text_extraction"
         }
       ]

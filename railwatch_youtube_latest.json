@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-09-27T21:07:34.311613Z",
+  "generated_at": "2026-09-28T12:38:44.013555Z",
   "dedup_registry": {
-    "total": 939,
+    "total": 944,
     "by_channel": {
       "Trackside Ontario": 66,
-      "Trackside Tyson": 129,
+      "Trackside Tyson": 130,
       "Southern Ontario Railfan": 29,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 26,
       "Brockville RailFan": 332,
-      "MJM Productions": 271,
+      "MJM Productions": 275,
       "Central Canada Railfan": 21,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,28 +18,28 @@
     },
     "by_confidence": {
       "high": 229,
-      "medium": 635,
-      "low": 75,
+      "medium": 639,
+      "low": 76,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-20T00:00:00Z",
+  "since": "2026-09-21T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 2,
-      "skipped": 4,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -83,13 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 6,
-      "skipped": 11,
+      "videos": 4,
+      "skipped": 12,
       "high": 0,
-      "medium": 6,
+      "medium": 4,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 5
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +117,185 @@
       "skipped": 1
     }
   ],
-  "total": 939,
-  "new_this_run": 8,
+  "total": 944,
+  "new_this_run": 5,
   "high_confidence": 229,
   "dg_likely": 163,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "4WUHqgzP_3c",
+      "video_url": "https://www.youtube.com/watch?v=4WUHqgzP_3c",
+      "title": "Chasing CP 7047 SD70ACU west on the Belleville sub (SEP 27, 2026)",
+      "published_at": "2026-09-28T01:49:46Z",
+      "date": "2026-09-27",
+      "location": "Belleville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.16,
+      "lon": -77.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7047"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7047",
+          "raw": "CP 7047"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Chasing CP 7047 SD70ACU west on the Belleville sub (SEP 27, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "g3MrUFXFavs",
+      "video_url": "https://www.youtube.com/watch?v=g3MrUFXFavs",
+      "title": "DOUBLE STACK TRAIN THRU BASQUE #youtubeshorts",
+      "published_at": "2026-09-28T00:45:34Z",
+      "date": "2026-09-28",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "DOUBLE STACK TRAIN THRU BASQUE #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "PTGjTYFN6hs",
+      "video_url": "https://www.youtube.com/watch?v=PTGjTYFN6hs",
+      "title": "CP 7047 leads CPKC 231 at Cherrywood",
+      "published_at": "2026-09-28T00:40:12Z",
+      "date": "2026-09-28",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7047",
+        "CPKC 231"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7047",
+          "raw": "CP 7047"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 231",
+          "raw": "CPKC 231"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7047 leads CPKC 231 at Cherrywood",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "v_zs3CEpIcY",
+      "video_url": "https://www.youtube.com/watch?v=v_zs3CEpIcY",
+      "title": "CP 7047 blasting its P5 horn thru Darlington",
+      "published_at": "2026-09-28T00:38:50Z",
+      "date": "2026-09-28",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7047"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7047",
+          "raw": "CP 7047"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7047 blasting its P5 horn thru Darlington",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "gInRz83rrrc",
+      "video_url": "https://www.youtube.com/watch?v=gInRz83rrrc",
+      "title": "CN 5767 + BCOL 4642 lead CN Q105 west",
+      "published_at": "2026-09-27T21:39:53Z",
+      "date": "2026-09-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5767"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5767",
+          "raw": "CN 5767"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q105",
+          "raw": "Q105"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 5767 + BCOL 4642 lead CN Q105 west",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
