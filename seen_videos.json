@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-29T11:57:28.417981Z",
-    "total_videos": 951
+    "updated_at": "2026-09-29T22:03:05.830901Z",
+    "total_videos": 956
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5710,6 +5710,36 @@
       "title": "VIA Rail Train In Oshawa.",
       "confidence": "medium",
       "processed_at": "2026-09-29T11:57:25.578044Z"
+    },
+    "LXVSBpYRPlw": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound Passes Behind CN Train 731 Westbound September 29, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-29T22:03:03.012323Z"
+    },
+    "OUW33mKsBsw": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound September 29, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-29T22:03:03.012811Z"
+    },
+    "Mcg9-0ncEQY": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Lifting September 29, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-29T22:03:03.013132Z"
+    },
+    "tAqgp13jUhA": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound September 29, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-29T22:03:03.013276Z"
+    },
+    "EtBg3dx0N5c": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 126 Eastbound September 29, 2026",
+      "confidence": "high",
+      "processed_at": "2026-09-29T22:03:03.013408Z"
     }
   }
 }

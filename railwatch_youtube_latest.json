@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-29T11:57:28.491819Z",
+  "generated_at": "2026-09-29T22:03:05.841694Z",
   "dedup_registry": {
-    "total": 951,
+    "total": 956,
     "by_channel": {
       "Trackside Ontario": 67,
       "Trackside Tyson": 131,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 27,
-      "Brockville RailFan": 334,
+      "Brockville RailFan": 339,
       "MJM Productions": 276,
       "Central Canada Railfan": 21,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 230,
-      "medium": 644,
+      "high": 233,
+      "medium": 646,
       "low": 77,
       "meta": 0
     }
@@ -28,13 +28,8 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Trackside Tyson",
@@ -43,13 +38,8 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 1,
-      "skipped": 0,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 1
     },
     {
       "channel": "Trackside Tristan",
@@ -73,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 13
+      "videos": 5,
+      "skipped": 13,
+      "high": 3,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -117,11 +112,320 @@
       "skipped": 1
     }
   ],
-  "total": 951,
-  "new_this_run": 2,
-  "high_confidence": 230,
-  "dg_likely": 164,
+  "total": 956,
+  "new_this_run": 5,
+  "high_confidence": 233,
+  "dg_likely": 165,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "LXVSBpYRPlw",
+      "video_url": "https://www.youtube.com/watch?v=LXVSBpYRPlw",
+      "title": "CN Train 368 Eastbound Passes Behind CN Train 731 Westbound September 29, 2026",
+      "published_at": "2026-09-29T15:17:32Z",
+      "date": "2026-09-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8848",
+        "CN 2204",
+        "CN 3212",
+        "CN 8337"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 731",
+          "raw": "CN Train 731"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8848",
+          "raw": "CN 8848"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2204",
+          "raw": "CN 2204"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3212",
+          "raw": "CN 3212"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8337",
+          "raw": "CN 8337"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Train 368 Eastbound Passes Behind CN Train 731 Westbound September 29, 2026",
+      "description_chars": 566,
+      "consist": {
+        "observed_time": "09:29",
+        "observed_tz": "EDT",
+        "temperature_c": 12
+      },
+      "observed_at": "2026-09-29T09:29-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "OUW33mKsBsw",
+      "video_url": "https://www.youtube.com/watch?v=OUW33mKsBsw",
+      "title": "VIA Train 61 Westbound September 29, 2026",
+      "published_at": "2026-09-29T14:51:09Z",
+      "date": "2026-09-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound September 29, 2026",
+      "description_chars": 247,
+      "consist": {
+        "coaches": [
+          "Speed: 68 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 109,
+        "speed_raw": "68 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:00",
+        "observed_tz": "EDT",
+        "temperature_c": 11,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-09-29T09:00-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Mcg9-0ncEQY",
+      "video_url": "https://www.youtube.com/watch?v=Mcg9-0ncEQY",
+      "title": "CN Train 368 Lifting September 29, 2026",
+      "published_at": "2026-09-29T14:45:43Z",
+      "date": "2026-09-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 8848"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8848",
+          "raw": "CN 8848"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Lifting September 29, 2026",
+      "description_chars": 243,
+      "consist": {
+        "engines": [
+          "CN 8848"
+        ],
+        "dpu": [
+          "DPU 2204"
+        ],
+        "car_count": 139,
+        "car_count_note": "on arrival, 2 to lift",
+        "consist_type": "freight",
+        "speed_kmh": 53,
+        "speed_raw": "33 mph",
+        "detector_milepost": 137,
+        "observed_time": "08:59",
+        "observed_tz": "EDT",
+        "temperature_c": 11,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-09-29T08:59-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "tAqgp13jUhA",
+      "video_url": "https://www.youtube.com/watch?v=tAqgp13jUhA",
+      "title": "CN Train 149 Westbound September 29, 2026",
+      "published_at": "2026-09-29T14:37:56Z",
+      "date": "2026-09-29",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3811",
+        "CN 3027"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3811",
+          "raw": "CN 3811"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3027",
+          "raw": "CN 3027"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound September 29, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 3811",
+          "CN 3027"
+        ],
+        "car_count": 197,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 71,
+        "speed_raw": "44 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:30",
+        "observed_tz": "EDT",
+        "temperature_c": 11,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-09-29T08:30-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "EtBg3dx0N5c",
+      "video_url": "https://www.youtube.com/watch?v=EtBg3dx0N5c",
+      "title": "CN Train 126 Eastbound September 29, 2026",
+      "published_at": "2026-09-29T14:20:41Z",
+      "date": "2026-09-29",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3930",
+        "CN 3289"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 126",
+          "raw": "CN Train 126"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3930",
+          "raw": "CN 3930"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3289",
+          "raw": "CN 3289"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 126 Eastbound September 29, 2026",
+      "description_chars": 233,
+      "consist": {
+        "engines": [
+          "CN 3930",
+          "CN 3289"
+        ],
+        "car_count": 179,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 80,
+        "speed_raw": "50 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:36",
+        "observed_tz": "EDT",
+        "temperature_c": 11,
+        "origin": "Edmonton Intermodal Terminal (MIT) AB",
+        "destination": "Montreal Intermodal QC"
+      },
+      "observed_at": "2026-09-29T07:36-04:00",
+      "origin": "Edmonton Intermodal Terminal (MIT) AB",
+      "destination": "Montreal Intermodal QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
