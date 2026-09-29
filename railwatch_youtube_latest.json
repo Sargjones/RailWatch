@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-28T23:04:13.804272Z",
+  "generated_at": "2026-09-29T11:57:28.491819Z",
   "dedup_registry": {
-    "total": 949,
+    "total": 951,
     "by_channel": {
-      "Trackside Ontario": 66,
+      "Trackside Ontario": 67,
       "Trackside Tyson": 131,
-      "Southern Ontario Railfan": 29,
+      "Southern Ontario Railfan": 30,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 27,
@@ -18,33 +18,38 @@
     },
     "by_confidence": {
       "high": 230,
-      "medium": 642,
+      "medium": 644,
       "low": 77,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-21T00:00:00Z",
+  "since": "2026-09-22T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 6
-    },
-    {
-      "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 5,
+      "skipped": 6,
       "high": 0,
-      "medium": 0,
-      "low_meta": 1,
+      "medium": 1,
+      "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
     },
     {
-      "channel": "Southern Ontario Railfan",
+      "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 0
+      "skipped": 5
+    },
+    {
+      "channel": "Southern Ontario Railfan",
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -63,23 +68,13 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 1,
-      "skipped": 2,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 21,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 13
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -93,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 16,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Railman",
@@ -127,11 +117,63 @@
       "skipped": 1
     }
   ],
-  "total": 949,
-  "new_this_run": 5,
+  "total": 951,
+  "new_this_run": 2,
   "high_confidence": 230,
   "dg_likely": 164,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "NKm-rPM5c-c",
+      "video_url": "https://www.youtube.com/watch?v=NKm-rPM5c-c",
+      "title": "Monday Morning at Bayview \u2022 September 28, 2026",
+      "published_at": "2026-09-28T23:41:51Z",
+      "date": "2026-09-28",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Monday Morning at Bayview \u2022 September 28, 2026",
+      "description_chars": 127,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "pDSsWoOrtnc",
+      "video_url": "https://www.youtube.com/watch?v=pDSsWoOrtnc",
+      "title": "VIA Rail Train In Oshawa.",
+      "published_at": "2026-09-28T23:12:02Z",
+      "date": "2026-09-28",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "VIA Rail Train In Oshawa.",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

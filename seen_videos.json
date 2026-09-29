@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-28T23:04:13.790935Z",
-    "total_videos": 949
+    "updated_at": "2026-09-29T11:57:28.417981Z",
+    "total_videos": 951
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5698,6 +5698,18 @@
       "title": "BCOL C44-9WL! CN 5767 at Beare, ON (SEP 27, 2026)",
       "confidence": "medium",
       "processed_at": "2026-09-28T23:04:12.685759Z"
+    },
+    "NKm-rPM5c-c": {
+      "channel": "Trackside Ontario",
+      "title": "Monday Morning at Bayview \u2022 September 28, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-29T11:57:24.970871Z"
+    },
+    "pDSsWoOrtnc": {
+      "channel": "Southern Ontario Railfan",
+      "title": "VIA Rail Train In Oshawa.",
+      "confidence": "medium",
+      "processed_at": "2026-09-29T11:57:25.578044Z"
     }
   }
 }
