@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-29T22:03:05.830901Z",
-    "total_videos": 956
+    "updated_at": "2026-09-30T11:45:30.420822Z",
+    "total_videos": 958
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5740,6 +5740,18 @@
       "title": "CN Train 126 Eastbound September 29, 2026",
       "confidence": "high",
       "processed_at": "2026-09-29T22:03:03.013408Z"
+    },
+    "YBGjwaOfWX0": {
+      "channel": "Trackside Ontario",
+      "title": "Tuesday Morning at Bayview \u2022 September 29, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-09-30T11:45:27.554950Z"
+    },
+    "0LC29Nc4q6Y": {
+      "channel": "Trackside Tyson",
+      "title": "CPKC TRUTH & RECONCILIATION UNIT #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-09-30T11:45:27.999673Z"
     }
   }
 }

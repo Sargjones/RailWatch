@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-29T22:03:05.841694Z",
+  "generated_at": "2026-09-30T11:45:30.431624Z",
   "dedup_registry": {
-    "total": 956,
+    "total": 958,
     "by_channel": {
-      "Trackside Ontario": 67,
-      "Trackside Tyson": 131,
+      "Trackside Ontario": 68,
+      "Trackside Tyson": 132,
       "Southern Ontario Railfan": 30,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
@@ -18,23 +18,33 @@
     },
     "by_confidence": {
       "high": 233,
-      "medium": 646,
-      "low": 77,
+      "medium": 647,
+      "low": 78,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-22T00:00:00Z",
+  "since": "2026-09-23T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -59,17 +69,12 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 5,
-      "skipped": 13,
-      "high": 3,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 15
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -84,7 +89,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 16
+      "skipped": 14
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,71 @@
       "skipped": 1
     }
   ],
-  "total": 956,
-  "new_this_run": 5,
+  "total": 958,
+  "new_this_run": 2,
   "high_confidence": 233,
   "dg_likely": 165,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "YBGjwaOfWX0",
+      "video_url": "https://www.youtube.com/watch?v=YBGjwaOfWX0",
+      "title": "Tuesday Morning at Bayview \u2022 September 29, 2026",
+      "published_at": "2026-09-30T02:49:07Z",
+      "date": "2026-09-29",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Morning at Bayview \u2022 September 29, 2026",
+      "description_chars": 262,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "0LC29Nc4q6Y",
+      "video_url": "https://www.youtube.com/watch?v=0LC29Nc4q6Y",
+      "title": "CPKC TRUTH & RECONCILIATION UNIT #youtubeshorts",
+      "published_at": "2026-09-29T23:00:14Z",
+      "date": "2026-09-29",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 8757"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8757",
+          "raw": "cpkc 8757"
+        }
+      ],
+      "confidence": "low",
+      "raw_title": "CPKC TRUTH & RECONCILIATION UNIT #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
