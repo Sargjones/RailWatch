@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-09-30T22:02:10.977845Z",
-    "total_videos": 959
+    "updated_at": "2026-10-01T12:14:17.902171Z",
+    "total_videos": 960
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5758,6 +5758,12 @@
       "title": "VIA Train 61 Westbound September 30, 2026",
       "confidence": "medium",
       "processed_at": "2026-09-30T22:02:08.975749Z"
+    },
+    "5ZowAoqNwg8": {
+      "channel": "Trackside Tyson",
+      "title": "TRUTH & RECONCILIATION CPKC LOCOMOTIVE #youtubeshorts",
+      "confidence": "low",
+      "processed_at": "2026-10-01T12:14:15.211011Z"
     }
   }
 }
