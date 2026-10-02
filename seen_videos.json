@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-02T11:43:30.961802Z",
-    "total_videos": 966
+    "updated_at": "2026-10-02T21:59:24.273157Z",
+    "total_videos": 974
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5800,6 +5800,54 @@
       "title": "CN 2285 + CN 3884 lead CN Q107 north",
       "confidence": "medium",
       "processed_at": "2026-10-01T22:30:03.598127Z"
+    },
+    "tgO5c-3OxaE": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound October 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-02T21:59:22.320785Z"
+    },
+    "SES0lCDCryg": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound October 2, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-02T21:59:22.320983Z"
+    },
+    "Urg1fHKieVM": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 278 Eastbound October 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-02T21:59:22.321102Z"
+    },
+    "8-C3Z0lYgM4": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 371 Westbound October 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-02T21:59:22.321226Z"
+    },
+    "cFpiAOthZHI": {
+      "channel": "MJM Productions",
+      "title": "CPKC 112 blasting thru the Baxter fields",
+      "confidence": "medium",
+      "processed_at": "2026-10-02T21:59:23.149319Z"
+    },
+    "sJXcIz4QmZY": {
+      "channel": "MJM Productions",
+      "title": "CP 7459 leads CPKC 113 at Baxter",
+      "confidence": "medium",
+      "processed_at": "2026-10-02T21:59:23.150077Z"
+    },
+    "GoqJQ_WkTP4": {
+      "channel": "MJM Productions",
+      "title": "CP 8043 south crossing the Ypres trestle",
+      "confidence": "medium",
+      "processed_at": "2026-10-02T21:59:23.150196Z"
+    },
+    "1kSubae7EI8": {
+      "channel": "Central Canada Railfan",
+      "title": "Ex-Milwaukee Road GP38-2 Pulling and Pushing Boxcars at The Inkster Industrial. ",
+      "confidence": "medium",
+      "processed_at": "2026-10-02T21:59:24.273134Z"
     }
   }
 }
