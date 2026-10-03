@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T10:56:58.570483Z",
+  "generated_at": "2026-10-03T20:48:37.406498Z",
   "total_units": 513,
   "min_sightings": 2,
   "by_road": {
@@ -5883,6 +5883,77 @@
     },
     {
       "road": "CN",
+      "number": "3023",
+      "display": "CN 3023",
+      "sighting_count": 4,
+      "first_seen": "2026-09-10",
+      "last_seen": "2026-10-03",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=S2Hq1uNtnCI",
+          "title": "EJ&E HERITAGE! CN 3023 at Markham, ON (OCT 3, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4N_qW7M2_rk",
+          "title": "CP 3023 + CP 4427 + CP 8621 lead H17",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-_sHvWrgttE",
+          "title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JscciXab_bA",
+          "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3038",
       "display": "CN 3038",
       "sighting_count": 4,
@@ -10105,64 +10176,6 @@
           "video_url": "https://www.youtube.com/watch?v=XJThsVe24dQ",
           "title": "CN Train 368 Eastbound June 30, 2026",
           "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3023",
-      "display": "CN 3023",
-      "sighting_count": 3,
-      "first_seen": "2026-09-10",
-      "last_seen": "2026-09-13",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=4N_qW7M2_rk",
-          "title": "CP 3023 + CP 4427 + CP 8621 lead H17",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-09-10",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=-_sHvWrgttE",
-          "title": "RED BEAVERS! CP 3023 at Caledon, ON (SEP 10, 2026)",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-09-10",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=JscciXab_bA",
-          "title": "CP 3023 + CP 4427 lead CPKC 2-H17 north",
-          "source": "symbol_extraction"
         }
       ]
     },
