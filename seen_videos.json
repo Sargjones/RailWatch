@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-03T20:48:37.251072Z",
-    "total_videos": 979
+    "updated_at": "2026-10-04T11:39:24.912574Z",
+    "total_videos": 980
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5878,6 +5878,12 @@
       "title": "CP 8156 leads an early morning CPKC 2-421",
       "confidence": "medium",
       "processed_at": "2026-10-03T20:48:36.506715Z"
+    },
+    "UaPSR31lYFo": {
+      "channel": "MJM Productions",
+      "title": "CN 3023 EJ&E heritage unit heads west",
+      "confidence": "medium",
+      "processed_at": "2026-10-04T11:39:23.983595Z"
     }
   }
 }
