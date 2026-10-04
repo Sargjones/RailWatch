@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-04T11:39:24.922336Z",
+  "generated_at": "2026-10-04T21:04:20.818309Z",
   "dedup_registry": {
-    "total": 980,
+    "total": 984,
     "by_channel": {
       "Trackside Ontario": 68,
       "Trackside Tyson": 134,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 27,
       "Brockville RailFan": 349,
-      "MJM Productions": 285,
+      "MJM Productions": 289,
       "Central Canada Railfan": 22,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 240,
-      "medium": 661,
+      "medium": 665,
       "low": 79,
       "meta": 0
     }
@@ -78,13 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 18,
+      "videos": 4,
+      "skipped": 19,
       "high": 0,
-      "medium": 1,
+      "medium": 4,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +112,144 @@
       "skipped": 1
     }
   ],
-  "total": 980,
-  "new_this_run": 1,
+  "total": 984,
+  "new_this_run": 4,
   "high_confidence": 240,
   "dg_likely": 171,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "FMqUxVj8UjQ",
+      "video_url": "https://www.youtube.com/watch?v=FMqUxVj8UjQ",
+      "title": "GTW HERITAGE! CN 8952 at Bayview Junction (OCT 4, 2026)",
+      "published_at": "2026-10-04T21:00:49Z",
+      "date": "2026-10-04",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8952"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8952",
+          "raw": "CN 8952"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "GTW HERITAGE! CN 8952 at Bayview Junction (OCT 4, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "cBM3H2jw_3Y",
+      "video_url": "https://www.youtube.com/watch?v=cBM3H2jw_3Y",
+      "title": "CN 8952 GTW heritage leads CN Z148",
+      "published_at": "2026-10-04T18:35:21Z",
+      "date": "2026-10-04",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8952"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8952",
+          "raw": "CN 8952"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z148",
+          "raw": "Z148"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8952 GTW heritage leads CN Z148",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "OVcyVkXle5A",
+      "video_url": "https://www.youtube.com/watch?v=OVcyVkXle5A",
+      "title": "CN M394 heads east through Bayview",
+      "published_at": "2026-10-04T17:03:03Z",
+      "date": "2026-10-04",
+      "location": "Bayview",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "M394",
+          "raw": "M394"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN M394 heads east through Bayview",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "86Z9rTfoGM0",
+      "video_url": "https://www.youtube.com/watch?v=86Z9rTfoGM0",
+      "title": "An early CPKC northbound breaks the silence",
+      "published_at": "2026-10-04T12:18:36Z",
+      "date": "2026-10-04",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": "North",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "An early CPKC northbound breaks the silence",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

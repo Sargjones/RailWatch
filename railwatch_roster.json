@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T11:39:25.045045Z",
+  "generated_at": "2026-10-04T21:04:20.988434Z",
   "total_units": 513,
   "min_sightings": 2,
   "by_road": {
@@ -8872,6 +8872,80 @@
           "video_url": "https://www.youtube.com/watch?v=bpBmrSJsx70",
           "title": "CP 8877 leads CPKC 106 past Cherrywood",
           "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8952",
+      "display": "CN 8952",
+      "sighting_count": 4,
+      "first_seen": "2026-06-28",
+      "last_seen": "2026-10-04",
+      "corridors": [
+        "CN Oakville/Dundas Sub",
+        "CN Kingston Sub",
+        "CN Halton Sub"
+      ],
+      "trains_led": [
+        "Z148"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-04",
+          "location": "Bayview Junction",
+          "subdivision": "CN Oakville/Dundas Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=FMqUxVj8UjQ",
+          "title": "GTW HERITAGE! CN 8952 at Bayview Junction (OCT 4, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-04",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=cBM3H2jw_3Y",
+          "title": "CN 8952 GTW heritage leads CN Z148",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-28",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=CDSgy8rDZWQ",
+          "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-28",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=fGNNjIQCidk",
+          "title": "CN 8952 GTW heritage leads CM Z148",
+          "source": "text_extraction"
         }
       ]
     },
@@ -23802,53 +23876,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=a2YPRr1TXv8",
           "title": "Various Trains on CN\u2019s Mainlines Around Winnipeg - June 2026",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "8952",
-      "display": "CN 8952",
-      "sighting_count": 2,
-      "first_seen": "2026-06-28",
-      "last_seen": "2026-06-28",
-      "corridors": [
-        "CN Halton Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "Z148"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-06-28",
-          "location": "Brampton",
-          "subdivision": "CN Halton Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z148",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=CDSgy8rDZWQ",
-          "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-28",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z148",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=fGNNjIQCidk",
-          "title": "CN 8952 GTW heritage leads CM Z148",
           "source": "text_extraction"
         }
       ]
