@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-04T21:04:20.818309Z",
+  "generated_at": "2026-10-05T13:19:07.401688Z",
   "dedup_registry": {
-    "total": 984,
+    "total": 987,
     "by_channel": {
       "Trackside Ontario": 68,
-      "Trackside Tyson": 134,
-      "Southern Ontario Railfan": 30,
+      "Trackside Tyson": 135,
+      "Southern Ontario Railfan": 32,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 27,
@@ -18,28 +18,38 @@
     },
     "by_confidence": {
       "high": 240,
-      "medium": 665,
-      "low": 79,
+      "medium": 667,
+      "low": 80,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-27T00:00:00Z",
+  "since": "2026-09-28T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 4
+      "skipped": 2
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 2,
+      "skipped": 1,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -78,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 4,
-      "skipped": 19,
-      "high": 0,
-      "medium": 4,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 17
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,89 @@
       "skipped": 1
     }
   ],
-  "total": 984,
-  "new_this_run": 4,
+  "total": 987,
+  "new_this_run": 3,
   "high_confidence": 240,
   "dg_likely": 171,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "cDF_GMtSzYE",
+      "video_url": "https://www.youtube.com/watch?v=cDF_GMtSzYE",
+      "title": "Two CN Trains In Newcastle ",
+      "published_at": "2026-10-05T12:23:11Z",
+      "date": "2026-10-05",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Two CN Trains In Newcastle ",
+      "description_chars": 186,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "47LbtY_alUQ",
+      "video_url": "https://www.youtube.com/watch?v=47LbtY_alUQ",
+      "title": "CN Train In Oshawa",
+      "published_at": "2026-10-05T12:17:52Z",
+      "date": "2026-10-05",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train In Oshawa",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "oW0ak0E7TYI",
+      "video_url": "https://www.youtube.com/watch?v=oW0ak0E7TYI",
+      "title": "STACK TRAIN CURVING THRU THE CANYON #youtubeshorts",
+      "published_at": "2026-10-04T23:30:28Z",
+      "date": "2026-10-04",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "STACK TRAIN CURVING THRU THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
