@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-05T13:19:07.387806Z",
-    "total_videos": 987
+    "updated_at": "2026-10-05T23:53:41.975968Z",
+    "total_videos": 988
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5926,6 +5926,12 @@
       "title": "CN Train In Oshawa",
       "confidence": "medium",
       "processed_at": "2026-10-05T13:19:04.011027Z"
+    },
+    "0TaYgelPB04": {
+      "channel": "Central Canada Railfan",
+      "title": "CN Trains at St. James Junction and A Bit Around Winnipeg - Late August to Septe",
+      "confidence": "high",
+      "processed_at": "2026-10-05T23:53:41.975942Z"
     }
   }
 }

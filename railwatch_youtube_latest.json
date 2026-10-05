@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T13:19:07.401688Z",
+  "generated_at": "2026-10-05T23:53:41.989575Z",
   "dedup_registry": {
-    "total": 987,
+    "total": 988,
     "by_channel": {
       "Trackside Ontario": 68,
       "Trackside Tyson": 135,
@@ -11,13 +11,13 @@
       "Rail Fans Canada": 27,
       "Brockville RailFan": 349,
       "MJM Productions": 289,
-      "Central Canada Railfan": 22,
+      "Central Canada Railfan": 23,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 14,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 240,
+      "high": 241,
       "medium": 667,
       "low": 80,
       "meta": 0
@@ -33,23 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 5,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 2,
-      "skipped": 1,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Trackside Tristan",
@@ -113,15 +103,182 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     }
   ],
-  "total": 987,
-  "new_this_run": 3,
-  "high_confidence": 240,
-  "dg_likely": 171,
+  "total": 988,
+  "new_this_run": 1,
+  "high_confidence": 241,
+  "dg_likely": 172,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "0TaYgelPB04",
+      "video_url": "https://www.youtube.com/watch?v=0TaYgelPB04",
+      "title": "CN Trains at St. James Junction and A Bit Around Winnipeg - Late August to September 2026",
+      "published_at": "2026-10-05T17:00:11Z",
+      "date": "2026-09-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "tank",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2750",
+        "CN 8853",
+        "CN 2342",
+        "CN 8855",
+        "CN 3210",
+        "CN 8321",
+        "CN 3922",
+        "CN 2841",
+        "CN 3821",
+        "CN 3107",
+        "CN 8003",
+        "CN 2867",
+        "CN 2226",
+        "CN 3936",
+        "CN 3810",
+        "CN 3016",
+        "CN 2656",
+        "CN 2840"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "G894",
+          "raw": "G894"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2750",
+          "raw": "CN 2750"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8853",
+          "raw": "CN 8853"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2342",
+          "raw": "CN 2342"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8855",
+          "raw": "CN 8855"
+        },
+        {
+          "road": "CN",
+          "symbol": "B790",
+          "raw": "B790"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3210",
+          "raw": "CN 3210"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8321",
+          "raw": "CN 8321"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3922",
+          "raw": "CN 3922"
+        },
+        {
+          "road": "CN",
+          "symbol": "L533",
+          "raw": "L533"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2841",
+          "raw": "CN 2841"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3821",
+          "raw": "CN 3821"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3107",
+          "raw": "CN 3107"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z115",
+          "raw": "Z115"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8003",
+          "raw": "CN 8003"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2867",
+          "raw": "CN 2867"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2226",
+          "raw": "CN 2226"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z111",
+          "raw": "Z111"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3936",
+          "raw": "CN 3936"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3810",
+          "raw": "CN 3810"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3016",
+          "raw": "CN 3016"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2656",
+          "raw": "CN 2656"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2840",
+          "raw": "CN 2840"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Trains at St. James Junction and A Bit Around Winnipeg - Late August to September 2026",
+      "description_chars": 1171,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
