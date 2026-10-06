@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-05T23:53:41.975968Z",
-    "total_videos": 988
+    "updated_at": "2026-10-06T12:35:29.472997Z",
+    "total_videos": 991
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -5932,6 +5932,24 @@
       "title": "CN Trains at St. James Junction and A Bit Around Winnipeg - Late August to Septe",
       "confidence": "high",
       "processed_at": "2026-10-05T23:53:41.975942Z"
+    },
+    "xiWvA5UuNUs": {
+      "channel": "Trackside Ontario",
+      "title": "CN Intermodal Passes GO Train at Bayview \u2022 October 5, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-06T12:35:26.517761Z"
+    },
+    "2xmG8CtjU6E": {
+      "channel": "Trackside Ontario",
+      "title": "Monday Morning at Bayview \u2022 October 5, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-06T12:35:26.517912Z"
+    },
+    "o3bSd_YMVNY": {
+      "channel": "PTBO Railfanning",
+      "title": "2026 CF MOTO ZForce Z10 ATV At Oliveira Equipment In Wyoming Ontario",
+      "confidence": "medium",
+      "processed_at": "2026-10-06T12:35:28.395771Z"
     }
   }
 }

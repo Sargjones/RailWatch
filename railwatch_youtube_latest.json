@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-05T23:53:41.989575Z",
+  "generated_at": "2026-10-06T12:35:29.484368Z",
   "dedup_registry": {
-    "total": 988,
+    "total": 991,
     "by_channel": {
-      "Trackside Ontario": 68,
+      "Trackside Ontario": 70,
       "Trackside Tyson": 135,
       "Southern Ontario Railfan": 32,
       "Trackside Tristan": 12,
@@ -13,33 +13,38 @@
       "MJM Productions": 289,
       "Central Canada Railfan": 23,
       "Winnipeg Railman": 3,
-      "PTBO Railfanning": 14,
+      "PTBO Railfanning": 15,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 241,
-      "medium": 667,
+      "high": 242,
+      "medium": 669,
       "low": 80,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-09-28T00:00:00Z",
+  "since": "2026-09-29T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 2
+      "videos": 2,
+      "skipped": 1,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 6
+      "skipped": 4
     },
     {
       "channel": "Southern Ontario Railfan",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "Trackside Tristan",
@@ -64,7 +69,7 @@
     {
       "channel": "Brockville RailFan",
       "videos": 0,
-      "skipped": 17
+      "skipped": 15
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -73,13 +78,18 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 17
+      "skipped": 13
     },
     {
       "channel": "Ontario Railman",
@@ -103,20 +113,93 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     }
   ],
-  "total": 988,
-  "new_this_run": 1,
-  "high_confidence": 241,
+  "total": 991,
+  "new_this_run": 3,
+  "high_confidence": 242,
   "dg_likely": 172,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "xiWvA5UuNUs",
+      "video_url": "https://www.youtube.com/watch?v=xiWvA5UuNUs",
+      "title": "CN Intermodal Passes GO Train at Bayview \u2022 October 5, 2026",
+      "published_at": "2026-10-06T03:28:45Z",
+      "date": "2026-10-05",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "high",
+      "raw_title": "CN Intermodal Passes GO Train at Bayview \u2022 October 5, 2026",
+      "description_chars": 124,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "o3bSd_YMVNY",
+      "video_url": "https://www.youtube.com/watch?v=o3bSd_YMVNY",
+      "title": "2026 CF MOTO ZForce Z10 ATV At Oliveira Equipment In Wyoming Ontario",
+      "published_at": "2026-10-06T02:18:06Z",
+      "date": "2026-10-06",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "2026 CF MOTO ZForce Z10 ATV At Oliveira Equipment In Wyoming Ontario",
+      "description_chars": 552,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "2xmG8CtjU6E",
+      "video_url": "https://www.youtube.com/watch?v=2xmG8CtjU6E",
+      "title": "Monday Morning at Bayview \u2022 October 5, 2026",
+      "published_at": "2026-10-06T01:51:49Z",
+      "date": "2026-10-05",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Monday Morning at Bayview \u2022 October 5, 2026",
+      "description_chars": 124,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
