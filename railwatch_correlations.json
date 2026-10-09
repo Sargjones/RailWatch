@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:25:23.661332Z",
+  "generated_at": "2026-10-09T22:27:01.431853Z",
   "total": 54,
   "cross_observer": 4,
   "chase": 50,
@@ -536,6 +536,96 @@
   ],
   "correlations": [
     {
+      "symbol": "CN100",
+      "tier": "cross_observer",
+      "sighting_a": {
+        "location": "MacTier",
+        "date": "2026-08-26",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": "South",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=5aXBZqt3xVk",
+        "title": "Chasing CP 9804 AC4400CW south on the Mactier sub (AUG 26, 2"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-08-22",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "Central Canada Railfan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+        "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee"
+      },
+      "transit": {
+        "distance_km": 147.8,
+        "elapsed_hours": 30.62,
+        "avg_speed_kmh": 4.8,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "intermodal",
+      "dg_likely": true,
+      "correlated_at": "2026-10-09T22:27:01.429933Z",
+      "confidence": "medium"
+    },
+    {
+      "symbol": "CN118",
+      "tier": "cross_observer",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-09-19",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "Central Canada Railfan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+        "title": "Great Power on Various CP Trains Around Winnipeg!"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-09-18",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=Bq0VZotgbzs",
+        "title": "MONSTER ACTION! Railfanning at Lovekin, ON (SEP 18, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 6.3,
+        "avg_speed_kmh": 5.0,
+        "speed_plausible": false,
+        "consist_profile": "Hopper/bulk train",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "hopper",
+      "dg_likely": false,
+      "correlated_at": "2026-10-09T22:27:01.429994Z",
+      "confidence": "medium"
+    },
+    {
       "symbol": "CN106",
       "tier": "cross_observer",
       "sighting_a": {
@@ -582,7 +672,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-09T12:25:23.660200Z",
+      "correlated_at": "2026-10-09T22:27:01.430824Z",
       "confidence": "medium"
     },
     {
@@ -632,97 +722,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-09T12:25:23.660302Z",
-      "confidence": "medium"
-    },
-    {
-      "symbol": "CN118",
-      "tier": "cross_observer",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-09-19",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "Central Canada Railfan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
-        "title": "Great Power on Various CP Trains Around Winnipeg!"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-09-18",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=Bq0VZotgbzs",
-        "title": "MONSTER ACTION! Railfanning at Lovekin, ON (SEP 18, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 6.3,
-        "avg_speed_kmh": 5.0,
-        "speed_plausible": false,
-        "consist_profile": "Hopper/bulk train",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "hopper",
-      "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660506Z",
-      "confidence": "medium"
-    },
-    {
-      "symbol": "CN100",
-      "tier": "cross_observer",
-      "sighting_a": {
-        "location": "MacTier",
-        "date": "2026-08-26",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": "South",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=5aXBZqt3xVk",
-        "title": "Chasing CP 9804 AC4400CW south on the Mactier sub (AUG 26, 2"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-08-22",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "Central Canada Railfan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
-        "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee"
-      },
-      "transit": {
-        "distance_km": 147.8,
-        "elapsed_hours": 30.62,
-        "avg_speed_kmh": 4.8,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": false,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "intermodal",
-      "dg_likely": true,
-      "correlated_at": "2026-10-09T12:25:23.660676Z",
+      "correlated_at": "2026-10-09T22:27:01.430882Z",
       "confidence": "medium"
     },
     {
@@ -772,9 +772,189 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-09T12:25:23.659835Z",
+      "correlated_at": "2026-10-09T22:27:01.430413Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "CN118",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brampton",
+        "date": "2026-09-18",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=Bq0VZotgbzs",
+        "title": "MONSTER ACTION! Railfanning at Lovekin, ON (SEP 18, 2026)"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-09-20",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=nCyQAo7GvLg",
+        "title": "CP 8832 + KCS 4162 lead CPKC 118 east"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 15.84,
+        "avg_speed_kmh": 2.0,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-10-09T22:27:01.430008Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q104",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 3840",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=lY9Jj_tj4yU",
+        "title": "CN 3840 leads CN Q104 past Pine Orchard"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-05-31",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 2.8,
+        "avg_speed_kmh": 11.2,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-10-09T22:27:01.430043Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q107",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "IC 2719",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
+        "title": "IC 2719 + CN 2222 lead CN Q107 north"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-05-31",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 8.69,
+        "avg_speed_kmh": 3.6,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-10-09T22:27:01.430079Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q107",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-09-06",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=x_e7nE2agBY",
+        "title": "CN 2817 leads CN Q107 by Dock Siding"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-09-06",
+        "observed_at": "2026-09-06T1:18",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=EKKPu0dWZ9E",
+        "title": "THE NORTH! Railfanning at Parry Sound, ON (SEP 6, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 13.23,
+        "avg_speed_kmh": 2.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-10-09T22:27:01.430097Z",
+      "confidence": "low"
     },
     {
       "symbol": "Z148",
@@ -818,7 +998,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.659548Z",
+      "correlated_at": "2026-10-09T22:27:01.430154Z",
       "confidence": "low"
     },
     {
@@ -863,7 +1043,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.659575Z",
+      "correlated_at": "2026-10-09T22:27:01.430166Z",
       "confidence": "low"
     },
     {
@@ -908,7 +1088,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.659603Z",
+      "correlated_at": "2026-10-09T22:27:01.430186Z",
       "confidence": "low"
     },
     {
@@ -953,7 +1133,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.659649Z",
+      "correlated_at": "2026-10-09T22:27:01.430230Z",
       "confidence": "low"
     },
     {
@@ -998,7 +1178,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.659692Z",
+      "correlated_at": "2026-10-09T22:27:01.430275Z",
       "confidence": "medium"
     },
     {
@@ -1043,7 +1223,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.659711Z",
+      "correlated_at": "2026-10-09T22:27:01.430287Z",
       "confidence": "medium"
     },
     {
@@ -1088,7 +1268,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.659723Z",
+      "correlated_at": "2026-10-09T22:27:01.430298Z",
       "confidence": "low"
     },
     {
@@ -1133,7 +1313,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.659732Z",
+      "correlated_at": "2026-10-09T22:27:01.430310Z",
       "confidence": "low"
     },
     {
@@ -1183,7 +1363,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-09T12:25:23.659847Z",
+      "correlated_at": "2026-10-09T22:27:01.430426Z",
       "confidence": "low"
     },
     {
@@ -1228,7 +1408,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.659982Z",
+      "correlated_at": "2026-10-09T22:27:01.430560Z",
       "confidence": "low"
     },
     {
@@ -1278,7 +1458,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.659994Z",
+      "correlated_at": "2026-10-09T22:27:01.430570Z",
       "confidence": "low"
     },
     {
@@ -1328,7 +1508,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660098Z",
+      "correlated_at": "2026-10-09T22:27:01.430708Z",
       "confidence": "low"
     },
     {
@@ -1378,7 +1558,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660107Z",
+      "correlated_at": "2026-10-09T22:27:01.430721Z",
       "confidence": "low"
     },
     {
@@ -1428,7 +1608,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660117Z",
+      "correlated_at": "2026-10-09T22:27:01.430733Z",
       "confidence": "low"
     },
     {
@@ -1478,7 +1658,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660131Z",
+      "correlated_at": "2026-10-09T22:27:01.430748Z",
       "confidence": "low"
     },
     {
@@ -1528,7 +1708,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660139Z",
+      "correlated_at": "2026-10-09T22:27:01.430757Z",
       "confidence": "low"
     },
     {
@@ -1578,7 +1758,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660149Z",
+      "correlated_at": "2026-10-09T22:27:01.430769Z",
       "confidence": "low"
     },
     {
@@ -1628,97 +1808,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660158Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q107",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "IC 2719",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
-        "title": "IC 2719 + CN 2222 lead CN Q107 north"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-05-31",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
-        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 8.69,
-        "avg_speed_kmh": 3.6,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660264Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q107",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-09-06",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=x_e7nE2agBY",
-        "title": "CN 2817 leads CN Q107 by Dock Siding"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-09-06",
-        "observed_at": "2026-09-06T1:18",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=EKKPu0dWZ9E",
-        "title": "THE NORTH! Railfanning at Parry Sound, ON (SEP 6, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 13.23,
-        "avg_speed_kmh": 2.4,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660276Z",
+      "correlated_at": "2026-10-09T22:27:01.430780Z",
       "confidence": "low"
     },
     {
@@ -1768,7 +1858,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660336Z",
+      "correlated_at": "2026-10-09T22:27:01.430917Z",
       "confidence": "low"
     },
     {
@@ -1813,7 +1903,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660356Z",
+      "correlated_at": "2026-10-09T22:27:01.430936Z",
       "confidence": "low"
     },
     {
@@ -1858,7 +1948,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660381Z",
+      "correlated_at": "2026-10-09T22:27:01.430960Z",
       "confidence": "low"
     },
     {
@@ -1903,7 +1993,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660416Z",
+      "correlated_at": "2026-10-09T22:27:01.430999Z",
       "confidence": "low"
     },
     {
@@ -1948,53 +2038,8 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660427Z",
+      "correlated_at": "2026-10-09T22:27:01.431010Z",
       "confidence": "medium"
-    },
-    {
-      "symbol": "CN118",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brampton",
-        "date": "2026-09-18",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=Bq0VZotgbzs",
-        "title": "MONSTER ACTION! Railfanning at Lovekin, ON (SEP 18, 2026)"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-09-20",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=nCyQAo7GvLg",
-        "title": "CP 8832 + KCS 4162 lead CPKC 118 east"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 15.84,
-        "avg_speed_kmh": 2.0,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660517Z",
-      "confidence": "low"
     },
     {
       "symbol": "Z121",
@@ -2038,7 +2083,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660535Z",
+      "correlated_at": "2026-10-09T22:27:01.431049Z",
       "confidence": "low"
     },
     {
@@ -2083,7 +2128,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660550Z",
+      "correlated_at": "2026-10-09T22:27:01.431065Z",
       "confidence": "low"
     },
     {
@@ -2128,7 +2173,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660563Z",
+      "correlated_at": "2026-10-09T22:27:01.431078Z",
       "confidence": "low"
     },
     {
@@ -2173,7 +2218,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660574Z",
+      "correlated_at": "2026-10-09T22:27:01.431092Z",
       "confidence": "low"
     },
     {
@@ -2218,7 +2263,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660586Z",
+      "correlated_at": "2026-10-09T22:27:01.431104Z",
       "confidence": "low"
     },
     {
@@ -2263,7 +2308,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660601Z",
+      "correlated_at": "2026-10-09T22:27:01.431120Z",
       "confidence": "low"
     },
     {
@@ -2308,7 +2353,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660615Z",
+      "correlated_at": "2026-10-09T22:27:01.431132Z",
       "confidence": "low"
     },
     {
@@ -2353,7 +2398,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660628Z",
+      "correlated_at": "2026-10-09T22:27:01.431144Z",
       "confidence": "low"
     },
     {
@@ -2398,7 +2443,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660640Z",
+      "correlated_at": "2026-10-09T22:27:01.431159Z",
       "confidence": "low"
     },
     {
@@ -2443,7 +2488,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660652Z",
+      "correlated_at": "2026-10-09T22:27:01.431173Z",
       "confidence": "low"
     },
     {
@@ -2488,7 +2533,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660793Z",
+      "correlated_at": "2026-10-09T22:27:01.431299Z",
       "confidence": "low"
     },
     {
@@ -2533,7 +2578,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660816Z",
+      "correlated_at": "2026-10-09T22:27:01.431325Z",
       "confidence": "low"
     },
     {
@@ -2578,7 +2623,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.660837Z",
+      "correlated_at": "2026-10-09T22:27:01.431344Z",
       "confidence": "low"
     },
     {
@@ -2623,7 +2668,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.661018Z",
+      "correlated_at": "2026-10-09T22:27:01.431532Z",
       "confidence": "low"
     },
     {
@@ -2668,7 +2713,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.661063Z",
+      "correlated_at": "2026-10-09T22:27:01.431574Z",
       "confidence": "low"
     },
     {
@@ -2713,7 +2758,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.661072Z",
+      "correlated_at": "2026-10-09T22:27:01.431583Z",
       "confidence": "low"
     },
     {
@@ -2758,52 +2803,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.661081Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q104",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "CN 3840",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=lY9Jj_tj4yU",
-        "title": "CN 3840 leads CN Q104 past Pine Orchard"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-05-31",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
-        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 2.8,
-        "avg_speed_kmh": 11.2,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.661112Z",
+      "correlated_at": "2026-10-09T22:27:01.431592Z",
       "confidence": "low"
     },
     {
@@ -2848,7 +2848,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.661181Z",
+      "correlated_at": "2026-10-09T22:27:01.431691Z",
       "confidence": "low"
     },
     {
@@ -2893,7 +2893,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.661196Z",
+      "correlated_at": "2026-10-09T22:27:01.431709Z",
       "confidence": "low"
     },
     {
@@ -2938,7 +2938,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.661210Z",
+      "correlated_at": "2026-10-09T22:27:01.431723Z",
       "confidence": "low"
     },
     {
@@ -2983,7 +2983,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.661221Z",
+      "correlated_at": "2026-10-09T22:27:01.431735Z",
       "confidence": "low"
     },
     {
@@ -3028,7 +3028,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-09T12:25:23.661233Z",
+      "correlated_at": "2026-10-09T22:27:01.431754Z",
       "confidence": "low"
     }
   ]

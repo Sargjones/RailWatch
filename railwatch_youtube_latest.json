@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-09T12:25:23.552378Z",
+  "generated_at": "2026-10-09T22:27:01.328990Z",
   "dedup_registry": {
-    "total": 996,
+    "total": 1002,
     "by_channel": {
       "Trackside Ontario": 71,
       "Trackside Tyson": 135,
-      "Southern Ontario Railfan": 34,
+      "Southern Ontario Railfan": 35,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 27,
       "Brockville RailFan": 349,
-      "MJM Productions": 289,
-      "Central Canada Railfan": 23,
+      "MJM Productions": 293,
+      "Central Canada Railfan": 24,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 17,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 242,
-      "medium": 674,
+      "high": 243,
+      "medium": 679,
       "low": 80,
       "meta": 0
     }
@@ -38,8 +38,13 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -78,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 11
+      "videos": 4,
+      "skipped": 11,
+      "high": 0,
+      "medium": 4,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 4
     },
     {
       "channel": "Ontario Railman",
@@ -103,15 +113,331 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     }
   ],
-  "total": 996,
-  "new_this_run": 0,
-  "high_confidence": 242,
-  "dg_likely": 172,
+  "total": 1002,
+  "new_this_run": 6,
+  "high_confidence": 243,
+  "dg_likely": 173,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "fv554RHMWLQ",
+      "video_url": "https://www.youtube.com/watch?v=fv554RHMWLQ",
+      "title": "More Cool Power on Various CP Trains Around Winnipeg - Late September 2026",
+      "published_at": "2026-10-09T20:00:20Z",
+      "date": "2026-10-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "tank",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CP 100",
+        "CP 7530",
+        "CP 7544",
+        "CP 9765",
+        "CP 6302",
+        "CP 5743",
+        "CP 118",
+        "CP 8824",
+        "CP 3112",
+        "CP 2258",
+        "CP 3106",
+        "CP 2259",
+        "CP 621",
+        "CP 8789",
+        "CP 8838",
+        "CP 5875",
+        "CP 105",
+        "CP 7571",
+        "CP 7567"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 100",
+          "raw": "CP 100"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7530",
+          "raw": "CP 7530"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7544",
+          "raw": "CP 7544"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9765",
+          "raw": "CP 9765"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 6302",
+          "raw": "CP 6302"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5743",
+          "raw": "CP 5743"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CP 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8824",
+          "raw": "CP 8824"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3112",
+          "raw": "CP 3112"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2258",
+          "raw": "CP 2258"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3106",
+          "raw": "CP 3106"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2259",
+          "raw": "CP 2259"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 621",
+          "raw": "CP 621"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8789",
+          "raw": "CP 8789"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8838",
+          "raw": "CP 8838"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5875",
+          "raw": "CP 5875"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 105",
+          "raw": "CP 105"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7571",
+          "raw": "CP 7571"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7567",
+          "raw": "CP 7567"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "More Cool Power on Various CP Trains Around Winnipeg - Late September 2026",
+      "description_chars": 1304,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Vn6HGysxtuk",
+      "video_url": "https://www.youtube.com/watch?v=Vn6HGysxtuk",
+      "title": "9WL LEADER! Railfanning at Zephyr, ON (OCT 9, 2026)",
+      "published_at": "2026-10-09T18:20:16Z",
+      "date": "2026-10-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "9WL LEADER! Railfanning at Zephyr, ON (OCT 9, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "2RMjWijTweQ",
+      "video_url": "https://www.youtube.com/watch?v=2RMjWijTweQ",
+      "title": "VIA Rail Train In Oshawa",
+      "published_at": "2026-10-09T15:55:19Z",
+      "date": "2026-10-09",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "VIA Rail Train In Oshawa",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "LdW1spNbhH8",
+      "video_url": "https://www.youtube.com/watch?v=LdW1spNbhH8",
+      "title": "CN 2500 C44-9WL leads CN Q104 South",
+      "published_at": "2026-10-09T15:39:51Z",
+      "date": "2026-10-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2500"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2500",
+          "raw": "CN 2500"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q104",
+          "raw": "Q104"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2500 C44-9WL leads CN Q104 South",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "r9pMl69hyAU",
+      "video_url": "https://www.youtube.com/watch?v=r9pMl69hyAU",
+      "title": "CN 2956 + CN 3198 lead CN Q107 north",
+      "published_at": "2026-10-09T15:26:16Z",
+      "date": "2026-10-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2956",
+        "CN 3198"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2956",
+          "raw": "CN 2956"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3198",
+          "raw": "CN 3198"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2956 + CN 3198 lead CN Q107 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "n_9wKUo5pKs",
+      "video_url": "https://www.youtube.com/watch?v=n_9wKUo5pKs",
+      "title": "ONR 950 leads ONR P300 thru Zephyr",
+      "published_at": "2026-10-09T14:29:18Z",
+      "date": "2026-10-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "P300",
+          "raw": "P300"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "ONR 950 leads ONR P300 thru Zephyr",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
