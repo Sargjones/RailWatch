@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-10T21:22:39.223161Z",
+  "generated_at": "2026-10-11T11:56:59.378294Z",
   "dedup_registry": {
-    "total": 1004,
+    "total": 1005,
     "by_channel": {
       "Trackside Ontario": 71,
-      "Trackside Tyson": 137,
+      "Trackside Tyson": 138,
       "Southern Ontario Railfan": 35,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
@@ -19,12 +19,12 @@
     "by_confidence": {
       "high": 243,
       "medium": 680,
-      "low": 81,
+      "low": 82,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-03T00:00:00Z",
+  "since": "2026-10-04T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,12 +33,12 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 2,
-      "skipped": 2,
+      "videos": 1,
+      "skipped": 3,
       "high": 0,
-      "medium": 1,
+      "medium": 0,
       "low_meta": 1,
-      "dg_likely": 1,
+      "dg_likely": 0,
       "defaulted": 0
     },
     {
@@ -84,7 +84,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 12
+      "skipped": 8
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +112,37 @@
       "skipped": 2
     }
   ],
-  "total": 1004,
-  "new_this_run": 2,
+  "total": 1005,
+  "new_this_run": 1,
   "high_confidence": 243,
   "dg_likely": 174,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "n1FHDoZ1lC4",
+      "video_url": "https://www.youtube.com/watch?v=n1FHDoZ1lC4",
+      "title": "KCSM GREY GHOST DPU! #youtubeshorts",
+      "published_at": "2026-10-10T23:00:05Z",
+      "date": "2026-10-10",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "KCSM GREY GHOST DPU! #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
