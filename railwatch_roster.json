@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-11T11:56:59.563278Z",
-  "total_units": 515,
+  "generated_at": "2026-10-11T21:40:34.641165Z",
+  "total_units": 517,
   "min_sightings": 2,
   "by_road": {
-    "CN": 408,
+    "CN": 409,
     "VIA": 9,
-    "CP": 95,
+    "CP": 96,
     "CPKC": 1,
     "RUCK": 1,
     "AC": 1
@@ -22532,6 +22532,53 @@
     },
     {
       "road": "CN",
+      "number": "7571",
+      "display": "CN 7571",
+      "sighting_count": 2,
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-11",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 100"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MvnOoXF9sSQ",
+          "title": "CP 7571 blasting its K5HLA horn at Bolton",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-10-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=fv554RHMWLQ",
+          "title": "More Cool Power on Various CP Trains Around Winnipeg - Late ",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7575",
       "display": "CN 7575",
       "sighting_count": 2,
@@ -28928,6 +28975,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=7V8lSwdH7FU",
           "title": "Camera under late CPKC intermodal train (JUL 22, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7571",
+      "display": "CP 7571",
+      "sighting_count": 2,
+      "first_seen": "2026-10-09",
+      "last_seen": "2026-10-11",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 100"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MvnOoXF9sSQ",
+          "title": "CP 7571 blasting its K5HLA horn at Bolton",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 100",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=fv554RHMWLQ",
+          "title": "More Cool Power on Various CP Trains Around Winnipeg - Late ",
           "source": "text_extraction"
         }
       ]
