@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-13T00:22:42.515026Z",
+  "generated_at": "2026-10-13T13:20:53.491548Z",
   "dedup_registry": {
-    "total": 1018,
+    "total": 1020,
     "by_channel": {
-      "Trackside Ontario": 71,
+      "Trackside Ontario": 72,
       "Trackside Tyson": 139,
       "Southern Ontario Railfan": 35,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
-      "Rail Fans Canada": 27,
+      "Rail Fans Canada": 28,
       "Brockville RailFan": 349,
       "MJM Productions": 304,
       "Central Canada Railfan": 24,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 243,
-      "medium": 693,
+      "medium": 695,
       "low": 82,
       "meta": 0
     }
@@ -28,8 +28,13 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 3
+      "videos": 1,
+      "skipped": 3,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
@@ -58,8 +63,13 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
@@ -78,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 4,
-      "skipped": 11,
-      "high": 0,
-      "medium": 4,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 3
+      "videos": 0,
+      "skipped": 15
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,63 @@
       "skipped": 1
     }
   ],
-  "total": 1018,
-  "new_this_run": 4,
+  "total": 1020,
+  "new_this_run": 2,
   "high_confidence": 243,
   "dg_likely": 174,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "8hsT-cBhRhI",
+      "video_url": "https://www.youtube.com/watch?v=8hsT-cBhRhI",
+      "title": "Thanksgiving Trains at Bayview Junction \u2022 October 12, 2026",
+      "published_at": "2026-10-13T03:33:58Z",
+      "date": "2026-10-12",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Thanksgiving Trains at Bayview Junction \u2022 October 12, 2026",
+      "description_chars": 125,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "eqgMVt_RYfU",
+      "video_url": "https://www.youtube.com/watch?v=eqgMVt_RYfU",
+      "title": "Tracking the Progress: Ottawa\u2019s O-Train Stage 2 Western Extension - October 2026",
+      "published_at": "2026-10-12T23:38:20Z",
+      "date": "2026-07-01",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tracking the Progress: Ottawa\u2019s O-Train Stage 2 Western Extension - October 2026",
+      "description_chars": 1884,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-13T00:22:42.502954Z",
-    "total_videos": 1018
+    "updated_at": "2026-10-13T13:20:53.478450Z",
+    "total_videos": 1020
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6112,6 +6112,18 @@
       "title": "CN 8021 south around the Quaker bend",
       "confidence": "medium",
       "processed_at": "2026-10-13T00:22:41.716583Z"
+    },
+    "8hsT-cBhRhI": {
+      "channel": "Trackside Ontario",
+      "title": "Thanksgiving Trains at Bayview Junction \u2022 October 12, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-13T13:20:50.528781Z"
+    },
+    "eqgMVt_RYfU": {
+      "channel": "Rail Fans Canada",
+      "title": "Tracking the Progress: Ottawa\u2019s O-Train Stage 2 Western Extension - October 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-13T13:20:51.766443Z"
     }
   }
 }
