@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-12T14:09:10.729179Z",
+  "generated_at": "2026-10-13T00:22:42.515026Z",
   "dedup_registry": {
-    "total": 1014,
+    "total": 1018,
     "by_channel": {
       "Trackside Ontario": 71,
       "Trackside Tyson": 139,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 27,
       "Brockville RailFan": 349,
-      "MJM Productions": 300,
+      "MJM Productions": 304,
       "Central Canada Railfan": 24,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 18,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 243,
-      "medium": 689,
+      "medium": 693,
       "low": 82,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-05T00:00:00Z",
+  "since": "2026-10-06T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,18 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Southern Ontario Railfan",
       "videos": 0,
-      "skipped": 5
+      "skipped": 3
     },
     {
       "channel": "Trackside Tristan",
@@ -83,13 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 9,
+      "videos": 4,
+      "skipped": 11,
       "high": 0,
-      "medium": 2,
+      "medium": 4,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -114,14 +109,147 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     }
   ],
-  "total": 1014,
-  "new_this_run": 3,
+  "total": 1018,
+  "new_this_run": 4,
   "high_confidence": 243,
   "dg_likely": 174,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "udnqIgvXWZY",
+      "video_url": "https://www.youtube.com/watch?v=udnqIgvXWZY",
+      "title": "Thanksgiving Railfanning north of the Toronto Area (OCT 12, 2026)",
+      "published_at": "2026-10-12T23:13:05Z",
+      "date": "2026-10-12",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Thanksgiving Railfanning north of the Toronto Area (OCT 12, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "uvJlsxv4gDY",
+      "video_url": "https://www.youtube.com/watch?v=uvJlsxv4gDY",
+      "title": "CN 8339 SD75IACC south rounds the bend",
+      "published_at": "2026-10-12T20:35:23Z",
+      "date": "2026-10-12",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8339"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8339",
+          "raw": "CN 8339"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8339 SD75IACC south rounds the bend",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "4cy3utVci4M",
+      "video_url": "https://www.youtube.com/watch?v=4cy3utVci4M",
+      "title": "CN 3159 leads CN Z112 at Quaker",
+      "published_at": "2026-10-12T19:43:03Z",
+      "date": "2026-10-12",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3159"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3159",
+          "raw": "CN 3159"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z112",
+          "raw": "Z112"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3159 leads CN Z112 at Quaker",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "lcSrJoMnp_A",
+      "video_url": "https://www.youtube.com/watch?v=lcSrJoMnp_A",
+      "title": "CN 8021 south around the Quaker bend",
+      "published_at": "2026-10-12T16:03:41Z",
+      "date": "2026-10-12",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8021"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8021",
+          "raw": "CN 8021"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8021 south around the Quaker bend",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
