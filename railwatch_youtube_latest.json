@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T13:20:53.491548Z",
+  "generated_at": "2026-10-13T22:26:26.930121Z",
   "dedup_registry": {
-    "total": 1020,
+    "total": 1026,
     "by_channel": {
       "Trackside Ontario": 72,
       "Trackside Tyson": 139,
@@ -9,16 +9,16 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
-      "Brockville RailFan": 349,
-      "MJM Productions": 304,
+      "Brockville RailFan": 351,
+      "MJM Productions": 307,
       "Central Canada Railfan": 24,
       "Winnipeg Railman": 3,
-      "PTBO Railfanning": 18,
+      "PTBO Railfanning": 19,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 243,
-      "medium": 695,
+      "high": 244,
+      "medium": 700,
       "low": 82,
       "meta": 0
     }
@@ -28,13 +28,8 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
@@ -63,18 +58,18 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 1,
+      "videos": 0,
+      "skipped": 1
+    },
+    {
+      "channel": "Brockville RailFan",
+      "videos": 2,
       "skipped": 0,
-      "high": 0,
+      "high": 1,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
-    },
-    {
-      "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +78,23 @@
     },
     {
       "channel": "PTBO Railfanning",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 15
+      "videos": 3,
+      "skipped": 15,
+      "high": 0,
+      "medium": 3,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +122,252 @@
       "skipped": 1
     }
   ],
-  "total": 1020,
-  "new_this_run": 2,
-  "high_confidence": 243,
+  "total": 1026,
+  "new_this_run": 6,
+  "high_confidence": 244,
   "dg_likely": 174,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "4QMYYLrWw2g",
+      "video_url": "https://www.youtube.com/watch?v=4QMYYLrWw2g",
+      "title": "Back to Back CPKC trains run over my camera (OCT 13, 2026)",
+      "published_at": "2026-10-13T22:24:15Z",
+      "date": "2026-10-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Back to Back CPKC trains run over my camera (OCT 13, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "faPSD3zjatQ",
+      "video_url": "https://www.youtube.com/watch?v=faPSD3zjatQ",
+      "title": "CP 8003 blasting its new P5 horn north",
+      "published_at": "2026-10-13T22:19:57Z",
+      "date": "2026-10-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8003"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8003",
+          "raw": "CP 8003"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8003 blasting its new P5 horn north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "EODIM6GMQjY",
+      "video_url": "https://www.youtube.com/watch?v=EODIM6GMQjY",
+      "title": "CP 8877 + KCSM 4915 lead CPKC 113",
+      "published_at": "2026-10-13T21:24:06Z",
+      "date": "2026-10-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8877",
+        "CPKC 113"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8877",
+          "raw": "CP 8877"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 8877 + KCSM 4915 lead CPKC 113",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "PTBO Railfanning",
+      "channel_id": "UC-mYzr9LGSK7paIDZ2yWcUQ",
+      "video_id": "Yckk5DB-pMs",
+      "video_url": "https://www.youtube.com/watch?v=Yckk5DB-pMs",
+      "title": "2026 Kioti K9 2400 ATV At Oliveira Equipment In Wyoming Ontario",
+      "published_at": "2026-10-13T15:00:23Z",
+      "date": "2026-10-13",
+      "location": "Sarnia",
+      "subdivision": "CN Chatham Sub",
+      "lat": 42.9744,
+      "lon": -82.4058,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "2026 Kioti K9 2400 ATV At Oliveira Equipment In Wyoming Ontario",
+      "description_chars": 547,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "9hKDRF1SeQg",
+      "video_url": "https://www.youtube.com/watch?v=9hKDRF1SeQg",
+      "title": "CN Train 149 Westbound October 13, 2026",
+      "published_at": "2026-10-13T14:17:36Z",
+      "date": "2026-10-13",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2787",
+        "CN 3164"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2787",
+          "raw": "CN 2787"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3164",
+          "raw": "CN 3164"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound October 13, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 2787",
+          "CN 3164"
+        ],
+        "car_count": 177,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 58,
+        "speed_raw": "36 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:14",
+        "observed_tz": "EDT",
+        "temperature_c": 6,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-10-13T09:14-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "-dFbrwsbU30",
+      "video_url": "https://www.youtube.com/watch?v=-dFbrwsbU30",
+      "title": "VIA Train 61 Westbound October 13, 2026",
+      "published_at": "2026-10-13T14:02:45Z",
+      "date": "2026-10-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound October 13, 2026",
+      "description_chars": 339,
+      "consist": {
+        "coaches": [
+          "Speed: 67 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 108,
+        "speed_raw": "67 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:55",
+        "observed_tz": "EDT",
+        "temperature_c": 6,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-10-13T08:55-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
