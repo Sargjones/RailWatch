@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-14T10:59:46.375851Z",
-    "total_videos": 1026
+    "updated_at": "2026-10-14T21:25:47.102514Z",
+    "total_videos": 1029
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6160,6 +6160,24 @@
       "title": "CP 8877 + KCSM 4915 lead CPKC 113",
       "confidence": "medium",
       "processed_at": "2026-10-13T22:26:25.793833Z"
+    },
+    "98tUlOz6xS8": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound Hides VIA Train 61 Westbound October 14, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-14T21:25:45.198948Z"
+    },
+    "wr72cptziOA": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound October 14, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-14T21:25:45.199448Z"
+    },
+    "FAJhHDJ8Qv8": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train X384 Eastbound October 14, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-14T21:25:45.199589Z"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T10:59:46.390191Z",
+  "generated_at": "2026-10-14T21:25:47.114010Z",
   "dedup_registry": {
-    "total": 1026,
+    "total": 1029,
     "by_channel": {
       "Trackside Ontario": 72,
       "Trackside Tyson": 139,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
-      "Brockville RailFan": 351,
+      "Brockville RailFan": 354,
       "MJM Productions": 307,
       "Central Canada Railfan": 24,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 244,
-      "medium": 700,
+      "high": 246,
+      "medium": 701,
       "low": 82,
       "meta": 0
     }
@@ -63,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 2
+      "videos": 3,
+      "skipped": 2,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -107,11 +112,178 @@
       "skipped": 1
     }
   ],
-  "total": 1026,
-  "new_this_run": 0,
-  "high_confidence": 244,
-  "dg_likely": 174,
+  "total": 1029,
+  "new_this_run": 3,
+  "high_confidence": 246,
+  "dg_likely": 175,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "98tUlOz6xS8",
+      "video_url": "https://www.youtube.com/watch?v=98tUlOz6xS8",
+      "title": "CN Train 368 Eastbound Hides VIA Train 61 Westbound October 14, 2026",
+      "published_at": "2026-10-14T14:50:13Z",
+      "date": "2026-10-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3838",
+        "CN 3907"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3838",
+          "raw": "CN 3838"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3907",
+          "raw": "CN 3907"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Train 368 Eastbound Hides VIA Train 61 Westbound October 14, 2026",
+      "description_chars": 264,
+      "consist": {
+        "observed_time": "09:15",
+        "observed_tz": "EDT"
+      },
+      "observed_at": "2026-10-14T09:15-04:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "wr72cptziOA",
+      "video_url": "https://www.youtube.com/watch?v=wr72cptziOA",
+      "title": "CN Train 149 Westbound October 14, 2026",
+      "published_at": "2026-10-14T14:21:49Z",
+      "date": "2026-10-14",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2805",
+        "CN 2835"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2805",
+          "raw": "CN 2805"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2835",
+          "raw": "CN 2835"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound October 14, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 2805",
+          "CN 2835"
+        ],
+        "car_count": 196,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 68,
+        "speed_raw": "42 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:00",
+        "observed_tz": "EDT",
+        "temperature_c": 10,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-10-14T09:00-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "FAJhHDJ8Qv8",
+      "video_url": "https://www.youtube.com/watch?v=FAJhHDJ8Qv8",
+      "title": "CN Train X384 Eastbound October 14, 2026",
+      "published_at": "2026-10-14T14:04:41Z",
+      "date": "2026-10-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "X384",
+          "raw": "X384"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train X384 Eastbound October 14, 2026",
+      "description_chars": 287,
+      "consist": {
+        "car_count": 70,
+        "consist_type": "freight",
+        "speed_kmh": 64,
+        "speed_raw": "40 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:46",
+        "observed_tz": "EDT",
+        "temperature_c": 10,
+        "origin": "Flat Rock MI",
+        "destination": "Montreall QC"
+      },
+      "observed_at": "2026-10-14T08:46-04:00",
+      "origin": "Flat Rock MI",
+      "destination": "Montreall QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
