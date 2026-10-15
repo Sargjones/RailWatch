@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-15T10:42:18.563724Z",
-    "total_videos": 1029
+    "updated_at": "2026-10-15T21:07:32.689571Z",
+    "total_videos": 1035
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6178,6 +6178,42 @@
       "title": "CN Train X384 Eastbound October 14, 2026",
       "confidence": "high",
       "processed_at": "2026-10-14T21:25:45.199589Z"
+    },
+    "_ynrwhSyCFg": {
+      "channel": "Southern Ontario Railfan",
+      "title": "CN Train In Newcastle ",
+      "confidence": "medium",
+      "processed_at": "2026-10-15T21:07:28.502599Z"
+    },
+    "eJSboXEs7CU": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Eastbound October 15, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-15T21:07:30.682975Z"
+    },
+    "B8XLp7ErA4E": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound October 15, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-15T21:07:30.683253Z"
+    },
+    "hEe_bI5-pbg": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound Meets CN Train 322 Setting Off October 15, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-15T21:07:30.683440Z"
+    },
+    "nq4KlnpvlMs": {
+      "channel": "PTBO Railfanning",
+      "title": "2026 CF MOTO ZForce 950 Sport-4 ATV At Oliveira Equipment In Wyoming Ontario",
+      "confidence": "medium",
+      "processed_at": "2026-10-15T21:07:31.232406Z"
+    },
+    "johJVzYpiIc": {
+      "channel": "MJM Productions",
+      "title": "CPKC 112 rounds the bend at Carley",
+      "confidence": "medium",
+      "processed_at": "2026-10-15T21:07:31.597440Z"
     }
   }
 }
