@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-16T10:29:20.834596Z",
+  "generated_at": "2026-10-16T20:44:06.619597Z",
   "dedup_registry": {
-    "total": 1035,
+    "total": 1046,
     "by_channel": {
       "Trackside Ontario": 72,
       "Trackside Tyson": 139,
-      "Southern Ontario Railfan": 36,
+      "Southern Ontario Railfan": 37,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
       "Brockville RailFan": 357,
-      "MJM Productions": 308,
+      "MJM Productions": 318,
       "Central Canada Railfan": 24,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 248,
-      "medium": 705,
+      "medium": 716,
       "low": 82,
       "meta": 0
     }
@@ -38,8 +38,13 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -78,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 19
+      "videos": 10,
+      "skipped": 19,
+      "high": 0,
+      "medium": 10,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 10
     },
     {
       "channel": "Ontario Railman",
@@ -107,11 +117,410 @@
       "skipped": 1
     }
   ],
-  "total": 1035,
-  "new_this_run": 0,
+  "total": 1046,
+  "new_this_run": 11,
   "high_confidence": 248,
   "dg_likely": 176,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "XrCgEeFnj5g",
+      "video_url": "https://www.youtube.com/watch?v=XrCgEeFnj5g",
+      "title": "CN 3085 + CN 3075 + CN 4762 lead CN 314",
+      "published_at": "2026-10-16T17:59:18Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3085",
+        "CN 3075",
+        "CN 4762",
+        "CN 314"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3085",
+          "raw": "CN 3085"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3075",
+          "raw": "CN 3075"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4762",
+          "raw": "CN 4762"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 314",
+          "raw": "CN 314"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3085 + CN 3075 + CN 4762 lead CN 314",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "pbADxzwl2dY",
+      "video_url": "https://www.youtube.com/watch?v=pbADxzwl2dY",
+      "title": "CPKC 112 south thru the fall colours",
+      "published_at": "2026-10-16T16:46:10Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 112"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 112 south thru the fall colours",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "CLOG14xKXlM",
+      "video_url": "https://www.youtube.com/watch?v=CLOG14xKXlM",
+      "title": "CPKC 119 thru the rocks at black rd",
+      "published_at": "2026-10-16T16:44:41Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 119"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CPKC 119"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 119 thru the rocks at black rd",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "k-fJ6Q5vulQ",
+      "video_url": "https://www.youtube.com/watch?v=k-fJ6Q5vulQ",
+      "title": "CN Train In Oshawa ",
+      "published_at": "2026-10-16T15:53:08Z",
+      "date": "2026-10-16",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train In Oshawa ",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "0BzTaFx10_A",
+      "video_url": "https://www.youtube.com/watch?v=0BzTaFx10_A",
+      "title": "VIA P0002 rounds the bend at Rosseau rd",
+      "published_at": "2026-10-16T15:07:14Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "P0002",
+          "raw": "P0002"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA P0002 rounds the bend at Rosseau rd",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "IhQtfdLqnOQ",
+      "video_url": "https://www.youtube.com/watch?v=IhQtfdLqnOQ",
+      "title": "CN Z114 rounding the bend at Rosseau rd",
+      "published_at": "2026-10-16T15:02:53Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Z114",
+          "raw": "Z114"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Z114 rounding the bend at Rosseau rd",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "KsyATgP1aa0",
+      "video_url": "https://www.youtube.com/watch?v=KsyATgP1aa0",
+      "title": "CPKC 118 round the bend at Cascade st",
+      "published_at": "2026-10-16T15:02:10Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 118"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 118 round the bend at Cascade st",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "LhNIOu0MDfk",
+      "video_url": "https://www.youtube.com/watch?v=LhNIOu0MDfk",
+      "title": "KCS 4803 thru the fall colours at Otter Lake",
+      "published_at": "2026-10-16T13:27:29Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "KCS 4803 thru the fall colours at Otter Lake",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "IdTvdL0CxS8",
+      "video_url": "https://www.youtube.com/watch?v=IdTvdL0CxS8",
+      "title": "CN 2895 leads CN Q102 thru South Parry",
+      "published_at": "2026-10-16T13:26:29Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2895"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2895",
+          "raw": "CN 2895"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q102",
+          "raw": "Q102"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2895 leads CN Q102 thru South Parry",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "ZhNdjBMD7n0",
+      "video_url": "https://www.youtube.com/watch?v=ZhNdjBMD7n0",
+      "title": "CN 3814 + CN 3156 lead CN Z111 north",
+      "published_at": "2026-10-16T13:25:30Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3814",
+        "CN 3156"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3814",
+          "raw": "CN 3814"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3156",
+          "raw": "CN 3156"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z111",
+          "raw": "Z111"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3814 + CN 3156 lead CN Z111 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "m9iqQSzd-xI",
+      "video_url": "https://www.youtube.com/watch?v=m9iqQSzd-xI",
+      "title": "CN 2752 + CN 3371 lead CN Z115 north",
+      "published_at": "2026-10-16T11:13:34Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2752",
+        "CN 3371"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2752",
+          "raw": "CN 2752"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3371",
+          "raw": "CN 3371"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z115",
+          "raw": "Z115"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2752 + CN 3371 lead CN Z115 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
