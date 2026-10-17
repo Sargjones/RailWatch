@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T20:44:06.619597Z",
+  "generated_at": "2026-10-17T10:00:04.435516Z",
   "dedup_registry": {
-    "total": 1046,
+    "total": 1049,
     "by_channel": {
       "Trackside Ontario": 72,
       "Trackside Tyson": 139,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
       "Brockville RailFan": 357,
-      "MJM Productions": 318,
+      "MJM Productions": 321,
       "Central Canada Railfan": 24,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 248,
-      "medium": 716,
+      "medium": 719,
       "low": 82,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-09T00:00:00Z",
+  "since": "2026-10-10T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -38,13 +38,8 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 1,
-      "skipped": 2,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Trackside Tristan",
@@ -83,13 +78,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 10,
-      "skipped": 19,
+      "videos": 3,
+      "skipped": 25,
       "high": 0,
-      "medium": 10,
+      "medium": 3,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 10
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -114,14 +109,127 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     }
   ],
-  "total": 1046,
-  "new_this_run": 11,
+  "total": 1049,
+  "new_this_run": 3,
   "high_confidence": 248,
   "dg_likely": 176,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "2F-6MuaJqmA",
+      "video_url": "https://www.youtube.com/watch?v=2F-6MuaJqmA",
+      "title": "CLEAN CP 8781 HAPAG-LLOYD DPU!!!",
+      "published_at": "2026-10-16T21:33:30Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8781"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8781",
+          "raw": "CP 8781"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CLEAN CP 8781 HAPAG-LLOYD DPU!!!",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Q39ccYL4rlE",
+      "video_url": "https://www.youtube.com/watch?v=Q39ccYL4rlE",
+      "title": "CP 7452 north rips thru Copeland Forest",
+      "published_at": "2026-10-16T21:31:14Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7452"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7452",
+          "raw": "CP 7452"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7452 north rips thru Copeland Forest",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "pYEAOT_gqbs",
+      "video_url": "https://www.youtube.com/watch?v=pYEAOT_gqbs",
+      "title": "CN 3199 + CN 2764 lead CN Q107 north",
+      "published_at": "2026-10-16T21:31:02Z",
+      "date": "2026-10-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3199",
+        "CN 2764"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3199",
+          "raw": "CN 3199"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2764",
+          "raw": "CN 2764"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3199 + CN 2764 lead CN Q107 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
