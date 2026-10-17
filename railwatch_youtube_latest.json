@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-17T10:00:04.435516Z",
+  "generated_at": "2026-10-17T20:20:50.022982Z",
   "dedup_registry": {
-    "total": 1049,
+    "total": 1051,
     "by_channel": {
       "Trackside Ontario": 72,
-      "Trackside Tyson": 139,
+      "Trackside Tyson": 140,
       "Southern Ontario Railfan": 37,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
       "Brockville RailFan": 357,
-      "MJM Productions": 321,
+      "MJM Productions": 322,
       "Central Canada Railfan": 24,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,8 +18,8 @@
     },
     "by_confidence": {
       "high": 248,
-      "medium": 719,
-      "low": 82,
+      "medium": 720,
+      "low": 83,
       "meta": 0
     }
   },
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -78,13 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 3,
-      "skipped": 25,
+      "videos": 1,
+      "skipped": 28,
       "high": 0,
-      "medium": 3,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 3
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,297 @@
       "skipped": 0
     }
   ],
-  "total": 1049,
-  "new_this_run": 3,
+  "total": 1051,
+  "new_this_run": 2,
   "high_confidence": 248,
   "dg_likely": 176,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "80M1tUvF5ns",
+      "video_url": "https://www.youtube.com/watch?v=80M1tUvF5ns",
+      "title": "GREAT BIG FREIGHT TRAINS THRU THE RUGGED CANYON!",
+      "published_at": "2026-10-17T18:41:21Z",
+      "date": "2026-10-17",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "GREAT BIG FREIGHT TRAINS THRU THE RUGGED CANYON!",
+      "description_chars": 450,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "W3rVUHlozXE",
+      "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+      "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+      "published_at": "2026-10-17T13:32:27Z",
+      "date": "2026-10-16",
+      "location": "Brampton",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6833,
+      "lon": -79.7667,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2752",
+        "CN 3371",
+        "CN 3272",
+        "CN 3814",
+        "CN 3156",
+        "CN 2919",
+        "CN 2895",
+        "CN 3937",
+        "CPKC 420",
+        "CP 8854",
+        "CPKC 118",
+        "CP 7474",
+        "CP 8792",
+        "CN 3155",
+        "CN 3240",
+        "VIA 6434",
+        "VIA 6445",
+        "CPKC 119",
+        "CP 7472",
+        "CPKC 112",
+        "CP 7527",
+        "CP 7475",
+        "CP 7556",
+        "CN 3085",
+        "CN 3075",
+        "CN 4762",
+        "CN 3199",
+        "CN 2764",
+        "CPKC 113",
+        "CP 7452",
+        "CP 8723",
+        "CP 8781"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Z115",
+          "raw": "Z115"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2752",
+          "raw": "CN 2752"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3371",
+          "raw": "CN 3371"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3272",
+          "raw": "CN 3272"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z111",
+          "raw": "Z111"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3814",
+          "raw": "CN 3814"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3156",
+          "raw": "CN 3156"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2919",
+          "raw": "CN 2919"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q102",
+          "raw": "Q102"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2895",
+          "raw": "CN 2895"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3937",
+          "raw": "CN 3937"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 420",
+          "raw": "CPKC 420"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8854",
+          "raw": "CP 8854"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7474",
+          "raw": "CP 7474"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8792",
+          "raw": "CP 8792"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z114",
+          "raw": "Z114"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3155",
+          "raw": "CN 3155"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3240",
+          "raw": "CN 3240"
+        },
+        {
+          "road": "CN",
+          "symbol": "P0002",
+          "raw": "P0002"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 6434",
+          "raw": "VIA 6434"
+        },
+        {
+          "road": "VIA",
+          "symbol": "VIA 6445",
+          "raw": "VIA 6445"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CPKC 119"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7472",
+          "raw": "CP 7472"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7527",
+          "raw": "CP 7527"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7475",
+          "raw": "CP 7475"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7556",
+          "raw": "CP 7556"
+        },
+        {
+          "road": "CN",
+          "symbol": "M314",
+          "raw": "M314"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3085",
+          "raw": "CN 3085"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3075",
+          "raw": "CN 3075"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4762",
+          "raw": "CN 4762"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3199",
+          "raw": "CN 3199"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2764",
+          "raw": "CN 2764"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7452",
+          "raw": "CP 7452"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8723",
+          "raw": "CP 8723"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8781",
+          "raw": "CP 8781"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+      "description_chars": 2602,
+      "consist": {
+        "observed_time": "6:34",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-10-16T6:34",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

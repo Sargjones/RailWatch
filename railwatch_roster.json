@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-17T10:00:04.549553Z",
-  "total_units": 523,
+  "generated_at": "2026-10-17T20:20:50.206114Z",
+  "total_units": 535,
   "min_sightings": 2,
   "by_road": {
-    "CN": 414,
-    "VIA": 9,
-    "CP": 97,
+    "CN": 423,
+    "VIA": 10,
+    "CP": 99,
     "CPKC": 1,
     "RUCK": 1,
     "AC": 1
@@ -962,6 +962,266 @@
     },
     {
       "road": "CN",
+      "number": "2895",
+      "display": "CN 2895",
+      "sighting_count": 8,
+      "first_seen": "2026-06-29",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "Q102",
+        "CN 149",
+        "CN 276",
+        "L533"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q102",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=IdTvdL0CxS8",
+          "title": "CN 2895 leads CN Q102 thru South Parry",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-18",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=dJisUrPHnjw",
+          "title": "CN Train 149 Westbound August 18, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-18",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=dJisUrPHnjw",
+          "title": "CN Train 149 Westbound August 18, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-07-31",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 276",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4_FzQpJxgNk",
+          "title": "CN Train 276 Eastbound July 31, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-31",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 276",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4_FzQpJxgNk",
+          "title": "CN Train 276 Eastbound July 31, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-07-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=9wWTMuUEhCg",
+          "title": "CN 2895 + CN 3413 lead CN Z115 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "L533",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=a2YPRr1TXv8",
+          "title": "Various Trains on CN\u2019s Mainlines Around Winnipeg - June 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3272",
+      "display": "CN 3272",
+      "sighting_count": 8,
+      "first_seen": "2026-07-15",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "CN 149",
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-02",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=jFByuMy1KMY",
+          "title": "CN Train 149 Westbound September 2, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-02",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=jFByuMy1KMY",
+          "title": "CN Train 149 Westbound September 2, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZZ9KSjGvFrQ",
+          "title": "CN Train 368 Eastbound Meets VIA Train 61 Westbound July 15,",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=OjAyowqq450",
+          "title": "CN Train 368 Lifting July 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=OjAyowqq450",
+          "title": "CN Train 368 Lifting July 15, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tALiqTGcKDQ",
+          "title": "CN Train 368 Starting Their Lift, July 15, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=tALiqTGcKDQ",
+          "title": "CN Train 368 Starting Their Lift, July 15, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3983",
       "display": "CN 3983",
       "sighting_count": 8,
@@ -1201,123 +1461,6 @@
     },
     {
       "road": "CN",
-      "number": "2895",
-      "display": "CN 2895",
-      "sighting_count": 7,
-      "first_seen": "2026-06-29",
-      "last_seen": "2026-10-16",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "Q102",
-        "CN 149",
-        "CN 276",
-        "L533",
-        "Z115"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-10-16",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Q102",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=IdTvdL0CxS8",
-          "title": "CN 2895 leads CN Q102 thru South Parry",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-18",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=dJisUrPHnjw",
-          "title": "CN Train 149 Westbound August 18, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-18",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=dJisUrPHnjw",
-          "title": "CN Train 149 Westbound August 18, 2026",
-          "source": "description_structured"
-        },
-        {
-          "date": "2026-07-31",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 276",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=4_FzQpJxgNk",
-          "title": "CN Train 276 Eastbound July 31, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-31",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 276",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=4_FzQpJxgNk",
-          "title": "CN Train 276 Eastbound July 31, 2026",
-          "source": "description_structured"
-        },
-        {
-          "date": "2026-07-03",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z115",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=9wWTMuUEhCg",
-          "title": "CN 2895 + CN 3413 lead CN Z115 north",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-06-29",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Central Canada Railfan",
-          "train_symbol": "L533",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=a2YPRr1TXv8",
-          "title": "Various Trains on CN\u2019s Mainlines Around Winnipeg - June 2026",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "3062",
       "display": "CN 3062",
       "sighting_count": 7,
@@ -1546,120 +1689,6 @@
           "video_url": "https://www.youtube.com/watch?v=GMAQfHG4t9k",
           "title": "Trains Along CP\u2019s Winnipeg Beach Sub! - May/June 2025",
           "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3272",
-      "display": "CN 3272",
-      "sighting_count": 7,
-      "first_seen": "2026-07-15",
-      "last_seen": "2026-09-02",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 149",
-        "CN 368"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-02",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=jFByuMy1KMY",
-          "title": "CN Train 149 Westbound September 2, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-09-02",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=jFByuMy1KMY",
-          "title": "CN Train 149 Westbound September 2, 2026",
-          "source": "description_structured"
-        },
-        {
-          "date": "2026-07-15",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=ZZ9KSjGvFrQ",
-          "title": "CN Train 368 Eastbound Meets VIA Train 61 Westbound July 15,",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-15",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=OjAyowqq450",
-          "title": "CN Train 368 Lifting July 15, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-15",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": null,
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=OjAyowqq450",
-          "title": "CN Train 368 Lifting July 15, 2026",
-          "source": "description_structured"
-        },
-        {
-          "date": "2026-07-15",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=tALiqTGcKDQ",
-          "title": "CN Train 368 Starting Their Lift, July 15, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-15",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": null,
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=tALiqTGcKDQ",
-          "title": "CN Train 368 Starting Their Lift, July 15, 2026",
-          "source": "description_structured"
         }
       ]
     },
@@ -8396,6 +8425,82 @@
     },
     {
       "road": "CN",
+      "number": "3937",
+      "display": "CN 3937",
+      "sighting_count": 4,
+      "first_seen": "2026-06-05",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "CN 126",
+        "CN 186"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-12",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=yz_bKa4ppAY",
+          "title": "CN Train 126 Eastbound August 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-12",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=yz_bKa4ppAY",
+          "title": "CN Train 126 Eastbound August 12, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-06-05",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 186",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=faH_q_RWeKE",
+          "title": "CN Train 186 Eastbound June 5, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3950",
       "display": "CN 3950",
       "sighting_count": 4,
@@ -8903,6 +9008,81 @@
           "video_url": "https://www.youtube.com/watch?v=myhLFnzeo0o",
           "title": "CN MOW Tie Train in the Rain May 13, 2026",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7474",
+      "display": "CN 7474",
+      "sighting_count": 4,
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub",
+        "CPKC MacTier Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "CN 101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SxNSDC93sPA",
+          "title": "CP 7474 ET44AC leads 101 over my GoPro!",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
+          "title": "CP 7474 + CP 7491 lead CPKC 101 north",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-19",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
+          "title": "CP 7474 ET44AC runs over my GoPro after Sunset!",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -10718,6 +10898,68 @@
     },
     {
       "road": "CN",
+      "number": "2919",
+      "display": "CN 2919",
+      "sighting_count": 3,
+      "first_seen": "2026-07-13",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "X310"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X310",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=wCoqvY7Thlk",
+          "title": "CN Train X310 Eastbound July 13, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X310",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=wCoqvY7Thlk",
+          "title": "CN Train X310 Eastbound July 13, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2924",
       "display": "CN 2924",
       "sighting_count": 3,
@@ -11633,6 +11875,67 @@
           "video_url": "https://www.youtube.com/watch?v=0wQD_7Rm580",
           "title": "CN M396 meets CN A425 at Bayview \u2022 July 27, 2026",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3085",
+      "display": "CN 3085",
+      "sighting_count": 3,
+      "first_seen": "2026-09-19",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "CN 314"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 314",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=XrCgEeFnj5g",
+          "title": "CN 3085 + CN 3075 + CN 4762 lead CN 314",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JQYk1Vp-RUY",
+          "title": "CP 3085 + CP 3027 + CP 2317 lead H17",
+          "source": "symbol_extraction"
         }
       ]
     },
@@ -12622,6 +12925,69 @@
     },
     {
       "road": "CN",
+      "number": "3814",
+      "display": "CN 3814",
+      "sighting_count": 3,
+      "first_seen": "2026-10-15",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "Z111",
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z111",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZhNdjBMD7n0",
+          "title": "CN 3814 + CN 3156 lead CN Z111 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-15",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=hEe_bI5-pbg",
+          "title": "CN Train 149 Westbound Meets CN Train 322 Setting Off Octobe",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3861",
       "display": "CN 3861",
       "sighting_count": 3,
@@ -12802,67 +13168,6 @@
           "video_url": "https://www.youtube.com/watch?v=Kvjtws_Hq4A",
           "title": "CN Train 730 Eastbound June 18, 2026",
           "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3937",
-      "display": "CN 3937",
-      "sighting_count": 3,
-      "first_seen": "2026-06-05",
-      "last_seen": "2026-08-12",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 126",
-        "CN 186"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-12",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 126",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=yz_bKa4ppAY",
-          "title": "CN Train 126 Eastbound August 12, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-12",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 126",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=yz_bKa4ppAY",
-          "title": "CN Train 126 Eastbound August 12, 2026",
-          "source": "description_structured"
-        },
-        {
-          "date": "2026-06-05",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 186",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=faH_q_RWeKE",
-          "title": "CN Train 186 Eastbound June 5, 2026",
-          "source": "text_extraction"
         }
       ]
     },
@@ -13469,66 +13774,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=7Acpk1mGIcU",
           "title": "CP 7049 SD70ACU leads CPKC 230 east",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "7474",
-      "display": "CN 7474",
-      "sighting_count": 3,
-      "first_seen": "2026-07-19",
-      "last_seen": "2026-07-20",
-      "corridors": [
-        "CN Kingston Sub",
-        "CPKC MacTier Sub"
-      ],
-      "trains_led": [
-        "CN 101"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-20",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=SxNSDC93sPA",
-          "title": "CP 7474 ET44AC leads 101 over my GoPro!",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-07-20",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 101",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
-          "title": "CP 7474 + CP 7491 lead CPKC 101 north",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-07-19",
-          "location": "MacTier",
-          "subdivision": "CPKC MacTier Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 101",
-          "direction": "South",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
-          "title": "CP 7474 ET44AC runs over my GoPro after Sunset!",
           "source": "symbol_extraction"
         }
       ]
@@ -16067,6 +16312,53 @@
     },
     {
       "road": "CN",
+      "number": "2752",
+      "display": "CN 2752",
+      "sighting_count": 2,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=m9iqQSzd-xI",
+          "title": "CN 2752 + CN 3371 lead CN Z115 north",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2758",
       "display": "CN 2758",
       "sighting_count": 2,
@@ -16109,6 +16401,54 @@
           "video_url": "https://www.youtube.com/watch?v=dhriGh-Jyuo",
           "title": "CN Train 109 Westbound August 13, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2764",
+      "display": "CN 2764",
+      "sighting_count": 2,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "Q107"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=pYEAOT_gqbs",
+          "title": "CN 3199 + CN 2764 lead CN Q107 north",
+          "source": "text_extraction"
         }
       ]
     },
@@ -17433,53 +17773,6 @@
     },
     {
       "road": "CN",
-      "number": "2919",
-      "display": "CN 2919",
-      "sighting_count": 2,
-      "first_seen": "2026-07-13",
-      "last_seen": "2026-07-13",
-      "corridors": [
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "X310"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "X310",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=wCoqvY7Thlk",
-          "title": "CN Train X310 Eastbound July 13, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "X310",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=wCoqvY7Thlk",
-          "title": "CN Train X310 Eastbound July 13, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "2933",
       "display": "CN 2933",
       "sighting_count": 2,
@@ -18187,15 +18480,17 @@
     },
     {
       "road": "CN",
-      "number": "3085",
-      "display": "CN 3085",
+      "number": "3075",
+      "display": "CN 3075",
       "sighting_count": 2,
-      "first_seen": "2026-09-19",
+      "first_seen": "2026-10-16",
       "last_seen": "2026-10-16",
       "corridors": [
+        "CN Halton Sub",
         "CN Kingston Sub"
       ],
       "trains_led": [
+        "Z115",
         "CN 314"
       ],
       "dpu_confirmed": false,
@@ -18203,6 +18498,19 @@
         "unknown"
       ],
       "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
         {
           "date": "2026-10-16",
           "location": "Toronto",
@@ -18215,19 +18523,6 @@
           "video_url": "https://www.youtube.com/watch?v=XrCgEeFnj5g",
           "title": "CN 3085 + CN 3075 + CN 4762 lead CN 314",
           "source": "text_extraction"
-        },
-        {
-          "date": "2026-09-19",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=JQYk1Vp-RUY",
-          "title": "CP 3085 + CP 3027 + CP 2317 lead H17",
-          "source": "symbol_extraction"
         }
       ]
     },
@@ -18751,6 +19046,54 @@
     },
     {
       "road": "CN",
+      "number": "3156",
+      "display": "CN 3156",
+      "sighting_count": 2,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "Z111"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z111",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZhNdjBMD7n0",
+          "title": "CN 3814 + CN 3156 lead CN Z111 north",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3165",
       "display": "CN 3165",
       "sighting_count": 2,
@@ -19122,6 +19465,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=AwcRw6RZQe0",
           "title": "CP Rail and CN Trains In Western Manitoba! (7/4/2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3199",
+      "display": "CN 3199",
+      "sighting_count": 2,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "Q107"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=pYEAOT_gqbs",
+          "title": "CN 3199 + CN 2764 lead CN Q107 north",
           "source": "text_extraction"
         }
       ]
@@ -20022,6 +20413,53 @@
     },
     {
       "road": "CN",
+      "number": "3371",
+      "display": "CN 3371",
+      "sighting_count": 2,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=m9iqQSzd-xI",
+          "title": "CN 2752 + CN 3371 lead CN Z115 north",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3372",
       "display": "CN 3372",
       "sighting_count": 2,
@@ -20439,54 +20877,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=oIW7MwdVBSU",
           "title": "CN 3813 + KKIX 3006 lead CN M305 west",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3814",
-      "display": "CN 3814",
-      "sighting_count": 2,
-      "first_seen": "2026-10-15",
-      "last_seen": "2026-10-16",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "Z111",
-        "CN 149"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-10-16",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z111",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=ZhNdjBMD7n0",
-          "title": "CN 3814 + CN 3156 lead CN Z111 north",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-10-15",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=hEe_bI5-pbg",
-          "title": "CN Train 149 Westbound Meets CN Train 322 Setting Off Octobe",
           "source": "text_extraction"
         }
       ]
@@ -21571,6 +21961,54 @@
     },
     {
       "road": "CN",
+      "number": "4762",
+      "display": "CN 4762",
+      "sighting_count": 2,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "CN 314"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 314",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=XrCgEeFnj5g",
+          "title": "CN 3085 + CN 3075 + CN 4762 lead CN 314",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "5602",
       "display": "CN 5602",
       "sighting_count": 2,
@@ -22554,6 +22992,53 @@
     },
     {
       "road": "CN",
+      "number": "7452",
+      "display": "CN 7452",
+      "sighting_count": 2,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Q39ccYL4rlE",
+          "title": "CP 7452 north rips thru Copeland Forest",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7456",
       "display": "CN 7456",
       "sighting_count": 2,
@@ -22595,6 +23080,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=v1Op_VKXMnM",
           "title": "CP 7456 + CP 7490 lead CPKC 132 east",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7472",
+      "display": "CN 7472",
+      "sighting_count": 2,
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "Z115",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
           "source": "symbol_extraction"
         }
       ]
@@ -25522,6 +26055,53 @@
     },
     {
       "road": "VIA",
+      "number": "6445",
+      "display": "VIA 6445",
+      "sighting_count": 2,
+      "first_seen": "2026-08-21",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=yrfdUWb3flU",
+          "title": "VIA 6445 leads the Canadian thru Falding",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "VIA",
       "number": "6454",
       "display": "VIA 6454",
       "sighting_count": 2,
@@ -26381,6 +26961,156 @@
     },
     {
       "road": "CP",
+      "number": "7474",
+      "display": "CP 7474",
+      "sighting_count": 4,
+      "first_seen": "2026-07-19",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub",
+        "CPKC MacTier Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "CN 101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SxNSDC93sPA",
+          "title": "CP 7474 ET44AC leads 101 over my GoPro!",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
+          "title": "CP 7474 + CP 7491 lead CPKC 101 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-19",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
+          "title": "CP 7474 ET44AC runs over my GoPro after Sunset!",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7556",
+      "display": "CP 7556",
+      "sighting_count": 4,
+      "first_seen": "2026-07-12",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115",
+        "CN 112"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": "North",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=KIrSGnCh8wE",
+          "title": "Early morning trains pass through Palgrave, ON (AUG 9, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-09",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_loutIsZEKM",
+          "title": "CP 7556 leads CPKC 112 past the pond",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 112",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NYNlM_taUiA",
+          "title": "CP 7556 leads CPKC 112 through Essa",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "8621",
       "display": "CP 8621",
       "sighting_count": 4,
@@ -27155,17 +27885,18 @@
     },
     {
       "road": "CP",
-      "number": "7474",
-      "display": "CP 7474",
+      "number": "7452",
+      "display": "CP 7452",
       "sighting_count": 3,
-      "first_seen": "2026-07-19",
-      "last_seen": "2026-07-20",
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-10-16",
       "corridors": [
-        "CN Kingston Sub",
-        "CPKC MacTier Sub"
+        "CN Halton Sub",
+        "CN Kingston Sub"
       ],
       "trains_led": [
-        "CN 101"
+        "Z115",
+        "CN 421"
       ],
       "dpu_confirmed": false,
       "roles_seen": [
@@ -27173,7 +27904,20 @@
       ],
       "sightings": [
         {
-          "date": "2026-07-20",
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
           "location": "Toronto",
           "subdivision": "CN Kingston Sub",
           "channel": "MJM Productions",
@@ -27181,34 +27925,21 @@
           "direction": null,
           "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=SxNSDC93sPA",
-          "title": "CP 7474 ET44AC leads 101 over my GoPro!",
+          "video_url": "https://www.youtube.com/watch?v=Q39ccYL4rlE",
+          "title": "CP 7452 north rips thru Copeland Forest",
           "source": "text_extraction"
         },
         {
-          "date": "2026-07-20",
+          "date": "2026-09-03",
           "location": "Toronto",
           "subdivision": "CN Kingston Sub",
           "channel": "MJM Productions",
-          "train_symbol": "CN 101",
+          "train_symbol": "CN 421",
           "direction": null,
           "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=m6IhjQVQKnU",
-          "title": "CP 7474 + CP 7491 lead CPKC 101 north",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-19",
-          "location": "MacTier",
-          "subdivision": "CPKC MacTier Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 101",
-          "direction": "South",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=IDlMj9B7iwQ",
-          "title": "CP 7474 ET44AC runs over my GoPro after Sunset!",
+          "video_url": "https://www.youtube.com/watch?v=gTohCGJbdmc",
+          "title": "CP 9770 + CP 7452 lead CPKC 421 north",
           "source": "text_extraction"
         }
       ]
@@ -27332,66 +28063,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=AUctHQG3XdA",
           "title": "Three CPKC southbounds in a row at Palgrave, ON (JUN 3, 2026",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "7556",
-      "display": "CP 7556",
-      "sighting_count": 3,
-      "first_seen": "2026-07-12",
-      "last_seen": "2026-08-09",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 112"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-09",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": "North",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=KIrSGnCh8wE",
-          "title": "Early morning trains pass through Palgrave, ON (AUG 9, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-09",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=_loutIsZEKM",
-          "title": "CP 7556 leads CPKC 112 past the pond",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-12",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 112",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=NYNlM_taUiA",
-          "title": "CP 7556 leads CPKC 112 through Essa",
           "source": "text_extraction"
         }
       ]
@@ -29011,52 +29682,6 @@
     },
     {
       "road": "CP",
-      "number": "7452",
-      "display": "CP 7452",
-      "sighting_count": 2,
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-10-16",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 421"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-10-16",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=Q39ccYL4rlE",
-          "title": "CP 7452 north rips thru Copeland Forest",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-09-03",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 421",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=gTohCGJbdmc",
-          "title": "CP 9770 + CP 7452 lead CPKC 421 north",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
       "number": "7456",
       "display": "CP 7456",
       "sighting_count": 2,
@@ -29098,6 +29723,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=v1Op_VKXMnM",
           "title": "CP 7456 + CP 7490 lead CPKC 132 east",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7472",
+      "display": "CP 7472",
+      "sighting_count": 2,
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "Z115",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
           "source": "text_extraction"
         }
       ]
@@ -30044,6 +30717,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=iB2yH3hQ1to",
           "title": "CP 8801 + CP 8719 lead CPKC 119 north",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8781",
+      "display": "CP 8781",
+      "sighting_count": 2,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-10-16",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z115"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=2F-6MuaJqmA",
+          "title": "CLEAN CP 8781 HAPAG-LLOYD DPU!!!",
           "source": "text_extraction"
         }
       ]
