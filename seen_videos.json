@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-19T11:49:53.441934Z",
-    "total_videos": 1058
+    "updated_at": "2026-10-19T22:09:10.614630Z",
+    "total_videos": 1063
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6352,6 +6352,36 @@
       "title": "CP 7522 blasting its loud K5HL horn south",
       "confidence": "medium",
       "processed_at": "2026-10-19T11:49:52.308543Z"
+    },
+    "FFunCUZu69c": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound October 19, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-19T22:09:08.545842Z"
+    },
+    "IS3VScmmvqw": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound October 19, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-19T22:09:08.546069Z"
+    },
+    "F3lTjLChw3k": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound October 19, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-19T22:09:08.546247Z"
+    },
+    "qbbn0vWzWSA": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Lifting October 19, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-19T22:09:08.546712Z"
+    },
+    "x_iUDUsdgbs": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Eastbound October 19, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-19T22:09:08.546854Z"
     }
   }
 }
