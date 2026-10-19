@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T20:21:05.689669Z",
+  "generated_at": "2026-10-19T11:49:53.574281Z",
   "total_units": 536,
   "min_sightings": 2,
   "by_road": {
@@ -14758,6 +14758,64 @@
     },
     {
       "road": "CN",
+      "number": "9820",
+      "display": "CN 9820",
+      "sighting_count": 3,
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-10-18",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-18",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Zo825Lx87Ak",
+          "title": "SUNSET TRAIN! CP 9820 at Palgrave, ON (OCT 18, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
+          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
+          "title": "CP 9820 + CP 7040 + CP 2264 head west",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2202",
       "display": "CN 2202",
       "sighting_count": 2,
@@ -25631,51 +25689,6 @@
       ]
     },
     {
-      "road": "CN",
-      "number": "9820",
-      "display": "CN 9820",
-      "sighting_count": 2,
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
-          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
-          "source": "symbol_extraction"
-        },
-        {
-          "date": "2026-09-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
-          "title": "CP 9820 + CP 7040 + CP 2264 head west",
-          "source": "symbol_extraction"
-        }
-      ]
-    },
-    {
       "road": "VIA",
       "number": "2211",
       "display": "VIA 2211",
@@ -28611,6 +28624,64 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=qDmRlmo0f1c",
           "title": "HERITAGE LEAD! Railfanning around Caledon, ON (JUN 13, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "9820",
+      "display": "CP 9820",
+      "sighting_count": 3,
+      "first_seen": "2026-09-13",
+      "last_seen": "2026-10-18",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-18",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Zo825Lx87Ak",
+          "title": "SUNSET TRAIN! CP 9820 at Palgrave, ON (OCT 18, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
+          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
+          "title": "CP 9820 + CP 7040 + CP 2264 head west",
           "source": "text_extraction"
         }
       ]
@@ -31564,51 +31635,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
           "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "9820",
-      "display": "CP 9820",
-      "sighting_count": 2,
-      "first_seen": "2026-09-13",
-      "last_seen": "2026-09-13",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-09-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=nwHJBgZLc6Y",
-          "title": "CLASSIC POWER! CP 9820 at Hornby East, ON (SEP 13, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-09-13",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
-          "title": "CP 9820 + CP 7040 + CP 2264 head west",
           "source": "text_extraction"
         }
       ]

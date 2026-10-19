@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-18T20:21:05.563256Z",
-    "total_videos": 1056
+    "updated_at": "2026-10-19T11:49:53.441934Z",
+    "total_videos": 1058
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6340,6 +6340,18 @@
       "title": "CN 2325 + CN 2531 flying past Mansewood",
       "confidence": "medium",
       "processed_at": "2026-10-18T20:21:04.357325Z"
+    },
+    "Zo825Lx87Ak": {
+      "channel": "MJM Productions",
+      "title": "SUNSET TRAIN! CP 9820 at Palgrave, ON (OCT 18, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-10-19T11:49:52.307962Z"
+    },
+    "LjJcNiFzqgk": {
+      "channel": "MJM Productions",
+      "title": "CP 7522 blasting its loud K5HL horn south",
+      "confidence": "medium",
+      "processed_at": "2026-10-19T11:49:52.308543Z"
     }
   }
 }

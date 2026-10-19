@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-18T20:21:05.572601Z",
+  "generated_at": "2026-10-19T11:49:53.451271Z",
   "dedup_registry": {
-    "total": 1056,
+    "total": 1058,
     "by_channel": {
       "Trackside Ontario": 72,
       "Trackside Tyson": 141,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
       "Brockville RailFan": 357,
-      "MJM Productions": 326,
+      "MJM Productions": 328,
       "Central Canada Railfan": 24,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 248,
-      "medium": 724,
+      "medium": 726,
       "low": 84,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-11T00:00:00Z",
+  "since": "2026-10-12T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,13 +33,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -79,17 +74,17 @@
     {
       "channel": "PTBO Railfanning",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "MJM Productions",
-      "videos": 4,
-      "skipped": 29,
+      "videos": 2,
+      "skipped": 28,
       "high": 0,
-      "medium": 4,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 4
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +112,79 @@
       "skipped": 0
     }
   ],
-  "total": 1056,
-  "new_this_run": 5,
+  "total": 1058,
+  "new_this_run": 2,
   "high_confidence": 248,
   "dg_likely": 176,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "Zo825Lx87Ak",
+      "video_url": "https://www.youtube.com/watch?v=Zo825Lx87Ak",
+      "title": "SUNSET TRAIN! CP 9820 at Palgrave, ON (OCT 18, 2026)",
+      "published_at": "2026-10-18T23:39:22Z",
+      "date": "2026-10-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9820"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9820",
+          "raw": "CP 9820"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "SUNSET TRAIN! CP 9820 at Palgrave, ON (OCT 18, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "LjJcNiFzqgk",
+      "video_url": "https://www.youtube.com/watch?v=LjJcNiFzqgk",
+      "title": "CP 7522 blasting its loud K5HL horn south",
+      "published_at": "2026-10-18T21:54:56Z",
+      "date": "2026-10-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7522"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7522",
+          "raw": "CP 7522"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7522 blasting its loud K5HL horn south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
