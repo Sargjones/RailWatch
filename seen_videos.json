@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-20T10:47:49.262670Z",
-    "total_videos": 1063
+    "updated_at": "2026-10-20T21:24:42.938318Z",
+    "total_videos": 1068
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6382,6 +6382,36 @@
       "title": "CN Train 322 Eastbound October 19, 2026",
       "confidence": "high",
       "processed_at": "2026-10-19T22:09:08.546854Z"
+    },
+    "QfamDaQFKvg": {
+      "channel": "Southern Ontario Railfan",
+      "title": "VIA Rail Train In Oshawa ",
+      "confidence": "medium",
+      "processed_at": "2026-10-20T21:24:40.083867Z"
+    },
+    "pqfQdecRmEA": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound October 20, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-20T21:24:41.353467Z"
+    },
+    "tMa8naKb8t4": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound October 20, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-20T21:24:41.353710Z"
+    },
+    "y1OejVeDe3c": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 108 Eastbound October 20, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-20T21:24:41.353897Z"
+    },
+    "NpjUt0JKwCM": {
+      "channel": "Central Canada Railfan",
+      "title": "Cool Action on CP Lines Around Winnipeg - Early to Mid October 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-20T21:24:42.938294Z"
     }
   }
 }

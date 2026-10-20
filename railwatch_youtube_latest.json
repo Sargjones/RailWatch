@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-20T10:47:49.277551Z",
+  "generated_at": "2026-10-20T21:24:42.953481Z",
   "dedup_registry": {
-    "total": 1063,
+    "total": 1068,
     "by_channel": {
       "Trackside Ontario": 72,
       "Trackside Tyson": 141,
-      "Southern Ontario Railfan": 37,
+      "Southern Ontario Railfan": 38,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
-      "Brockville RailFan": 362,
+      "Brockville RailFan": 365,
       "MJM Productions": 328,
-      "Central Canada Railfan": 24,
+      "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 252,
-      "medium": 727,
+      "high": 255,
+      "medium": 729,
       "low": 84,
       "meta": 0
     }
@@ -38,8 +38,13 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -63,8 +68,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 13
+      "videos": 3,
+      "skipped": 13,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -103,15 +113,371 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     }
   ],
-  "total": 1063,
-  "new_this_run": 0,
-  "high_confidence": 252,
-  "dg_likely": 179,
+  "total": 1068,
+  "new_this_run": 5,
+  "high_confidence": 255,
+  "dg_likely": 181,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "QfamDaQFKvg",
+      "video_url": "https://www.youtube.com/watch?v=QfamDaQFKvg",
+      "title": "VIA Rail Train In Oshawa ",
+      "published_at": "2026-10-20T18:04:34Z",
+      "date": "2026-10-20",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "VIA Rail Train In Oshawa ",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "NpjUt0JKwCM",
+      "video_url": "https://www.youtube.com/watch?v=NpjUt0JKwCM",
+      "title": "Cool Action on CP Lines Around Winnipeg - Early to Mid October 2026",
+      "published_at": "2026-10-20T17:00:21Z",
+      "date": "2026-10-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "unknown",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CP 7017",
+        "CP 240",
+        "CP 8813",
+        "CP 2259",
+        "CP 3102",
+        "CP 9379",
+        "CP 2304",
+        "CP 2328",
+        "CP 100",
+        "CP 7512",
+        "CP 7564",
+        "CP 7562",
+        "CP 301",
+        "CP 8037",
+        "CP 7488",
+        "CP 7604",
+        "CP 7013",
+        "CP 349",
+        "CP 8944"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7017",
+          "raw": "CP 7017"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 240",
+          "raw": "CP 240"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8813",
+          "raw": "CP 8813"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2259",
+          "raw": "CP 2259"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3102",
+          "raw": "CP 3102"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9379",
+          "raw": "CP 9379"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2304",
+          "raw": "CP 2304"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2328",
+          "raw": "CP 2328"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 100",
+          "raw": "CP 100"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7512",
+          "raw": "CP 7512"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7564",
+          "raw": "CP 7564"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7562",
+          "raw": "CP 7562"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 301",
+          "raw": "CP 301"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8037",
+          "raw": "CP 8037"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7488",
+          "raw": "CP 7488"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7604",
+          "raw": "CP 7604"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7013",
+          "raw": "CP 7013"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 349",
+          "raw": "CP 349"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8944",
+          "raw": "CP 8944"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Cool Action on CP Lines Around Winnipeg - Early to Mid October 2026",
+      "description_chars": 1152,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "pqfQdecRmEA",
+      "video_url": "https://www.youtube.com/watch?v=pqfQdecRmEA",
+      "title": "VIA Train 61 Westbound October 20, 2026",
+      "published_at": "2026-10-20T13:44:35Z",
+      "date": "2026-10-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound October 20, 2026",
+      "description_chars": 178,
+      "consist": {
+        "coaches": [
+          "Speed: 62 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 100,
+        "speed_raw": "62 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:53",
+        "observed_tz": "EDT",
+        "temperature_c": 6,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-10-20T08:53-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "tMa8naKb8t4",
+      "video_url": "https://www.youtube.com/watch?v=tMa8naKb8t4",
+      "title": "CN Train 149 Westbound October 20, 2026",
+      "published_at": "2026-10-20T13:39:37Z",
+      "date": "2026-10-20",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3047",
+        "CN 3838"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3047",
+          "raw": "CN 3047"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3838",
+          "raw": "CN 3838"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound October 20, 2026",
+      "description_chars": 251,
+      "consist": {
+        "engines": [
+          "CN 3047",
+          "CN 3838"
+        ],
+        "car_count": 199,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 63,
+        "speed_raw": "39 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:45",
+        "observed_tz": "EDT",
+        "temperature_c": 6,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-10-20T08:45-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "y1OejVeDe3c",
+      "video_url": "https://www.youtube.com/watch?v=y1OejVeDe3c",
+      "title": "CN Train 108 Eastbound October 20, 2026",
+      "published_at": "2026-10-20T13:24:54Z",
+      "date": "2026-10-20",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 8855",
+        "CN 3231"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 108",
+          "raw": "CN Train 108"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8855",
+          "raw": "CN 8855"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3231",
+          "raw": "CN 3231"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 108 Eastbound October 20, 2026",
+      "description_chars": 256,
+      "consist": {
+        "engines": [
+          "CN 8855"
+        ],
+        "dpu": [
+          "CN 3231"
+        ],
+        "car_count": 149,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 76,
+        "speed_raw": "47 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:42",
+        "observed_tz": "EDT",
+        "temperature_c": 5,
+        "origin": "Vancouver Thornton BC",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-10-20T07:42-04:00",
+      "origin": "Vancouver Thornton BC",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

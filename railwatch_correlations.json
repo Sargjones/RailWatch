@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:47:49.383725Z",
+  "generated_at": "2026-10-20T21:24:43.061397Z",
   "total": 64,
   "cross_observer": 4,
   "chase": 60,
@@ -596,51 +596,6 @@
   ],
   "correlations": [
     {
-      "symbol": "CN118",
-      "tier": "cross_observer",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-09-19",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "Central Canada Railfan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
-        "title": "Great Power on Various CP Trains Around Winnipeg!"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-09-18",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=Bq0VZotgbzs",
-        "title": "MONSTER ACTION! Railfanning at Lovekin, ON (SEP 18, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 6.3,
-        "avg_speed_kmh": 5.0,
-        "speed_plausible": false,
-        "consist_profile": "Hopper/bulk train",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "hopper",
-      "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382302Z",
-      "confidence": "medium"
-    },
-    {
       "symbol": "CN100",
       "tier": "cross_observer",
       "sighting_a": {
@@ -682,7 +637,52 @@
       "consist_delta": null,
       "commodity": "intermodal",
       "dg_likely": true,
-      "correlated_at": "2026-10-20T10:47:49.382672Z",
+      "correlated_at": "2026-10-20T21:24:43.059268Z",
+      "confidence": "medium"
+    },
+    {
+      "symbol": "CN118",
+      "tier": "cross_observer",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-09-19",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "Central Canada Railfan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=GhRe9VwhQUU",
+        "title": "Great Power on Various CP Trains Around Winnipeg!"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-09-18",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=Bq0VZotgbzs",
+        "title": "MONSTER ACTION! Railfanning at Lovekin, ON (SEP 18, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 6.3,
+        "avg_speed_kmh": 5.0,
+        "speed_plausible": false,
+        "consist_profile": "Hopper/bulk train",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "hopper",
+      "dg_likely": false,
+      "correlated_at": "2026-10-20T21:24:43.060003Z",
       "confidence": "medium"
     },
     {
@@ -732,7 +732,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-20T10:47:49.382836Z",
+      "correlated_at": "2026-10-20T21:24:43.060493Z",
       "confidence": "medium"
     },
     {
@@ -782,7 +782,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-20T10:47:49.382881Z",
+      "correlated_at": "2026-10-20T21:24:43.060525Z",
       "confidence": "medium"
     },
     {
@@ -832,7 +832,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-20T10:47:49.382107Z",
+      "correlated_at": "2026-10-20T21:24:43.059775Z",
       "confidence": "low",
       "split_suspected": true
     },
@@ -878,7 +878,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.381762Z",
+      "correlated_at": "2026-10-20T21:24:43.059426Z",
       "confidence": "low"
     },
     {
@@ -928,7 +928,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.381787Z",
+      "correlated_at": "2026-10-20T21:24:43.059441Z",
       "confidence": "low"
     },
     {
@@ -978,7 +978,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.381909Z",
+      "correlated_at": "2026-10-20T21:24:43.059533Z",
       "confidence": "low"
     },
     {
@@ -1028,7 +1028,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.381923Z",
+      "correlated_at": "2026-10-20T21:24:43.059547Z",
       "confidence": "low"
     },
     {
@@ -1078,7 +1078,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.381935Z",
+      "correlated_at": "2026-10-20T21:24:43.059559Z",
       "confidence": "low"
     },
     {
@@ -1128,7 +1128,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.381953Z",
+      "correlated_at": "2026-10-20T21:24:43.059572Z",
       "confidence": "low"
     },
     {
@@ -1178,7 +1178,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.381964Z",
+      "correlated_at": "2026-10-20T21:24:43.059583Z",
       "confidence": "low"
     },
     {
@@ -1228,7 +1228,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.381976Z",
+      "correlated_at": "2026-10-20T21:24:43.059593Z",
       "confidence": "low"
     },
     {
@@ -1278,7 +1278,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.381986Z",
+      "correlated_at": "2026-10-20T21:24:43.059605Z",
       "confidence": "low"
     },
     {
@@ -1328,7 +1328,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382001Z",
+      "correlated_at": "2026-10-20T21:24:43.059620Z",
       "confidence": "low"
     },
     {
@@ -1378,7 +1378,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-20T10:47:49.382119Z",
+      "correlated_at": "2026-10-20T21:24:43.059790Z",
       "confidence": "low"
     },
     {
@@ -1423,7 +1423,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382200Z",
+      "correlated_at": "2026-10-20T21:24:43.059877Z",
       "confidence": "low"
     },
     {
@@ -1468,7 +1468,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382221Z",
+      "correlated_at": "2026-10-20T21:24:43.059929Z",
       "confidence": "low"
     },
     {
@@ -1513,7 +1513,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382245Z",
+      "correlated_at": "2026-10-20T21:24:43.059951Z",
       "confidence": "low"
     },
     {
@@ -1558,7 +1558,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382313Z",
+      "correlated_at": "2026-10-20T21:24:43.060013Z",
       "confidence": "low"
     },
     {
@@ -1603,7 +1603,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382323Z",
+      "correlated_at": "2026-10-20T21:24:43.060024Z",
       "confidence": "low"
     },
     {
@@ -1648,7 +1648,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382342Z",
+      "correlated_at": "2026-10-20T21:24:43.060042Z",
       "confidence": "low"
     },
     {
@@ -1693,7 +1693,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382356Z",
+      "correlated_at": "2026-10-20T21:24:43.060056Z",
       "confidence": "low"
     },
     {
@@ -1738,7 +1738,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382387Z",
+      "correlated_at": "2026-10-20T21:24:43.060089Z",
       "confidence": "low"
     },
     {
@@ -1783,7 +1783,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382397Z",
+      "correlated_at": "2026-10-20T21:24:43.060102Z",
       "confidence": "low"
     },
     {
@@ -1828,7 +1828,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382439Z",
+      "correlated_at": "2026-10-20T21:24:43.060147Z",
       "confidence": "low"
     },
     {
@@ -1873,7 +1873,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382454Z",
+      "correlated_at": "2026-10-20T21:24:43.060162Z",
       "confidence": "low"
     },
     {
@@ -1918,7 +1918,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382494Z",
+      "correlated_at": "2026-10-20T21:24:43.060203Z",
       "confidence": "low"
     },
     {
@@ -1963,7 +1963,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382509Z",
+      "correlated_at": "2026-10-20T21:24:43.060217Z",
       "confidence": "low"
     },
     {
@@ -2008,7 +2008,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382519Z",
+      "correlated_at": "2026-10-20T21:24:43.060227Z",
       "confidence": "low"
     },
     {
@@ -2053,7 +2053,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382585Z",
+      "correlated_at": "2026-10-20T21:24:43.060267Z",
       "confidence": "medium"
     },
     {
@@ -2098,7 +2098,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382596Z",
+      "correlated_at": "2026-10-20T21:24:43.060277Z",
       "confidence": "medium"
     },
     {
@@ -2143,7 +2143,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382607Z",
+      "correlated_at": "2026-10-20T21:24:43.060288Z",
       "confidence": "low"
     },
     {
@@ -2188,7 +2188,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382620Z",
+      "correlated_at": "2026-10-20T21:24:43.060297Z",
       "confidence": "low"
     },
     {
@@ -2233,7 +2233,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382643Z",
+      "correlated_at": "2026-10-20T21:24:43.060319Z",
       "confidence": "low"
     },
     {
@@ -2278,7 +2278,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382702Z",
+      "correlated_at": "2026-10-20T21:24:43.060355Z",
       "confidence": "low"
     },
     {
@@ -2323,7 +2323,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382744Z",
+      "correlated_at": "2026-10-20T21:24:43.060395Z",
       "confidence": "low"
     },
     {
@@ -2368,7 +2368,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382758Z",
+      "correlated_at": "2026-10-20T21:24:43.060406Z",
       "confidence": "low"
     },
     {
@@ -2413,7 +2413,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382778Z",
+      "correlated_at": "2026-10-20T21:24:43.060426Z",
       "confidence": "low"
     },
     {
@@ -2463,7 +2463,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382920Z",
+      "correlated_at": "2026-10-20T21:24:43.060561Z",
       "confidence": "low"
     },
     {
@@ -2508,7 +2508,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382942Z",
+      "correlated_at": "2026-10-20T21:24:43.060580Z",
       "confidence": "low"
     },
     {
@@ -2553,7 +2553,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.382965Z",
+      "correlated_at": "2026-10-20T21:24:43.060602Z",
       "confidence": "low"
     },
     {
@@ -2598,7 +2598,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383000Z",
+      "correlated_at": "2026-10-20T21:24:43.060657Z",
       "confidence": "low"
     },
     {
@@ -2643,7 +2643,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383010Z",
+      "correlated_at": "2026-10-20T21:24:43.060678Z",
       "confidence": "medium"
     },
     {
@@ -2688,7 +2688,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383049Z",
+      "correlated_at": "2026-10-20T21:24:43.060718Z",
       "confidence": "low"
     },
     {
@@ -2733,7 +2733,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383069Z",
+      "correlated_at": "2026-10-20T21:24:43.060734Z",
       "confidence": "low"
     },
     {
@@ -2778,7 +2778,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383081Z",
+      "correlated_at": "2026-10-20T21:24:43.060747Z",
       "confidence": "low"
     },
     {
@@ -2823,7 +2823,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383093Z",
+      "correlated_at": "2026-10-20T21:24:43.060759Z",
       "confidence": "low"
     },
     {
@@ -2868,7 +2868,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383105Z",
+      "correlated_at": "2026-10-20T21:24:43.060773Z",
       "confidence": "low"
     },
     {
@@ -2913,7 +2913,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383116Z",
+      "correlated_at": "2026-10-20T21:24:43.060785Z",
       "confidence": "low"
     },
     {
@@ -2958,7 +2958,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383129Z",
+      "correlated_at": "2026-10-20T21:24:43.060797Z",
       "confidence": "low"
     },
     {
@@ -3003,7 +3003,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383141Z",
+      "correlated_at": "2026-10-20T21:24:43.060809Z",
       "confidence": "low"
     },
     {
@@ -3048,7 +3048,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383154Z",
+      "correlated_at": "2026-10-20T21:24:43.060825Z",
       "confidence": "low"
     },
     {
@@ -3093,7 +3093,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383165Z",
+      "correlated_at": "2026-10-20T21:24:43.060839Z",
       "confidence": "low"
     },
     {
@@ -3138,7 +3138,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383272Z",
+      "correlated_at": "2026-10-20T21:24:43.060946Z",
       "confidence": "low"
     },
     {
@@ -3183,7 +3183,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383437Z",
+      "correlated_at": "2026-10-20T21:24:43.061111Z",
       "confidence": "low"
     },
     {
@@ -3228,7 +3228,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383471Z",
+      "correlated_at": "2026-10-20T21:24:43.061146Z",
       "confidence": "low"
     },
     {
@@ -3273,7 +3273,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383480Z",
+      "correlated_at": "2026-10-20T21:24:43.061155Z",
       "confidence": "low"
     },
     {
@@ -3318,7 +3318,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383491Z",
+      "correlated_at": "2026-10-20T21:24:43.061169Z",
       "confidence": "low"
     },
     {
@@ -3363,7 +3363,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383564Z",
+      "correlated_at": "2026-10-20T21:24:43.061244Z",
       "confidence": "low"
     },
     {
@@ -3408,7 +3408,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383579Z",
+      "correlated_at": "2026-10-20T21:24:43.061258Z",
       "confidence": "low"
     },
     {
@@ -3453,7 +3453,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383593Z",
+      "correlated_at": "2026-10-20T21:24:43.061270Z",
       "confidence": "low"
     },
     {
@@ -3498,7 +3498,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383605Z",
+      "correlated_at": "2026-10-20T21:24:43.061284Z",
       "confidence": "low"
     },
     {
@@ -3543,7 +3543,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-20T10:47:49.383617Z",
+      "correlated_at": "2026-10-20T21:24:43.061298Z",
       "confidence": "low"
     }
   ]
