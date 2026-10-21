@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-20T21:24:42.938318Z",
-    "total_videos": 1068
+    "updated_at": "2026-10-21T10:59:59.771989Z",
+    "total_videos": 1069
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6412,6 +6412,12 @@
       "title": "Cool Action on CP Lines Around Winnipeg - Early to Mid October 2026",
       "confidence": "high",
       "processed_at": "2026-10-20T21:24:42.938294Z"
+    },
+    "8g33BjM59H4": {
+      "channel": "Trackside Ontario",
+      "title": "Tuesday Trains at Bayview \u2022 October 20, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-21T10:59:56.530821Z"
     }
   }
 }
