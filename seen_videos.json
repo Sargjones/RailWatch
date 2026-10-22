@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-21T21:25:51.619024Z",
-    "total_videos": 1079
+    "updated_at": "2026-10-22T10:58:33.289565Z",
+    "total_videos": 1080
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6478,6 +6478,12 @@
       "title": "CPKC 113 passing thru the Palgrave shadows",
       "confidence": "medium",
       "processed_at": "2026-10-21T21:25:50.489547Z"
+    },
+    "ZKJLjhBTDH4": {
+      "channel": "Trackside Ontario",
+      "title": "Wednesday Afternoon at Bayview and Burlington West \u2022 October 21, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-22T10:58:30.009237Z"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T21:25:51.634622Z",
+  "generated_at": "2026-10-22T10:58:33.305131Z",
   "dedup_registry": {
-    "total": 1079,
+    "total": 1080,
     "by_channel": {
-      "Trackside Ontario": 73,
+      "Trackside Ontario": 74,
       "Trackside Tyson": 141,
       "Southern Ontario Railfan": 42,
       "Trackside Tristan": 12,
@@ -18,18 +18,23 @@
     },
     "by_confidence": {
       "high": 259,
-      "medium": 736,
+      "medium": 737,
       "low": 84,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-14T00:00:00Z",
+  "since": "2026-10-15T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
@@ -38,13 +43,8 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 4,
-      "skipped": 3,
-      "high": 0,
-      "medium": 4,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Trackside Tristan",
@@ -68,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 5,
-      "skipped": 14,
-      "high": 4,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 3,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -88,13 +83,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 21,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 22
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +112,37 @@
       "skipped": 1
     }
   ],
-  "total": 1079,
-  "new_this_run": 10,
+  "total": 1080,
+  "new_this_run": 1,
   "high_confidence": 259,
   "dg_likely": 184,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "ZKJLjhBTDH4",
+      "video_url": "https://www.youtube.com/watch?v=ZKJLjhBTDH4",
+      "title": "Wednesday Afternoon at Bayview and Burlington West \u2022 October 21, 2026",
+      "published_at": "2026-10-22T03:30:40Z",
+      "date": "2026-10-21",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Wednesday Afternoon at Bayview and Burlington West \u2022 October 21, 2026",
+      "description_chars": 180,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
