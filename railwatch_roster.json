@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-23T10:52:00.182907Z",
-  "total_units": 563,
+  "generated_at": "2026-10-23T21:11:47.650467Z",
+  "total_units": 564,
   "min_sightings": 2,
   "by_road": {
-    "CN": 444,
+    "CN": 445,
     "VIA": 10,
     "CP": 106,
     "CPKC": 1,
@@ -5441,6 +5441,94 @@
           "video_url": "https://www.youtube.com/watch?v=Mgc8Ff1xogs",
           "title": "CP 7047 SD70ACU blasting thru Port Hope",
           "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8303",
+      "display": "CN 8303",
+      "sighting_count": 5,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-10-23",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368",
+        "CN 63"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "lead",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Wm9eB_aNX8Q",
+          "title": "CN Train 368 Eastbound October 23, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Wm9eB_aNX8Q",
+          "title": "CN Train 368 Eastbound October 23, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-07-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 63",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bKk8pYCbL_0",
+          "title": "VIA Train 63 Westbound Meets CN Train 368 Eastbound July 11,",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3HtqmhT6gB8",
+          "title": "CN Train 368 Lifting July 11, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-11",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": null,
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=3HtqmhT6gB8",
+          "title": "CN Train 368 Lifting July 11, 2026",
+          "source": "description_structured"
         }
       ]
     },
@@ -15136,62 +15224,62 @@
     },
     {
       "road": "CN",
-      "number": "8303",
-      "display": "CN 8303",
+      "number": "8307",
+      "display": "CN 8307",
       "sighting_count": 3,
-      "first_seen": "2026-07-11",
-      "last_seen": "2026-07-11",
+      "first_seen": "2026-08-06",
+      "last_seen": "2026-10-23",
       "corridors": [
         "CN Kingston/Oakville Sub"
       ],
       "trains_led": [
-        "CN 63",
-        "CN 368"
+        "CN 368",
+        "Z111"
       ],
-      "dpu_confirmed": true,
+      "dpu_confirmed": false,
       "roles_seen": [
         "unknown",
-        "dpu"
+        "lead"
       ],
       "sightings": [
         {
-          "date": "2026-07-11",
+          "date": "2026-10-23",
           "location": "Toronto",
           "subdivision": "CN Kingston/Oakville Sub",
           "channel": "Brockville RailFan",
-          "train_symbol": "CN 63",
+          "train_symbol": "CN 368",
           "direction": "East",
           "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=bKk8pYCbL_0",
-          "title": "VIA Train 63 Westbound Meets CN Train 368 Eastbound July 11,",
+          "video_url": "https://www.youtube.com/watch?v=Wm9eB_aNX8Q",
+          "title": "CN Train 368 Eastbound October 23, 2026",
           "source": "text_extraction"
         },
         {
-          "date": "2026-07-11",
+          "date": "2026-10-23",
           "location": "Toronto",
           "subdivision": "CN Kingston/Oakville Sub",
           "channel": "Brockville RailFan",
           "train_symbol": "CN 368",
-          "direction": null,
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Wm9eB_aNX8Q",
+          "title": "CN Train 368 Eastbound October 23, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-08-06",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "Z111",
+          "direction": "East",
           "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=3HtqmhT6gB8",
-          "title": "CN Train 368 Lifting July 11, 2026",
+          "video_url": "https://www.youtube.com/watch?v=j_UZCAejMdA",
+          "title": "CN Trains on The Mainline at St. James Junction and A Bit Ar",
           "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-11",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 368",
-          "direction": null,
-          "role": "dpu",
-          "dpu": true,
-          "video_url": "https://www.youtube.com/watch?v=3HtqmhT6gB8",
-          "title": "CN Train 368 Lifting July 11, 2026",
-          "source": "description_structured"
         }
       ]
     },

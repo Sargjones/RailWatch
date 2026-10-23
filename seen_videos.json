@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-23T10:51:59.982147Z",
-    "total_videos": 1087
+    "updated_at": "2026-10-23T21:11:47.457409Z",
+    "total_videos": 1092
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6526,6 +6526,36 @@
       "title": "AWESOME P5! CP 9837 at Palgrave, ON (OCT 22, 2026)",
       "confidence": "medium",
       "processed_at": "2026-10-23T10:51:59.245690Z"
+    },
+    "l23e63Rj8KA": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound October 23, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-23T21:11:45.440908Z"
+    },
+    "Wm9eB_aNX8Q": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound October 23, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-23T21:11:45.441106Z"
+    },
+    "_zgHY5EbvxI": {
+      "channel": "MJM Productions",
+      "title": "CPKC H17 heads south into the sun",
+      "confidence": "medium",
+      "processed_at": "2026-10-23T21:11:46.324579Z"
+    },
+    "JST0O2ErYbM": {
+      "channel": "MJM Productions",
+      "title": "KCS 4858 pulls CWR cars past Kleinburg",
+      "confidence": "medium",
+      "processed_at": "2026-10-23T21:11:46.325863Z"
+    },
+    "bfjivqf1RGY": {
+      "channel": "MJM Productions",
+      "title": "Sunrise CPKC 119 blowing thru Kleinburg",
+      "confidence": "medium",
+      "processed_at": "2026-10-23T21:11:46.325963Z"
     }
   }
 }
