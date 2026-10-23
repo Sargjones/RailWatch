@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-22T21:20:59.290582Z",
+  "generated_at": "2026-10-23T10:51:59.997531Z",
   "dedup_registry": {
-    "total": 1085,
+    "total": 1087,
     "by_channel": {
       "Trackside Ontario": 74,
-      "Trackside Tyson": 141,
+      "Trackside Tyson": 142,
       "Southern Ontario Railfan": 42,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
       "Brockville RailFan": 374,
-      "MJM Productions": 330,
+      "MJM Productions": 331,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 262,
-      "medium": 739,
-      "low": 84,
+      "medium": 740,
+      "low": 85,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-15T00:00:00Z",
+  "since": "2026-10-16T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,13 +33,18 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 2,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
       "videos": 0,
-      "skipped": 7
+      "skipped": 6
     },
     {
       "channel": "Trackside Tristan",
@@ -63,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 4,
-      "skipped": 16,
-      "high": 3,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 3,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 17
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -79,7 +79,7 @@
     {
       "channel": "PTBO Railfanning",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "MJM Productions",
@@ -89,7 +89,7 @@
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +117,93 @@
       "skipped": 1
     }
   ],
-  "total": 1085,
-  "new_this_run": 5,
+  "total": 1087,
+  "new_this_run": 2,
   "high_confidence": 262,
   "dg_likely": 187,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "6-8eUW4VBAc",
+      "video_url": "https://www.youtube.com/watch?v=6-8eUW4VBAc",
+      "title": "AWESOME P5! CP 9837 at Palgrave, ON (OCT 22, 2026)",
+      "published_at": "2026-10-22T23:25:28Z",
+      "date": "2026-10-22",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 9837",
+        "CPKC 118",
+        "CP 7568"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 9837",
+          "raw": "CP 9837"
+        },
+        {
+          "road": "CN",
+          "symbol": "AC4400",
+          "raw": "ac4400"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7568",
+          "raw": "CP 7568"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "AWESOME P5! CP 9837 at Palgrave, ON (OCT 22, 2026)",
+      "description_chars": 434,
+      "consist": {
+        "observed_time": "1:37",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-10-22T1:37",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "Yj1a9vnTCEk",
+      "video_url": "https://www.youtube.com/watch?v=Yj1a9vnTCEk",
+      "title": "DRIVERLESS ELECTRIC PASSENGER TRAINS #youtubeshorts",
+      "published_at": "2026-10-22T23:00:14Z",
+      "date": "2026-10-22",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "DRIVERLESS ELECTRIC PASSENGER TRAINS #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

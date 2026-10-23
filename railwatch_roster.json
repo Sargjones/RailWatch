@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-22T21:20:59.409254Z",
-  "total_units": 561,
+  "generated_at": "2026-10-23T10:52:00.182907Z",
+  "total_units": 563,
   "min_sightings": 2,
   "by_road": {
-    "CN": 443,
+    "CN": 444,
     "VIA": 10,
-    "CP": 105,
+    "CP": 106,
     "CPKC": 1,
     "RUCK": 1,
     "AC": 1
@@ -27040,6 +27040,53 @@
       ]
     },
     {
+      "road": "CN",
+      "number": "9837",
+      "display": "CN 9837",
+      "sighting_count": 2,
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "corridors": [
+        "CPKC MacTier Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-22",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=6-8eUW4VBAc",
+          "title": "AWESOME P5! CP 9837 at Palgrave, ON (OCT 22, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-10-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5mbkSkO455g",
+          "title": "CP 9837 AC4400CW blasting its P5 horn",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
       "road": "VIA",
       "number": "2211",
       "display": "VIA 2211",
@@ -33270,6 +33317,53 @@
       ]
     },
     {
+      "road": "CP",
+      "number": "9837",
+      "display": "CP 9837",
+      "sighting_count": 2,
+      "first_seen": "2026-10-22",
+      "last_seen": "2026-10-22",
+      "corridors": [
+        "CPKC MacTier Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-22",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=6-8eUW4VBAc",
+          "title": "AWESOME P5! CP 9837 at Palgrave, ON (OCT 22, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5mbkSkO455g",
+          "title": "CP 9837 AC4400CW blasting its P5 horn",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
       "road": "CPKC",
       "number": "8757",
       "display": "CPKC 8757",
@@ -33372,14 +33466,16 @@
       "road": "AC",
       "number": "4400",
       "display": "AC 4400",
-      "sighting_count": 2,
+      "sighting_count": 3,
       "first_seen": "2026-07-21",
-      "last_seen": "2026-08-05",
+      "last_seen": "2026-10-22",
       "corridors": [
+        "CPKC MacTier Sub",
         "CN Kingston Sub",
         "CN Kingston/Oakville Sub"
       ],
       "trains_led": [
+        "CN 118",
         "CN 132"
       ],
       "dpu_confirmed": false,
@@ -33387,6 +33483,19 @@
         "unknown"
       ],
       "sightings": [
+        {
+          "date": "2026-10-22",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 118",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=6-8eUW4VBAc",
+          "title": "AWESOME P5! CP 9837 at Palgrave, ON (OCT 22, 2026)",
+          "source": "symbol_extraction"
+        },
         {
           "date": "2026-08-05",
           "location": "Toronto",
