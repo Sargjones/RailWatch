@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-24T10:06:28.007265Z",
+  "generated_at": "2026-10-24T20:28:53.414872Z",
   "dedup_registry": {
-    "total": 1093,
+    "total": 1095,
     "by_channel": {
       "Trackside Ontario": 74,
-      "Trackside Tyson": 142,
-      "Southern Ontario Railfan": 42,
+      "Trackside Tyson": 143,
+      "Southern Ontario Railfan": 43,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
@@ -18,8 +18,8 @@
     },
     "by_confidence": {
       "high": 263,
-      "medium": 745,
-      "low": 85,
+      "medium": 746,
+      "low": 86,
       "meta": 0
     }
   },
@@ -33,13 +33,23 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 3
+      "videos": 1,
+      "skipped": 3,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -78,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 13,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,63 @@
       "skipped": 1
     }
   ],
-  "total": 1093,
-  "new_this_run": 1,
+  "total": 1095,
+  "new_this_run": 2,
   "high_confidence": 263,
   "dg_likely": 188,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "bYFBiFk2M6Y",
+      "video_url": "https://www.youtube.com/watch?v=bYFBiFk2M6Y",
+      "title": "TRAINS CURVING THRU THE THOMPSON CANYON!",
+      "published_at": "2026-10-24T18:00:07Z",
+      "date": "2026-10-24",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "TRAINS CURVING THRU THE THOMPSON CANYON!",
+      "description_chars": 443,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "BlJHWPczsdY",
+      "video_url": "https://www.youtube.com/watch?v=BlJHWPczsdY",
+      "title": "VIA Rail Train In Ajax",
+      "published_at": "2026-10-24T13:49:11Z",
+      "date": "2026-10-24",
+      "location": "Ajax",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8509,
+      "lon": -79.0205,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "VIA Rail Train In Ajax",
+      "description_chars": 19,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

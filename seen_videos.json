@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-24T10:06:27.991545Z",
-    "total_videos": 1093
+    "updated_at": "2026-10-24T20:28:53.401988Z",
+    "total_videos": 1095
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6562,6 +6562,18 @@
       "title": "Railfanning CPKC at Kleinburg, ON (OCT 23, 2026)",
       "confidence": "medium",
       "processed_at": "2026-10-24T10:06:26.933790Z"
+    },
+    "bYFBiFk2M6Y": {
+      "channel": "Trackside Tyson",
+      "title": "TRAINS CURVING THRU THE THOMPSON CANYON!",
+      "confidence": "low",
+      "processed_at": "2026-10-24T20:28:50.092176Z"
+    },
+    "BlJHWPczsdY": {
+      "channel": "Southern Ontario Railfan",
+      "title": "VIA Rail Train In Ajax",
+      "confidence": "medium",
+      "processed_at": "2026-10-24T20:28:50.423795Z"
     }
   }
 }
