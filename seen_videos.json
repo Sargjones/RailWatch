@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-23T21:11:47.457409Z",
-    "total_videos": 1092
+    "updated_at": "2026-10-24T10:06:27.991545Z",
+    "total_videos": 1093
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6556,6 +6556,12 @@
       "title": "Sunrise CPKC 119 blowing thru Kleinburg",
       "confidence": "medium",
       "processed_at": "2026-10-23T21:11:46.325963Z"
+    },
+    "GZ7M_WMCsrM": {
+      "channel": "MJM Productions",
+      "title": "Railfanning CPKC at Kleinburg, ON (OCT 23, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-10-24T10:06:26.933790Z"
     }
   }
 }
