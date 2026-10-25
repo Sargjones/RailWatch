@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-24T20:28:53.401988Z",
-    "total_videos": 1095
+    "updated_at": "2026-10-25T10:31:44.103353Z",
+    "total_videos": 1099
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6574,6 +6574,30 @@
       "title": "VIA Rail Train In Ajax",
       "confidence": "medium",
       "processed_at": "2026-10-24T20:28:50.423795Z"
+    },
+    "xTNxv8vllDI": {
+      "channel": "Trackside Tyson",
+      "title": "BIG TRAINS WORKING THRU CANADA'S RUGGED CANYON! ",
+      "confidence": "low",
+      "processed_at": "2026-10-25T10:31:41.295332Z"
+    },
+    "yZPR9u3Df6A": {
+      "channel": "Southern Ontario Railfan",
+      "title": "CN Train In Oshawa",
+      "confidence": "medium",
+      "processed_at": "2026-10-25T10:31:41.627067Z"
+    },
+    "x8k_CEOGWSo": {
+      "channel": "Southern Ontario Railfan",
+      "title": "GO Train Departing Durham College Oshawa GO Station",
+      "confidence": "medium",
+      "processed_at": "2026-10-25T10:31:41.627142Z"
+    },
+    "y4YC3HBodVM": {
+      "channel": "Southern Ontario Railfan",
+      "title": "VIA Rail Train Departing Oshawa VIA Rail Station.",
+      "confidence": "medium",
+      "processed_at": "2026-10-25T10:31:41.627199Z"
     }
   }
 }
