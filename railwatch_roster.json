@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-25T10:31:44.308061Z",
-  "total_units": 567,
+  "generated_at": "2026-10-25T20:37:07.257328Z",
+  "total_units": 568,
   "min_sightings": 2,
   "by_road": {
-    "CN": 445,
+    "CN": 446,
     "VIA": 10,
     "CP": 109,
     "CPKC": 1,
@@ -21778,6 +21778,53 @@
           "video_url": "https://www.youtube.com/watch?v=3oF72QSMVJY",
           "title": "CN Train 126 Eastbound July 6, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3369",
+      "display": "CN 3369",
+      "sighting_count": 2,
+      "first_seen": "2026-06-23",
+      "last_seen": "2026-10-25",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 368"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-25",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Z1qHgGRL7bU",
+          "title": "CN 3369 south at Zephyr, Ontario",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 368",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=YZggQLnlgAI",
+          "title": "CN Train 368 Raced by CN Train 126 Eastbound June 23, 2026",
+          "source": "text_extraction"
         }
       ]
     },
