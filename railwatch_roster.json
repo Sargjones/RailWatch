@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-25T20:37:07.257328Z",
-  "total_units": 568,
+  "generated_at": "2026-10-26T12:04:38.600148Z",
+  "total_units": 569,
   "min_sightings": 2,
   "by_road": {
-    "CN": 446,
+    "CN": 447,
     "VIA": 10,
     "CP": 109,
     "CPKC": 1,
@@ -23702,6 +23702,53 @@
           "video_url": "https://www.youtube.com/watch?v=gkUjACT6McA",
           "title": "CN Train 276 Eastbound August 26, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "5754",
+      "display": "CN 5754",
+      "sighting_count": 2,
+      "first_seen": "2026-10-25",
+      "last_seen": "2026-10-25",
+      "corridors": [
+        "CN Bala Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Z126"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-25",
+          "location": "CN Bala Sub",
+          "subdivision": "CN Bala Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z126",
+          "direction": "South",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=mW1ttguRnJ4",
+          "title": "OLD CLASSIC! CN 5754 at Mount Albert, ON (OCT 25, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-25",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z126",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PNAvI-u_fdI",
+          "title": "CN 5754 leads CN Z126 around the curve",
+          "source": "text_extraction"
         }
       ]
     },

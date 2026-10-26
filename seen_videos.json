@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-25T20:37:07.125437Z",
-    "total_videos": 1118
+    "updated_at": "2026-10-26T12:04:38.403736Z",
+    "total_videos": 1121
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6712,6 +6712,24 @@
       "title": "CN 3369 south at Zephyr, Ontario",
       "confidence": "medium",
       "processed_at": "2026-10-25T20:37:05.956062Z"
+    },
+    "JQ0PYm387eU": {
+      "channel": "Trackside Ontario",
+      "title": "Sunday Morning Action at Bayview Junction \u2022 October 25, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-26T12:04:35.482396Z"
+    },
+    "ZCKSLtvOtlQ": {
+      "channel": "Trackside Ontario",
+      "title": "Sunday Morning at Bayview \u2022 October 26, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-26T12:04:35.482582Z"
+    },
+    "mW1ttguRnJ4": {
+      "channel": "MJM Productions",
+      "title": "OLD CLASSIC! CN 5754 at Mount Albert, ON (OCT 25, 2026)",
+      "confidence": "high",
+      "processed_at": "2026-10-26T12:04:37.522192Z"
     }
   }
 }

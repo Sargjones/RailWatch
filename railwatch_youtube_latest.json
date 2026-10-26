@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-25T20:37:07.135239Z",
+  "generated_at": "2026-10-26T12:04:38.419353Z",
   "dedup_registry": {
-    "total": 1118,
+    "total": 1121,
     "by_channel": {
-      "Trackside Ontario": 75,
+      "Trackside Ontario": 77,
       "Trackside Tyson": 144,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
       "Brockville RailFan": 376,
-      "MJM Productions": 337,
+      "MJM Productions": 338,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 263,
-      "medium": 768,
+      "high": 264,
+      "medium": 770,
       "low": 87,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-18T00:00:00Z",
+  "since": "2026-10-19T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 2,
+      "videos": 2,
+      "skipped": 3,
       "high": 0,
-      "medium": 1,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
@@ -39,17 +39,12 @@
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 4
+      "skipped": 3
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 16,
-      "skipped": 9,
-      "high": 0,
-      "medium": 16,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 14
+      "videos": 0,
+      "skipped": 25
     },
     {
       "channel": "Trackside Tristan",
@@ -88,13 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 13,
-      "high": 0,
-      "medium": 2,
+      "videos": 1,
+      "skipped": 9,
+      "high": 1,
+      "medium": 0,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 2
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +117,113 @@
       "skipped": 1
     }
   ],
-  "total": 1118,
-  "new_this_run": 19,
-  "high_confidence": 263,
+  "total": 1121,
+  "new_this_run": 3,
+  "high_confidence": 264,
   "dg_likely": 188,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "JQ0PYm387eU",
+      "video_url": "https://www.youtube.com/watch?v=JQ0PYm387eU",
+      "title": "Sunday Morning Action at Bayview Junction \u2022 October 25, 2026",
+      "published_at": "2026-10-26T02:11:09Z",
+      "date": "2026-10-25",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Sunday Morning Action at Bayview Junction \u2022 October 25, 2026",
+      "description_chars": 276,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "ZCKSLtvOtlQ",
+      "video_url": "https://www.youtube.com/watch?v=ZCKSLtvOtlQ",
+      "title": "Sunday Morning at Bayview \u2022 October 26, 2026",
+      "published_at": "2026-10-25T23:50:25Z",
+      "date": "2026-10-26",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Sunday Morning at Bayview \u2022 October 26, 2026",
+      "description_chars": 125,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "mW1ttguRnJ4",
+      "video_url": "https://www.youtube.com/watch?v=mW1ttguRnJ4",
+      "title": "OLD CLASSIC! CN 5754 at Mount Albert, ON (OCT 25, 2026)",
+      "published_at": "2026-10-25T22:00:25Z",
+      "date": "2026-10-25",
+      "location": "CN Bala Sub",
+      "subdivision": "CN Bala Sub",
+      "lat": 44.5,
+      "lon": -79.8,
+      "direction": "South",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5754",
+        "CN 2687"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5754",
+          "raw": "CN 5754"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z126",
+          "raw": "Z126"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2687",
+          "raw": "CN 2687"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "OLD CLASSIC! CN 5754 at Mount Albert, ON (OCT 25, 2026)",
+      "description_chars": 471,
+      "consist": {
+        "observed_time": "11:24",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-10-25T11:24",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
