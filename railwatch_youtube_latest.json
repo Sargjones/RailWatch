@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26T12:04:38.419353Z",
+  "generated_at": "2026-10-26T22:27:33.431122Z",
   "dedup_registry": {
-    "total": 1121,
+    "total": 1124,
     "by_channel": {
       "Trackside Ontario": 77,
       "Trackside Tyson": 144,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
-      "Brockville RailFan": 376,
+      "Brockville RailFan": 379,
       "MJM Productions": 338,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 264,
-      "medium": 770,
+      "high": 266,
+      "medium": 771,
       "low": 87,
       "meta": 0
     }
@@ -28,13 +28,8 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 2,
-      "skipped": 3,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Trackside Tyson",
@@ -68,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 19
+      "videos": 3,
+      "skipped": 19,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 2,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +83,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 9,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 10
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +112,187 @@
       "skipped": 1
     }
   ],
-  "total": 1121,
+  "total": 1124,
   "new_this_run": 3,
-  "high_confidence": 264,
-  "dg_likely": 188,
+  "high_confidence": 266,
+  "dg_likely": 190,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "6eoPoUe6uRI",
+      "video_url": "https://www.youtube.com/watch?v=6eoPoUe6uRI",
+      "title": "VIA Train 61 Westbound October 26, 2026",
+      "published_at": "2026-10-26T14:15:39Z",
+      "date": "2026-10-26",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound October 26, 2026",
+      "description_chars": 220,
+      "consist": {
+        "speed_kmh": 95,
+        "speed_raw": "59 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:59",
+        "observed_tz": "EDT",
+        "temperature_c": 10,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-10-26T08:59-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "XJnQysXgQr4",
+      "video_url": "https://www.youtube.com/watch?v=XJnQysXgQr4",
+      "title": "CN Train 322 Eastbound October 26, 2025",
+      "published_at": "2026-10-26T14:07:24Z",
+      "date": "2025-10-26",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3207",
+        "CN 3378"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3207",
+          "raw": "CN 3207"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3378",
+          "raw": "CN 3378"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 322 Eastbound October 26, 2025",
+      "description_chars": 198,
+      "consist": {
+        "engines": [
+          "CN 3207",
+          "CN 3378"
+        ],
+        "car_count": 89,
+        "consist_type": "freight",
+        "speed_kmh": 31,
+        "speed_raw": "19 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:52",
+        "observed_tz": "EDT",
+        "temperature_c": 9,
+        "origin": "Toronto MacMillan ON",
+        "destination": "St",
+        "consist_anomaly": "Lambert QC"
+      },
+      "observed_at": "2025-10-26T07:52-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "consist_anomaly": "Lambert QC",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "u8ydjM2qrd4",
+      "video_url": "https://www.youtube.com/watch?v=u8ydjM2qrd4",
+      "title": "CN Train 322 Return to Train After Set Off Octobr 26, 2026",
+      "published_at": "2026-10-26T13:48:57Z",
+      "date": "2026-10-26",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3207",
+        "CN 3378"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3207",
+          "raw": "CN 3207"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3378",
+          "raw": "CN 3378"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 322 Return to Train After Set Off Octobr 26, 2026",
+      "description_chars": 245,
+      "consist": {
+        "engines": [
+          "CN 3207",
+          "CN 3378"
+        ],
+        "car_count": 21,
+        "consist_type": "freight",
+        "observed_time": "07:22",
+        "observed_tz": "EDT",
+        "temperature_c": 8,
+        "origin": "Toronto MacMillan ON",
+        "destination": "St",
+        "consist_anomaly": "Lambert QC"
+      },
+      "observed_at": "2026-10-26T07:22-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "consist_anomaly": "Lambert QC",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

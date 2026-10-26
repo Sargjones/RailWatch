@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-26T12:04:38.403736Z",
-    "total_videos": 1121
+    "updated_at": "2026-10-26T22:27:33.415154Z",
+    "total_videos": 1124
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6730,6 +6730,24 @@
       "title": "OLD CLASSIC! CN 5754 at Mount Albert, ON (OCT 25, 2026)",
       "confidence": "high",
       "processed_at": "2026-10-26T12:04:37.522192Z"
+    },
+    "6eoPoUe6uRI": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound October 26, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-26T22:27:31.756195Z"
+    },
+    "XJnQysXgQr4": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Eastbound October 26, 2025",
+      "confidence": "high",
+      "processed_at": "2026-10-26T22:27:31.756378Z"
+    },
+    "u8ydjM2qrd4": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Return to Train After Set Off Octobr 26, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-26T22:27:31.758149Z"
     }
   }
 }
