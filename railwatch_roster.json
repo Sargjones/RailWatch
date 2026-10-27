@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-26T22:27:33.613969Z",
-  "total_units": 570,
+  "generated_at": "2026-10-27T11:25:00.956922Z",
+  "total_units": 572,
   "min_sightings": 2,
   "by_road": {
-    "CN": 448,
+    "CN": 449,
     "VIA": 10,
-    "CP": 109,
+    "CP": 110,
     "CPKC": 1,
     "AC": 1,
     "RUCK": 1
@@ -26135,6 +26135,53 @@
     },
     {
       "road": "CN",
+      "number": "8624",
+      "display": "CN 8624",
+      "sighting_count": 2,
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=h9DC3YvORkw",
+          "title": "MASSIVE TRAIN! CP 8624 at Caledon, ON (OCT 26, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-10-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=54Kv1AdOEkA",
+          "title": "CP 8624 AC4400CW thru the searchlights",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "8747",
       "display": "CN 8747",
       "sighting_count": 2,
@@ -32912,6 +32959,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=MrlnmFXvbcM",
           "title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8624",
+      "display": "CP 8624",
+      "sighting_count": 2,
+      "first_seen": "2026-10-26",
+      "last_seen": "2026-10-26",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=h9DC3YvORkw",
+          "title": "MASSIVE TRAIN! CP 8624 at Caledon, ON (OCT 26, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=54Kv1AdOEkA",
+          "title": "CP 8624 AC4400CW thru the searchlights",
           "source": "text_extraction"
         }
       ]
