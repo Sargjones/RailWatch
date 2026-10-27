@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-27T11:25:00.464273Z",
-    "total_videos": 1127
+    "updated_at": "2026-10-27T21:58:15.376447Z",
+    "total_videos": 1130
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6766,6 +6766,24 @@
       "title": "CP 8624 AC4400CW thru the searchlights",
       "confidence": "medium",
       "processed_at": "2026-10-27T11:24:57.748117Z"
+    },
+    "W-CHxaZ2wOc": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound October 27, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-27T21:58:13.588724Z"
+    },
+    "twD-XhvPRC8": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound October 27, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-27T21:58:13.588951Z"
+    },
+    "flKUh0_pQNA": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 108 Eastbound October 27, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-27T21:58:13.589141Z"
     }
   }
 }

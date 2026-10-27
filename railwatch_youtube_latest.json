@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-27T11:25:00.511669Z",
+  "generated_at": "2026-10-27T21:58:15.392850Z",
   "dedup_registry": {
-    "total": 1127,
+    "total": 1130,
     "by_channel": {
       "Trackside Ontario": 77,
       "Trackside Tyson": 145,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
-      "Brockville RailFan": 379,
+      "Brockville RailFan": 382,
       "MJM Productions": 340,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 266,
-      "medium": 774,
+      "high": 268,
+      "medium": 775,
       "low": 87,
       "meta": 0
     }
@@ -33,13 +33,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -68,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 17
+      "videos": 3,
+      "skipped": 17,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 2,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +83,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 10,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 12
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +112,189 @@
       "skipped": 1
     }
   ],
-  "total": 1127,
+  "total": 1130,
   "new_this_run": 3,
-  "high_confidence": 266,
-  "dg_likely": 190,
+  "high_confidence": 268,
+  "dg_likely": 192,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "W-CHxaZ2wOc",
+      "video_url": "https://www.youtube.com/watch?v=W-CHxaZ2wOc",
+      "title": "VIA Train 61 Westbound October 27, 2026",
+      "published_at": "2026-10-27T14:29:41Z",
+      "date": "2026-10-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound October 27, 2026",
+      "description_chars": 295,
+      "consist": {
+        "speed_kmh": 90,
+        "speed_raw": "56 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:12",
+        "observed_tz": "EDT",
+        "temperature_c": -1,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-10-27T09:12-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "twD-XhvPRC8",
+      "video_url": "https://www.youtube.com/watch?v=twD-XhvPRC8",
+      "title": "CN Train 368 Eastbound October 27, 2026",
+      "published_at": "2026-10-27T14:21:05Z",
+      "date": "2026-10-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3410",
+        "CN 2873"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3410",
+          "raw": "CN 3410"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2873",
+          "raw": "CN 2873"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Eastbound October 27, 2026",
+      "description_chars": 200,
+      "consist": {
+        "engines": [
+          "CN 3410"
+        ],
+        "dpu": [
+          "CN 2873"
+        ],
+        "car_count": 111,
+        "consist_type": "freight",
+        "speed_kmh": 24,
+        "speed_raw": "15 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:48",
+        "observed_tz": "EDT",
+        "temperature_c": -1,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-10-27T08:48-04:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "flKUh0_pQNA",
+      "video_url": "https://www.youtube.com/watch?v=flKUh0_pQNA",
+      "title": "CN Train 108 Eastbound October 27, 2026",
+      "published_at": "2026-10-27T14:02:56Z",
+      "date": "2026-10-27",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3876",
+        "CN 3815"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 108",
+          "raw": "CN Train 108"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3876",
+          "raw": "CN 3876"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3815",
+          "raw": "CN 3815"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 108 Eastbound October 27, 2026",
+      "description_chars": 265,
+      "consist": {
+        "engines": [
+          "CN 3876"
+        ],
+        "dpu": [
+          "CN 3815"
+        ],
+        "car_count": 116,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 45,
+        "speed_raw": "28 mph",
+        "detector_milepost": 137,
+        "observed_time": "08:21",
+        "observed_tz": "EDT",
+        "temperature_c": -2,
+        "origin": "Vancouver Thornton BC",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-10-27T08:21-04:00",
+      "origin": "Vancouver Thornton BC",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
