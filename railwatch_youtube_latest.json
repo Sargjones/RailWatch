@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-27T21:58:15.392850Z",
+  "generated_at": "2026-10-28T11:57:20.944924Z",
   "dedup_registry": {
-    "total": 1130,
+    "total": 1133,
     "by_channel": {
       "Trackside Ontario": 77,
-      "Trackside Tyson": 145,
+      "Trackside Tyson": 146,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
       "Brockville RailFan": 382,
-      "MJM Productions": 340,
+      "MJM Productions": 342,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 268,
-      "medium": 775,
-      "low": 87,
+      "medium": 777,
+      "low": 88,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-20T00:00:00Z",
+  "since": "2026-10-21T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,13 +33,18 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
       "videos": 0,
-      "skipped": 25
+      "skipped": 24
     },
     {
       "channel": "Trackside Tristan",
@@ -63,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 17,
-      "high": 2,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 17
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 12
+      "videos": 2,
+      "skipped": 12,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -109,14 +114,113 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     }
   ],
-  "total": 1130,
+  "total": 1133,
   "new_this_run": 3,
   "high_confidence": 268,
   "dg_likely": 192,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "8xNhT6hdh0k",
+      "video_url": "https://www.youtube.com/watch?v=8xNhT6hdh0k",
+      "title": "SD75I LEADER! CN 5703 at Zephyr, ON (OCT 27, 2026)",
+      "published_at": "2026-10-27T23:58:03Z",
+      "date": "2026-10-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5703"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5703",
+          "raw": "CN 5703"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "SD75I LEADER! CN 5703 at Zephyr, ON (OCT 27, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "zOGtZ0UW8T4",
+      "video_url": "https://www.youtube.com/watch?v=zOGtZ0UW8T4",
+      "title": "CPKC DOUBLE STACK IN THE CANYON #youtubeshorts",
+      "published_at": "2026-10-27T23:00:06Z",
+      "date": "2026-10-27",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CPKC DOUBLE STACK IN THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "qU3rQ2I8-sM",
+      "video_url": "https://www.youtube.com/watch?v=qU3rQ2I8-sM",
+      "title": "CN 5703 SD75i leads CN Z126 south",
+      "published_at": "2026-10-27T22:22:24Z",
+      "date": "2026-10-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5703"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5703",
+          "raw": "CN 5703"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z126",
+          "raw": "Z126"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 5703 SD75i leads CN Z126 south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
