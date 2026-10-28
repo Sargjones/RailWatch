@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T11:57:21.065789Z",
+  "generated_at": "2026-10-28T22:22:33.903623Z",
   "total": 64,
   "cross_observer": 4,
   "chase": 60,
@@ -8,6 +8,46 @@
   "dg_correlations": 5,
   "splits_suspected": 1,
   "anomalies": [
+    {
+      "type": "consist_anomaly",
+      "channel": "Brockville RailFan",
+      "date": "2026-10-28",
+      "location": "Toronto",
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA 61"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3097",
+          "raw": "CN 3097"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8011",
+          "raw": "CN 8011"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2976",
+          "raw": "CN 2976"
+        }
+      ],
+      "anomaly_note": "king the north yard picking up 2 TankTrain sets. Yesterday's switch heater work has been completed.",
+      "car_count": null,
+      "car_count_note": null,
+      "origin": null,
+      "destination": null,
+      "video_url": "https://www.youtube.com/watch?v=WStL-J9ni34",
+      "title": "CN Train 368 Eastbound Meets VIA 61 Westbound October 28, 2026"
+    },
     {
       "type": "consist_anomaly",
       "channel": "Brockville RailFan",
@@ -827,7 +867,7 @@
       "consist_delta": null,
       "commodity": "hopper",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064645Z",
+      "correlated_at": "2026-10-28T22:22:33.902001Z",
       "confidence": "medium"
     },
     {
@@ -872,7 +912,7 @@
       "consist_delta": null,
       "commodity": "intermodal",
       "dg_likely": true,
-      "correlated_at": "2026-10-28T11:57:21.064860Z",
+      "correlated_at": "2026-10-28T22:22:33.902298Z",
       "confidence": "medium"
     },
     {
@@ -922,7 +962,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-28T11:57:21.065160Z",
+      "correlated_at": "2026-10-28T22:22:33.902755Z",
       "confidence": "medium"
     },
     {
@@ -972,7 +1012,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-28T11:57:21.065180Z",
+      "correlated_at": "2026-10-28T22:22:33.902784Z",
       "confidence": "medium"
     },
     {
@@ -1022,9 +1062,59 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-10-28T11:57:21.064489Z",
+      "correlated_at": "2026-10-28T22:22:33.901572Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "CN368",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-06-20",
+        "observed_at": "2026-06-20T09:19-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 64,
+        "origin": "Chicago Markham IL",
+        "destination": "Montreal Taschereau QC",
+        "video_url": "https://www.youtube.com/watch?v=3EGwjhtrzZA",
+        "title": "CN Train 276 Eastbound June 20, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-06-20",
+        "observed_at": "2026-06-20T09:38-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": 105,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC",
+        "video_url": "https://www.youtube.com/watch?v=PSD_3rDhhlU",
+        "title": "CN Train 368 Eastbound June 20, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 0.32,
+        "avg_speed_kmh": 984.0,
+        "speed_plausible": false,
+        "consist_profile": "Mixed manifest freight",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 64,
+        "car_count_b": 105,
+        "delta": 41,
+        "split_suspected": false
+      },
+      "commodity": "mixed",
+      "dg_likely": true,
+      "correlated_at": "2026-10-28T22:22:33.901599Z",
+      "confidence": "low"
     },
     {
       "symbol": "CN61",
@@ -1068,7 +1158,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064356Z",
+      "correlated_at": "2026-10-28T22:22:33.901777Z",
       "confidence": "low"
     },
     {
@@ -1118,57 +1208,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064394Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN368",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-06-20",
-        "observed_at": "2026-06-20T09:19-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": 64,
-        "origin": "Chicago Markham IL",
-        "destination": "Montreal Taschereau QC",
-        "video_url": "https://www.youtube.com/watch?v=3EGwjhtrzZA",
-        "title": "CN Train 276 Eastbound June 20, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-06-20",
-        "observed_at": "2026-06-20T09:38-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": 105,
-        "origin": "Toronto MacMillan ON",
-        "destination": "Garneau QC",
-        "video_url": "https://www.youtube.com/watch?v=PSD_3rDhhlU",
-        "title": "CN Train 368 Eastbound June 20, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 0.32,
-        "avg_speed_kmh": 984.0,
-        "speed_plausible": false,
-        "consist_profile": "Mixed manifest freight",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 64,
-        "car_count_b": 105,
-        "delta": 41,
-        "split_suspected": false
-      },
-      "commodity": "mixed",
-      "dg_likely": true,
-      "correlated_at": "2026-10-28T11:57:21.064498Z",
+      "correlated_at": "2026-10-28T22:22:33.901794Z",
       "confidence": "low"
     },
     {
@@ -1213,7 +1253,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064598Z",
+      "correlated_at": "2026-10-28T22:22:33.901935Z",
       "confidence": "low"
     },
     {
@@ -1258,7 +1298,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064608Z",
+      "correlated_at": "2026-10-28T22:22:33.901949Z",
       "confidence": "low"
     },
     {
@@ -1303,7 +1343,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064653Z",
+      "correlated_at": "2026-10-28T22:22:33.902011Z",
       "confidence": "low"
     },
     {
@@ -1348,7 +1388,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064659Z",
+      "correlated_at": "2026-10-28T22:22:33.902021Z",
       "confidence": "low"
     },
     {
@@ -1393,7 +1433,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064691Z",
+      "correlated_at": "2026-10-28T22:22:33.902064Z",
       "confidence": "medium"
     },
     {
@@ -1438,7 +1478,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064699Z",
+      "correlated_at": "2026-10-28T22:22:33.902075Z",
       "confidence": "medium"
     },
     {
@@ -1483,7 +1523,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064709Z",
+      "correlated_at": "2026-10-28T22:22:33.902088Z",
       "confidence": "low"
     },
     {
@@ -1528,7 +1568,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064717Z",
+      "correlated_at": "2026-10-28T22:22:33.902099Z",
       "confidence": "low"
     },
     {
@@ -1578,7 +1618,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064780Z",
+      "correlated_at": "2026-10-28T22:22:33.902183Z",
       "confidence": "low"
     },
     {
@@ -1628,7 +1668,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064786Z",
+      "correlated_at": "2026-10-28T22:22:33.902193Z",
       "confidence": "low"
     },
     {
@@ -1678,7 +1718,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064793Z",
+      "correlated_at": "2026-10-28T22:22:33.902203Z",
       "confidence": "low"
     },
     {
@@ -1728,7 +1768,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064802Z",
+      "correlated_at": "2026-10-28T22:22:33.902215Z",
       "confidence": "low"
     },
     {
@@ -1778,7 +1818,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064808Z",
+      "correlated_at": "2026-10-28T22:22:33.902224Z",
       "confidence": "low"
     },
     {
@@ -1828,7 +1868,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064815Z",
+      "correlated_at": "2026-10-28T22:22:33.902236Z",
       "confidence": "low"
     },
     {
@@ -1878,7 +1918,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064822Z",
+      "correlated_at": "2026-10-28T22:22:33.902248Z",
       "confidence": "low"
     },
     {
@@ -1928,7 +1968,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064831Z",
+      "correlated_at": "2026-10-28T22:22:33.902262Z",
       "confidence": "low"
     },
     {
@@ -1973,7 +2013,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064884Z",
+      "correlated_at": "2026-10-28T22:22:33.902335Z",
       "confidence": "low"
     },
     {
@@ -2018,7 +2058,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064897Z",
+      "correlated_at": "2026-10-28T22:22:33.902355Z",
       "confidence": "low"
     },
     {
@@ -2063,7 +2103,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064911Z",
+      "correlated_at": "2026-10-28T22:22:33.902374Z",
       "confidence": "low"
     },
     {
@@ -2108,7 +2148,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064929Z",
+      "correlated_at": "2026-10-28T22:22:33.902401Z",
       "confidence": "low"
     },
     {
@@ -2153,7 +2193,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064941Z",
+      "correlated_at": "2026-10-28T22:22:33.902418Z",
       "confidence": "low"
     },
     {
@@ -2198,7 +2238,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064971Z",
+      "correlated_at": "2026-10-28T22:22:33.902459Z",
       "confidence": "low"
     },
     {
@@ -2243,7 +2283,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.064980Z",
+      "correlated_at": "2026-10-28T22:22:33.902472Z",
       "confidence": "low"
     },
     {
@@ -2288,7 +2328,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065008Z",
+      "correlated_at": "2026-10-28T22:22:33.902512Z",
       "confidence": "low"
     },
     {
@@ -2333,7 +2373,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065015Z",
+      "correlated_at": "2026-10-28T22:22:33.902522Z",
       "confidence": "low"
     },
     {
@@ -2378,7 +2418,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065024Z",
+      "correlated_at": "2026-10-28T22:22:33.902538Z",
       "confidence": "low"
     },
     {
@@ -2423,7 +2463,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065037Z",
+      "correlated_at": "2026-10-28T22:22:33.902563Z",
       "confidence": "low"
     },
     {
@@ -2468,7 +2508,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065060Z",
+      "correlated_at": "2026-10-28T22:22:33.902602Z",
       "confidence": "low"
     },
     {
@@ -2513,7 +2553,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065088Z",
+      "correlated_at": "2026-10-28T22:22:33.902642Z",
       "confidence": "low"
     },
     {
@@ -2558,7 +2598,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065095Z",
+      "correlated_at": "2026-10-28T22:22:33.902669Z",
       "confidence": "low"
     },
     {
@@ -2603,7 +2643,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065118Z",
+      "correlated_at": "2026-10-28T22:22:33.902696Z",
       "confidence": "low"
     },
     {
@@ -2653,7 +2693,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065204Z",
+      "correlated_at": "2026-10-28T22:22:33.902817Z",
       "confidence": "low"
     },
     {
@@ -2698,7 +2738,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065216Z",
+      "correlated_at": "2026-10-28T22:22:33.902836Z",
       "confidence": "low"
     },
     {
@@ -2743,7 +2783,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065236Z",
+      "correlated_at": "2026-10-28T22:22:33.902864Z",
       "confidence": "low"
     },
     {
@@ -2788,7 +2828,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065261Z",
+      "correlated_at": "2026-10-28T22:22:33.902899Z",
       "confidence": "low"
     },
     {
@@ -2833,7 +2873,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065267Z",
+      "correlated_at": "2026-10-28T22:22:33.902909Z",
       "confidence": "medium"
     },
     {
@@ -2878,7 +2918,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065295Z",
+      "correlated_at": "2026-10-28T22:22:33.902947Z",
       "confidence": "low"
     },
     {
@@ -2923,7 +2963,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065305Z",
+      "correlated_at": "2026-10-28T22:22:33.902962Z",
       "confidence": "low"
     },
     {
@@ -2968,7 +3008,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065315Z",
+      "correlated_at": "2026-10-28T22:22:33.902977Z",
       "confidence": "low"
     },
     {
@@ -3013,7 +3053,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065324Z",
+      "correlated_at": "2026-10-28T22:22:33.902990Z",
       "confidence": "low"
     },
     {
@@ -3058,7 +3098,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065332Z",
+      "correlated_at": "2026-10-28T22:22:33.903004Z",
       "confidence": "low"
     },
     {
@@ -3103,7 +3143,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065341Z",
+      "correlated_at": "2026-10-28T22:22:33.903017Z",
       "confidence": "low"
     },
     {
@@ -3148,7 +3188,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065351Z",
+      "correlated_at": "2026-10-28T22:22:33.903028Z",
       "confidence": "low"
     },
     {
@@ -3193,7 +3233,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065373Z",
+      "correlated_at": "2026-10-28T22:22:33.903049Z",
       "confidence": "low"
     },
     {
@@ -3238,7 +3278,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065383Z",
+      "correlated_at": "2026-10-28T22:22:33.903062Z",
       "confidence": "low"
     },
     {
@@ -3283,7 +3323,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065391Z",
+      "correlated_at": "2026-10-28T22:22:33.903074Z",
       "confidence": "low"
     },
     {
@@ -3328,7 +3368,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065450Z",
+      "correlated_at": "2026-10-28T22:22:33.903153Z",
       "confidence": "low"
     },
     {
@@ -3373,7 +3413,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065565Z",
+      "correlated_at": "2026-10-28T22:22:33.903309Z",
       "confidence": "low"
     },
     {
@@ -3418,7 +3458,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065591Z",
+      "correlated_at": "2026-10-28T22:22:33.903345Z",
       "confidence": "low"
     },
     {
@@ -3463,7 +3503,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065599Z",
+      "correlated_at": "2026-10-28T22:22:33.903355Z",
       "confidence": "low"
     },
     {
@@ -3508,7 +3548,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065606Z",
+      "correlated_at": "2026-10-28T22:22:33.903364Z",
       "confidence": "low"
     },
     {
@@ -3553,7 +3593,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065659Z",
+      "correlated_at": "2026-10-28T22:22:33.903437Z",
       "confidence": "low"
     },
     {
@@ -3598,7 +3638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065669Z",
+      "correlated_at": "2026-10-28T22:22:33.903450Z",
       "confidence": "low"
     },
     {
@@ -3643,7 +3683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065679Z",
+      "correlated_at": "2026-10-28T22:22:33.903477Z",
       "confidence": "low"
     },
     {
@@ -3688,7 +3728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065688Z",
+      "correlated_at": "2026-10-28T22:22:33.903490Z",
       "confidence": "low"
     },
     {
@@ -3733,7 +3773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-10-28T11:57:21.065696Z",
+      "correlated_at": "2026-10-28T22:22:33.903503Z",
       "confidence": "low"
     }
   ]

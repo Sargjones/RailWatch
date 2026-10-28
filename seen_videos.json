@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-28T11:57:20.911759Z",
-    "total_videos": 1133
+    "updated_at": "2026-10-28T22:22:33.783845Z",
+    "total_videos": 1134
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6802,6 +6802,12 @@
       "title": "CN 5703 SD75i leads CN Z126 south",
       "confidence": "medium",
       "processed_at": "2026-10-28T11:57:19.980566Z"
+    },
+    "WStL-J9ni34": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound Meets VIA 61 Westbound October 28, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-28T22:22:32.014898Z"
     }
   }
 }

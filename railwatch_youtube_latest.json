@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-28T11:57:20.944924Z",
+  "generated_at": "2026-10-28T22:22:33.800634Z",
   "dedup_registry": {
-    "total": 1133,
+    "total": 1134,
     "by_channel": {
       "Trackside Ontario": 77,
       "Trackside Tyson": 146,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
-      "Brockville RailFan": 382,
+      "Brockville RailFan": 383,
       "MJM Productions": 342,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 268,
-      "medium": 777,
+      "medium": 778,
       "low": 88,
       "meta": 0
     }
@@ -33,13 +33,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -68,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 17
+      "videos": 1,
+      "skipped": 17,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +83,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 12,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +112,76 @@
       "skipped": 0
     }
   ],
-  "total": 1133,
-  "new_this_run": 3,
+  "total": 1134,
+  "new_this_run": 1,
   "high_confidence": 268,
   "dg_likely": 192,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "WStL-J9ni34",
+      "video_url": "https://www.youtube.com/watch?v=WStL-J9ni34",
+      "title": "CN Train 368 Eastbound Meets VIA 61 Westbound October 28, 2026",
+      "published_at": "2026-10-28T13:55:33Z",
+      "date": "2026-10-28",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3097",
+        "CN 8011",
+        "CN 2976"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA 61"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3097",
+          "raw": "CN 3097"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8011",
+          "raw": "CN 8011"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2976",
+          "raw": "CN 2976"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Train 368 Eastbound Meets VIA 61 Westbound October 28, 2026",
+      "description_chars": 554,
+      "consist": {
+        "observed_time": "08:56",
+        "observed_tz": "EDT",
+        "temperature_c": 2,
+        "consist_anomaly": "king the north yard picking up 2 TankTrain sets. Yesterday's switch heater work has been completed."
+      },
+      "observed_at": "2026-10-28T08:56-04:00",
+      "consist_anomaly": "king the north yard picking up 2 TankTrain sets. Yesterday's switch heater work has been completed.",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
