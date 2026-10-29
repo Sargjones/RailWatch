@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-10-29T12:06:50.651207Z",
-    "total_videos": 1134
+    "updated_at": "2026-10-29T22:35:43.712768Z",
+    "total_videos": 1141
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6808,6 +6808,48 @@
       "title": "CN Train 368 Eastbound Meets VIA 61 Westbound October 28, 2026",
       "confidence": "medium",
       "processed_at": "2026-10-28T22:22:32.014898Z"
+    },
+    "lMZaIGNAs0E": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train X371 Westbound October 29, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-29T22:35:41.877666Z"
+    },
+    "KqScUE7qbXk": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound October 29, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-10-29T22:35:41.877898Z"
+    },
+    "iUMT3jDuhok": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train X305 Westbound October 29, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-29T22:35:41.878093Z"
+    },
+    "3wcPn1oR9Tc": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 121 Westbound October 29, 2026",
+      "confidence": "high",
+      "processed_at": "2026-10-29T22:35:41.878263Z"
+    },
+    "jgaZCSGlHxg": {
+      "channel": "MJM Productions",
+      "title": "SD75IACC! Railfanning the CN Bala sub (OCT 29, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-10-29T22:35:42.663822Z"
+    },
+    "P2ociaFxIsE": {
+      "channel": "MJM Productions",
+      "title": "ONR P300 heads north under the bridge",
+      "confidence": "medium",
+      "processed_at": "2026-10-29T22:35:42.665843Z"
+    },
+    "1etMij6STIc": {
+      "channel": "MJM Productions",
+      "title": "CN 8351 SD75IACC leads CN Q107 north",
+      "confidence": "medium",
+      "processed_at": "2026-10-29T22:35:42.666538Z"
     }
   }
 }

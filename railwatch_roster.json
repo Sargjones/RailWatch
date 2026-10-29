@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-29T12:06:50.804284Z",
-  "total_units": 577,
+  "generated_at": "2026-10-29T22:35:43.894812Z",
+  "total_units": 584,
   "min_sightings": 2,
   "by_road": {
-    "CN": 454,
+    "CN": 461,
     "VIA": 10,
     "CP": 110,
     "CPKC": 1,
@@ -10622,6 +10622,81 @@
     },
     {
       "road": "CN",
+      "number": "8351",
+      "display": "CN 8351",
+      "sighting_count": 4,
+      "first_seen": "2026-06-20",
+      "last_seen": "2026-10-29",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "Q107",
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-29",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=jgaZCSGlHxg",
+          "title": "SD75IACC! Railfanning the CN Bala sub (OCT 29, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=1etMij6STIc",
+          "title": "CN 8351 SD75IACC leads CN Q107 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-20",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Tq-03HMsTjs",
+          "title": "CN Train 149 Westbound June 20, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-20",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Tq-03HMsTjs",
+          "title": "CN Train 149 Westbound June 20, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "8358",
       "display": "CN 8358",
       "sighting_count": 4,
@@ -15637,6 +15712,68 @@
     },
     {
       "road": "CN",
+      "number": "8308",
+      "display": "CN 8308",
+      "sighting_count": 3,
+      "first_seen": "2026-06-04",
+      "last_seen": "2026-10-29",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "X305",
+        "CN 271"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X305",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=iUMT3jDuhok",
+          "title": "CN Train X305 Westbound October 29, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X305",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=iUMT3jDuhok",
+          "title": "CN Train X305 Westbound October 29, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-06-04",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 271",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=adc_Yhf7eNM",
+          "title": "CN Train 271 Westbound June 4, 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "8309",
       "display": "CN 8309",
       "sighting_count": 3,
@@ -19469,6 +19606,53 @@
     },
     {
       "road": "CN",
+      "number": "2969",
+      "display": "CN 2969",
+      "sighting_count": 2,
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "X371"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X371",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lMZaIGNAs0E",
+          "title": "CN Train X371 Westbound October 29, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X371",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lMZaIGNAs0E",
+          "title": "CN Train X371 Westbound October 29, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2975",
       "display": "CN 2975",
       "sighting_count": 2,
@@ -20553,6 +20737,53 @@
     },
     {
       "road": "CN",
+      "number": "3122",
+      "display": "CN 3122",
+      "sighting_count": 2,
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "X305"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X305",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=iUMT3jDuhok",
+          "title": "CN Train X305 Westbound October 29, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X305",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=iUMT3jDuhok",
+          "title": "CN Train X305 Westbound October 29, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3125",
       "display": "CN 3125",
       "sighting_count": 2,
@@ -21115,6 +21346,53 @@
           "video_url": "https://www.youtube.com/watch?v=pYEAOT_gqbs",
           "title": "CN 3199 + CN 2764 lead CN Q107 north",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3216",
+      "display": "CN 3216",
+      "sighting_count": 2,
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "X305"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X305",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=iUMT3jDuhok",
+          "title": "CN Train X305 Westbound October 29, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X305",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=iUMT3jDuhok",
+          "title": "CN Train X305 Westbound October 29, 2026",
+          "source": "description_structured"
         }
       ]
     },
@@ -22014,6 +22292,53 @@
     },
     {
       "road": "CN",
+      "number": "3365",
+      "display": "CN 3365",
+      "sighting_count": 2,
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 121"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 121",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=3wcPn1oR9Tc",
+          "title": "CN Train 121 Westbound October 29, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 121",
+          "direction": "West",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=3wcPn1oR9Tc",
+          "title": "CN Train 121 Westbound October 29, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3369",
       "display": "CN 3369",
       "sighting_count": 2,
@@ -22760,6 +23085,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=-9Y7-HnIteI",
           "title": "CN Train 305 September 15, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3844",
+      "display": "CN 3844",
+      "sighting_count": 2,
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "X371"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X371",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lMZaIGNAs0E",
+          "title": "CN Train X371 Westbound October 29, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X371",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lMZaIGNAs0E",
+          "title": "CN Train X371 Westbound October 29, 2026",
           "source": "description_structured"
         }
       ]
@@ -26284,16 +26656,16 @@
     },
     {
       "road": "CN",
-      "number": "8351",
-      "display": "CN 8351",
+      "number": "8346",
+      "display": "CN 8346",
       "sighting_count": 2,
-      "first_seen": "2026-06-20",
-      "last_seen": "2026-06-20",
+      "first_seen": "2026-10-29",
+      "last_seen": "2026-10-29",
       "corridors": [
-        "CN Kingston Sub"
+        "CN Kingston/Oakville Sub"
       ],
       "trains_led": [
-        "CN 149"
+        "CN 121"
       ],
       "dpu_confirmed": false,
       "roles_seen": [
@@ -26302,29 +26674,29 @@
       ],
       "sightings": [
         {
-          "date": "2026-06-20",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
           "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
+          "train_symbol": "CN 121",
           "direction": "West",
           "role": "unknown",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=Tq-03HMsTjs",
-          "title": "CN Train 149 Westbound June 20, 2026",
+          "video_url": "https://www.youtube.com/watch?v=3wcPn1oR9Tc",
+          "title": "CN Train 121 Westbound October 29, 2026",
           "source": "text_extraction"
         },
         {
-          "date": "2026-06-20",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
+          "date": "2026-10-29",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
           "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
+          "train_symbol": "CN 121",
           "direction": "West",
           "role": "lead",
           "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=Tq-03HMsTjs",
-          "title": "CN Train 149 Westbound June 20, 2026",
+          "video_url": "https://www.youtube.com/watch?v=3wcPn1oR9Tc",
+          "title": "CN Train 121 Westbound October 29, 2026",
           "source": "description_structured"
         }
       ]

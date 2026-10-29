@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T12:06:50.664434Z",
+  "generated_at": "2026-10-29T22:35:43.728756Z",
   "dedup_registry": {
-    "total": 1134,
+    "total": 1141,
     "by_channel": {
       "Trackside Ontario": 77,
       "Trackside Tyson": 146,
@@ -9,16 +9,16 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
-      "Brockville RailFan": 383,
-      "MJM Productions": 342,
+      "Brockville RailFan": 387,
+      "MJM Productions": 345,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 268,
-      "medium": 778,
+      "high": 271,
+      "medium": 782,
       "low": 88,
       "meta": 0
     }
@@ -63,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 13
+      "videos": 4,
+      "skipped": 13,
+      "high": 3,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 3,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -78,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 13
+      "videos": 3,
+      "skipped": 13,
+      "high": 0,
+      "medium": 3,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -107,11 +117,390 @@
       "skipped": 0
     }
   ],
-  "total": 1134,
-  "new_this_run": 0,
-  "high_confidence": 268,
-  "dg_likely": 192,
+  "total": 1141,
+  "new_this_run": 7,
+  "high_confidence": 271,
+  "dg_likely": 195,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "jgaZCSGlHxg",
+      "video_url": "https://www.youtube.com/watch?v=jgaZCSGlHxg",
+      "title": "SD75IACC! Railfanning the CN Bala sub (OCT 29, 2026)",
+      "published_at": "2026-10-29T19:47:56Z",
+      "date": "2026-10-29",
+      "location": "Brampton",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6833,
+      "lon": -79.7667,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8351",
+        "CN 3255"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8351",
+          "raw": "CN 8351"
+        },
+        {
+          "road": "CN",
+          "symbol": "P301",
+          "raw": "P301"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3255",
+          "raw": "CN 3255"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "SD75IACC! Railfanning the CN Bala sub (OCT 29, 2026)",
+      "description_chars": 570,
+      "consist": {
+        "observed_time": "9:39",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-10-29T9:39",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "P2ociaFxIsE",
+      "video_url": "https://www.youtube.com/watch?v=P2ociaFxIsE",
+      "title": "ONR P300 heads north under the bridge",
+      "published_at": "2026-10-29T14:30:25Z",
+      "date": "2026-10-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "P300",
+          "raw": "P300"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "ONR P300 heads north under the bridge",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "1etMij6STIc",
+      "video_url": "https://www.youtube.com/watch?v=1etMij6STIc",
+      "title": "CN 8351 SD75IACC leads CN Q107 north",
+      "published_at": "2026-10-29T14:27:21Z",
+      "date": "2026-10-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8351"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8351",
+          "raw": "CN 8351"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8351 SD75IACC leads CN Q107 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "lMZaIGNAs0E",
+      "video_url": "https://www.youtube.com/watch?v=lMZaIGNAs0E",
+      "title": "CN Train X371 Westbound October 29, 2026",
+      "published_at": "2026-10-29T14:21:03Z",
+      "date": "2026-10-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2969",
+        "CN 3844"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "X371",
+          "raw": "X371"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2969",
+          "raw": "CN 2969"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3844",
+          "raw": "CN 3844"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train X371 Westbound October 29, 2026",
+      "description_chars": 207,
+      "consist": {
+        "engines": [
+          "CN 2969",
+          "CN 3844"
+        ],
+        "car_count": 120,
+        "consist_type": "freight",
+        "speed_kmh": 61,
+        "speed_raw": "38 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:41",
+        "observed_tz": "EDT",
+        "temperature_c": 7,
+        "origin": "Montreal Taschereau QC",
+        "destination": "Toronto MacMillan ON"
+      },
+      "observed_at": "2026-10-29T08:41-04:00",
+      "origin": "Montreal Taschereau QC",
+      "destination": "Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "KqScUE7qbXk",
+      "video_url": "https://www.youtube.com/watch?v=KqScUE7qbXk",
+      "title": "VIA Train 61 Westbound October 29, 2026",
+      "published_at": "2026-10-29T14:07:26Z",
+      "date": "2026-10-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound October 29, 2026",
+      "description_chars": 221,
+      "consist": {
+        "speed_kmh": 89,
+        "speed_raw": "55 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:53",
+        "observed_tz": "EDT",
+        "temperature_c": 8,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-10-29T08:53-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "iUMT3jDuhok",
+      "video_url": "https://www.youtube.com/watch?v=iUMT3jDuhok",
+      "title": "CN Train X305 Westbound October 29, 2026",
+      "published_at": "2026-10-29T13:48:23Z",
+      "date": "2026-10-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3216",
+        "CN 8308",
+        "CN 3122"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "X305",
+          "raw": "X305"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3931",
+          "raw": "CN 3931"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3216",
+          "raw": "CN 3216"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8308",
+          "raw": "CN 8308"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3122",
+          "raw": "CN 3122"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train X305 Westbound October 29, 2026",
+      "description_chars": 215,
+      "consist": {
+        "engines": [
+          "CN 3931",
+          "CN 3216",
+          "CN 8308",
+          "CN 3122"
+        ],
+        "car_count": 133,
+        "consist_type": "freight",
+        "speed_kmh": 60,
+        "speed_raw": "37 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:22",
+        "observed_tz": "EDT",
+        "temperature_c": 7,
+        "origin": "Moncton NB",
+        "destination": "Toronto MacMillan ON"
+      },
+      "observed_at": "2026-10-29T08:22-04:00",
+      "origin": "Moncton NB",
+      "destination": "Toronto MacMillan ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "3wcPn1oR9Tc",
+      "video_url": "https://www.youtube.com/watch?v=3wcPn1oR9Tc",
+      "title": "CN Train 121 Westbound October 29, 2026",
+      "published_at": "2026-10-29T13:32:20Z",
+      "date": "2026-10-29",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 8346",
+        "CN 3365"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 121",
+          "raw": "CN Train 121"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8346",
+          "raw": "CN 8346"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3365",
+          "raw": "CN 3365"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 121 Westbound October 29, 2026",
+      "description_chars": 206,
+      "consist": {
+        "engines": [
+          "CN 8346"
+        ],
+        "dpu": [
+          "CN 3365"
+        ],
+        "car_count": 195,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 63,
+        "speed_raw": "39 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:05",
+        "observed_tz": "EDT",
+        "temperature_c": 6,
+        "origin": "Halifax Pace NS",
+        "destination": "Toronto BIT ON"
+      },
+      "observed_at": "2026-10-29T08:05-04:00",
+      "origin": "Halifax Pace NS",
+      "destination": "Toronto BIT ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
