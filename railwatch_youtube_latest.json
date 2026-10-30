@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-29T22:35:43.728756Z",
+  "generated_at": "2026-10-30T11:58:22.795697Z",
   "dedup_registry": {
-    "total": 1141,
+    "total": 1143,
     "by_channel": {
-      "Trackside Ontario": 77,
-      "Trackside Tyson": 146,
+      "Trackside Ontario": 78,
+      "Trackside Tyson": 147,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
@@ -18,23 +18,33 @@
     },
     "by_confidence": {
       "high": 271,
-      "medium": 782,
+      "medium": 784,
       "low": 88,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-22T00:00:00Z",
+  "since": "2026-10-23T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 3,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,13 +73,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 4,
-      "skipped": 13,
-      "high": 3,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 3,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 13
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 3,
-      "skipped": 13,
-      "high": 0,
-      "medium": 3,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 14
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +117,63 @@
       "skipped": 0
     }
   ],
-  "total": 1141,
-  "new_this_run": 7,
+  "total": 1143,
+  "new_this_run": 2,
   "high_confidence": 271,
-  "dg_likely": 195,
+  "dg_likely": 196,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "cLJZGPNBgP8",
+      "video_url": "https://www.youtube.com/watch?v=cLJZGPNBgP8",
+      "title": "Tuesday Morning at Bayview \u2022 October 27, 2026",
+      "published_at": "2026-10-30T00:26:51Z",
+      "date": "2026-10-27",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Tuesday Morning at Bayview \u2022 October 27, 2026",
+      "description_chars": 125,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "c4eB-Wizx30",
+      "video_url": "https://www.youtube.com/watch?v=c4eB-Wizx30",
+      "title": "TANKER TRAIN THRU AUTUMN TREES! #youtubeshorts",
+      "published_at": "2026-10-29T23:45:17Z",
+      "date": "2026-10-29",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "tank",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "TANKER TRAIN THRU AUTUMN TREES! #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
