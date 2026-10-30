@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-30T11:58:22.795697Z",
+  "generated_at": "2026-10-30T22:04:42.562516Z",
   "dedup_registry": {
-    "total": 1143,
+    "total": 1145,
     "by_channel": {
       "Trackside Ontario": 78,
       "Trackside Tyson": 147,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
-      "Brockville RailFan": 387,
+      "Brockville RailFan": 389,
       "MJM Productions": 345,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 271,
-      "medium": 784,
+      "high": 272,
+      "medium": 785,
       "low": 88,
       "meta": 0
     }
@@ -28,23 +28,13 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -73,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 13
+      "videos": 2,
+      "skipped": 13,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -117,11 +112,131 @@
       "skipped": 0
     }
   ],
-  "total": 1143,
+  "total": 1145,
   "new_this_run": 2,
-  "high_confidence": 271,
+  "high_confidence": 272,
   "dg_likely": 196,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "eP_JN0ve5Lg",
+      "video_url": "https://www.youtube.com/watch?v=eP_JN0ve5Lg",
+      "title": "VIA Train 61 Westbound October 30, 2026",
+      "published_at": "2026-10-30T14:33:46Z",
+      "date": "2026-10-30",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "VIA 2213"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2213",
+          "raw": "VIA 2213"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound October 30, 2026",
+      "description_chars": 225,
+      "consist": {
+        "engines": [
+          "VIA 2213"
+        ],
+        "speed_kmh": 95,
+        "speed_raw": "59 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:56",
+        "observed_tz": "EDT",
+        "temperature_c": 8,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-10-30T08:56-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "wchehJ-G4AU",
+      "video_url": "https://www.youtube.com/watch?v=wchehJ-G4AU",
+      "title": "Cn Train 149 Westbound October 30, 2026",
+      "published_at": "2026-10-30T13:36:25Z",
+      "date": "2026-10-30",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3971",
+        "CN 3095"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "Cn Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3971",
+          "raw": "CN 3971"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3095",
+          "raw": "CN 3095"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "Cn Train 149 Westbound October 30, 2026",
+      "description_chars": 260,
+      "consist": {
+        "engines": [
+          "CN 3971",
+          "CN 3095"
+        ],
+        "car_count": 148,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 63,
+        "speed_raw": "39 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:39",
+        "observed_tz": "EDT",
+        "temperature_c": 8,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-10-30T08:39-04:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

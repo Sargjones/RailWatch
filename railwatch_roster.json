@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T11:58:22.947343Z",
-  "total_units": 584,
+  "generated_at": "2026-10-30T22:04:43.096445Z",
+  "total_units": 587,
   "min_sightings": 2,
   "by_road": {
-    "CN": 461,
-    "VIA": 10,
+    "CN": 463,
+    "VIA": 11,
     "CP": 110,
     "CPKC": 1,
     "AC": 1,
@@ -9732,6 +9732,79 @@
     },
     {
       "road": "CN",
+      "number": "3971",
+      "display": "CN 3971",
+      "sighting_count": 4,
+      "first_seen": "2026-10-21",
+      "last_seen": "2026-10-30",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-30",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=wchehJ-G4AU",
+          "title": "Cn Train 149 Westbound October 30, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-30",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=wchehJ-G4AU",
+          "title": "Cn Train 149 Westbound October 30, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-10-21",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=6fdpBgbOSn4",
+          "title": "CN Train 149 Westbound October 21, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-21",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=6fdpBgbOSn4",
+          "title": "CN Train 149 Westbound October 21, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3985",
       "display": "CN 3985",
       "sighting_count": 4,
@@ -16356,6 +16429,53 @@
     },
     {
       "road": "CN",
+      "number": "2213",
+      "display": "CN 2213",
+      "sighting_count": 2,
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-10-30",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 61",
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-30",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 61",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eP_JN0ve5Lg",
+          "title": "VIA Train 61 Westbound October 30, 2026",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-06-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JZA-AmPyMZg",
+          "title": "CN Train 149 Raced by VIA Train 61 June 26, 2026",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2217",
       "display": "CN 2217",
       "sighting_count": 2,
@@ -20455,6 +20575,53 @@
     },
     {
       "road": "CN",
+      "number": "3095",
+      "display": "CN 3095",
+      "sighting_count": 2,
+      "first_seen": "2026-10-30",
+      "last_seen": "2026-10-30",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-30",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=wchehJ-G4AU",
+          "title": "Cn Train 149 Westbound October 30, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-30",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=wchehJ-G4AU",
+          "title": "Cn Train 149 Westbound October 30, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3099",
       "display": "CN 3099",
       "sighting_count": 2,
@@ -23837,53 +24004,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=MFK7Q7H0uXw",
           "title": "CN Train 276 Eastbound June 18, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3971",
-      "display": "CN 3971",
-      "sighting_count": 2,
-      "first_seen": "2026-10-21",
-      "last_seen": "2026-10-21",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 149"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-10-21",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=6fdpBgbOSn4",
-          "title": "CN Train 149 Westbound October 21, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-10-21",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 149",
-          "direction": "West",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=6fdpBgbOSn4",
-          "title": "CN Train 149 Westbound October 21, 2026",
           "source": "description_structured"
         }
       ]
@@ -28116,6 +28236,67 @@
           "video_url": "https://www.youtube.com/watch?v=5mbkSkO455g",
           "title": "CP 9837 AC4400CW blasting its P5 horn",
           "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "VIA",
+      "number": "2213",
+      "display": "VIA 2213",
+      "sighting_count": 3,
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-10-30",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 61",
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-30",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 61",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eP_JN0ve5Lg",
+          "title": "VIA Train 61 Westbound October 30, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-30",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 61",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eP_JN0ve5Lg",
+          "title": "VIA Train 61 Westbound October 30, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-06-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=JZA-AmPyMZg",
+          "title": "CN Train 149 Raced by VIA Train 61 June 26, 2026",
+          "source": "text_extraction"
         }
       ]
     },
