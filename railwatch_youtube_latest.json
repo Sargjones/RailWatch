@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T22:04:42.562516Z",
+  "generated_at": "2026-10-31T11:32:41.604002Z",
   "dedup_registry": {
-    "total": 1145,
+    "total": 1146,
     "by_channel": {
       "Trackside Ontario": 78,
-      "Trackside Tyson": 147,
+      "Trackside Tyson": 148,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 272,
-      "medium": 785,
+      "medium": 786,
       "low": 88,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-23T00:00:00Z",
+  "since": "2026-10-24T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 13,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 13
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -84,7 +84,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 14
+      "skipped": 10
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +112,37 @@
       "skipped": 0
     }
   ],
-  "total": 1145,
-  "new_this_run": 2,
+  "total": 1146,
+  "new_this_run": 1,
   "high_confidence": 272,
   "dg_likely": 196,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "2w-A90KYUgI",
+      "video_url": "https://www.youtube.com/watch?v=2w-A90KYUgI",
+      "title": "DOUBLE STACK CURVING THRU THE CANYON #youtubeshorts",
+      "published_at": "2026-10-30T23:00:39Z",
+      "date": "2026-10-30",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "DOUBLE STACK CURVING THRU THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
