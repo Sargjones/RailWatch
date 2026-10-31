@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-31T11:32:41.604002Z",
+  "generated_at": "2026-10-31T21:13:48.390749Z",
   "dedup_registry": {
-    "total": 1146,
+    "total": 1149,
     "by_channel": {
       "Trackside Ontario": 78,
-      "Trackside Tyson": 148,
+      "Trackside Tyson": 149,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
       "Brockville RailFan": 389,
-      "MJM Productions": 345,
+      "MJM Productions": 347,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,8 +18,8 @@
     },
     "by_confidence": {
       "high": 272,
-      "medium": 786,
-      "low": 88,
+      "medium": 788,
+      "low": 89,
       "meta": 0
     }
   },
@@ -34,10 +34,10 @@
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 5,
+      "skipped": 6,
       "high": 0,
-      "medium": 1,
-      "low_meta": 0,
+      "medium": 0,
+      "low_meta": 1,
       "dg_likely": 0,
       "defaulted": 0
     },
@@ -83,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 10
+      "videos": 2,
+      "skipped": 10,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,117 @@
       "skipped": 0
     }
   ],
-  "total": 1146,
-  "new_this_run": 1,
+  "total": 1149,
+  "new_this_run": 3,
   "high_confidence": 272,
   "dg_likely": 196,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "er5OqxKnDJs",
+      "video_url": "https://www.youtube.com/watch?v=er5OqxKnDJs",
+      "title": "MASSIVE TRAINS HONKING THRU GRADE CROSSING IN THE CANYON",
+      "published_at": "2026-10-31T18:00:06Z",
+      "date": "2026-10-31",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "MASSIVE TRAINS HONKING THRU GRADE CROSSING IN THE CANYON",
+      "description_chars": 433,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "OD1RDB13Cfk",
+      "video_url": "https://www.youtube.com/watch?v=OD1RDB13Cfk",
+      "title": "CPKC 118 with dual ET44AC\u2019s blast south",
+      "published_at": "2026-10-31T15:19:30Z",
+      "date": "2026-10-31",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 118"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 118 with dual ET44AC\u2019s blast south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "_ad4PIp5D0s",
+      "video_url": "https://www.youtube.com/watch?v=_ad4PIp5D0s",
+      "title": "CP 7555 + CP 8176 lead CPKC 119 north",
+      "published_at": "2026-10-31T13:33:40Z",
+      "date": "2026-10-31",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7555",
+        "CP 8176",
+        "CPKC 119"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7555",
+          "raw": "CP 7555"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8176",
+          "raw": "CP 8176"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CPKC 119"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7555 + CP 8176 lead CPKC 119 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
