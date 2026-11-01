@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-10-31T21:13:48.390749Z",
+  "generated_at": "2026-11-01T12:30:02.881765Z",
   "dedup_registry": {
-    "total": 1149,
+    "total": 1155,
     "by_channel": {
       "Trackside Ontario": 78,
-      "Trackside Tyson": 149,
+      "Trackside Tyson": 150,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
       "Brockville RailFan": 389,
-      "MJM Productions": 347,
+      "MJM Productions": 352,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,13 +18,13 @@
     },
     "by_confidence": {
       "high": 272,
-      "medium": 788,
-      "low": 89,
+      "medium": 793,
+      "low": 90,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-24T00:00:00Z",
+  "since": "2026-10-25T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -44,7 +44,7 @@
     {
       "channel": "Southern Ontario Railfan",
       "videos": 0,
-      "skipped": 20
+      "skipped": 17
     },
     {
       "channel": "Trackside Tristan",
@@ -83,13 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 10,
+      "videos": 5,
+      "skipped": 12,
       "high": 0,
-      "medium": 2,
+      "medium": 5,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 2
+      "defaulted": 4
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +117,348 @@
       "skipped": 0
     }
   ],
-  "total": 1149,
-  "new_this_run": 3,
+  "total": 1155,
+  "new_this_run": 6,
   "high_confidence": 272,
   "dg_likely": 196,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "myoZCeD3JuA",
+      "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+      "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+      "published_at": "2026-10-31T23:29:13Z",
+      "date": "2026-10-31",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 101",
+        "CPKC 119",
+        "CP 7555",
+        "CP 8176",
+        "CP 9701",
+        "CPKC 118",
+        "CP 7545",
+        "CP 7487",
+        "CP 7044",
+        "CPKC 113",
+        "CP 7549",
+        "CP 7520",
+        "CPKC 420",
+        "CP 8721",
+        "CPKC 421",
+        "CP 9363",
+        "CP 8648",
+        "CP 9829",
+        "CP 5500",
+        "CP 7517",
+        "CP 7572"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 101",
+          "raw": "CPKC 101"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CPKC 119"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7555",
+          "raw": "CP 7555"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8176",
+          "raw": "CP 8176"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 9701",
+          "raw": "CP 9701"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7545",
+          "raw": "CP 7545"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7487",
+          "raw": "CP 7487"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7044",
+          "raw": "CP 7044"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7549",
+          "raw": "CP 7549"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7520",
+          "raw": "CP 7520"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 420",
+          "raw": "CPKC 420"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8721",
+          "raw": "CP 8721"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9363",
+          "raw": "CP 9363"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8648",
+          "raw": "CP 8648"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 9829",
+          "raw": "CP 9829"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 5500",
+          "raw": "CP 5500"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7517",
+          "raw": "CP 7517"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7572",
+          "raw": "CP 7572"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+      "description_chars": 1561,
+      "consist": {
+        "observed_time": "9:26",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-10-31T9:26",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "gJrbsTIVf94",
+      "video_url": "https://www.youtube.com/watch?v=gJrbsTIVf94",
+      "title": "CPKC FREIGHT OVER BRIDGE IN THE CANYON #youtubeshorts",
+      "published_at": "2026-10-31T23:00:29Z",
+      "date": "2026-10-31",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CPKC FREIGHT OVER BRIDGE IN THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "BACWPtd4FO0",
+      "video_url": "https://www.youtube.com/watch?v=BACWPtd4FO0",
+      "title": "CP 5500 T4 SD70ACe leads CPKC 101 north",
+      "published_at": "2026-10-31T22:19:17Z",
+      "date": "2026-10-31",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 5500",
+        "CPKC 101"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5500",
+          "raw": "CP 5500"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 101",
+          "raw": "CPKC 101"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 5500 T4 SD70ACe leads CPKC 101 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "x2ryMXq-a1M",
+      "video_url": "https://www.youtube.com/watch?v=x2ryMXq-a1M",
+      "title": "Three gevos elephant style on CPKC 421",
+      "published_at": "2026-10-31T22:13:00Z",
+      "date": "2026-10-31",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 421"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CPKC 421"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Three gevos elephant style on CPKC 421",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "yfa4zCMNr78",
+      "video_url": "https://www.youtube.com/watch?v=yfa4zCMNr78",
+      "title": "CPKC 420-29 CP 8721S heads south",
+      "published_at": "2026-10-31T22:11:37Z",
+      "date": "2026-10-31",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 420"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 420",
+          "raw": "CPKC 420"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8721",
+          "raw": "CP 8721"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 420-29 CP 8721S heads south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "DHnrqC0Eihw",
+      "video_url": "https://www.youtube.com/watch?v=DHnrqC0Eihw",
+      "title": "CPKC 113-30 CP 7549N at Kleinburg, ON",
+      "published_at": "2026-10-31T22:09:11Z",
+      "date": "2026-10-31",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 113"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7549",
+          "raw": "CP 7549"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 113-30 CP 7549N at Kleinburg, ON",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

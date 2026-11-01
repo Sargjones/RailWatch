@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T21:13:48.560332Z",
-  "total_units": 587,
+  "generated_at": "2026-11-01T12:30:03.412608Z",
+  "total_units": 600,
   "min_sightings": 2,
   "by_road": {
-    "CN": 463,
+    "CN": 469,
     "VIA": 11,
-    "CP": 110,
+    "CP": 117,
     "CPKC": 1,
     "AC": 1,
     "RUCK": 1
@@ -24196,6 +24196,53 @@
     },
     {
       "road": "CN",
+      "number": "5500",
+      "display": "CN 5500",
+      "sighting_count": 2,
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=BACWPtd4FO0",
+          "title": "CP 5500 T4 SD70ACe leads CPKC 101 north",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "5602",
       "display": "CN 5602",
       "sighting_count": 2,
@@ -25741,6 +25788,53 @@
     },
     {
       "road": "CN",
+      "number": "7545",
+      "display": "CN 7545",
+      "sighting_count": 2,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+          "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "7546",
       "display": "CN 7546",
       "sighting_count": 2,
@@ -25783,6 +25877,102 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
           "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7549",
+      "display": "CN 7549",
+      "sighting_count": 2,
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 113"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 113",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=DHnrqC0Eihw",
+          "title": "CPKC 113-30 CP 7549N at Kleinburg, ON",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "7555",
+      "display": "CN 7555",
+      "sighting_count": 2,
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 119"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 119",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_ad4PIp5D0s",
+          "title": "CP 7555 + CP 8176 lead CPKC 119 north",
           "source": "symbol_extraction"
         }
       ]
@@ -26959,6 +27149,102 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=54Kv1AdOEkA",
           "title": "CP 8624 AC4400CW thru the searchlights",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8648",
+      "display": "CN 8648",
+      "sighting_count": 2,
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-09-04",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MgFcBaGoPXs",
+          "title": "Various CP Freight Trains Around Winnipeg - Late August 2026",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8721",
+      "display": "CN 8721",
+      "sighting_count": 2,
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 420"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 420",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=yfa4zCMNr78",
+          "title": "CPKC 420-29 CP 8721S heads south",
           "source": "symbol_extraction"
         }
       ]
@@ -32066,6 +32352,53 @@
     },
     {
       "road": "CP",
+      "number": "5500",
+      "display": "CP 5500",
+      "sighting_count": 2,
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 101"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=BACWPtd4FO0",
+          "title": "CP 5500 T4 SD70ACe leads CPKC 101 north",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "5901",
       "display": "CP 5901",
       "sighting_count": 2,
@@ -33099,6 +33432,53 @@
     },
     {
       "road": "CP",
+      "number": "7517",
+      "display": "CP 7517",
+      "sighting_count": 2,
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 421"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 421",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=K_sAcw-5tEk",
+          "title": "Two Rare Leaders on the Belleville & Mactier Subs (AUG 10, 2",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "7529",
       "display": "CP 7529",
       "sighting_count": 2,
@@ -33147,6 +33527,53 @@
     },
     {
       "road": "CP",
+      "number": "7545",
+      "display": "CP 7545",
+      "sighting_count": 2,
+      "first_seen": "2026-08-22",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-22",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zd2ZMnCoaMU",
+          "title": "Saturday Afternoon Intermodals and Grainers Along The CP Kee",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "7546",
       "display": "CP 7546",
       "sighting_count": 2,
@@ -33189,6 +33616,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=MDl4JtW5WYo",
           "title": "Assorted CP Train Action Around Winnipeg - June 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7555",
+      "display": "CP 7555",
+      "sighting_count": 2,
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 119"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 119",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_ad4PIp5D0s",
+          "title": "CP 7555 + CP 8176 lead CPKC 119 north",
           "source": "text_extraction"
         }
       ]
@@ -33376,6 +33851,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=fv554RHMWLQ",
           "title": "More Cool Power on Various CP Trains Around Winnipeg - Late ",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "7572",
+      "display": "CP 7572",
+      "sighting_count": 2,
+      "first_seen": "2026-08-14",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-14",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=5wpj4PFfcnY",
+          "title": "Veterans Units, SOO Line GP38 and More on CP Trains Around W",
           "source": "text_extraction"
         }
       ]
@@ -33761,6 +34284,54 @@
     },
     {
       "road": "CP",
+      "number": "8176",
+      "display": "CP 8176",
+      "sighting_count": 2,
+      "first_seen": "2026-10-31",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 119"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 119",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_ad4PIp5D0s",
+          "title": "CP 7555 + CP 8176 lead CPKC 119 north",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "8605",
       "display": "CP 8605",
       "sighting_count": 2,
@@ -33850,6 +34421,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=54Kv1AdOEkA",
           "title": "CP 8624 AC4400CW thru the searchlights",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8648",
+      "display": "CP 8648",
+      "sighting_count": 2,
+      "first_seen": "2026-09-04",
+      "last_seen": "2026-10-31",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Mainline Manitoba"
+      ],
+      "trains_led": [
+        "CN 101",
+        "CN 118"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-10-31",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 101",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=myoZCeD3JuA",
+          "title": "SD70ACe! Railfanning the CPKC mactier sub (OCT 31, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-09-04",
+          "location": "Winnipeg",
+          "subdivision": "CN Mainline Manitoba",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 118",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=MgFcBaGoPXs",
+          "title": "Various CP Freight Trains Around Winnipeg - Late August 2026",
           "source": "text_extraction"
         }
       ]
