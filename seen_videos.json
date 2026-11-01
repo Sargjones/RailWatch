@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-01T12:30:02.850309Z",
-    "total_videos": 1155
+    "updated_at": "2026-11-01T21:51:18.667990Z",
+    "total_videos": 1156
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6934,6 +6934,12 @@
       "title": "CPKC 113-30 CP 7549N at Kleinburg, ON",
       "confidence": "medium",
       "processed_at": "2026-11-01T12:30:01.782446Z"
+    },
+    "IaCoI4VEI2Q": {
+      "channel": "MJM Productions",
+      "title": "CPKC 528 heads east around the bend",
+      "confidence": "medium",
+      "processed_at": "2026-11-01T21:51:17.537876Z"
     }
   }
 }
