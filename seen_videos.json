@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-01T21:51:18.667990Z",
-    "total_videos": 1156
+    "updated_at": "2026-11-02T14:30:18.633685Z",
+    "total_videos": 1158
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6940,6 +6940,18 @@
       "title": "CPKC 528 heads east around the bend",
       "confidence": "medium",
       "processed_at": "2026-11-01T21:51:17.537876Z"
+    },
+    "vXjt1cVPCmk": {
+      "channel": "MJM Productions",
+      "title": "KCSM Grey Ghost on the Galt & CPKC 420 at Palgrave, ON (NOV 1, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-11-02T14:30:17.786381Z"
+    },
+    "U5uuASnJm5c": {
+      "channel": "MJM Productions",
+      "title": "KCS 5009 ET44AC leads CPKC 420 south",
+      "confidence": "medium",
+      "processed_at": "2026-11-02T14:30:17.788352Z"
     }
   }
 }

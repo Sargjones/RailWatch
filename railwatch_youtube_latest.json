@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-01T21:51:18.684576Z",
+  "generated_at": "2026-11-02T14:30:18.649928Z",
   "dedup_registry": {
-    "total": 1156,
+    "total": 1158,
     "by_channel": {
       "Trackside Ontario": 78,
       "Trackside Tyson": 150,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 28,
       "Brockville RailFan": 389,
-      "MJM Productions": 353,
+      "MJM Productions": 355,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,28 +18,28 @@
     },
     "by_confidence": {
       "high": 272,
-      "medium": 794,
+      "medium": 796,
       "low": 90,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-25T00:00:00Z",
+  "since": "2026-10-26T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 4
+      "skipped": 2
     },
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 7
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
       "videos": 0,
-      "skipped": 17
+      "skipped": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -78,10 +78,10 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 17,
+      "videos": 2,
+      "skipped": 15,
       "high": 0,
-      "medium": 1,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 1
@@ -112,11 +112,113 @@
       "skipped": 0
     }
   ],
-  "total": 1156,
-  "new_this_run": 1,
+  "total": 1158,
+  "new_this_run": 2,
   "high_confidence": 272,
   "dg_likely": 196,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "vXjt1cVPCmk",
+      "video_url": "https://www.youtube.com/watch?v=vXjt1cVPCmk",
+      "title": "KCSM Grey Ghost on the Galt & CPKC 420 at Palgrave, ON (NOV 1, 2026)",
+      "published_at": "2026-11-01T23:03:32Z",
+      "date": "2026-11-01",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 420",
+        "CPKC 528",
+        "CP 8205",
+        "CP 9711",
+        "CP 8720"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 420",
+          "raw": "CPKC 420"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 528",
+          "raw": "CPKC 528"
+        },
+        {
+          "road": "CN",
+          "symbol": "AC4400",
+          "raw": "ac4400"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8205",
+          "raw": "CP 8205"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 9711",
+          "raw": "CP 9711"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8720",
+          "raw": "CP 8720"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "KCSM Grey Ghost on the Galt & CPKC 420 at Palgrave, ON (NOV 1, 2026)",
+      "description_chars": 665,
+      "consist": {
+        "observed_time": "11:39",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-11-01T11:39",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "U5uuASnJm5c",
+      "video_url": "https://www.youtube.com/watch?v=U5uuASnJm5c",
+      "title": "KCS 5009 ET44AC leads CPKC 420 south",
+      "published_at": "2026-11-01T22:53:32Z",
+      "date": "2026-11-01",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 420"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 420",
+          "raw": "CPKC 420"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "KCS 5009 ET44AC leads CPKC 420 south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
