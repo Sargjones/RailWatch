@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-03T00:46:05.264797Z",
+  "generated_at": "2026-11-03T13:27:14.928295Z",
   "dedup_registry": {
-    "total": 1165,
+    "total": 1167,
     "by_channel": {
-      "Trackside Ontario": 79,
+      "Trackside Ontario": 80,
       "Trackside Tyson": 151,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
-      "Rail Fans Canada": 28,
+      "Rail Fans Canada": 29,
       "Brockville RailFan": 394,
       "MJM Productions": 355,
       "Central Canada Railfan": 25,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 277,
-      "medium": 797,
+      "medium": 799,
       "low": 91,
       "meta": 0
     }
@@ -29,22 +29,17 @@
     {
       "channel": "Trackside Ontario",
       "videos": 1,
-      "skipped": 1,
-      "high": 1,
-      "medium": 0,
+      "skipped": 2,
+      "high": 0,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 5,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -68,18 +63,18 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 5,
-      "skipped": 10,
-      "high": 4,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 3,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 15
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -122,11 +117,70 @@
       "skipped": 0
     }
   ],
-  "total": 1165,
-  "new_this_run": 7,
+  "total": 1167,
+  "new_this_run": 2,
   "high_confidence": 277,
   "dg_likely": 199,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "QAhWpgHZ2j4",
+      "video_url": "https://www.youtube.com/watch?v=QAhWpgHZ2j4",
+      "title": "Monday Morning at Bayview \u2022 November 2, 2026",
+      "published_at": "2026-11-03T04:28:54Z",
+      "date": "2026-11-02",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Monday Morning at Bayview \u2022 November 2, 2026",
+      "description_chars": 125,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "p5MUdxYCRuw",
+      "video_url": "https://www.youtube.com/watch?v=p5MUdxYCRuw",
+      "title": "Tracking the Progress: Ottawa\u2019s O-Train Stage 2 Eastern Extension - October 2026",
+      "published_at": "2026-11-02T19:41:03Z",
+      "date": "2026-11-02",
+      "location": "Ottawa",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 45.423,
+      "lon": -75.695,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "RR174",
+          "raw": "RR174"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Tracking the Progress: Ottawa\u2019s O-Train Stage 2 Eastern Extension - October 2026",
+      "description_chars": 1511,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

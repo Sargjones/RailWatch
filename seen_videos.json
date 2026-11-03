@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-03T00:46:05.248772Z",
-    "total_videos": 1165
+    "updated_at": "2026-11-03T13:27:14.912273Z",
+    "total_videos": 1167
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6994,6 +6994,18 @@
       "title": "CN Train 368 Lifting November 2, 2026",
       "confidence": "high",
       "processed_at": "2026-11-03T00:46:03.246785Z"
+    },
+    "QAhWpgHZ2j4": {
+      "channel": "Trackside Ontario",
+      "title": "Monday Morning at Bayview \u2022 November 2, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-03T13:27:11.944576Z"
+    },
+    "p5MUdxYCRuw": {
+      "channel": "Rail Fans Canada",
+      "title": "Tracking the Progress: Ottawa\u2019s O-Train Stage 2 Eastern Extension - October 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-03T13:27:13.182429Z"
     }
   }
 }
