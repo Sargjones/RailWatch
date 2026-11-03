@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-03T13:27:14.912273Z",
-    "total_videos": 1167
+    "updated_at": "2026-11-03T23:01:45.019716Z",
+    "total_videos": 1169
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7006,6 +7006,18 @@
       "title": "Tracking the Progress: Ottawa\u2019s O-Train Stage 2 Eastern Extension - October 2026",
       "confidence": "medium",
       "processed_at": "2026-11-03T13:27:13.182429Z"
+    },
+    "CR-Otcxl_Ck": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 3, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-03T23:01:43.377746Z"
+    },
+    "Urg_odAJ3T4": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 278 Eastbound November 3, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-03T23:01:43.377961Z"
     }
   }
 }

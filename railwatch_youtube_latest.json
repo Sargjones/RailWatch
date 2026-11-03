@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-03T13:27:14.928295Z",
+  "generated_at": "2026-11-03T23:01:45.036178Z",
   "dedup_registry": {
-    "total": 1167,
+    "total": 1169,
     "by_channel": {
       "Trackside Ontario": 80,
       "Trackside Tyson": 151,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 29,
-      "Brockville RailFan": 394,
+      "Brockville RailFan": 396,
       "MJM Productions": 355,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 277,
-      "medium": 799,
+      "high": 278,
+      "medium": 800,
       "low": 91,
       "meta": 0
     }
@@ -28,13 +28,8 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 2,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Trackside Tyson",
@@ -63,18 +58,18 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 1,
-      "skipped": 0,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 1
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 15
+      "videos": 2,
+      "skipped": 15,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -117,11 +112,112 @@
       "skipped": 0
     }
   ],
-  "total": 1167,
+  "total": 1169,
   "new_this_run": 2,
-  "high_confidence": 277,
-  "dg_likely": 199,
+  "high_confidence": 278,
+  "dg_likely": 200,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "CR-Otcxl_Ck",
+      "video_url": "https://www.youtube.com/watch?v=CR-Otcxl_Ck",
+      "title": "VIA Train 61 Westbound November 3, 2026",
+      "published_at": "2026-11-03T14:30:33Z",
+      "date": "2026-11-03",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound November 3, 2026",
+      "description_chars": 221,
+      "consist": {
+        "speed_kmh": 95,
+        "speed_raw": "59 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:56",
+        "observed_tz": "EDT",
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-03T08:56-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Urg_odAJ3T4",
+      "video_url": "https://www.youtube.com/watch?v=Urg_odAJ3T4",
+      "title": "CN Train 278 Eastbound November 3, 2026",
+      "published_at": "2026-11-03T14:24:51Z",
+      "date": "2026-11-03",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 8857"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 278",
+          "raw": "CN Train 278"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8857",
+          "raw": "CN 8857"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 278 Eastbound November 3, 2026",
+      "description_chars": 184,
+      "consist": {
+        "engines": [
+          "CN 8857"
+        ],
+        "car_count": 47,
+        "consist_type": "freight",
+        "speed_kmh": 69,
+        "speed_raw": "43 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:46",
+        "observed_tz": "EST",
+        "temperature_c": 11,
+        "origin": "Chicago Markham IL",
+        "destination": "Moncton NB"
+      },
+      "observed_at": "2026-11-03T07:46-05:00",
+      "origin": "Chicago Markham IL",
+      "destination": "Moncton NB",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

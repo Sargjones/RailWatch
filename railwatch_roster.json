@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-03T13:27:15.080802Z",
-  "total_units": 604,
+  "generated_at": "2026-11-03T23:01:45.207293Z",
+  "total_units": 605,
   "min_sightings": 2,
   "by_road": {
-    "CN": 473,
+    "CN": 474,
     "VIA": 11,
     "CP": 117,
     "CPKC": 1,
@@ -27997,6 +27997,53 @@
           "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
           "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8857",
+      "display": "CN 8857",
+      "sighting_count": 2,
+      "first_seen": "2026-11-03",
+      "last_seen": "2026-11-03",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 278"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-03",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 278",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Urg_odAJ3T4",
+          "title": "CN Train 278 Eastbound November 3, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-03",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 278",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=Urg_odAJ3T4",
+          "title": "CN Train 278 Eastbound November 3, 2026",
+          "source": "description_structured"
         }
       ]
     },
