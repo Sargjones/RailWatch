@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-02T14:30:18.633685Z",
-    "total_videos": 1158
+    "updated_at": "2026-11-03T00:46:05.248772Z",
+    "total_videos": 1165
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -6952,6 +6952,48 @@
       "title": "KCS 5009 ET44AC leads CPKC 420 south",
       "confidence": "medium",
       "processed_at": "2026-11-02T14:30:17.788352Z"
+    },
+    "cmkBOdsv0P0": {
+      "channel": "Trackside Ontario",
+      "title": "CN Z148 at Bayview Junction \u2022 November 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-03T00:46:01.282210Z"
+    },
+    "FiZ4lgllsRE": {
+      "channel": "Trackside Tyson",
+      "title": "BIG TRAINS THRU THE MIGHTY FRASER CANYON ",
+      "confidence": "low",
+      "processed_at": "2026-11-03T00:46:01.677068Z"
+    },
+    "y0vtzAf3pdE": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train X276 Eastbound November 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-03T00:46:03.246008Z"
+    },
+    "mIhfX_gD2lU": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 2, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-03T00:46:03.246195Z"
+    },
+    "jW8qtU3HmE8": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound November 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-03T00:46:03.246400Z"
+    },
+    "PoNaFeFENhg": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound November 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-03T00:46:03.246564Z"
+    },
+    "FCWgQbHYquM": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Lifting November 2, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-03T00:46:03.246785Z"
     }
   }
 }
