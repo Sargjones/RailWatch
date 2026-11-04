@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-03T23:01:45.019716Z",
-    "total_videos": 1169
+    "updated_at": "2026-11-04T13:38:16.191530Z",
+    "total_videos": 1170
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7018,6 +7018,12 @@
       "title": "CN Train 278 Eastbound November 3, 2026",
       "confidence": "high",
       "processed_at": "2026-11-03T23:01:43.377961Z"
+    },
+    "AN72F4x6pTA": {
+      "channel": "Trackside Ontario",
+      "title": "Tuesday Morning at Bayview \u2022 November 3, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-04T13:38:10.442634Z"
     }
   }
 }
