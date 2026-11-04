@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-04T13:38:16.205130Z",
+  "generated_at": "2026-11-04T23:25:57.246575Z",
   "dedup_registry": {
-    "total": 1170,
+    "total": 1173,
     "by_channel": {
       "Trackside Ontario": 81,
       "Trackside Tyson": 151,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
       "Rail Fans Canada": 29,
-      "Brockville RailFan": 396,
+      "Brockville RailFan": 399,
       "MJM Productions": 355,
       "Central Canada Railfan": 25,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 278,
-      "medium": 801,
+      "high": 280,
+      "medium": 802,
       "low": 91,
       "meta": 0
     }
@@ -28,13 +28,8 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 3,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
@@ -68,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 14
+      "videos": 3,
+      "skipped": 14,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 2,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -112,11 +112,181 @@
       "skipped": 0
     }
   ],
-  "total": 1170,
-  "new_this_run": 1,
-  "high_confidence": 278,
-  "dg_likely": 200,
+  "total": 1173,
+  "new_this_run": 3,
+  "high_confidence": 280,
+  "dg_likely": 202,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "HnRVvjYySQM",
+      "video_url": "https://www.youtube.com/watch?v=HnRVvjYySQM",
+      "title": "CN Train 278 Eastbound November 4, 2026",
+      "published_at": "2026-11-04T14:56:09Z",
+      "date": "2026-11-04",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2857",
+        "CN 2824"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 278",
+          "raw": "CN Train 278"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2857",
+          "raw": "CN 2857"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2824",
+          "raw": "CN 2824"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 278 Eastbound November 4, 2026",
+      "description_chars": 198,
+      "consist": {
+        "engines": [
+          "CN 2857",
+          "CN 2824"
+        ],
+        "car_count": 104,
+        "consist_type": "freight",
+        "speed_kmh": 37,
+        "speed_raw": "23 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:02",
+        "observed_tz": "EDT",
+        "temperature_c": 15,
+        "origin": "Flint MI",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-11-04T09:02-04:00",
+      "origin": "Flint MI",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "W3FhcZZ3JAw",
+      "video_url": "https://www.youtube.com/watch?v=W3FhcZZ3JAw",
+      "title": "VIA Train 61 Westbound November 4, 2026",
+      "published_at": "2026-11-04T14:41:16Z",
+      "date": "2026-11-04",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound November 4, 2026",
+      "description_chars": 192,
+      "consist": {
+        "observed_time": "08:53",
+        "observed_tz": "EDT",
+        "temperature_c": 15,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-04T08:53-04:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "aPbXFjhQenY",
+      "video_url": "https://www.youtube.com/watch?v=aPbXFjhQenY",
+      "title": "CN Train 874 Eastbound November 4, 2026",
+      "published_at": "2026-11-04T14:34:21Z",
+      "date": "2026-11-04",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3247",
+        "CN 3896"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 874",
+          "raw": "CN Train 874"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3247",
+          "raw": "CN 3247"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3896",
+          "raw": "CN 3896"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 874 Eastbound November 4, 2026",
+      "description_chars": 200,
+      "consist": {
+        "engines": [
+          "CN 3247",
+          "CN 3896"
+        ],
+        "car_count": 75,
+        "consist_type": "freight",
+        "speed_kmh": 74,
+        "speed_raw": "46 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:41",
+        "observed_tz": "EST",
+        "temperature_c": 11,
+        "origin": "Saskatoon SK",
+        "destination": "Quebec City Limoilou QC"
+      },
+      "observed_at": "2026-11-04T07:41-05:00",
+      "origin": "Saskatoon SK",
+      "destination": "Quebec City Limoilou QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-04T13:38:16.191530Z",
-    "total_videos": 1170
+    "updated_at": "2026-11-04T23:25:57.195630Z",
+    "total_videos": 1173
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7024,6 +7024,24 @@
       "title": "Tuesday Morning at Bayview \u2022 November 3, 2026",
       "confidence": "medium",
       "processed_at": "2026-11-04T13:38:10.442634Z"
+    },
+    "HnRVvjYySQM": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 278 Eastbound November 4, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-04T23:25:55.555293Z"
+    },
+    "W3FhcZZ3JAw": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 4, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-04T23:25:55.555515Z"
+    },
+    "aPbXFjhQenY": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 874 Eastbound November 4, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-04T23:25:55.555624Z"
     }
   }
 }
