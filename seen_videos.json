@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-05T13:51:23.611170Z",
-    "total_videos": 1174
+    "updated_at": "2026-11-05T23:27:48.807064Z",
+    "total_videos": 1178
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7048,6 +7048,30 @@
       "title": "A Train Meet at Tansley \u2022 November 3, 2026",
       "confidence": "medium",
       "processed_at": "2026-11-05T13:51:20.810485Z"
+    },
+    "VpXG-rMU2hg": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 5, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-05T23:27:47.123432Z"
+    },
+    "9v3_6BraDCc": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound November 5, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-05T23:27:47.123658Z"
+    },
+    "qKk61VjBPD0": {
+      "channel": "MJM Productions",
+      "title": "GP38-2 LEAD! CP 7307 at Streetsville (NOV 5, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-11-05T23:27:47.887804Z"
+    },
+    "Q2n-XRssITs": {
+      "channel": "MJM Productions",
+      "title": "CP 7307 leads CPKC H24 thru Streetsville",
+      "confidence": "medium",
+      "processed_at": "2026-11-05T23:27:47.888633Z"
     }
   }
 }
