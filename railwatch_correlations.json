@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T23:25:57.425648Z",
+  "generated_at": "2026-11-05T13:51:23.707803Z",
   "total": 65,
   "cross_observer": 4,
   "chase": 61,
@@ -867,7 +867,7 @@
       "consist_delta": null,
       "commodity": "hopper",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424723Z",
+      "correlated_at": "2026-11-05T13:51:23.706849Z",
       "confidence": "medium"
     },
     {
@@ -912,7 +912,7 @@
       "consist_delta": null,
       "commodity": "intermodal",
       "dg_likely": true,
-      "correlated_at": "2026-11-04T23:25:57.424913Z",
+      "correlated_at": "2026-11-05T13:51:23.707052Z",
       "confidence": "medium"
     },
     {
@@ -962,7 +962,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-04T23:25:57.425094Z",
+      "correlated_at": "2026-11-05T13:51:23.707242Z",
       "confidence": "medium"
     },
     {
@@ -1012,7 +1012,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-04T23:25:57.425112Z",
+      "correlated_at": "2026-11-05T13:51:23.707263Z",
       "confidence": "medium"
     },
     {
@@ -1062,7 +1062,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-04T23:25:57.424595Z",
+      "correlated_at": "2026-11-05T13:51:23.706718Z",
       "confidence": "low",
       "split_suspected": true
     },
@@ -1108,7 +1108,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424315Z",
+      "correlated_at": "2026-11-05T13:51:23.706425Z",
       "confidence": "low"
     },
     {
@@ -1158,7 +1158,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424355Z",
+      "correlated_at": "2026-11-05T13:51:23.706458Z",
       "confidence": "low"
     },
     {
@@ -1203,7 +1203,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424385Z",
+      "correlated_at": "2026-11-05T13:51:23.706503Z",
       "confidence": "low"
     },
     {
@@ -1248,7 +1248,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424396Z",
+      "correlated_at": "2026-11-05T13:51:23.706514Z",
       "confidence": "low"
     },
     {
@@ -1298,7 +1298,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424459Z",
+      "correlated_at": "2026-11-05T13:51:23.706584Z",
       "confidence": "low"
     },
     {
@@ -1348,7 +1348,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424466Z",
+      "correlated_at": "2026-11-05T13:51:23.706591Z",
       "confidence": "low"
     },
     {
@@ -1398,7 +1398,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424477Z",
+      "correlated_at": "2026-11-05T13:51:23.706601Z",
       "confidence": "low"
     },
     {
@@ -1448,7 +1448,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424486Z",
+      "correlated_at": "2026-11-05T13:51:23.706609Z",
       "confidence": "low"
     },
     {
@@ -1498,7 +1498,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424492Z",
+      "correlated_at": "2026-11-05T13:51:23.706615Z",
       "confidence": "low"
     },
     {
@@ -1548,7 +1548,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424501Z",
+      "correlated_at": "2026-11-05T13:51:23.706623Z",
       "confidence": "low"
     },
     {
@@ -1598,7 +1598,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424509Z",
+      "correlated_at": "2026-11-05T13:51:23.706632Z",
       "confidence": "low"
     },
     {
@@ -1648,7 +1648,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424526Z",
+      "correlated_at": "2026-11-05T13:51:23.706643Z",
       "confidence": "low"
     },
     {
@@ -1698,7 +1698,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-04T23:25:57.424602Z",
+      "correlated_at": "2026-11-05T13:51:23.706726Z",
       "confidence": "low"
     },
     {
@@ -1743,7 +1743,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424645Z",
+      "correlated_at": "2026-11-05T13:51:23.706772Z",
       "confidence": "low"
     },
     {
@@ -1788,7 +1788,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424651Z",
+      "correlated_at": "2026-11-05T13:51:23.706777Z",
       "confidence": "low"
     },
     {
@@ -1833,7 +1833,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424660Z",
+      "correlated_at": "2026-11-05T13:51:23.706785Z",
       "confidence": "low"
     },
     {
@@ -1878,7 +1878,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424686Z",
+      "correlated_at": "2026-11-05T13:51:23.706811Z",
       "confidence": "low"
     },
     {
@@ -1923,7 +1923,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424692Z",
+      "correlated_at": "2026-11-05T13:51:23.706817Z",
       "confidence": "low"
     },
     {
@@ -1968,7 +1968,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424730Z",
+      "correlated_at": "2026-11-05T13:51:23.706856Z",
       "confidence": "low"
     },
     {
@@ -2013,7 +2013,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424736Z",
+      "correlated_at": "2026-11-05T13:51:23.706863Z",
       "confidence": "low"
     },
     {
@@ -2058,7 +2058,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424764Z",
+      "correlated_at": "2026-11-05T13:51:23.706894Z",
       "confidence": "medium"
     },
     {
@@ -2103,7 +2103,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424771Z",
+      "correlated_at": "2026-11-05T13:51:23.706903Z",
       "confidence": "medium"
     },
     {
@@ -2148,7 +2148,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424777Z",
+      "correlated_at": "2026-11-05T13:51:23.706909Z",
       "confidence": "low"
     },
     {
@@ -2193,7 +2193,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424782Z",
+      "correlated_at": "2026-11-05T13:51:23.706914Z",
       "confidence": "low"
     },
     {
@@ -2238,7 +2238,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424826Z",
+      "correlated_at": "2026-11-05T13:51:23.706960Z",
       "confidence": "low"
     },
     {
@@ -2283,7 +2283,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424832Z",
+      "correlated_at": "2026-11-05T13:51:23.706966Z",
       "confidence": "low"
     },
     {
@@ -2328,7 +2328,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424837Z",
+      "correlated_at": "2026-11-05T13:51:23.706971Z",
       "confidence": "low"
     },
     {
@@ -2373,7 +2373,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424843Z",
+      "correlated_at": "2026-11-05T13:51:23.706980Z",
       "confidence": "low"
     },
     {
@@ -2418,7 +2418,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424934Z",
+      "correlated_at": "2026-11-05T13:51:23.707074Z",
       "confidence": "low"
     },
     {
@@ -2463,7 +2463,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424946Z",
+      "correlated_at": "2026-11-05T13:51:23.707084Z",
       "confidence": "low"
     },
     {
@@ -2508,7 +2508,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424958Z",
+      "correlated_at": "2026-11-05T13:51:23.707097Z",
       "confidence": "low"
     },
     {
@@ -2553,7 +2553,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424965Z",
+      "correlated_at": "2026-11-05T13:51:23.707105Z",
       "confidence": "low"
     },
     {
@@ -2598,7 +2598,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.424972Z",
+      "correlated_at": "2026-11-05T13:51:23.707114Z",
       "confidence": "low"
     },
     {
@@ -2643,7 +2643,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425000Z",
+      "correlated_at": "2026-11-05T13:51:23.707141Z",
       "confidence": "low"
     },
     {
@@ -2688,7 +2688,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425008Z",
+      "correlated_at": "2026-11-05T13:51:23.707149Z",
       "confidence": "low"
     },
     {
@@ -2733,7 +2733,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425024Z",
+      "correlated_at": "2026-11-05T13:51:23.707165Z",
       "confidence": "low"
     },
     {
@@ -2778,7 +2778,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425042Z",
+      "correlated_at": "2026-11-05T13:51:23.707184Z",
       "confidence": "low"
     },
     {
@@ -2823,7 +2823,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425059Z",
+      "correlated_at": "2026-11-05T13:51:23.707201Z",
       "confidence": "low"
     },
     {
@@ -2873,7 +2873,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425133Z",
+      "correlated_at": "2026-11-05T13:51:23.707284Z",
       "confidence": "low"
     },
     {
@@ -2918,7 +2918,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425144Z",
+      "correlated_at": "2026-11-05T13:51:23.707297Z",
       "confidence": "low"
     },
     {
@@ -2963,7 +2963,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425156Z",
+      "correlated_at": "2026-11-05T13:51:23.707310Z",
       "confidence": "low"
     },
     {
@@ -3008,7 +3008,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425177Z",
+      "correlated_at": "2026-11-05T13:51:23.707331Z",
       "confidence": "low"
     },
     {
@@ -3053,7 +3053,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425184Z",
+      "correlated_at": "2026-11-05T13:51:23.707337Z",
       "confidence": "medium"
     },
     {
@@ -3098,7 +3098,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425208Z",
+      "correlated_at": "2026-11-05T13:51:23.707362Z",
       "confidence": "low"
     },
     {
@@ -3143,7 +3143,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425217Z",
+      "correlated_at": "2026-11-05T13:51:23.707372Z",
       "confidence": "low"
     },
     {
@@ -3188,7 +3188,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425224Z",
+      "correlated_at": "2026-11-05T13:51:23.707378Z",
       "confidence": "low"
     },
     {
@@ -3233,7 +3233,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425233Z",
+      "correlated_at": "2026-11-05T13:51:23.707386Z",
       "confidence": "low"
     },
     {
@@ -3278,7 +3278,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425240Z",
+      "correlated_at": "2026-11-05T13:51:23.707395Z",
       "confidence": "low"
     },
     {
@@ -3323,7 +3323,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425247Z",
+      "correlated_at": "2026-11-05T13:51:23.707402Z",
       "confidence": "low"
     },
     {
@@ -3368,7 +3368,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425253Z",
+      "correlated_at": "2026-11-05T13:51:23.707409Z",
       "confidence": "low"
     },
     {
@@ -3413,7 +3413,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425260Z",
+      "correlated_at": "2026-11-05T13:51:23.707415Z",
       "confidence": "low"
     },
     {
@@ -3458,7 +3458,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425270Z",
+      "correlated_at": "2026-11-05T13:51:23.707424Z",
       "confidence": "low"
     },
     {
@@ -3503,7 +3503,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425277Z",
+      "correlated_at": "2026-11-05T13:51:23.707431Z",
       "confidence": "low"
     },
     {
@@ -3548,7 +3548,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425328Z",
+      "correlated_at": "2026-11-05T13:51:23.707501Z",
       "confidence": "low"
     },
     {
@@ -3593,7 +3593,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425433Z",
+      "correlated_at": "2026-11-05T13:51:23.707600Z",
       "confidence": "low"
     },
     {
@@ -3638,7 +3638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425483Z",
+      "correlated_at": "2026-11-05T13:51:23.707657Z",
       "confidence": "low"
     },
     {
@@ -3683,7 +3683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425491Z",
+      "correlated_at": "2026-11-05T13:51:23.707665Z",
       "confidence": "low"
     },
     {
@@ -3728,7 +3728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425498Z",
+      "correlated_at": "2026-11-05T13:51:23.707672Z",
       "confidence": "low"
     },
     {
@@ -3773,7 +3773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425506Z",
+      "correlated_at": "2026-11-05T13:51:23.707679Z",
       "confidence": "low"
     },
     {
@@ -3818,7 +3818,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-04T23:25:57.425513Z",
+      "correlated_at": "2026-11-05T13:51:23.707686Z",
       "confidence": "low"
     }
   ]

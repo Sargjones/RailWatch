@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-04T23:25:57.246575Z",
+  "generated_at": "2026-11-05T13:51:23.622431Z",
   "dedup_registry": {
-    "total": 1173,
+    "total": 1174,
     "by_channel": {
-      "Trackside Ontario": 81,
+      "Trackside Ontario": 82,
       "Trackside Tyson": 151,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
@@ -18,18 +18,23 @@
     },
     "by_confidence": {
       "high": 280,
-      "medium": 802,
+      "medium": 803,
       "low": 91,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-28T00:00:00Z",
+  "since": "2026-10-29T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
@@ -63,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 14,
-      "high": 2,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 2,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -112,11 +112,37 @@
       "skipped": 0
     }
   ],
-  "total": 1173,
-  "new_this_run": 3,
+  "total": 1174,
+  "new_this_run": 1,
   "high_confidence": 280,
   "dg_likely": 202,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "IfG7JfkWB2w",
+      "video_url": "https://www.youtube.com/watch?v=IfG7JfkWB2w",
+      "title": "A Train Meet at Tansley \u2022 November 3, 2026",
+      "published_at": "2026-11-05T00:56:02Z",
+      "date": "2026-11-03",
+      "location": "Burlington",
+      "subdivision": "CN Oakville Sub",
+      "lat": 43.32,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "A Train Meet at Tansley \u2022 November 3, 2026",
+      "description_chars": 197,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

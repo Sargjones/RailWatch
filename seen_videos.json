@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-04T23:25:57.195630Z",
-    "total_videos": 1173
+    "updated_at": "2026-11-05T13:51:23.611170Z",
+    "total_videos": 1174
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7042,6 +7042,12 @@
       "title": "CN Train 874 Eastbound November 4, 2026",
       "confidence": "high",
       "processed_at": "2026-11-04T23:25:55.555624Z"
+    },
+    "IfG7JfkWB2w": {
+      "channel": "Trackside Ontario",
+      "title": "A Train Meet at Tansley \u2022 November 3, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-05T13:51:20.810485Z"
     }
   }
 }
