@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-06T13:35:47.274677Z",
-    "total_videos": 1178
+    "updated_at": "2026-11-06T22:53:30.814639Z",
+    "total_videos": 1179
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7072,6 +7072,12 @@
       "title": "CP 7307 leads CPKC H24 thru Streetsville",
       "confidence": "medium",
       "processed_at": "2026-11-05T23:27:47.888633Z"
+    },
+    "jFuTTF2Fg78": {
+      "channel": "Central Canada Railfan",
+      "title": "CP and CN Mainline Action Around Winnipeg - Late October 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-06T22:53:30.814613Z"
     }
   }
 }

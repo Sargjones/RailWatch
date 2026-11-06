@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-06T13:35:47.285316Z",
+  "generated_at": "2026-11-06T22:53:30.828195Z",
   "dedup_registry": {
-    "total": 1178,
+    "total": 1179,
     "by_channel": {
       "Trackside Ontario": 82,
       "Trackside Tyson": 151,
@@ -11,13 +11,13 @@
       "Rail Fans Canada": 29,
       "Brockville RailFan": 401,
       "MJM Productions": 357,
-      "Central Canada Railfan": 25,
+      "Central Canada Railfan": 26,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 281,
+      "high": 282,
       "medium": 806,
       "low": 91,
       "meta": 0
@@ -103,15 +103,192 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     }
   ],
-  "total": 1178,
-  "new_this_run": 0,
-  "high_confidence": 281,
-  "dg_likely": 202,
+  "total": 1179,
+  "new_this_run": 1,
+  "high_confidence": 282,
+  "dg_likely": 203,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "jFuTTF2Fg78",
+      "video_url": "https://www.youtube.com/watch?v=jFuTTF2Fg78",
+      "title": "CP and CN Mainline Action Around Winnipeg - Late October 2026",
+      "published_at": "2026-11-06T18:00:13Z",
+      "date": "2026-11-06",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "tank",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CP 118",
+        "CP 7585",
+        "CP 7574",
+        "CP 421",
+        "CP 7457",
+        "CP 620",
+        "CN 2908",
+        "CN 8318",
+        "CP 621",
+        "CN 3800",
+        "CN 8886",
+        "CN 2301",
+        "CP 577",
+        "CP 7592",
+        "CP 3092",
+        "CP 4521",
+        "CN 3090",
+        "CN 2918",
+        "CN 3380",
+        "CN 2810",
+        "CN 3077",
+        "CN 2318",
+        "CN 2617"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CP 118"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7585",
+          "raw": "CP 7585"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7574",
+          "raw": "CP 7574"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 421",
+          "raw": "CP 421"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7457",
+          "raw": "CP 7457"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 620",
+          "raw": "CP 620"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2908",
+          "raw": "CN 2908"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8318",
+          "raw": "CN 8318"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 621",
+          "raw": "CP 621"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3800",
+          "raw": "CN 3800"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8886",
+          "raw": "CN 8886"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2301",
+          "raw": "CN 2301"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 577",
+          "raw": "CP 577"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7592",
+          "raw": "CP 7592"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3092",
+          "raw": "CP 3092"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 4521",
+          "raw": "CP 4521"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3090",
+          "raw": "CN 3090"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2918",
+          "raw": "CN 2918"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3380",
+          "raw": "CN 3380"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2810",
+          "raw": "CN 2810"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3077",
+          "raw": "CN 3077"
+        },
+        {
+          "road": "CN",
+          "symbol": "M314",
+          "raw": "M314"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2318",
+          "raw": "CN 2318"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2617",
+          "raw": "CN 2617"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CP and CN Mainline Action Around Winnipeg - Late October 2026",
+      "description_chars": 1472,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
