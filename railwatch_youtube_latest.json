@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-07T12:16:14.741095Z",
+  "generated_at": "2026-11-07T21:37:30.815605Z",
   "dedup_registry": {
-    "total": 1180,
+    "total": 1182,
     "by_channel": {
-      "Trackside Ontario": 82,
-      "Trackside Tyson": 152,
+      "Trackside Ontario": 83,
+      "Trackside Tyson": 153,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 282,
-      "medium": 807,
+      "medium": 809,
       "low": 91,
       "meta": 0
     }
@@ -28,13 +28,18 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 3,
+      "skipped": 4,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
@@ -112,11 +117,63 @@
       "skipped": 1
     }
   ],
-  "total": 1180,
-  "new_this_run": 1,
+  "total": 1182,
+  "new_this_run": 2,
   "high_confidence": 282,
   "dg_likely": 203,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "HtYgQjiGTFI",
+      "video_url": "https://www.youtube.com/watch?v=HtYgQjiGTFI",
+      "title": "Saturday Morning at Bayview \u2022 November 7, 2026",
+      "published_at": "2026-11-07T19:53:01Z",
+      "date": "2026-11-07",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Saturday Morning at Bayview \u2022 November 7, 2026",
+      "description_chars": 125,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "kvGgfNMgXhU",
+      "video_url": "https://www.youtube.com/watch?v=kvGgfNMgXhU",
+      "title": "EMD REBUILD LEADS BIG GRAIN TRAIN THRU THE CANYON!",
+      "published_at": "2026-11-07T18:30:06Z",
+      "date": "2026-11-07",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "EMD REBUILD LEADS BIG GRAIN TRAIN THRU THE CANYON!",
+      "description_chars": 417,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
