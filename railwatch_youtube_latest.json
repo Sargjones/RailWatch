@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-06T22:53:30.828195Z",
+  "generated_at": "2026-11-07T12:16:14.741095Z",
   "dedup_registry": {
-    "total": 1179,
+    "total": 1180,
     "by_channel": {
       "Trackside Ontario": 82,
-      "Trackside Tyson": 151,
+      "Trackside Tyson": 152,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 30,
@@ -18,23 +18,28 @@
     },
     "by_confidence": {
       "high": 282,
-      "medium": 806,
+      "medium": 807,
       "low": 91,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-30T00:00:00Z",
+  "since": "2026-10-31T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 5
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 3,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -64,7 +69,7 @@
     {
       "channel": "Brockville RailFan",
       "videos": 0,
-      "skipped": 14
+      "skipped": 12
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -103,20 +108,41 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 1,
-      "skipped": 0,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 1
     }
   ],
-  "total": 1179,
+  "total": 1180,
   "new_this_run": 1,
   "high_confidence": 282,
   "dg_likely": 203,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "RxBRQ5A7nmQ",
+      "video_url": "https://www.youtube.com/watch?v=RxBRQ5A7nmQ",
+      "title": "HEAVY COAL TRAIN COMES TO A STOP! #youtubeshorts",
+      "published_at": "2026-11-06T23:15:13Z",
+      "date": "2026-11-06",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "gondola",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "HEAVY COAL TRAIN COMES TO A STOP! #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
