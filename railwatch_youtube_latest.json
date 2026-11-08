@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-08T12:36:28.726687Z",
+  "generated_at": "2026-11-08T21:51:15.700295Z",
   "dedup_registry": {
-    "total": 1183,
+    "total": 1190,
     "by_channel": {
       "Trackside Ontario": 83,
-      "Trackside Tyson": 153,
+      "Trackside Tyson": 154,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 29,
       "Brockville RailFan": 401,
-      "MJM Productions": 357,
+      "MJM Productions": 363,
       "Central Canada Railfan": 26,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 282,
-      "medium": 810,
+      "medium": 817,
       "low": 91,
       "meta": 0
     }
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 3
+      "videos": 1,
+      "skipped": 3,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -48,13 +53,13 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 1,
-      "skipped": 0,
+      "videos": 0,
+      "skipped": 1,
       "high": 0,
-      "medium": 1,
+      "medium": 0,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 0
     },
     {
       "channel": "Rail Fans Canada",
@@ -78,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 5
+      "videos": 6,
+      "skipped": 5,
+      "high": 0,
+      "medium": 6,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 5
     },
     {
       "channel": "Ontario Railman",
@@ -107,11 +117,255 @@
       "skipped": 1
     }
   ],
-  "total": 1183,
-  "new_this_run": 1,
+  "total": 1190,
+  "new_this_run": 7,
   "high_confidence": 282,
   "dg_likely": 203,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "ABfBUF8oH5U",
+      "video_url": "https://www.youtube.com/watch?v=ABfBUF8oH5U",
+      "title": "GRAIN TRAIN SNAKING THRU CURVES #youtubeshorts",
+      "published_at": "2026-11-08T21:00:30Z",
+      "date": "2026-11-08",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "GRAIN TRAIN SNAKING THRU CURVES #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "wQiIePiGLB8",
+      "video_url": "https://www.youtube.com/watch?v=wQiIePiGLB8",
+      "title": "CN 8326 SD75IACC leads CPKC 322 south",
+      "published_at": "2026-11-08T20:34:17Z",
+      "date": "2026-11-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8326",
+        "CPKC 322"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8326",
+          "raw": "CN 8326"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CPKC 322"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8326 SD75IACC leads CPKC 322 south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "ZW8XoRlaV5A",
+      "video_url": "https://www.youtube.com/watch?v=ZW8XoRlaV5A",
+      "title": "CPKC 112 passes MP 14 on the Parry Sound sub",
+      "published_at": "2026-11-08T20:33:01Z",
+      "date": "2026-11-08",
+      "location": "Parry Sound",
+      "subdivision": "CN Bala Sub",
+      "lat": 45.35,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 112"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 112",
+          "raw": "CPKC 112"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 112 passes MP 14 on the Parry Sound sub",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "gHa2eCDRdCs",
+      "video_url": "https://www.youtube.com/watch?v=gHa2eCDRdCs",
+      "title": "VIA the Canadian passes Rosseau road",
+      "published_at": "2026-11-08T20:31:21Z",
+      "date": "2026-11-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "VIA the Canadian passes Rosseau road",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "YNIbETT86C4",
+      "video_url": "https://www.youtube.com/watch?v=YNIbETT86C4",
+      "title": "CP 7469 leads CPKC 114 past Rosseau rd",
+      "published_at": "2026-11-08T20:30:24Z",
+      "date": "2026-11-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7469",
+        "CPKC 114"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7469",
+          "raw": "CP 7469"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 114",
+          "raw": "CPKC 114"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7469 leads CPKC 114 past Rosseau rd",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "P5m_tpWRVZc",
+      "video_url": "https://www.youtube.com/watch?v=P5m_tpWRVZc",
+      "title": "CN 2882 + CN 3028 lead CN Q107 north",
+      "published_at": "2026-11-08T16:43:18Z",
+      "date": "2026-11-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2882",
+        "CN 3028"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2882",
+          "raw": "CN 2882"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3028",
+          "raw": "CN 3028"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q107",
+          "raw": "Q107"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2882 + CN 3028 lead CN Q107 north",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "QPFDdI9eOhU",
+      "video_url": "https://www.youtube.com/watch?v=QPFDdI9eOhU",
+      "title": "CN B730 South climbing the hill on the Bala",
+      "published_at": "2026-11-08T16:11:49Z",
+      "date": "2026-11-08",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "B730",
+          "raw": "B730"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN B730 South climbing the hill on the Bala",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

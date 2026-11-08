@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T12:36:28.912368Z",
+  "generated_at": "2026-11-08T21:51:15.881230Z",
   "total_units": 613,
   "min_sightings": 2,
   "by_road": {
@@ -13547,6 +13547,68 @@
     },
     {
       "road": "CN",
+      "number": "3028",
+      "display": "CN 3028",
+      "sighting_count": 3,
+      "first_seen": "2026-07-30",
+      "last_seen": "2026-11-08",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "Q107",
+        "CN 377"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-08",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=P5m_tpWRVZc",
+          "title": "CN 2882 + CN 3028 lead CN Q107 north",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-30",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 377",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SLbCPLpxv0M",
+          "title": "CN Train 377 Westbound July 30, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-30",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 377",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SLbCPLpxv0M",
+          "title": "CN Train 377 Westbound July 30, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3031",
       "display": "CN 3031",
       "sighting_count": 3,
@@ -20786,53 +20848,6 @@
           "dpu": true,
           "video_url": "https://www.youtube.com/watch?v=3vTA_pr0DXU",
           "title": "CN Train 156 Eastbound July 22, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3028",
-      "display": "CN 3028",
-      "sighting_count": 2,
-      "first_seen": "2026-07-30",
-      "last_seen": "2026-07-30",
-      "corridors": [
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 377"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-30",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 377",
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=SLbCPLpxv0M",
-          "title": "CN Train 377 Westbound July 30, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-30",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 377",
-          "direction": "West",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=SLbCPLpxv0M",
-          "title": "CN Train 377 Westbound July 30, 2026",
           "source": "description_structured"
         }
       ]
