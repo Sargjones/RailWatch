@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-07T21:37:30.815605Z",
+  "generated_at": "2026-11-08T12:36:28.726687Z",
   "dedup_registry": {
-    "total": 1182,
+    "total": 1183,
     "by_channel": {
       "Trackside Ontario": 83,
       "Trackside Tyson": 153,
       "Southern Ontario Railfan": 62,
       "Trackside Tristan": 12,
-      "Scott Rails (Chasing The Money Shot)": 30,
+      "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 29,
       "Brockville RailFan": 401,
       "MJM Productions": 357,
@@ -18,33 +18,23 @@
     },
     "by_confidence": {
       "high": 282,
-      "medium": 809,
+      "medium": 810,
       "low": 91,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-10-31T00:00:00Z",
+  "since": "2026-11-01T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 5
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 4,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 3
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -58,13 +48,13 @@
     },
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
-      "videos": 0,
+      "videos": 1,
       "skipped": 0,
       "high": 0,
-      "medium": 0,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 0
+      "defaulted": 1
     },
     {
       "channel": "Rail Fans Canada",
@@ -89,7 +79,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 12
+      "skipped": 5
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +107,37 @@
       "skipped": 1
     }
   ],
-  "total": 1182,
-  "new_this_run": 2,
+  "total": 1183,
+  "new_this_run": 1,
   "high_confidence": 282,
   "dg_likely": 203,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Scott Rails (Chasing The Money Shot)",
+      "channel_id": "UCQUUHzkvfoCqcTKIn6cI9yw",
+      "video_id": "lM0-F0hUFG0",
+      "video_url": "https://www.youtube.com/watch?v=lM0-F0hUFG0",
+      "title": "EMD DD40 Demonstrator",
+      "published_at": "2026-11-08T11:44:09Z",
+      "date": "2026-11-08",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "EMD DD40 Demonstrator",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
