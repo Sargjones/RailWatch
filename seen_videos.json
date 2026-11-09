@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-08T21:51:15.684214Z",
-    "total_videos": 1190
+    "updated_at": "2026-11-09T14:54:43.667664Z",
+    "total_videos": 1193
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7144,6 +7144,24 @@
       "title": "CN B730 South climbing the hill on the Bala",
       "confidence": "medium",
       "processed_at": "2026-11-08T21:51:14.703115Z"
+    },
+    "f3o_lDp_D1o": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 9, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-09T14:54:41.753956Z"
+    },
+    "UQQE_5Q1n0o": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Chased by CN Train X276 Eastbound November 9, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-09T14:54:41.754209Z"
+    },
+    "pGh-lxPetws": {
+      "channel": "MJM Productions",
+      "title": "GRAIN TRAIN! Railfanning around Parry Sound, ON (NOV 8, 2026)",
+      "confidence": "high",
+      "processed_at": "2026-11-09T14:54:42.481777Z"
     }
   }
 }

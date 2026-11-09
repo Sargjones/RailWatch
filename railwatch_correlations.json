@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T21:51:15.808921Z",
+  "generated_at": "2026-11-09T14:54:43.768570Z",
   "total": 65,
   "cross_observer": 4,
   "chase": 61,
@@ -867,7 +867,7 @@
       "consist_delta": null,
       "commodity": "hopper",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.806917Z",
+      "correlated_at": "2026-11-09T14:54:43.767345Z",
       "confidence": "medium"
     },
     {
@@ -912,7 +912,7 @@
       "consist_delta": null,
       "commodity": "intermodal",
       "dg_likely": true,
-      "correlated_at": "2026-11-08T21:51:15.807828Z",
+      "correlated_at": "2026-11-09T14:54:43.767764Z",
       "confidence": "medium"
     },
     {
@@ -962,7 +962,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-08T21:51:15.808069Z",
+      "correlated_at": "2026-11-09T14:54:43.767973Z",
       "confidence": "medium"
     },
     {
@@ -1012,7 +1012,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-08T21:51:15.808098Z",
+      "correlated_at": "2026-11-09T14:54:43.768023Z",
       "confidence": "medium"
     },
     {
@@ -1062,369 +1062,9 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-08T21:51:15.807530Z",
+      "correlated_at": "2026-11-09T14:54:43.767106Z",
       "confidence": "low",
       "split_suspected": true
-    },
-    {
-      "symbol": "CN112",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-08-02",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=CbVZDDXpXyc",
-        "title": "CP 8105 AC4400CWM leads CPKC 112"
-      },
-      "sighting_b": {
-        "location": "MacTier",
-        "date": "2026-08-02",
-        "observed_at": "2026-08-02T2:32",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=MrlnmFXvbcM",
-        "title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)"
-      },
-      "transit": {
-        "distance_km": 147.8,
-        "elapsed_hours": 4.62,
-        "avg_speed_kmh": 32.0,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.806737Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN112",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-10-16",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=pbADxzwl2dY",
-        "title": "CPKC 112 south thru the fall colours"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-10-16",
-        "observed_at": "2026-10-16T6:34",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
-        "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 20.77,
-        "avg_speed_kmh": 1.5,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.806773Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q107",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "IC 2719",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
-        "title": "IC 2719 + CN 2222 lead CN Q107 north"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-05-31",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
-        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 8.69,
-        "avg_speed_kmh": 3.6,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.806828Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q107",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-09-06",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=x_e7nE2agBY",
-        "title": "CN 2817 leads CN Q107 by Dock Siding"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-09-06",
-        "observed_at": "2026-09-06T1:18",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=EKKPu0dWZ9E",
-        "title": "THE NORTH! Railfanning at Parry Sound, ON (SEP 6, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 13.23,
-        "avg_speed_kmh": 2.4,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.806842Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q107",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-10-16",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=pYEAOT_gqbs",
-        "title": "CN 3199 + CN 2764 lead CN Q107 north"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-10-16",
-        "observed_at": "2026-10-16T6:34",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
-        "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 16.02,
-        "avg_speed_kmh": 2.0,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.806853Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q107",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-10-29",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=1etMij6STIc",
-        "title": "CN 8351 SD75IACC leads CN Q107 north"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-10-29",
-        "observed_at": "2026-10-29T9:39",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=jgaZCSGlHxg",
-        "title": "SD75IACC! Railfanning the CN Bala sub (OCT 29, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 5.34,
-        "avg_speed_kmh": 5.9,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.806864Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN118",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brampton",
-        "date": "2026-09-18",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=Bq0VZotgbzs",
-        "title": "MONSTER ACTION! Railfanning at Lovekin, ON (SEP 18, 2026)"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-09-20",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=nCyQAo7GvLg",
-        "title": "CP 8832 + KCS 4162 lead CPKC 118 east"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 15.84,
-        "avg_speed_kmh": 2.0,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.806927Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN118",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-10-16",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=KsyATgP1aa0",
-        "title": "CPKC 118 round the bend at Cascade st"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-10-16",
-        "observed_at": "2026-10-16T6:34",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
-        "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 22.5,
-        "avg_speed_kmh": 1.4,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.806938Z",
-      "confidence": "low"
     },
     {
       "symbol": "CN61",
@@ -1468,7 +1108,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807166Z",
+      "correlated_at": "2026-11-09T14:54:43.766977Z",
       "confidence": "low"
     },
     {
@@ -1518,497 +1158,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807178Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-06-25",
-        "observed_at": "2026-06-25T09:03-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 195,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=McWTp5ORMOc",
-        "title": "CN Train 149 Westbound June 25, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-06-26",
-        "observed_at": "2026-06-26T08:56-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=JZA-AmPyMZg",
-        "title": "CN Train 149 Raced by VIA Train 61 June 26, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 23.88,
-        "avg_speed_kmh": 13.0,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 195,
-        "car_count_b": null,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807278Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-06-30",
-        "observed_at": "2026-06-30T08:47-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=5TOMQsAgxtE",
-        "title": "CN Train 149 Raced by VIA Train 61 Westbound June 30, 2026"
-      },
-      "sighting_b": {
-        "location": "Brockville",
-        "date": "2026-07-01",
-        "observed_at": "2026-07-01T08:37-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 192,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=SqaohJ-MM68",
-        "title": "CN Train 149 Westbound July 1, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 23.83,
-        "avg_speed_kmh": 13.1,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": null,
-        "car_count_b": 192,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807288Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-07-22",
-        "observed_at": "2026-07-22T08:09-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 139,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=z-wxahRQ0vs",
-        "title": "CN Train 149 Westbound July 22, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-07-23",
-        "observed_at": "2026-07-23T08:13-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=QTNyQjipU0E",
-        "title": "CN Train 368 Eastbound Meets CN Train 149 Westbound July 23,"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 24.07,
-        "avg_speed_kmh": 12.9,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": false,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 139,
-        "car_count_b": null,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807297Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-07-29",
-        "observed_at": "2026-07-29T09:10-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 199,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=sPdLEHRBryo",
-        "title": "CN Train 149 Westbound July 29, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-07-30",
-        "observed_at": "2026-07-30T08:48-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=x_FKIL7-lT0",
-        "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30,"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 23.63,
-        "avg_speed_kmh": 13.2,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": false,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 199,
-        "car_count_b": null,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807310Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-07-30",
-        "observed_at": "2026-07-30T08:48-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=x_FKIL7-lT0",
-        "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30,"
-      },
-      "sighting_b": {
-        "location": "Brockville",
-        "date": "2026-07-31",
-        "observed_at": "2026-07-31T08:18-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 191,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=BfxDnjJB4rk",
-        "title": "CN Train 149 Westbound July 31, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 23.5,
-        "avg_speed_kmh": 13.3,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "East",
-        "direction_consistent": false,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": null,
-        "car_count_b": 191,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807319Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-08-04",
-        "observed_at": "2026-08-04T08:32-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=k4EwlB7_0-E",
-        "title": "CN Train 368 Lifting Meets CN Train 149 Westbound August 4, "
-      },
-      "sighting_b": {
-        "location": "Brockville",
-        "date": "2026-08-05",
-        "observed_at": "2026-08-05T09:03-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 135,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=Qh4ePOQnNcA",
-        "title": "CN Train 149 Westbound August 5, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 24.52,
-        "avg_speed_kmh": 12.7,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "East",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": null,
-        "car_count_b": 135,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807333Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-08-19",
-        "observed_at": "2026-08-19T08:09-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 147,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=Qx0Nm4v96MQ",
-        "title": "CN Train 149 Westbound August 19, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-08-20",
-        "observed_at": "2026-08-20T09:34-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 169,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Toronto ON",
-        "video_url": "https://www.youtube.com/watch?v=bw3G9g-Whf4",
-        "title": "CN Train 149 Westbound August 20, 2026"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 25.42,
-        "avg_speed_kmh": 12.3,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 147,
-        "car_count_b": 169,
-        "delta": 22,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807343Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "CN149",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Brockville",
-        "date": "2026-10-14",
-        "observed_at": "2026-10-14T09:00-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": 196,
-        "origin": "Montreal Intermodal QC",
-        "destination": "Chicago Intermodal IL",
-        "video_url": "https://www.youtube.com/watch?v=wr72cptziOA",
-        "title": "CN Train 149 Westbound October 14, 2026"
-      },
-      "sighting_b": {
-        "location": "Toronto",
-        "date": "2026-10-15",
-        "observed_at": "2026-10-15T08:34-04:00",
-        "time_precision": "observed",
-        "channel": "Brockville RailFan",
-        "direction": "West",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=hEe_bI5-pbg",
-        "title": "CN Train 149 Westbound Meets CN Train 322 Setting Off Octobe"
-      },
-      "transit": {
-        "distance_km": 311.6,
-        "elapsed_hours": 23.57,
-        "avg_speed_kmh": 13.2,
-        "speed_plausible": false,
-        "consist_profile": "Intermodal unit train",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": {
-        "car_count_a": 196,
-        "car_count_b": null,
-        "delta": null,
-        "split_suspected": false
-      },
-      "commodity": "intermodal",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807360Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Z148",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "IC 2719",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=OLhJDNCvVrw",
-        "title": "IC 2719 + CN 8364 lead CN Z148 east"
-      },
-      "sighting_b": {
-        "location": "Aldershot",
-        "date": "2026-05-30",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
-        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
-      },
-      "transit": {
-        "distance_km": 48.2,
-        "elapsed_hours": 6.52,
-        "avg_speed_kmh": 7.4,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807399Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Z148",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-06-28",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=fGNNjIQCidk",
-        "title": "CN 8952 GTW heritage leads CM Z148"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-06-28",
-        "observed_at": "2026-06-28T4:06",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=CDSgy8rDZWQ",
-        "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 5.48,
-        "avg_speed_kmh": 5.7,
-        "speed_plausible": false,
-        "consist_profile": "Automotive rack train",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "auto_rack",
-      "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807414Z",
+      "correlated_at": "2026-11-09T14:54:43.767001Z",
       "confidence": "low"
     },
     {
@@ -2058,7 +1208,857 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-08T21:51:15.807542Z",
+      "correlated_at": "2026-11-09T14:54:43.767116Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN112",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-08-02",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=CbVZDDXpXyc",
+        "title": "CP 8105 AC4400CWM leads CPKC 112"
+      },
+      "sighting_b": {
+        "location": "MacTier",
+        "date": "2026-08-02",
+        "observed_at": "2026-08-02T2:32",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=MrlnmFXvbcM",
+        "title": "A Trio of Non-CPKC Leaders at Palgrave, ON (AUG 2, 2026)"
+      },
+      "transit": {
+        "distance_km": 147.8,
+        "elapsed_hours": 4.62,
+        "avg_speed_kmh": 32.0,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767236Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN112",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-10-16",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=pbADxzwl2dY",
+        "title": "CPKC 112 south thru the fall colours"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-10-16",
+        "observed_at": "2026-10-16T6:34",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+        "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 20.77,
+        "avg_speed_kmh": 1.5,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767249Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q107",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "IC 2719",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=j9rd0-cd0SY",
+        "title": "IC 2719 + CN 2222 lead CN Q107 north"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-05-31",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+        "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 8.69,
+        "avg_speed_kmh": 3.6,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767284Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q107",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-09-06",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=x_e7nE2agBY",
+        "title": "CN 2817 leads CN Q107 by Dock Siding"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-09-06",
+        "observed_at": "2026-09-06T1:18",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=EKKPu0dWZ9E",
+        "title": "THE NORTH! Railfanning at Parry Sound, ON (SEP 6, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 13.23,
+        "avg_speed_kmh": 2.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767293Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q107",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-10-16",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=pYEAOT_gqbs",
+        "title": "CN 3199 + CN 2764 lead CN Q107 north"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-10-16",
+        "observed_at": "2026-10-16T6:34",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+        "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 16.02,
+        "avg_speed_kmh": 2.0,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767299Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Q107",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-10-29",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=1etMij6STIc",
+        "title": "CN 8351 SD75IACC leads CN Q107 north"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-10-29",
+        "observed_at": "2026-10-29T9:39",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=jgaZCSGlHxg",
+        "title": "SD75IACC! Railfanning the CN Bala sub (OCT 29, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 5.34,
+        "avg_speed_kmh": 5.9,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767307Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN118",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brampton",
+        "date": "2026-09-18",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=Bq0VZotgbzs",
+        "title": "MONSTER ACTION! Railfanning at Lovekin, ON (SEP 18, 2026)"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-09-20",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=nCyQAo7GvLg",
+        "title": "CP 8832 + KCS 4162 lead CPKC 118 east"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 15.84,
+        "avg_speed_kmh": 2.0,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767351Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN118",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-10-16",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=KsyATgP1aa0",
+        "title": "CPKC 118 round the bend at Cascade st"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-10-16",
+        "observed_at": "2026-10-16T6:34",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+        "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 22.5,
+        "avg_speed_kmh": 1.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767358Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-06-25",
+        "observed_at": "2026-06-25T09:03-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 195,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=McWTp5ORMOc",
+        "title": "CN Train 149 Westbound June 25, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-06-26",
+        "observed_at": "2026-06-26T08:56-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=JZA-AmPyMZg",
+        "title": "CN Train 149 Raced by VIA Train 61 June 26, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.88,
+        "avg_speed_kmh": 13.0,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 195,
+        "car_count_b": null,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767471Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-06-30",
+        "observed_at": "2026-06-30T08:47-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=5TOMQsAgxtE",
+        "title": "CN Train 149 Raced by VIA Train 61 Westbound June 30, 2026"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-07-01",
+        "observed_at": "2026-07-01T08:37-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 192,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=SqaohJ-MM68",
+        "title": "CN Train 149 Westbound July 1, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.83,
+        "avg_speed_kmh": 13.1,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 192,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767478Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-07-22",
+        "observed_at": "2026-07-22T08:09-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 139,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=z-wxahRQ0vs",
+        "title": "CN Train 149 Westbound July 22, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-07-23",
+        "observed_at": "2026-07-23T08:13-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=QTNyQjipU0E",
+        "title": "CN Train 368 Eastbound Meets CN Train 149 Westbound July 23,"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 24.07,
+        "avg_speed_kmh": 12.9,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 139,
+        "car_count_b": null,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767489Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-07-29",
+        "observed_at": "2026-07-29T09:10-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 199,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=sPdLEHRBryo",
+        "title": "CN Train 149 Westbound July 29, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-07-30",
+        "observed_at": "2026-07-30T08:48-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=x_FKIL7-lT0",
+        "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30,"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.63,
+        "avg_speed_kmh": 13.2,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 199,
+        "car_count_b": null,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767497Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-07-30",
+        "observed_at": "2026-07-30T08:48-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=x_FKIL7-lT0",
+        "title": "CN Train 149 Westbound Meets CN Train 368 Eastbound July 30,"
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-07-31",
+        "observed_at": "2026-07-31T08:18-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 191,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=BfxDnjJB4rk",
+        "title": "CN Train 149 Westbound July 31, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.5,
+        "avg_speed_kmh": 13.3,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "East",
+        "direction_consistent": false,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 191,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767503Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-08-04",
+        "observed_at": "2026-08-04T08:32-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=k4EwlB7_0-E",
+        "title": "CN Train 368 Lifting Meets CN Train 149 Westbound August 4, "
+      },
+      "sighting_b": {
+        "location": "Brockville",
+        "date": "2026-08-05",
+        "observed_at": "2026-08-05T09:03-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 135,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=Qh4ePOQnNcA",
+        "title": "CN Train 149 Westbound August 5, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 24.52,
+        "avg_speed_kmh": 12.7,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "East",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": null,
+        "car_count_b": 135,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767511Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-08-19",
+        "observed_at": "2026-08-19T08:09-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 147,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=Qx0Nm4v96MQ",
+        "title": "CN Train 149 Westbound August 19, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-08-20",
+        "observed_at": "2026-08-20T09:34-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 169,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Toronto ON",
+        "video_url": "https://www.youtube.com/watch?v=bw3G9g-Whf4",
+        "title": "CN Train 149 Westbound August 20, 2026"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 25.42,
+        "avg_speed_kmh": 12.3,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 147,
+        "car_count_b": 169,
+        "delta": 22,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767520Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "CN149",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Brockville",
+        "date": "2026-10-14",
+        "observed_at": "2026-10-14T09:00-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": 196,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL",
+        "video_url": "https://www.youtube.com/watch?v=wr72cptziOA",
+        "title": "CN Train 149 Westbound October 14, 2026"
+      },
+      "sighting_b": {
+        "location": "Toronto",
+        "date": "2026-10-15",
+        "observed_at": "2026-10-15T08:34-04:00",
+        "time_precision": "observed",
+        "channel": "Brockville RailFan",
+        "direction": "West",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=hEe_bI5-pbg",
+        "title": "CN Train 149 Westbound Meets CN Train 322 Setting Off Octobe"
+      },
+      "transit": {
+        "distance_km": 311.6,
+        "elapsed_hours": 23.57,
+        "avg_speed_kmh": 13.2,
+        "speed_plausible": false,
+        "consist_profile": "Intermodal unit train",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": {
+        "car_count_a": 196,
+        "car_count_b": null,
+        "delta": null,
+        "split_suspected": false
+      },
+      "commodity": "intermodal",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767532Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Z148",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "IC 2719",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=OLhJDNCvVrw",
+        "title": "IC 2719 + CN 8364 lead CN Z148 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.52,
+        "avg_speed_kmh": 7.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767560Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Z148",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-06-28",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=fGNNjIQCidk",
+        "title": "CN 8952 GTW heritage leads CM Z148"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-06-28",
+        "observed_at": "2026-06-28T4:06",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=CDSgy8rDZWQ",
+        "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 5.48,
+        "avg_speed_kmh": 5.7,
+        "speed_plausible": false,
+        "consist_profile": "Automotive rack train",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "auto_rack",
+      "dg_likely": false,
+      "correlated_at": "2026-11-09T14:54:43.767568Z",
       "confidence": "low"
     },
     {
@@ -2103,7 +2103,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807605Z",
+      "correlated_at": "2026-11-09T14:54:43.767608Z",
       "confidence": "low"
     },
     {
@@ -2148,7 +2148,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807615Z",
+      "correlated_at": "2026-11-09T14:54:43.767615Z",
       "confidence": "low"
     },
     {
@@ -2193,7 +2193,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807626Z",
+      "correlated_at": "2026-11-09T14:54:43.767623Z",
       "confidence": "low"
     },
     {
@@ -2238,7 +2238,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807668Z",
+      "correlated_at": "2026-11-09T14:54:43.767652Z",
       "confidence": "low"
     },
     {
@@ -2283,7 +2283,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807678Z",
+      "correlated_at": "2026-11-09T14:54:43.767659Z",
       "confidence": "low"
     },
     {
@@ -2328,7 +2328,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807726Z",
+      "correlated_at": "2026-11-09T14:54:43.767691Z",
       "confidence": "medium"
     },
     {
@@ -2373,7 +2373,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807738Z",
+      "correlated_at": "2026-11-09T14:54:43.767699Z",
       "confidence": "medium"
     },
     {
@@ -2418,7 +2418,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807751Z",
+      "correlated_at": "2026-11-09T14:54:43.767707Z",
       "confidence": "low"
     },
     {
@@ -2463,7 +2463,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807759Z",
+      "correlated_at": "2026-11-09T14:54:43.767713Z",
       "confidence": "low"
     },
     {
@@ -2508,7 +2508,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807860Z",
+      "correlated_at": "2026-11-09T14:54:43.767787Z",
       "confidence": "low"
     },
     {
@@ -2553,7 +2553,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807879Z",
+      "correlated_at": "2026-11-09T14:54:43.767833Z",
       "confidence": "low"
     },
     {
@@ -2598,7 +2598,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807901Z",
+      "correlated_at": "2026-11-09T14:54:43.767850Z",
       "confidence": "low"
     },
     {
@@ -2643,7 +2643,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807917Z",
+      "correlated_at": "2026-11-09T14:54:43.767861Z",
       "confidence": "low"
     },
     {
@@ -2688,7 +2688,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807931Z",
+      "correlated_at": "2026-11-09T14:54:43.767871Z",
       "confidence": "low"
     },
     {
@@ -2733,7 +2733,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807952Z",
+      "correlated_at": "2026-11-09T14:54:43.767888Z",
       "confidence": "low"
     },
     {
@@ -2778,7 +2778,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.807984Z",
+      "correlated_at": "2026-11-09T14:54:43.767910Z",
       "confidence": "low"
     },
     {
@@ -2823,7 +2823,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808016Z",
+      "correlated_at": "2026-11-09T14:54:43.767931Z",
       "confidence": "low"
     },
     {
@@ -2873,7 +2873,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808145Z",
+      "correlated_at": "2026-11-09T14:54:43.768047Z",
       "confidence": "low"
     },
     {
@@ -2918,7 +2918,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808169Z",
+      "correlated_at": "2026-11-09T14:54:43.768060Z",
       "confidence": "low"
     },
     {
@@ -2963,7 +2963,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808193Z",
+      "correlated_at": "2026-11-09T14:54:43.768077Z",
       "confidence": "low"
     },
     {
@@ -3008,7 +3008,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808256Z",
+      "correlated_at": "2026-11-09T14:54:43.768102Z",
       "confidence": "low"
     },
     {
@@ -3053,7 +3053,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808268Z",
+      "correlated_at": "2026-11-09T14:54:43.768109Z",
       "confidence": "medium"
     },
     {
@@ -3098,7 +3098,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808310Z",
+      "correlated_at": "2026-11-09T14:54:43.768139Z",
       "confidence": "low"
     },
     {
@@ -3143,7 +3143,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808324Z",
+      "correlated_at": "2026-11-09T14:54:43.768149Z",
       "confidence": "low"
     },
     {
@@ -3188,7 +3188,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808342Z",
+      "correlated_at": "2026-11-09T14:54:43.768158Z",
       "confidence": "low"
     },
     {
@@ -3233,7 +3233,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808357Z",
+      "correlated_at": "2026-11-09T14:54:43.768167Z",
       "confidence": "low"
     },
     {
@@ -3278,7 +3278,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808370Z",
+      "correlated_at": "2026-11-09T14:54:43.768177Z",
       "confidence": "low"
     },
     {
@@ -3323,7 +3323,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808383Z",
+      "correlated_at": "2026-11-09T14:54:43.768185Z",
       "confidence": "low"
     },
     {
@@ -3368,7 +3368,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808395Z",
+      "correlated_at": "2026-11-09T14:54:43.768193Z",
       "confidence": "low"
     },
     {
@@ -3413,7 +3413,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808409Z",
+      "correlated_at": "2026-11-09T14:54:43.768202Z",
       "confidence": "low"
     },
     {
@@ -3458,7 +3458,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808423Z",
+      "correlated_at": "2026-11-09T14:54:43.768212Z",
       "confidence": "low"
     },
     {
@@ -3503,7 +3503,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808436Z",
+      "correlated_at": "2026-11-09T14:54:43.768220Z",
       "confidence": "low"
     },
     {
@@ -3548,7 +3548,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808519Z",
+      "correlated_at": "2026-11-09T14:54:43.768264Z",
       "confidence": "low"
     },
     {
@@ -3593,7 +3593,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808665Z",
+      "correlated_at": "2026-11-09T14:54:43.768374Z",
       "confidence": "low"
     },
     {
@@ -3638,7 +3638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808751Z",
+      "correlated_at": "2026-11-09T14:54:43.768439Z",
       "confidence": "low"
     },
     {
@@ -3683,7 +3683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808765Z",
+      "correlated_at": "2026-11-09T14:54:43.768448Z",
       "confidence": "low"
     },
     {
@@ -3728,7 +3728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808778Z",
+      "correlated_at": "2026-11-09T14:54:43.768456Z",
       "confidence": "low"
     },
     {
@@ -3773,7 +3773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808793Z",
+      "correlated_at": "2026-11-09T14:54:43.768464Z",
       "confidence": "low"
     },
     {
@@ -3818,7 +3818,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-08T21:51:15.808806Z",
+      "correlated_at": "2026-11-09T14:54:43.768471Z",
       "confidence": "low"
     }
   ]
