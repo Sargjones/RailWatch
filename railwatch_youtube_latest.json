@@ -1,45 +1,55 @@
 {
-  "generated_at": "2026-11-09T14:54:43.680478Z",
+  "generated_at": "2026-11-10T01:19:51.601170Z",
   "dedup_registry": {
-    "total": 1193,
+    "total": 1198,
     "by_channel": {
       "Trackside Ontario": 83,
-      "Trackside Tyson": 154,
-      "Southern Ontario Railfan": 62,
+      "Trackside Tyson": 155,
+      "Southern Ontario Railfan": 63,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 29,
       "Brockville RailFan": 403,
-      "MJM Productions": 364,
-      "Central Canada Railfan": 26,
+      "MJM Productions": 366,
+      "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
       "The Cando Railfan": 6
     },
     "by_confidence": {
       "high": 283,
-      "medium": 819,
+      "medium": 824,
       "low": 91,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-11-02T00:00:00Z",
+  "since": "2026-11-03T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 5
-    },
-    {
-      "channel": "Trackside Tyson",
-      "videos": 0,
       "skipped": 4
     },
     {
+      "channel": "Trackside Tyson",
+      "videos": 1,
+      "skipped": 3,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
+    },
+    {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tristan",
@@ -63,13 +73,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 12,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 9
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 8,
-      "high": 1,
-      "medium": 0,
+      "videos": 2,
+      "skipped": 9,
+      "high": 0,
+      "medium": 2,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 0
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -113,15 +118,192 @@
     },
     {
       "channel": "Central Canada Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     }
   ],
-  "total": 1193,
-  "new_this_run": 3,
+  "total": 1198,
+  "new_this_run": 5,
   "high_confidence": 283,
   "dg_likely": 203,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "5JY11R3xQuQ",
+      "video_url": "https://www.youtube.com/watch?v=5JY11R3xQuQ",
+      "title": "MASSIVE CPKC DOUBLE STACK TRAIN #youtubeshorts",
+      "published_at": "2026-11-09T23:00:37Z",
+      "date": "2026-11-09",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "MASSIVE CPKC DOUBLE STACK TRAIN #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "2OJcjoHTt7Q",
+      "video_url": "https://www.youtube.com/watch?v=2OJcjoHTt7Q",
+      "title": "CPKC 113 departs Baxter with CP 7546 leading",
+      "published_at": "2026-11-09T21:09:54Z",
+      "date": "2026-11-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 113",
+        "CP 7546"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7546",
+          "raw": "CP 7546"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 113 departs Baxter with CP 7546 leading",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "dSYd_VAQ_lE",
+      "video_url": "https://www.youtube.com/watch?v=dSYd_VAQ_lE",
+      "title": "CP 7567 absolutely blowing past Minesing",
+      "published_at": "2026-11-09T21:08:25Z",
+      "date": "2026-11-09",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7567"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7567",
+          "raw": "CP 7567"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7567 absolutely blowing past Minesing",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "uR1AITHAH8E",
+      "video_url": "https://www.youtube.com/watch?v=uR1AITHAH8E",
+      "title": "VIA Rail Train In Oshawa. ",
+      "published_at": "2026-11-09T18:09:43Z",
+      "date": "2026-11-09",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "VIA Rail Train In Oshawa. ",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Central Canada Railfan",
+      "channel_id": "UCVFk5I9nWbKJp-TVbKwgajQ",
+      "video_id": "bOkqy_aolVI",
+      "video_url": "https://www.youtube.com/watch?v=bOkqy_aolVI",
+      "title": "The 2026 CPKC Holiday Train Deadhead Move Along The Carberry Subdivision! (11/7/2026)",
+      "published_at": "2026-11-09T17:00:14Z",
+      "date": "2026-07-11",
+      "location": "CPKC Carberry Sub",
+      "subdivision": "CPKC Carberry Sub",
+      "lat": 49.87,
+      "lon": -99.35,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 2246",
+        "CP 2249"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 40",
+          "raw": "CP 40"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2246",
+          "raw": "CP 2246"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2249",
+          "raw": "CP 2249"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "The 2026 CPKC Holiday Train Deadhead Move Along The Carberry Subdivision! (11/7/2026)",
+      "description_chars": 736,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
