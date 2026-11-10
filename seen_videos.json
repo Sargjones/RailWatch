@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-10T14:07:28.019217Z",
-    "total_videos": 1200
+    "updated_at": "2026-11-10T23:00:03.129886Z",
+    "total_videos": 1207
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7204,6 +7204,48 @@
       "title": "Monday Afternoon at Bayview \u2022 November 9, 2026",
       "confidence": "medium",
       "processed_at": "2026-11-10T14:07:25.430849Z"
+    },
+    "zmDW3_PJyo8": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 10, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-10T23:00:01.451105Z"
+    },
+    "MQTT7av4-zY": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound November 10, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-10T23:00:01.451291Z"
+    },
+    "J8c_Ds-QOu0": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 106 Eastbound November 10, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-10T23:00:01.451464Z"
+    },
+    "DTcMIX5-zek": {
+      "channel": "MJM Productions",
+      "title": "RARE BNSF DUO! BNSF 6425 at Vaughan, ON (NOV 10, 2026)",
+      "confidence": "medium",
+      "processed_at": "2026-11-10T23:00:02.044474Z"
+    },
+    "YsCwjtBJwdg": {
+      "channel": "MJM Productions",
+      "title": "BNSF 6425 & BNSF 7223 LEAD CN Q148!",
+      "confidence": "medium",
+      "processed_at": "2026-11-10T23:00:02.045014Z"
+    },
+    "FGVxQatg0RI": {
+      "channel": "MJM Productions",
+      "title": "CN 3013 leads CN Z121 past mile 2.6 halton sub",
+      "confidence": "medium",
+      "processed_at": "2026-11-10T23:00:02.045135Z"
+    },
+    "v_0bcAoHakk": {
+      "channel": "MJM Productions",
+      "title": "Interesting 5 engine lashup on CN A435 west\u2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-10T23:00:02.045222Z"
     }
   }
 }

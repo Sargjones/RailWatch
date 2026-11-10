@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10T14:07:28.032727Z",
+  "generated_at": "2026-11-10T23:00:03.152583Z",
   "dedup_registry": {
-    "total": 1200,
+    "total": 1207,
     "by_channel": {
       "Trackside Ontario": 85,
       "Trackside Tyson": 155,
@@ -9,16 +9,16 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 29,
-      "Brockville RailFan": 403,
-      "MJM Productions": 366,
+      "Brockville RailFan": 406,
+      "MJM Productions": 370,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 283,
-      "medium": 826,
+      "high": 285,
+      "medium": 831,
       "low": 91,
       "meta": 0
     }
@@ -28,13 +28,8 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 2,
-      "skipped": 4,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Trackside Tyson",
@@ -68,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 9
+      "videos": 3,
+      "skipped": 9,
+      "high": 2,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,8 +83,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 11
+      "videos": 4,
+      "skipped": 11,
+      "high": 0,
+      "medium": 4,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 3
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +117,329 @@
       "skipped": 2
     }
   ],
-  "total": 1200,
-  "new_this_run": 2,
-  "high_confidence": 283,
-  "dg_likely": 203,
+  "total": 1207,
+  "new_this_run": 7,
+  "high_confidence": 285,
+  "dg_likely": 204,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "DTcMIX5-zek",
+      "video_url": "https://www.youtube.com/watch?v=DTcMIX5-zek",
+      "title": "RARE BNSF DUO! BNSF 6425 at Vaughan, ON (NOV 10, 2026)",
+      "published_at": "2026-11-10T21:25:56Z",
+      "date": "2026-11-10",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "RARE BNSF DUO! BNSF 6425 at Vaughan, ON (NOV 10, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "YsCwjtBJwdg",
+      "video_url": "https://www.youtube.com/watch?v=YsCwjtBJwdg",
+      "title": "BNSF 6425 & BNSF 7223 LEAD CN Q148!",
+      "published_at": "2026-11-10T19:27:41Z",
+      "date": "2026-11-10",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Q148",
+          "raw": "Q148"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "BNSF 6425 & BNSF 7223 LEAD CN Q148!",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "FGVxQatg0RI",
+      "video_url": "https://www.youtube.com/watch?v=FGVxQatg0RI",
+      "title": "CN 3013 leads CN Z121 past mile 2.6 halton sub",
+      "published_at": "2026-11-10T19:02:15Z",
+      "date": "2026-11-10",
+      "location": "CN Halton Sub",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3013"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3013",
+          "raw": "CN 3013"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z121",
+          "raw": "Z121"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3013 leads CN Z121 past mile 2.6 halton sub",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "v_0bcAoHakk",
+      "video_url": "https://www.youtube.com/watch?v=v_0bcAoHakk",
+      "title": "Interesting 5 engine lashup on CN A435 west\u2026",
+      "published_at": "2026-11-10T19:01:53Z",
+      "date": "2026-11-10",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "A435",
+          "raw": "A435"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Interesting 5 engine lashup on CN A435 west\u2026",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "zmDW3_PJyo8",
+      "video_url": "https://www.youtube.com/watch?v=zmDW3_PJyo8",
+      "title": "VIA Train 61 Westbound November 10, 2026",
+      "published_at": "2026-11-10T14:58:25Z",
+      "date": "2026-11-10",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound November 10, 2026",
+      "description_chars": 172,
+      "consist": {
+        "coaches": [
+          "Speed: 71 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 114,
+        "speed_raw": "71 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:51",
+        "observed_tz": "EST",
+        "temperature_c": 6,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-10T08:51-05:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "MQTT7av4-zY",
+      "video_url": "https://www.youtube.com/watch?v=MQTT7av4-zY",
+      "title": "CN Train 149 Westbound November 10, 2026",
+      "published_at": "2026-11-10T14:52:33Z",
+      "date": "2026-11-10",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3423",
+        "CN 2778"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3423",
+          "raw": "CN 3423"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2778",
+          "raw": "CN 2778"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound November 10, 2026",
+      "description_chars": 216,
+      "consist": {
+        "engines": [
+          "CN 3423",
+          "CN 2778"
+        ],
+        "car_count": 155,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 60,
+        "speed_raw": "37 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:43",
+        "observed_tz": "EST",
+        "temperature_c": 6,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-11-10T08:43-05:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "J8c_Ds-QOu0",
+      "video_url": "https://www.youtube.com/watch?v=J8c_Ds-QOu0",
+      "title": "CN Train 106 Eastbound November 10, 2026",
+      "published_at": "2026-11-10T14:36:00Z",
+      "date": "2026-11-10",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3216",
+        "CN 3122",
+        "CN 0078"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 106",
+          "raw": "CN Train 106"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3216",
+          "raw": "CN 3216"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3122",
+          "raw": "CN 3122"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 0078",
+          "raw": "CN 0078"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 106 Eastbound November 10, 2026",
+      "description_chars": 295,
+      "consist": {
+        "engines": [
+          "CN 3216"
+        ],
+        "dpu": [
+          "CN 3122"
+        ],
+        "car_count": 160,
+        "car_count_note": "(wells) + 1 distributed braking car, CN 0078",
+        "consist_type": "freight",
+        "speed_kmh": 56,
+        "speed_raw": "35 mph",
+        "detector_milepost": 137,
+        "observed_time": "07:55",
+        "observed_tz": "EST",
+        "temperature_c": 6,
+        "origin": "Roberts Bank BC",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-11-10T07:55-05:00",
+      "origin": "Roberts Bank BC",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
