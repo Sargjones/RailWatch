@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T23:00:03.152583Z",
+  "generated_at": "2026-11-11T13:24:12.028896Z",
   "dedup_registry": {
-    "total": 1207,
+    "total": 1209,
     "by_channel": {
-      "Trackside Ontario": 85,
-      "Trackside Tyson": 155,
+      "Trackside Ontario": 86,
+      "Trackside Tyson": 156,
       "Southern Ontario Railfan": 63,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
@@ -18,23 +18,33 @@
     },
     "by_confidence": {
       "high": 285,
-      "medium": 831,
+      "medium": 833,
       "low": 91,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-11-03T00:00:00Z",
+  "since": "2026-11-04T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 4
+      "videos": 1,
+      "skipped": 4,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -59,17 +69,12 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 9,
-      "high": 2,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 10
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +88,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 4,
-      "skipped": 11,
-      "high": 0,
-      "medium": 4,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 3
+      "videos": 0,
+      "skipped": 15
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +117,80 @@
       "skipped": 2
     }
   ],
-  "total": 1207,
-  "new_this_run": 7,
+  "total": 1209,
+  "new_this_run": 2,
   "high_confidence": 285,
   "dg_likely": 204,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "-PbQcVVnmXU",
+      "video_url": "https://www.youtube.com/watch?v=-PbQcVVnmXU",
+      "title": "Tuesday Afternoon on the Halton Subdivision \u2022 November 10, 2026",
+      "published_at": "2026-11-11T03:00:57Z",
+      "date": "2026-11-10",
+      "location": "Burlington",
+      "subdivision": "CN Oakville Sub",
+      "lat": 43.32,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Z148",
+          "raw": "Z148"
+        },
+        {
+          "road": "CN",
+          "symbol": "A425",
+          "raw": "A425"
+        },
+        {
+          "road": "CN",
+          "symbol": "L570",
+          "raw": "L570"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Tuesday Afternoon on the Halton Subdivision \u2022 November 10, 2026",
+      "description_chars": 255,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "flm9aRz37tU",
+      "video_url": "https://www.youtube.com/watch?v=flm9aRz37tU",
+      "title": "MASSIVE COAL TRAIN SNAKING THRU THE CANYON #youtubeshorts",
+      "published_at": "2026-11-10T23:30:04Z",
+      "date": "2026-11-10",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "gondola",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "MASSIVE COAL TRAIN SNAKING THRU THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

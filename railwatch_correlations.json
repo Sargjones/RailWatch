@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T23:00:03.425943Z",
+  "generated_at": "2026-11-11T13:24:12.106710Z",
   "total": 65,
   "cross_observer": 4,
   "chase": 61,
@@ -872,7 +872,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-10T23:00:03.424567Z",
+      "correlated_at": "2026-11-11T13:24:12.105764Z",
       "confidence": "medium"
     },
     {
@@ -917,7 +917,7 @@
       "consist_delta": null,
       "commodity": "hopper",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424946Z",
+      "correlated_at": "2026-11-11T13:24:12.106073Z",
       "confidence": "medium"
     },
     {
@@ -962,7 +962,7 @@
       "consist_delta": null,
       "commodity": "intermodal",
       "dg_likely": true,
-      "correlated_at": "2026-11-10T23:00:03.425216Z",
+      "correlated_at": "2026-11-11T13:24:12.106222Z",
       "confidence": "medium"
     },
     {
@@ -1012,7 +1012,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-10T23:00:03.425397Z",
+      "correlated_at": "2026-11-11T13:24:12.106347Z",
       "confidence": "medium"
     },
     {
@@ -1062,9 +1062,189 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-10T23:00:03.424720Z",
+      "correlated_at": "2026-11-11T13:24:12.105896Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "Z148",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "IC 2719",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=OLhJDNCvVrw",
+        "title": "IC 2719 + CN 8364 lead CN Z148 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.52,
+        "avg_speed_kmh": 7.4,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-11T13:24:12.105466Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "Z148",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-06-28",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=fGNNjIQCidk",
+        "title": "CN 8952 GTW heritage leads CM Z148"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-06-28",
+        "observed_at": "2026-06-28T4:06",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": "East",
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=CDSgy8rDZWQ",
+        "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 5.48,
+        "avg_speed_kmh": 5.7,
+        "speed_plausible": false,
+        "consist_profile": "Automotive rack train",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "auto_rack",
+      "dg_likely": false,
+      "correlated_at": "2026-11-11T13:24:12.105487Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "A425",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-05-30",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=SINkvyCXrVA",
+        "title": "CN A425 horn salute through Mansewood"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 11.68,
+        "avg_speed_kmh": 4.1,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-11T13:24:12.105508Z",
+      "confidence": "low"
+    },
+    {
+      "symbol": "L570",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "CN 3401",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=qUVuJAjRMBA",
+        "title": "CN 3401 + CN 3070 lead CN L570 east"
+      },
+      "sighting_b": {
+        "location": "Aldershot",
+        "date": "2026-05-30",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
+        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
+      },
+      "transit": {
+        "distance_km": 48.2,
+        "elapsed_hours": 6.63,
+        "avg_speed_kmh": 7.3,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-11T13:24:12.105523Z",
+      "confidence": "low"
     },
     {
       "symbol": "Q148",
@@ -1108,7 +1288,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424195Z",
+      "correlated_at": "2026-11-11T13:24:12.105536Z",
       "confidence": "low"
     },
     {
@@ -1153,7 +1333,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424233Z",
+      "correlated_at": "2026-11-11T13:24:12.105546Z",
       "confidence": "low"
     },
     {
@@ -1198,7 +1378,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424367Z",
+      "correlated_at": "2026-11-11T13:24:12.105637Z",
       "confidence": "low"
     },
     {
@@ -1248,7 +1428,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424377Z",
+      "correlated_at": "2026-11-11T13:24:12.105643Z",
       "confidence": "low"
     },
     {
@@ -1298,7 +1478,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424470Z",
+      "correlated_at": "2026-11-11T13:24:12.105697Z",
       "confidence": "low"
     },
     {
@@ -1348,7 +1528,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424481Z",
+      "correlated_at": "2026-11-11T13:24:12.105705Z",
       "confidence": "low"
     },
     {
@@ -1398,7 +1578,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424490Z",
+      "correlated_at": "2026-11-11T13:24:12.105712Z",
       "confidence": "low"
     },
     {
@@ -1448,7 +1628,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424499Z",
+      "correlated_at": "2026-11-11T13:24:12.105717Z",
       "confidence": "low"
     },
     {
@@ -1498,7 +1678,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424507Z",
+      "correlated_at": "2026-11-11T13:24:12.105722Z",
       "confidence": "low"
     },
     {
@@ -1548,7 +1728,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424519Z",
+      "correlated_at": "2026-11-11T13:24:12.105729Z",
       "confidence": "low"
     },
     {
@@ -1598,7 +1778,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424526Z",
+      "correlated_at": "2026-11-11T13:24:12.105736Z",
       "confidence": "low"
     },
     {
@@ -1648,7 +1828,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424537Z",
+      "correlated_at": "2026-11-11T13:24:12.105743Z",
       "confidence": "low"
     },
     {
@@ -1693,7 +1873,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424608Z",
+      "correlated_at": "2026-11-11T13:24:12.105807Z",
       "confidence": "medium"
     },
     {
@@ -1738,7 +1918,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424618Z",
+      "correlated_at": "2026-11-11T13:24:12.105821Z",
       "confidence": "medium"
     },
     {
@@ -1783,7 +1963,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424626Z",
+      "correlated_at": "2026-11-11T13:24:12.105830Z",
       "confidence": "low"
     },
     {
@@ -1828,7 +2008,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424632Z",
+      "correlated_at": "2026-11-11T13:24:12.105835Z",
       "confidence": "low"
     },
     {
@@ -1878,7 +2058,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-10T23:00:03.424730Z",
+      "correlated_at": "2026-11-11T13:24:12.105902Z",
       "confidence": "low"
     },
     {
@@ -1923,7 +2103,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424841Z",
+      "correlated_at": "2026-11-11T13:24:12.105976Z",
       "confidence": "low"
     },
     {
@@ -1968,7 +2148,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424852Z",
+      "correlated_at": "2026-11-11T13:24:12.105983Z",
       "confidence": "low"
     },
     {
@@ -2013,7 +2193,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424885Z",
+      "correlated_at": "2026-11-11T13:24:12.106006Z",
       "confidence": "low"
     },
     {
@@ -2058,7 +2238,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424893Z",
+      "correlated_at": "2026-11-11T13:24:12.106033Z",
       "confidence": "low"
     },
     {
@@ -2103,7 +2283,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424902Z",
+      "correlated_at": "2026-11-11T13:24:12.106038Z",
       "confidence": "low"
     },
     {
@@ -2148,7 +2328,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424909Z",
+      "correlated_at": "2026-11-11T13:24:12.106048Z",
       "confidence": "low"
     },
     {
@@ -2193,7 +2373,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424952Z",
+      "correlated_at": "2026-11-11T13:24:12.106078Z",
       "confidence": "low"
     },
     {
@@ -2238,97 +2418,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.424958Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Z148",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "IC 2719",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=OLhJDNCvVrw",
-        "title": "IC 2719 + CN 8364 lead CN Z148 east"
-      },
-      "sighting_b": {
-        "location": "Aldershot",
-        "date": "2026-05-30",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
-        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
-      },
-      "transit": {
-        "distance_km": 48.2,
-        "elapsed_hours": 6.52,
-        "avg_speed_kmh": 7.4,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425061Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Z148",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-06-28",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=fGNNjIQCidk",
-        "title": "CN 8952 GTW heritage leads CM Z148"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-06-28",
-        "observed_at": "2026-06-28T4:06",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": "East",
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=CDSgy8rDZWQ",
-        "title": "GTW HERITAGE! CN 8952 at Mount Pleasant (JUN 28, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 5.48,
-        "avg_speed_kmh": 5.7,
-        "speed_plausible": false,
-        "consist_profile": "Automotive rack train",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "auto_rack",
-      "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425069Z",
+      "correlated_at": "2026-11-11T13:24:12.106083Z",
       "confidence": "low"
     },
     {
@@ -2373,7 +2463,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425110Z",
+      "correlated_at": "2026-11-11T13:24:12.106149Z",
       "confidence": "low"
     },
     {
@@ -2418,7 +2508,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425116Z",
+      "correlated_at": "2026-11-11T13:24:12.106155Z",
       "confidence": "low"
     },
     {
@@ -2463,7 +2553,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425122Z",
+      "correlated_at": "2026-11-11T13:24:12.106160Z",
       "confidence": "low"
     },
     {
@@ -2508,7 +2598,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425154Z",
+      "correlated_at": "2026-11-11T13:24:12.106181Z",
       "confidence": "low"
     },
     {
@@ -2553,7 +2643,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425162Z",
+      "correlated_at": "2026-11-11T13:24:12.106186Z",
       "confidence": "low"
     },
     {
@@ -2598,7 +2688,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425240Z",
+      "correlated_at": "2026-11-11T13:24:12.106241Z",
       "confidence": "low"
     },
     {
@@ -2643,7 +2733,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425253Z",
+      "correlated_at": "2026-11-11T13:24:12.106250Z",
       "confidence": "low"
     },
     {
@@ -2688,7 +2778,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425270Z",
+      "correlated_at": "2026-11-11T13:24:12.106260Z",
       "confidence": "low"
     },
     {
@@ -2733,7 +2823,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425281Z",
+      "correlated_at": "2026-11-11T13:24:12.106269Z",
       "confidence": "low"
     },
     {
@@ -2778,7 +2868,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425290Z",
+      "correlated_at": "2026-11-11T13:24:12.106275Z",
       "confidence": "low"
     },
     {
@@ -2823,7 +2913,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425304Z",
+      "correlated_at": "2026-11-11T13:24:12.106289Z",
       "confidence": "low"
     },
     {
@@ -2868,7 +2958,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425327Z",
+      "correlated_at": "2026-11-11T13:24:12.106308Z",
       "confidence": "low"
     },
     {
@@ -2913,7 +3003,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425354Z",
+      "correlated_at": "2026-11-11T13:24:12.106323Z",
       "confidence": "low"
     },
     {
@@ -2963,7 +3053,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425426Z",
+      "correlated_at": "2026-11-11T13:24:12.106365Z",
       "confidence": "low"
     },
     {
@@ -3008,7 +3098,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425440Z",
+      "correlated_at": "2026-11-11T13:24:12.106377Z",
       "confidence": "low"
     },
     {
@@ -3053,7 +3143,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425455Z",
+      "correlated_at": "2026-11-11T13:24:12.106388Z",
       "confidence": "low"
     },
     {
@@ -3098,7 +3188,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425484Z",
+      "correlated_at": "2026-11-11T13:24:12.106405Z",
       "confidence": "low"
     },
     {
@@ -3143,7 +3233,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425491Z",
+      "correlated_at": "2026-11-11T13:24:12.106410Z",
       "confidence": "medium"
     },
     {
@@ -3188,7 +3278,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425522Z",
+      "correlated_at": "2026-11-11T13:24:12.106430Z",
       "confidence": "low"
     },
     {
@@ -3233,7 +3323,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425531Z",
+      "correlated_at": "2026-11-11T13:24:12.106438Z",
       "confidence": "low"
     },
     {
@@ -3278,7 +3368,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425540Z",
+      "correlated_at": "2026-11-11T13:24:12.106444Z",
       "confidence": "low"
     },
     {
@@ -3323,7 +3413,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425551Z",
+      "correlated_at": "2026-11-11T13:24:12.106450Z",
       "confidence": "low"
     },
     {
@@ -3368,7 +3458,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425559Z",
+      "correlated_at": "2026-11-11T13:24:12.106456Z",
       "confidence": "low"
     },
     {
@@ -3413,7 +3503,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425568Z",
+      "correlated_at": "2026-11-11T13:24:12.106463Z",
       "confidence": "low"
     },
     {
@@ -3458,7 +3548,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425576Z",
+      "correlated_at": "2026-11-11T13:24:12.106472Z",
       "confidence": "low"
     },
     {
@@ -3503,7 +3593,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425585Z",
+      "correlated_at": "2026-11-11T13:24:12.106479Z",
       "confidence": "low"
     },
     {
@@ -3548,52 +3638,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425631Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "A425",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-05-30",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=SINkvyCXrVA",
-        "title": "CN A425 horn salute through Mansewood"
-      },
-      "sighting_b": {
-        "location": "Aldershot",
-        "date": "2026-05-30",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
-        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
-      },
-      "transit": {
-        "distance_km": 48.2,
-        "elapsed_hours": 11.68,
-        "avg_speed_kmh": 4.1,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425742Z",
+      "correlated_at": "2026-11-11T13:24:12.106508Z",
       "confidence": "low"
     },
     {
@@ -3638,7 +3683,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425807Z",
+      "correlated_at": "2026-11-11T13:24:12.106620Z",
       "confidence": "low"
     },
     {
@@ -3683,7 +3728,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425816Z",
+      "correlated_at": "2026-11-11T13:24:12.106626Z",
       "confidence": "low"
     },
     {
@@ -3728,52 +3773,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425824Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "L570",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "CN 3401",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=qUVuJAjRMBA",
-        "title": "CN 3401 + CN 3070 lead CN L570 east"
-      },
-      "sighting_b": {
-        "location": "Aldershot",
-        "date": "2026-05-30",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=mMUHcdd8gZQ",
-        "title": "VIA Detours on the CN Halton Subdivision (MAY 30, 2026)"
-      },
-      "transit": {
-        "distance_km": 48.2,
-        "elapsed_hours": 6.63,
-        "avg_speed_kmh": 7.3,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425835Z",
+      "correlated_at": "2026-11-11T13:24:12.106634Z",
       "confidence": "low"
     },
     {
@@ -3818,7 +3818,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-10T23:00:03.425844Z",
+      "correlated_at": "2026-11-11T13:24:12.106640Z",
       "confidence": "low"
     }
   ]
