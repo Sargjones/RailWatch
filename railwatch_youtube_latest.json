@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12T14:28:43.397795Z",
+  "generated_at": "2026-11-12T23:22:03.573459Z",
   "dedup_registry": {
-    "total": 1211,
+    "total": 1216,
     "by_channel": {
       "Trackside Ontario": 86,
       "Trackside Tyson": 156,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 29,
-      "Brockville RailFan": 407,
+      "Brockville RailFan": 412,
       "MJM Productions": 370,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 286,
-      "medium": 834,
+      "high": 290,
+      "medium": 835,
       "low": 91,
       "meta": 0
     }
@@ -38,13 +38,8 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Trackside Tristan",
@@ -68,8 +63,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 8
+      "videos": 5,
+      "skipped": 8,
+      "high": 4,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 4,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -112,11 +112,327 @@
       "skipped": 2
     }
   ],
-  "total": 1211,
-  "new_this_run": 1,
-  "high_confidence": 286,
-  "dg_likely": 205,
+  "total": 1216,
+  "new_this_run": 5,
+  "high_confidence": 290,
+  "dg_likely": 209,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "usU7z3vKUl0",
+      "video_url": "https://www.youtube.com/watch?v=usU7z3vKUl0",
+      "title": "VIA Train 61 Westbound November 12, 2026",
+      "published_at": "2026-11-12T15:30:57Z",
+      "date": "2026-11-12",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound November 12, 2026",
+      "description_chars": 178,
+      "consist": {
+        "coaches": [
+          "Speed: 65 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 105,
+        "speed_raw": "65 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:57",
+        "observed_tz": "EST",
+        "temperature_c": 1,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-12T08:57-05:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "_u3l7ZCck0g",
+      "video_url": "https://www.youtube.com/watch?v=_u3l7ZCck0g",
+      "title": "CN Train 278 Eastbound November 12, 2026",
+      "published_at": "2026-11-12T15:23:32Z",
+      "date": "2026-11-12",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2287",
+        "CN 2503"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 278",
+          "raw": "CN Train 278"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2287",
+          "raw": "CN 2287"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2503",
+          "raw": "CN 2503"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 278 Eastbound November 12, 2026",
+      "description_chars": 195,
+      "consist": {
+        "engines": [
+          "CN 2287",
+          "CN 2503"
+        ],
+        "car_count": 102,
+        "consist_type": "freight",
+        "speed_kmh": 71,
+        "speed_raw": "44 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:47",
+        "observed_tz": "EST",
+        "temperature_c": 1,
+        "origin": "Flint MI",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-11-12T08:47-05:00",
+      "origin": "Flint MI",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "cXmzK5jyOg4",
+      "video_url": "https://www.youtube.com/watch?v=cXmzK5jyOg4",
+      "title": "CN Train 731 Westbound November 12, 2026",
+      "published_at": "2026-11-12T15:15:35Z",
+      "date": "2026-11-12",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3374",
+        "CN 2824"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 731",
+          "raw": "CN Train 731"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3374",
+          "raw": "CN 3374"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2824",
+          "raw": "CN 2824"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 731 Westbound November 12, 2026",
+      "description_chars": 232,
+      "consist": {
+        "engines": [
+          "CN 3374"
+        ],
+        "dpu": [
+          "CN 2824"
+        ],
+        "car_count": 174,
+        "consist_type": "freight",
+        "speed_kmh": 56,
+        "speed_raw": "35 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:52",
+        "observed_tz": "EST",
+        "temperature_c": 0,
+        "origin": "St. John NB",
+        "destination": "Yarbo SK"
+      },
+      "observed_at": "2026-11-12T07:52-05:00",
+      "origin": "St. John NB",
+      "destination": "Yarbo SK",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "qBMH8jrpBow",
+      "video_url": "https://www.youtube.com/watch?v=qBMH8jrpBow",
+      "title": "CN Train 121 Westbound November 12, 2026",
+      "published_at": "2026-11-12T15:03:09Z",
+      "date": "2026-11-12",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2779",
+        "CN 3259"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 121",
+          "raw": "CN Train 121"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2779",
+          "raw": "CN 2779"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3259",
+          "raw": "CN 3259"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 121 Westbound November 12, 2026",
+      "description_chars": 251,
+      "consist": {
+        "engines": [
+          "CN 2779"
+        ],
+        "dpu": [
+          "CN 3259"
+        ],
+        "car_count": 218,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 50,
+        "speed_raw": "31 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:32",
+        "observed_tz": "EST",
+        "temperature_c": 0,
+        "origin": "Halifax Pace NS",
+        "destination": "Toronto BIT ON"
+      },
+      "observed_at": "2026-11-12T07:32-05:00",
+      "origin": "Halifax Pace NS",
+      "destination": "Toronto BIT ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "t1J6ZvQl_BI",
+      "video_url": "https://www.youtube.com/watch?v=t1J6ZvQl_BI",
+      "title": "CN Train 322 Eastbound November 12, 2026",
+      "published_at": "2026-11-12T14:48:16Z",
+      "date": "2026-11-12",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 2755",
+        "CN 3801"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 322",
+          "raw": "CN Train 322"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2755",
+          "raw": "CN 2755"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3801",
+          "raw": "CN 3801"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 322 Eastbound November 12, 2026",
+      "description_chars": 308,
+      "consist": {
+        "engines": [
+          "CN 2755"
+        ],
+        "dpu": [
+          "CN 3801"
+        ],
+        "car_count": 116,
+        "consist_type": "freight",
+        "speed_kmh": 64,
+        "speed_raw": "40 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:13",
+        "observed_tz": "EST",
+        "temperature_c": 0,
+        "origin": "Toronto MacMillan ON",
+        "destination": "St",
+        "consist_anomaly": "Lambert QC"
+      },
+      "observed_at": "2026-11-12T07:13-05:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "St",
+      "consist_anomaly": "Lambert QC",
+      "anomaly_flag": true,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

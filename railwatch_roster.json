@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-12T14:28:43.548860Z",
-  "total_units": 618,
+  "generated_at": "2026-11-12T23:22:03.747741Z",
+  "total_units": 624,
   "min_sightings": 2,
   "by_road": {
-    "CN": 484,
+    "CN": 490,
     "VIA": 11,
     "CP": 120,
     "CPKC": 1,
@@ -5332,6 +5332,95 @@
     },
     {
       "road": "CN",
+      "number": "3374",
+      "display": "CN 3374",
+      "sighting_count": 5,
+      "first_seen": "2026-07-10",
+      "last_seen": "2026-11-12",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 731",
+        "CN 156",
+        "X108"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-12",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 731",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=cXmzK5jyOg4",
+          "title": "CN Train 731 Westbound November 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-12",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 731",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=cXmzK5jyOg4",
+          "title": "CN Train 731 Westbound November 12, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-07-23",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 156",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=HjucO73vRoc",
+          "title": "CN Train 156 Eastbound July 23, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-23",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 156",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=HjucO73vRoc",
+          "title": "CN Train 156 Eastbound July 23, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-07-10",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "X108",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4KUJksEwbCo",
+          "title": "CN Train X108 Eastbound Meets CN Train 121 Westbound July 10",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3420",
       "display": "CN 3420",
       "sighting_count": 5,
@@ -6959,6 +7048,81 @@
           "video_url": "https://www.youtube.com/watch?v=8rWACgvikJQ",
           "title": "CN Train 532 Westbound Meets CN Train 106 Eastbound August 6",
           "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2824",
+      "display": "CN 2824",
+      "sighting_count": 4,
+      "first_seen": "2026-11-04",
+      "last_seen": "2026-11-12",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 731",
+        "CN 278"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-12",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 731",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=cXmzK5jyOg4",
+          "title": "CN Train 731 Westbound November 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-12",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 731",
+          "direction": "West",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=cXmzK5jyOg4",
+          "title": "CN Train 731 Westbound November 12, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-11-04",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 278",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=HnRVvjYySQM",
+          "title": "CN Train 278 Eastbound November 4, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-04",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 278",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=HnRVvjYySQM",
+          "title": "CN Train 278 Eastbound November 4, 2026",
+          "source": "description_structured"
         }
       ]
     },
@@ -12558,6 +12722,67 @@
     },
     {
       "road": "CN",
+      "number": "2503",
+      "display": "CN 2503",
+      "sighting_count": 3,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-11-12",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 278",
+        "M377"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-12",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 278",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_u3l7ZCck0g",
+          "title": "CN Train 278 Eastbound November 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-12",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 278",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_u3l7ZCck0g",
+          "title": "CN Train 278 Eastbound November 12, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "M377",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=SS3M1dSAjB0",
+          "title": "CN 2664 + CN 2503 lead CN M377 west",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2535",
       "display": "CN 2535",
       "sighting_count": 3,
@@ -14703,68 +14928,6 @@
           "video_url": "https://www.youtube.com/watch?v=kkUJdpd5mkY",
           "title": "CN Train 310 Eastbound July 28, 2026",
           "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "3374",
-      "display": "CN 3374",
-      "sighting_count": 3,
-      "first_seen": "2026-07-10",
-      "last_seen": "2026-07-23",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 156",
-        "X108"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-07-23",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 156",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=HjucO73vRoc",
-          "title": "CN Train 156 Eastbound July 23, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-23",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 156",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=HjucO73vRoc",
-          "title": "CN Train 156 Eastbound July 23, 2026",
-          "source": "description_structured"
-        },
-        {
-          "date": "2026-07-10",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "X108",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=4KUJksEwbCo",
-          "title": "CN Train X108 Eastbound Meets CN Train 121 Westbound July 10",
-          "source": "text_extraction"
         }
       ]
     },
@@ -18048,6 +18211,53 @@
     },
     {
       "road": "CN",
+      "number": "2287",
+      "display": "CN 2287",
+      "sighting_count": 2,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 278"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-12",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 278",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_u3l7ZCck0g",
+          "title": "CN Train 278 Eastbound November 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-12",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 278",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=_u3l7ZCck0g",
+          "title": "CN Train 278 Eastbound November 12, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2293",
       "display": "CN 2293",
       "sighting_count": 2,
@@ -19082,6 +19292,53 @@
     },
     {
       "road": "CN",
+      "number": "2755",
+      "display": "CN 2755",
+      "sighting_count": 2,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 322"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=t1J6ZvQl_BI",
+          "title": "CN Train 322 Eastbound November 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=t1J6ZvQl_BI",
+          "title": "CN Train 322 Eastbound November 12, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2758",
       "display": "CN 2758",
       "sighting_count": 2,
@@ -19360,6 +19617,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=MQTT7av4-zY",
           "title": "CN Train 149 Westbound November 10, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2779",
+      "display": "CN 2779",
+      "sighting_count": 2,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 121"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 121",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qBMH8jrpBow",
+          "title": "CN Train 121 Westbound November 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 121",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qBMH8jrpBow",
+          "title": "CN Train 121 Westbound November 12, 2026",
           "source": "description_structured"
         }
       ]
@@ -19737,53 +20041,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=E47xXRx019k",
           "title": "CN Train 371 Westbound September 25, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
-      "number": "2824",
-      "display": "CN 2824",
-      "sighting_count": 2,
-      "first_seen": "2026-11-04",
-      "last_seen": "2026-11-04",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 278"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-11-04",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 278",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=HnRVvjYySQM",
-          "title": "CN Train 278 Eastbound November 4, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-11-04",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 278",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=HnRVvjYySQM",
-          "title": "CN Train 278 Eastbound November 4, 2026",
           "source": "description_structured"
         }
       ]
@@ -22901,6 +23158,53 @@
     },
     {
       "road": "CN",
+      "number": "3259",
+      "display": "CN 3259",
+      "sighting_count": 2,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 121"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 121",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=qBMH8jrpBow",
+          "title": "CN Train 121 Westbound November 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 121",
+          "direction": "West",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=qBMH8jrpBow",
+          "title": "CN Train 121 Westbound November 12, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3264",
       "display": "CN 3264",
       "sighting_count": 2,
@@ -23927,6 +24231,53 @@
           "dpu": true,
           "video_url": "https://www.youtube.com/watch?v=-9Y7-HnIteI",
           "title": "CN Train 305 September 15, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3801",
+      "display": "CN 3801",
+      "sighting_count": 2,
+      "first_seen": "2026-11-12",
+      "last_seen": "2026-11-12",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 322"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=t1J6ZvQl_BI",
+          "title": "CN Train 322 Eastbound November 12, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-12",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=t1J6ZvQl_BI",
+          "title": "CN Train 322 Eastbound November 12, 2026",
           "source": "description_structured"
         }
       ]
