@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-12T00:17:26.070509Z",
+  "generated_at": "2026-11-12T14:28:43.397795Z",
   "dedup_registry": {
-    "total": 1210,
+    "total": 1211,
     "by_channel": {
       "Trackside Ontario": 86,
       "Trackside Tyson": 156,
-      "Southern Ontario Railfan": 63,
+      "Southern Ontario Railfan": 64,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 29,
@@ -18,7 +18,7 @@
     },
     "by_confidence": {
       "high": 286,
-      "medium": 833,
+      "medium": 834,
       "low": 91,
       "meta": 0
     }
@@ -38,8 +38,13 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 1
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Trackside Tristan",
@@ -63,13 +68,8 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 1,
-      "skipped": 7,
-      "high": 1,
-      "medium": 0,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 8
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -112,11 +112,37 @@
       "skipped": 2
     }
   ],
-  "total": 1210,
+  "total": 1211,
   "new_this_run": 1,
   "high_confidence": 286,
   "dg_likely": 205,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "CTmU12IqG0c",
+      "video_url": "https://www.youtube.com/watch?v=CTmU12IqG0c",
+      "title": "(Third Double Set) VIA Rail Train In Newcastle",
+      "published_at": "2026-11-12T12:59:23Z",
+      "date": "2026-11-12",
+      "location": "CN Dundas Sub",
+      "subdivision": "CN Dundas Sub",
+      "lat": 43.1,
+      "lon": -80.5,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "(Third Double Set) VIA Rail Train In Newcastle",
+      "description_chars": 182,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
