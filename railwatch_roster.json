@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-11T13:24:12.151636Z",
-  "total_units": 617,
+  "generated_at": "2026-11-12T00:17:26.254990Z",
+  "total_units": 618,
   "min_sightings": 2,
   "by_road": {
-    "CN": 483,
+    "CN": 484,
     "VIA": 11,
     "CP": 120,
     "CPKC": 1,
@@ -24821,6 +24821,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Itbs910JdiU",
           "title": "CN Train 149 Westbound September 1, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3946",
+      "display": "CN 3946",
+      "sighting_count": 2,
+      "first_seen": "2026-11-11",
+      "last_seen": "2026-11-11",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 498"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-11",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 498",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PREeu6y_gWM",
+          "title": "CN Train 498 Eastbound November 11, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-11",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 498",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=PREeu6y_gWM",
+          "title": "CN Train 498 Eastbound November 11, 2026",
           "source": "description_structured"
         }
       ]
