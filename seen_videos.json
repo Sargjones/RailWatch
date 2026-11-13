@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-12T23:22:03.557928Z",
-    "total_videos": 1216
+    "updated_at": "2026-11-13T13:45:55.995979Z",
+    "total_videos": 1218
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7300,6 +7300,18 @@
       "title": "CN Train 322 Eastbound November 12, 2026",
       "confidence": "high",
       "processed_at": "2026-11-12T23:22:01.543877Z"
+    },
+    "vpa3KbazjVs": {
+      "channel": "Trackside Ontario",
+      "title": "Tuesday Morning at Bayview \u2022 November 10, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-13T13:45:53.041355Z"
+    },
+    "ZNqA4RWmiog": {
+      "channel": "MJM Productions",
+      "title": "CP 6259 + CP 3087 lead CPKC 2-H17",
+      "confidence": "medium",
+      "processed_at": "2026-11-13T13:45:55.063850Z"
     }
   }
 }
