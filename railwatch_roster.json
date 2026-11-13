@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-13T13:45:56.190012Z",
-  "total_units": 624,
+  "generated_at": "2026-11-13T23:24:05.313657Z",
+  "total_units": 630,
   "min_sightings": 2,
   "by_road": {
-    "CN": 490,
+    "CN": 494,
     "VIA": 11,
-    "CP": 120,
+    "CP": 122,
     "CPKC": 1,
     "AC": 1,
     "RUCK": 1
@@ -12598,6 +12598,67 @@
     },
     {
       "road": "CN",
+      "number": "2285",
+      "display": "CN 2285",
+      "sighting_count": 3,
+      "first_seen": "2026-10-01",
+      "last_seen": "2026-11-13",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 126",
+        "Q107"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-13",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=I_VlVeaX5AQ",
+          "title": "CN Train 126 Eastbound November 13, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-13",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=I_VlVeaX5AQ",
+          "title": "CN Train 126 Eastbound November 13, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-10-01",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GjYRgksgcmU",
+          "title": "CN 2285 + CN 3884 lead CN Q107 north",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2297",
       "display": "CN 2297",
       "sighting_count": 3,
@@ -14438,6 +14499,66 @@
           "video_url": "https://www.youtube.com/watch?v=JQYk1Vp-RUY",
           "title": "CP 3085 + CP 3027 + CP 2317 lead H17",
           "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3087",
+      "display": "CN 3087",
+      "sighting_count": 3,
+      "first_seen": "2026-08-10",
+      "last_seen": "2026-11-13",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 126"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=6LdQtj3reHI",
+          "title": "CP 3087 south heads under the bridge",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-08-10",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4rRNieV12mY",
+          "title": "CN Train 126 Eastbound August 10, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-10",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=4rRNieV12mY",
+          "title": "CN Train 126 Eastbound August 10, 2026",
+          "source": "description_structured"
         }
       ]
     },
@@ -17499,6 +17620,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=PbTnt9iJRZk",
           "title": "CP 9820 + CP 7040 + CP 2264 head west",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "0001",
+      "display": "CN 0001",
+      "sighting_count": 2,
+      "first_seen": "2026-05-31",
+      "last_seen": "2026-11-13",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Halton Sub"
+      ],
+      "trains_led": [
+        "CN 126",
+        "Q107"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-13",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=I_VlVeaX5AQ",
+          "title": "CN Train 126 Eastbound November 13, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-05-31",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=plUQMc8jggY",
+          "title": "Sunday CN Action around Pine Orchard, ON (MAY 31, 2026)",
           "source": "symbol_extraction"
         }
       ]
@@ -21932,53 +22101,6 @@
     },
     {
       "road": "CN",
-      "number": "3087",
-      "display": "CN 3087",
-      "sighting_count": 2,
-      "first_seen": "2026-08-10",
-      "last_seen": "2026-08-10",
-      "corridors": [
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 126"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-10",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 126",
-          "direction": "East",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=4rRNieV12mY",
-          "title": "CN Train 126 Eastbound August 10, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-10",
-          "location": "Brockville",
-          "subdivision": "CN Kingston Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 126",
-          "direction": "East",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=4rRNieV12mY",
-          "title": "CN Train 126 Eastbound August 10, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "3088",
       "display": "CN 3088",
       "sighting_count": 2,
@@ -26255,6 +26377,51 @@
     },
     {
       "road": "CN",
+      "number": "6259",
+      "display": "CN 6259",
+      "sighting_count": 2,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=pvhptlrObqs",
+          "title": "Chasing CPKC H17 north & south on the mactier sub (NOV 13, 2",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-11-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZNqA4RWmiog",
+          "title": "CP 6259 + CP 3087 lead CPKC 2-H17",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "6307",
       "display": "CN 6307",
       "sighting_count": 2,
@@ -29305,6 +29472,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=7EosuIWdZgk",
           "title": "CN Train 369 Westbound August 26, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8909",
+      "display": "CN 8909",
+      "sighting_count": 2,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 126"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-13",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=I_VlVeaX5AQ",
+          "title": "CN Train 126 Eastbound November 13, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-13",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 126",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=I_VlVeaX5AQ",
+          "title": "CN Train 126 Eastbound November 13, 2026",
           "source": "description_structured"
         }
       ]
@@ -33803,6 +34017,50 @@
     },
     {
       "road": "CP",
+      "number": "3087",
+      "display": "CP 3087",
+      "sighting_count": 2,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=6LdQtj3reHI",
+          "title": "CP 3087 south heads under the bridge",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZNqA4RWmiog",
+          "title": "CP 6259 + CP 3087 lead CPKC 2-H17",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "3092",
       "display": "CP 3092",
       "sighting_count": 2,
@@ -34208,6 +34466,51 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=JiQiXPPt6B8",
           "title": "CP 6307, CP 6222, KCS 3928 lead GPS-27",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "6259",
+      "display": "CP 6259",
+      "sighting_count": 2,
+      "first_seen": "2026-11-13",
+      "last_seen": "2026-11-13",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=pvhptlrObqs",
+          "title": "Chasing CPKC H17 north & south on the mactier sub (NOV 13, 2",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-13",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZNqA4RWmiog",
+          "title": "CP 6259 + CP 3087 lead CPKC 2-H17",
           "source": "text_extraction"
         }
       ]

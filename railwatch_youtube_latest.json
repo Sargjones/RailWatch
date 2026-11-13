@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-11-13T13:45:56.013001Z",
+  "generated_at": "2026-11-13T23:24:05.195088Z",
   "dedup_registry": {
-    "total": 1218,
+    "total": 1226,
     "by_channel": {
       "Trackside Ontario": 87,
-      "Trackside Tyson": 156,
-      "Southern Ontario Railfan": 64,
+      "Trackside Tyson": 158,
+      "Southern Ontario Railfan": 65,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 29,
-      "Brockville RailFan": 412,
-      "MJM Productions": 371,
+      "Brockville RailFan": 414,
+      "MJM Productions": 374,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 290,
-      "medium": 837,
-      "low": 91,
+      "high": 291,
+      "medium": 842,
+      "low": 93,
       "meta": 0
     }
   },
@@ -28,23 +28,28 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
+      "videos": 0,
+      "skipped": 5
+    },
+    {
+      "channel": "Trackside Tyson",
+      "videos": 2,
+      "skipped": 5,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 2,
+      "dg_likely": 0,
+      "defaulted": 0
+    },
+    {
+      "channel": "Southern Ontario Railfan",
       "videos": 1,
-      "skipped": 4,
+      "skipped": 2,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 0,
       "defaulted": 0
-    },
-    {
-      "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 5
-    },
-    {
-      "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 2
     },
     {
       "channel": "Trackside Tristan",
@@ -68,8 +73,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 11
+      "videos": 2,
+      "skipped": 11,
+      "high": 1,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -83,13 +93,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 13,
+      "videos": 3,
+      "skipped": 14,
       "high": 0,
-      "medium": 1,
+      "medium": 3,
       "low_meta": 0,
       "dg_likely": 0,
-      "defaulted": 1
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -117,11 +127,282 @@
       "skipped": 2
     }
   ],
-  "total": 1218,
-  "new_this_run": 2,
-  "high_confidence": 290,
+  "total": 1226,
+  "new_this_run": 8,
+  "high_confidence": 291,
   "dg_likely": 209,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "_0gphd_u1i8",
+      "video_url": "https://www.youtube.com/watch?v=_0gphd_u1i8",
+      "title": "TRAIN OUT OF FUEL! #youtubeshorts",
+      "published_at": "2026-11-13T23:00:16Z",
+      "date": "2026-11-13",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "TRAIN OUT OF FUEL! #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "jIaDmhEHcU4",
+      "video_url": "https://www.youtube.com/watch?v=jIaDmhEHcU4",
+      "title": "CPKC 119 meets CPKC H17 at Palgrave",
+      "published_at": "2026-11-13T22:31:05Z",
+      "date": "2026-11-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 119"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 119",
+          "raw": "CPKC 119"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 119 meets CPKC H17 at Palgrave",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "pvhptlrObqs",
+      "video_url": "https://www.youtube.com/watch?v=pvhptlrObqs",
+      "title": "Chasing CPKC H17 north & south on the mactier sub (NOV 13, 2026)",
+      "published_at": "2026-11-13T22:23:44Z",
+      "date": "2026-11-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 6259"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 6259",
+          "raw": "CP 6259"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "Chasing CPKC H17 north & south on the mactier sub (NOV 13, 2026)",
+      "description_chars": 304,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "NgLGV7TPLQs",
+      "video_url": "https://www.youtube.com/watch?v=NgLGV7TPLQs",
+      "title": "VIA Rail Train In Oshawa",
+      "published_at": "2026-11-13T16:44:59Z",
+      "date": "2026-11-13",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "VIA Rail Train In Oshawa",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "JWwIGprRqCM",
+      "video_url": "https://www.youtube.com/watch?v=JWwIGprRqCM",
+      "title": "VIA Train 61 Westbound November 13, 2026",
+      "published_at": "2026-11-13T14:36:39Z",
+      "date": "2026-11-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound November 13, 2026",
+      "description_chars": 221,
+      "consist": {
+        "speed_kmh": 93,
+        "speed_raw": "58 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:49",
+        "observed_tz": "EST",
+        "temperature_c": 1,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-13T08:49-05:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "I_VlVeaX5AQ",
+      "video_url": "https://www.youtube.com/watch?v=I_VlVeaX5AQ",
+      "title": "CN Train 126 Eastbound November 13, 2026",
+      "published_at": "2026-11-13T14:32:52Z",
+      "date": "2026-11-13",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2285",
+        "CN 8909",
+        "CN 0001"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 126",
+          "raw": "CN Train 126"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2285",
+          "raw": "CN 2285"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8909",
+          "raw": "CN 8909"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 0001",
+          "raw": "CN 0001"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 126 Eastbound November 13, 2026",
+      "description_chars": 276,
+      "consist": {
+        "engines": [
+          "CN 2285",
+          "CN 8909"
+        ],
+        "car_count": 162,
+        "car_count_note": "(wells) + 1 distributed braking container (CN 0001)",
+        "consist_type": "freight",
+        "speed_kmh": 69,
+        "speed_raw": "43 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:01",
+        "observed_tz": "EST",
+        "temperature_c": 0,
+        "origin": "Edmonton Intermodal Terminal (MIT) AB",
+        "destination": "Montreal Intermodal QC"
+      },
+      "observed_at": "2026-11-13T08:01-05:00",
+      "origin": "Edmonton Intermodal Terminal (MIT) AB",
+      "destination": "Montreal Intermodal QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "6LdQtj3reHI",
+      "video_url": "https://www.youtube.com/watch?v=6LdQtj3reHI",
+      "title": "CP 3087 south heads under the bridge",
+      "published_at": "2026-11-13T14:27:45Z",
+      "date": "2026-11-13",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 3087"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3087",
+          "raw": "CP 3087"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 3087 south heads under the bridge",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
@@ -629,6 +910,32 @@
       "consist": null,
       "dg_candidate": true,
       "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "7N65RFBf2b4",
+      "video_url": "https://www.youtube.com/watch?v=7N65RFBf2b4",
+      "title": "MONSTER SIZE CPKC DOUBLE STACK CURVING THRU THE CANYON!",
+      "published_at": "2026-11-11T01:32:58Z",
+      "date": "2026-11-11",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "MONSTER SIZE CPKC DOUBLE STACK CURVING THRU THE CANYON!",
+      "description_chars": 454,
+      "consist": null,
+      "location_source": "none"
     },
     {
       "source": "youtube",
