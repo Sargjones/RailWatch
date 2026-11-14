@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T12:50:20.205422Z",
+  "generated_at": "2026-11-14T22:08:51.845296Z",
   "total": 65,
   "cross_observer": 4,
   "chase": 61,
@@ -902,7 +902,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-14T12:50:20.204003Z",
+      "correlated_at": "2026-11-14T22:08:51.843924Z",
       "confidence": "medium"
     },
     {
@@ -952,7 +952,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-14T12:50:20.204328Z",
+      "correlated_at": "2026-11-14T22:08:51.844222Z",
       "confidence": "medium"
     },
     {
@@ -997,7 +997,7 @@
       "consist_delta": null,
       "commodity": "hopper",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204642Z",
+      "correlated_at": "2026-11-14T22:08:51.844531Z",
       "confidence": "medium"
     },
     {
@@ -1042,7 +1042,7 @@
       "consist_delta": null,
       "commodity": "intermodal",
       "dg_likely": true,
-      "correlated_at": "2026-11-14T12:50:20.204798Z",
+      "correlated_at": "2026-11-14T22:08:51.844678Z",
       "confidence": "medium"
     },
     {
@@ -1092,9 +1092,54 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-14T12:50:20.204472Z",
+      "correlated_at": "2026-11-14T22:08:51.844360Z",
       "confidence": "low",
       "split_suspected": true
+    },
+    {
+      "symbol": "Q102",
+      "tier": "chase",
+      "sighting_a": {
+        "location": "Toronto",
+        "date": "2026-10-16",
+        "observed_at": null,
+        "time_precision": "published",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=IdTvdL0CxS8",
+        "title": "CN 2895 leads CN Q102 thru South Parry"
+      },
+      "sighting_b": {
+        "location": "Brampton",
+        "date": "2026-10-16",
+        "observed_at": "2026-10-16T6:34",
+        "time_precision": "observed",
+        "channel": "MJM Productions",
+        "direction": null,
+        "car_count": null,
+        "origin": null,
+        "destination": null,
+        "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+        "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)"
+      },
+      "transit": {
+        "distance_km": 31.4,
+        "elapsed_hours": 24.1,
+        "avg_speed_kmh": 1.3,
+        "speed_plausible": false,
+        "consist_profile": "Unknown consist type",
+        "inferred_direction": "West",
+        "direction_consistent": true,
+        "time_note": null
+      },
+      "consist_delta": null,
+      "commodity": "unknown",
+      "dg_likely": false,
+      "correlated_at": "2026-11-14T22:08:51.843615Z",
+      "confidence": "low"
     },
     {
       "symbol": "CN119",
@@ -1138,7 +1183,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.203757Z",
+      "correlated_at": "2026-11-14T22:08:51.843678Z",
       "confidence": "low"
     },
     {
@@ -1183,7 +1228,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.203780Z",
+      "correlated_at": "2026-11-14T22:08:51.843690Z",
       "confidence": "low"
     },
     {
@@ -1228,7 +1273,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.203922Z",
+      "correlated_at": "2026-11-14T22:08:51.843846Z",
       "confidence": "low"
     },
     {
@@ -1278,7 +1323,7 @@
       },
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.203932Z",
+      "correlated_at": "2026-11-14T22:08:51.843856Z",
       "confidence": "low"
     },
     {
@@ -1328,7 +1373,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.203970Z",
+      "correlated_at": "2026-11-14T22:08:51.843893Z",
       "confidence": "low"
     },
     {
@@ -1373,7 +1418,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204107Z",
+      "correlated_at": "2026-11-14T22:08:51.843994Z",
       "confidence": "low"
     },
     {
@@ -1418,7 +1463,7 @@
       "consist_delta": null,
       "commodity": "auto_rack",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204116Z",
+      "correlated_at": "2026-11-14T22:08:51.844003Z",
       "confidence": "low"
     },
     {
@@ -1463,7 +1508,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204133Z",
+      "correlated_at": "2026-11-14T22:08:51.844019Z",
       "confidence": "low"
     },
     {
@@ -1508,7 +1553,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204147Z",
+      "correlated_at": "2026-11-14T22:08:51.844034Z",
       "confidence": "low"
     },
     {
@@ -1553,7 +1598,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204162Z",
+      "correlated_at": "2026-11-14T22:08:51.844047Z",
       "confidence": "low"
     },
     {
@@ -1598,7 +1643,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204174Z",
+      "correlated_at": "2026-11-14T22:08:51.844069Z",
       "confidence": "low"
     },
     {
@@ -1648,7 +1693,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204240Z",
+      "correlated_at": "2026-11-14T22:08:51.844132Z",
       "confidence": "low"
     },
     {
@@ -1698,7 +1743,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204247Z",
+      "correlated_at": "2026-11-14T22:08:51.844141Z",
       "confidence": "low"
     },
     {
@@ -1748,7 +1793,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204255Z",
+      "correlated_at": "2026-11-14T22:08:51.844150Z",
       "confidence": "low"
     },
     {
@@ -1798,7 +1843,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204266Z",
+      "correlated_at": "2026-11-14T22:08:51.844161Z",
       "confidence": "low"
     },
     {
@@ -1848,7 +1893,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204272Z",
+      "correlated_at": "2026-11-14T22:08:51.844169Z",
       "confidence": "low"
     },
     {
@@ -1898,7 +1943,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204279Z",
+      "correlated_at": "2026-11-14T22:08:51.844176Z",
       "confidence": "low"
     },
     {
@@ -1948,7 +1993,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204286Z",
+      "correlated_at": "2026-11-14T22:08:51.844183Z",
       "confidence": "low"
     },
     {
@@ -1998,7 +2043,7 @@
       },
       "commodity": "intermodal",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204297Z",
+      "correlated_at": "2026-11-14T22:08:51.844195Z",
       "confidence": "low"
     },
     {
@@ -2043,7 +2088,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204366Z",
+      "correlated_at": "2026-11-14T22:08:51.844257Z",
       "confidence": "medium"
     },
     {
@@ -2088,7 +2133,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204374Z",
+      "correlated_at": "2026-11-14T22:08:51.844265Z",
       "confidence": "medium"
     },
     {
@@ -2133,7 +2178,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204381Z",
+      "correlated_at": "2026-11-14T22:08:51.844272Z",
       "confidence": "low"
     },
     {
@@ -2178,7 +2223,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204388Z",
+      "correlated_at": "2026-11-14T22:08:51.844279Z",
       "confidence": "low"
     },
     {
@@ -2228,7 +2273,7 @@
       },
       "commodity": "mixed",
       "dg_likely": true,
-      "correlated_at": "2026-11-14T12:50:20.204479Z",
+      "correlated_at": "2026-11-14T22:08:51.844369Z",
       "confidence": "low"
     },
     {
@@ -2273,7 +2318,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204546Z",
+      "correlated_at": "2026-11-14T22:08:51.844434Z",
       "confidence": "low"
     },
     {
@@ -2318,7 +2363,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204556Z",
+      "correlated_at": "2026-11-14T22:08:51.844443Z",
       "confidence": "low"
     },
     {
@@ -2363,7 +2408,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204587Z",
+      "correlated_at": "2026-11-14T22:08:51.844477Z",
       "confidence": "low"
     },
     {
@@ -2408,7 +2453,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204595Z",
+      "correlated_at": "2026-11-14T22:08:51.844485Z",
       "confidence": "low"
     },
     {
@@ -2453,7 +2498,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204601Z",
+      "correlated_at": "2026-11-14T22:08:51.844491Z",
       "confidence": "low"
     },
     {
@@ -2498,7 +2543,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204608Z",
+      "correlated_at": "2026-11-14T22:08:51.844497Z",
       "confidence": "low"
     },
     {
@@ -2543,7 +2588,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204648Z",
+      "correlated_at": "2026-11-14T22:08:51.844539Z",
       "confidence": "low"
     },
     {
@@ -2588,7 +2633,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204655Z",
+      "correlated_at": "2026-11-14T22:08:51.844545Z",
       "confidence": "low"
     },
     {
@@ -2633,7 +2678,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204733Z",
+      "correlated_at": "2026-11-14T22:08:51.844627Z",
       "confidence": "low"
     },
     {
@@ -2678,7 +2723,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204740Z",
+      "correlated_at": "2026-11-14T22:08:51.844633Z",
       "confidence": "low"
     },
     {
@@ -2723,7 +2768,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204746Z",
+      "correlated_at": "2026-11-14T22:08:51.844641Z",
       "confidence": "low"
     },
     {
@@ -2768,7 +2813,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204827Z",
+      "correlated_at": "2026-11-14T22:08:51.844701Z",
       "confidence": "low"
     },
     {
@@ -2813,52 +2858,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204840Z",
-      "confidence": "low"
-    },
-    {
-      "symbol": "Q102",
-      "tier": "chase",
-      "sighting_a": {
-        "location": "Toronto",
-        "date": "2026-10-16",
-        "observed_at": null,
-        "time_precision": "published",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=IdTvdL0CxS8",
-        "title": "CN 2895 leads CN Q102 thru South Parry"
-      },
-      "sighting_b": {
-        "location": "Brampton",
-        "date": "2026-10-16",
-        "observed_at": "2026-10-16T6:34",
-        "time_precision": "observed",
-        "channel": "MJM Productions",
-        "direction": null,
-        "car_count": null,
-        "origin": null,
-        "destination": null,
-        "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
-        "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)"
-      },
-      "transit": {
-        "distance_km": 31.4,
-        "elapsed_hours": 24.1,
-        "avg_speed_kmh": 1.3,
-        "speed_plausible": false,
-        "consist_profile": "Unknown consist type",
-        "inferred_direction": "West",
-        "direction_consistent": true,
-        "time_note": null
-      },
-      "consist_delta": null,
-      "commodity": "unknown",
-      "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204854Z",
+      "correlated_at": "2026-11-14T22:08:51.844713Z",
       "confidence": "low"
     },
     {
@@ -2903,7 +2903,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204864Z",
+      "correlated_at": "2026-11-14T22:08:51.844723Z",
       "confidence": "low"
     },
     {
@@ -2948,7 +2948,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204881Z",
+      "correlated_at": "2026-11-14T22:08:51.844732Z",
       "confidence": "low"
     },
     {
@@ -2993,7 +2993,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204899Z",
+      "correlated_at": "2026-11-14T22:08:51.844747Z",
       "confidence": "low"
     },
     {
@@ -3038,7 +3038,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204920Z",
+      "correlated_at": "2026-11-14T22:08:51.844772Z",
       "confidence": "low"
     },
     {
@@ -3083,7 +3083,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204940Z",
+      "correlated_at": "2026-11-14T22:08:51.844796Z",
       "confidence": "low"
     },
     {
@@ -3128,7 +3128,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204969Z",
+      "correlated_at": "2026-11-14T22:08:51.844822Z",
       "confidence": "low"
     },
     {
@@ -3173,7 +3173,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.204984Z",
+      "correlated_at": "2026-11-14T22:08:51.844837Z",
       "confidence": "low"
     },
     {
@@ -3218,7 +3218,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205009Z",
+      "correlated_at": "2026-11-14T22:08:51.844862Z",
       "confidence": "low"
     },
     {
@@ -3263,7 +3263,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205016Z",
+      "correlated_at": "2026-11-14T22:08:51.844869Z",
       "confidence": "medium"
     },
     {
@@ -3308,7 +3308,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205043Z",
+      "correlated_at": "2026-11-14T22:08:51.844897Z",
       "confidence": "low"
     },
     {
@@ -3353,7 +3353,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205051Z",
+      "correlated_at": "2026-11-14T22:08:51.844906Z",
       "confidence": "low"
     },
     {
@@ -3398,7 +3398,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205060Z",
+      "correlated_at": "2026-11-14T22:08:51.844914Z",
       "confidence": "low"
     },
     {
@@ -3443,7 +3443,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205070Z",
+      "correlated_at": "2026-11-14T22:08:51.844925Z",
       "confidence": "low"
     },
     {
@@ -3488,7 +3488,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205078Z",
+      "correlated_at": "2026-11-14T22:08:51.844935Z",
       "confidence": "low"
     },
     {
@@ -3533,7 +3533,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205087Z",
+      "correlated_at": "2026-11-14T22:08:51.844945Z",
       "confidence": "low"
     },
     {
@@ -3578,7 +3578,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205096Z",
+      "correlated_at": "2026-11-14T22:08:51.844954Z",
       "confidence": "low"
     },
     {
@@ -3623,7 +3623,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205104Z",
+      "correlated_at": "2026-11-14T22:08:51.844963Z",
       "confidence": "low"
     },
     {
@@ -3668,7 +3668,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205147Z",
+      "correlated_at": "2026-11-14T22:08:51.845005Z",
       "confidence": "low"
     },
     {
@@ -3713,7 +3713,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205300Z",
+      "correlated_at": "2026-11-14T22:08:51.845163Z",
       "confidence": "low"
     },
     {
@@ -3758,7 +3758,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205308Z",
+      "correlated_at": "2026-11-14T22:08:51.845174Z",
       "confidence": "low"
     },
     {
@@ -3803,7 +3803,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205317Z",
+      "correlated_at": "2026-11-14T22:08:51.845184Z",
       "confidence": "low"
     },
     {
@@ -3848,7 +3848,7 @@
       "consist_delta": null,
       "commodity": "unknown",
       "dg_likely": false,
-      "correlated_at": "2026-11-14T12:50:20.205326Z",
+      "correlated_at": "2026-11-14T22:08:51.845192Z",
       "confidence": "low"
     }
   ]

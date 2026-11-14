@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-14T12:50:20.258265Z",
-  "total_units": 630,
+  "generated_at": "2026-11-14T22:08:52.052879Z",
+  "total_units": 631,
   "min_sightings": 2,
   "by_road": {
-    "CN": 494,
+    "CN": 495,
     "VIA": 11,
     "CP": 122,
     "CPKC": 1,
@@ -15672,6 +15672,68 @@
     },
     {
       "road": "CN",
+      "number": "3923",
+      "display": "CN 3923",
+      "sighting_count": 3,
+      "first_seen": "2026-08-24",
+      "last_seen": "2026-11-14",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "Q106",
+        "CN 377"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q106",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=oy9BCpHUkZw",
+          "title": "CN 3923 blasting its P5 horn on CN Q106",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 377",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=VzF3pyVsjm0",
+          "title": "CN Train 377 Westbound August 24, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-08-24",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 377",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=VzF3pyVsjm0",
+          "title": "CN Train 377 Westbound August 24, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3936",
       "display": "CN 3936",
       "sighting_count": 3,
@@ -25159,53 +25221,6 @@
     },
     {
       "road": "CN",
-      "number": "3923",
-      "display": "CN 3923",
-      "sighting_count": 2,
-      "first_seen": "2026-08-24",
-      "last_seen": "2026-08-24",
-      "corridors": [
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 377"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown",
-        "lead"
-      ],
-      "sightings": [
-        {
-          "date": "2026-08-24",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 377",
-          "direction": "West",
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=VzF3pyVsjm0",
-          "title": "CN Train 377 Westbound August 24, 2026",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-08-24",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "Brockville RailFan",
-          "train_symbol": "CN 377",
-          "direction": "West",
-          "role": "lead",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=VzF3pyVsjm0",
-          "title": "CN Train 377 Westbound August 24, 2026",
-          "source": "description_structured"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "3935",
       "display": "CN 3935",
       "sighting_count": 2,
@@ -28339,6 +28354,50 @@
           "video_url": "https://www.youtube.com/watch?v=TjB64nk67H8",
           "title": "CP 8160 + CP 8751 + CP 2311 lead CPKC 135",
           "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "8301",
+      "display": "CN 8301",
+      "sighting_count": 2,
+      "first_seen": "2026-11-14",
+      "last_seen": "2026-11-14",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=LYmzmqxDhDk",
+          "title": "SD75IACC DUO! CN 8301 at Cedarbrae, ON (NOV 14, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-14",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=sDUoEAf5moA",
+          "title": "CN 8301 SD75IACC rounds the bend south",
+          "source": "text_extraction"
         }
       ]
     },

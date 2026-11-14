@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-14T12:50:20.117836Z",
+  "generated_at": "2026-11-14T22:08:51.643854Z",
   "dedup_registry": {
-    "total": 1226,
+    "total": 1233,
     "by_channel": {
-      "Trackside Ontario": 87,
-      "Trackside Tyson": 158,
+      "Trackside Ontario": 88,
+      "Trackside Tyson": 159,
       "Southern Ontario Railfan": 65,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 29,
       "Brockville RailFan": 414,
-      "MJM Productions": 374,
+      "MJM Productions": 379,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -18,8 +18,8 @@
     },
     "by_confidence": {
       "high": 291,
-      "medium": 842,
-      "low": 93,
+      "medium": 848,
+      "low": 94,
       "meta": 0
     }
   },
@@ -28,13 +28,23 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -78,8 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 17
+      "videos": 5,
+      "skipped": 17,
+      "high": 0,
+      "medium": 5,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 5
     },
     {
       "channel": "Ontario Railman",
@@ -107,11 +122,234 @@
       "skipped": 1
     }
   ],
-  "total": 1226,
-  "new_this_run": 0,
+  "total": 1233,
+  "new_this_run": 7,
   "high_confidence": 291,
   "dg_likely": 209,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "LYmzmqxDhDk",
+      "video_url": "https://www.youtube.com/watch?v=LYmzmqxDhDk",
+      "title": "SD75IACC DUO! CN 8301 at Cedarbrae, ON (NOV 14, 2026)",
+      "published_at": "2026-11-14T21:40:45Z",
+      "date": "2026-11-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8301"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8301",
+          "raw": "CN 8301"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "SD75IACC DUO! CN 8301 at Cedarbrae, ON (NOV 14, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "9T47-J62-44",
+      "video_url": "https://www.youtube.com/watch?v=9T47-J62-44",
+      "title": "Saturday Morning at Bayview \u2022 November 14, 2026",
+      "published_at": "2026-11-14T19:35:43Z",
+      "date": "2026-11-14",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Saturday Morning at Bayview \u2022 November 14, 2026",
+      "description_chars": 126,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "QumfNHN5szc",
+      "video_url": "https://www.youtube.com/watch?v=QumfNHN5szc",
+      "title": "CN Q102 south blowing past Cedarbrae",
+      "published_at": "2026-11-14T18:49:12Z",
+      "date": "2026-11-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Q102",
+          "raw": "Q102"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Q102 south blowing past Cedarbrae",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "oy9BCpHUkZw",
+      "video_url": "https://www.youtube.com/watch?v=oy9BCpHUkZw",
+      "title": "CN 3923 blasting its P5 horn on CN Q106",
+      "published_at": "2026-11-14T18:47:31Z",
+      "date": "2026-11-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3923"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 3923",
+          "raw": "CN 3923"
+        },
+        {
+          "road": "CN",
+          "symbol": "Q106",
+          "raw": "Q106"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 3923 blasting its P5 horn on CN Q106",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "sDUoEAf5moA",
+      "video_url": "https://www.youtube.com/watch?v=sDUoEAf5moA",
+      "title": "CN 8301 SD75IACC rounds the bend south",
+      "published_at": "2026-11-14T17:56:23Z",
+      "date": "2026-11-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8301"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8301",
+          "raw": "CN 8301"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 8301 SD75IACC rounds the bend south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "FViTo3-8SZw",
+      "video_url": "https://www.youtube.com/watch?v=FViTo3-8SZw",
+      "title": "ONR P300 south blasting thru Vandorf",
+      "published_at": "2026-11-14T15:34:33Z",
+      "date": "2026-11-14",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "P300",
+          "raw": "P300"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "ONR P300 south blasting thru Vandorf",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "sPXXrlxsTG4",
+      "video_url": "https://www.youtube.com/watch?v=sPXXrlxsTG4",
+      "title": "TRAINS & NATURE IN AUTUMN AT HARRISON MILLS",
+      "published_at": "2026-11-13T23:12:07Z",
+      "date": "2026-11-13",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "TRAINS & NATURE IN AUTUMN AT HARRISON MILLS",
+      "description_chars": 431,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
