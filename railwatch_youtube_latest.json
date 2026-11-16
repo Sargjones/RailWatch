@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-15T22:38:37.310569Z",
+  "generated_at": "2026-11-16T14:31:00.096123Z",
   "dedup_registry": {
-    "total": 1234,
+    "total": 1236,
     "by_channel": {
       "Trackside Ontario": 88,
-      "Trackside Tyson": 160,
+      "Trackside Tyson": 161,
       "Southern Ontario Railfan": 65,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 29,
-      "Brockville RailFan": 414,
+      "Brockville RailFan": 415,
       "MJM Productions": 379,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
@@ -17,14 +17,14 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 291,
+      "high": 292,
       "medium": 849,
-      "low": 94,
+      "low": 95,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-11-08T00:00:00Z",
+  "since": "2026-11-09T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -33,8 +33,13 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -49,7 +54,7 @@
     {
       "channel": "Scott Rails (Chasing The Money Shot)",
       "videos": 0,
-      "skipped": 1,
+      "skipped": 0,
       "high": 0,
       "medium": 0,
       "low_meta": 0,
@@ -63,8 +68,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 13
+      "videos": 1,
+      "skipped": 13,
+      "high": 1,
+      "medium": 0,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -79,7 +89,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 22
+      "skipped": 16
     },
     {
       "channel": "Ontario Railman",
@@ -107,11 +117,110 @@
       "skipped": 1
     }
   ],
-  "total": 1234,
-  "new_this_run": 0,
-  "high_confidence": 291,
-  "dg_likely": 209,
+  "total": 1236,
+  "new_this_run": 2,
+  "high_confidence": 292,
+  "dg_likely": 210,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "kz02eQHFfhI",
+      "video_url": "https://www.youtube.com/watch?v=kz02eQHFfhI",
+      "title": "CN Train 731 Westbound November 16, 2026",
+      "published_at": "2026-11-16T14:24:13Z",
+      "date": "2026-11-16",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3859",
+        "CN 3955",
+        "CN 2843"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 731",
+          "raw": "CN Train 731"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3859",
+          "raw": "CN 3859"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3955",
+          "raw": "CN 3955"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2843",
+          "raw": "CN 2843"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 731 Westbound November 16, 2026",
+      "description_chars": 228,
+      "consist": {
+        "engines": [
+          "CN 3859",
+          "CN 3955"
+        ],
+        "dpu": [
+          "CN 2843"
+        ],
+        "car_count": 205,
+        "consist_type": "freight",
+        "speed_kmh": 51,
+        "speed_raw": "32 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:54",
+        "observed_tz": "EST",
+        "temperature_c": 0,
+        "origin": "St. John NB",
+        "destination": "Yarbo SK"
+      },
+      "observed_at": "2026-11-16T07:54-05:00",
+      "origin": "St. John NB",
+      "destination": "Yarbo SK",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "esrBermEpLE",
+      "video_url": "https://www.youtube.com/watch?v=esrBermEpLE",
+      "title": "REBUILT EMD LOCOMOTIVE #youtubeshorts",
+      "published_at": "2026-11-15T23:00:32Z",
+      "date": "2026-11-15",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "REBUILT EMD LOCOMOTIVE #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
