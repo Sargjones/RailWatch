@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-17T01:44:53.071794Z",
-    "total_videos": 1248
+    "updated_at": "2026-11-17T15:21:33.523845Z",
+    "total_videos": 1252
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7492,6 +7492,30 @@
       "title": "CP 7580 + CP 7433 lead CPKC 118 south",
       "confidence": "medium",
       "processed_at": "2026-11-17T01:44:51.844087Z"
+    },
+    "_P8BZY3ciKg": {
+      "channel": "Trackside Ontario",
+      "title": "Monday Afternoon at Bayview \u2022 November 16, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-17T15:21:29.918214Z"
+    },
+    "PlwNlUBLLHI": {
+      "channel": "Rail Fans Canada",
+      "title": "5 Things Ottawa Got Right with O-Train Line 1",
+      "confidence": "medium",
+      "processed_at": "2026-11-17T15:21:31.488092Z"
+    },
+    "4Jac5Mv8vOg": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 17, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-17T15:21:31.848824Z"
+    },
+    "Z5LH8GSYVSI": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 108 Eastbound November 17, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-17T15:21:31.848975Z"
     }
   }
 }

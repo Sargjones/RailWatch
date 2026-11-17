@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-17T01:44:53.082945Z",
+  "generated_at": "2026-11-17T15:21:33.536925Z",
   "dedup_registry": {
-    "total": 1248,
+    "total": 1252,
     "by_channel": {
-      "Trackside Ontario": 88,
+      "Trackside Ontario": 89,
       "Trackside Tyson": 162,
       "Southern Ontario Railfan": 65,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
-      "Rail Fans Canada": 29,
-      "Brockville RailFan": 418,
+      "Rail Fans Canada": 30,
+      "Brockville RailFan": 420,
       "MJM Productions": 387,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 294,
-      "medium": 858,
+      "high": 295,
+      "medium": 861,
       "low": 96,
       "meta": 0
     }
@@ -28,18 +28,18 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,14 +63,19 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 12,
-      "high": 2,
+      "videos": 2,
+      "skipped": 15,
+      "high": 1,
       "medium": 1,
       "low_meta": 0,
       "dg_likely": 1,
@@ -88,13 +93,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 8,
-      "skipped": 13,
-      "high": 0,
-      "medium": 8,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 7
+      "videos": 0,
+      "skipped": 21
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +122,178 @@
       "skipped": 0
     }
   ],
-  "total": 1248,
-  "new_this_run": 12,
-  "high_confidence": 294,
-  "dg_likely": 211,
+  "total": 1252,
+  "new_this_run": 4,
+  "high_confidence": 295,
+  "dg_likely": 212,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "4Jac5Mv8vOg",
+      "video_url": "https://www.youtube.com/watch?v=4Jac5Mv8vOg",
+      "title": "VIA Train 61 Westbound November 17, 2026",
+      "published_at": "2026-11-17T15:11:45Z",
+      "date": "2026-11-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound November 17, 2026",
+      "description_chars": 172,
+      "consist": {
+        "coaches": [
+          "Speed: 59 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 95,
+        "speed_raw": "59 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:03",
+        "observed_tz": "EST",
+        "temperature_c": 4,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-17T09:03-05:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Z5LH8GSYVSI",
+      "video_url": "https://www.youtube.com/watch?v=Z5LH8GSYVSI",
+      "title": "CN Train 108 Eastbound November 17, 2026",
+      "published_at": "2026-11-17T15:04:24Z",
+      "date": "2026-11-17",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 8345",
+        "CN 2553"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 108",
+          "raw": "CN Train 108"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 8345",
+          "raw": "CN 8345"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2553",
+          "raw": "CN 2553"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 108 Eastbound November 17, 2026",
+      "description_chars": 261,
+      "consist": {
+        "engines": [
+          "CN 8345",
+          "CN 2553"
+        ],
+        "car_count": 160,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 63,
+        "speed_raw": "39 mph",
+        "detector_milepost": 137,
+        "observed_time": "08:19",
+        "observed_tz": "EST",
+        "temperature_c": 3,
+        "origin": "Vancouver Thornton BC",
+        "destination": "Montreal Taschereau QC"
+      },
+      "observed_at": "2026-11-17T08:19-05:00",
+      "origin": "Vancouver Thornton BC",
+      "destination": "Montreal Taschereau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Rail Fans Canada",
+      "channel_id": "UCJzzfzG95FxDCgeUO26FvCw",
+      "video_id": "PlwNlUBLLHI",
+      "video_url": "https://www.youtube.com/watch?v=PlwNlUBLLHI",
+      "title": "5 Things Ottawa Got Right with O-Train Line 1",
+      "published_at": "2026-11-17T14:30:10Z",
+      "date": "2026-11-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "5 Things Ottawa Got Right with O-Train Line 1",
+      "description_chars": 959,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "_P8BZY3ciKg",
+      "video_url": "https://www.youtube.com/watch?v=_P8BZY3ciKg",
+      "title": "Monday Afternoon at Bayview \u2022 November 16, 2026",
+      "published_at": "2026-11-17T12:02:07Z",
+      "date": "2026-11-16",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Monday Afternoon at Bayview \u2022 November 16, 2026",
+      "description_chars": 126,
+      "consist": null,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
