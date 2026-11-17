@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-16T14:31:00.096123Z",
+  "generated_at": "2026-11-17T01:44:53.082945Z",
   "dedup_registry": {
-    "total": 1236,
+    "total": 1248,
     "by_channel": {
       "Trackside Ontario": 88,
-      "Trackside Tyson": 161,
+      "Trackside Tyson": 162,
       "Southern Ontario Railfan": 65,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 29,
-      "Brockville RailFan": 415,
-      "MJM Productions": 379,
+      "Brockville RailFan": 418,
+      "MJM Productions": 387,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 292,
-      "medium": 849,
-      "low": 95,
+      "high": 294,
+      "medium": 858,
+      "low": 96,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-11-09T00:00:00Z",
+  "since": "2026-11-10T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -44,7 +44,7 @@
     {
       "channel": "Southern Ontario Railfan",
       "videos": 0,
-      "skipped": 3
+      "skipped": 2
     },
     {
       "channel": "Trackside Tristan",
@@ -68,10 +68,10 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 1,
-      "skipped": 13,
-      "high": 1,
-      "medium": 0,
+      "videos": 3,
+      "skipped": 12,
+      "high": 2,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 1,
       "defaulted": 0
@@ -88,8 +88,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 16
+      "videos": 8,
+      "skipped": 13,
+      "high": 0,
+      "medium": 8,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 7
     },
     {
       "channel": "Ontario Railman",
@@ -114,14 +119,489 @@
     {
       "channel": "Central Canada Railfan",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     }
   ],
-  "total": 1236,
-  "new_this_run": 2,
-  "high_confidence": 292,
-  "dg_likely": 210,
+  "total": 1248,
+  "new_this_run": 12,
+  "high_confidence": 294,
+  "dg_likely": 211,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "KuqbB_kAolQ",
+      "video_url": "https://www.youtube.com/watch?v=KuqbB_kAolQ",
+      "title": "Chasing the First Ever ONR 450 south down the Bala sub (NOV 16, 2026)",
+      "published_at": "2026-11-16T23:34:08Z",
+      "date": "2026-11-16",
+      "location": "CN Bala Sub",
+      "subdivision": "CN Bala Sub",
+      "lat": 44.5,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Chasing the First Ever ONR 450 south down the Bala sub (NOV 16, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "QFucP76J1eo",
+      "video_url": "https://www.youtube.com/watch?v=QFucP76J1eo",
+      "title": "TRAIN BLOWING HORN THRU CROSSING #youtubeshorts",
+      "published_at": "2026-11-16T23:00:01Z",
+      "date": "2026-11-16",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "TRAIN BLOWING HORN THRU CROSSING #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "LPZEnbHXKb8",
+      "video_url": "https://www.youtube.com/watch?v=LPZEnbHXKb8",
+      "title": "ON 2120 leads ONR 450 thru Pine Orchard",
+      "published_at": "2026-11-16T21:43:23Z",
+      "date": "2026-11-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "ON 2120 leads ONR 450 thru Pine Orchard",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "FD1aBGxav-w",
+      "video_url": "https://www.youtube.com/watch?v=FD1aBGxav-w",
+      "title": "ON 2120 + ON 2105 + ON 2121 lead 450",
+      "published_at": "2026-11-16T21:42:27Z",
+      "date": "2026-11-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "ON 2120 + ON 2105 + ON 2121 lead 450",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "_KbtDjs1bLA",
+      "video_url": "https://www.youtube.com/watch?v=_KbtDjs1bLA",
+      "title": "The first ever ONR 450 heads south",
+      "published_at": "2026-11-16T20:46:02Z",
+      "date": "2026-11-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "The first ever ONR 450 heads south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "hBclqQjNuXU",
+      "video_url": "https://www.youtube.com/watch?v=hBclqQjNuXU",
+      "title": "CN 2225 + CN 2666 + CN 7510 head south",
+      "published_at": "2026-11-16T20:23:55Z",
+      "date": "2026-11-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2225",
+        "CN 2666",
+        "CN 7510"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2225",
+          "raw": "CN 2225"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2666",
+          "raw": "CN 2666"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 7510",
+          "raw": "CN 7510"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2225 + CN 2666 + CN 7510 head south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "rtiA0w_3tyg",
+      "video_url": "https://www.youtube.com/watch?v=rtiA0w_3tyg",
+      "title": "CN Q105 exits the bridge at Mount Albert",
+      "published_at": "2026-11-16T19:00:38Z",
+      "date": "2026-11-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "Q105",
+          "raw": "Q105"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN Q105 exits the bridge at Mount Albert",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "qzv7FimP5i4",
+      "video_url": "https://www.youtube.com/watch?v=qzv7FimP5i4",
+      "title": "CP 7583 leads CPKC 100 up the hill",
+      "published_at": "2026-11-16T18:15:26Z",
+      "date": "2026-11-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7583",
+        "CPKC 100"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7583",
+          "raw": "CP 7583"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 100",
+          "raw": "CPKC 100"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7583 leads CPKC 100 up the hill",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "rhE9OP8dDdU",
+      "video_url": "https://www.youtube.com/watch?v=rhE9OP8dDdU",
+      "title": "CP 7580 + CP 7433 lead CPKC 118 south",
+      "published_at": "2026-11-16T17:53:41Z",
+      "date": "2026-11-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7580",
+        "CP 7433",
+        "CPKC 118"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7580",
+          "raw": "CP 7580"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 7433",
+          "raw": "CP 7433"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 118",
+          "raw": "CPKC 118"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7580 + CP 7433 lead CPKC 118 south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "xq2qBxSrdlQ",
+      "video_url": "https://www.youtube.com/watch?v=xq2qBxSrdlQ",
+      "title": "VIA Train 61 Westbound November 16, 2026",
+      "published_at": "2026-11-16T14:54:17Z",
+      "date": "2026-11-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound November 16, 2026",
+      "description_chars": 172,
+      "consist": {
+        "coaches": [
+          "Speed: 65 mph at detector 124"
+        ],
+        "car_count": 1,
+        "consist_type": "passenger",
+        "speed_kmh": 105,
+        "speed_raw": "65 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:50",
+        "observed_tz": "EST",
+        "temperature_c": 1,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-16T08:50-05:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "Jp6cEIZJrPw",
+      "video_url": "https://www.youtube.com/watch?v=Jp6cEIZJrPw",
+      "title": "CN Train 368 Eastbound November 16, 2026",
+      "published_at": "2026-11-16T14:48:23Z",
+      "date": "2026-11-16",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3803",
+        "CN 2848"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3803",
+          "raw": "CN 3803"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 2848",
+          "raw": "CN 2848"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Eastbound November 16, 2026",
+      "description_chars": 243,
+      "consist": {
+        "engines": [
+          "CN 3803"
+        ],
+        "dpu": [
+          "CN 2848"
+        ],
+        "car_count": 147,
+        "consist_type": "freight",
+        "speed_kmh": 42,
+        "speed_raw": "26 mph",
+        "detector_milepost": 137,
+        "observed_time": "08:38",
+        "observed_tz": "EST",
+        "temperature_c": 1,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-11-16T08:38-05:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "KAbmOg3CVT4",
+      "video_url": "https://www.youtube.com/watch?v=KAbmOg3CVT4",
+      "title": "CN Train 149 Westbound November 16, 2026",
+      "published_at": "2026-11-16T14:39:42Z",
+      "date": "2026-11-16",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3907",
+        "CN 3225"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3907",
+          "raw": "CN 3907"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3225",
+          "raw": "CN 3225"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound November 16, 2026",
+      "description_chars": 260,
+      "consist": {
+        "engines": [
+          "CN 3907",
+          "CN 3225"
+        ],
+        "car_count": 201,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 58,
+        "speed_raw": "36 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:19",
+        "observed_tz": "EST",
+        "temperature_c": 0,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-11-16T08:19-05:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
