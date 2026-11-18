@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-17T15:21:33.523845Z",
-    "total_videos": 1252
+    "updated_at": "2026-11-18T00:46:15.961059Z",
+    "total_videos": 1253
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7516,6 +7516,12 @@
       "title": "CN Train 108 Eastbound November 17, 2026",
       "confidence": "high",
       "processed_at": "2026-11-17T15:21:31.848975Z"
+    },
+    "JS39O4RQz2U": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 368 Eastbound November 17, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-18T00:46:13.929783Z"
     }
   }
 }

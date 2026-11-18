@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T15:21:33.536925Z",
+  "generated_at": "2026-11-18T00:46:15.971824Z",
   "dedup_registry": {
-    "total": 1252,
+    "total": 1253,
     "by_channel": {
       "Trackside Ontario": 89,
       "Trackside Tyson": 162,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 30,
-      "Brockville RailFan": 420,
+      "Brockville RailFan": 421,
       "MJM Productions": 387,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
@@ -17,29 +17,24 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 295,
+      "high": 296,
       "medium": 861,
       "low": 96,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-11-10T00:00:00Z",
+  "since": "2026-11-11T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 5,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 7
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,20 +58,15 @@
     },
     {
       "channel": "Rail Fans Canada",
-      "videos": 1,
-      "skipped": 0,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 1
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 15,
+      "videos": 1,
+      "skipped": 14,
       "high": 1,
-      "medium": 1,
+      "medium": 0,
       "low_meta": 0,
       "dg_likely": 1,
       "defaulted": 0
@@ -94,7 +84,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 21
+      "skipped": 17
     },
     {
       "channel": "Ontario Railman",
@@ -122,11 +112,78 @@
       "skipped": 0
     }
   ],
-  "total": 1252,
-  "new_this_run": 4,
-  "high_confidence": 295,
-  "dg_likely": 212,
+  "total": 1253,
+  "new_this_run": 1,
+  "high_confidence": 296,
+  "dg_likely": 213,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "JS39O4RQz2U",
+      "video_url": "https://www.youtube.com/watch?v=JS39O4RQz2U",
+      "title": "CN Train 368 Eastbound November 17, 2026",
+      "published_at": "2026-11-17T15:47:22Z",
+      "date": "2026-11-17",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "East",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3907",
+        "CN 3225"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 368",
+          "raw": "CN Train 368"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3907",
+          "raw": "CN 3907"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3225",
+          "raw": "CN 3225"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 368 Eastbound November 17, 2026",
+      "description_chars": 414,
+      "consist": {
+        "engines": [
+          "CN 3907"
+        ],
+        "dpu": [
+          "CN 3225"
+        ],
+        "car_count": 120,
+        "car_count_note": "on arrival,   29 lifted, for a total of 149",
+        "consist_type": "freight",
+        "speed_kmh": 53,
+        "speed_raw": "33 mph",
+        "detector_milepost": 137,
+        "observed_time": "09:25",
+        "observed_tz": "EST",
+        "temperature_c": 5,
+        "origin": "Toronto MacMillan ON",
+        "destination": "Garneau QC"
+      },
+      "observed_at": "2026-11-17T09:25-05:00",
+      "origin": "Toronto MacMillan ON",
+      "destination": "Garneau QC",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
