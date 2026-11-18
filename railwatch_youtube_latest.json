@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T00:46:15.971824Z",
+  "generated_at": "2026-11-18T14:56:23.830053Z",
   "dedup_registry": {
-    "total": 1253,
+    "total": 1255,
     "by_channel": {
       "Trackside Ontario": 89,
       "Trackside Tyson": 162,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 30,
-      "Brockville RailFan": 421,
+      "Brockville RailFan": 423,
       "MJM Productions": 387,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
@@ -17,8 +17,8 @@
       "The Cando Railfan": 6
     },
     "by_confidence": {
-      "high": 296,
-      "medium": 861,
+      "high": 297,
+      "medium": 862,
       "low": 96,
       "meta": 0
     }
@@ -63,10 +63,10 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 1,
-      "skipped": 14,
+      "videos": 2,
+      "skipped": 15,
       "high": 1,
-      "medium": 0,
+      "medium": 1,
       "low_meta": 0,
       "dg_likely": 1,
       "defaulted": 0
@@ -112,11 +112,122 @@
       "skipped": 0
     }
   ],
-  "total": 1253,
-  "new_this_run": 1,
-  "high_confidence": 296,
-  "dg_likely": 213,
+  "total": 1255,
+  "new_this_run": 2,
+  "high_confidence": 297,
+  "dg_likely": 214,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "140lW270xq4",
+      "video_url": "https://www.youtube.com/watch?v=140lW270xq4",
+      "title": "VIA Train 61 Westbound November 18, 2026",
+      "published_at": "2026-11-18T14:45:36Z",
+      "date": "2026-11-18",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound November 18, 2026",
+      "description_chars": 433,
+      "consist": {
+        "speed_kmh": 97,
+        "speed_raw": "60 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:04",
+        "observed_tz": "EST",
+        "temperature_c": 6,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-18T09:04-05:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "phJ9HrQkiGg",
+      "video_url": "https://www.youtube.com/watch?v=phJ9HrQkiGg",
+      "title": "CN Train 731 Westbound November 18, 2026",
+      "published_at": "2026-11-18T14:38:08Z",
+      "date": "2026-11-18",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3392",
+        "CN 3804"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 731",
+          "raw": "CN Train 731"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3392",
+          "raw": "CN 3392"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3804",
+          "raw": "CN 3804"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 731 Westbound November 18, 2026",
+      "description_chars": 232,
+      "consist": {
+        "engines": [
+          "CN 3392"
+        ],
+        "dpu": [
+          "CN 3804"
+        ],
+        "car_count": 206,
+        "consist_type": "freight",
+        "speed_kmh": 61,
+        "speed_raw": "38 mph",
+        "detector_milepost": 124,
+        "observed_time": "07:41",
+        "observed_tz": "EST",
+        "temperature_c": 5,
+        "origin": "St. John NB",
+        "destination": "Yarbo SK"
+      },
+      "observed_at": "2026-11-18T07:41-05:00",
+      "origin": "St. John NB",
+      "destination": "Yarbo SK",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

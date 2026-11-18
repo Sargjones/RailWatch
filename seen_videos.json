@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-18T00:46:15.961059Z",
-    "total_videos": 1253
+    "updated_at": "2026-11-18T14:56:23.819056Z",
+    "total_videos": 1255
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7522,6 +7522,18 @@
       "title": "CN Train 368 Eastbound November 17, 2026",
       "confidence": "high",
       "processed_at": "2026-11-18T00:46:13.929783Z"
+    },
+    "140lW270xq4": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 18, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-18T14:56:21.989802Z"
+    },
+    "phJ9HrQkiGg": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 731 Westbound November 18, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-18T14:56:21.989964Z"
     }
   }
 }
