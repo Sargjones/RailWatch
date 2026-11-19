@@ -1,40 +1,46 @@
 {
-  "generated_at": "2026-11-18T14:56:23.830053Z",
+  "generated_at": "2026-11-19T00:03:39.938735Z",
   "dedup_registry": {
-    "total": 1255,
+    "total": 1259,
     "by_channel": {
       "Trackside Ontario": 89,
-      "Trackside Tyson": 162,
+      "Trackside Tyson": 163,
       "Southern Ontario Railfan": 65,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 30,
       "Brockville RailFan": 423,
-      "MJM Productions": 387,
+      "MJM Productions": 389,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
-      "The Cando Railfan": 6
+      "The Cando Railfan": 6,
+      "Ontario Northland Railfan": 1
     },
     "by_confidence": {
       "high": 297,
-      "medium": 862,
-      "low": 96,
+      "medium": 865,
+      "low": 97,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-11-11T00:00:00Z",
+  "since": "2026-11-12T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 4
+      "skipped": 3
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 6
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -63,18 +69,18 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 2,
-      "skipped": 15,
-      "high": 1,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 1,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Northland Railfan",
-      "videos": 0,
-      "skipped": 0
+      "videos": 1,
+      "skipped": 0,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "PTBO Railfanning",
@@ -83,8 +89,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 17
+      "videos": 2,
+      "skipped": 17,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Railman",
@@ -112,11 +123,124 @@
       "skipped": 0
     }
   ],
-  "total": 1255,
-  "new_this_run": 2,
+  "total": 1259,
+  "new_this_run": 4,
   "high_confidence": 297,
   "dg_likely": 214,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "zzh4Tlpuvw8",
+      "video_url": "https://www.youtube.com/watch?v=zzh4Tlpuvw8",
+      "title": "CANADIAN RAILROADS IN AUTUMN #youtubeshorts",
+      "published_at": "2026-11-18T23:00:07Z",
+      "date": "2026-11-18",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "CANADIAN RAILROADS IN AUTUMN #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "caJKe-Wz9os",
+      "video_url": "https://www.youtube.com/watch?v=caJKe-Wz9os",
+      "title": "Rebuild 75i heads east on the halton sub",
+      "published_at": "2026-11-18T22:57:36Z",
+      "date": "2026-11-18",
+      "location": "CN Halton Sub",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6,
+      "lon": -79.8,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Rebuild 75i heads east on the halton sub",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Northland Railfan",
+      "channel_id": "UC6X-uZ6i0sXin0PRKUCYkpw",
+      "video_id": "3JSyJQi27rQ",
+      "video_url": "https://www.youtube.com/watch?v=3JSyJQi27rQ",
+      "title": "Ontario Northland 2103 leads 512 near Fork Lake",
+      "published_at": "2026-11-18T22:23:39Z",
+      "date": "2026-11-18",
+      "location": "Kirkland Lake",
+      "subdivision": "Ontario Northland Railway",
+      "lat": 48.15,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Ontario Northland 2103 leads 512 near Fork Lake",
+      "description_chars": 28,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "lN8HgO4eBMo",
+      "video_url": "https://www.youtube.com/watch?v=lN8HgO4eBMo",
+      "title": "SD75IACC LEAD! CN 8358 at Brampton, ON (NOV 18, 2026)",
+      "published_at": "2026-11-18T22:06:34Z",
+      "date": "2026-11-18",
+      "location": "Brampton",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6833,
+      "lon": -79.7667,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 8358"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8358",
+          "raw": "CN 8358"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "SD75IACC LEAD! CN 8358 at Brampton, ON (NOV 18, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
