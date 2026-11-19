@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T00:03:39.938735Z",
+  "generated_at": "2026-11-19T15:02:55.136241Z",
   "dedup_registry": {
-    "total": 1259,
+    "total": 1260,
     "by_channel": {
       "Trackside Ontario": 89,
       "Trackside Tyson": 163,
@@ -15,11 +15,11 @@
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
       "The Cando Railfan": 6,
-      "Ontario Northland Railfan": 1
+      "Ontario Northland Railfan": 2
     },
     "by_confidence": {
       "high": 297,
-      "medium": 865,
+      "medium": 866,
       "low": 97,
       "meta": 0
     }
@@ -34,13 +34,8 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -75,7 +70,7 @@
     {
       "channel": "Ontario Northland Railfan",
       "videos": 1,
-      "skipped": 0,
+      "skipped": 1,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
@@ -89,13 +84,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 17,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 19
     },
     {
       "channel": "Ontario Railman",
@@ -123,11 +113,37 @@
       "skipped": 0
     }
   ],
-  "total": 1259,
-  "new_this_run": 4,
+  "total": 1260,
+  "new_this_run": 1,
   "high_confidence": 297,
   "dg_likely": 214,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Northland Railfan",
+      "channel_id": "UC6X-uZ6i0sXin0PRKUCYkpw",
+      "video_id": "hZ_gsEljTUw",
+      "video_url": "https://www.youtube.com/watch?v=hZ_gsEljTUw",
+      "title": "Ontario Northland 2123 leads 211 at Dane Ontario",
+      "published_at": "2026-11-19T02:05:52Z",
+      "date": "2026-11-19",
+      "location": "Kirkland Lake",
+      "subdivision": "Ontario Northland Railway",
+      "lat": 48.15,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "Ontario Northland 2123 leads 211 at Dane Ontario",
+      "description_chars": 84,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
