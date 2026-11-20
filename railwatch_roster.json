@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-20T14:44:42.463352Z",
-  "total_units": 640,
+  "generated_at": "2026-11-20T23:49:13.707885Z",
+  "total_units": 642,
   "min_sightings": 2,
   "by_road": {
-    "CN": 502,
+    "CN": 503,
     "VIA": 11,
-    "CP": 124,
+    "CP": 125,
     "CPKC": 1,
     "AC": 1,
     "RUCK": 1
@@ -18568,6 +18568,54 @@
     },
     {
       "road": "CN",
+      "number": "2246",
+      "display": "CN 2246",
+      "sighting_count": 2,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-11-20",
+      "corridors": [
+        "CN Oakville Sub",
+        "CPKC Carberry Sub"
+      ],
+      "trains_led": [
+        "CN 02",
+        "CN 40"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-20",
+          "location": "Mississauga",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 02",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZPnudm-CKN8",
+          "title": "THE 2026 CPKC US HOLIDAY TRAIN! (NOV 20, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-07-11",
+          "location": "CPKC Carberry Sub",
+          "subdivision": "CPKC Carberry Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 40",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bOkqy_aolVI",
+          "title": "The 2026 CPKC Holiday Train Deadhead Move Along The Carberry",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "2247",
       "display": "CN 2247",
       "sighting_count": 2,
@@ -34292,6 +34340,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=MgFcBaGoPXs",
           "title": "Various CP Freight Trains Around Winnipeg - Late August 2026",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "2246",
+      "display": "CP 2246",
+      "sighting_count": 2,
+      "first_seen": "2026-07-11",
+      "last_seen": "2026-11-20",
+      "corridors": [
+        "CN Oakville Sub",
+        "CPKC Carberry Sub"
+      ],
+      "trains_led": [
+        "CN 02",
+        "CN 40"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-20",
+          "location": "Mississauga",
+          "subdivision": "CN Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 02",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ZPnudm-CKN8",
+          "title": "THE 2026 CPKC US HOLIDAY TRAIN! (NOV 20, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-11",
+          "location": "CPKC Carberry Sub",
+          "subdivision": "CPKC Carberry Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 40",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=bOkqy_aolVI",
+          "title": "The 2026 CPKC Holiday Train Deadhead Move Along The Carberry",
           "source": "text_extraction"
         }
       ]

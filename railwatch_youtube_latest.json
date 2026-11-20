@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-20T14:44:42.281469Z",
+  "generated_at": "2026-11-20T23:49:13.533667Z",
   "dedup_registry": {
-    "total": 1270,
+    "total": 1273,
     "by_channel": {
       "Trackside Ontario": 89,
-      "Trackside Tyson": 164,
+      "Trackside Tyson": 165,
       "Southern Ontario Railfan": 70,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 30,
       "Brockville RailFan": 423,
-      "MJM Productions": 393,
+      "MJM Productions": 395,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -19,7 +19,7 @@
     },
     "by_confidence": {
       "high": 297,
-      "medium": 876,
+      "medium": 879,
       "low": 97,
       "meta": 0
     }
@@ -35,7 +35,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 7,
+      "skipped": 8,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
@@ -84,8 +84,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 23
+      "videos": 2,
+      "skipped": 23,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -113,11 +118,107 @@
       "skipped": 0
     }
   ],
-  "total": 1270,
-  "new_this_run": 1,
+  "total": 1273,
+  "new_this_run": 3,
   "high_confidence": 297,
   "dg_likely": 214,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "ZPnudm-CKN8",
+      "video_url": "https://www.youtube.com/watch?v=ZPnudm-CKN8",
+      "title": "THE 2026 CPKC US HOLIDAY TRAIN! (NOV 20, 2026)",
+      "published_at": "2026-11-20T23:35:35Z",
+      "date": "2026-11-20",
+      "location": "Mississauga",
+      "subdivision": "CN Oakville Sub",
+      "lat": 43.589,
+      "lon": -79.6441,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 2246"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2246",
+          "raw": "CP 2246"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 02",
+          "raw": "CPKC 02"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "THE 2026 CPKC US HOLIDAY TRAIN! (NOV 20, 2026)",
+      "description_chars": 561,
+      "consist": {
+        "observed_time": "5:00",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-11-20T5:00",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "CsKergNxtXY",
+      "video_url": "https://www.youtube.com/watch?v=CsKergNxtXY",
+      "title": "HUGE DOUBLE STACK THRU THE CANYON #youtubeshorts",
+      "published_at": "2026-11-20T23:00:22Z",
+      "date": "2026-11-20",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "HUGE DOUBLE STACK THRU THE CANYON #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "BpnOGwFwxKA",
+      "video_url": "https://www.youtube.com/watch?v=BpnOGwFwxKA",
+      "title": "THE 2026 CPKC US HOLIDAY TRAIN!!!",
+      "published_at": "2026-11-20T22:08:13Z",
+      "date": "2026-11-20",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "THE 2026 CPKC US HOLIDAY TRAIN!!!",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
