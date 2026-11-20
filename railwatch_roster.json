@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-19T15:02:55.329208Z",
-  "total_units": 638,
+  "generated_at": "2026-11-20T00:26:24.601681Z",
+  "total_units": 640,
   "min_sightings": 2,
   "by_road": {
-    "CN": 501,
+    "CN": 502,
     "VIA": 11,
-    "CP": 123,
+    "CP": 124,
     "CPKC": 1,
     "AC": 1,
     "RUCK": 1
@@ -26427,6 +26427,52 @@
     },
     {
       "road": "CN",
+      "number": "5611",
+      "display": "CN 5611",
+      "sighting_count": 2,
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "corridors": [
+        "CN Oakville/Dundas Sub"
+      ],
+      "trains_led": [
+        "Z148"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-19",
+          "location": "Bayview Junction",
+          "subdivision": "CN Oakville/Dundas Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=ydvX4AsfSj4",
+          "title": "SD70i LEADER! CN 5611 at Bayview Junction (NOV 19, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-19",
+          "location": "Bayview",
+          "subdivision": "CN Oakville/Dundas Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z148",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=UJai1_rd1p8",
+          "title": "CN 5611 SD70 leads CN Z148 into Bayview",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "5612",
       "display": "CN 5612",
       "sighting_count": 2,
@@ -35028,6 +35074,50 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=JiQiXPPt6B8",
           "title": "CP 6307, CP 6222, KCS 3928 lead GPS-27",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "6256",
+      "display": "CP 6256",
+      "sighting_count": 2,
+      "first_seen": "2026-06-26",
+      "last_seen": "2026-11-19",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-19",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=I_yqd5ZEUY0",
+          "title": "CP 6242 + CP 6256 departing Palgrave south",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-06-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=kkTqfpP9HCc",
+          "title": "CP 6256 leads CPKC H78 past Drumbo",
           "source": "text_extraction"
         }
       ]

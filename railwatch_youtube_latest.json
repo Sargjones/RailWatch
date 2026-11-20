@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-19T15:02:55.136241Z",
+  "generated_at": "2026-11-20T00:26:24.429444Z",
   "dedup_registry": {
-    "total": 1260,
+    "total": 1269,
     "by_channel": {
       "Trackside Ontario": 89,
       "Trackside Tyson": 163,
-      "Southern Ontario Railfan": 65,
+      "Southern Ontario Railfan": 70,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 30,
       "Brockville RailFan": 423,
-      "MJM Productions": 389,
+      "MJM Productions": 393,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -19,13 +19,13 @@
     },
     "by_confidence": {
       "high": 297,
-      "medium": 866,
+      "medium": 875,
       "low": 97,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-11-12T00:00:00Z",
+  "since": "2026-11-13T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -39,8 +39,13 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 0,
-      "skipped": 2
+      "videos": 5,
+      "skipped": 1,
+      "high": 0,
+      "medium": 5,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 3
     },
     {
       "channel": "Trackside Tristan",
@@ -65,17 +70,12 @@
     {
       "channel": "Brockville RailFan",
       "videos": 0,
-      "skipped": 16
+      "skipped": 11
     },
     {
       "channel": "Ontario Northland Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "PTBO Railfanning",
@@ -84,8 +84,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 19
+      "videos": 4,
+      "skipped": 19,
+      "high": 0,
+      "medium": 4,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 2
     },
     {
       "channel": "Ontario Railman",
@@ -113,11 +118,290 @@
       "skipped": 0
     }
   ],
-  "total": 1260,
-  "new_this_run": 1,
+  "total": 1269,
+  "new_this_run": 9,
   "high_confidence": 297,
   "dg_likely": 214,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "I_yqd5ZEUY0",
+      "video_url": "https://www.youtube.com/watch?v=I_yqd5ZEUY0",
+      "title": "CP 6242 + CP 6256 departing Palgrave south",
+      "published_at": "2026-11-19T21:27:21Z",
+      "date": "2026-11-19",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 6242",
+        "CP 6256"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 6242",
+          "raw": "CP 6242"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 6256",
+          "raw": "CP 6256"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 6242 + CP 6256 departing Palgrave south",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "vzkVaPhBr68",
+      "video_url": "https://www.youtube.com/watch?v=vzkVaPhBr68",
+      "title": "CPKC 113 meets CPKC 2-H17 at Palgrave",
+      "published_at": "2026-11-19T21:17:18Z",
+      "date": "2026-11-19",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CPKC 113"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CPKC 113 meets CPKC 2-H17 at Palgrave",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "Akat7J-taU0",
+      "video_url": "https://www.youtube.com/watch?v=Akat7J-taU0",
+      "title": "CN Train In Oshawa ",
+      "published_at": "2026-11-19T20:03:32Z",
+      "date": "2026-11-19",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train In Oshawa ",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "qFmAC-vpg3Q",
+      "video_url": "https://www.youtube.com/watch?v=qFmAC-vpg3Q",
+      "title": "VIA Rail Train In Oshawa ",
+      "published_at": "2026-11-19T20:01:26Z",
+      "date": "2026-11-19",
+      "location": "Oshawa",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.8971,
+      "lon": -78.8658,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "VIA Rail Train In Oshawa ",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "01Ub8XsaozI",
+      "video_url": "https://www.youtube.com/watch?v=01Ub8XsaozI",
+      "title": "CN Train In Newcastle ",
+      "published_at": "2026-11-19T20:00:32Z",
+      "date": "2026-11-19",
+      "location": "CN Dundas Sub",
+      "subdivision": "CN Dundas Sub",
+      "lat": 43.1,
+      "lon": -80.5,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CN Train In Newcastle ",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "-8l_rOopQuw",
+      "video_url": "https://www.youtube.com/watch?v=-8l_rOopQuw",
+      "title": "VIA Rail Train In Newcastle ",
+      "published_at": "2026-11-19T20:00:32Z",
+      "date": "2026-11-19",
+      "location": "CN Dundas Sub",
+      "subdivision": "CN Dundas Sub",
+      "lat": 43.1,
+      "lon": -80.5,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "VIA Rail Train In Newcastle ",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Southern Ontario Railfan",
+      "channel_id": "UCojaEJ7WwqMvtlQlQdalEAA",
+      "video_id": "xsxF0PeuFM0",
+      "video_url": "https://www.youtube.com/watch?v=xsxF0PeuFM0",
+      "title": "(Fifth Double Set) VIA Rail Train In Newcastle ",
+      "published_at": "2026-11-19T19:59:00Z",
+      "date": "2026-11-19",
+      "location": "CN Dundas Sub",
+      "subdivision": "CN Dundas Sub",
+      "lat": 43.1,
+      "lon": -80.5,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "(Fifth Double Set) VIA Rail Train In Newcastle ",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "ydvX4AsfSj4",
+      "video_url": "https://www.youtube.com/watch?v=ydvX4AsfSj4",
+      "title": "SD70i LEADER! CN 5611 at Bayview Junction (NOV 19, 2026)",
+      "published_at": "2026-11-19T18:45:58Z",
+      "date": "2026-11-19",
+      "location": "Bayview Junction",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5611"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5611",
+          "raw": "CN 5611"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "SD70i LEADER! CN 5611 at Bayview Junction (NOV 19, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "UJai1_rd1p8",
+      "video_url": "https://www.youtube.com/watch?v=UJai1_rd1p8",
+      "title": "CN 5611 SD70 leads CN Z148 into Bayview",
+      "published_at": "2026-11-19T17:23:38Z",
+      "date": "2026-11-19",
+      "location": "Bayview",
+      "subdivision": "CN Oakville/Dundas Sub",
+      "lat": 43.287,
+      "lon": -79.776,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 5611"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 5611",
+          "raw": "CN 5611"
+        },
+        {
+          "road": "CN",
+          "symbol": "Z148",
+          "raw": "Z148"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 5611 SD70 leads CN Z148 into Bayview",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
