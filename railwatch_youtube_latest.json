@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-20T00:26:24.429444Z",
+  "generated_at": "2026-11-20T14:44:42.281469Z",
   "dedup_registry": {
-    "total": 1269,
+    "total": 1270,
     "by_channel": {
       "Trackside Ontario": 89,
-      "Trackside Tyson": 163,
+      "Trackside Tyson": 164,
       "Southern Ontario Railfan": 70,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
@@ -19,7 +19,7 @@
     },
     "by_confidence": {
       "high": 297,
-      "medium": 875,
+      "medium": 876,
       "low": 97,
       "meta": 0
     }
@@ -34,18 +34,18 @@
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 7
+      "videos": 1,
+      "skipped": 7,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 5,
-      "skipped": 1,
-      "high": 0,
-      "medium": 5,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 3
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Trackside Tristan",
@@ -84,13 +84,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 4,
-      "skipped": 19,
-      "high": 0,
-      "medium": 4,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 2
+      "videos": 0,
+      "skipped": 23
     },
     {
       "channel": "Ontario Railman",
@@ -118,8 +113,8 @@
       "skipped": 0
     }
   ],
-  "total": 1269,
-  "new_this_run": 9,
+  "total": 1270,
+  "new_this_run": 1,
   "high_confidence": 297,
   "dg_likely": 214,
   "observations": [
@@ -540,6 +535,32 @@
       "consist": null,
       "dg_candidate": true,
       "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "qNsyjJd3R9E",
+      "video_url": "https://www.youtube.com/watch?v=qNsyjJd3R9E",
+      "title": "COAL TRAINS THRU AUTUMN IN THE CANYON",
+      "published_at": "2026-11-18T20:16:00Z",
+      "date": "2026-11-18",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "gondola",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "COAL TRAINS THRU AUTUMN IN THE CANYON",
+      "description_chars": 444,
+      "consist": null,
+      "location_source": "none"
     },
     {
       "source": "youtube",
