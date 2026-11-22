@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-21T22:55:30.643020Z",
+  "generated_at": "2026-11-22T13:54:17.847501Z",
   "dedup_registry": {
-    "total": 1273,
+    "total": 1274,
     "by_channel": {
       "Trackside Ontario": 89,
-      "Trackside Tyson": 165,
+      "Trackside Tyson": 166,
       "Southern Ontario Railfan": 70,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
@@ -20,22 +20,27 @@
     "by_confidence": {
       "high": 297,
       "medium": 879,
-      "low": 97,
+      "low": 98,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-11-14T00:00:00Z",
+  "since": "2026-11-15T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
       "videos": 0,
-      "skipped": 2
+      "skipped": 1
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 8
+      "videos": 1,
+      "skipped": 6,
+      "high": 0,
+      "medium": 0,
+      "low_meta": 1,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -80,7 +85,7 @@
     {
       "channel": "MJM Productions",
       "videos": 0,
-      "skipped": 21
+      "skipped": 16
     },
     {
       "channel": "Ontario Railman",
@@ -108,11 +113,37 @@
       "skipped": 0
     }
   ],
-  "total": 1273,
-  "new_this_run": 0,
+  "total": 1274,
+  "new_this_run": 1,
   "high_confidence": 297,
   "dg_likely": 214,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "7C8UUXtyXX0",
+      "video_url": "https://www.youtube.com/watch?v=7C8UUXtyXX0",
+      "title": "BCRAIL HERITAGE THRU AUTUMN TREES #youtubeshorts",
+      "published_at": "2026-11-21T23:00:13Z",
+      "date": "2026-11-21",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "low",
+      "raw_title": "BCRAIL HERITAGE THRU AUTUMN TREES #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
