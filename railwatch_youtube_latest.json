@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-22T13:54:17.847501Z",
+  "generated_at": "2026-11-22T23:25:43.611710Z",
   "dedup_registry": {
-    "total": 1274,
+    "total": 1275,
     "by_channel": {
       "Trackside Ontario": 89,
-      "Trackside Tyson": 166,
+      "Trackside Tyson": 167,
       "Southern Ontario Railfan": 70,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
@@ -19,7 +19,7 @@
     },
     "by_confidence": {
       "high": 297,
-      "medium": 879,
+      "medium": 880,
       "low": 98,
       "meta": 0
     }
@@ -35,11 +35,11 @@
     {
       "channel": "Trackside Tyson",
       "videos": 1,
-      "skipped": 6,
+      "skipped": 7,
       "high": 0,
-      "medium": 0,
-      "low_meta": 1,
-      "dg_likely": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 1,
       "defaulted": 0
     },
     {
@@ -113,11 +113,37 @@
       "skipped": 0
     }
   ],
-  "total": 1274,
+  "total": 1275,
   "new_this_run": 1,
   "high_confidence": 297,
-  "dg_likely": 214,
+  "dg_likely": 215,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "gEuDU1z3V1o",
+      "video_url": "https://www.youtube.com/watch?v=gEuDU1z3V1o",
+      "title": "CPKC FREIGHTS WORKING HARD THRU THE MIGHTY FRASER CANYON",
+      "published_at": "2026-11-22T19:30:08Z",
+      "date": "2026-11-22",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "CPKC FREIGHTS WORKING HARD THRU THE MIGHTY FRASER CANYON",
+      "description_chars": 493,
+      "consist": null,
+      "location_source": "none"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
