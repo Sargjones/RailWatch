@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-24T03:53:48.472147Z",
-    "total_videos": 1283
+    "updated_at": "2026-11-24T16:50:36.933941Z",
+    "total_videos": 1286
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7702,6 +7702,24 @@
       "title": "VIA Rail Train In Newcastle",
       "confidence": "medium",
       "processed_at": "2026-11-24T03:53:45.629363Z"
+    },
+    "aTNI0KJG2b0": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 24, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-24T16:50:35.197577Z"
+    },
+    "moGxuXzNexE": {
+      "channel": "Brockville RailFan",
+      "title": "Hi-Rail Excavator November 24, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-24T16:50:35.197987Z"
+    },
+    "zSpG5YZRqq0": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound November 24, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-24T16:50:35.198183Z"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-24T03:53:48.635572Z",
-  "total_units": 648,
+  "generated_at": "2026-11-24T16:50:37.115002Z",
+  "total_units": 649,
   "min_sightings": 2,
   "by_road": {
-    "CN": 509,
+    "CN": 510,
     "VIA": 11,
     "CP": 125,
     "CPKC": 1,
@@ -7326,6 +7326,82 @@
           "video_url": "https://www.youtube.com/watch?v=pCR6efe5QqI",
           "title": "CN Train 322 Setting Off October 22, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2764",
+      "display": "CN 2764",
+      "sighting_count": 4,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-11-24",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Halton Sub"
+      ],
+      "trains_led": [
+        "CN 149",
+        "Z115",
+        "Q107"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-24",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zSpG5YZRqq0",
+          "title": "CN Train 149 Westbound November 24, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-24",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zSpG5YZRqq0",
+          "title": "CN Train 149 Westbound November 24, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Q107",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=pYEAOT_gqbs",
+          "title": "CN 3199 + CN 2764 lead CN Q107 north",
+          "source": "text_extraction"
         }
       ]
     },
@@ -20465,54 +20541,6 @@
     },
     {
       "road": "CN",
-      "number": "2764",
-      "display": "CN 2764",
-      "sighting_count": 2,
-      "first_seen": "2026-10-16",
-      "last_seen": "2026-10-16",
-      "corridors": [
-        "CN Halton Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "Z115",
-        "Q107"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-10-16",
-          "location": "Brampton",
-          "subdivision": "CN Halton Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Z115",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
-          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-10-16",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "Q107",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=pYEAOT_gqbs",
-          "title": "CN 3199 + CN 2764 lead CN Q107 north",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CN",
       "number": "2769",
       "display": "CN 2769",
       "sighting_count": 2,
@@ -21590,6 +21618,53 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=HnRVvjYySQM",
           "title": "CN Train 278 Eastbound November 4, 2026",
+          "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2861",
+      "display": "CN 2861",
+      "sighting_count": 2,
+      "first_seen": "2026-11-24",
+      "last_seen": "2026-11-24",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 149"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-24",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zSpG5YZRqq0",
+          "title": "CN Train 149 Westbound November 24, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-24",
+          "location": "Brockville",
+          "subdivision": "CN Kingston Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 149",
+          "direction": "West",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=zSpG5YZRqq0",
+          "title": "CN Train 149 Westbound November 24, 2026",
           "source": "description_structured"
         }
       ]
