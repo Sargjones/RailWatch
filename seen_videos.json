@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-23T17:05:36.741383Z",
-    "total_videos": 1282
+    "updated_at": "2026-11-24T03:53:48.472147Z",
+    "total_videos": 1283
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7696,6 +7696,12 @@
       "title": "CN Train 368 Eastbound November 21, 2026",
       "confidence": "high",
       "processed_at": "2026-11-23T17:05:35.112299Z"
+    },
+    "QitI5_c8Xls": {
+      "channel": "Southern Ontario Railfan",
+      "title": "VIA Rail Train In Newcastle",
+      "confidence": "medium",
+      "processed_at": "2026-11-24T03:53:45.629363Z"
     }
   }
 }
