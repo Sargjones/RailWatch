@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T16:50:37.115002Z",
-  "total_units": 649,
+  "generated_at": "2026-11-25T02:03:29.131261Z",
+  "total_units": 652,
   "min_sightings": 2,
   "by_road": {
-    "CN": 510,
+    "CN": 511,
     "VIA": 11,
-    "CP": 125,
+    "CP": 127,
     "CPKC": 1,
     "AC": 1,
     "RUCK": 1
@@ -30931,6 +30931,54 @@
     },
     {
       "road": "CN",
+      "number": "8944",
+      "display": "CN 8944",
+      "sighting_count": 2,
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-11-24",
+      "corridors": [
+        "CPKC MacTier Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 113",
+        "CN 240"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-24",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 113",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lSBwLgz6d88",
+          "title": "SUPER SPEED! CP 8944 at Spence Yard (NOV 24, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-10-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 240",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NpjUt0JKwCM",
+          "title": "Cool Action on CP Lines Around Winnipeg - Early to Mid Octob",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "8954",
       "display": "CN 8954",
       "sighting_count": 2,
@@ -37571,6 +37619,53 @@
     },
     {
       "road": "CP",
+      "number": "8156",
+      "display": "CP 8156",
+      "sighting_count": 2,
+      "first_seen": "2026-10-03",
+      "last_seen": "2026-11-24",
+      "corridors": [
+        "CPKC MacTier Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "CN 113"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-24",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 113",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lSBwLgz6d88",
+          "title": "SUPER SPEED! CP 8944 at Spence Yard (NOV 24, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-03",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=S7xjXR5KOWw",
+          "title": "CP 8156 leads an early morning CPKC 2-421",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "8160",
       "display": "CP 8160",
       "sighting_count": 2,
@@ -38224,6 +38319,54 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=qmmL5l6cPLA",
           "title": "CP 9839 + CP 8943 + KCS 4614 lead CPKC 2-132",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
+      "number": "8944",
+      "display": "CP 8944",
+      "sighting_count": 2,
+      "first_seen": "2026-10-20",
+      "last_seen": "2026-11-24",
+      "corridors": [
+        "CPKC MacTier Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 113",
+        "CN 240"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-24",
+          "location": "MacTier",
+          "subdivision": "CPKC MacTier Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 113",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=lSBwLgz6d88",
+          "title": "SUPER SPEED! CP 8944 at Spence Yard (NOV 24, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-20",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "CN 240",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=NpjUt0JKwCM",
+          "title": "Cool Action on CP Lines Around Winnipeg - Early to Mid Octob",
           "source": "text_extraction"
         }
       ]

@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-24T16:50:36.950371Z",
+  "generated_at": "2026-11-25T02:03:28.997925Z",
   "dedup_registry": {
-    "total": 1286,
+    "total": 1290,
     "by_channel": {
-      "Trackside Ontario": 90,
-      "Trackside Tyson": 167,
+      "Trackside Ontario": 91,
+      "Trackside Tyson": 168,
       "Southern Ontario Railfan": 71,
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 30,
       "Brockville RailFan": 432,
-      "MJM Productions": 395,
+      "MJM Productions": 397,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -19,23 +19,33 @@
     },
     "by_confidence": {
       "high": 303,
-      "medium": 885,
+      "medium": 889,
       "low": 98,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-11-17T00:00:00Z",
+  "since": "2026-11-18T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 0,
-      "skipped": 2
+      "videos": 1,
+      "skipped": 1,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 0,
-      "skipped": 5
+      "videos": 1,
+      "skipped": 5,
+      "high": 0,
+      "medium": 1,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 0
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -60,17 +70,12 @@
     {
       "channel": "Rail Fans Canada",
       "videos": 0,
-      "skipped": 1
+      "skipped": 0
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 3,
-      "skipped": 11,
-      "high": 1,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 11
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -84,8 +89,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 8
+      "videos": 2,
+      "skipped": 8,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -113,11 +123,149 @@
       "skipped": 0
     }
   ],
-  "total": 1286,
-  "new_this_run": 3,
+  "total": 1290,
+  "new_this_run": 4,
   "high_confidence": 303,
   "dg_likely": 220,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Tyson",
+      "channel_id": "UC_uOfTPvNmHJdUNKeaoZ-aA",
+      "video_id": "cxnvH93XeOk",
+      "video_url": "https://www.youtube.com/watch?v=cxnvH93XeOk",
+      "title": "GRAIN TRAIN OVER HARRISON RIVER #youtubeshorts",
+      "published_at": "2026-11-24T23:15:29Z",
+      "date": "2026-11-24",
+      "location": null,
+      "subdivision": null,
+      "lat": null,
+      "lon": null,
+      "direction": null,
+      "commodity_type": "hopper",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "GRAIN TRAIN OVER HARRISON RIVER #youtubeshorts",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "none"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Trackside Ontario",
+      "channel_id": "UCLZtQIlW2g6tOFh5EBkypdw",
+      "video_id": "FOEbaXj3lc0",
+      "video_url": "https://www.youtube.com/watch?v=FOEbaXj3lc0",
+      "title": "CP 7521 W at MP 38.5 CPKC Galt Subdivision \u2022 November 24, 2026",
+      "published_at": "2026-11-24T23:14:29Z",
+      "date": "2026-11-24",
+      "location": "CPKC Galt Sub",
+      "subdivision": "CPKC Galt Sub",
+      "lat": 43.4,
+      "lon": -80.5,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 7521"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 7521",
+          "raw": "CP 7521"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CP 7521 W at MP 38.5 CPKC Galt Subdivision \u2022 November 24, 2026",
+      "description_chars": 69,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "lSBwLgz6d88",
+      "video_url": "https://www.youtube.com/watch?v=lSBwLgz6d88",
+      "title": "SUPER SPEED! CP 8944 at Spence Yard (NOV 24, 2026)",
+      "published_at": "2026-11-24T22:30:01Z",
+      "date": "2026-11-24",
+      "location": "MacTier",
+      "subdivision": "CPKC MacTier Sub",
+      "lat": 44.95,
+      "lon": -79.73,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CP 8944",
+        "CPKC 113",
+        "CP 8156"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 8944",
+          "raw": "CP 8944"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 113",
+          "raw": "CPKC 113"
+        },
+        {
+          "road": "CPKC",
+          "symbol": "CP 8156",
+          "raw": "CP 8156"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "SUPER SPEED! CP 8944 at Spence Yard (NOV 24, 2026)",
+      "description_chars": 482,
+      "consist": {
+        "observed_time": "3:05",
+        "observed_tz": "LOCAL"
+      },
+      "observed_at": "2026-11-24T3:05",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "iP4uOhqzYYg",
+      "video_url": "https://www.youtube.com/watch?v=iP4uOhqzYYg",
+      "title": "A non CPKC powered 113 flies past Spence",
+      "published_at": "2026-11-24T20:15:05Z",
+      "date": "2026-11-24",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "A non CPKC powered 113 flies past Spence",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
