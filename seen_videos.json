@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-25T02:03:28.984389Z",
-    "total_videos": 1290
+    "updated_at": "2026-11-25T16:38:46.264377Z",
+    "total_videos": 1294
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7744,6 +7744,30 @@
       "title": "A non CPKC powered 113 flies past Spence",
       "confidence": "medium",
       "processed_at": "2026-11-25T02:03:27.997180Z"
+    },
+    "4v2zbkgHp2c": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 25, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-25T16:38:44.825130Z"
+    },
+    "KaehQ1Fl_Z8": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 149 Westbound November 25, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-25T16:38:44.825346Z"
+    },
+    "YzmtHZhuml8": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Test Train 657 (Lumi) Westbound November 25, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-25T16:38:44.825524Z"
+    },
+    "OfmZJVVR-5A": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 731 Westbound November 25, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-25T16:38:44.825696Z"
     }
   }
 }

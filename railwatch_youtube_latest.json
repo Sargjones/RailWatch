@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T02:03:28.997925Z",
+  "generated_at": "2026-11-25T16:38:46.283412Z",
   "dedup_registry": {
-    "total": 1290,
+    "total": 1294,
     "by_channel": {
       "Trackside Ontario": 91,
       "Trackside Tyson": 168,
@@ -9,7 +9,7 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 30,
-      "Brockville RailFan": 432,
+      "Brockville RailFan": 436,
       "MJM Productions": 397,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
@@ -18,8 +18,8 @@
       "Ontario Northland Railfan": 2
     },
     "by_confidence": {
-      "high": 303,
-      "medium": 889,
+      "high": 305,
+      "medium": 891,
       "low": 98,
       "meta": 0
     }
@@ -29,23 +29,13 @@
   "channels": [
     {
       "channel": "Trackside Ontario",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "Trackside Tyson",
-      "videos": 1,
-      "skipped": 5,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 6
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -74,8 +64,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 11
+      "videos": 4,
+      "skipped": 11,
+      "high": 2,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 1,
+      "defaulted": 0
     },
     {
       "channel": "Ontario Northland Railfan",
@@ -89,13 +84,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 2,
-      "skipped": 8,
-      "high": 0,
-      "medium": 2,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 10
     },
     {
       "channel": "Ontario Railman",
@@ -123,11 +113,222 @@
       "skipped": 0
     }
   ],
-  "total": 1290,
+  "total": 1294,
   "new_this_run": 4,
-  "high_confidence": 303,
-  "dg_likely": 220,
+  "high_confidence": 305,
+  "dg_likely": 221,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "4v2zbkgHp2c",
+      "video_url": "https://www.youtube.com/watch?v=4v2zbkgHp2c",
+      "title": "VIA Train 61 Westbound November 25, 2026",
+      "published_at": "2026-11-25T15:04:14Z",
+      "date": "2026-11-25",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound November 25, 2026",
+      "description_chars": 222,
+      "consist": {
+        "speed_kmh": 93,
+        "speed_raw": "58 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:59",
+        "observed_tz": "EST",
+        "temperature_c": -4,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-25T08:59-05:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "KaehQ1Fl_Z8",
+      "video_url": "https://www.youtube.com/watch?v=KaehQ1Fl_Z8",
+      "title": "CN Train 149 Westbound November 25, 2026",
+      "published_at": "2026-11-25T14:58:02Z",
+      "date": "2026-11-25",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "intermodal",
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 3392",
+        "CN 3249"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 149",
+          "raw": "CN Train 149"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3392",
+          "raw": "CN 3392"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3249",
+          "raw": "CN 3249"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 149 Westbound November 25, 2026",
+      "description_chars": 217,
+      "consist": {
+        "engines": [
+          "CN 3392",
+          "CN 3249"
+        ],
+        "car_count": 198,
+        "car_count_note": "(wells)",
+        "consist_type": "freight",
+        "speed_kmh": 66,
+        "speed_raw": "41 mph",
+        "detector_milepost": 124,
+        "observed_time": "08:40",
+        "observed_tz": "EST",
+        "temperature_c": -5,
+        "origin": "Montreal Intermodal QC",
+        "destination": "Chicago Intermodal IL"
+      },
+      "observed_at": "2026-11-25T08:40-05:00",
+      "origin": "Montreal Intermodal QC",
+      "destination": "Chicago Intermodal IL",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "YzmtHZhuml8",
+      "video_url": "https://www.youtube.com/watch?v=YzmtHZhuml8",
+      "title": "VIA Test Train 657 (Lumi) Westbound November 25, 2026",
+      "published_at": "2026-11-25T14:45:28Z",
+      "date": "2026-11-25",
+      "location": "Smiths Falls",
+      "subdivision": "CN Smiths Falls Sub",
+      "lat": 44.899,
+      "lon": -76.022,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "VIA Test Train 657 (Lumi) Westbound November 25, 2026",
+      "description_chars": 264,
+      "consist": {
+        "observed_time": "08:10",
+        "observed_tz": "EST",
+        "temperature_c": -6,
+        "origin": "Smiths Falls  ON",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-25T08:10-05:00",
+      "origin": "Smiths Falls  ON",
+      "destination": "Toronto ON",
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "OfmZJVVR-5A",
+      "video_url": "https://www.youtube.com/watch?v=OfmZJVVR-5A",
+      "title": "CN Train 731 Westbound November 25, 2026",
+      "published_at": "2026-11-25T14:38:00Z",
+      "date": "2026-11-25",
+      "location": "Brockville",
+      "subdivision": "CN Kingston Sub",
+      "lat": 44.58,
+      "lon": -75.7,
+      "direction": "West",
+      "commodity_type": "mixed",
+      "dg_likely": true,
+      "un_number": null,
+      "locomotives": [
+        "CN 3136",
+        "CN 3418"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 731",
+          "raw": "CN Train 731"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3136",
+          "raw": "CN 3136"
+        },
+        {
+          "road": "CN",
+          "symbol": "CN 3418",
+          "raw": "CN 3418"
+        }
+      ],
+      "confidence": "high",
+      "raw_title": "CN Train 731 Westbound November 25, 2026",
+      "description_chars": 202,
+      "consist": {
+        "engines": [
+          "CN 3136"
+        ],
+        "dpu": [
+          "CN 3418"
+        ],
+        "car_count": 183,
+        "consist_type": "freight",
+        "speed_kmh": 58,
+        "speed_raw": "36 mph",
+        "detector_milepost": 137,
+        "observed_time": "07:37",
+        "observed_tz": "EST",
+        "temperature_c": -7,
+        "origin": "Moncton NB",
+        "destination": "Yarbo SK"
+      },
+      "observed_at": "2026-11-25T07:37-05:00",
+      "origin": "Moncton NB",
+      "destination": "Yarbo SK",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
