@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-26T01:41:14.291068Z",
-    "total_videos": 1294
+    "updated_at": "2026-11-26T16:12:00.041414Z",
+    "total_videos": 1298
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7768,6 +7768,30 @@
       "title": "CN Train 731 Westbound November 25, 2026",
       "confidence": "high",
       "processed_at": "2026-11-25T16:38:44.825696Z"
+    },
+    "ZBWuD4YaJsE": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 26, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-26T16:11:58.426469Z"
+    },
+    "DFazNzKC9Tk": {
+      "channel": "Brockville RailFan",
+      "title": "CN Train 322 Eastbound November 26, 2026",
+      "confidence": "high",
+      "processed_at": "2026-11-26T16:11:58.426603Z"
+    },
+    "8Zo3IbUtALE": {
+      "channel": "MJM Productions",
+      "title": "KCSM 4661 + CP 9762 lead CPKC 119",
+      "confidence": "medium",
+      "processed_at": "2026-11-26T16:11:59.109787Z"
+    },
+    "eK8yMqNqrHg": {
+      "channel": "MJM Productions",
+      "title": "CP 8637 blasting its K5LA horn thru Palgrave",
+      "confidence": "medium",
+      "processed_at": "2026-11-26T16:11:59.109926Z"
     }
   }
 }

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-26T01:41:14.453339Z",
-  "total_units": 653,
+  "generated_at": "2026-11-26T16:12:00.182951Z",
+  "total_units": 655,
   "min_sightings": 2,
   "by_road": {
-    "CN": 512,
+    "CN": 514,
     "VIA": 11,
     "CP": 127,
     "CPKC": 1,
@@ -15736,6 +15736,68 @@
     },
     {
       "road": "CN",
+      "number": "3155",
+      "display": "CN 3155",
+      "sighting_count": 3,
+      "first_seen": "2026-10-16",
+      "last_seen": "2026-11-26",
+      "corridors": [
+        "CN Kingston/Oakville Sub",
+        "CN Halton Sub"
+      ],
+      "trains_led": [
+        "CN 322",
+        "Z115"
+      ],
+      "dpu_confirmed": true,
+      "roles_seen": [
+        "unknown",
+        "dpu"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=DFazNzKC9Tk",
+          "title": "CN Train 322 Eastbound November 26, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "dpu",
+          "dpu": true,
+          "video_url": "https://www.youtube.com/watch?v=DFazNzKC9Tk",
+          "title": "CN Train 322 Eastbound November 26, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-10-16",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "Z115",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W3rVUHlozXE",
+          "title": "FALL COLOURS! Railfanning at Parry Sound, ON (OCT 16, 2026)",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "3185",
       "display": "CN 3185",
       "sighting_count": 3,
@@ -16531,6 +16593,67 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=hEe_bI5-pbg",
           "title": "CN Train 149 Westbound Meets CN Train 322 Setting Off Octobe",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "3821",
+      "display": "CN 3821",
+      "sighting_count": 3,
+      "first_seen": "2026-09-27",
+      "last_seen": "2026-11-26",
+      "corridors": [
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 322",
+        "G894"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown",
+        "lead"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=DFazNzKC9Tk",
+          "title": "CN Train 322 Eastbound November 26, 2026",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Brockville RailFan",
+          "train_symbol": "CN 322",
+          "direction": "East",
+          "role": "lead",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=DFazNzKC9Tk",
+          "title": "CN Train 322 Eastbound November 26, 2026",
+          "source": "description_structured"
+        },
+        {
+          "date": "2026-09-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "Central Canada Railfan",
+          "train_symbol": "G894",
+          "direction": "East",
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=0TaYgelPB04",
+          "title": "CN Trains at St. James Junction and A Bit Around Winnipeg - ",
           "source": "text_extraction"
         }
       ]
@@ -33238,6 +33361,80 @@
     },
     {
       "road": "CP",
+      "number": "8637",
+      "display": "CP 8637",
+      "sighting_count": 4,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-11-26",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 119",
+        "CN 132"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eK8yMqNqrHg",
+          "title": "CP 8637 blasting its K5LA horn thru Palgrave",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 119",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GZ7M_WMCsrM",
+          "title": "Railfanning CPKC at Kleinburg, ON (OCT 23, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 132",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
+          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=e0OdcxnKlU0",
+          "title": "CP 8621 + CP 8637 lead CPKC H19 east",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "8747",
       "display": "CP 8747",
       "sighting_count": 4,
@@ -34607,67 +34804,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=Ayeq0WYLQMU",
           "title": "Two Decent Lashups on the CPKC mactier sub (JUN 9, 2026)",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "8637",
-      "display": "CP 8637",
-      "sighting_count": 3,
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-10-23",
-      "corridors": [
-        "CN Kingston/Oakville Sub",
-        "CN Kingston Sub"
-      ],
-      "trains_led": [
-        "CN 119",
-        "CN 132"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-10-23",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 119",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GZ7M_WMCsrM",
-          "title": "Railfanning CPKC at Kleinburg, ON (OCT 23, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-21",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 132",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
-          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-21",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=e0OdcxnKlU0",
-          "title": "CP 8621 + CP 8637 lead CPKC H19 east",
           "source": "text_extraction"
         }
       ]
