@@ -1,8 +1,8 @@
 {
   "meta": {
     "description": "RailWatch processed video registry",
-    "updated_at": "2026-11-27T01:35:28.536996Z",
-    "total_videos": 1304
+    "updated_at": "2026-11-27T15:57:33.559020Z",
+    "total_videos": 1306
   },
   "videos": {
     "yCr7cRcVcDE": {
@@ -7828,6 +7828,18 @@
       "title": "K5LA HORN! CP 8637 at Palgrave, ON (NOV 26, 2026)",
       "confidence": "medium",
       "processed_at": "2026-11-27T01:35:27.471524Z"
+    },
+    "04bBDDJwp7M": {
+      "channel": "Brockville RailFan",
+      "title": "VIA Train 61 Westbound November 27, 2026",
+      "confidence": "medium",
+      "processed_at": "2026-11-27T15:57:32.291154Z"
+    },
+    "4JWWjzW1LHw": {
+      "channel": "Ontario Northland Railfan",
+      "title": "New Ontario Northland power on the KL subdivision ",
+      "confidence": "medium",
+      "processed_at": "2026-11-27T15:57:32.501809Z"
     }
   }
 }

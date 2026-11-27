@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T01:35:28.547522Z",
+  "generated_at": "2026-11-27T15:57:33.614392Z",
   "dedup_registry": {
-    "total": 1304,
+    "total": 1306,
     "by_channel": {
       "Trackside Ontario": 91,
       "Trackside Tyson": 168,
@@ -9,17 +9,17 @@
       "Trackside Tristan": 12,
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 31,
-      "Brockville RailFan": 438,
+      "Brockville RailFan": 439,
       "MJM Productions": 400,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
       "The Cando Railfan": 6,
-      "Ontario Northland Railfan": 3
+      "Ontario Northland Railfan": 4
     },
     "by_confidence": {
       "high": 306,
-      "medium": 900,
+      "medium": 902,
       "low": 98,
       "meta": 0
     }
@@ -39,13 +39,8 @@
     },
     {
       "channel": "Southern Ontario Railfan",
-      "videos": 3,
-      "skipped": 1,
-      "high": 0,
-      "medium": 3,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 4
     },
     {
       "channel": "Trackside Tristan",
@@ -64,8 +59,13 @@
     },
     {
       "channel": "Rail Fans Canada",
+      "videos": 0,
+      "skipped": 1
+    },
+    {
+      "channel": "Brockville RailFan",
       "videos": 1,
-      "skipped": 0,
+      "skipped": 15,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
@@ -73,14 +73,9 @@
       "defaulted": 0
     },
     {
-      "channel": "Brockville RailFan",
-      "videos": 0,
-      "skipped": 15
-    },
-    {
       "channel": "Ontario Northland Railfan",
       "videos": 1,
-      "skipped": 0,
+      "skipped": 1,
       "high": 0,
       "medium": 1,
       "low_meta": 0,
@@ -94,13 +89,8 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 1,
-      "skipped": 6,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 7
     },
     {
       "channel": "Ontario Railman",
@@ -128,11 +118,82 @@
       "skipped": 0
     }
   ],
-  "total": 1304,
-  "new_this_run": 6,
+  "total": 1306,
+  "new_this_run": 2,
   "high_confidence": 306,
   "dg_likely": 222,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Brockville RailFan",
+      "channel_id": "UCdBR6gWk5pSjXxoG7EoNMEA",
+      "video_id": "04bBDDJwp7M",
+      "video_url": "https://www.youtube.com/watch?v=04bBDDJwp7M",
+      "title": "VIA Train 61 Westbound November 27, 2026",
+      "published_at": "2026-11-27T14:32:09Z",
+      "date": "2026-11-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston/Oakville Sub",
+      "lat": 43.645,
+      "lon": -79.38,
+      "direction": "West",
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 61",
+          "raw": "VIA Train 61"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "VIA Train 61 Westbound November 27, 2026",
+      "description_chars": 219,
+      "consist": {
+        "speed_kmh": 93,
+        "speed_raw": "58 mph",
+        "detector_milepost": 124,
+        "observed_time": "09:00",
+        "observed_tz": "EST",
+        "temperature_c": 0,
+        "origin": "Montreal QC",
+        "destination": "Toronto ON"
+      },
+      "observed_at": "2026-11-27T09:00-05:00",
+      "origin": "Montreal QC",
+      "destination": "Toronto ON",
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "Ontario Northland Railfan",
+      "channel_id": "UC6X-uZ6i0sXin0PRKUCYkpw",
+      "video_id": "4JWWjzW1LHw",
+      "video_url": "https://www.youtube.com/watch?v=4JWWjzW1LHw",
+      "title": "New Ontario Northland power on the KL subdivision ",
+      "published_at": "2026-11-27T04:18:36Z",
+      "date": "2026-11-27",
+      "location": "Kirkland Lake",
+      "subdivision": "Ontario Northland Railway",
+      "lat": 48.15,
+      "lon": -80.04,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": null,
+      "train_symbols": null,
+      "confidence": "medium",
+      "raw_title": "New Ontario Northland power on the KL subdivision ",
+      "description_chars": 66,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",
