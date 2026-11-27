@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-26T16:12:00.182951Z",
-  "total_units": 655,
+  "generated_at": "2026-11-27T01:35:28.660398Z",
+  "total_units": 656,
   "min_sightings": 2,
   "by_road": {
-    "CN": 514,
+    "CN": 515,
     "VIA": 11,
     "CP": 127,
     "CPKC": 1,
@@ -30235,6 +30235,50 @@
     },
     {
       "road": "CN",
+      "number": "8637",
+      "display": "CN 8637",
+      "sighting_count": 2,
+      "first_seen": "2026-11-26",
+      "last_seen": "2026-11-26",
+      "corridors": [
+        "CN Kingston Sub"
+      ],
+      "trains_led": [],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-t2lS6elcZg",
+          "title": "K5LA HORN! CP 8637 at Palgrave, ON (NOV 26, 2026)",
+          "source": "symbol_extraction"
+        },
+        {
+          "date": "2026-11-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eK8yMqNqrHg",
+          "title": "CP 8637 blasting its K5LA horn thru Palgrave",
+          "source": "symbol_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CN",
       "number": "8648",
       "display": "CN 8648",
       "sighting_count": 2,
@@ -32676,6 +32720,93 @@
     },
     {
       "road": "CP",
+      "number": "8637",
+      "display": "CP 8637",
+      "sighting_count": 5,
+      "first_seen": "2026-07-21",
+      "last_seen": "2026-11-26",
+      "corridors": [
+        "CN Kingston Sub",
+        "CN Kingston/Oakville Sub"
+      ],
+      "trains_led": [
+        "CN 119",
+        "CN 132"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=-t2lS6elcZg",
+          "title": "K5LA HORN! CP 8637 at Palgrave, ON (NOV 26, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-26",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=eK8yMqNqrHg",
+          "title": "CP 8637 blasting its K5LA horn thru Palgrave",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-10-23",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 119",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=GZ7M_WMCsrM",
+          "title": "Railfanning CPKC at Kleinburg, ON (OCT 23, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston/Oakville Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "CN 132",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
+          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-07-21",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=e0OdcxnKlU0",
+          "title": "CP 8621 + CP 8637 lead CPKC H19 east",
+          "source": "text_extraction"
+        }
+      ]
+    },
+    {
+      "road": "CP",
       "number": "8877",
       "display": "CP 8877",
       "sighting_count": 5,
@@ -33355,80 +33486,6 @@
           "dpu": false,
           "video_url": "https://www.youtube.com/watch?v=1pVCnF-QVfY",
           "title": "Freshly new CP 7604 leads CPKC 2-114 south",
-          "source": "text_extraction"
-        }
-      ]
-    },
-    {
-      "road": "CP",
-      "number": "8637",
-      "display": "CP 8637",
-      "sighting_count": 4,
-      "first_seen": "2026-07-21",
-      "last_seen": "2026-11-26",
-      "corridors": [
-        "CN Kingston Sub",
-        "CN Kingston/Oakville Sub"
-      ],
-      "trains_led": [
-        "CN 119",
-        "CN 132"
-      ],
-      "dpu_confirmed": false,
-      "roles_seen": [
-        "unknown"
-      ],
-      "sightings": [
-        {
-          "date": "2026-11-26",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=eK8yMqNqrHg",
-          "title": "CP 8637 blasting its K5LA horn thru Palgrave",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-10-23",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 119",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=GZ7M_WMCsrM",
-          "title": "Railfanning CPKC at Kleinburg, ON (OCT 23, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-21",
-          "location": "Toronto",
-          "subdivision": "CN Kingston/Oakville Sub",
-          "channel": "MJM Productions",
-          "train_symbol": "CN 132",
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=P1pObQVxInU",
-          "title": "AC4400 LEADERS! Railfanning at Pickering, ON (JUL 21, 2026)",
-          "source": "text_extraction"
-        },
-        {
-          "date": "2026-07-21",
-          "location": "Toronto",
-          "subdivision": "CN Kingston Sub",
-          "channel": "MJM Productions",
-          "train_symbol": null,
-          "direction": null,
-          "role": "unknown",
-          "dpu": false,
-          "video_url": "https://www.youtube.com/watch?v=e0OdcxnKlU0",
-          "title": "CP 8621 + CP 8637 lead CPKC H19 east",
           "source": "text_extraction"
         }
       ]
