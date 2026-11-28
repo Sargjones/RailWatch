@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-27T15:57:33.614392Z",
+  "generated_at": "2026-11-28T01:15:11.418083Z",
   "dedup_registry": {
-    "total": 1306,
+    "total": 1308,
     "by_channel": {
       "Trackside Ontario": 91,
       "Trackside Tyson": 168,
@@ -10,7 +10,7 @@
       "Scott Rails (Chasing The Money Shot)": 31,
       "Rail Fans Canada": 31,
       "Brockville RailFan": 439,
-      "MJM Productions": 400,
+      "MJM Productions": 402,
       "Central Canada Railfan": 27,
       "Winnipeg Railman": 3,
       "PTBO Railfanning": 20,
@@ -19,13 +19,13 @@
     },
     "by_confidence": {
       "high": 306,
-      "medium": 902,
+      "medium": 904,
       "low": 98,
       "meta": 0
     }
   },
   "days_back": 7,
-  "since": "2026-11-20T00:00:00Z",
+  "since": "2026-11-21T00:00:00Z",
   "channels": [
     {
       "channel": "Trackside Ontario",
@@ -35,7 +35,7 @@
     {
       "channel": "Trackside Tyson",
       "videos": 0,
-      "skipped": 5
+      "skipped": 4
     },
     {
       "channel": "Southern Ontario Railfan",
@@ -64,23 +64,13 @@
     },
     {
       "channel": "Brockville RailFan",
-      "videos": 1,
-      "skipped": 15,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 0
+      "videos": 0,
+      "skipped": 16
     },
     {
       "channel": "Ontario Northland Railfan",
-      "videos": 1,
-      "skipped": 1,
-      "high": 0,
-      "medium": 1,
-      "low_meta": 0,
-      "dg_likely": 0,
-      "defaulted": 1
+      "videos": 0,
+      "skipped": 2
     },
     {
       "channel": "PTBO Railfanning",
@@ -89,8 +79,13 @@
     },
     {
       "channel": "MJM Productions",
-      "videos": 0,
-      "skipped": 7
+      "videos": 2,
+      "skipped": 5,
+      "high": 0,
+      "medium": 2,
+      "low_meta": 0,
+      "dg_likely": 0,
+      "defaulted": 1
     },
     {
       "channel": "Ontario Railman",
@@ -118,11 +113,85 @@
       "skipped": 0
     }
   ],
-  "total": 1306,
+  "total": 1308,
   "new_this_run": 2,
   "high_confidence": 306,
   "dg_likely": 222,
   "observations": [
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "W6h_Mo_bae8",
+      "video_url": "https://www.youtube.com/watch?v=W6h_Mo_bae8",
+      "title": "OLD DASH 9! CN 2536 at Brampton, ON (NOV 27, 2026)",
+      "published_at": "2026-11-27T23:46:36Z",
+      "date": "2026-11-27",
+      "location": "Brampton",
+      "subdivision": "CN Halton Sub",
+      "lat": 43.6833,
+      "lon": -79.7667,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2536"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2536",
+          "raw": "CN 2536"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "OLD DASH 9! CN 2536 at Brampton, ON (NOV 27, 2026)",
+      "description_chars": 0,
+      "consist": null,
+      "dg_candidate": true,
+      "location_source": "extracted"
+    },
+    {
+      "source": "youtube",
+      "geographic_scope": "ontario",
+      "channel": "MJM Productions",
+      "channel_id": "UCO2SFDeaIvjPycVTLQNvinw",
+      "video_id": "uB20ut71IVA",
+      "video_url": "https://www.youtube.com/watch?v=uB20ut71IVA",
+      "title": "CN 2536 C44-9W leads CN E278 east",
+      "published_at": "2026-11-27T21:58:34Z",
+      "date": "2026-11-27",
+      "location": "Toronto",
+      "subdivision": "CN Kingston Sub",
+      "lat": 43.75,
+      "lon": -79.25,
+      "direction": null,
+      "commodity_type": null,
+      "dg_likely": false,
+      "un_number": null,
+      "locomotives": [
+        "CN 2536"
+      ],
+      "train_symbols": [
+        {
+          "road": "CN",
+          "symbol": "CN 2536",
+          "raw": "CN 2536"
+        },
+        {
+          "road": "CN",
+          "symbol": "E278",
+          "raw": "E278"
+        }
+      ],
+      "confidence": "medium",
+      "raw_title": "CN 2536 C44-9W leads CN E278 east",
+      "description_chars": 0,
+      "consist": null,
+      "location_source": "channel_default"
+    },
     {
       "source": "youtube",
       "geographic_scope": "ontario",

@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-27T15:57:33.836588Z",
-  "total_units": 656,
+  "generated_at": "2026-11-28T01:15:11.602209Z",
+  "total_units": 657,
   "min_sightings": 2,
   "by_road": {
-    "CN": 515,
+    "CN": 516,
     "VIA": 11,
     "CP": 127,
     "CPKC": 1,
@@ -20269,6 +20269,53 @@
           "video_url": "https://www.youtube.com/watch?v=64tGa-EEHl8",
           "title": "CN Train 278 Eastbound August 26, 2026",
           "source": "description_structured"
+        }
+      ]
+    },
+    {
+      "road": "CN",
+      "number": "2536",
+      "display": "CN 2536",
+      "sighting_count": 2,
+      "first_seen": "2026-11-27",
+      "last_seen": "2026-11-27",
+      "corridors": [
+        "CN Halton Sub",
+        "CN Kingston Sub"
+      ],
+      "trains_led": [
+        "E278"
+      ],
+      "dpu_confirmed": false,
+      "roles_seen": [
+        "unknown"
+      ],
+      "sightings": [
+        {
+          "date": "2026-11-27",
+          "location": "Brampton",
+          "subdivision": "CN Halton Sub",
+          "channel": "MJM Productions",
+          "train_symbol": null,
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=W6h_Mo_bae8",
+          "title": "OLD DASH 9! CN 2536 at Brampton, ON (NOV 27, 2026)",
+          "source": "text_extraction"
+        },
+        {
+          "date": "2026-11-27",
+          "location": "Toronto",
+          "subdivision": "CN Kingston Sub",
+          "channel": "MJM Productions",
+          "train_symbol": "E278",
+          "direction": null,
+          "role": "unknown",
+          "dpu": false,
+          "video_url": "https://www.youtube.com/watch?v=uB20ut71IVA",
+          "title": "CN 2536 C44-9W leads CN E278 east",
+          "source": "text_extraction"
         }
       ]
     },
